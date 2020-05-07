@@ -1,0 +1,46 @@
+{
+  "name": "@themed-styling/core",
+  "version": "0.0.1",
+  "description": "Quick, modular and responsive styling for styled-components with theme support",
+  "main": "dist/core.cjs.js",
+  "scripts": {
+    "build": "rollup -c",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "prepublishOnly": "npm run build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/themed-styling/core.git"
+  },
+  "keywords": [
+    "styled-components",
+    "theme",
+    "theming",
+    "style",
+    "styled",
+    "react",
+    "components",
+    "responsive"
+  ],
+  "author": "aptt <a@ptt.li>",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/themed-styling/core/issues"
+  },
+  "homepage": "https://github.com/themed-styling/core#readme",
+  "devDependencies": {
+    "@rollup/plugin-commonjs": "^11.1.0",
+    "@rollup/plugin-node-resolve": "^7.1.3",
+    "@styled-system/theme-get": "^5.1.2",
+    "prettier": "^2.0.5",
+    "rollup": "^2.8.2"
+  },
+  "peerDependencies": {
+    "@styled-system/theme-get": "^5.1.2"
+  },
+  "prettier": {
+    "semi": false,
+    "singleQuote": true,
+    "trailingComma": "es5"
+  }
+}
