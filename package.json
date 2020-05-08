@@ -4,6 +4,7 @@
   "description": "Quick, modular and responsive styling for styled-components with theme support",
   "main": "dist/core.cjs.js",
   "scripts": {
+    "doc": "jsdoc -r src -d docs",
     "build": "rollup -c",
     "test": "echo \"Error: no test specified\" && exit 1",
     "prepublishOnly": "npm run build"
@@ -32,6 +33,7 @@
     "@rollup/plugin-commonjs": "^11.1.0",
     "@rollup/plugin-node-resolve": "^7.1.3",
     "@styled-system/theme-get": "^5.1.2",
+    "jsdoc": "^3.6.4",
     "prettier": "^2.0.5",
     "rollup": "^2.8.2"
   },
