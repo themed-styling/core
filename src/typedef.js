@@ -12,6 +12,5 @@
 /**
  * An object containing <code>margin</code> and <code>theme</code>
  * @typedef {Object} props
- * @property {(valueCollection|string|number|bigint)} margin - A CSS <code>margin</code> value, number or mixed collection of either
  * @property {theme} theme - An object containing a <code>breakpoints</code> object or array
  */

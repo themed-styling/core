@@ -11,10 +11,10 @@ import construct from './util/construct'
  * `
  * @example
  * const MyComponentWithFallback = styled.div`
- *   ${margin({ breakpoint1: "1rem", breakpoint2: 18})}
+ *   ${fontSize({ breakpoint1: "1rem", breakpoint2: 18})}
  * `
  *
- * @param {(Object<(string|number|bigint)>|string|number|bigint)=} fallback - A fallback value for when the object passed to the returned function does not contain a margin value
+ * @param {(valueCollection|string|number|bigint)=} fallback - A fallback value for when the object passed to the returned function does not contain a margin value
  * @returns {function(props)} Component props passed by styled-components
  */
 export default (fallback) => ({ fontSize, theme }) =>
