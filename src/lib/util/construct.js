@@ -8,7 +8,7 @@ import px from './transformers/px'
  *
  * This function is an abstraction to be used for functions representing CSS properties.
  *
- * @param {(valueCollection|string|number|bigint)} value - The value to be used
+ * @param {(valueCollection|string|number|bigint)=} value - The value to be used
  * @param {theme} theme - A theme object passed by styled-components
  * @param {string} cssProperty - The CSS property to be set
  * @param {function((string|number|bigint))=} transformer - A function to transform the value depending on its type and the CSS property
@@ -31,6 +31,8 @@ export default (value, theme, cssProperty, transformer = px) => {
     case 'number':
     case 'bigint':
       return [cssProperty, ':', themeGet(value, transformer(value)), ';']
+    case 'undefined':
+      return null
     default:
       throw new TypeError(
         'Value has to be of type object, string, number or bigint'
