@@ -20,6 +20,8 @@
  * @namespace util
  */
 
+export { default as background } from './lib/background'
+export { default as color } from './lib/color'
 export { default as fontSize } from './lib/fontSize'
 export { default as margin } from './lib/margin/margin'
 export { default as marginTop } from './lib/margin/marginTop'
