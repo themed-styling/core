@@ -20,6 +20,8 @@
  * @namespace util
  */
 
+export { default as alignItems } from './lib/alignment/alignItems'
+export { default as alignSelf } from './lib/alignment/alignSelf'
 export { default as background } from './lib/background'
 export { default as color } from './lib/color'
 export { default as fontSize } from './lib/fontSize'
@@ -34,6 +36,8 @@ export { default as gridTemplate } from './lib/grid/gridTemplate'
 export { default as gridTemplateColumns } from './lib/grid/gridTemplateColumns'
 export { default as gridTemplateRows } from './lib/grid/gridTemplateRows'
 export { default as height } from './lib/height'
+export { default as justifyContent } from './lib/alignment/justifyContent'
+export { default as justifySelf } from './lib/alignment/justifySelf'
 export { default as margin } from './lib/margin/margin'
 export { default as marginTop } from './lib/margin/marginTop'
 export { default as marginLeft } from './lib/margin/marginLeft'
