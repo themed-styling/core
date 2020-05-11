@@ -10,8 +10,16 @@ import construct from './util/construct'
  *   ${width()}
  * `
  * @example
- * const MyComponentWithFallback = styled.div`
- *   ${width({ breakpoint1: '1rem', breakpoint2: 18})}
+ * const MyComponent = styled.div`
+ *   ${width(300)}
+ * `
+ * @example
+ * const MyComponent = styled.div`
+ *   ${width('50vw')}
+ * `
+ * @example
+ * const MyComponent = styled.div`
+ *   ${width({ breakpoint1: 300, breakpoint2: '50vw'})}
  * `
  *
  * @param {(Object.<(string|number|bigint)>|Array.<(string|number|bigint)>|string|number|bigint)=} fallback - A fallback value for when the object passed to the returned function does not contain a margin value
