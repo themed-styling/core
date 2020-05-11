@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="utf-8">
-    <title>JSDoc: Source: lib/util/transformers/px.js</title>
+    <title>JSDoc: Source: lib/height.js</title>
 
     <script src="scripts/prettify/prettify.js"> </script>
     <script src="scripts/prettify/lang-css.js"> </script>
@@ -17,7 +17,7 @@
 
 <div id="main">
 
-    <h1 class="page-title">Source: lib/util/transformers/px.js</h1>
+    <h1 class="page-title">Source: lib/height.js</h1>
 
     
 
@@ -26,34 +26,29 @@
     
     <section>
         <article>
-            <pre class="prettyprint source linenums"><code>/**
- * Transforms numbers into px values and leaves strings as they are.
+            <pre class="prettyprint source linenums"><code>import construct from './util/construct'
+
+/**
+ * Returns a function that takes an object containing height and theme properties.
  *
- * This is the default transformer for the &lt;code>construct&lt;/code> function.
+ * This function is meant to be used with styled-components. Call this function within your styled-component's template literal like so:
  *
  * @example
- * const pxValue = px(100)
- * const stringValue = px('1rem')
+ * const MyComponent = styled.div`
+ *   ${height()}
+ * `
+ * @example
+ * const MyComponentWithFallback = styled.div`
+ *   ${height({ breakpoint1: '1rem', breakpoint2: 18})}
+ * `
  *
- * pxValue === '100px'
- * stringValue === '1rem'
- *
- * @param {(string|number|bigint)} value - The value to be transformed
- * @returns {string} The transformed value as a string
- * @name px
- * @memberOf util
+ * @param {(Object.&lt;(string|number|bigint)>|Array.&lt;(string|number|bigint)>|string|number|bigint)=} fallback - A fallback value for when the object passed to the returned function does not contain a margin value
+ * @returns {function(props)} Component props passed by styled-components
+ * @name height
+ * @memberOf core
  */
-export default (value) => {
-  switch (typeof value) {
-    case 'number':
-    case 'bigint':
-      return `${value}px`
-    case 'string':
-      return value
-    default:
-      throw new TypeError('Value has to be of type string, number or bigint')
-  }
-}
+export default (fallback) => ({ height, theme }) =>
+  construct(height || fallback, theme, 'height')
 </code></pre>
         </article>
     </section>
