@@ -11,8 +11,12 @@ import color from './util/transformers/color'
  *   ${background()}
  * `
  * @example
+ * const MyComponent = styled.div`
+ *   ${background('DarkSlateBlue')}
+ * `
+ * @example
  * const MyComponentWithFallback = styled.div`
- *   ${background({ breakpoint1: '1rem', breakpoint2: 18})}
+ *   ${background({ breakpoint1: 'DarkSlateBlue', breakpoint2: 'white'})}
  * `
  *
  * @param {(Object.<(string|number|bigint)>|Array.<(string|number|bigint)>|string|number|bigint)=} fallback - A fallback value for when the object passed to the returned function does not contain a margin value
