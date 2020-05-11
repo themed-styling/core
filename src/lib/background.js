@@ -15,7 +15,7 @@ import color from './util/transformers/color'
  *   ${background('DarkSlateBlue')}
  * `
  * @example
- * const MyComponentWithFallback = styled.div`
+ * const MyComponent = styled.div`
  *   ${background({ breakpoint1: 'DarkSlateBlue', breakpoint2: 'white'})}
  * `
  *
