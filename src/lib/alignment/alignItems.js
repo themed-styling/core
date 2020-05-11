@@ -10,8 +10,12 @@ import construct from '../util/construct'
  *   ${alignItems()}
  * `
  * @example
+ * const MyComponent = styled.div`
+ *   ${alignItems('start')}
+ * `
+ * @example
  * const MyComponentWithFallback = styled.div`
- *   ${alignItems({ breakpoint1: '1rem', breakpoint2: 10})}
+ *   ${alignItems({ breakpoint1: 'start', breakpoint2: 'center'})}
  * `
  *
  * @param {(Object.<(string|number|bigint)>|Array.<(string|number|bigint)>|string|number|bigint)=} fallback - A fallback value for when the object passed to the returned function does not contain a alignItems value
