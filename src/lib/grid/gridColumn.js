@@ -12,6 +12,10 @@ import plain from '../util/transformers/plain'
  * `
  * @example
  * const MyComponent = styled.div`
+ *   ${gridColumn(1)}
+ * `
+ * @example
+ * const MyComponent = styled.div`
  *   ${gridColumn('1 / 2')}
  * `
  * @example
