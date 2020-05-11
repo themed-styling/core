@@ -11,8 +11,12 @@ import plain from '../util/transformers/plain'
  *   ${gridColumn()}
  * `
  * @example
+ * const MyComponent = styled.div`
+ *   ${gridColumn('1 / 2')}
+ * `
+ * @example
  * const MyComponentWithFallback = styled.div`
- *   ${gridColumn({ breakpoint1: '1rem', breakpoint2: 18})}
+ *   ${gridColumn({ breakpoint1: '1 / 2', breakpoint2: '1 / 1'})}
  * `
  *
  * @param {(Object.<(string|number|bigint)>|Array.<(string|number|bigint)>|string|number|bigint)=} fallback - A fallback value for when the object passed to the returned function does not contain a margin value
