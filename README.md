@@ -234,3 +234,5 @@ $ npm i @themed-styling/core
 
 and check the [API documentation](https://themed-styling.github.io/core/).
 -->
+
+## [API documentation](https://themed-styling.github.io/core/)
