@@ -10,8 +10,8 @@ import construct from '../util/construct'
  *   ${gridTemplateColumns()}
  * `
  * @example
- * const MyComponentWithFallback = styled.div`
- *   ${gridTemplateColumns({ breakpoint1: '1rem', breakpoint2: 18})}
+ * const MyComponent = styled.div`
+ *   ${gridTemplateColumns({ breakpoint1: '1fr 2fr', breakpoint2: 'auto'})}
  * `
  *
  * @param {(Object.<(string|number|bigint)>|Array.<(string|number|bigint)>|string|number|bigint)=} fallback - A fallback value for when the object passed to the returned function does not contain a margin value
