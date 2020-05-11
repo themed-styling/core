@@ -12,7 +12,7 @@ import plain from '../util/transformers/plain'
  * `
  * @example
  * const MyComponent = styled.div`
- *   ${gridColumnEnd(2)}
+ *   ${gridColumnEnd(3)}
  * `
  * @example
  * const MyComponent = styled.div`
