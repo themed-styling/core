@@ -10,8 +10,16 @@ import construct from './util/construct'
  *   ${fontSize()}
  * `
  * @example
- * const MyComponentWithFallback = styled.div`
- *   ${fontSize({ breakpoint1: '1rem', breakpoint2: 18})}
+ * const MyComponent = styled.div`
+ *   ${fontSize(16)}
+ * `
+ * @example
+ * const MyComponent = styled.div`
+ *   ${fontSize('1.5rem')}
+ * `
+ * @example
+ * const MyComponent = styled.div`
+ *   ${fontSize({ breakpoint1: 16, breakpoint2: '1.5rem'})}
  * `
  *
  * @param {(Object.<(string|number|bigint)>|Array.<(string|number|bigint)>|string|number|bigint)=} fallback - A fallback value for when the object passed to the returned function does not contain a margin value
