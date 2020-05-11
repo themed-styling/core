@@ -1,4 +1,5 @@
 import construct from '../util/construct'
+import plain from '../util/transformers/plain'
 
 /**
  * Returns a function that takes an object containing gridRowEnd and theme properties.
@@ -20,4 +21,4 @@ import construct from '../util/construct'
  * @memberOf core
  */
 export default (fallback) => ({ gridRowEnd, theme }) =>
-  construct(gridRowEnd || fallback, theme, 'grid-row-end')
+  construct(gridRowEnd || fallback, theme, 'grid-row-end', plain)
