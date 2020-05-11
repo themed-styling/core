@@ -1,4 +1,5 @@
 import construct from './util/construct'
+import _color from './util/transformers/color'
 
 /**
  * Returns a function that takes an object containing color and theme properties.
@@ -20,4 +21,4 @@ import construct from './util/construct'
  * @memberOf core
  */
 export default (fallback) => ({ color, theme }) =>
-  construct(color || fallback, theme, 'color')
+  construct(color || fallback, theme, 'color', _color)
