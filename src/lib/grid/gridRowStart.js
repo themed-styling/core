@@ -1,4 +1,5 @@
 import construct from '../util/construct'
+import plain from '../util/transformers/plain'
 
 /**
  * Returns a function that takes an object containing gridRowStart and theme properties.
@@ -20,4 +21,4 @@ import construct from '../util/construct'
  * @memberOf core
  */
 export default (fallback) => ({ gridRowStart, theme }) =>
-  construct(gridRowStart || fallback, theme, 'grid-row-start')
+  construct(gridRowStart || fallback, theme, 'grid-row-start', plain)
