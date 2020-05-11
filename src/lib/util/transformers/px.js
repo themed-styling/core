@@ -1,5 +1,5 @@
 /**
- * Transforms numbers into px values and leaves strings as they are
+ * Transforms numbers into px values and leaves strings as they are.
  *
  * This is the default transformer for the <code>construct</code> function.
  *
@@ -12,6 +12,8 @@
  *
  * @param {(string|number|bigint)} value - The value to be transformed
  * @returns {string} The transformed value as a string
+ * @name px
+ * @memberOf util
  */
 export default (value) => {
   switch (typeof value) {
