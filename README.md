@@ -1,42 +1,62 @@
 # @themed-styling/core 🎁
 
-*themed-styling* is a collection of functions to help you write quick and highly reusable *styled-components*. It integrates perfectly with themes and gives you enormous control over the responsiveness of your components. 
+*themed-styling* is a collection of functions to help you write quick and highly reusable *styled-components*. It integrates perfectly with themes and gives you enormous control over the responsiveness of your components.
 
 ## Usage
 
-```shell script
-$ npm i @themed-styling/core
-```
+All functions work the same way. They add a prop with the same name, that stands for a specific CSS property. The function `fontSize` adds a prop called `fontSize` to your component and sets `font-size: <value>;` in your component's template literal.
+
+>Props and functions are camelCase, as is convention in JS. `grid-template-rows` becomes `gridTemplateRows`, for instance.
+
+You can pass a fallback or default value to the function when you use it in your *styled-component*, which is used when no prop is set. The prop value takes priority over the fallback value, though.
+
+You can specify objects or arrays as values, too. If you do this, you need to specify a `breakpoints` property with the same type in your `theme`. *themed-styling* tries to match the keys in your value to the keys in your `breakpoints`.  So your `breakpoints` has to have the same or more keys as the values you use.
+
+>The keys in `breakpoints` are arbitrary. You're only required to use the same keys as in your values.
+
+### Example
 
 ```react
-import { margin } from '@themed-styling/core'
+import React from 'react'
+import styled from 'styled-components'
+import { fontSize } from '@themed-styling/core'
 
-const MyComponent = styled.div`
-  ${margin()}
+const MyParagraph = styled.p`
+  ${fontSize()}
 `
 
 const MyApp = () => (
   <>
     // Raw values as strings or numbers. Numbers will be converted to px values.
-    <MyComponent margin={"100rem"}>
-      This is my component with rem based margin
-    </MyComponent>
-    <MyComponent margin={100}>
-      This is my component with px based margin
-    </MyComponent>
+    <MyParagraph fontSize={'1.5rem'}>
+      This is my component with rem based font size
+    </MyParagraph>
+    <MyParagraph fontSize={24}>
+      This is my component with px based font size
+    </MyParagraph>
 
     // Theme paths 
-    <MyComponent margin={"spaces.small"}>
-      This is my component with theme margin
-    </MyComponent>
+    <MyParagraph fontSize={'fontSizes.root'}>
+      This is my component with theme font size
+    </MyParagraph>
 
-    // Or an object with keys corresponding to a breakpoints opject in your theme
-    <MyComponent margin={{
-      mobile: "spaces.small",
-      desktop: "100rem"
+    // Or an object or array with keys corresponding to breakpoints in your theme
+    <MyParagraph fontSize={{
+      mobile: 16,
+      tablet: '1.5rem',
+      desktop: 'fontSizes.large',
+      myBreakpoint: '1ch'
     }}>
-      This is my component with responsive margin
-    </MyComponent>
+      This is my component with responsive object font size
+    </MyParagraph>
+    <MyParagraph fontSize={[
+      16,
+      '1.5rem',
+      'fontSizes.large',
+      '1ch'
+    ]}>
+      This is my component with responsive array font size
+    </MyParagraph>
   </>
 )
 ```
@@ -45,7 +65,7 @@ const MyApp = () => (
 
 *themed-styling* leverages the power of *[@styled-system/theme-get](https://www.npmjs.com/package/@styled-system/theme-get)* and its ability to get values from your theme based on string paths.
 
-*themed-styling* assumes your theme has an object called `breakpoints`. `breakpoints`' keys are arbitrary and you can add as many as you want. When you pass an object as a value, *themed-styling* matches the keys in that object to the keys in your `breakpoints` and creates  `screen and (min-width: <breakpoint>)` media queries for each key in the object.
+*themed-styling* assumes your theme has an object with key `breakpoints`. `breakpoints`'s keys are arbitrary and you can add as many as you want. When you pass an object as a value, *themed-styling* matches the keys in that object to the keys in your `breakpoints` and creates  `screen and (min-width: <breakpoint>)` media queries for each key in the object.
 
 ### Example with `props`
 
@@ -61,48 +81,53 @@ export default {
 }
 ```
 
-`MyComponent.js`:
+`MyParagraph.js`:
 ```react
 import styled from 'styled-components'
-import { margin } from '@themed-styling/core'
+import { fontSize } from '@themed-styling/core'
 
-export default styled.div`
-  ${margin()}
+export default styled.p`
+  ${fontSize()}
 `
 ```
 
 `MyApp.js`:
 ```react
 import React from 'react'
+import { ThemeProvider } from 'styled-components'
+
+import theme from './theme'
 
 export default () => (
-  <MyComponent margin={{
-    desktop: '4rem',
-    tablet: '2rem',
-    mobile: '1rem',
-    myCoolBreakpoint: '3px',
-  }}>
-    Welcome to my app!
-  </MyComponent>
+  <ThemeProvider theme={theme}>
+    <MyParagraph fontSize={{           // breakpoints: {
+      desktop: '4rem',                 //   desktop: '1440px',
+      tablet: '2rem',                  //   tablet: '768px',
+      mobile: '1rem',                  //   mobile: '375px',
+      myCoolBreakpoint: 10             //   myCoolBreakpoint: '200px'
+    }}>                                // }
+      Welcome to my app!
+    </MyParagraph>
+  </ThemeProvider>
 )
 ```
 
-`MyComponent`'s style will include
+`MyParagraph`'s style will include
 ```css
 @media screen and (min-width: 1440px) {
-  margin: 4rem;
+  fontSize: 4rem;
 }
 
 @media screen and (min-width: 768px) {
-  margin: 2rem;
+  fontSize: 2rem;
 }
 
 @media screen and (min-width: 375px) {
-  margin: 1rem;
+  fontSize: 1rem;
 }
 
 @media screen and (min-width: 200px) {
-  margin: 3px;
+  fontSize: 10px;
 }
 ```
 
@@ -113,67 +138,99 @@ In case you don't need one of the breakpoints, just leave it out of the object.
 import React from 'react'
 
 export default () => (
-  <MyComponent margin={{
-    desktop: '4rem',
-    mobile: '1rem',
-    myCoolBreakpoint: '3px',
-  }}>
+  <MyParagraph fontSize={{        // breakpoints: {
+    desktop: '4rem',              //   desktop: '1440px',
+    mobile: '1rem',               //   mobile: '375px',
+    myCoolBreakpoint: 10          //   myCoolBreakpoint: '200px'
+  }}>                             // }
     Welcome to my app!
-  </MyComponent>
+  </MyParagraph>
 )
 ```
 
-And `MyComponent`'s style will include
+And `MyParagraph`'s style will include
 ```css
 @media screen and (min-width: 1440px) {
-  margin: 4rem;
+  fontSize: 4rem;
 }
 
 @media screen and (min-width: 375px) {
-  margin: 1rem;
+  fontSize: 1rem;
 }
 
 @media screen and (min-width: 200px) {
-  margin: 3px;
+  fontSize: 10px;
 }
 ```
 
 ### Example with fallback
 
-Assume the same theme as [before](#example-with-props). You probably noticed the function call in `MyComponent.js`. This is deliberate. You can pass your fallback value to this function, or leave it out if you don't want a value.
+Assume the same theme as [before](#example-with-props). You probably noticed the function call in `MyParagraph.js`. This is deliberate. You can pass your fallback value to this function, or leave it out if you don't want one.
 
-`MyFallbackComponent.js`:
+`MyParagraph.js`:
 ```react
 import styled from 'styled-components'
-import { margin } from '@themed-styling/core'
+import { fontSize } from '@themed-styling/core'
 
-export default styled.div`
-  ${margin({
-    desktop: '3rem',
-    mobile: '1rem'
-  })}
+export default styled.p`
+  ${fontSize({                  // breakpoints: {
+    desktop: '3rem',            //   desktop: '1440px',
+    mobile: '1rem'              //   mobile: '375px',
+  })}                           // }
 `
 ```
 
->If you pass a `margin` prop to `MyFallbackComponent`, the value in the prop will be used. Props have priority over fallback values.
+>Objects and arrays are overridden, not merged. If your fallback specifies `desktop`, `tablet` and `mobile` but your prop value only specifies `desktop` and `mobile`, your component won't have a `tablet` media query. The same applies to arrays (fallback: `['1rem', '1.5rem', '2rem']`, prop: `['2rem', '2.5rem']` => only two media queries).
 
->Objects are not merged. If your fallback specifies `desktop`, `tablet` and `mobile` but your prop value only specifies `desktop` and `mobile`, your component won't have a `tablet` media query.
+### Arrays
 
+You can also use arrays to specify your breakpoints and values.
 
-## API
+`theme.js`:
+```react
+export default {
+  breakpoints: ['1440px', '768px', '375px', '200px']
+}
+```
 
-All functions work the same way. They add a prop with the same name, that stands for a specific CSS property. The function `margin` adds a prop called `margin` to your component and sets `margin: <value>;` in your component's template literal, basically.
+`MyParagraph.js`:
+```react
+import styled from 'styled-components'
+import { fontSize } from '@themed-styling/core'
 
->Props and functions are camelCase, as is convention in JS. `margin-bottom` becomes `marginBottom`, for instance.
+export default styled.p`
+  ${fontSize([                  // breakpoints: [
+      16,                       //   '1440px',
+      18,                       //   '768px',
+      20,                       //   '375px',
+      10                        //   '200px'
+    ])}                         // ]
+`
+```
 
-You can pass a fallback or default value to the function when you use it in your *styled-component*, which is used when no prop is set. The prop value takes priority over the fallback value, though.
+You can use object values to skip breakpoints like before, due to how [`Object.entries()`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object/entries) interacts with arrays.
 
-Objects are not merged. If your fallback value is a set of keys *K* and your prop value *P; P ⊂ K*, your component will have *|P|* keys.
+`MyParagraph.js`:
+```react
+import styled from 'styled-components'
+import { fontSize } from '@themed-styling/core'
 
-### Reference
+export default styled.p`
+  ${fontSize({                  // breakpoints: [
+      0: 16,                    //   '1440px',
+      2: 18,                    //   '375px',
+      3: 10                     //   '200px',
+    })}                         // ]
+`
+```
 
-#### margin
+<!--## Get started
 
-| name | allowed value types |
-| --- | --- |
-| margin | Object, String, Number, BigInt |
+Install with npm
+
+```shell script
+$ npm i @themed-styling/core
+```
+
+and check the [API documentation](https://themed-styling.github.io/core/).
+-->
