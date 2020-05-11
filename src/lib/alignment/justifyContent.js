@@ -10,8 +10,12 @@ import construct from '../util/construct'
  *   ${justifyContent()}
  * `
  * @example
+ * const MyComponent = styled.div`
+ *   ${justifyContent('start')}
+ * `
+ * @example
  * const MyComponentWithFallback = styled.div`
- *   ${justifyContent({ breakpoint1: '1rem', breakpoint2: 10})}
+ *   ${justifyContent({ breakpoint1: 'start', breakpoint2: 'center'})}
  * `
  *
  * @param {(Object.<(string|number|bigint)>|Array.<(string|number|bigint)>|string|number|bigint)=} fallback - A fallback value for when the object passed to the returned function does not contain a justifyContent value
