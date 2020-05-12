@@ -18,15 +18,19 @@ import px from './transformers/px'
 export default (value, theme, cssProperty, transformer = px) => {
   switch (typeof value) {
     case 'object':
-      return Object.entries(value).flatMap(([key, value]) => [
-        '@media screen and (min-width:',
-        theme.breakpoints[key],
-        '){',
-        cssProperty,
-        ':',
-        themeGet(value, transformer(value)),
-        ';}',
-      ])
+      const { standard, ...breakpoints } = value
+      return [
+        standard && [cssProperty, ':', standard, ';'],
+        ...Object.entries(breakpoints).flatMap(([key, value]) => [
+          '@media screen and (min-width:',
+          theme.breakpoints[key],
+          '){',
+          cssProperty,
+          ':',
+          themeGet(value, transformer(value)),
+          ';}',
+        ]),
+      ].flat()
     case 'string':
     case 'number':
     case 'bigint':
