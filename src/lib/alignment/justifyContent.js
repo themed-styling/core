@@ -14,7 +14,7 @@ import construct from '../util/construct'
  *   ${justifyContent('start')}
  * `
  * @example
- * const MyComponentWithFallback = styled.div`
+ * const MyComponent = styled.div`
  *   ${justifyContent({ breakpoint1: 'start', breakpoint2: 'center'})}
  * `
  *
