@@ -10,8 +10,16 @@ import construct from '../util/construct'
  *   ${marginBottom()}
  * `
  * @example
- * const MyComponentWithFallback = styled.div`
- *   ${marginBottom({ breakpoint1: '1rem', breakpoint2: 10})}
+ * const MyComponent = styled.div`
+ *   ${marginBottom(20)}
+ * `
+ * @example
+ * const MyComponent = styled.div`
+ *   ${marginBottom('1.5rem')}
+ * `
+ * @example
+ * const MyComponent = styled.div`
+ *   ${marginBottom({ breakpoint1: 20, breakpoint2: '1.5rem'})}
  * `
  *
  * @param {(Object.<(string|number|bigint)>|Array.<(string|number|bigint)>|string|number|bigint)=} fallback - A fallback value for when the object passed to the returned function does not contain a marginBottom value
