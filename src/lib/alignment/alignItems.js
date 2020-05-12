@@ -14,7 +14,7 @@ import construct from '../util/construct'
  *   ${alignItems('start')}
  * `
  * @example
- * const MyComponentWithFallback = styled.div`
+ * const MyComponent = styled.div`
  *   ${alignItems({ breakpoint1: 'start', breakpoint2: 'center'})}
  * `
  *
