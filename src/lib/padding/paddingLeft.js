@@ -10,8 +10,16 @@ import construct from '../util/construct'
  *   ${paddingLeft()}
  * `
  * @example
- * const MyComponentWithFallback = styled.div`
- *   ${paddingLeft({ breakpoint1: '1rem', breakpoint2: 10})}
+ * const MyComponent = styled.div`
+ *   ${paddingLeft(20)}
+ * `
+ * @example
+ * const MyComponent = styled.div`
+ *   ${paddingLeft('1.5rem')}
+ * `
+ * @example
+ * const MyComponent = styled.div`
+ *   ${paddingLeft({ breakpoint1: 20, breakpoint2: '1.5rem'})}
  * `
  *
  * @param {(Object.<(string|number|bigint)>|Array.<(string|number|bigint)>|string|number|bigint)=} fallback - A fallback value for when the object passed to the returned function does not contain a paddingLeft value
