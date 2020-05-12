@@ -172,8 +172,12 @@ This function is meant to be used with styled-components. Call this function wit
   ${alignItems()}
 `</code></pre>
 
-    <pre class="prettyprint"><code>const MyComponentWithFallback = styled.div`
-  ${alignItems({ breakpoint1: '1rem', breakpoint2: 10})}
+    <pre class="prettyprint"><code>const MyComponent = styled.div`
+  ${alignItems('start')}
+`</code></pre>
+
+    <pre class="prettyprint"><code>const MyComponent = styled.div`
+  ${alignItems({ breakpoint1: 'start', breakpoint2: 'center'})}
 `</code></pre>
 
 
@@ -247,8 +251,12 @@ This function is meant to be used with styled-components. Call this function wit
   ${alignSelf()}
 `</code></pre>
 
-    <pre class="prettyprint"><code>const MyComponentWithFallback = styled.div`
-  ${alignSelf({ breakpoint1: '1rem', breakpoint2: 10})}
+    <pre class="prettyprint"><code>const MyComponent = styled.div`
+  ${alignSelf('start')}
+`</code></pre>
+
+    <pre class="prettyprint"><code>const MyComponent = styled.div`
+  ${alignSelf({ breakpoint1: 'start', breakpoint2: 'center'})}
 `</code></pre>
 
 
@@ -301,7 +309,7 @@ This function is meant to be used with styled-components. Call this function wit
     
     <dt class="tag-source">Source:</dt>
     <dd class="tag-source"><ul class="dummy"><li>
-        <a href="lib_background.js.html">lib/background.js</a>, <a href="lib_background.js.html#line3">line 3</a>
+        <a href="lib_background.js.html">lib/background.js</a>, <a href="lib_background.js.html#line4">line 4</a>
     </li></ul></dd>
     
 
@@ -322,8 +330,12 @@ This function is meant to be used with styled-components. Call this function wit
   ${background()}
 `</code></pre>
 
-    <pre class="prettyprint"><code>const MyComponentWithFallback = styled.div`
-  ${background({ breakpoint1: '1rem', breakpoint2: 18})}
+    <pre class="prettyprint"><code>const MyComponent = styled.div`
+  ${background('DarkSlateBlue')}
+`</code></pre>
+
+    <pre class="prettyprint"><code>const MyComponent = styled.div`
+  ${background({ breakpoint1: 'DarkSlateBlue', breakpoint2: 'white'})}
 `</code></pre>
 
 
@@ -376,7 +388,7 @@ This function is meant to be used with styled-components. Call this function wit
     
     <dt class="tag-source">Source:</dt>
     <dd class="tag-source"><ul class="dummy"><li>
-        <a href="lib_color.js.html">lib/color.js</a>, <a href="lib_color.js.html#line3">line 3</a>
+        <a href="lib_color.js.html">lib/color.js</a>, <a href="lib_color.js.html#line4">line 4</a>
     </li></ul></dd>
     
 
@@ -397,8 +409,12 @@ This function is meant to be used with styled-components. Call this function wit
   ${color()}
 `</code></pre>
 
-    <pre class="prettyprint"><code>const MyComponentWithFallback = styled.div`
-  ${color({ breakpoint1: '1rem', breakpoint2: 18})}
+    <pre class="prettyprint"><code>const MyComponent = styled.div`
+  ${color('white')}
+`</code></pre>
+
+    <pre class="prettyprint"><code>const MyComponent = styled.div`
+  ${color({ breakpoint1: 'white', breakpoint2: 'DarkSlateBlue'})}
 `</code></pre>
 
 
@@ -472,8 +488,16 @@ This function is meant to be used with styled-components. Call this function wit
   ${fontSize()}
 `</code></pre>
 
-    <pre class="prettyprint"><code>const MyComponentWithFallback = styled.div`
-  ${fontSize({ breakpoint1: '1rem', breakpoint2: 18})}
+    <pre class="prettyprint"><code>const MyComponent = styled.div`
+  ${fontSize(16)}
+`</code></pre>
+
+    <pre class="prettyprint"><code>const MyComponent = styled.div`
+  ${fontSize('1.5rem')}
+`</code></pre>
+
+    <pre class="prettyprint"><code>const MyComponent = styled.div`
+  ${fontSize({ breakpoint1: 16, breakpoint2: '1.5rem'})}
 `</code></pre>
 
 
@@ -526,7 +550,7 @@ This function is meant to be used with styled-components. Call this function wit
     
     <dt class="tag-source">Source:</dt>
     <dd class="tag-source"><ul class="dummy"><li>
-        <a href="lib_grid_grid.js.html">lib/grid/grid.js</a>, <a href="lib_grid_grid.js.html#line3">line 3</a>
+        <a href="lib_grid_grid.js.html">lib/grid/grid.js</a>, <a href="lib_grid_grid.js.html#line4">line 4</a>
     </li></ul></dd>
     
 
@@ -547,8 +571,12 @@ This function is meant to be used with styled-components. Call this function wit
   ${grid()}
 `</code></pre>
 
-    <pre class="prettyprint"><code>const MyComponentWithFallback = styled.div`
-  ${grid({ breakpoint1: '1rem', breakpoint2: 18})}
+    <pre class="prettyprint"><code>const MyComponent = styled.div`
+  ${grid('1 / 3')}
+`</code></pre>
+
+    <pre class="prettyprint"><code>const MyComponent = styled.div`
+  ${grid({ breakpoint1: '1 / 3', breakpoint2: '3 / 1'})}
 `</code></pre>
 
 
@@ -601,7 +629,7 @@ This function is meant to be used with styled-components. Call this function wit
     
     <dt class="tag-source">Source:</dt>
     <dd class="tag-source"><ul class="dummy"><li>
-        <a href="lib_grid_gridColumn.js.html">lib/grid/gridColumn.js</a>, <a href="lib_grid_gridColumn.js.html#line3">line 3</a>
+        <a href="lib_grid_gridColumn.js.html">lib/grid/gridColumn.js</a>, <a href="lib_grid_gridColumn.js.html#line4">line 4</a>
     </li></ul></dd>
     
 
@@ -622,8 +650,16 @@ This function is meant to be used with styled-components. Call this function wit
   ${gridColumn()}
 `</code></pre>
 
+    <pre class="prettyprint"><code>const MyComponent = styled.div`
+  ${gridColumn(1)}
+`</code></pre>
+
+    <pre class="prettyprint"><code>const MyComponent = styled.div`
+  ${gridColumn('1 / 3')}
+`</code></pre>
+
     <pre class="prettyprint"><code>const MyComponentWithFallback = styled.div`
-  ${gridColumn({ breakpoint1: '1rem', breakpoint2: 18})}
+  ${gridColumn({ breakpoint1: 1, breakpoint2: '1 / 3'})}
 `</code></pre>
 
 
@@ -676,7 +712,7 @@ This function is meant to be used with styled-components. Call this function wit
     
     <dt class="tag-source">Source:</dt>
     <dd class="tag-source"><ul class="dummy"><li>
-        <a href="lib_grid_gridColumnEnd.js.html">lib/grid/gridColumnEnd.js</a>, <a href="lib_grid_gridColumnEnd.js.html#line3">line 3</a>
+        <a href="lib_grid_gridColumnEnd.js.html">lib/grid/gridColumnEnd.js</a>, <a href="lib_grid_gridColumnEnd.js.html#line4">line 4</a>
     </li></ul></dd>
     
 
@@ -697,8 +733,12 @@ This function is meant to be used with styled-components. Call this function wit
   ${gridColumnEnd()}
 `</code></pre>
 
-    <pre class="prettyprint"><code>const MyComponentWithFallback = styled.div`
-  ${gridColumnEnd({ breakpoint1: '1rem', breakpoint2: 18})}
+    <pre class="prettyprint"><code>const MyComponent = styled.div`
+  ${gridColumnEnd(3)}
+`</code></pre>
+
+    <pre class="prettyprint"><code>const MyComponent = styled.div`
+  ${gridColumnEnd({ breakpoint1: 3, breakpoint2: '1'})}
 `</code></pre>
 
 
@@ -751,7 +791,7 @@ This function is meant to be used with styled-components. Call this function wit
     
     <dt class="tag-source">Source:</dt>
     <dd class="tag-source"><ul class="dummy"><li>
-        <a href="lib_grid_gridColumnStart.js.html">lib/grid/gridColumnStart.js</a>, <a href="lib_grid_gridColumnStart.js.html#line3">line 3</a>
+        <a href="lib_grid_gridColumnStart.js.html">lib/grid/gridColumnStart.js</a>, <a href="lib_grid_gridColumnStart.js.html#line4">line 4</a>
     </li></ul></dd>
     
 
@@ -772,8 +812,12 @@ This function is meant to be used with styled-components. Call this function wit
   ${gridColumnStart()}
 `</code></pre>
 
-    <pre class="prettyprint"><code>const MyComponentWithFallback = styled.div`
-  ${gridColumnStart({ breakpoint1: '1rem', breakpoint2: 18})}
+    <pre class="prettyprint"><code>const MyComponent = styled.div`
+  ${gridColumnStart(1)}
+`</code></pre>
+
+    <pre class="prettyprint"><code>const MyComponent = styled.div`
+  ${gridColumnStart({ breakpoint1: 1, breakpoint2: '2'})}
 `</code></pre>
 
 
@@ -826,7 +870,7 @@ This function is meant to be used with styled-components. Call this function wit
     
     <dt class="tag-source">Source:</dt>
     <dd class="tag-source"><ul class="dummy"><li>
-        <a href="lib_grid_gridRow.js.html">lib/grid/gridRow.js</a>, <a href="lib_grid_gridRow.js.html#line3">line 3</a>
+        <a href="lib_grid_gridRow.js.html">lib/grid/gridRow.js</a>, <a href="lib_grid_gridRow.js.html#line4">line 4</a>
     </li></ul></dd>
     
 
@@ -847,8 +891,16 @@ This function is meant to be used with styled-components. Call this function wit
   ${gridRow()}
 `</code></pre>
 
-    <pre class="prettyprint"><code>const MyComponentWithFallback = styled.div`
-  ${gridRow({ breakpoint1: '1rem', breakpoint2: 18})}
+    <pre class="prettyprint"><code>const MyComponent = styled.div`
+  ${gridRow(1)}
+`</code></pre>
+
+    <pre class="prettyprint"><code>const MyComponent = styled.div`
+  ${gridRow('1 / 3')}
+`</code></pre>
+
+    <pre class="prettyprint"><code>const MyComponent = styled.div`
+  ${gridRow({ breakpoint1: 1, breakpoint2: '1 / 3'})}
 `</code></pre>
 
 
@@ -901,7 +953,7 @@ This function is meant to be used with styled-components. Call this function wit
     
     <dt class="tag-source">Source:</dt>
     <dd class="tag-source"><ul class="dummy"><li>
-        <a href="lib_grid_gridRowEnd.js.html">lib/grid/gridRowEnd.js</a>, <a href="lib_grid_gridRowEnd.js.html#line3">line 3</a>
+        <a href="lib_grid_gridRowEnd.js.html">lib/grid/gridRowEnd.js</a>, <a href="lib_grid_gridRowEnd.js.html#line4">line 4</a>
     </li></ul></dd>
     
 
@@ -922,8 +974,12 @@ This function is meant to be used with styled-components. Call this function wit
   ${gridRowEnd()}
 `</code></pre>
 
-    <pre class="prettyprint"><code>const MyComponentWithFallback = styled.div`
-  ${gridRowEnd({ breakpoint1: '1rem', breakpoint2: 18})}
+    <pre class="prettyprint"><code>const MyComponent = styled.div`
+  ${gridRowEnd(3)}
+`</code></pre>
+
+    <pre class="prettyprint"><code>const MyComponent = styled.div`
+  ${gridRowEnd({ breakpoint1: 3, breakpoint2: '1'})}
 `</code></pre>
 
 
@@ -976,7 +1032,7 @@ This function is meant to be used with styled-components. Call this function wit
     
     <dt class="tag-source">Source:</dt>
     <dd class="tag-source"><ul class="dummy"><li>
-        <a href="lib_grid_gridRowStart.js.html">lib/grid/gridRowStart.js</a>, <a href="lib_grid_gridRowStart.js.html#line3">line 3</a>
+        <a href="lib_grid_gridRowStart.js.html">lib/grid/gridRowStart.js</a>, <a href="lib_grid_gridRowStart.js.html#line4">line 4</a>
     </li></ul></dd>
     
 
@@ -997,8 +1053,12 @@ This function is meant to be used with styled-components. Call this function wit
   ${gridRowStart()}
 `</code></pre>
 
-    <pre class="prettyprint"><code>const MyComponentWithFallback = styled.div`
-  ${gridRowStart({ breakpoint1: '1rem', breakpoint2: 18})}
+    <pre class="prettyprint"><code>const MyComponent = styled.div`
+  ${gridRowStart(1)}
+`</code></pre>
+
+    <pre class="prettyprint"><code>const MyComponent = styled.div`
+  ${gridRowStart({ breakpoint1: 1, breakpoint2: '2'})}
 `</code></pre>
 
 
@@ -1072,8 +1132,8 @@ This function is meant to be used with styled-components. Call this function wit
   ${gridTemplate()}
 `</code></pre>
 
-    <pre class="prettyprint"><code>const MyComponentWithFallback = styled.div`
-  ${gridTemplate({ breakpoint1: '1rem', breakpoint2: 18})}
+    <pre class="prettyprint"><code>const MyComponent = styled.div`
+  ${gridTemplate({ breakpoint1: '1fr 2fr / auto', breakpoint2: auto / auto})}
 `</code></pre>
 
 
@@ -1147,8 +1207,8 @@ This function is meant to be used with styled-components. Call this function wit
   ${gridTemplateColumns()}
 `</code></pre>
 
-    <pre class="prettyprint"><code>const MyComponentWithFallback = styled.div`
-  ${gridTemplateColumns({ breakpoint1: '1rem', breakpoint2: 18})}
+    <pre class="prettyprint"><code>const MyComponent = styled.div`
+  ${gridTemplateColumns({ breakpoint1: '1fr 2fr', breakpoint2: 'auto'})}
 `</code></pre>
 
 
@@ -1222,8 +1282,8 @@ This function is meant to be used with styled-components. Call this function wit
   ${gridTemplateRows()}
 `</code></pre>
 
-    <pre class="prettyprint"><code>const MyComponentWithFallback = styled.div`
-  ${gridTemplateRows({ breakpoint1: '1rem', breakpoint2: 18})}
+    <pre class="prettyprint"><code>const MyComponent = styled.div`
+  ${gridTemplateRows({ breakpoint1: '1fr 2fr', breakpoint2: 'auto'})}
 `</code></pre>
 
 
@@ -1297,8 +1357,16 @@ This function is meant to be used with styled-components. Call this function wit
   ${height()}
 `</code></pre>
 
-    <pre class="prettyprint"><code>const MyComponentWithFallback = styled.div`
-  ${height({ breakpoint1: '1rem', breakpoint2: 18})}
+    <pre class="prettyprint"><code>const MyComponent = styled.div`
+  ${height(300)}
+`</code></pre>
+
+    <pre class="prettyprint"><code>const MyComponent = styled.div`
+  ${height('50vh')}
+`</code></pre>
+
+    <pre class="prettyprint"><code>const MyComponent = styled.div`
+  ${height({ breakpoint1: 300, breakpoint2: '50vh'})}
 `</code></pre>
 
 
@@ -1372,8 +1440,12 @@ This function is meant to be used with styled-components. Call this function wit
   ${justifyContent()}
 `</code></pre>
 
-    <pre class="prettyprint"><code>const MyComponentWithFallback = styled.div`
-  ${justifyContent({ breakpoint1: '1rem', breakpoint2: 10})}
+    <pre class="prettyprint"><code>const MyComponent = styled.div`
+  ${justifyContent('start')}
+`</code></pre>
+
+    <pre class="prettyprint"><code>const MyComponent = styled.div`
+  ${justifyContent({ breakpoint1: 'start', breakpoint2: 'center'})}
 `</code></pre>
 
 
@@ -1447,8 +1519,12 @@ This function is meant to be used with styled-components. Call this function wit
   ${justifySelf()}
 `</code></pre>
 
-    <pre class="prettyprint"><code>const MyComponentWithFallback = styled.div`
-  ${justifySelf({ breakpoint1: '1rem', breakpoint2: 10})}
+    <pre class="prettyprint"><code>const MyComponent = styled.div`
+  ${justifySelf('start')}
+`</code></pre>
+
+    <pre class="prettyprint"><code>const MyComponent = styled.div`
+  ${justifySelf({ breakpoint1: 'start', breakpoint2: 'center'})}
 `</code></pre>
 
 
@@ -1522,8 +1598,16 @@ This function is meant to be used with styled-components. Call this function wit
   ${margin()}
 `</code></pre>
 
-    <pre class="prettyprint"><code>const MyComponentWithFallback = styled.div`
-  ${margin({ breakpoint1: '1rem', breakpoint2: 10})}
+    <pre class="prettyprint"><code>const MyComponent = styled.div`
+  ${margin(20)}
+`</code></pre>
+
+    <pre class="prettyprint"><code>const MyComponent = styled.div`
+  ${margin('1.5rem')}
+`</code></pre>
+
+    <pre class="prettyprint"><code>const MyComponent = styled.div`
+  ${margin({ breakpoint1: 20, breakpoint2: '1.5rem'})}
 `</code></pre>
 
 
@@ -1597,8 +1681,16 @@ This function is meant to be used with styled-components. Call this function wit
   ${marginBottom()}
 `</code></pre>
 
-    <pre class="prettyprint"><code>const MyComponentWithFallback = styled.div`
-  ${marginBottom({ breakpoint1: '1rem', breakpoint2: 10})}
+    <pre class="prettyprint"><code>const MyComponent = styled.div`
+  ${marginBottom(20)}
+`</code></pre>
+
+    <pre class="prettyprint"><code>const MyComponent = styled.div`
+  ${marginBottom('1.5rem')}
+`</code></pre>
+
+    <pre class="prettyprint"><code>const MyComponent = styled.div`
+  ${marginBottom({ breakpoint1: 20, breakpoint2: '1.5rem'})}
 `</code></pre>
 
 
@@ -1672,8 +1764,16 @@ This function is meant to be used with styled-components. Call this function wit
   ${marginLeft()}
 `</code></pre>
 
-    <pre class="prettyprint"><code>const MyComponentWithFallback = styled.div`
-  ${marginLeft({ breakpoint1: '1rem', breakpoint2: 10})}
+    <pre class="prettyprint"><code>const MyComponent = styled.div`
+  ${marginLeft(20)}
+`</code></pre>
+
+    <pre class="prettyprint"><code>const MyComponent = styled.div`
+  ${marginLeft('1.5rem')}
+`</code></pre>
+
+    <pre class="prettyprint"><code>const MyComponent = styled.div`
+  ${marginLeft({ breakpoint1: 20, breakpoint2: '1.5rem'})}
 `</code></pre>
 
 
@@ -1747,8 +1847,16 @@ This function is meant to be used with styled-components. Call this function wit
   ${marginRight()}
 `</code></pre>
 
-    <pre class="prettyprint"><code>const MyComponentWithFallback = styled.div`
-  ${marginRight({ breakpoint1: '1rem', breakpoint2: 10})}
+    <pre class="prettyprint"><code>const MyComponent = styled.div`
+  ${marginRight(20)}
+`</code></pre>
+
+    <pre class="prettyprint"><code>const MyComponent = styled.div`
+  ${marginRight('1.5rem')}
+`</code></pre>
+
+    <pre class="prettyprint"><code>const MyComponent = styled.div`
+  ${marginRight({ breakpoint1: 20, breakpoint2: '1.5rem'})}
 `</code></pre>
 
 
@@ -1822,8 +1930,16 @@ This function is meant to be used with styled-components. Call this function wit
   ${marginTop()}
 `</code></pre>
 
-    <pre class="prettyprint"><code>const MyComponentWithFallback = styled.div`
-  ${marginTop({ breakpoint1: '1rem', breakpoint2: 10})}
+    <pre class="prettyprint"><code>const MyComponent = styled.div`
+  ${marginTop(20)}
+`</code></pre>
+
+    <pre class="prettyprint"><code>const MyComponent = styled.div`
+  ${marginTop('1.5rem')}
+`</code></pre>
+
+    <pre class="prettyprint"><code>const MyComponent = styled.div`
+  ${marginTop({ breakpoint1: 20, breakpoint2: '1.5rem'})}
 `</code></pre>
 
 
@@ -1897,8 +2013,16 @@ This function is meant to be used with styled-components. Call this function wit
   ${padding()}
 `</code></pre>
 
-    <pre class="prettyprint"><code>const MyComponentWithFallback = styled.div`
-  ${padding({ breakpoint1: '1rem', breakpoint2: 10})}
+    <pre class="prettyprint"><code>const MyComponent = styled.div`
+  ${padding(20)}
+`</code></pre>
+
+    <pre class="prettyprint"><code>const MyComponent = styled.div`
+  ${padding('1.5rem')}
+`</code></pre>
+
+    <pre class="prettyprint"><code>const MyComponent = styled.div`
+  ${padding({ breakpoint1: 20, breakpoint2: '1.5rem'})}
 `</code></pre>
 
 
@@ -1972,8 +2096,16 @@ This function is meant to be used with styled-components. Call this function wit
   ${paddingBottom()}
 `</code></pre>
 
-    <pre class="prettyprint"><code>const MyComponentWithFallback = styled.div`
-  ${paddingBottom({ breakpoint1: '1rem', breakpoint2: 10})}
+    <pre class="prettyprint"><code>const MyComponent = styled.div`
+  ${paddingBottom(20)}
+`</code></pre>
+
+    <pre class="prettyprint"><code>const MyComponent = styled.div`
+  ${paddingBottom('1.5rem')}
+`</code></pre>
+
+    <pre class="prettyprint"><code>const MyComponent = styled.div`
+  ${paddingBottom({ breakpoint1: 20, breakpoint2: '1.5rem'})}
 `</code></pre>
 
 
@@ -2047,8 +2179,16 @@ This function is meant to be used with styled-components. Call this function wit
   ${paddingLeft()}
 `</code></pre>
 
-    <pre class="prettyprint"><code>const MyComponentWithFallback = styled.div`
-  ${paddingLeft({ breakpoint1: '1rem', breakpoint2: 10})}
+    <pre class="prettyprint"><code>const MyComponent = styled.div`
+  ${paddingLeft(20)}
+`</code></pre>
+
+    <pre class="prettyprint"><code>const MyComponent = styled.div`
+  ${paddingLeft('1.5rem')}
+`</code></pre>
+
+    <pre class="prettyprint"><code>const MyComponent = styled.div`
+  ${paddingLeft({ breakpoint1: 20, breakpoint2: '1.5rem'})}
 `</code></pre>
 
 
@@ -2122,8 +2262,16 @@ This function is meant to be used with styled-components. Call this function wit
   ${paddingRight()}
 `</code></pre>
 
-    <pre class="prettyprint"><code>const MyComponentWithFallback = styled.div`
-  ${paddingRight({ breakpoint1: '1rem', breakpoint2: 10})}
+    <pre class="prettyprint"><code>const MyComponent = styled.div`
+  ${paddingRight(20)}
+`</code></pre>
+
+    <pre class="prettyprint"><code>const MyComponent = styled.div`
+  ${paddingRight('1.5rem')}
+`</code></pre>
+
+    <pre class="prettyprint"><code>const MyComponentW = styled.div`
+  ${paddingRight({ breakpoint1: 20, breakpoint2: '1.5rem'})}
 `</code></pre>
 
 
@@ -2197,8 +2345,16 @@ This function is meant to be used with styled-components. Call this function wit
   ${paddingTop()}
 `</code></pre>
 
-    <pre class="prettyprint"><code>const MyComponentWithFallback = styled.div`
-  ${paddingTop({ breakpoint1: '1rem', breakpoint2: 10})}
+    <pre class="prettyprint"><code>const MyComponent = styled.div`
+  ${paddingTop(20)}
+`</code></pre>
+
+    <pre class="prettyprint"><code>const MyComponent = styled.div`
+  ${paddingTop('1.5rem')}
+`</code></pre>
+
+    <pre class="prettyprint"><code>const MyComponent = styled.div`
+  ${paddingTop({ breakpoint1: 20, breakpoint2: '1.5rem'})}
 `</code></pre>
 
 
@@ -2272,8 +2428,16 @@ This function is meant to be used with styled-components. Call this function wit
   ${width()}
 `</code></pre>
 
-    <pre class="prettyprint"><code>const MyComponentWithFallback = styled.div`
-  ${width({ breakpoint1: '1rem', breakpoint2: 18})}
+    <pre class="prettyprint"><code>const MyComponent = styled.div`
+  ${width(300)}
+`</code></pre>
+
+    <pre class="prettyprint"><code>const MyComponent = styled.div`
+  ${width('50vw')}
+`</code></pre>
+
+    <pre class="prettyprint"><code>const MyComponent = styled.div`
+  ${width({ breakpoint1: 300, breakpoint2: '50vw'})}
 `</code></pre>
 
 
@@ -2302,7 +2466,7 @@ This function is meant to be used with styled-components. Call this function wit
 <br class="clear">
 
 <footer>
-    Documentation generated by <a href="https://github.com/jsdoc/jsdoc">JSDoc 3.6.4</a> on Mon May 11 2020 21:07:13 GMT+0200 (Central European Summer Time)
+    Documentation generated by <a href="https://github.com/jsdoc/jsdoc">JSDoc 3.6.4</a> on Tue May 12 2020 13:04:53 GMT+0200 (Central European Summer Time)
 </footer>
 
 <script> prettyPrint(); </script>
