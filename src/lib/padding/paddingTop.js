@@ -10,8 +10,16 @@ import construct from '../util/construct'
  *   ${paddingTop()}
  * `
  * @example
- * const MyComponentWithFallback = styled.div`
- *   ${paddingTop({ breakpoint1: '1rem', breakpoint2: 10})}
+ * const MyComponent = styled.div`
+ *   ${paddingTop(20)}
+ * `
+ * @example
+ * const MyComponent = styled.div`
+ *   ${paddingTop('1.5rem')}
+ * `
+ * @example
+ * const MyComponent = styled.div`
+ *   ${paddingTop({ breakpoint1: 20, breakpoint2: '1.5rem'})}
  * `
  *
  * @param {(Object.<(string|number|bigint)>|Array.<(string|number|bigint)>|string|number|bigint)=} fallback - A fallback value for when the object passed to the returned function does not contain a paddingTop value
