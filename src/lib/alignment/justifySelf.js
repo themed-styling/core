@@ -14,7 +14,7 @@ import construct from '../util/construct'
  *   ${justifySelf('start')}
  * `
  * @example
- * const MyComponentWithFallback = styled.div`
+ * const MyComponent = styled.div`
  *   ${justifySelf({ breakpoint1: 'start', breakpoint2: 'center'})}
  * `
  *
