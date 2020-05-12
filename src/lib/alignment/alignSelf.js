@@ -14,7 +14,7 @@ import construct from '../util/construct'
  *   ${alignSelf('start')}
  * `
  * @example
- * const MyComponentWithFallback = styled.div`
+ * const MyComponent = styled.div`
  *   ${alignSelf({ breakpoint1: 'start', breakpoint2: 'center'})}
  * `
  *
