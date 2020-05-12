@@ -15,7 +15,7 @@ import plain from '../util/transformers/plain'
  *   ${grid('1 / 3')}
  * `
  * @example
- * const MyComponentWithFallback = styled.div`
+ * const MyComponent = styled.div`
  *   ${grid({ breakpoint1: '1 / 3', breakpoint2: '3 / 1'})}
  * `
  *
