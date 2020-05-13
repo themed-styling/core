@@ -259,7 +259,7 @@ You can also use arrays to specify your breakpoints and values.
 `theme.js`:
 ```react
 export default {
-  breakpoints: ['1440px', '768px', '375px', '200px']
+  breakpoints: ['200px', '375px', '768px', '1440px']
 }
 ```
 
