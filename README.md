@@ -19,9 +19,11 @@ You can specify objects or arrays as values, too. If you do this, you need to sp
 ```react
 import React from 'react'
 import styled from 'styled-components'
-import { fontSize } from '@themed-styling/core'
+import { background, color, fontSize } from '@themed-styling/core'
 
 const MyParagraph = styled.p`
+  ${background('DarkSlateBlue')}
+  ${color('colors.text')}
   ${fontSize()}
 `
 
@@ -37,15 +39,16 @@ const MyApp = () => (
 
     // Theme paths 
     <MyParagraph fontSize={'fontSizes.root'}>
-      This is my component with theme font size
+      This is my component with font size from theme
     </MyParagraph>
 
     // Or an object or array with keys corresponding to breakpoints in your theme
     <MyParagraph fontSize={{
+      standard: '18px',
+      myBreakpoint: '1ch',
       mobile: 16,
       tablet: '1.5rem',
-      desktop: 'fontSizes.large',
-      myBreakpoint: '1ch'
+      desktop: 'fontSizes.large'
     }}>
       This is my component with responsive object font size
     </MyParagraph>
@@ -70,13 +73,13 @@ const MyApp = () => (
 ### Example with `props`
 
 `theme.js`:
-```react
+```javascript
 export default {
   breakpoints: {
-    desktop: '1440px',
-    tablet: '768px',
+    myCoolBreakpoint: '200px',
     mobile: '375px',
-    myCoolBreakpoint: '200px'
+    tablet: '768px',
+    desktop: '1440px'
   }
 }
 ```
@@ -101,10 +104,10 @@ import theme from './theme'
 export default () => (
   <ThemeProvider theme={theme}>
     <MyParagraph fontSize={{           // breakpoints: {
-      desktop: '4rem',                 //   desktop: '1440px',
-      tablet: '2rem',                  //   tablet: '768px',
-      mobile: '1rem',                  //   mobile: '375px',
       myCoolBreakpoint: 10             //   myCoolBreakpoint: '200px'
+      mobile: '1rem',                  //   mobile: '375px',
+      tablet: '2rem',                  //   tablet: '768px',
+      desktop: '4rem',                 //   desktop: '1440px',
     }}>                                // }
       Welcome to my app!
     </MyParagraph>
@@ -131,6 +134,36 @@ export default () => (
 }
 ```
 
+#### IMPORTANT
+
+Keys are matched in order and media queries are in your component's style in that order. You have to add your values from smallest breakpoint to largest due to how CSS priorities work. Doing it otherwise leads do weird behaviour.
+
+<!--emoji-->❌<!---->:
+```react
+<MyParagraph fontSize={{        // breakpoints: {
+  desktop: '4rem',              //   desktop: '1440px',
+  tablet: '2rem',               //   tablet: '768px',
+  mobile: '1rem',               //   mobile: '375px',
+  myCoolBreakpoint: 10          //   myCoolBreakpoint: '200px'
+}}>                             // }
+  Welcome to my app!
+</MyParagraph>
+```
+
+<!--emoji-->✔️<!---->:
+```react
+<MyParagraph fontSize={{        // breakpoints: {
+  myCoolBreakpoint: 10          //   myCoolBreakpoint: '200px'
+  mobile: '1rem',               //   mobile: '375px',
+  tablet: '2rem',               //   tablet: '768px',
+  desktop: '4rem',              //   desktop: '1440px',
+}}>                             // }
+  Welcome to my app!
+</MyParagraph>
+```
+
+Think of it as each breakpoint later in the object overriding the ones before, similar to how HTML elements are drawn over the ones before.
+
 In case you don't need one of the breakpoints, just leave it out of the object.
 
 `MyApp.js`:
@@ -139,9 +172,9 @@ import React from 'react'
 
 export default () => (
   <MyParagraph fontSize={{        // breakpoints: {
-    desktop: '4rem',              //   desktop: '1440px',
-    mobile: '1rem',               //   mobile: '375px',
     myCoolBreakpoint: 10          //   myCoolBreakpoint: '200px'
+    mobile: '1rem',               //   mobile: '375px',
+    desktop: '4rem',              //   desktop: '1440px',
   }}>                             // }
     Welcome to my app!
   </MyParagraph>
@@ -163,6 +196,42 @@ And `MyParagraph`'s style will include
 }
 ```
 
+### The `standard` breakpoint
+
+`standard` is a reserved key in object values. You can use it to define a style that should apply when no breakpoints match.
+
+`MyApp.js`:
+```react
+import React from 'react'
+
+export default () => (
+  <MyParagraph fontSize={{        // breakpoints: {
+    standard: 18,
+    myCoolBreakpoint: 10          //   myCoolBreakpoint: '200px'
+    mobile: 16,                   //   mobile: '375px',
+  }}>                             // }
+    Welcome to my app!
+  </MyParagraph>
+)
+```
+
+Results in
+```css
+@media screen and (min-width: 375px) {
+  fontSize: 16px;
+}
+
+@media screen and (min-width: 200px) {
+  fontSize: 10px;
+}
+
+font-size: 18px;
+```
+
+>You can't define a `standard` breakpoint in your theme. *themed-styling* catches the `standard` property of values and doesn't match it with `breakpoints` keys.
+
+>It doesn't matter where `standard` is defined in your object. Again, this is due to how CSS priorities work.
+
 ### Example with fallback
 
 Assume the same theme as [before](#example-with-props). You probably noticed the function call in `MyParagraph.js`. This is deliberate. You can pass your fallback value to this function, or leave it out if you don't want one.
@@ -174,8 +243,9 @@ import { fontSize } from '@themed-styling/core'
 
 export default styled.p`
   ${fontSize({                  // breakpoints: {
-    desktop: '3rem',            //   desktop: '1440px',
-    mobile: '1rem'              //   mobile: '375px',
+    standard: 18,
+    mobile: '1rem',             //   mobile: '375px',
+    desktop: '3rem'             //   desktop: '1440px',
   })}                           // }
 `
 ```
@@ -200,10 +270,10 @@ import { fontSize } from '@themed-styling/core'
 
 export default styled.p`
   ${fontSize([                  // breakpoints: [
-      16,                       //   '1440px',
+      10,                       //   '200px',
+      16,                       //   '375px',
       18,                       //   '768px',
-      20,                       //   '375px',
-      10                        //   '200px'
+      20                        //   '1440px'
     ])}                         // ]
 `
 ```
@@ -217,9 +287,9 @@ import { fontSize } from '@themed-styling/core'
 
 export default styled.p`
   ${fontSize({                  // breakpoints: [
-      0: 16,                    //   '1440px',
-      2: 18,                    //   '375px',
-      3: 10                     //   '200px',
+      0: 10,                    //   '200px',
+      2: 16,                    //   '375px',
+      3: 18                     //   '1440px',
     })}                         // ]
 `
 ```
