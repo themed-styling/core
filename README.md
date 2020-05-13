@@ -118,19 +118,19 @@ export default () => (
 `MyParagraph`'s style will include
 ```css
 @media screen and (min-width: 200px) {
-  fontSize: 10px;
+  font-size: 10px;
 }
 
 @media screen and (min-width: 375px) {
-  fontSize: 1rem;
+  font-size: 1rem;
 }
 
 @media screen and (min-width: 768px) {
-  fontSize: 2rem;
+  font-size: 2rem;
 }
 
 @media screen and (min-width: 1440px) {
-  fontSize: 4rem;
+  font-size: 4rem;
 }
 ```
 
@@ -184,15 +184,15 @@ export default () => (
 And `MyParagraph`'s style will include
 ```css
 @media screen and (min-width: 200px) {
-  fontSize: 10px;
+  font-size: 10px;
 }
 
 @media screen and (min-width: 375px) {
-  fontSize: 1rem;
+  font-size: 1rem;
 }
 
 @media screen and (min-width: 1440px) {
-  fontSize: 4rem;
+  font-size: 4rem;
 }
 ```
 
