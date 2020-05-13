@@ -421,6 +421,90 @@ This function is meant to be used with styled-components. Call this function wit
 
         
             
+<h4 class="name" id=".css"><span class="type-signature">(static) </span>css<span class="type-signature"></span></h4>
+
+
+
+
+<div class="description">
+    Returns a function that takes an object containing css and theme properties.
+
+This function is meant to be used with styled-components. Call this function within your styled-component's template literal like so:
+</div>
+
+
+
+
+
+
+
+<dl class="details">
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+    <dt class="tag-source">Source:</dt>
+    <dd class="tag-source"><ul class="dummy"><li>
+        <a href="lib_css.js.html">lib/css.js</a>, <a href="lib_css.js.html#line1">line 1</a>
+    </li></ul></dd>
+    
+
+    
+
+    
+
+    
+</dl>
+
+
+
+
+
+    <h5>Examples</h5>
+    
+    <pre class="prettyprint"><code>const MyComponent = styled.div`
+  ${css()}
+`</code></pre>
+
+    <pre class="prettyprint"><code>const MyComponent = styled.div`
+  ${css('width: 300px;')}
+`</code></pre>
+
+    <pre class="prettyprint"><code>const MyComponent = styled.div`
+  ${css({
+    breakpoint1: `width: 300px;
+    height: 500px;`,
+    breakpoint2: `width: 500px;
+    height: 300px;`
+  })}
+`</code></pre>
+
+
+
+        
+            
 <h4 class="name" id=".fontSize"><span class="type-signature">(static) </span>fontSize<span class="type-signature"></span></h4>
 
 
@@ -1336,7 +1420,7 @@ This function is meant to be used with styled-components. Call this function wit
     
     <dt class="tag-source">Source:</dt>
     <dd class="tag-source"><ul class="dummy"><li>
-        <a href="lib_height.js.html">lib/height.js</a>, <a href="lib_height.js.html#line3">line 3</a>
+        <a href="lib_dimensions_height.js.html">lib/dimensions/height.js</a>, <a href="lib_dimensions_height.js.html#line3">line 3</a>
     </li></ul></dd>
     
 
@@ -1946,6 +2030,338 @@ This function is meant to be used with styled-components. Call this function wit
 
         
             
+<h4 class="name" id=".maxHeight"><span class="type-signature">(static) </span>maxHeight<span class="type-signature"></span></h4>
+
+
+
+
+<div class="description">
+    Returns a function that takes an object containing maxHeight and theme properties.
+
+This function is meant to be used with styled-components. Call this function within your styled-component's template literal like so:
+</div>
+
+
+
+
+
+
+
+<dl class="details">
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+    <dt class="tag-source">Source:</dt>
+    <dd class="tag-source"><ul class="dummy"><li>
+        <a href="lib_dimensions_maxHeight.js.html">lib/dimensions/maxHeight.js</a>, <a href="lib_dimensions_maxHeight.js.html#line3">line 3</a>
+    </li></ul></dd>
+    
+
+    
+
+    
+
+    
+</dl>
+
+
+
+
+
+    <h5>Examples</h5>
+    
+    <pre class="prettyprint"><code>const MyComponent = styled.div`
+  ${maxHeight()}
+`</code></pre>
+
+    <pre class="prettyprint"><code>const MyComponent = styled.div`
+  ${maxHeight(300)}
+`</code></pre>
+
+    <pre class="prettyprint"><code>const MyComponent = styled.div`
+  ${maxHeight('50vh')}
+`</code></pre>
+
+    <pre class="prettyprint"><code>const MyComponent = styled.div`
+  ${maxHeight({ breakpoint1: 300, breakpoint2: '50vh'})}
+`</code></pre>
+
+
+
+        
+            
+<h4 class="name" id=".maxWidth"><span class="type-signature">(static) </span>maxWidth<span class="type-signature"></span></h4>
+
+
+
+
+<div class="description">
+    Returns a function that takes an object containing maxWidth and theme properties.
+
+This function is meant to be used with styled-components. Call this function within your styled-component's template literal like so:
+</div>
+
+
+
+
+
+
+
+<dl class="details">
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+    <dt class="tag-source">Source:</dt>
+    <dd class="tag-source"><ul class="dummy"><li>
+        <a href="lib_dimensions_maxWidth.js.html">lib/dimensions/maxWidth.js</a>, <a href="lib_dimensions_maxWidth.js.html#line3">line 3</a>
+    </li></ul></dd>
+    
+
+    
+
+    
+
+    
+</dl>
+
+
+
+
+
+    <h5>Examples</h5>
+    
+    <pre class="prettyprint"><code>const MyComponent = styled.div`
+  ${maxWidth()}
+`</code></pre>
+
+    <pre class="prettyprint"><code>const MyComponent = styled.div`
+  ${maxWidth(300)}
+`</code></pre>
+
+    <pre class="prettyprint"><code>const MyComponent = styled.div`
+  ${maxWidth('50vw')}
+`</code></pre>
+
+    <pre class="prettyprint"><code>const MyComponent = styled.div`
+  ${maxWidth({ breakpoint1: 300, breakpoint2: '50vw'})}
+`</code></pre>
+
+
+
+        
+            
+<h4 class="name" id=".minHeight"><span class="type-signature">(static) </span>minHeight<span class="type-signature"></span></h4>
+
+
+
+
+<div class="description">
+    Returns a function that takes an object containing minHeight and theme properties.
+
+This function is meant to be used with styled-components. Call this function within your styled-component's template literal like so:
+</div>
+
+
+
+
+
+
+
+<dl class="details">
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+    <dt class="tag-source">Source:</dt>
+    <dd class="tag-source"><ul class="dummy"><li>
+        <a href="lib_dimensions_minHeight.js.html">lib/dimensions/minHeight.js</a>, <a href="lib_dimensions_minHeight.js.html#line3">line 3</a>
+    </li></ul></dd>
+    
+
+    
+
+    
+
+    
+</dl>
+
+
+
+
+
+    <h5>Examples</h5>
+    
+    <pre class="prettyprint"><code>const MyComponent = styled.div`
+  ${minHeight()}
+`</code></pre>
+
+    <pre class="prettyprint"><code>const MyComponent = styled.div`
+  ${minHeight(300)}
+`</code></pre>
+
+    <pre class="prettyprint"><code>const MyComponent = styled.div`
+  ${minHeight('50vh')}
+`</code></pre>
+
+    <pre class="prettyprint"><code>const MyComponent = styled.div`
+  ${minHeight({ breakpoint1: 300, breakpoint2: '50vh'})}
+`</code></pre>
+
+
+
+        
+            
+<h4 class="name" id=".minWidth"><span class="type-signature">(static) </span>minWidth<span class="type-signature"></span></h4>
+
+
+
+
+<div class="description">
+    Returns a function that takes an object containing minWidth and theme properties.
+
+This function is meant to be used with styled-components. Call this function within your styled-component's template literal like so:
+</div>
+
+
+
+
+
+
+
+<dl class="details">
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+    <dt class="tag-source">Source:</dt>
+    <dd class="tag-source"><ul class="dummy"><li>
+        <a href="lib_dimensions_minWidth.js.html">lib/dimensions/minWidth.js</a>, <a href="lib_dimensions_minWidth.js.html#line3">line 3</a>
+    </li></ul></dd>
+    
+
+    
+
+    
+
+    
+</dl>
+
+
+
+
+
+    <h5>Examples</h5>
+    
+    <pre class="prettyprint"><code>const MyComponent = styled.div`
+  ${minWidth()}
+`</code></pre>
+
+    <pre class="prettyprint"><code>const MyComponent = styled.div`
+  ${minWidth(300)}
+`</code></pre>
+
+    <pre class="prettyprint"><code>const MyComponent = styled.div`
+  ${minWidth('50vw')}
+`</code></pre>
+
+    <pre class="prettyprint"><code>const MyComponent = styled.div`
+  ${minWidth({ breakpoint1: 300, breakpoint2: '50vw'})}
+`</code></pre>
+
+
+
+        
+            
 <h4 class="name" id=".padding"><span class="type-signature">(static) </span>padding<span class="type-signature"></span></h4>
 
 
@@ -2407,7 +2823,7 @@ This function is meant to be used with styled-components. Call this function wit
     
     <dt class="tag-source">Source:</dt>
     <dd class="tag-source"><ul class="dummy"><li>
-        <a href="lib_width.js.html">lib/width.js</a>, <a href="lib_width.js.html#line3">line 3</a>
+        <a href="lib_dimensions_width.js.html">lib/dimensions/width.js</a>, <a href="lib_dimensions_width.js.html#line3">line 3</a>
     </li></ul></dd>
     
 
@@ -2466,7 +2882,7 @@ This function is meant to be used with styled-components. Call this function wit
 <br class="clear">
 
 <footer>
-    Documentation generated by <a href="https://github.com/jsdoc/jsdoc">JSDoc 3.6.4</a> on Tue May 12 2020 13:04:53 GMT+0200 (Central European Summer Time)
+    Documentation generated by <a href="https://github.com/jsdoc/jsdoc">JSDoc 3.6.4</a> on Wed May 13 2020 13:59:49 GMT+0200 (Central European Summer Time)
 </footer>
 
 <script> prettyPrint(); </script>

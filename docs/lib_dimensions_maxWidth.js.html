@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="utf-8">
-    <title>JSDoc: Source: lib/padding/paddingRight.js</title>
+    <title>JSDoc: Source: lib/dimensions/maxWidth.js</title>
 
     <script src="scripts/prettify/prettify.js"> </script>
     <script src="scripts/prettify/lang-css.js"> </script>
@@ -17,7 +17,7 @@
 
 <div id="main">
 
-    <h1 class="page-title">Source: lib/padding/paddingRight.js</h1>
+    <h1 class="page-title">Source: lib/dimensions/maxWidth.js</h1>
 
     
 
@@ -29,34 +29,34 @@
             <pre class="prettyprint source linenums"><code>import construct from '../util/construct'
 
 /**
- * Returns a function that takes an object containing paddingRight and theme properties.
+ * Returns a function that takes an object containing maxWidth and theme properties.
  *
  * This function is meant to be used with styled-components. Call this function within your styled-component's template literal like so:
  *
  * @example
  * const MyComponent = styled.div`
- *   ${paddingRight()}
+ *   ${maxWidth()}
  * `
  * @example
  * const MyComponent = styled.div`
- *   ${paddingRight(20)}
+ *   ${maxWidth(300)}
  * `
  * @example
  * const MyComponent = styled.div`
- *   ${paddingRight('1.5rem')}
+ *   ${maxWidth('50vw')}
  * `
  * @example
- * const MyComponentW = styled.div`
- *   ${paddingRight({ breakpoint1: 20, breakpoint2: '1.5rem'})}
+ * const MyComponent = styled.div`
+ *   ${maxWidth({ breakpoint1: 300, breakpoint2: '50vw'})}
  * `
  *
- * @param {(Object.&lt;(string|number|bigint)>|Array.&lt;(string|number|bigint)>|string|number|bigint)=} fallback - A fallback value for when the object passed to the returned function does not contain a paddingRight value
+ * @param {(Object.&lt;(string|number|bigint)>|Array.&lt;(string|number|bigint)>|string|number|bigint)=} fallback - A fallback value for when the object passed to the returned function does not contain a margin value
  * @returns {function(props)} Function to take component props passed by styled-components
- * @name paddingRight
+ * @name maxWidth
  * @memberOf core
  */
-export default (fallback) => ({ paddingRight, theme }) =>
-  construct(paddingRight || fallback, theme, 'padding-right')
+export default (fallback) => ({ maxWidth, theme }) =>
+  construct(maxWidth || fallback, theme, 'max-width')
 </code></pre>
         </article>
     </section>

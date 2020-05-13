@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="utf-8">
-    <title>JSDoc: Source: lib/padding/paddingRight.js</title>
+    <title>JSDoc: Source: lib/css.js</title>
 
     <script src="scripts/prettify/prettify.js"> </script>
     <script src="scripts/prettify/lang-css.js"> </script>
@@ -17,7 +17,7 @@
 
 <div id="main">
 
-    <h1 class="page-title">Source: lib/padding/paddingRight.js</h1>
+    <h1 class="page-title">Source: lib/css.js</h1>
 
     
 
@@ -26,37 +26,57 @@
     
     <section>
         <article>
-            <pre class="prettyprint source linenums"><code>import construct from '../util/construct'
-
-/**
- * Returns a function that takes an object containing paddingRight and theme properties.
+            <pre class="prettyprint source linenums"><code>/**
+ * Returns a function that takes an object containing css and theme properties.
  *
  * This function is meant to be used with styled-components. Call this function within your styled-component's template literal like so:
  *
  * @example
  * const MyComponent = styled.div`
- *   ${paddingRight()}
+ *   ${css()}
  * `
  * @example
  * const MyComponent = styled.div`
- *   ${paddingRight(20)}
+ *   ${css('width: 300px;')}
  * `
  * @example
  * const MyComponent = styled.div`
- *   ${paddingRight('1.5rem')}
- * `
- * @example
- * const MyComponentW = styled.div`
- *   ${paddingRight({ breakpoint1: 20, breakpoint2: '1.5rem'})}
+ *   ${css({
+ *     breakpoint1: `width: 300px;
+ *     height: 500px;`,
+ *     breakpoint2: `width: 500px;
+ *     height: 300px;`
+ *   })}
  * `
  *
- * @param {(Object.&lt;(string|number|bigint)>|Array.&lt;(string|number|bigint)>|string|number|bigint)=} fallback - A fallback value for when the object passed to the returned function does not contain a paddingRight value
+ * @param {(Object.&lt;(string|number|bigint)>|Array.&lt;(string|number|bigint)>|string|number|bigint)=} fallback - A fallback value for when the object passed to the returned function does not contain a margin value
  * @returns {function(props)} Function to take component props passed by styled-components
- * @name paddingRight
+ * @name css
  * @memberOf core
  */
-export default (fallback) => ({ paddingRight, theme }) =>
-  construct(paddingRight || fallback, theme, 'padding-right')
+export default (fallback) => ({ css, theme }) => {
+  const value = css || fallback
+  switch (typeof value) {
+    case 'object':
+      const { standard, ...breakpoints } = value
+      return [
+        standard,
+        ...Object.entries(breakpoints).flatMap(([key, value]) => [
+          '@media screen and (min-width:',
+          theme.breakpoints[key],
+          '){',
+          value,
+          ';}',
+        ]),
+      ].flat()
+    case 'string':
+      return value
+    case 'undefined':
+      return null
+    default:
+      throw new TypeError('Value has to be of type object or string')
+  }
+}
 </code></pre>
         </article>
     </section>
