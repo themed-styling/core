@@ -117,20 +117,20 @@ export default () => (
 
 `MyParagraph`'s style will include
 ```css
-@media screen and (min-width: 1440px) {
-  fontSize: 4rem;
-}
-
-@media screen and (min-width: 768px) {
-  fontSize: 2rem;
+@media screen and (min-width: 200px) {
+  fontSize: 10px;
 }
 
 @media screen and (min-width: 375px) {
   fontSize: 1rem;
 }
 
-@media screen and (min-width: 200px) {
-  fontSize: 10px;
+@media screen and (min-width: 768px) {
+  fontSize: 2rem;
+}
+
+@media screen and (min-width: 1440px) {
+  fontSize: 4rem;
 }
 ```
 
@@ -140,24 +140,24 @@ Keys are matched in order and media queries are in your component's style in tha
 
 <!--emoji-->❌<!---->:
 ```react
-<MyParagraph fontSize={{        // breakpoints: {
-  desktop: '4rem',              //   desktop: '1440px',
-  tablet: '2rem',               //   tablet: '768px',
-  mobile: '1rem',               //   mobile: '375px',
-  myCoolBreakpoint: 10          //   myCoolBreakpoint: '200px'
-}}>                             // }
+<MyParagraph fontSize={{
+  desktop: '4rem',
+  tablet: '2rem',
+  mobile: '1rem',
+  myCoolBreakpoint: 10
+}}>
   Welcome to my app!
 </MyParagraph>
 ```
 
 <!--emoji-->✔️<!---->:
 ```react
-<MyParagraph fontSize={{        // breakpoints: {
-  myCoolBreakpoint: 10          //   myCoolBreakpoint: '200px'
-  mobile: '1rem',               //   mobile: '375px',
-  tablet: '2rem',               //   tablet: '768px',
-  desktop: '4rem',              //   desktop: '1440px',
-}}>                             // }
+<MyParagraph fontSize={{
+  myCoolBreakpoint: 10
+  mobile: '1rem',
+  tablet: '2rem',
+  desktop: '4rem',
+}}>
   Welcome to my app!
 </MyParagraph>
 ```
@@ -183,16 +183,16 @@ export default () => (
 
 And `MyParagraph`'s style will include
 ```css
-@media screen and (min-width: 1440px) {
-  fontSize: 4rem;
+@media screen and (min-width: 200px) {
+  fontSize: 10px;
 }
 
 @media screen and (min-width: 375px) {
   fontSize: 1rem;
 }
 
-@media screen and (min-width: 200px) {
-  fontSize: 10px;
+@media screen and (min-width: 1440px) {
+  fontSize: 4rem;
 }
 ```
 
@@ -217,20 +217,20 @@ export default () => (
 
 Results in
 ```css
-@media screen and (min-width: 375px) {
-  fontSize: 16px;
-}
+font-size: 18px;
 
 @media screen and (min-width: 200px) {
   fontSize: 10px;
 }
 
-font-size: 18px;
+@media screen and (min-width: 375px) {
+  fontSize: 16px;
+}
 ```
 
 >You can't define a `standard` breakpoint in your theme. *themed-styling* catches the `standard` property of values and doesn't match it with `breakpoints` keys.
 
->It doesn't matter where `standard` is defined in your object. Again, this is due to how CSS priorities work.
+>It doesn't matter where `standard` is defined in your object.
 
 ### Example with fallback
 
