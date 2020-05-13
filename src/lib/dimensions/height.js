@@ -1,31 +1,31 @@
-import construct from './util/construct'
+import construct from '../util/construct'
 
 /**
- * Returns a function that takes an object containing width and theme properties.
+ * Returns a function that takes an object containing height and theme properties.
  *
  * This function is meant to be used with styled-components. Call this function within your styled-component's template literal like so:
  *
  * @example
  * const MyComponent = styled.div`
- *   ${width()}
+ *   ${height()}
  * `
  * @example
  * const MyComponent = styled.div`
- *   ${width(300)}
+ *   ${height(300)}
  * `
  * @example
  * const MyComponent = styled.div`
- *   ${width('50vw')}
+ *   ${height('50vh')}
  * `
  * @example
  * const MyComponent = styled.div`
- *   ${width({ breakpoint1: 300, breakpoint2: '50vw'})}
+ *   ${height({ breakpoint1: 300, breakpoint2: '50vh'})}
  * `
  *
  * @param {(Object.<(string|number|bigint)>|Array.<(string|number|bigint)>|string|number|bigint)=} fallback - A fallback value for when the object passed to the returned function does not contain a margin value
  * @returns {function(props)} Component props passed by styled-components
- * @name width
+ * @name height
  * @memberOf core
  */
-export default (fallback) => ({ width, theme }) =>
-  construct(width || fallback, theme, 'width')
+export default (fallback) => ({ height, theme }) =>
+  construct(height || fallback, theme, 'height')
