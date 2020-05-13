@@ -20,7 +20,7 @@ export default (value, theme, cssProperty, transformer = px) => {
     case 'object':
       const { standard, ...breakpoints } = value
       return [
-        standard && [cssProperty, ':', standard, ';'],
+        standard !== undefined && [cssProperty, ':', standard, ';'],
         ...Object.entries(breakpoints).flatMap(([key, value]) => [
           '@media screen and (min-width:',
           theme.breakpoints[key],
