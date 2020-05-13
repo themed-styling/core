@@ -11,11 +11,11 @@ import construct from '../util/construct'
  * `
  * @example
  * const MyComponent = styled.div`
- *   ${float('start')}
+ *   ${float('left')}
  * `
  * @example
  * const MyComponent = styled.div`
- *   ${float({ breakpoint1: 'start', breakpoint2: 'center'})}
+ *   ${float({ breakpoint1: 'left', breakpoint2: 'right'})}
  * `
  *
  * @param {(Object.<(string|number|bigint)>|Array.<(string|number|bigint)>|string|number|bigint)=} fallback - A fallback value for when the object passed to the returned function does not contain a float value
