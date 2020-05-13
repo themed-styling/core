@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="utf-8">
-    <title>JSDoc: Source: lib/grid/gridColumnStart.js</title>
+    <title>JSDoc: Source: lib/alignment/clear.js</title>
 
     <script src="scripts/prettify/prettify.js"> </script>
     <script src="scripts/prettify/lang-css.js"> </script>
@@ -17,7 +17,7 @@
 
 <div id="main">
 
-    <h1 class="page-title">Source: lib/grid/gridColumnStart.js</h1>
+    <h1 class="page-title">Source: lib/alignment/clear.js</h1>
 
     
 
@@ -27,33 +27,32 @@
     <section>
         <article>
             <pre class="prettyprint source linenums"><code>import construct from '../util/construct'
-import plain from '../util/transformers/plain'
 
 /**
- * Returns a function that takes an object containing gridColumnStart and theme properties.
+ * Returns a function that takes an object containing clear and theme properties.
  *
  * This function is meant to be used with styled-components. Call this function within your styled-component's template literal like so:
  *
  * @example
  * const MyComponent = styled.div`
- *   ${gridColumnStart()}
+ *   ${clear()}
  * `
  * @example
  * const MyComponent = styled.div`
- *   ${gridColumnStart(1)}
+ *   ${clear('start')}
  * `
  * @example
  * const MyComponent = styled.div`
- *   ${gridColumnStart({ breakpoint1: 1, breakpoint2: '2'})}
+ *   ${clear({ breakpoint1: 'start', breakpoint2: 'center'})}
  * `
  *
- * @param {(Object.&lt;(string|number|bigint)>|Array.&lt;(string|number|bigint)>|string|number|bigint)=} fallback - A fallback value for when the object passed to the returned function does not contain a margin value
+ * @param {(Object.&lt;(string|number|bigint)>|Array.&lt;(string|number|bigint)>|string|number|bigint)=} fallback - A fallback value for when the object passed to the returned function does not contain a clear value
  * @returns {function(props)} Function to take component props passed by styled-components
- * @name gridColumnStart
+ * @name clear
  * @memberOf core
  */
-export default (fallback) => ({ gridColumnStart, theme }) =>
-  construct(gridColumnStart || fallback, theme, 'grid-column-start', plain)
+export default (fallback) => ({ clear, theme }) =>
+  construct(clear || fallback, theme, 'clear')
 </code></pre>
         </article>
     </section>
