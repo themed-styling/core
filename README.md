@@ -136,7 +136,7 @@ export default () => (
 
 #### IMPORTANT
 
-Keys are matched in order and media queries are in your component's style in that order. You have to add your values from smallest breakpoint to largest due to how CSS priorities work. Doing it otherwise leads do weird behaviour.
+Keys are matched in order and media queries are in your component's style in that order. You have to add your values from smallest breakpoint to largest due to how CSS priorities work. Doing it otherwise leads to weird behaviour.
 
 <!--emoji-->❌<!---->:
 ```react
