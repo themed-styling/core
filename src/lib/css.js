@@ -35,7 +35,7 @@ export default (fallback) => ({ css, theme }) => {
     case 'object':
       const { standard, ...breakpoints } = value
       return [
-        standard && [1, 2, 3],
+        standard,
         ...Object.entries(breakpoints).flatMap(([key, value]) => [
           '@media screen and (min-width:',
           theme.breakpoints[key],
