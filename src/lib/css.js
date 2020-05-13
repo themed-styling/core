@@ -1,6 +1,3 @@
-import construct from './util/construct'
-import themeGet from '@styled-system/theme-get'
-
 /**
  * Returns a function that takes an object containing css and theme properties.
  *
