@@ -294,15 +294,10 @@ export default styled.p`
 `
 ```
 
-<!--## Get started
+## Get started
 
 Install with npm
-
 ```shell script
 $ npm i @themed-styling/core
 ```
-
-and check the [API documentation](https://themed-styling.github.io/core/).
--->
-
-## [API documentation](https://themed-styling.github.io/core/)
+and check out the [changelog](CHANGELOG.md) and [API reference](https://themed-styling.github.io/core/).
