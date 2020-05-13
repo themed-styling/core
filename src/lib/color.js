@@ -20,7 +20,7 @@ import _color from './util/transformers/color'
  * `
  *
  * @param {(Object.<(string|number|bigint)>|Array.<(string|number|bigint)>|string|number|bigint)=} fallback - A fallback value for when the object passed to the returned function does not contain a margin value
- * @returns {function(props)} Component props passed by styled-components
+ * @returns {function(props)} Function to take component props passed by styled-components
  * @name color
  * @memberOf core
  */
