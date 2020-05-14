@@ -10,5 +10,3 @@ jobs:
         run: npm ci
       - name: Build JSDoc
         run: npm run doc
-        with:
-          node-version: '12.x'
