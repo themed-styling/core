@@ -23,9 +23,13 @@ import construct from '../util/construct'
  * `
  *
  * @param {(Object.<(string|number|bigint)>|Array.<(string|number|bigint)>|string|number|bigint)=} fallback - A fallback value for when the object passed to the returned function does not contain a paddingLeft value
+ * @param {boolean=} [propless=false] - Whether the component should be without prop
  * @returns {function(props)} Function to take component props passed by styled-components
  * @name paddingLeft
  * @memberOf core
  */
-export default (fallback) => ({ paddingLeft, theme }) =>
-  construct(paddingLeft || fallback, theme, 'padding-left')
+export default (fallback, propless = false) =>
+  propless
+    ? ({ theme }) => construct(fallback, theme, 'padding-left')
+    : ({ paddingLeft, theme }) =>
+        construct(paddingLeft || fallback, theme, 'padding-left')
