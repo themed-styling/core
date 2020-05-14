@@ -15,9 +15,17 @@ import construct from '../util/construct'
  * `
  *
  * @param {(Object.<(string|number|bigint)>|Array.<(string|number|bigint)>|string|number|bigint)=} fallback - A fallback value for when the object passed to the returned function does not contain a margin value
+ * @param {boolean=} [propless=false] - Whether the component should be without prop
  * @returns {function(props)} Function to take component props passed by styled-components
  * @name gridTemplateColumns
  * @memberOf core
  */
-export default (fallback) => ({ gridTemplateColumns, theme }) =>
-  construct(gridTemplateColumns || fallback, theme, 'grid-template-columns')
+export default (fallback, propless = false) =>
+  propless
+    ? ({ theme }) => construct(fallback, theme, 'grid-template-columns')
+    : ({ gridTemplateColumns, theme }) =>
+        construct(
+          gridTemplateColumns || fallback,
+          theme,
+          'grid-template-columns'
+        )
