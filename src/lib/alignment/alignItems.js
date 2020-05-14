@@ -18,10 +18,14 @@ import construct from '../util/construct'
  *   ${alignItems({ breakpoint1: 'start', breakpoint2: 'center'})}
  * `
  *
- * @param {(Object.<(string|number|bigint)>|Array.<(string|number|bigint)>|string|number|bigint)=} fallback - A fallback value for when the object passed to the returned function does not contain a alignItems value
+ * @param {(Object.<(string|number|bigint)>|Array.<(string|number|bigint)>|string|number|bigint)=} fallback - A fallback value for when the object passed to the returned function does not contain an alignItems value
+ * @param {boolean=} [propless=false] - Whether the component should be without prop
  * @returns {function(props)} Function to take component props passed by styled-components
  * @name alignItems
  * @memberOf core
  */
-export default (fallback) => ({ alignItems, theme }) =>
-  construct(alignItems || fallback, theme, 'align-items')
+export default (fallback, propless = false) =>
+  propless
+    ? ({ theme }) => construct(fallback, theme, 'align-items')
+    : ({ alignItems, theme }) =>
+        construct(alignItems || fallback, theme, 'align-items')
