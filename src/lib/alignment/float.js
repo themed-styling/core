@@ -19,9 +19,12 @@ import construct from '../util/construct'
  * `
  *
  * @param {(Object.<(string|number|bigint)>|Array.<(string|number|bigint)>|string|number|bigint)=} fallback - A fallback value for when the object passed to the returned function does not contain a float value
+ * @param {boolean=} [propless=false] - Whether the component should be without prop
  * @returns {function(props)} Function to take component props passed by styled-components
  * @name float
  * @memberOf core
  */
-export default (fallback) => ({ float, theme }) =>
-  construct(float || fallback, theme, 'float')
+export default (fallback, propless = false) =>
+  propless
+    ? ({ theme }) => construct(fallback, theme, 'float')
+    : ({ float, theme }) => construct(float || fallback, theme, 'float')
