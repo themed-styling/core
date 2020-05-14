@@ -23,9 +23,13 @@ import construct from './util/construct'
  * `
  *
  * @param {(Object.<(string|number|bigint)>|Array.<(string|number|bigint)>|string|number|bigint)=} fallback - A fallback value for when the object passed to the returned function does not contain a margin value
+ * @param {boolean=false} propless - Whether the component should be without prop
  * @returns {function(props)} Function to take component props passed by styled-components
  * @name fontSize
  * @memberOf core
  */
-export default (fallback) => ({ fontSize, theme }) =>
-  construct(fontSize || fallback, theme, 'font-size')
+export default (fallback, propless = false) =>
+  propless
+    ? ({ theme }) => construct(fallback, theme, 'font-size')
+    : ({ fontSize, theme }) =>
+        construct(fontSize || fallback, theme, 'font-size')
