@@ -23,9 +23,13 @@ import construct from '../util/construct'
  * `
  *
  * @param {(Object.<(string|number|bigint)>|Array.<(string|number|bigint)>|string|number|bigint)=} fallback - A fallback value for when the object passed to the returned function does not contain a margin value
+ * @param {boolean=} [propless=false] - Whether the component should be without prop
  * @returns {function(props)} Function to take component props passed by styled-components
  * @name maxWidth
  * @memberOf core
  */
-export default (fallback) => ({ maxWidth, theme }) =>
-  construct(maxWidth || fallback, theme, 'max-width')
+export default (fallback, propless = false) =>
+  propless
+    ? ({ theme }) => construct(fallback, theme, 'max-width')
+    : ({ maxWidth, theme }) =>
+        construct(maxWidth || fallback, theme, 'max-width')
