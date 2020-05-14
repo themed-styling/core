@@ -4,9 +4,19 @@ on: push
 jobs:
   jsdoc:
     name: JSDoc
+
     runs-on: ubuntu-latest
+
+    strategy:
+      matrix:
+        node-version: [12.x]
+
     steps:
-      - name: npm ci
-        run: npm ci
-      - name: Build JSDoc
-        run: npm run doc
+      - name: Use Node.js ${{ matrix.node-version }}
+        uses: actions/setup-node@v1
+        with:
+          node-version: ${{ matrix.node-version }}
+      - run: npm ci
+      - run: npm run doc
+      env:
+        CI: true
