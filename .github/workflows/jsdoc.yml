@@ -6,9 +6,9 @@ jobs:
     name: JSDoc
     runs-on: ubuntu-latest
     steps:
+      - name: npm ci
+        run: npm ci
       - name: Build JSDoc
-        - run: npm ci
-        - run: npm run doc
-
+        run: npm run doc
         with:
           node-version: '12.x'
