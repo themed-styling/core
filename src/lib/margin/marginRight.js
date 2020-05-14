@@ -24,7 +24,7 @@ import construct from '../util/construct'
  *
  * @param {(Object.<(string|number|bigint)>|Array.<(string|number|bigint)>|string|number|bigint)=} fallback - A fallback value for when the object passed to the returned function does not contain a marginRight value
  * @param {boolean=} [propless=false] - Whether the component should be without prop
- * @returns {function(props)} Function to take component props passed by styled-components
+ * @returns {function({props})} Function to take component props passed by styled-components
  * @name marginRight
  * @memberOf core
  */
