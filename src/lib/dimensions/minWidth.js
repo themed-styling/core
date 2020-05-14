@@ -23,9 +23,13 @@ import construct from '../util/construct'
  * `
  *
  * @param {(Object.<(string|number|bigint)>|Array.<(string|number|bigint)>|string|number|bigint)=} fallback - A fallback value for when the object passed to the returned function does not contain a margin value
+ * @param {boolean=} [propless=false] - Whether the component should be without prop
  * @returns {function(props)} Function to take component props passed by styled-components
  * @name minWidth
  * @memberOf core
  */
-export default (fallback) => ({ minWidth, theme }) =>
-  construct(minWidth || fallback, theme, 'min-width')
+export default (fallback, propless = false) =>
+  propless
+    ? ({ theme }) => construct(fallback, theme, 'min-width')
+    : ({ minWidth, theme }) =>
+        construct(minWidth || fallback, theme, 'min-width')
