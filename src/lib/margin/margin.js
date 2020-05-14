@@ -23,9 +23,12 @@ import construct from '../util/construct'
  * `
  *
  * @param {(Object.<(string|number|bigint)>|Array.<(string|number|bigint)>|string|number|bigint)=} fallback - A fallback value for when the object passed to the returned function does not contain a margin value
+ * @param {boolean=} [propless=false] - Whether the component should be without prop
  * @returns {function(props)} Function to take component props passed by styled-components
  * @name margin
  * @memberOf core
  */
-export default (fallback) => ({ margin, theme }) =>
-  construct(margin || fallback, theme, 'margin')
+export default (fallback, propless = false) =>
+  propless
+    ? ({ theme }) => construct(fallback, theme, 'margin')
+    : ({ margin, theme }) => construct(margin || fallback, theme, 'margin')
