@@ -22,30 +22,55 @@
  * `
  *
  * @param {(Object.<(string|number|bigint)>|Array.<(string|number|bigint)>|string|number|bigint)=} fallback - A fallback value for when the object passed to the returned function does not contain a margin value
+ * @param {boolean=} [propless=false] - Whether the component should be without prop
  * @returns {function(props)} Function to take component props passed by styled-components
  * @name css
  * @memberOf core
  */
-export default (fallback) => ({ css, theme }) => {
-  const value = css || fallback
-  switch (typeof value) {
-    case 'object':
-      const { standard, ...breakpoints } = value
-      return [
-        standard,
-        ...Object.entries(breakpoints).flatMap(([key, value]) => [
-          '@media screen and (min-width:',
-          theme.breakpoints[key],
-          '){',
-          value,
-          ';}',
-        ]),
-      ].flat()
-    case 'string':
-      return value
-    case 'undefined':
-      return null
-    default:
-      throw new TypeError('Value has to be of type object or string')
-  }
-}
+export default (fallback, propless = false) =>
+  propless
+    ? ({ theme }) => {
+        switch (typeof fallback) {
+          case 'object':
+            const { standard, ...breakpoints } = fallback
+            return [
+              standard,
+              ...Object.entries(breakpoints).flatMap(([key, value]) => [
+                '@media screen and (min-width:',
+                theme.breakpoints[key],
+                '){',
+                value,
+                ';}',
+              ]),
+            ].flat()
+          case 'string':
+            return fallback
+          case 'undefined':
+            return null
+          default:
+            throw new TypeError('Value has to be of type object or string')
+        }
+      }
+    : ({ css, theme }) => {
+        const value = css || fallback
+        switch (typeof value) {
+          case 'object':
+            const { standard, ...breakpoints } = value
+            return [
+              standard,
+              ...Object.entries(breakpoints).flatMap(([key, value]) => [
+                '@media screen and (min-width:',
+                theme.breakpoints[key],
+                '){',
+                value,
+                ';}',
+              ]),
+            ].flat()
+          case 'string':
+            return value
+          case 'undefined':
+            return null
+          default:
+            throw new TypeError('Value has to be of type object or string')
+        }
+      }
