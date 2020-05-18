@@ -7,3 +7,11 @@ test('transforms number into hex value', () => {
 test('leaves string values be', () => {
   expect(color('asdasd')).toBe('asdasd')
 })
+
+test('throws type error', () => {
+  expect(() => color(undefined)).toThrow(TypeError)
+  expect(() => color(null)).toThrow(TypeError)
+  expect(() => color({})).toThrow(TypeError)
+  expect(() => color([])).toThrow(TypeError)
+  expect(() => color(() => 123)).toThrow(TypeError)
+})
