@@ -39,8 +39,9 @@ export default (fallback, propless = false) =>
                 (theme.mediaQueries && theme.mediaQueries[key]) || [
                   '@media screen and (min-width:',
                   theme.breakpoints[key],
-                  '){',
+                  ')',
                 ],
+                '{',
                 value,
                 ';}',
               ]),
@@ -64,8 +65,9 @@ export default (fallback, propless = false) =>
                 (theme.mediaQueries && theme.mediaQueries[key]) || [
                   '@media screen and (min-width:',
                   theme.breakpoints[key],
-                  '){',
+                  ')',
                 ],
+                '{',
                 value,
                 ';}',
               ]),

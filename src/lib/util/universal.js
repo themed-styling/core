@@ -36,8 +36,9 @@ export default (
           (theme.mediaQueries && theme.mediaQueries[key]) || [
             '@media screen and (min-width:',
             theme.breakpoints[key],
-            '){',
+            ')',
           ],
+          '{',
           cssLineStart,
           themeGet(value, transformer(value)),
           cssLineTerminate,
