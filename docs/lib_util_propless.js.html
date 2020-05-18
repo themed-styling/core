@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="utf-8">
-    <title>JSDoc: Source: lib/util/transformers/color.js</title>
+    <title>JSDoc: Source: lib/util/propless.js</title>
 
     <script src="scripts/prettify/prettify.js"> </script>
     <script src="scripts/prettify/lang-css.js"> </script>
@@ -17,7 +17,7 @@
 
 <div id="main">
 
-    <h1 class="page-title">Source: lib/util/transformers/color.js</h1>
+    <h1 class="page-title">Source: lib/util/propless.js</h1>
 
     
 
@@ -27,33 +27,20 @@
     <section>
         <article>
             <pre class="prettyprint source linenums"><code>/**
- * Transforms numbers into hex values and leaves strings as they are.
+ * Adds a parameter to specify whether or not a component should have a prop.
  *
- * This transformer is used in color related core functions.
+ * Takes a callback to construct the array and the name of the prop the component will have, should it have a prop.
  *
- * @example
- * const hexValue = color(000)
- * const stringValue = color('DarkSlateBlue')
- *
- * hexValue === '#000'
- * stringValue === 'DarkSlateBlue'
- *
- * @param {(string|number|bigint)} value - The value to be transformed
- * @returns {string} The transformed value as a string
- * @name color
+ * @param {function((Object.&lt;(string|number|bigint)>|Array.&lt;(string|number|bigint)>|string|number|bigint)=, theme)} callback - A callback to pass a value and {@link theme} to
+ * @param {string} propName - The name of the prop the function that is returned by the returned function should have
+ * @returns {function((Object.&lt;(string|number|bigint)>|Array.&lt;(string|number|bigint)>|string|number|bigint)=, boolean=)} A function that takes a fallback value and flag whether the returned function should return a function that takes a prop
+ * @name propless
  * @memberOf util
  */
-export default (value) => {
-  switch (typeof value) {
-    case 'number':
-    case 'bigint':
-      return `#${value}`
-    case 'string':
-      return value
-    default:
-      throw new TypeError('Value has to be of type string, number or bigint')
-  }
-}
+export default (callback, propName) => (fallback, propless = false) =>
+  propless
+    ? ({ theme }) => callback(fallback, theme)
+    : ({ theme, ...props }) => callback(props[propName] || fallback, theme)
 </code></pre>
         </article>
     </section>
