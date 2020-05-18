@@ -35,14 +35,16 @@ export default (fallback, propless = false) =>
             const { standard, ...breakpoints } = fallback
             return [
               standard,
-              ...Object.entries(breakpoints).flatMap(([key, value]) => [
-                '@media screen and (min-width:',
-                theme.breakpoints[key],
-                '){',
+              ...Object.entries(breakpoints).map(([key, value]) => [
+                (theme.mediaQueries && theme.mediaQueries[key]) || [
+                  '@media screen and (min-width:',
+                  theme.breakpoints[key],
+                  '){',
+                ],
                 value,
                 ';}',
               ]),
-            ].flat()
+            ]
           case 'string':
             return fallback
           case 'undefined':
@@ -58,14 +60,16 @@ export default (fallback, propless = false) =>
             const { standard, ...breakpoints } = value
             return [
               standard,
-              ...Object.entries(breakpoints).flatMap(([key, value]) => [
-                '@media screen and (min-width:',
-                theme.breakpoints[key],
-                '){',
+              ...Object.entries(breakpoints).map(([key, value]) => [
+                (theme.mediaQueries && theme.mediaQueries[key]) || [
+                  '@media screen and (min-width:',
+                  theme.breakpoints[key],
+                  '){',
+                ],
                 value,
                 ';}',
               ]),
-            ].flat()
+            ]
           case 'string':
             return value
           case 'undefined':
