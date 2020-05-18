@@ -1,7 +1,25 @@
 /**
  * An object containing <code>breakpoints</code>
  * @typedef {Object} theme
- * @property {(Object.<(string|number|bigint)>|Array.<(string|number|bigint)>)} breakpoints - An object or array of CSS <code>min-width</code> values or numbers
+ * @property {(Object.<(string|number|bigint)>|Array.<(string|number|bigint)>)} breakpoints - An object or array of CSS <code>min-width</code> values
+ * @property {(Object.<string>|Array.<string>)} mediaQueries - An object or array of strings containing valid media queries
+ *
+ * @example
+ * {
+ *   breakpoints: {
+ *     mobile: '320px',
+ *     tablet: '768px',
+ *     desktop: '1024px'
+ *   }
+ * }
+ * @example
+ * {
+ *   mediaQueries: {
+ *     mobile: '@media screen and (min-width: 320px)',
+ *     tablet: '@media screen and (min-width: 768px)',
+ *     desktop: '@media screen and (min-width: 1024px)'
+ *   }
+ * }
  */
 
 /**
