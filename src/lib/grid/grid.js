@@ -1,3 +1,4 @@
+import propless from '../util/propless'
 import construct from '../util/construct'
 import plain from '../util/transformers/plain'
 
@@ -25,7 +26,7 @@ import plain from '../util/transformers/plain'
  * @name grid
  * @memberOf core
  */
-export default (fallback, propless = false) =>
-  propless
-    ? ({ theme }) => construct(fallback, theme, 'grid', plain)
-    : ({ grid, theme }) => construct(grid || fallback, theme, 'grid', plain)
+export default propless(
+  (value, theme) => construct(value, theme, 'grid', plain),
+  'grid'
+)

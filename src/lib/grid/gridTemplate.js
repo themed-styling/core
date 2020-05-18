@@ -1,4 +1,6 @@
+import propless from '../util/propless'
 import construct from '../util/construct'
+import plain from '../util/transformers/plain'
 
 /**
  * Returns a function that takes an object containing gridTemplate and theme properties.
@@ -20,8 +22,7 @@ import construct from '../util/construct'
  * @name gridTemplate
  * @memberOf core
  */
-export default (fallback, propless = false) =>
-  propless
-    ? ({ theme }) => construct(fallback, theme, 'grid-template')
-    : ({ gridTemplate, theme }) =>
-        construct(gridTemplate || fallback, theme, 'grid-template')
+export default propless(
+  (value, theme) => construct(value, theme, 'grid-template', plain),
+  'gridTemplate'
+)

@@ -1,3 +1,4 @@
+import propless from '../util/propless'
 import construct from '../util/construct'
 
 /**
@@ -28,8 +29,7 @@ import construct from '../util/construct'
  * @name marginRight
  * @memberOf core
  */
-export default (fallback, propless = false) =>
-  propless
-    ? ({ theme }) => construct(fallback, theme, 'margin-right')
-    : ({ marginRight, theme }) =>
-        construct(marginRight || fallback, theme, 'margin-right')
+export default propless(
+  (value, theme) => construct(value, theme, 'margin-right'),
+  'marginRight'
+)

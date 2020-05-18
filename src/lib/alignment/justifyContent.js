@@ -1,4 +1,6 @@
+import propless from '../util/propless'
 import construct from '../util/construct'
+import plain from '../util/transformers/plain'
 
 /**
  * Returns a function that takes an object containing justifyContent and theme properties.
@@ -24,8 +26,7 @@ import construct from '../util/construct'
  * @name justifyContent
  * @memberOf core
  */
-export default (fallback, propless = false) =>
-  propless
-    ? ({ theme }) => construct(fallback, theme, 'justify-content')
-    : ({ justifyContent, theme }) =>
-        construct(justifyContent || fallback, theme, 'justify-content')
+export default propless(
+  (value, theme) => construct(value, theme, 'justify-content', plain),
+  'justifyContent'
+)
