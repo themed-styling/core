@@ -7,3 +7,11 @@ test('transforms number into px value', () => {
 test('leaves string values be', () => {
   expect(px('asdasd')).toBe('asdasd')
 })
+
+test('throws type error', () => {
+  expect(() => px(undefined)).toThrow(TypeError)
+  expect(() => px(null)).toThrow(TypeError)
+  expect(() => px({})).toThrow(TypeError)
+  expect(() => px([])).toThrow(TypeError)
+  expect(() => px(() => 123)).toThrow(TypeError)
+})
