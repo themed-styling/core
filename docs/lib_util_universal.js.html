@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="utf-8">
-    <title>JSDoc: Source: lib/util/construct.js</title>
+    <title>JSDoc: Source: lib/util/universal.js</title>
 
     <script src="scripts/prettify/prettify.js"> </script>
     <script src="scripts/prettify/lang-css.js"> </script>
@@ -17,7 +17,7 @@
 
 <div id="main">
 
-    <h1 class="page-title">Source: lib/util/construct.js</h1>
+    <h1 class="page-title">Source: lib/util/universal.js</h1>
 
     
 
@@ -28,7 +28,6 @@
         <article>
             <pre class="prettyprint source linenums"><code>import themeGet from '@styled-system/theme-get'
 import px from './transformers/px'
-import universal from './universal'
 
 /**
  * Constructs an array for a given value and CSS property.
@@ -37,14 +36,58 @@ import universal from './universal'
  *
  * @param {(Object.&lt;(string|number|bigint)>|Array.&lt;(string|number|bigint)>|string|number|bigint)=} value - The value to be used
  * @param {theme} theme - A theme object passed by styled-components
- * @param {string} cssProperty - The CSS property to be set
+ * @param {string|Array.&lt;string>} cssLineStart - The CSS code before the value
+ * @param {string|Array.&lt;string>} cssLineTerminate - The CSS code after the value
  * @param {function((string|number|bigint))=} transformer - A function to transform the value depending on its type and the CSS property
- * @returns {Array.&lt;(string|function(props))>} An array of strings and {@link themeGet} calls
+ * @default {@link px}
+ * @returns {Array.&lt;(boolean|string|function({props}))>} An array of strings and {@link themeGet} calls
  * @name construct
  * @memberOf util
  */
-export default (value, theme, cssProperty, transformer) =>
-  universal(value, theme, [cssProperty, ':'], ';', transformer)
+export default (
+  value,
+  theme,
+  cssLineStart,
+  cssLineTerminate,
+  transformer = px
+) => {
+  switch (typeof value) {
+    case 'object':
+      const { standard, ...breakpoints } = value
+      return [
+        standard !== undefined &amp;&amp; [
+          cssLineStart,
+          themeGet(standard, transformer(standard)),
+          cssLineTerminate,
+        ],
+        ...Object.entries(breakpoints).map(([key, value]) => [
+          (theme.mediaQueries &amp;&amp; theme.mediaQueries[key]) || [
+            '@media screen and (min-width:',
+            theme.breakpoints[key],
+            '){',
+          ],
+          cssLineStart,
+          themeGet(value, transformer(value)),
+          cssLineTerminate,
+          '}',
+        ]),
+      ]
+    case 'string':
+    case 'number':
+    case 'bigint':
+      return [
+        cssLineStart,
+        themeGet(value, transformer(value)),
+        cssLineTerminate,
+      ]
+    case 'undefined':
+      return null
+    default:
+      throw new TypeError(
+        'Value has to be of type object, string, number or bigint'
+      )
+  }
+}
 </code></pre>
         </article>
     </section>
