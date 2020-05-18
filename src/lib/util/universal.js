@@ -1,5 +1,6 @@
 import themeGet from '@styled-system/theme-get'
 import px from './transformers/px'
+import get from './get'
 
 /**
  * Constructs an array for a given value and CSS property.
@@ -23,9 +24,10 @@ export default (
   cssLineTerminate,
   transformer = px
 ) => {
-  switch (typeof value) {
+  const _value = get(value, theme) || value
+  switch (typeof _value) {
     case 'object':
-      const { standard, ...breakpoints } = value
+      const { standard, ...breakpoints } = _value
       return [
         standard !== undefined && [
           cssLineStart,
@@ -40,7 +42,7 @@ export default (
           ],
           '{',
           cssLineStart,
-          themeGet(value, transformer(value)),
+          get(value, theme) || transformer(value),
           cssLineTerminate,
           '}',
         ]),
@@ -50,7 +52,7 @@ export default (
     case 'bigint':
       return [
         cssLineStart,
-        themeGet(value, transformer(value)),
+        get(_value, theme) || transformer(_value),
         cssLineTerminate,
       ]
     case 'undefined':
