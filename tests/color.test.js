@@ -5,5 +5,5 @@ test('transforms number into hex value', () => {
 })
 
 test('leaves string values be', () => {
-  expect('asdasd').toBe('asdasd')
+  expect(color('asdasd')).toBe('asdasd')
 })
