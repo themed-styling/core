@@ -1,3 +1,4 @@
+import propless from '../util/propless'
 import construct from '../util/construct'
 
 /**
@@ -28,8 +29,7 @@ import construct from '../util/construct'
  * @name minHeight
  * @memberOf core
  */
-export default (fallback, propless = false) =>
-  propless
-    ? ({ theme }) => construct(fallback, theme, 'min-height')
-    : ({ minHeight, theme }) =>
-        construct(minHeight || fallback, theme, 'min-height')
+export default propless(
+  (value, theme) => construct(value, theme, 'min-height'),
+  'minHeight'
+)

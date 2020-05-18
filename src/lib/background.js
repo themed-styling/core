@@ -1,3 +1,4 @@
+import propless from './util/propless'
 import construct from './util/construct'
 import color from './util/transformers/color'
 
@@ -25,8 +26,7 @@ import color from './util/transformers/color'
  * @name background
  * @memberOf core
  */
-export default (fallback, propless = false) =>
-  propless
-    ? ({ theme }) => construct(fallback, theme, 'background', color)
-    : ({ background, theme }) =>
-        construct(background || fallback, theme, 'background', color)
+export default propless(
+  (value, theme) => construct(value, theme, 'background', color),
+  'background'
+)

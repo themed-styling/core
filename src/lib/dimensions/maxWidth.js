@@ -1,3 +1,4 @@
+import propless from '../util/propless'
 import construct from '../util/construct'
 
 /**
@@ -28,8 +29,7 @@ import construct from '../util/construct'
  * @name maxWidth
  * @memberOf core
  */
-export default (fallback, propless = false) =>
-  propless
-    ? ({ theme }) => construct(fallback, theme, 'max-width')
-    : ({ maxWidth, theme }) =>
-        construct(maxWidth || fallback, theme, 'max-width')
+export default propless(
+  (value, theme) => construct(value, theme, 'max-width'),
+  'maxWidth'
+)

@@ -1,3 +1,4 @@
+import propless from './util/propless'
 import construct from './util/construct'
 
 /**
@@ -28,8 +29,7 @@ import construct from './util/construct'
  * @name fontSize
  * @memberOf core
  */
-export default (fallback, propless = false) =>
-  propless
-    ? ({ theme }) => construct(fallback, theme, 'font-size')
-    : ({ fontSize, theme }) =>
-        construct(fontSize || fallback, theme, 'font-size')
+export default propless(
+  (value, theme) => construct(value, theme, 'font-size'),
+  'fontSize'
+)

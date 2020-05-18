@@ -1,3 +1,4 @@
+import propless from '../util/propless'
 import construct from '../util/construct'
 import plain from '../util/transformers/plain'
 
@@ -25,8 +26,7 @@ import plain from '../util/transformers/plain'
  * @name gridRowEnd
  * @memberOf core
  */
-export default (fallback, propless = false) =>
-  propless
-    ? ({ theme }) => construct(fallback, theme, 'grid-row-end', plain)
-    : ({ gridRowEnd, theme }) =>
-        construct(gridRowEnd || fallback, theme, 'grid-row-end', plain)
+export default propless(
+  (value, theme) => construct(value, theme, 'grid-row-end', plain),
+  'gridRowEnd'
+)

@@ -1,4 +1,6 @@
+import propless from '../util/propless'
 import construct from '../util/construct'
+import plain from '../util/transformers/plain'
 
 /**
  * Returns a function that takes an object containing alignItems and theme properties.
@@ -24,8 +26,7 @@ import construct from '../util/construct'
  * @name alignItems
  * @memberOf core
  */
-export default (fallback, propless = false) =>
-  propless
-    ? ({ theme }) => construct(fallback, theme, 'align-items')
-    : ({ alignItems, theme }) =>
-        construct(alignItems || fallback, theme, 'align-items')
+export default propless(
+  (value, theme) => construct(value, theme, 'align-items', plain),
+  'alignItems'
+)

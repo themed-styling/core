@@ -1,4 +1,5 @@
 import construct from '../util/construct'
+import propless from '../util/propless'
 
 /**
  * Returns a function that takes an object containing minWidth and theme properties.
@@ -28,8 +29,7 @@ import construct from '../util/construct'
  * @name minWidth
  * @memberOf core
  */
-export default (fallback, propless = false) =>
-  propless
-    ? ({ theme }) => construct(fallback, theme, 'min-width')
-    : ({ minWidth, theme }) =>
-        construct(minWidth || fallback, theme, 'min-width')
+export default propless(
+  (value, theme) => construct(value, theme, 'min-width'),
+  'minWidth'
+)
