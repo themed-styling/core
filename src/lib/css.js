@@ -1,3 +1,7 @@
+import propless from './util/propless'
+import universal from './util/universal'
+import plain from './util/transformers/plain'
+
 /**
  * Returns a function that takes an object containing css and theme properties.
  *
@@ -27,56 +31,7 @@
  * @name css
  * @memberOf core
  */
-export default (fallback, propless = false) =>
-  propless
-    ? ({ theme }) => {
-        switch (typeof fallback) {
-          case 'object':
-            const { standard, ...breakpoints } = fallback
-            return [
-              standard,
-              ...Object.entries(breakpoints).map(([key, value]) => [
-                (theme.mediaQueries && theme.mediaQueries[key]) || [
-                  '@media screen and (min-width:',
-                  theme.breakpoints[key],
-                  ')',
-                ],
-                '{',
-                value,
-                ';}',
-              ]),
-            ]
-          case 'string':
-            return fallback
-          case 'undefined':
-            return null
-          default:
-            throw new TypeError('Value has to be of type object or string')
-        }
-      }
-    : ({ css, theme }) => {
-        const value = css || fallback
-        switch (typeof value) {
-          case 'object':
-            const { standard, ...breakpoints } = value
-            return [
-              standard,
-              ...Object.entries(breakpoints).map(([key, value]) => [
-                (theme.mediaQueries && theme.mediaQueries[key]) || [
-                  '@media screen and (min-width:',
-                  theme.breakpoints[key],
-                  ')',
-                ],
-                '{',
-                value,
-                ';}',
-              ]),
-            ]
-          case 'string':
-            return value
-          case 'undefined':
-            return null
-          default:
-            throw new TypeError('Value has to be of type object or string')
-        }
-      }
+export default propless(
+  (value, theme) => universal(value, theme, undefined, undefined, plain),
+  'css'
+)
