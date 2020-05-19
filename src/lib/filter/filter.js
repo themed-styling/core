@@ -13,11 +13,11 @@ import plain from '../util/transformers/plain'
  * `
  * @example
  * const MyComponent = styled.div`
- *   ${filter('blur(50%)')}
+ *   ${filter('blur(5px)')}
  * `
  * @example
  * const MyComponent = styled.div`
- *   ${filter({ breakpoint1: 'blur(50%)', breakpoint2: 'url(filter.com/blur)'})}
+ *   ${filter({ breakpoint1: 'blur(5px)', breakpoint2: 'url(filter.com/blur)'})}
  * `
  *
  * @param {(Object.<(string|number|bigint)>|Array.<(string|number|bigint)>|string|number|bigint)=} fallback - A fallback value for when the object passed to the returned function does not contain a filter value
