@@ -4,7 +4,7 @@ test('transforms number into hex value', () => {
   expect(color(111)).toBe('#111')
 })
 
-test('leaves string values be', () => {
+test('leaves string value be', () => {
   expect(color('asdasd')).toBe('asdasd')
 })
 
