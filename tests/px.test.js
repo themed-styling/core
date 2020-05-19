@@ -4,7 +4,7 @@ test('transforms number into px value', () => {
   expect(px(10)).toBe('10px')
 })
 
-test('leaves string values be', () => {
+test('leaves string value be', () => {
   expect(px('asdasd')).toBe('asdasd')
 })
 
