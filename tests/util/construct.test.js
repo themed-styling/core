@@ -1,17 +1,19 @@
-import universal from '../src/lib/util/universal'
+import construct from '../../src/lib/util/construct'
 
 test('constructs array', () => {
+  expect(construct(123, {}, 'test-property', (value) => value)).toStrictEqual([
+    ['test-property', ':'],
+    123,
+    ';',
+  ])
   expect(
-    universal(123, {}, 'test-property:test(', ');', (value) => value)
-  ).toStrictEqual(['test-property:test(', 123, ');'])
-  expect(
-    universal('asdasd', {}, 'test-property:test(', ');', (value) => value)
-  ).toStrictEqual(['test-property:test(', 'asdasd', ');'])
+    construct('asdasd', {}, 'test-property', (value) => value)
+  ).toStrictEqual([['test-property', ':'], 'asdasd', ';'])
 })
 
 test('constructs array with breakpoints', () => {
   expect(
-    universal(
+    construct(
       {
         standard: 12,
         custom: 22,
@@ -29,61 +31,59 @@ test('constructs array with breakpoints', () => {
           wide: '1440px',
         },
       },
-      'test-property:test(',
-      ');',
+      'test-property',
       (value) => value
     )
   ).toStrictEqual([
-    ['test-property:test(', 12, ');'],
+    [['test-property', ':'], 12, ';'],
     [
       ['@media screen and (min-width:', '200px', ')'],
       '{',
-      'test-property:test(',
+      ['test-property', ':'],
       22,
-      ');',
+      ';',
       '}',
     ],
     [
       ['@media screen and (min-width:', '320px', ')'],
       '{',
-      'test-property:test(',
+      ['test-property', ':'],
       '34px',
-      ');',
+      ';',
       '}',
     ],
     [
       ['@media screen and (min-width:', '768px', ')'],
       '{',
-      'test-property:test(',
+      ['test-property', ':'],
       '41',
-      ');',
+      ';',
       '}',
     ],
     [
       ['@media screen and (min-width:', '1024px', ')'],
       '{',
-      'test-property:test(',
+      ['test-property', ':'],
       55,
-      ');',
+      ';',
       '}',
     ],
     [
       ['@media screen and (min-width:', '1440px', ')'],
       '{',
-      'test-property:test(',
+      ['test-property', ':'],
       '67rem',
-      ');',
+      ';',
       '}',
     ],
   ])
   expect(
-    universal(
+    construct(
       ['22rem', 34, 41, '55px', '67ch'],
       {
         breakpoints: ['200px', '320px', '768px', '1024px', '1440px'],
       },
-      'test-property:test(',
-      ');',
+      'test-property',
       (value) => value
     )
   ).toStrictEqual([
@@ -91,41 +91,41 @@ test('constructs array with breakpoints', () => {
     [
       ['@media screen and (min-width:', '200px', ')'],
       '{',
-      'test-property:test(',
+      ['test-property', ':'],
       '22rem',
-      ');',
+      ';',
       '}',
     ],
     [
       ['@media screen and (min-width:', '320px', ')'],
       '{',
-      'test-property:test(',
+      ['test-property', ':'],
       34,
-      ');',
+      ';',
       '}',
     ],
     [
       ['@media screen and (min-width:', '768px', ')'],
       '{',
-      'test-property:test(',
+      ['test-property', ':'],
       41,
-      ');',
+      ';',
       '}',
     ],
     [
       ['@media screen and (min-width:', '1024px', ')'],
       '{',
-      'test-property:test(',
+      ['test-property', ':'],
       '55px',
-      ');',
+      ';',
       '}',
     ],
     [
       ['@media screen and (min-width:', '1440px', ')'],
       '{',
-      'test-property:test(',
+      ['test-property', ':'],
       '67ch',
-      ');',
+      ';',
       '}',
     ],
   ])
@@ -133,7 +133,7 @@ test('constructs array with breakpoints', () => {
 
 test('constructs array with mediaQueries', () => {
   expect(
-    universal(
+    construct(
       {
         standard: 11,
         custom: '25px',
@@ -151,20 +151,19 @@ test('constructs array with mediaQueries', () => {
           wide: '@test and wide',
         },
       },
-      'test-property:test(',
-      ');',
+      'test-property',
       (value) => value
     )
   ).toStrictEqual([
-    ['test-property:test(', 11, ');'],
-    ['@test and custom', '{', 'test-property:test(', '25px', ');', '}'],
-    ['@test and mobile', '{', 'test-property:test(', 39, ');', '}'],
-    ['@test and tablet', '{', 'test-property:test(', '44ch', ');', '}'],
-    ['@test and desktop', '{', 'test-property:test(', '51rem', ');', '}'],
-    ['@test and wide', '{', 'test-property:test(', 64, ');', '}'],
+    [['test-property', ':'], 11, ';'],
+    ['@test and custom', '{', ['test-property', ':'], '25px', ';', '}'],
+    ['@test and mobile', '{', ['test-property', ':'], 39, ';', '}'],
+    ['@test and tablet', '{', ['test-property', ':'], '44ch', ';', '}'],
+    ['@test and desktop', '{', ['test-property', ':'], '51rem', ';', '}'],
+    ['@test and wide', '{', ['test-property', ':'], 64, ';', '}'],
   ])
   expect(
-    universal(
+    construct(
       ['24px', 31, '43ch', 52, '62rem'],
       {
         mediaQueries: [
@@ -175,16 +174,15 @@ test('constructs array with mediaQueries', () => {
           '@test and 4',
         ],
       },
-      'test-property:test(',
-      ');',
+      'test-property',
       (value) => value
     )
   ).toStrictEqual([
     false,
-    ['@test and 0', '{', 'test-property:test(', '24px', ');', '}'],
-    ['@test and 1', '{', 'test-property:test(', 31, ');', '}'],
-    ['@test and 2', '{', 'test-property:test(', '43ch', ');', '}'],
-    ['@test and 3', '{', 'test-property:test(', 52, ');', '}'],
-    ['@test and 4', '{', 'test-property:test(', '62rem', ');', '}'],
+    ['@test and 0', '{', ['test-property', ':'], '24px', ';', '}'],
+    ['@test and 1', '{', ['test-property', ':'], 31, ';', '}'],
+    ['@test and 2', '{', ['test-property', ':'], '43ch', ';', '}'],
+    ['@test and 3', '{', ['test-property', ':'], 52, ';', '}'],
+    ['@test and 4', '{', ['test-property', ':'], '62rem', ';', '}'],
   ])
 })

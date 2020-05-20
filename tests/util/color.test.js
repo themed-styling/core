@@ -1,4 +1,4 @@
-import color from '../src/lib/util/transformers/color'
+import color from '../../src/lib/util/transformers/color'
 
 test('transforms number into hex value', () => {
   expect(color(111)).toBe('#111')
