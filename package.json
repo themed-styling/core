@@ -1,6 +1,6 @@
 {
   "name": "@themed-styling/core",
-  "version": "1.1.0",
+  "version": "1.2.0",
   "description": "Quick, modular and responsive styling for styled-components with theme support",
   "main": "dist/core.cjs.js",
   "type": "module",
@@ -58,16 +58,16 @@
       "pre-commit": "npm run test"
     }
   },
-    "babel": {
-      "presets": [
-        [
-          "@babel/preset-env",
-          {
-            "targets": {
-              "node": "current"
-            }
+  "babel": {
+    "presets": [
+      [
+        "@babel/preset-env",
+        {
+          "targets": {
+            "node": "current"
           }
-        ]
+        }
       ]
-    }
+    ]
+  }
 }
