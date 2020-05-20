@@ -1,4 +1,4 @@
-import plain from '../src/lib/util/transformers/plain'
+import plain from '../../src/lib/util/transformers/plain'
 
 test('leaves any value be', () => {
   expect(plain(10)).toBe(10)

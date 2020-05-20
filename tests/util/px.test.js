@@ -1,4 +1,4 @@
-import px from '../src/lib/util/transformers/px'
+import px from '../../src/lib/util/transformers/px'
 
 test('transforms number into px value', () => {
   expect(px(10)).toBe('10px')
