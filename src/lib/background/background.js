@@ -1,6 +1,6 @@
-import propless from './util/propless'
-import construct from './util/construct'
-import color from './util/transformers/color'
+import propless from '../util/propless'
+import construct from '../util/construct'
+import color from '../util/transformers/color'
 
 /**
  * Returns a function that takes an object containing background and theme properties.

@@ -40,7 +40,7 @@
 
 export { default as alignItems } from './lib/alignment/alignItems'
 export { default as alignSelf } from './lib/alignment/alignSelf'
-export { default as background } from './lib/background'
+export { default as background } from './lib/background/background'
 export { default as blur } from './lib/filter/blur'
 export { default as border } from './lib/border/border'
 export { default as borderBottom } from './lib/border/borderBottom'
