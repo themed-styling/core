@@ -1,6 +1,9 @@
+import core from './util/core'
 import propless from './util/propless'
-import construct from './util/construct'
-import _color from './util/transformers/color'
+import calc from './util/calc'
+import plainMaker from './util/makers/plainMaker'
+import calcMaker from './util/makers/calcMaker'
+import colorTransformer from './util/transformers/color'
 
 /**
  * Returns a function that takes an object containing color and theme properties.
@@ -20,13 +23,33 @@ import _color from './util/transformers/color'
  *   ${color({ breakpoint1: 'white', breakpoint2: 'DarkSlateBlue'})}
  * `
  *
- * @param {(Object.<(string|number|bigint)>|Array.<(string|number|bigint)>|string|number|bigint)=} fallback - A fallback value for when the object passed to the returned function does not contain a margin value
- * @param {boolean=} [propless=false] - Whether the component should be without prop
- * @returns {function({props})} Function to take component props passed by styled-components
+ * @type {coreFunction}
+ * @property {coreFunction} important - Function to add styling and prop, and mark the value as !important
+ * @property {coreFunction} i - Shorthand for .important
+ * @property {proplessFunction} propless - Function to add styling without adding a prop
+ * @property {proplessFunction} l - Shorthand for .propless
+ * @property {proplessFunction} propless.important - Function to add styling without adding a prop and mark the value as !important
+ * @property {proplessFunction} l.i - Shorthand for .propless.important
  * @name color
  * @memberOf core
  */
-export default propless(
-  (value, theme) => construct(value, theme, 'color', _color),
-  'color'
+const color = core('color', plainMaker('color:', colorTransformer))
+color.important = color.i = core(
+  'color',
+  plainMaker('color:', colorTransformer, '!important;')
 )
+
+color.propless = color.l = propless(plainMaker('color:', colorTransformer))
+color.propless.important = color.l.i = propless(
+  plainMaker('color:', colorTransformer, '!important;')
+)
+
+// color.calc = color.c = core('color', calcMaker('color:', colorTransformer))
+// color.calc.important = color.c.i = core(
+//   'color',
+//   calcMaker('color:', colorTransformer, '!important;')
+// )
+
+// color.transform =
+
+export default color
