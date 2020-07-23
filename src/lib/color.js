@@ -8,7 +8,8 @@ import colorTransformer from './util/transformers/color'
 /**
  * Returns a function that takes an object containing color and theme properties.
  *
- * This function is meant to be used with styled-components. Call this function within your styled-component's template literal like so:
+ * This function is meant to be used with styled-components. Call this function
+ * within your styled-component's template literal like so:
  *
  * @example
  * const MyComponent = styled.div`
