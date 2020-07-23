@@ -1,5 +1,4 @@
-import px from './transformers/px'
-import get from './get'
+import proplessConstructor from './constructors/proplessConstructor'
 
 /**
  * Universal function to create propless functions.
@@ -16,44 +15,4 @@ import get from './get'
  * @name propless
  * @memberOf util
  */
-export default (cssLineStart, cssLineTerminate, transformer = px) => value => ({
-  theme,
-}) => {
-  const _value = get(value, theme) || value
-  switch (typeof _value) {
-    case 'object':
-      const { standard, ...breakpoints } = _value
-      return [
-        standard !== undefined && [
-          cssLineStart,
-          get(standard, theme) || transformer(standard),
-          cssLineTerminate,
-        ],
-        ...Object.entries(breakpoints).map(([key, value]) => [
-          (theme.mediaQueries && theme.mediaQueries[key]) || [
-            '@media screen and (min-width:',
-            theme.breakpoints[key],
-            ')',
-          ],
-          '{',
-          cssLineStart,
-          get(value, theme) || transformer(value),
-          cssLineTerminate,
-          '}',
-        ]),
-      ]
-    case 'string':
-    case 'number':
-    case 'bigint':
-      return [
-        cssLineStart,
-        get(_value, theme) || transformer(_value),
-        cssLineTerminate,
-      ]
-    case 'undefined':
-    default:
-      throw new TypeError(
-        `Value has to be of type object, string, number or bigint but got ${_value}`
-      )
-  }
-}
+export default cssMaker => value => proplessConstructor(value, cssMaker)
