@@ -1,8 +1,9 @@
 /**
- * An object containing <code>breakpoints</code>
- * @typedef {Object} theme
- * @property {(Object.<(string|number|bigint)>|Array.<(string|number|bigint)>)} breakpoints - An object or array of CSS <code>min-width</code> values
- * @property {(Object.<string>|Array.<string>)} mediaQueries - An object or array of strings containing valid media queries
+ * An object containing a <code>breakpoints</code> or a <code>mediaQueries</code> property.
+ * @note These properties are not necessary, when no object or array values are used.
+ * @typedef {object} theme
+ * @property {(object.<(string|number|bigint)>|array.<(string|number|bigint)>)=} breakpoints - An object or array of CSS <code>min-width</code> values
+ * @property {(object.<string>|array.<string>)=} mediaQueries - An object or array of strings containing valid media queries
  *
  * @example
  * {
@@ -23,9 +24,9 @@
  */
 
 /**
- * An object containing {@link theme}
- * @typedef {Object} props
- * @property {theme} theme - An object containing a <code>breakpoints</code> object or array
+ * An object containing a <code>{@link theme}</code> property
+ * @typedef {object} props
+ * @property {theme} theme - A <code>{@link theme}</code> object
  */
 
 /**
@@ -36,6 +37,19 @@
 /**
  * Utility Functions
  * @namespace util
+ */
+
+/**
+ * @typedef {function} coreFunction
+ * @param {(object.<(string|number|bigint)>|array.<(string|number|bigint)>|string|number|bigint)=} fallback - A fallback value to use when no prop value is passed
+ * @property {function({string})} propName - Function to set the name of the prop the component should have
+ * @returns {function({props})} Function to take component props passed by styled-components
+ */
+
+/**
+ * @typedef {function} proplessFunction
+ * @param {(object.<(string|number|bigint)>|array.<(string|number|bigint)>|string|number|bigint)} value - The value to use
+ * @returns {function({props})} Function to take component props passed by styled-components
  */
 
 export { default as alignItems } from './lib/alignment/alignItems'
