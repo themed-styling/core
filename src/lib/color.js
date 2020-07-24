@@ -1,7 +1,6 @@
 import core from './util/core'
 import propless from './util/propless'
 import plainMaker from './util/makers/plainMaker'
-import calcMaker from './util/makers/calcMaker'
 import colorTransformer from './util/transformers/color'
 
 /**
