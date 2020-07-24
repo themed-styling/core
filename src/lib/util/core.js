@@ -1,5 +1,4 @@
 import coreConstructor from './constructors/coreConstructor'
-import px from './transformers/px'
 import get from './get'
 
 /**
@@ -13,11 +12,8 @@ import get from './get'
  * being the string that was passed.
  *
  * @param {string} defaultPropName - The name of the specified property to be used by default
- * @param {string|Array.<string>} cssLineStart - The CSS code before the value
- * @param {string|Array.<string>} cssLineTerminate - The CSS code after the value
- * @param {function((string|number|bigint))=} transformer - A function to transform the value depending on its type and the CSS property
- * @default {@link px}
- * @returns {function((Object.<(string|number|bigint)>|Array.<(string|number|bigint)>|string|number|bigint))} A function that takes a fallback value.
+ * @param {cssMaker} cssMaker - A function that takes a CSS value and returns an array
+ * @returns {coreFunction} A function that takes a fallback value
  * @name core
  * @memberOf util
  */
