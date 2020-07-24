@@ -2,9 +2,13 @@ import fs from 'fs'
 import prettier from 'prettier'
 
 const packageJSON = JSON.parse(fs.readFileSync('./package.json'))
-console.info('Using prettier config from package\n', packageJSON.prettier)
+const prettierConfig = {
+  ...packageJSON.prettier,
+  parser: 'babel',
+}
+console.info('Using prettier config from package\n', prettierConfig)
 
-const format = string => prettier.format(string, packageJSON.prettier)
+const format = string => prettier.format(string, prettierConfig)
 
 const namespaces = ({ name, nameSplit }) => {
   switch (name) {
@@ -97,7 +101,8 @@ import defaultMaker from './util/makers/defaultMaker'
  */
 const ${name} = core('${name}', defaultMaker('${css}:')(${transformer})())
 ${name}.important = ${name}.i = core(
-  '${name}', defaultMaker('${css}:')(${transformer})('!important;')
+  '${name}',
+  defaultMaker('${css}:')(${transformer})('!important;')
 )
 
 ${name}.propless = ${name}.l = propless(
@@ -115,17 +120,23 @@ for (let { name, css, namespace, transformer } of prep) {
     namespace
       ? `./src/lib/generated/${namespace}/${name}.js`
       : `./src/lib/generated/${name}.js`,
-    template({
-      name,
-      css,
-      namespace: namespace ? `.${namespace}` : '',
-      transformer: transformer !== 'px' ? transformer : '',
-    }),
+    format(
+      template({
+        name,
+        css,
+        namespace: namespace ? `.${namespace}` : '',
+        transformer: transformer !== 'px' ? transformer : '',
+      })
+    ),
     error => {
       if (error) {
         console.error(`${name}: ${error.message}`)
       } else {
-        console.info(`OK ${namespace}/${name} (${transformer}, ${css})`)
+        console.info(
+          namespace
+            ? `OK ${namespace}/${name} (${transformer}, ${css})`
+            : `OK ${name} (${transformer}, ${css})`
+        )
       }
     }
   )
@@ -137,10 +148,14 @@ const index = prep.map(({ name, namespace }) =>
     : `export { default as ${name} } from './lib/generated/${name}'`
 )
 
-fs.writeFile('.src/lib/generated/index.js', index.join('\n'), error => {
-  if (error) {
-    console.error(`index: ${error.message}`)
-  } else {
-    console.info(`index OK`)
+fs.writeFile(
+  './src/lib/generated/index.js',
+  format(index.join('\n')),
+  error => {
+    if (error) {
+      console.error(`index: ${error.message}`)
+    } else {
+      console.info(`index OK`)
+    }
   }
-})
+)
