@@ -1,10 +1,10 @@
-import core from './util/core'
-import propless from './util/propless'
-import defaultMaker from './util/makers/defaultMaker'
-import defaultMaker from './util/makers/defaultMaker'
+import core from '../../util/core'
+import propless from '../../util/propless'
+import defaultMaker from '../../util/makers/defaultMaker'
+import colorTransformer from '../../util/transformers/colorTransformer'
 
 /**
- * Returns a function that takes an object containing fontSize and theme properties.
+ * Returns a function that takes an object containing borderTopColor and theme properties.
  *
  * This function is meant to be used with styled-components within your
  * component's template literal.
@@ -21,18 +21,18 @@ import defaultMaker from './util/makers/defaultMaker'
  */
 const borderTopColor = core(
   'borderTopColor',
-  defaultMaker('border-top-color:')(color)()
+  defaultMaker('border-top-color:')(colorTransformer)()
 )
 borderTopColor.important = borderTopColor.i = core(
   'borderTopColor',
-  defaultMaker('border-top-color:')(color)('!important;')
+  defaultMaker('border-top-color:')(colorTransformer)('!important;')
 )
 
 borderTopColor.propless = borderTopColor.l = propless(
-  defaultMaker('border-top-color:')(color)()
+  defaultMaker('border-top-color:')(colorTransformer)()
 )
 borderTopColor.propless.important = borderTopColor.l.i = propless(
-  defaultMaker('border-top-color:')(color)('!important;')
+  defaultMaker('border-top-color:')(colorTransformer)('!important;')
 )
 
 export default borderTopColor

@@ -1,10 +1,10 @@
-import core from './util/core'
-import propless from './util/propless'
-import defaultMaker from './util/makers/defaultMaker'
-import defaultMaker from './util/makers/defaultMaker'
+import core from '../../util/core'
+import propless from '../../util/propless'
+import defaultMaker from '../../util/makers/defaultMaker'
+import plainTransformer from '../../util/transformers/plainTransformer'
 
 /**
- * Returns a function that takes an object containing fontSize and theme properties.
+ * Returns a function that takes an object containing gridRow and theme properties.
  *
  * This function is meant to be used with styled-components within your
  * component's template literal.
@@ -19,15 +19,17 @@ import defaultMaker from './util/makers/defaultMaker'
  * @name gridRow
  * @memberOf core.grid
  */
-const gridRow = core('gridRow', defaultMaker('grid-row:')(plain)())
+const gridRow = core('gridRow', defaultMaker('grid-row:')(plainTransformer)())
 gridRow.important = gridRow.i = core(
   'gridRow',
-  defaultMaker('grid-row:')(plain)('!important;')
+  defaultMaker('grid-row:')(plainTransformer)('!important;')
 )
 
-gridRow.propless = gridRow.l = propless(defaultMaker('grid-row:')(plain)())
+gridRow.propless = gridRow.l = propless(
+  defaultMaker('grid-row:')(plainTransformer)()
+)
 gridRow.propless.important = gridRow.l.i = propless(
-  defaultMaker('grid-row:')(plain)('!important;')
+  defaultMaker('grid-row:')(plainTransformer)('!important;')
 )
 
 export default gridRow

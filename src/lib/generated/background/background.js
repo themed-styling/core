@@ -1,10 +1,10 @@
-import core from './util/core'
-import propless from './util/propless'
-import defaultMaker from './util/makers/defaultMaker'
-import defaultMaker from './util/makers/defaultMaker'
+import core from '../../util/core'
+import propless from '../../util/propless'
+import defaultMaker from '../../util/makers/defaultMaker'
+import colorTransformer from '../../util/transformers/colorTransformer'
 
 /**
- * Returns a function that takes an object containing fontSize and theme properties.
+ * Returns a function that takes an object containing background and theme properties.
  *
  * This function is meant to be used with styled-components within your
  * component's template literal.
@@ -19,17 +19,20 @@ import defaultMaker from './util/makers/defaultMaker'
  * @name background
  * @memberOf core.background
  */
-const background = core('background', defaultMaker('background:')(color)())
+const background = core(
+  'background',
+  defaultMaker('background:')(colorTransformer)()
+)
 background.important = background.i = core(
   'background',
-  defaultMaker('background:')(color)('!important;')
+  defaultMaker('background:')(colorTransformer)('!important;')
 )
 
 background.propless = background.l = propless(
-  defaultMaker('background:')(color)()
+  defaultMaker('background:')(colorTransformer)()
 )
 background.propless.important = background.l.i = propless(
-  defaultMaker('background:')(color)('!important;')
+  defaultMaker('background:')(colorTransformer)('!important;')
 )
 
 export default background

@@ -1,10 +1,10 @@
-import core from './util/core'
-import propless from './util/propless'
-import defaultMaker from './util/makers/defaultMaker'
-import defaultMaker from './util/makers/defaultMaker'
+import core from '../../util/core'
+import propless from '../../util/propless'
+import defaultMaker from '../../util/makers/defaultMaker'
+import plainTransformer from '../../util/transformers/plainTransformer'
 
 /**
- * Returns a function that takes an object containing fontSize and theme properties.
+ * Returns a function that takes an object containing gridTemplateColumns and theme properties.
  *
  * This function is meant to be used with styled-components within your
  * component's template literal.
@@ -21,18 +21,18 @@ import defaultMaker from './util/makers/defaultMaker'
  */
 const gridTemplateColumns = core(
   'gridTemplateColumns',
-  defaultMaker('grid-template-columns:')(plain)()
+  defaultMaker('grid-template-columns:')(plainTransformer)()
 )
 gridTemplateColumns.important = gridTemplateColumns.i = core(
   'gridTemplateColumns',
-  defaultMaker('grid-template-columns:')(plain)('!important;')
+  defaultMaker('grid-template-columns:')(plainTransformer)('!important;')
 )
 
 gridTemplateColumns.propless = gridTemplateColumns.l = propless(
-  defaultMaker('grid-template-columns:')(plain)()
+  defaultMaker('grid-template-columns:')(plainTransformer)()
 )
 gridTemplateColumns.propless.important = gridTemplateColumns.l.i = propless(
-  defaultMaker('grid-template-columns:')(plain)('!important;')
+  defaultMaker('grid-template-columns:')(plainTransformer)('!important;')
 )
 
 export default gridTemplateColumns

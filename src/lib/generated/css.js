@@ -1,10 +1,10 @@
-import core from './util/core'
-import propless from './util/propless'
-import defaultMaker from './util/makers/defaultMaker'
-import defaultMaker from './util/makers/defaultMaker'
+import core from '../util/core'
+import propless from '../util/propless'
+import defaultMaker from '../util/makers/defaultMaker'
+import plainTransformer from '../util/transformers/plainTransformer'
 
 /**
- * Returns a function that takes an object containing fontSize and theme properties.
+ * Returns a function that takes an object containing css and theme properties.
  *
  * This function is meant to be used with styled-components within your
  * component's template literal.
@@ -19,12 +19,15 @@ import defaultMaker from './util/makers/defaultMaker'
  * @name css
  * @memberOf core
  */
-const css = core('css', defaultMaker('css:')(plain)())
-css.important = css.i = core('css', defaultMaker('css:')(plain)('!important;'))
+const css = core('css', defaultMaker('css:')(plainTransformer)())
+css.important = css.i = core(
+  'css',
+  defaultMaker('css:')(plainTransformer)('!important;')
+)
 
-css.propless = css.l = propless(defaultMaker('css:')(plain)())
+css.propless = css.l = propless(defaultMaker('css:')(plainTransformer)())
 css.propless.important = css.l.i = propless(
-  defaultMaker('css:')(plain)('!important;')
+  defaultMaker('css:')(plainTransformer)('!important;')
 )
 
 export default css

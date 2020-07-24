@@ -1,10 +1,10 @@
-import core from './util/core'
-import propless from './util/propless'
-import defaultMaker from './util/makers/defaultMaker'
-import defaultMaker from './util/makers/defaultMaker'
+import core from '../../util/core'
+import propless from '../../util/propless'
+import defaultMaker from '../../util/makers/defaultMaker'
+import plainTransformer from '../../util/transformers/plainTransformer'
 
 /**
- * Returns a function that takes an object containing fontSize and theme properties.
+ * Returns a function that takes an object containing justifyContent and theme properties.
  *
  * This function is meant to be used with styled-components within your
  * component's template literal.
@@ -21,18 +21,18 @@ import defaultMaker from './util/makers/defaultMaker'
  */
 const justifyContent = core(
   'justifyContent',
-  defaultMaker('justify-content:')(plain)()
+  defaultMaker('justify-content:')(plainTransformer)()
 )
 justifyContent.important = justifyContent.i = core(
   'justifyContent',
-  defaultMaker('justify-content:')(plain)('!important;')
+  defaultMaker('justify-content:')(plainTransformer)('!important;')
 )
 
 justifyContent.propless = justifyContent.l = propless(
-  defaultMaker('justify-content:')(plain)()
+  defaultMaker('justify-content:')(plainTransformer)()
 )
 justifyContent.propless.important = justifyContent.l.i = propless(
-  defaultMaker('justify-content:')(plain)('!important;')
+  defaultMaker('justify-content:')(plainTransformer)('!important;')
 )
 
 export default justifyContent

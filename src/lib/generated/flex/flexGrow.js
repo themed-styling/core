@@ -1,10 +1,10 @@
-import core from './util/core'
-import propless from './util/propless'
-import defaultMaker from './util/makers/defaultMaker'
-import defaultMaker from './util/makers/defaultMaker'
+import core from '../../util/core'
+import propless from '../../util/propless'
+import defaultMaker from '../../util/makers/defaultMaker'
+import plainTransformer from '../../util/transformers/plainTransformer'
 
 /**
- * Returns a function that takes an object containing fontSize and theme properties.
+ * Returns a function that takes an object containing flexGrow and theme properties.
  *
  * This function is meant to be used with styled-components within your
  * component's template literal.
@@ -19,15 +19,20 @@ import defaultMaker from './util/makers/defaultMaker'
  * @name flexGrow
  * @memberOf core.flex
  */
-const flexGrow = core('flexGrow', defaultMaker('flex-grow:')(plain)())
+const flexGrow = core(
+  'flexGrow',
+  defaultMaker('flex-grow:')(plainTransformer)()
+)
 flexGrow.important = flexGrow.i = core(
   'flexGrow',
-  defaultMaker('flex-grow:')(plain)('!important;')
+  defaultMaker('flex-grow:')(plainTransformer)('!important;')
 )
 
-flexGrow.propless = flexGrow.l = propless(defaultMaker('flex-grow:')(plain)())
+flexGrow.propless = flexGrow.l = propless(
+  defaultMaker('flex-grow:')(plainTransformer)()
+)
 flexGrow.propless.important = flexGrow.l.i = propless(
-  defaultMaker('flex-grow:')(plain)('!important;')
+  defaultMaker('flex-grow:')(plainTransformer)('!important;')
 )
 
 export default flexGrow

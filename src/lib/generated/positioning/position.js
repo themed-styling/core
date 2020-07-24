@@ -1,10 +1,10 @@
-import core from './util/core'
-import propless from './util/propless'
-import defaultMaker from './util/makers/defaultMaker'
-import defaultMaker from './util/makers/defaultMaker'
+import core from '../../util/core'
+import propless from '../../util/propless'
+import defaultMaker from '../../util/makers/defaultMaker'
+import plainTransformer from '../../util/transformers/plainTransformer'
 
 /**
- * Returns a function that takes an object containing fontSize and theme properties.
+ * Returns a function that takes an object containing position and theme properties.
  *
  * This function is meant to be used with styled-components within your
  * component's template literal.
@@ -19,15 +19,17 @@ import defaultMaker from './util/makers/defaultMaker'
  * @name position
  * @memberOf core.positioning
  */
-const position = core('position', defaultMaker('position:')(plain)())
+const position = core('position', defaultMaker('position:')(plainTransformer)())
 position.important = position.i = core(
   'position',
-  defaultMaker('position:')(plain)('!important;')
+  defaultMaker('position:')(plainTransformer)('!important;')
 )
 
-position.propless = position.l = propless(defaultMaker('position:')(plain)())
+position.propless = position.l = propless(
+  defaultMaker('position:')(plainTransformer)()
+)
 position.propless.important = position.l.i = propless(
-  defaultMaker('position:')(plain)('!important;')
+  defaultMaker('position:')(plainTransformer)('!important;')
 )
 
 export default position

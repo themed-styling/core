@@ -1,10 +1,10 @@
-import core from './util/core'
-import propless from './util/propless'
-import defaultMaker from './util/makers/defaultMaker'
-import defaultMaker from './util/makers/defaultMaker'
+import core from '../../util/core'
+import propless from '../../util/propless'
+import defaultMaker from '../../util/makers/defaultMaker'
+import plainTransformer from '../../util/transformers/plainTransformer'
 
 /**
- * Returns a function that takes an object containing fontSize and theme properties.
+ * Returns a function that takes an object containing float and theme properties.
  *
  * This function is meant to be used with styled-components within your
  * component's template literal.
@@ -19,15 +19,15 @@ import defaultMaker from './util/makers/defaultMaker'
  * @name float
  * @memberOf core.alignment
  */
-const float = core('float', defaultMaker('float:')(plain)())
+const float = core('float', defaultMaker('float:')(plainTransformer)())
 float.important = float.i = core(
   'float',
-  defaultMaker('float:')(plain)('!important;')
+  defaultMaker('float:')(plainTransformer)('!important;')
 )
 
-float.propless = float.l = propless(defaultMaker('float:')(plain)())
+float.propless = float.l = propless(defaultMaker('float:')(plainTransformer)())
 float.propless.important = float.l.i = propless(
-  defaultMaker('float:')(plain)('!important;')
+  defaultMaker('float:')(plainTransformer)('!important;')
 )
 
 export default float
