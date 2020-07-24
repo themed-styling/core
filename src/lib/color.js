@@ -1,6 +1,6 @@
 import core from './util/core'
 import propless from './util/propless'
-import plainMaker from './util/makers/plainMaker'
+import defaultMaker from './util/makers/defaultMaker'
 import colorTransformer from './util/transformers/color'
 
 /**
@@ -32,15 +32,15 @@ import colorTransformer from './util/transformers/color'
  * @name color
  * @memberOf core
  */
-const color = core('color', plainMaker('color:', colorTransformer))
+const color = core('color', defaultMaker('color:')(colorTransformer)())
 color.important = color.i = core(
   'color',
-  plainMaker('color:', colorTransformer, '!important;')
+  defaultMaker('color:')(colorTransformer)('!important;')
 )
 
-color.propless = color.l = propless(plainMaker('color:', colorTransformer))
+color.propless = color.l = propless(defaultMaker('color:')(colorTransformer)())
 color.propless.important = color.l.i = propless(
-  plainMaker('color:', colorTransformer, '!important;')
+  defaultMaker('color:')(colorTransformer)('!important;')
 )
 
 export default color
