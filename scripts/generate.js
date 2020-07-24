@@ -81,7 +81,7 @@ const template = ({
 }) => `import core from './util/core'
 import propless from './util/propless'
 import defaultMaker from './util/makers/defaultMaker'
-import defaultMaker from './util/makers/defaultMaker'
+import ${transformer} from './util/makers/${transformer}'
 
 /**
  * Returns a function that takes an object containing fontSize and theme properties.
@@ -125,7 +125,7 @@ for (let { name, css, namespace, transformer } of prep) {
         name,
         css,
         namespace: namespace ? `.${namespace}` : '',
-        transformer: transformer !== 'px' ? transformer : '',
+        transformer: transformer !== 'px' ? `${transformer}Transformer` : '',
       })
     ),
     error => {
