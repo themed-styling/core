@@ -87,7 +87,7 @@ ${
   transformer !== ''
     ? `import ${transformer} from '${
         namespace ? '../../' : '../'
-      }util/makers/${transformer}'`
+      }util/transformers/${transformer}'`
     : ''
 }
 
