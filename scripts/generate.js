@@ -1,6 +1,12 @@
 import fs from 'fs'
+import prettier from 'prettier'
 
-const namespaces = ({ name, namespace }) => {
+const packageJSON = JSON.parse(fs.readFileSync('./package.json'))
+console.info('Using prettier config from package\n', packageJSON.prettier)
+
+const format = string => prettier.format(string, packageJSON.prettier)
+
+const namespaces = ({ name, nameSplit }) => {
   switch (name) {
     case 'float':
     case 'clear':
@@ -28,28 +34,49 @@ const namespaces = ({ name, namespace }) => {
     case 'color':
       return undefined
     default:
-      return namespace
+      return nameSplit
   }
+}
+
+const transformers = ({ name, namespace }) => {
+  if (name === 'background') return 'color'
+  if (name === 'backgroundSize') return 'px'
+  if (name === 'color') return 'color'
+  if (name === 'fontSize') return 'px'
+  if (namespace === 'border' && name.includes('Color')) return 'color'
+  if (namespace === 'border' && name.includes('Width')) return 'px'
+  if (namespace === 'border' && name.includes('Radius')) return 'px'
+  if (namespace === 'grid' && name.includes('Gap')) return 'px'
+
+  if (namespace === 'margin') return 'px'
+  if (namespace === 'padding') return 'px'
+  if (namespace === 'dimensions') return 'px'
+  if (namespace === 'positioning' && name !== 'position') return 'px'
+  return 'plain'
 }
 
 const prep = process.argv.slice(2).map(arg => {
   const css = arg.replace(/([a-z])([A-Z])/g, '$1-$2').toLowerCase()
   const nameSplit = css.split('-')
-  // if (nameSplit.length === 1) {
-  //   return {
-  //     name: arg,
-  //     css,
-  //   }
-  // }
+  const name = arg
+  const namespace = namespaces({ name, nameSplit: nameSplit[0] })
+  const transformer = transformers({ name, namespace })
   return {
-    name: arg,
+    name,
     css,
-    namespace: namespaces({ name: arg, namespace: nameSplit[0] }),
+    namespace,
+    transformer,
   }
 })
 
-const template = ({ name, css, namespace }) => `import core from './util/core'
+const template = ({
+  name,
+  css,
+  namespace,
+  transformer,
+}) => `import core from './util/core'
 import propless from './util/propless'
+import defaultMaker from './util/makers/defaultMaker'
 import defaultMaker from './util/makers/defaultMaker'
 
 /**
@@ -68,31 +95,37 @@ import defaultMaker from './util/makers/defaultMaker'
  * @name ${name}
  * @memberOf core${namespace}
  */
-const ${name} = core('${name}', defaultMaker('${css}:')()())
+const ${name} = core('${name}', defaultMaker('${css}:')(${transformer})())
 ${name}.important = ${name}.i = core(
-  '${name}',
-  defaultMaker('${css}:')()('!important;')
+  '${name}', defaultMaker('${css}:')(${transformer})('!important;')
 )
 
-${name}.propless = ${name}.l = propless(defaultMaker('${css}:')()())
+${name}.propless = ${name}.l = propless(
+  defaultMaker('${css}:')(${transformer})()
+)
 ${name}.propless.important = ${name}.l.i = propless(
-  defaultMaker('${css}:')()('!important;')
+  defaultMaker('${css}:')(${transformer})('!important;')
 )
 
 export default ${name}
 `
 
-for (let { name, css, namespace } of prep) {
+for (let { name, css, namespace, transformer } of prep) {
   fs.writeFile(
     namespace
-      ? `./generated/lib/${namespace}/${name}.js`
-      : `./generated/lib/${name}.js`,
-    template({ name, css, namespace: namespace ? `.${namespace}` : '' }),
+      ? `./src/lib/generated/${namespace}/${name}.js`
+      : `./src/lib/generated/${name}.js`,
+    template({
+      name,
+      css,
+      namespace: namespace ? `.${namespace}` : '',
+      transformer: transformer !== 'px' ? transformer : '',
+    }),
     error => {
       if (error) {
         console.error(`${name}: ${error.message}`)
       } else {
-        console.info(`${name} OK`)
+        console.info(`OK ${namespace}/${name} (${transformer}, ${css})`)
       }
     }
   )
@@ -100,11 +133,11 @@ for (let { name, css, namespace } of prep) {
 
 const index = prep.map(({ name, namespace }) =>
   namespace
-    ? `export { default as ${name} } from './lib/${namespace}/${name}'`
-    : `export { default as ${name} } from './lib/${name}'`
+    ? `export { default as ${name} } from './lib/generated/${namespace}/${name}'`
+    : `export { default as ${name} } from './lib/generated/${name}'`
 )
 
-fs.writeFile('./generated/index.js', index.join('\n'), error => {
+fs.writeFile('.src/lib/generated/index.js', index.join('\n'), error => {
   if (error) {
     console.error(`index: ${error.message}`)
   } else {
