@@ -1,7 +1,6 @@
-import core from './util/core'
-import propless from './util/propless'
-import defaultMaker from './util/makers/defaultMaker'
-import defaultMaker from './util/makers/defaultMaker'
+import core from '../../util/core'
+import propless from '../../util/propless'
+import defaultMaker from '../../util/makers/defaultMaker'
 
 /**
  * Returns a function that takes an object containing fontSize and theme properties.

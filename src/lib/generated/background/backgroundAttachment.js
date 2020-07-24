@@ -1,10 +1,10 @@
-import core from './util/core'
-import propless from './util/propless'
-import defaultMaker from './util/makers/defaultMaker'
-import defaultMaker from './util/makers/defaultMaker'
+import core from '../../util/core'
+import propless from '../../util/propless'
+import defaultMaker from '../../util/makers/defaultMaker'
+import plainTransformer from '../../util/transformers/plainTransformer'
 
 /**
- * Returns a function that takes an object containing fontSize and theme properties.
+ * Returns a function that takes an object containing backgroundAttachment and theme properties.
  *
  * This function is meant to be used with styled-components within your
  * component's template literal.
@@ -21,18 +21,18 @@ import defaultMaker from './util/makers/defaultMaker'
  */
 const backgroundAttachment = core(
   'backgroundAttachment',
-  defaultMaker('background-attachment:')(plain)()
+  defaultMaker('background-attachment:')(plainTransformer)()
 )
 backgroundAttachment.important = backgroundAttachment.i = core(
   'backgroundAttachment',
-  defaultMaker('background-attachment:')(plain)('!important;')
+  defaultMaker('background-attachment:')(plainTransformer)('!important;')
 )
 
 backgroundAttachment.propless = backgroundAttachment.l = propless(
-  defaultMaker('background-attachment:')(plain)()
+  defaultMaker('background-attachment:')(plainTransformer)()
 )
 backgroundAttachment.propless.important = backgroundAttachment.l.i = propless(
-  defaultMaker('background-attachment:')(plain)('!important;')
+  defaultMaker('background-attachment:')(plainTransformer)('!important;')
 )
 
 export default backgroundAttachment

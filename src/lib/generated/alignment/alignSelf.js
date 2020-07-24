@@ -1,10 +1,10 @@
-import core from './util/core'
-import propless from './util/propless'
-import defaultMaker from './util/makers/defaultMaker'
-import defaultMaker from './util/makers/defaultMaker'
+import core from '../../util/core'
+import propless from '../../util/propless'
+import defaultMaker from '../../util/makers/defaultMaker'
+import plainTransformer from '../../util/transformers/plainTransformer'
 
 /**
- * Returns a function that takes an object containing fontSize and theme properties.
+ * Returns a function that takes an object containing alignSelf and theme properties.
  *
  * This function is meant to be used with styled-components within your
  * component's template literal.
@@ -19,17 +19,20 @@ import defaultMaker from './util/makers/defaultMaker'
  * @name alignSelf
  * @memberOf core.alignment
  */
-const alignSelf = core('alignSelf', defaultMaker('align-self:')(plain)())
+const alignSelf = core(
+  'alignSelf',
+  defaultMaker('align-self:')(plainTransformer)()
+)
 alignSelf.important = alignSelf.i = core(
   'alignSelf',
-  defaultMaker('align-self:')(plain)('!important;')
+  defaultMaker('align-self:')(plainTransformer)('!important;')
 )
 
 alignSelf.propless = alignSelf.l = propless(
-  defaultMaker('align-self:')(plain)()
+  defaultMaker('align-self:')(plainTransformer)()
 )
 alignSelf.propless.important = alignSelf.l.i = propless(
-  defaultMaker('align-self:')(plain)('!important;')
+  defaultMaker('align-self:')(plainTransformer)('!important;')
 )
 
 export default alignSelf

@@ -1,10 +1,10 @@
-import core from './util/core'
-import propless from './util/propless'
-import defaultMaker from './util/makers/defaultMaker'
-import defaultMaker from './util/makers/defaultMaker'
+import core from '../../util/core'
+import propless from '../../util/propless'
+import defaultMaker from '../../util/makers/defaultMaker'
+import plainTransformer from '../../util/transformers/plainTransformer'
 
 /**
- * Returns a function that takes an object containing fontSize and theme properties.
+ * Returns a function that takes an object containing fontStyle and theme properties.
  *
  * This function is meant to be used with styled-components within your
  * component's template literal.
@@ -19,17 +19,20 @@ import defaultMaker from './util/makers/defaultMaker'
  * @name fontStyle
  * @memberOf core.font
  */
-const fontStyle = core('fontStyle', defaultMaker('font-style:')(plain)())
+const fontStyle = core(
+  'fontStyle',
+  defaultMaker('font-style:')(plainTransformer)()
+)
 fontStyle.important = fontStyle.i = core(
   'fontStyle',
-  defaultMaker('font-style:')(plain)('!important;')
+  defaultMaker('font-style:')(plainTransformer)('!important;')
 )
 
 fontStyle.propless = fontStyle.l = propless(
-  defaultMaker('font-style:')(plain)()
+  defaultMaker('font-style:')(plainTransformer)()
 )
 fontStyle.propless.important = fontStyle.l.i = propless(
-  defaultMaker('font-style:')(plain)('!important;')
+  defaultMaker('font-style:')(plainTransformer)('!important;')
 )
 
 export default fontStyle

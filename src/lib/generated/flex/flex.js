@@ -1,10 +1,10 @@
-import core from './util/core'
-import propless from './util/propless'
-import defaultMaker from './util/makers/defaultMaker'
-import defaultMaker from './util/makers/defaultMaker'
+import core from '../../util/core'
+import propless from '../../util/propless'
+import defaultMaker from '../../util/makers/defaultMaker'
+import plainTransformer from '../../util/transformers/plainTransformer'
 
 /**
- * Returns a function that takes an object containing fontSize and theme properties.
+ * Returns a function that takes an object containing flex and theme properties.
  *
  * This function is meant to be used with styled-components within your
  * component's template literal.
@@ -19,15 +19,15 @@ import defaultMaker from './util/makers/defaultMaker'
  * @name flex
  * @memberOf core.flex
  */
-const flex = core('flex', defaultMaker('flex:')(plain)())
+const flex = core('flex', defaultMaker('flex:')(plainTransformer)())
 flex.important = flex.i = core(
   'flex',
-  defaultMaker('flex:')(plain)('!important;')
+  defaultMaker('flex:')(plainTransformer)('!important;')
 )
 
-flex.propless = flex.l = propless(defaultMaker('flex:')(plain)())
+flex.propless = flex.l = propless(defaultMaker('flex:')(plainTransformer)())
 flex.propless.important = flex.l.i = propless(
-  defaultMaker('flex:')(plain)('!important;')
+  defaultMaker('flex:')(plainTransformer)('!important;')
 )
 
 export default flex

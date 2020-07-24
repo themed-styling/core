@@ -1,10 +1,10 @@
-import core from './util/core'
-import propless from './util/propless'
-import defaultMaker from './util/makers/defaultMaker'
-import defaultMaker from './util/makers/defaultMaker'
+import core from '../../util/core'
+import propless from '../../util/propless'
+import defaultMaker from '../../util/makers/defaultMaker'
+import plainTransformer from '../../util/transformers/plainTransformer'
 
 /**
- * Returns a function that takes an object containing fontSize and theme properties.
+ * Returns a function that takes an object containing borderRight and theme properties.
  *
  * This function is meant to be used with styled-components within your
  * component's template literal.
@@ -19,17 +19,20 @@ import defaultMaker from './util/makers/defaultMaker'
  * @name borderRight
  * @memberOf core.border
  */
-const borderRight = core('borderRight', defaultMaker('border-right:')(plain)())
+const borderRight = core(
+  'borderRight',
+  defaultMaker('border-right:')(plainTransformer)()
+)
 borderRight.important = borderRight.i = core(
   'borderRight',
-  defaultMaker('border-right:')(plain)('!important;')
+  defaultMaker('border-right:')(plainTransformer)('!important;')
 )
 
 borderRight.propless = borderRight.l = propless(
-  defaultMaker('border-right:')(plain)()
+  defaultMaker('border-right:')(plainTransformer)()
 )
 borderRight.propless.important = borderRight.l.i = propless(
-  defaultMaker('border-right:')(plain)('!important;')
+  defaultMaker('border-right:')(plainTransformer)('!important;')
 )
 
 export default borderRight

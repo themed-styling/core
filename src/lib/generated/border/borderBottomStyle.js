@@ -1,10 +1,10 @@
-import core from './util/core'
-import propless from './util/propless'
-import defaultMaker from './util/makers/defaultMaker'
-import defaultMaker from './util/makers/defaultMaker'
+import core from '../../util/core'
+import propless from '../../util/propless'
+import defaultMaker from '../../util/makers/defaultMaker'
+import plainTransformer from '../../util/transformers/plainTransformer'
 
 /**
- * Returns a function that takes an object containing fontSize and theme properties.
+ * Returns a function that takes an object containing borderBottomStyle and theme properties.
  *
  * This function is meant to be used with styled-components within your
  * component's template literal.
@@ -21,18 +21,18 @@ import defaultMaker from './util/makers/defaultMaker'
  */
 const borderBottomStyle = core(
   'borderBottomStyle',
-  defaultMaker('border-bottom-style:')(plain)()
+  defaultMaker('border-bottom-style:')(plainTransformer)()
 )
 borderBottomStyle.important = borderBottomStyle.i = core(
   'borderBottomStyle',
-  defaultMaker('border-bottom-style:')(plain)('!important;')
+  defaultMaker('border-bottom-style:')(plainTransformer)('!important;')
 )
 
 borderBottomStyle.propless = borderBottomStyle.l = propless(
-  defaultMaker('border-bottom-style:')(plain)()
+  defaultMaker('border-bottom-style:')(plainTransformer)()
 )
 borderBottomStyle.propless.important = borderBottomStyle.l.i = propless(
-  defaultMaker('border-bottom-style:')(plain)('!important;')
+  defaultMaker('border-bottom-style:')(plainTransformer)('!important;')
 )
 
 export default borderBottomStyle

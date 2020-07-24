@@ -1,10 +1,10 @@
-import core from './util/core'
-import propless from './util/propless'
-import defaultMaker from './util/makers/defaultMaker'
-import defaultMaker from './util/makers/defaultMaker'
+import core from '../util/core'
+import propless from '../util/propless'
+import defaultMaker from '../util/makers/defaultMaker'
+import colorTransformer from '../util/transformers/colorTransformer'
 
 /**
- * Returns a function that takes an object containing fontSize and theme properties.
+ * Returns a function that takes an object containing color and theme properties.
  *
  * This function is meant to be used with styled-components within your
  * component's template literal.
@@ -19,15 +19,15 @@ import defaultMaker from './util/makers/defaultMaker'
  * @name color
  * @memberOf core
  */
-const color = core('color', defaultMaker('color:')(color)())
+const color = core('color', defaultMaker('color:')(colorTransformer)())
 color.important = color.i = core(
   'color',
-  defaultMaker('color:')(color)('!important;')
+  defaultMaker('color:')(colorTransformer)('!important;')
 )
 
-color.propless = color.l = propless(defaultMaker('color:')(color)())
+color.propless = color.l = propless(defaultMaker('color:')(colorTransformer)())
 color.propless.important = color.l.i = propless(
-  defaultMaker('color:')(color)('!important;')
+  defaultMaker('color:')(colorTransformer)('!important;')
 )
 
 export default color

@@ -1,10 +1,10 @@
-import core from './util/core'
-import propless from './util/propless'
-import defaultMaker from './util/makers/defaultMaker'
-import defaultMaker from './util/makers/defaultMaker'
+import core from '../../util/core'
+import propless from '../../util/propless'
+import defaultMaker from '../../util/makers/defaultMaker'
+import plainTransformer from '../../util/transformers/plainTransformer'
 
 /**
- * Returns a function that takes an object containing fontSize and theme properties.
+ * Returns a function that takes an object containing clear and theme properties.
  *
  * This function is meant to be used with styled-components within your
  * component's template literal.
@@ -19,15 +19,15 @@ import defaultMaker from './util/makers/defaultMaker'
  * @name clear
  * @memberOf core.alignment
  */
-const clear = core('clear', defaultMaker('clear:')(plain)())
+const clear = core('clear', defaultMaker('clear:')(plainTransformer)())
 clear.important = clear.i = core(
   'clear',
-  defaultMaker('clear:')(plain)('!important;')
+  defaultMaker('clear:')(plainTransformer)('!important;')
 )
 
-clear.propless = clear.l = propless(defaultMaker('clear:')(plain)())
+clear.propless = clear.l = propless(defaultMaker('clear:')(plainTransformer)())
 clear.propless.important = clear.l.i = propless(
-  defaultMaker('clear:')(plain)('!important;')
+  defaultMaker('clear:')(plainTransformer)('!important;')
 )
 
 export default clear

@@ -1,10 +1,10 @@
-import core from './util/core'
-import propless from './util/propless'
-import defaultMaker from './util/makers/defaultMaker'
-import defaultMaker from './util/makers/defaultMaker'
+import core from '../util/core'
+import propless from '../util/propless'
+import defaultMaker from '../util/makers/defaultMaker'
+import plainTransformer from '../util/transformers/plainTransformer'
 
 /**
- * Returns a function that takes an object containing fontSize and theme properties.
+ * Returns a function that takes an object containing display and theme properties.
  *
  * This function is meant to be used with styled-components within your
  * component's template literal.
@@ -19,15 +19,17 @@ import defaultMaker from './util/makers/defaultMaker'
  * @name display
  * @memberOf core
  */
-const display = core('display', defaultMaker('display:')(plain)())
+const display = core('display', defaultMaker('display:')(plainTransformer)())
 display.important = display.i = core(
   'display',
-  defaultMaker('display:')(plain)('!important;')
+  defaultMaker('display:')(plainTransformer)('!important;')
 )
 
-display.propless = display.l = propless(defaultMaker('display:')(plain)())
+display.propless = display.l = propless(
+  defaultMaker('display:')(plainTransformer)()
+)
 display.propless.important = display.l.i = propless(
-  defaultMaker('display:')(plain)('!important;')
+  defaultMaker('display:')(plainTransformer)('!important;')
 )
 
 export default display

@@ -1,10 +1,10 @@
-import core from './util/core'
-import propless from './util/propless'
-import defaultMaker from './util/makers/defaultMaker'
-import defaultMaker from './util/makers/defaultMaker'
+import core from '../../util/core'
+import propless from '../../util/propless'
+import defaultMaker from '../../util/makers/defaultMaker'
+import plainTransformer from '../../util/transformers/plainTransformer'
 
 /**
- * Returns a function that takes an object containing fontSize and theme properties.
+ * Returns a function that takes an object containing alignItems and theme properties.
  *
  * This function is meant to be used with styled-components within your
  * component's template literal.
@@ -19,17 +19,20 @@ import defaultMaker from './util/makers/defaultMaker'
  * @name alignItems
  * @memberOf core.alignment
  */
-const alignItems = core('alignItems', defaultMaker('align-items:')(plain)())
+const alignItems = core(
+  'alignItems',
+  defaultMaker('align-items:')(plainTransformer)()
+)
 alignItems.important = alignItems.i = core(
   'alignItems',
-  defaultMaker('align-items:')(plain)('!important;')
+  defaultMaker('align-items:')(plainTransformer)('!important;')
 )
 
 alignItems.propless = alignItems.l = propless(
-  defaultMaker('align-items:')(plain)()
+  defaultMaker('align-items:')(plainTransformer)()
 )
 alignItems.propless.important = alignItems.l.i = propless(
-  defaultMaker('align-items:')(plain)('!important;')
+  defaultMaker('align-items:')(plainTransformer)('!important;')
 )
 
 export default alignItems

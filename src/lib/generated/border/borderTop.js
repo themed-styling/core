@@ -1,10 +1,10 @@
-import core from './util/core'
-import propless from './util/propless'
-import defaultMaker from './util/makers/defaultMaker'
-import defaultMaker from './util/makers/defaultMaker'
+import core from '../../util/core'
+import propless from '../../util/propless'
+import defaultMaker from '../../util/makers/defaultMaker'
+import plainTransformer from '../../util/transformers/plainTransformer'
 
 /**
- * Returns a function that takes an object containing fontSize and theme properties.
+ * Returns a function that takes an object containing borderTop and theme properties.
  *
  * This function is meant to be used with styled-components within your
  * component's template literal.
@@ -19,17 +19,20 @@ import defaultMaker from './util/makers/defaultMaker'
  * @name borderTop
  * @memberOf core.border
  */
-const borderTop = core('borderTop', defaultMaker('border-top:')(plain)())
+const borderTop = core(
+  'borderTop',
+  defaultMaker('border-top:')(plainTransformer)()
+)
 borderTop.important = borderTop.i = core(
   'borderTop',
-  defaultMaker('border-top:')(plain)('!important;')
+  defaultMaker('border-top:')(plainTransformer)('!important;')
 )
 
 borderTop.propless = borderTop.l = propless(
-  defaultMaker('border-top:')(plain)()
+  defaultMaker('border-top:')(plainTransformer)()
 )
 borderTop.propless.important = borderTop.l.i = propless(
-  defaultMaker('border-top:')(plain)('!important;')
+  defaultMaker('border-top:')(plainTransformer)('!important;')
 )
 
 export default borderTop

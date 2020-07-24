@@ -1,10 +1,10 @@
-import core from './util/core'
-import propless from './util/propless'
-import defaultMaker from './util/makers/defaultMaker'
-import defaultMaker from './util/makers/defaultMaker'
+import core from '../util/core'
+import propless from '../util/propless'
+import defaultMaker from '../util/makers/defaultMaker'
+import plainTransformer from '../util/transformers/plainTransformer'
 
 /**
- * Returns a function that takes an object containing fontSize and theme properties.
+ * Returns a function that takes an object containing boxShadow and theme properties.
  *
  * This function is meant to be used with styled-components within your
  * component's template literal.
@@ -19,17 +19,20 @@ import defaultMaker from './util/makers/defaultMaker'
  * @name boxShadow
  * @memberOf core
  */
-const boxShadow = core('boxShadow', defaultMaker('box-shadow:')(plain)())
+const boxShadow = core(
+  'boxShadow',
+  defaultMaker('box-shadow:')(plainTransformer)()
+)
 boxShadow.important = boxShadow.i = core(
   'boxShadow',
-  defaultMaker('box-shadow:')(plain)('!important;')
+  defaultMaker('box-shadow:')(plainTransformer)('!important;')
 )
 
 boxShadow.propless = boxShadow.l = propless(
-  defaultMaker('box-shadow:')(plain)()
+  defaultMaker('box-shadow:')(plainTransformer)()
 )
 boxShadow.propless.important = boxShadow.l.i = propless(
-  defaultMaker('box-shadow:')(plain)('!important;')
+  defaultMaker('box-shadow:')(plainTransformer)('!important;')
 )
 
 export default boxShadow
