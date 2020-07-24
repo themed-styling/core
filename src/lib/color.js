@@ -1,6 +1,5 @@
 import core from './util/core'
 import propless from './util/propless'
-import calc from './util/calc'
 import plainMaker from './util/makers/plainMaker'
 import calcMaker from './util/makers/calcMaker'
 import colorTransformer from './util/transformers/color'
@@ -44,13 +43,5 @@ color.propless = color.l = propless(plainMaker('color:', colorTransformer))
 color.propless.important = color.l.i = propless(
   plainMaker('color:', colorTransformer, '!important;')
 )
-
-// color.calc = color.c = core('color', calcMaker('color:', colorTransformer))
-// color.calc.important = color.c.i = core(
-//   'color',
-//   calcMaker('color:', colorTransformer, '!important;')
-// )
-
-// color.transform =
 
 export default color
