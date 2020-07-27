@@ -88,12 +88,12 @@ const testAnyValueOn = (
   /* PROPLESS */
   test(`${fn.name_}(${typeof value}) constructs propless with fallback`, () => {
     expectToEqual(
-      fn.propless(value)({}),
+      fn(value).propless()({}),
       [cssBeforeValue, valueTransformation(value), cssAfterValue],
       `${cssBeforeValue}${valueTransformation(value)}${cssAfterValue}`
     )
     expectToEqual(
-      fn.l(value)({}),
+      fn(value).l()({}),
       [cssBeforeValue, valueTransformation(value), cssAfterValue],
       `${cssBeforeValue}${valueTransformation(value)}${cssAfterValue}`
     )
@@ -104,12 +104,12 @@ const testAnyValueOn = (
     fn.name_
   }(${typeof value}) constructs important with fallback and empty props`, () => {
     expectToEqual(
-      fn.important(value)({}),
+      fn(value).important()({}),
       [cssBeforeValue, valueTransformation(value), importantCSSAfterValue],
       `${cssBeforeValue}${valueTransformation(value)}!important${cssAfterValue}`
     )
     expectToEqual(
-      fn.i(value)({}),
+      fn(value).i()({}),
       [cssBeforeValue, valueTransformation(value), importantCSSAfterValue],
       `${cssBeforeValue}${valueTransformation(value)}!important${cssAfterValue}`
     )
@@ -120,22 +120,22 @@ const testAnyValueOn = (
     fn.name_
   }(${typeof value}) constructs important with fallback and prop named value`, () => {
     expectToEqual(
-      fn.important(null).propName('value')({ value: value }),
+      fn(null).important().propName('value')({ value: value }),
       [cssBeforeValue, valueTransformation(value), importantCSSAfterValue],
       `${cssBeforeValue}${valueTransformation(value)}!important${cssAfterValue}`
     )
     expectToEqual(
-      fn.important(null).p('value')({ value: value }),
+      fn(null).important().p('value')({ value: value }),
       [cssBeforeValue, valueTransformation(value), importantCSSAfterValue],
       `${cssBeforeValue}${valueTransformation(value)}!important${cssAfterValue}`
     )
     expectToEqual(
-      fn.i(null).propName('value')({ value: value }),
+      fn(null).i().propName('value')({ value: value }),
       [cssBeforeValue, valueTransformation(value), importantCSSAfterValue],
       `${cssBeforeValue}${valueTransformation(value)}!important${cssAfterValue}`
     )
     expectToEqual(
-      fn.i(null).p('value')({ value: value }),
+      fn(null).i().p('value')({ value: value }),
       [cssBeforeValue, valueTransformation(value), importantCSSAfterValue],
       `${cssBeforeValue}${valueTransformation(value)}!important${cssAfterValue}`
     )
@@ -146,54 +146,78 @@ const testAnyValueOn = (
     fn.name_
   }(${typeof value}) constructs propless !important with fallback`, () => {
     expectToEqual(
-      fn.propless.important(value)({}),
+      fn(value).propless().important()({}),
       [cssBeforeValue, valueTransformation(value), importantCSSAfterValue],
       `${cssBeforeValue}${valueTransformation(value)}!important${cssAfterValue}`
     )
     expectToEqual(
-      fn.l.i(value)({}),
+      fn(value).l().i()({}),
       [cssBeforeValue, valueTransformation(value), importantCSSAfterValue],
       `${cssBeforeValue}${valueTransformation(value)}!important${cssAfterValue}`
     )
   })
 
-  // /* CALC */
-  // test(`${fn.name_}(${typeof value}) constructs calc with fallback`, () => {
-  //   expectToEqual(
-  //     fn.calc(value)({}),
-  //     [cssBeforeValue, 'calc(', valueTransformation(value), ')', cssAfterValue],
-  //     `${cssBeforeValue}calc(${valueTransformation(value)})${cssAfterValue}`
-  //   )
-  //   expectToEqual(
-  //     fn.c(value)({}),
-  //     [cssBeforeValue, 'calc(', valueTransformation(value), ')', cssAfterValue],
-  //     `${cssBeforeValue}calc(${valueTransformation(value)})${cssAfterValue}`
-  //   )
-  // })
-  //
-  // /* CALC & !important */
-  // test(`${
-  //   fn.name_
-  // }(${typeof value}) constructs calc !important with fallback`, () => {
-  //   expectToEqual(
-  //     fn.calc.important(value)({}),
-  //     [cssBeforeValue, 'calc(', valueTransformation(value), ')', cssAfterValue],
-  //     `${cssBeforeValue}calc(${valueTransformation(value)})${cssAfterValue}`
-  //   )
-  //   expectToEqual(
-  //     fn.c.i(value)({}),
-  //     [
-  //       cssBeforeValue,
-  //       'calc(',
-  //       valueTransformation(value),
-  //       ')',
-  //       importantCSSAfterValue,
-  //     ],
-  //     `${cssBeforeValue}calc(${valueTransformation(
-  //       value
-  //     )})!important${cssAfterValue}`
-  //   )
-  // })
+  /* CALC */
+  test(`${fn.name_}(${typeof value}) constructs calc with fallback`, () => {
+    expectToEqual(
+      fn(value).calc('*2')({}),
+      [
+        cssBeforeValue,
+        'calc(',
+        valueTransformation(value),
+        '*2',
+        ')',
+        cssAfterValue,
+      ],
+      `${cssBeforeValue}calc(${valueTransformation(value)}*2)${cssAfterValue}`
+    )
+    expectToEqual(
+      fn(value).c('/3')({}),
+      [
+        cssBeforeValue,
+        'calc(',
+        valueTransformation(value),
+        '/3',
+        ')',
+        cssAfterValue,
+      ],
+      `${cssBeforeValue}calc(${valueTransformation(value)}/3)${cssAfterValue}`
+    )
+  })
+
+  /* CALC & !important */
+  test(`${
+    fn.name_
+  }(${typeof value}) constructs calc !important with fallback`, () => {
+    expectToEqual(
+      fn(value).calc('/3').important()({}),
+      [
+        cssBeforeValue,
+        'calc(',
+        valueTransformation(value),
+        '/3',
+        ')',
+        importantCSSAfterValue,
+      ],
+      `${cssBeforeValue}calc(${valueTransformation(
+        value
+      )}/3)!important${cssAfterValue}`
+    )
+    expectToEqual(
+      fn(value).c('*2').i()({}),
+      [
+        cssBeforeValue,
+        'calc(',
+        valueTransformation(value),
+        '*2',
+        ')',
+        importantCSSAfterValue,
+      ],
+      `${cssBeforeValue}calc(${valueTransformation(
+        value
+      )}*2)!important${cssAfterValue}`
+    )
+  })
 }
 
 export const testStringValuesOn = (
