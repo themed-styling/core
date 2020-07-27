@@ -1,17 +1,17 @@
 import valueConstructor from '../../util/constructors/valueConstructor'
 import valueMaker from '../../util/makers/valueMaker'
 import calcValueMaker from '../../util/makers/calcValueMaker'
-import plainTransformer from '../../util/transformers/plainTransformer'
+import colorTransformer from '../../util/transformers/colorTransformer'
 
 /**
- * Returns a function that takes an object containing <code>flexBasis</code> and <code>theme</code> properties.
+ * Returns a function that takes an object containing <code>backgroundColor</code> and <code>theme</code> properties.
  *
  * This function is meant to be used with styled-components within your
  * component's template literal.
  *
  * @type {coreFunction}
- * @name flexBasis
- * @memberOf core.flex
+ * @name backgroundColor
+ * @memberOf core.background
  */
 
 export default fallback => {
@@ -21,14 +21,14 @@ export default fallback => {
       theme,
       fn.doCalc_
         ? calcValueMaker(
-            'flex-basis:',
-            plainTransformer,
+            'background-color:',
+            colorTransformer,
             fn.calc_,
             fn.important_ ? '!important;' : ';'
           )
         : valueMaker(
-            'flex-basis:',
-            plainTransformer,
+            'background-color:',
+            colorTransformer,
             fn.important_ ? '!important;' : ';'
           )
     )
@@ -39,7 +39,7 @@ export default fallback => {
   }
   fn.l = fn.propless
 
-  fn.propName_ = 'flexBasis'
+  fn.propName_ = 'backgroundColor'
   fn.propName = propName => {
     fn.propName_ = propName
     return fn
