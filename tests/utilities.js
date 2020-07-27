@@ -11,7 +11,7 @@ export const coreTest = (call, array, string) => {
 
 const expectToEqual = (result, expected, expectedString) => {
   expect(result).toStrictEqual(expected)
-  expect(result.flat().join('')).toBe(expectedString)
+  expect(result.flat(3).join('')).toBe(expectedString)
 }
 
 const testAnyValueOn = (
@@ -258,6 +258,234 @@ export const testNumberValuesOn = (
   )
 }
 
+export const testObjectValuesOn = (
+  fn,
+  cssBeforeValue,
+  cssAfterValue,
+  importantCSSAfterValue,
+  numberValueTransformation = value => value,
+  stringValueTransformation = value => value
+) => {
+  expect(fn).toBeDefined()
+
+  const standard = crypto.randomBytes(8).toString('hex')
+  const mobile = Math.round(Math.random() * 1000)
+  const tablet = crypto.randomBytes(8).toString('hex')
+  const desktop = Math.round(Math.random() * 1000)
+  const randomName = crypto.randomBytes(8).toString('hex')
+  const randomValue = crypto.randomBytes(8).toString('hex')
+
+  const object = { standard, mobile, tablet, desktop }
+  object[randomName] = randomValue
+
+  const breakpointTheme = {
+    breakpoints: {
+      mobile: '100px',
+      tablet: '200px',
+      desktop: '300px',
+    },
+  }
+  breakpointTheme.breakpoints[randomName] = '500px'
+
+  test(`${fn.name_}(object) constructs with breakpoints`, () => {
+    expectToEqual(
+      fn(object)({ theme: breakpointTheme }),
+      [
+        [cssBeforeValue, stringValueTransformation(standard), cssAfterValue],
+        [
+          ['@media screen and (min-width:', '100px', ')'],
+          '{',
+          [cssBeforeValue, numberValueTransformation(mobile), cssAfterValue],
+          '}',
+        ],
+        [
+          ['@media screen and (min-width:', '200px', ')'],
+          '{',
+          [cssBeforeValue, stringValueTransformation(tablet), cssAfterValue],
+          '}',
+        ],
+        [
+          ['@media screen and (min-width:', '300px', ')'],
+          '{',
+          [cssBeforeValue, numberValueTransformation(desktop), cssAfterValue],
+          '}',
+        ],
+        [
+          ['@media screen and (min-width:', '500px', ')'],
+          '{',
+          [
+            cssBeforeValue,
+            stringValueTransformation(randomValue),
+            cssAfterValue,
+          ],
+          '}',
+        ],
+      ],
+      `color:${standard};@media screen and (min-width:100px){color:#${mobile};}@media screen and (min-width:200px){color:${tablet};}@media screen and (min-width:300px){color:#${desktop};}@media screen and (min-width:500px){color:${randomValue};}`
+    )
+  })
+
+  test(`${fn.name_}(object) constructs important with breakpoints`, () => {
+    expectToEqual(
+      fn(object).important()({ theme: breakpointTheme }),
+      [
+        [
+          cssBeforeValue,
+          stringValueTransformation(standard),
+          importantCSSAfterValue,
+        ],
+        [
+          ['@media screen and (min-width:', '100px', ')'],
+          '{',
+          [
+            cssBeforeValue,
+            numberValueTransformation(mobile),
+            importantCSSAfterValue,
+          ],
+          '}',
+        ],
+        [
+          ['@media screen and (min-width:', '200px', ')'],
+          '{',
+          [
+            cssBeforeValue,
+            stringValueTransformation(tablet),
+            importantCSSAfterValue,
+          ],
+          '}',
+        ],
+        [
+          ['@media screen and (min-width:', '300px', ')'],
+          '{',
+          [
+            cssBeforeValue,
+            numberValueTransformation(desktop),
+            importantCSSAfterValue,
+          ],
+          '}',
+        ],
+        [
+          ['@media screen and (min-width:', '500px', ')'],
+          '{',
+          [
+            cssBeforeValue,
+            stringValueTransformation(randomValue),
+            importantCSSAfterValue,
+          ],
+          '}',
+        ],
+      ],
+      `color:${standard}!important;@media screen and (min-width:100px){color:#${mobile}!important;}@media screen and (min-width:200px){color:${tablet}!important;}@media screen and (min-width:300px){color:#${desktop}!important;}@media screen and (min-width:500px){color:${randomValue}!important;}`
+    )
+  })
+
+  const mediaQueriesTheme = {
+    breakpoints: {
+      mobile: '100px',
+      tablet: '200px',
+      desktop: '300px',
+    },
+    mediaQueries: {
+      mobile: 'mobile_mq_test',
+      tablet: 'tablet_mq_test',
+      desktop: 'desktop_mq_test',
+    },
+  }
+  mediaQueriesTheme.mediaQueries[randomName] = 'randomName_mq_test'
+
+  test(`${fn.name_}(object) constructs with mediaQueries`, () => {
+    expectToEqual(
+      fn(object)({ theme: mediaQueriesTheme }),
+      [
+        [cssBeforeValue, stringValueTransformation(standard), cssAfterValue],
+        [
+          'mobile_mq_test',
+          '{',
+          [cssBeforeValue, numberValueTransformation(mobile), cssAfterValue],
+          '}',
+        ],
+        [
+          'tablet_mq_test',
+          '{',
+          [cssBeforeValue, stringValueTransformation(tablet), cssAfterValue],
+          '}',
+        ],
+        [
+          'desktop_mq_test',
+          '{',
+          [cssBeforeValue, numberValueTransformation(desktop), cssAfterValue],
+          '}',
+        ],
+        [
+          'randomName_mq_test',
+          '{',
+          [
+            cssBeforeValue,
+            stringValueTransformation(randomValue),
+            cssAfterValue,
+          ],
+          '}',
+        ],
+      ],
+      `color:${standard};mobile_mq_test{color:#${mobile};}tablet_mq_test{color:${tablet};}desktop_mq_test{color:#${desktop};}randomName_mq_test{color:${randomValue};}`
+    )
+  })
+
+  test(`${fn.name_}(object) constructs important with mediaQueries`, () => {
+    expectToEqual(
+      fn(object).important()({ theme: mediaQueriesTheme }),
+      [
+        [
+          cssBeforeValue,
+          stringValueTransformation(standard),
+          importantCSSAfterValue,
+        ],
+        [
+          'mobile_mq_test',
+          '{',
+          [
+            cssBeforeValue,
+            numberValueTransformation(mobile),
+            importantCSSAfterValue,
+          ],
+          '}',
+        ],
+        [
+          'tablet_mq_test',
+          '{',
+          [
+            cssBeforeValue,
+            stringValueTransformation(tablet),
+            importantCSSAfterValue,
+          ],
+          '}',
+        ],
+        [
+          'desktop_mq_test',
+          '{',
+          [
+            cssBeforeValue,
+            numberValueTransformation(desktop),
+            importantCSSAfterValue,
+          ],
+          '}',
+        ],
+        [
+          'randomName_mq_test',
+          '{',
+          [
+            cssBeforeValue,
+            stringValueTransformation(randomValue),
+            importantCSSAfterValue,
+          ],
+          '}',
+        ],
+      ],
+      `color:${standard}!important;mobile_mq_test{color:#${mobile}!important;}tablet_mq_test{color:${tablet}!important;}desktop_mq_test{color:#${desktop}!important;}randomName_mq_test{color:${randomValue}!important;}`
+    )
+  })
+}
+
 export const testIllegalValuesOn = fn => {
   expect(fn).toBeDefined()
 
@@ -268,7 +496,7 @@ export const testIllegalValuesOn = fn => {
     expect(() => fn.p('value')({ value: null })).toThrow(TypeError)
 
     /* IMPORTANT */
-    expect(() => fn.important(null)({})).toThrow(TypeError)
+    expect(() => fn(null).important()({})).toThrow(TypeError)
     expect(() => fn.important.propName('value')({ value: null })).toThrow(
       TypeError
     )
@@ -290,13 +518,4 @@ export const testIllegalValuesOn = fn => {
     expect(() => fn.propless.important()({})).toThrow(TypeError)
     expect(() => fn.l.i()({})).toThrow(TypeError)
   })
-}
-
-export const theme = {
-  breakpoints: {
-    myCoolBreakpoint: '200px',
-    mobile: '375px',
-    tablet: '768px',
-    desktop: '1440px',
-  },
 }
