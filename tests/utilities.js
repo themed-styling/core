@@ -106,12 +106,12 @@ const testAnyValueOn = (
     expectToEqual(
       fn(value).important()({}),
       [cssBeforeValue, valueTransformation(value), importantCSSAfterValue],
-      `${cssBeforeValue}${valueTransformation(value)}!important${cssAfterValue}`
+      `${cssBeforeValue}${valueTransformation(value)}${importantCSSAfterValue}`
     )
     expectToEqual(
       fn(value).i()({}),
       [cssBeforeValue, valueTransformation(value), importantCSSAfterValue],
-      `${cssBeforeValue}${valueTransformation(value)}!important${cssAfterValue}`
+      `${cssBeforeValue}${valueTransformation(value)}${importantCSSAfterValue}`
     )
   })
 
@@ -122,22 +122,22 @@ const testAnyValueOn = (
     expectToEqual(
       fn(null).important().propName('value')({ value: value }),
       [cssBeforeValue, valueTransformation(value), importantCSSAfterValue],
-      `${cssBeforeValue}${valueTransformation(value)}!important${cssAfterValue}`
+      `${cssBeforeValue}${valueTransformation(value)}${importantCSSAfterValue}`
     )
     expectToEqual(
       fn(null).important().p('value')({ value: value }),
       [cssBeforeValue, valueTransformation(value), importantCSSAfterValue],
-      `${cssBeforeValue}${valueTransformation(value)}!important${cssAfterValue}`
+      `${cssBeforeValue}${valueTransformation(value)}${importantCSSAfterValue}`
     )
     expectToEqual(
       fn(null).i().propName('value')({ value: value }),
       [cssBeforeValue, valueTransformation(value), importantCSSAfterValue],
-      `${cssBeforeValue}${valueTransformation(value)}!important${cssAfterValue}`
+      `${cssBeforeValue}${valueTransformation(value)}${importantCSSAfterValue}`
     )
     expectToEqual(
       fn(null).i().p('value')({ value: value }),
       [cssBeforeValue, valueTransformation(value), importantCSSAfterValue],
-      `${cssBeforeValue}${valueTransformation(value)}!important${cssAfterValue}`
+      `${cssBeforeValue}${valueTransformation(value)}${importantCSSAfterValue}`
     )
   })
 
@@ -148,12 +148,12 @@ const testAnyValueOn = (
     expectToEqual(
       fn(value).propless().important()({}),
       [cssBeforeValue, valueTransformation(value), importantCSSAfterValue],
-      `${cssBeforeValue}${valueTransformation(value)}!important${cssAfterValue}`
+      `${cssBeforeValue}${valueTransformation(value)}${importantCSSAfterValue}`
     )
     expectToEqual(
       fn(value).l().i()({}),
       [cssBeforeValue, valueTransformation(value), importantCSSAfterValue],
-      `${cssBeforeValue}${valueTransformation(value)}!important${cssAfterValue}`
+      `${cssBeforeValue}${valueTransformation(value)}${importantCSSAfterValue}`
     )
   })
 
@@ -201,7 +201,7 @@ const testAnyValueOn = (
       ],
       `${cssBeforeValue}calc(${valueTransformation(
         value
-      )}/3)!important${cssAfterValue}`
+      )}/3)${importantCSSAfterValue}`
     )
     expectToEqual(
       fn(value).c('*2').i()({}),
@@ -215,7 +215,7 @@ const testAnyValueOn = (
       ],
       `${cssBeforeValue}calc(${valueTransformation(
         value
-      )}*2)!important${cssAfterValue}`
+      )}*2)${importantCSSAfterValue}`
     )
   })
 }
@@ -323,15 +323,15 @@ export const testObjectValuesOn = (
       ],
       `${cssBeforeValue}${stringValueTransformation(
         standard
-      )};@media screen and (min-width:100px){${cssBeforeValue}${numberValueTransformation(
+      )}${cssAfterValue}@media screen and (min-width:100px){${cssBeforeValue}${numberValueTransformation(
         mobile
-      )};}@media screen and (min-width:200px){${cssBeforeValue}${stringValueTransformation(
+      )}${cssAfterValue}}@media screen and (min-width:200px){${cssBeforeValue}${stringValueTransformation(
         tablet
-      )};}@media screen and (min-width:300px){${cssBeforeValue}${numberValueTransformation(
+      )}${cssAfterValue}}@media screen and (min-width:300px){${cssBeforeValue}${numberValueTransformation(
         desktop
-      )};}@media screen and (min-width:500px){${cssBeforeValue}${stringValueTransformation(
+      )}${cssAfterValue}}@media screen and (min-width:500px){${cssBeforeValue}${stringValueTransformation(
         randomValue
-      )};}`
+      )}${cssAfterValue}}`
     )
   })
 
@@ -387,15 +387,15 @@ export const testObjectValuesOn = (
       ],
       `${cssBeforeValue}${stringValueTransformation(
         standard
-      )}!important;@media screen and (min-width:100px){${cssBeforeValue}${numberValueTransformation(
+      )}${importantCSSAfterValue}@media screen and (min-width:100px){${cssBeforeValue}${numberValueTransformation(
         mobile
-      )}!important;}@media screen and (min-width:200px){${cssBeforeValue}${stringValueTransformation(
+      )}${importantCSSAfterValue}}@media screen and (min-width:200px){${cssBeforeValue}${stringValueTransformation(
         tablet
-      )}!important;}@media screen and (min-width:300px){${cssBeforeValue}${numberValueTransformation(
+      )}${importantCSSAfterValue}}@media screen and (min-width:300px){${cssBeforeValue}${numberValueTransformation(
         desktop
-      )}!important;}@media screen and (min-width:500px){${cssBeforeValue}${stringValueTransformation(
+      )}${importantCSSAfterValue}}@media screen and (min-width:500px){${cssBeforeValue}${stringValueTransformation(
         randomValue
-      )}!important;}`
+      )}${importantCSSAfterValue}}`
     )
   })
 
@@ -449,15 +449,15 @@ export const testObjectValuesOn = (
       ],
       `${cssBeforeValue}${stringValueTransformation(
         standard
-      )};mobile_mq_test{${cssBeforeValue}${numberValueTransformation(
+      )}${cssAfterValue}mobile_mq_test{${cssBeforeValue}${numberValueTransformation(
         mobile
-      )};}tablet_mq_test{${cssBeforeValue}${stringValueTransformation(
+      )}${cssAfterValue}}tablet_mq_test{${cssBeforeValue}${stringValueTransformation(
         tablet
-      )};}desktop_mq_test{${cssBeforeValue}${numberValueTransformation(
+      )}${cssAfterValue}}desktop_mq_test{${cssBeforeValue}${numberValueTransformation(
         desktop
-      )};}randomName_mq_test{${cssBeforeValue}${stringValueTransformation(
+      )}${cssAfterValue}}randomName_mq_test{${cssBeforeValue}${stringValueTransformation(
         randomValue
-      )};}`
+      )}${cssAfterValue}}`
     )
   })
 
@@ -513,15 +513,15 @@ export const testObjectValuesOn = (
       ],
       `${cssBeforeValue}${stringValueTransformation(
         standard
-      )}!important;mobile_mq_test{${cssBeforeValue}${numberValueTransformation(
+      )}${importantCSSAfterValue}mobile_mq_test{${cssBeforeValue}${numberValueTransformation(
         mobile
-      )}!important;}tablet_mq_test{${cssBeforeValue}${stringValueTransformation(
+      )}${importantCSSAfterValue}}tablet_mq_test{${cssBeforeValue}${stringValueTransformation(
         tablet
-      )}!important;}desktop_mq_test{${cssBeforeValue}${numberValueTransformation(
+      )}${importantCSSAfterValue}}desktop_mq_test{${cssBeforeValue}${numberValueTransformation(
         desktop
-      )}!important;}randomName_mq_test{${cssBeforeValue}${stringValueTransformation(
+      )}${importantCSSAfterValue}}randomName_mq_test{${cssBeforeValue}${stringValueTransformation(
         randomValue
-      )}!important;}`
+      )}${importantCSSAfterValue}}`
     )
   })
 }
