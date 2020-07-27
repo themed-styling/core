@@ -1,19 +1,13 @@
 import valueTemplate from './valueTemplate.js'
 
-export default ({ name, namespace, cssFunctionName, transformerType }) => {
-  const namespaceValue = namespace ? `core.${namespace}` : 'core'
-
-  const transformerName = `${transformerType}Transformer`
-  const transformerImport = `import ${transformerName} from '../../util/transformers/${transformerName}'`
-
-  return valueTemplate({
+export default ({ name, namespace, cssFunctionName, transformerType }) =>
+  valueTemplate({
     nameValue: name,
-    namespaceValue,
+    namespaceValue: 'core.filter',
     makerFirstArgument: `'filter:${cssFunctionName}('`,
-    makerTransformerArgument: transformerName,
+    makerTransformerArgument: `${transformerType}Transformer`,
     makerThirdArgument: `');'`,
     makerThirdArgumentImportant: `')!important;'`,
     utilFilePath: '../../util/',
-    transformerImport,
+    transformerImport: `import ${transformerType}Transformer from '../../util/transformers/${transformerType}Transformer'`,
   })
-}
