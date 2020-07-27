@@ -1,16 +1,16 @@
 import valueConstructor from '../../util/constructors/valueConstructor'
 import valueMaker from '../../util/makers/valueMaker'
 import calcValueMaker from '../../util/makers/calcValueMaker'
-import percentTransformer from '../../util/transformers/percentTransformer'
+import plainTransformer from '../../util/transformers/plainTransformer'
 
 /**
- * Returns a function that takes an object containing <code>dropShadow</code> and <code>theme</code> properties.
+ * Returns a function that takes an object containing <code>filterURL</code> and <code>theme</code> properties.
  *
  * This function is meant to be used with styled-components within your
  * component's template literal.
  *
  * @type {coreFunction}
- * @name dropShadow
+ * @name filterURL
  * @memberOf core.filter
  */
 
@@ -21,14 +21,14 @@ export default fallback => {
       theme,
       fn.doCalc_
         ? calcValueMaker(
-            'filter:drop-shadow(',
-            percentTransformer,
+            'filter:url(',
+            plainTransformer,
             fn.calc_,
             fn.important_ ? ')!important;' : ');'
           )
         : valueMaker(
-            'filter:drop-shadow(',
-            percentTransformer,
+            'filter:url(',
+            plainTransformer,
             fn.important_ ? ')!important;' : ');'
           )
     )
@@ -39,7 +39,7 @@ export default fallback => {
   }
   fn.l = fn.propless
 
-  fn.propName_ = 'dropShadow'
+  fn.propName_ = 'filterURL'
   fn.propName = propName => {
     fn.propName_ = propName
     return fn
