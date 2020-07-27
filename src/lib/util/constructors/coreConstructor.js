@@ -6,7 +6,7 @@ export default (fallback, propName, cssMaker) => ({ theme, ...props }) => {
   const value_ = get(value, theme) || value
   switch (typeof value) {
     case 'object':
-      return fromObject(value_, cssMaker)
+      return fromObject(value_, theme, cssMaker)
     case 'string':
     case 'number':
     case 'bigint':
