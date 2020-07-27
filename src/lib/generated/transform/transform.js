@@ -1,32 +1,66 @@
-import propless from '../util/propless'
-import construct from '../util/construct'
-import plain from '../util/transformers/plain'
+import valueConstructor from '../../util/constructors/valueConstructor'
+import valueMaker from '../../util/makers/valueMaker'
+import calcValueMaker from '../../util/makers/calcValueMaker'
+import plainTransformer from '../../util/transformers/plainTransformer'
 
 /**
- * Returns a function that takes an object containing transform and theme properties.
+ * Returns a function that takes an object containing <code>transform</code> and <code>theme</code> properties.
  *
- * This function is meant to be used with styled-components. Call this function within your styled-component's template literal like so:
+ * This function is meant to be used with styled-components within your
+ * component's template literal.
  *
- * @example
- * const MyComponent = styled.div`
- *   ${transform()}
- * `
- * @example
- * const MyComponent = styled.div`
- *   ${transform('scale(1.5)')}
- * `
- * @example
- * const MyComponent = styled.div`
- *   ${transform({ breakpoint1: 'scale(1.5)', breakpoint2: 'scale(2)'})}
- * `
- *
- * @param {(Object.<(string|number|bigint)>|Array.<(string|number|bigint)>|string|number|bigint)=} fallback - A fallback value for when the object passed to the returned function does not contain a transform value
- * @param {boolean=} [propless=false] - Whether the component should be without prop
- * @returns {function({props})} Function to take component props passed by styled-components
+ * @type {coreFunction}
  * @name transform
- * @memberOf core
+ * @memberOf core.transform
  */
-export default propless(
-  (value, theme) => construct(value, theme, 'transform', plain),
-  'transform'
-)
+
+export default fallback => {
+  const fn = ({ theme, ...props }) =>
+    valueConstructor(
+      fn.propless_ ? fallback : props[fn.propName_] || fallback,
+      theme,
+      fn.doCalc_
+        ? calcValueMaker(
+            'transform:',
+            plainTransformer,
+            fn.calc_,
+            fn.important_ ? '!important;' : ';'
+          )
+        : valueMaker(
+            'transform:',
+            plainTransformer,
+            fn.important_ ? '!important;' : ';'
+          )
+    )
+  fn.propless_ = false
+  fn.propless = () => {
+    fn.propless_ = true
+    return fn
+  }
+  fn.l = fn.propless
+
+  fn.propName_ = 'transform'
+  fn.propName = propName => {
+    fn.propName_ = propName
+    return fn
+  }
+  fn.p = fn.propName
+
+  fn.important_ = false
+  fn.important = () => {
+    fn.important_ = true
+    return fn
+  }
+  fn.i = fn.important
+
+  fn.calc_ = undefined
+  fn.doCalc_ = false
+  fn.calc = calc => {
+    fn.calc_ = calc
+    fn.doCalc_ = true
+    return fn
+  }
+  fn.c = fn.calc
+
+  return fn
+}

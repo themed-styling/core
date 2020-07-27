@@ -1,32 +1,66 @@
-import propless from '../util/propless'
-import universal from '../util/universal'
-import plain from '../util/transformers/plain'
+import valueConstructor from '../../util/constructors/valueConstructor'
+import valueMaker from '../../util/makers/valueMaker'
+import calcValueMaker from '../../util/makers/calcValueMaker'
+import plainTransformer from '../../util/transformers/plainTransformer'
 
 /**
- * Returns a function that takes an object containing matrix3D and theme properties.
+ * Returns a function that takes an object containing <code>matrix3D</code> and <code>theme</code> properties.
  *
- * This function is meant to be used with styled-components. Call this function within your styled-component's template literal like so:
+ * This function is meant to be used with styled-components within your
+ * component's template literal.
  *
- * @example
- * const MyComponent = styled.div`
- *   ${matrix3D()}
- * `
- * @example
- * const MyComponent = styled.div`
- *   ${matrix3D('1,2,2,4,1,2,5,4,1,1,3,6,1,4,8,4')}
- * `
- * @example
- * const MyComponent = styled.div`
- *   ${matrix3D({ breakpoint1: '1,2,2,4,1,2,5,4,1,1,3,6,1,4,8,4', breakpoint2: '1,2,1,4,1,1,5,4,1,1,3,1,1,4,2,1'})}
- * `
- *
- * @param {(Object.<(string|number|bigint)>|Array.<(string|number|bigint)>|string|number|bigint)=} fallback - A fallback value for when the object passed to the returned function does not contain a matrix3D value
- * @param {boolean=} [propless=false] - Whether the component should be without prop
- * @returns {function({props})} Function to take component props passed by styled-components
+ * @type {coreFunction}
  * @name matrix3D
- * @memberOf core
+ * @memberOf core.transform
  */
-export default propless(
-  (value, theme) => universal(value, theme, 'transform:matrix3d(', ');', plain),
-  'matrix3D'
-)
+
+export default fallback => {
+  const fn = ({ theme, ...props }) =>
+    valueConstructor(
+      fn.propless_ ? fallback : props[fn.propName_] || fallback,
+      theme,
+      fn.doCalc_
+        ? calcValueMaker(
+            'transform:matrix3d(',
+            plainTransformer,
+            fn.calc_,
+            fn.important_ ? ')!important;' : ');'
+          )
+        : valueMaker(
+            'transform:matrix3d(',
+            plainTransformer,
+            fn.important_ ? ')!important;' : ');'
+          )
+    )
+  fn.propless_ = false
+  fn.propless = () => {
+    fn.propless_ = true
+    return fn
+  }
+  fn.l = fn.propless
+
+  fn.propName_ = 'matrix3D'
+  fn.propName = propName => {
+    fn.propName_ = propName
+    return fn
+  }
+  fn.p = fn.propName
+
+  fn.important_ = false
+  fn.important = () => {
+    fn.important_ = true
+    return fn
+  }
+  fn.i = fn.important
+
+  fn.calc_ = undefined
+  fn.doCalc_ = false
+  fn.calc = calc => {
+    fn.calc_ = calc
+    fn.doCalc_ = true
+    return fn
+  }
+  fn.c = fn.calc
+
+  return fn
+}
