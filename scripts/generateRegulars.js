@@ -71,8 +71,6 @@ export const regularFunctions = [
   regularFunction('minWidth')('dimensions')('px'),
   regularFunction('width')('dimensions')('px'),
 
-  regularFunction('filter')('filter')('plain'),
-
   regularFunction('flex')('flex')('plain'),
   regularFunction('flexBasis')('flex')('plain'),
   regularFunction('flexGrow')('flex')('plain'),
@@ -115,6 +113,9 @@ export const regularFunctions = [
   regularFunction('position')('positioning')('plain'),
   regularFunction('right')('positioning')('px'),
   regularFunction('top')('positioning')('px'),
+
+  regularFunction('filter')('filter')('plain'),
+  regularFunction('transform')('transform')('plain'),
 ]
 
 writeFunctions(regularFunctions, regularTemplate)
