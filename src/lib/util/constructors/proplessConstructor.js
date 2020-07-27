@@ -5,7 +5,7 @@ export default (value, cssMaker) => ({ theme }) => {
   const value_ = get(value, theme) || value
   switch (typeof value_) {
     case 'object':
-      return fromObject(value_, cssMaker)
+      return fromObject(value_, theme, cssMaker)
     case 'string':
     case 'number':
     case 'bigint':
