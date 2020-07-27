@@ -321,7 +321,17 @@ export const testObjectValuesOn = (
           '}',
         ],
       ],
-      `color:${standard};@media screen and (min-width:100px){color:#${mobile};}@media screen and (min-width:200px){color:${tablet};}@media screen and (min-width:300px){color:#${desktop};}@media screen and (min-width:500px){color:${randomValue};}`
+      `${cssBeforeValue}${stringValueTransformation(
+        standard
+      )};@media screen and (min-width:100px){${cssBeforeValue}${numberValueTransformation(
+        mobile
+      )};}@media screen and (min-width:200px){${cssBeforeValue}${stringValueTransformation(
+        tablet
+      )};}@media screen and (min-width:300px){${cssBeforeValue}${numberValueTransformation(
+        desktop
+      )};}@media screen and (min-width:500px){${cssBeforeValue}${stringValueTransformation(
+        randomValue
+      )};}`
     )
   })
 
@@ -375,7 +385,17 @@ export const testObjectValuesOn = (
           '}',
         ],
       ],
-      `color:${standard}!important;@media screen and (min-width:100px){color:#${mobile}!important;}@media screen and (min-width:200px){color:${tablet}!important;}@media screen and (min-width:300px){color:#${desktop}!important;}@media screen and (min-width:500px){color:${randomValue}!important;}`
+      `${cssBeforeValue}${stringValueTransformation(
+        standard
+      )}!important;@media screen and (min-width:100px){${cssBeforeValue}${numberValueTransformation(
+        mobile
+      )}!important;}@media screen and (min-width:200px){${cssBeforeValue}${stringValueTransformation(
+        tablet
+      )}!important;}@media screen and (min-width:300px){${cssBeforeValue}${numberValueTransformation(
+        desktop
+      )}!important;}@media screen and (min-width:500px){${cssBeforeValue}${stringValueTransformation(
+        randomValue
+      )}!important;}`
     )
   })
 
@@ -427,7 +447,17 @@ export const testObjectValuesOn = (
           '}',
         ],
       ],
-      `color:${standard};mobile_mq_test{color:#${mobile};}tablet_mq_test{color:${tablet};}desktop_mq_test{color:#${desktop};}randomName_mq_test{color:${randomValue};}`
+      `${cssBeforeValue}${stringValueTransformation(
+        standard
+      )};mobile_mq_test{${cssBeforeValue}${numberValueTransformation(
+        mobile
+      )};}tablet_mq_test{${cssBeforeValue}${stringValueTransformation(
+        tablet
+      )};}desktop_mq_test{${cssBeforeValue}${numberValueTransformation(
+        desktop
+      )};}randomName_mq_test{${cssBeforeValue}${stringValueTransformation(
+        randomValue
+      )};}`
     )
   })
 
@@ -481,7 +511,17 @@ export const testObjectValuesOn = (
           '}',
         ],
       ],
-      `color:${standard}!important;mobile_mq_test{color:#${mobile}!important;}tablet_mq_test{color:${tablet}!important;}desktop_mq_test{color:#${desktop}!important;}randomName_mq_test{color:${randomValue}!important;}`
+      `${cssBeforeValue}${stringValueTransformation(
+        standard
+      )}!important;mobile_mq_test{${cssBeforeValue}${numberValueTransformation(
+        mobile
+      )}!important;}tablet_mq_test{${cssBeforeValue}${stringValueTransformation(
+        tablet
+      )}!important;}desktop_mq_test{${cssBeforeValue}${numberValueTransformation(
+        desktop
+      )}!important;}randomName_mq_test{${cssBeforeValue}${stringValueTransformation(
+        randomValue
+      )}!important;}`
     )
   })
 }
