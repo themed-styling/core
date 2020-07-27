@@ -1,38 +1,66 @@
-import core from '../../util/core'
-import propless from '../../util/propless'
-import defaultMaker from '../../util/makers/defaultMaker'
+import valueConstructor from '../../util/constructors/valueConstructor'
+import valueMaker from '../../util/makers/valueMaker'
+import calcValueMaker from '../../util/makers/calcValueMaker'
 import plainTransformer from '../../util/transformers/plainTransformer'
 
 /**
- * Returns a function that takes an object containing backgroundAttachment and theme properties.
+ * Returns a function that takes an object containing <code>backgroundAttachment</code> and <code>theme</code> properties.
  *
  * This function is meant to be used with styled-components within your
  * component's template literal.
  *
  * @type {coreFunction}
- * @property {coreFunction} important - Function to add styling and prop, and mark the value as !important
- * @property {coreFunction} i - Shorthand for .important
- * @property {proplessFunction} propless - Function to add styling without adding a prop
- * @property {proplessFunction} l - Shorthand for .propless
- * @property {proplessFunction} propless.important - Function to add styling without adding a prop and mark the value as !important
- * @property {proplessFunction} l.i - Shorthand for .propless.important
  * @name backgroundAttachment
  * @memberOf core.background
  */
-const backgroundAttachment = core(
-  'backgroundAttachment',
-  defaultMaker('background-attachment:')(plainTransformer)()
-)
-backgroundAttachment.important = backgroundAttachment.i = core(
-  'backgroundAttachment',
-  defaultMaker('background-attachment:')(plainTransformer)('!important;')
-)
 
-backgroundAttachment.propless = backgroundAttachment.l = propless(
-  defaultMaker('background-attachment:')(plainTransformer)()
-)
-backgroundAttachment.propless.important = backgroundAttachment.l.i = propless(
-  defaultMaker('background-attachment:')(plainTransformer)('!important;')
-)
+export default fallback => {
+  const fn = ({ theme, ...props }) =>
+    valueConstructor(
+      fn.propless_ ? fallback : props[fn.propName_] || fallback,
+      theme,
+      fn.doCalc_
+        ? calcValueMaker(
+            'background-attachment:',
+            plainTransformer,
+            fn.calc_,
+            fn.important_ ? '!important;' : ';'
+          )
+        : valueMaker(
+            'background-attachment:',
+            plainTransformer,
+            fn.important_ ? '!important;' : ';'
+          )
+    )
+  fn.propless_ = false
+  fn.propless = () => {
+    fn.propless_ = true
+    return fn
+  }
+  fn.l = fn.propless
 
-export default backgroundAttachment
+  fn.propName_ = 'backgroundAttachment'
+  fn.propName = propName => {
+    fn.propName_ = propName
+    return fn
+  }
+  fn.p = fn.propName
+
+  fn.important_ = false
+  fn.important = () => {
+    fn.important_ = true
+    return fn
+  }
+  fn.i = fn.important
+
+  fn.calc_ = undefined
+  fn.doCalc_ = false
+  fn.calc = calc => {
+    fn.calc_ = calc
+    fn.doCalc_ = true
+    return fn
+  }
+  fn.c = fn.calc
+
+  return fn
+}

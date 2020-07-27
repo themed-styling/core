@@ -1,32 +1,66 @@
-import core from '../../util/core'
-import propless from '../../util/propless'
-import defaultMaker from '../../util/makers/defaultMaker'
+import valueConstructor from '../../util/constructors/valueConstructor'
+import valueMaker from '../../util/makers/valueMaker'
+import calcValueMaker from '../../util/makers/calcValueMaker'
+import pxTransformer from '../../util/transformers/pxTransformer'
 
 /**
- * Returns a function that takes an object containing fontSize and theme properties.
+ * Returns a function that takes an object containing <code>fontSize</code> and <code>theme</code> properties.
  *
  * This function is meant to be used with styled-components within your
  * component's template literal.
  *
  * @type {coreFunction}
- * @property {coreFunction} important - Function to add styling and prop, and mark the value as !important
- * @property {coreFunction} i - Shorthand for .important
- * @property {proplessFunction} propless - Function to add styling without adding a prop
- * @property {proplessFunction} l - Shorthand for .propless
- * @property {proplessFunction} propless.important - Function to add styling without adding a prop and mark the value as !important
- * @property {proplessFunction} l.i - Shorthand for .propless.important
  * @name fontSize
  * @memberOf core.font
  */
-const fontSize = core('fontSize', defaultMaker('font-size:')()())
-fontSize.important = fontSize.i = core(
-  'fontSize',
-  defaultMaker('font-size:')()('!important;')
-)
 
-fontSize.propless = fontSize.l = propless(defaultMaker('font-size:')()())
-fontSize.propless.important = fontSize.l.i = propless(
-  defaultMaker('font-size:')()('!important;')
-)
+export default fallback => {
+  const fn = ({ theme, ...props }) =>
+    valueConstructor(
+      fn.propless_ ? fallback : props[fn.propName_] || fallback,
+      theme,
+      fn.doCalc_
+        ? calcValueMaker(
+            'font-size:',
+            pxTransformer,
+            fn.calc_,
+            fn.important_ ? '!important;' : ';'
+          )
+        : valueMaker(
+            'font-size:',
+            pxTransformer,
+            fn.important_ ? '!important;' : ';'
+          )
+    )
+  fn.propless_ = false
+  fn.propless = () => {
+    fn.propless_ = true
+    return fn
+  }
+  fn.l = fn.propless
 
-export default fontSize
+  fn.propName_ = 'fontSize'
+  fn.propName = propName => {
+    fn.propName_ = propName
+    return fn
+  }
+  fn.p = fn.propName
+
+  fn.important_ = false
+  fn.important = () => {
+    fn.important_ = true
+    return fn
+  }
+  fn.i = fn.important
+
+  fn.calc_ = undefined
+  fn.doCalc_ = false
+  fn.calc = calc => {
+    fn.calc_ = calc
+    fn.doCalc_ = true
+    return fn
+  }
+  fn.c = fn.calc
+
+  return fn
+}

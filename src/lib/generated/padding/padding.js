@@ -1,32 +1,66 @@
-import core from '../../util/core'
-import propless from '../../util/propless'
-import defaultMaker from '../../util/makers/defaultMaker'
+import valueConstructor from '../../util/constructors/valueConstructor'
+import valueMaker from '../../util/makers/valueMaker'
+import calcValueMaker from '../../util/makers/calcValueMaker'
+import pxTransformer from '../../util/transformers/pxTransformer'
 
 /**
- * Returns a function that takes an object containing padding and theme properties.
+ * Returns a function that takes an object containing <code>padding</code> and <code>theme</code> properties.
  *
  * This function is meant to be used with styled-components within your
  * component's template literal.
  *
  * @type {coreFunction}
- * @property {coreFunction} important - Function to add styling and prop, and mark the value as !important
- * @property {coreFunction} i - Shorthand for .important
- * @property {proplessFunction} propless - Function to add styling without adding a prop
- * @property {proplessFunction} l - Shorthand for .propless
- * @property {proplessFunction} propless.important - Function to add styling without adding a prop and mark the value as !important
- * @property {proplessFunction} l.i - Shorthand for .propless.important
  * @name padding
  * @memberOf core.padding
  */
-const padding = core('padding', defaultMaker('padding:')()())
-padding.important = padding.i = core(
-  'padding',
-  defaultMaker('padding:')()('!important;')
-)
 
-padding.propless = padding.l = propless(defaultMaker('padding:')()())
-padding.propless.important = padding.l.i = propless(
-  defaultMaker('padding:')()('!important;')
-)
+export default fallback => {
+  const fn = ({ theme, ...props }) =>
+    valueConstructor(
+      fn.propless_ ? fallback : props[fn.propName_] || fallback,
+      theme,
+      fn.doCalc_
+        ? calcValueMaker(
+            'padding:',
+            pxTransformer,
+            fn.calc_,
+            fn.important_ ? '!important;' : ';'
+          )
+        : valueMaker(
+            'padding:',
+            pxTransformer,
+            fn.important_ ? '!important;' : ';'
+          )
+    )
+  fn.propless_ = false
+  fn.propless = () => {
+    fn.propless_ = true
+    return fn
+  }
+  fn.l = fn.propless
 
-export default padding
+  fn.propName_ = 'padding'
+  fn.propName = propName => {
+    fn.propName_ = propName
+    return fn
+  }
+  fn.p = fn.propName
+
+  fn.important_ = false
+  fn.important = () => {
+    fn.important_ = true
+    return fn
+  }
+  fn.i = fn.important
+
+  fn.calc_ = undefined
+  fn.doCalc_ = false
+  fn.calc = calc => {
+    fn.calc_ = calc
+    fn.doCalc_ = true
+    return fn
+  }
+  fn.c = fn.calc
+
+  return fn
+}
