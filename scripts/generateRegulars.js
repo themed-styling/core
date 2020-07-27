@@ -1,8 +1,5 @@
-import fs from 'fs'
-
-import format from './util/format.js'
 import regularTemplate from './util/templates/regularTemplate.js'
-import indexTemplate from './util/templates/indexTemplate.js'
+import { writeFunctions, writeIndex } from './util/write.js'
 
 const regularFunction = name => namespace => transformerType => ({
   name,
@@ -10,7 +7,7 @@ const regularFunction = name => namespace => transformerType => ({
   transformerType,
 })
 
-const regularFunctions = [
+export const regularFunctions = [
   regularFunction('boxShadow')()('plain'),
   regularFunction('color')()('color'),
   regularFunction('display')()('plain'),
@@ -74,6 +71,8 @@ const regularFunctions = [
   regularFunction('minWidth')('dimensions')('px'),
   regularFunction('width')('dimensions')('px'),
 
+  regularFunction('filter')('filter')('plain'),
+
   regularFunction('flex')('flex')('plain'),
   regularFunction('flexBasis')('flex')('plain'),
   regularFunction('flexGrow')('flex')('plain'),
@@ -118,40 +117,5 @@ const regularFunctions = [
   regularFunction('top')('positioning')('px'),
 ]
 
-for (let { name, namespace, transformerType } of regularFunctions) {
-  fs.writeFile(
-    namespace
-      ? `./src/lib/generated/${namespace}/${name}.js`
-      : `./src/lib/generated/${name}.js`,
-    format(
-      regularTemplate({
-        name,
-        namespace,
-        transformerType,
-      })
-    ),
-    error => {
-      if (error) {
-        console.error(`${name}: ${error.message}`)
-      } else {
-        console.info(
-          namespace
-            ? `OK ${namespace}/${name} (${transformerType})`
-            : `OK ${name} (${transformerType})`
-        )
-      }
-    }
-  )
-}
-
-fs.writeFile(
-  './src/lib/generated/index.js',
-  format(indexTemplate(regularFunctions)),
-  error => {
-    if (error) {
-      console.error(`index: ${error.message}`)
-    } else {
-      console.info(`index OK`)
-    }
-  }
-)
+writeFunctions(regularFunctions, regularTemplate)
+writeIndex(regularFunctions)
