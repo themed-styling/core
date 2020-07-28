@@ -1,18 +1,20 @@
-import flexBasis from '../../src/lib/flex/flexBasis'
-import { coreTest } from '../utilities'
+import { flexBasis } from '../../src/'
+import {
+  testStringValuesOn,
+  testNumberValuesOn,
+  testObjectValuesOn,
+  testIllegalValuesOn,
+} from '../utilities'
 
-test('constructs array (number)', () => {
-  coreTest(
-    flexBasis(20)({}),
-    [['flex-basis', ':'], '20px', ';'],
-    'flex-basis:20px;'
-  )
-})
-
-test('constructs array (string)', () => {
-  coreTest(
-    flexBasis('1rem')({}),
-    [['flex-basis', ':'], '1rem', ';'],
-    'flex-basis:1rem;'
-  )
-})
+flexBasis.name_ = 'flexBasis'
+testStringValuesOn(flexBasis, 'flex-basis:', ';', '!important;', value => value)
+testNumberValuesOn(flexBasis, 'flex-basis:', ';', '!important;', value => value)
+testObjectValuesOn(
+  flexBasis,
+  'flex-basis:',
+  ';',
+  '!important;',
+  value => value,
+  value => value
+)
+testIllegalValuesOn(flexBasis)
