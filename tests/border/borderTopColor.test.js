@@ -1,18 +1,32 @@
-import borderTopColor from '../../src/lib/border/borderTopColor'
-import { coreTest } from '../utilities'
+import { borderTopColor } from '../../src/'
+import {
+  testStringValuesOn,
+  testNumberValuesOn,
+  testObjectValuesOn,
+  testIllegalValuesOn,
+} from '../utilities'
 
-test('constructs array (number)', () => {
-  coreTest(
-    borderTopColor(333)({}),
-    [['border-top-color', ':'], '#333', ';'],
-    'border-top-color:#333;'
-  )
-})
-
-test('constructs array (string)', () => {
-  coreTest(
-    borderTopColor('DarkSlateBlue')({}),
-    [['border-top-color', ':'], 'DarkSlateBlue', ';'],
-    'border-top-color:DarkSlateBlue;'
-  )
-})
+borderTopColor.name_ = 'borderTopColor'
+testStringValuesOn(
+  borderTopColor,
+  'border-top-color:',
+  ';',
+  '!important;',
+  value => value
+)
+testNumberValuesOn(
+  borderTopColor,
+  'border-top-color:',
+  ';',
+  '!important;',
+  value => ['#', value]
+)
+testObjectValuesOn(
+  borderTopColor,
+  'border-top-color:',
+  ';',
+  '!important;',
+  value => ['#', value],
+  value => value
+)
+testIllegalValuesOn(borderTopColor)

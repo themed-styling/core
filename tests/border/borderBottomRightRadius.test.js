@@ -1,18 +1,32 @@
-import borderBottomRightRadius from '../../src/lib/border/borderBottomRightRadius'
-import { coreTest } from '../utilities'
+import { borderBottomRightRadius } from '../../src/'
+import {
+  testStringValuesOn,
+  testNumberValuesOn,
+  testObjectValuesOn,
+  testIllegalValuesOn,
+} from '../utilities'
 
-test('constructs array (number)', () => {
-  coreTest(
-    borderBottomRightRadius(5)({}),
-    [['border-bottom-right-radius', ':'], '5px', ';'],
-    'border-bottom-right-radius:5px;'
-  )
-})
-
-test('constructs array (string)', () => {
-  coreTest(
-    borderBottomRightRadius('1rem')({}),
-    [['border-bottom-right-radius', ':'], '1rem', ';'],
-    'border-bottom-right-radius:1rem;'
-  )
-})
+borderBottomRightRadius.name_ = 'borderBottomRightRadius'
+testStringValuesOn(
+  borderBottomRightRadius,
+  'border-bottom-right-radius:',
+  ';',
+  '!important;',
+  value => value
+)
+testNumberValuesOn(
+  borderBottomRightRadius,
+  'border-bottom-right-radius:',
+  ';',
+  '!important;',
+  value => [value, 'px']
+)
+testObjectValuesOn(
+  borderBottomRightRadius,
+  'border-bottom-right-radius:',
+  ';',
+  '!important;',
+  value => [value, 'px'],
+  value => value
+)
+testIllegalValuesOn(borderBottomRightRadius)

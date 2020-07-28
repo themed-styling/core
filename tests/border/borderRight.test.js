@@ -1,10 +1,32 @@
-import borderRight from '../../src/lib/border/borderRight'
-import { coreTest } from '../utilities'
+import { borderRight } from '../../src/'
+import {
+  testStringValuesOn,
+  testNumberValuesOn,
+  testObjectValuesOn,
+  testIllegalValuesOn,
+} from '../utilities'
 
-test('constructs array (string)', () => {
-  coreTest(
-    borderRight('3px solid DarkSlateBlue')({}),
-    [['border-right', ':'], '3px solid DarkSlateBlue', ';'],
-    'border-right:3px solid DarkSlateBlue;'
-  )
-})
+borderRight.name_ = 'borderRight'
+testStringValuesOn(
+  borderRight,
+  'border-right:',
+  ';',
+  '!important;',
+  value => value
+)
+testNumberValuesOn(
+  borderRight,
+  'border-right:',
+  ';',
+  '!important;',
+  value => value
+)
+testObjectValuesOn(
+  borderRight,
+  'border-right:',
+  ';',
+  '!important;',
+  value => value,
+  value => value
+)
+testIllegalValuesOn(borderRight)

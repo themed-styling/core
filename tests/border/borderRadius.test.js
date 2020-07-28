@@ -1,18 +1,32 @@
-import borderRadius from '../../src/lib/border/borderRadius'
-import { coreTest } from '../utilities'
+import { borderRadius } from '../../src/'
+import {
+  testStringValuesOn,
+  testNumberValuesOn,
+  testObjectValuesOn,
+  testIllegalValuesOn,
+} from '../utilities'
 
-test('constructs array (number)', () => {
-  coreTest(
-    borderRadius(5)({}),
-    [['border-radius', ':'], '5px', ';'],
-    'border-radius:5px;'
-  )
-})
-
-test('constructs array (string)', () => {
-  coreTest(
-    borderRadius('1rem')({}),
-    [['border-radius', ':'], '1rem', ';'],
-    'border-radius:1rem;'
-  )
-})
+borderRadius.name_ = 'borderRadius'
+testStringValuesOn(
+  borderRadius,
+  'border-radius:',
+  ';',
+  '!important;',
+  value => value
+)
+testNumberValuesOn(
+  borderRadius,
+  'border-radius:',
+  ';',
+  '!important;',
+  value => [value, 'px']
+)
+testObjectValuesOn(
+  borderRadius,
+  'border-radius:',
+  ';',
+  '!important;',
+  value => [value, 'px'],
+  value => value
+)
+testIllegalValuesOn(borderRadius)

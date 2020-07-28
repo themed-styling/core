@@ -1,18 +1,32 @@
-import borderRightWidth from '../../src/lib/border/borderRightWidth'
-import { coreTest } from '../utilities'
+import { borderRightWidth } from '../../src/'
+import {
+  testStringValuesOn,
+  testNumberValuesOn,
+  testObjectValuesOn,
+  testIllegalValuesOn,
+} from '../utilities'
 
-test('constructs array (number)', () => {
-  coreTest(
-    borderRightWidth(3)({}),
-    [['border-right-width', ':'], '3px', ';'],
-    'border-right-width:3px;'
-  )
-})
-
-test('constructs array (string)', () => {
-  coreTest(
-    borderRightWidth('1rem')({}),
-    [['border-right-width', ':'], '1rem', ';'],
-    'border-right-width:1rem;'
-  )
-})
+borderRightWidth.name_ = 'borderRightWidth'
+testStringValuesOn(
+  borderRightWidth,
+  'border-right-width:',
+  ';',
+  '!important;',
+  value => value
+)
+testNumberValuesOn(
+  borderRightWidth,
+  'border-right-width:',
+  ';',
+  '!important;',
+  value => [value, 'px']
+)
+testObjectValuesOn(
+  borderRightWidth,
+  'border-right-width:',
+  ';',
+  '!important;',
+  value => [value, 'px'],
+  value => value
+)
+testIllegalValuesOn(borderRightWidth)
