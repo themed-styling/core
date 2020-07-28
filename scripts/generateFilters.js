@@ -13,7 +13,7 @@ export const filterFunctions = [
   filterFunction('blur')()('px'),
   filterFunction('brightness')()('percent'),
   filterFunction('contrast')()('percent'),
-  filterFunction('dropShadow')()('percent'),
+  filterFunction('dropShadow')()('plain'),
   filterFunction('grayscale')()('percent'),
   filterFunction('hueRotate')()('degrees'),
   filterFunction('invert')()('percent'),
