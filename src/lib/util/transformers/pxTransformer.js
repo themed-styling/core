@@ -15,11 +15,11 @@
  * @name px
  * @memberOf util
  */
-export default (value) => {
+export default value => {
   switch (typeof value) {
     case 'number':
     case 'bigint':
-      return `${value}px`
+      return [value, 'px']
     case 'string':
       return value
     default:

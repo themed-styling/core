@@ -13,7 +13,7 @@
  * @name percent
  * @memberOf util
  */
-export default (value) => {
+export default value => {
   switch (typeof value) {
     case 'number':
     case 'bigint':
