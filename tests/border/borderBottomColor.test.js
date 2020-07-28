@@ -1,18 +1,32 @@
-import borderBottomColor from '../../src/lib/border/borderBottomColor'
-import { coreTest } from '../utilities'
+import { borderBottomColor } from '../../src/'
+import {
+  testStringValuesOn,
+  testNumberValuesOn,
+  testObjectValuesOn,
+  testIllegalValuesOn,
+} from '../utilities'
 
-test('constructs array (number)', () => {
-  coreTest(
-    borderBottomColor(333)({}),
-    [['border-bottom-color', ':'], '#333', ';'],
-    'border-bottom-color:#333;'
-  )
-})
-
-test('constructs array (string)', () => {
-  coreTest(
-    borderBottomColor('DarkSlateBlue')({}),
-    [['border-bottom-color', ':'], 'DarkSlateBlue', ';'],
-    'border-bottom-color:DarkSlateBlue;'
-  )
-})
+borderBottomColor.name_ = 'borderBottomColor'
+testStringValuesOn(
+  borderBottomColor,
+  'border-bottom-color:',
+  ';',
+  '!important;',
+  value => value
+)
+testNumberValuesOn(
+  borderBottomColor,
+  'border-bottom-color:',
+  ';',
+  '!important;',
+  value => ['#', value]
+)
+testObjectValuesOn(
+  borderBottomColor,
+  'border-bottom-color:',
+  ';',
+  '!important;',
+  value => ['#', value],
+  value => value
+)
+testIllegalValuesOn(borderBottomColor)

@@ -1,10 +1,32 @@
-import borderLeftStyle from '../../src/lib/border/borderLeftStyle'
-import { coreTest } from '../utilities'
+import { borderLeftStyle } from '../../src/'
+import {
+  testStringValuesOn,
+  testNumberValuesOn,
+  testObjectValuesOn,
+  testIllegalValuesOn,
+} from '../utilities'
 
-test('constructs array (string)', () => {
-  coreTest(
-    borderLeftStyle('dotted')({}),
-    [['border-left-style', ':'], 'dotted', ';'],
-    'border-left-style:dotted;'
-  )
-})
+borderLeftStyle.name_ = 'borderLeftStyle'
+testStringValuesOn(
+  borderLeftStyle,
+  'border-left-style:',
+  ';',
+  '!important;',
+  value => value
+)
+testNumberValuesOn(
+  borderLeftStyle,
+  'border-left-style:',
+  ';',
+  '!important;',
+  value => value
+)
+testObjectValuesOn(
+  borderLeftStyle,
+  'border-left-style:',
+  ';',
+  '!important;',
+  value => value,
+  value => value
+)
+testIllegalValuesOn(borderLeftStyle)

@@ -1,10 +1,32 @@
-import borderBottom from '../../src/lib/border/borderBottom'
-import { coreTest } from '../utilities'
+import { borderBottom } from '../../src/'
+import {
+  testStringValuesOn,
+  testNumberValuesOn,
+  testObjectValuesOn,
+  testIllegalValuesOn,
+} from '../utilities'
 
-test('constructs array (string)', () => {
-  coreTest(
-    borderBottom('3px solid DarkSlateBlue')({}),
-    [['border-bottom', ':'], '3px solid DarkSlateBlue', ';'],
-    'border-bottom:3px solid DarkSlateBlue;'
-  )
-})
+borderBottom.name_ = 'borderBottom'
+testStringValuesOn(
+  borderBottom,
+  'border-bottom:',
+  ';',
+  '!important;',
+  value => value
+)
+testNumberValuesOn(
+  borderBottom,
+  'border-bottom:',
+  ';',
+  '!important;',
+  value => value
+)
+testObjectValuesOn(
+  borderBottom,
+  'border-bottom:',
+  ';',
+  '!important;',
+  value => value,
+  value => value
+)
+testIllegalValuesOn(borderBottom)

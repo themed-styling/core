@@ -1,18 +1,32 @@
-import borderBottomWidth from '../../src/lib/border/borderBottomWidth'
-import { coreTest } from '../utilities'
+import { borderBottomWidth } from '../../src/'
+import {
+  testStringValuesOn,
+  testNumberValuesOn,
+  testObjectValuesOn,
+  testIllegalValuesOn,
+} from '../utilities'
 
-test('constructs array (number)', () => {
-  coreTest(
-    borderBottomWidth(3)({}),
-    [['border-bottom-width', ':'], '3px', ';'],
-    'border-bottom-width:3px;'
-  )
-})
-
-test('constructs array (string)', () => {
-  coreTest(
-    borderBottomWidth('1rem')({}),
-    [['border-bottom-width', ':'], '1rem', ';'],
-    'border-bottom-width:1rem;'
-  )
-})
+borderBottomWidth.name_ = 'borderBottomWidth'
+testStringValuesOn(
+  borderBottomWidth,
+  'border-bottom-width:',
+  ';',
+  '!important;',
+  value => value
+)
+testNumberValuesOn(
+  borderBottomWidth,
+  'border-bottom-width:',
+  ';',
+  '!important;',
+  value => [value, 'px']
+)
+testObjectValuesOn(
+  borderBottomWidth,
+  'border-bottom-width:',
+  ';',
+  '!important;',
+  value => [value, 'px'],
+  value => value
+)
+testIllegalValuesOn(borderBottomWidth)
