@@ -1,10 +1,20 @@
-import filter from '../../src/lib/filter/filter'
-import { coreTest } from '../utilities'
+import { filter } from '../../src/'
+import {
+  testStringValuesOn,
+  testNumberValuesOn,
+  testObjectValuesOn,
+  testIllegalValuesOn,
+} from '../utilities'
 
-test('constructs array (string)', () => {
-  coreTest(
-    filter('blur(5px)')({}),
-    [['filter', ':'], 'blur(5px)', ';'],
-    'filter:blur(5px);'
-  )
-})
+filter.name_ = 'filter'
+testStringValuesOn(filter, 'filter:', ';', '!important;', value => value)
+testNumberValuesOn(filter, 'filter:', ';', '!important;', value => value)
+testObjectValuesOn(
+  filter,
+  'filter:',
+  ';',
+  '!important;',
+  value => value,
+  value => value
+)
+testIllegalValuesOn(filter)

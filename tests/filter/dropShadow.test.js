@@ -1,10 +1,32 @@
-import dropShadow from '../../src/lib/filter/dropShadow'
-import { coreTest } from '../utilities'
+import { dropShadow } from '../../src/'
+import {
+  testStringValuesOn,
+  testNumberValuesOn,
+  testObjectValuesOn,
+  testIllegalValuesOn,
+} from '../utilities'
 
-test('constructs array (string)', () => {
-  coreTest(
-    dropShadow('0 0 10px black')({}),
-    ['filter:drop-shadow(', '0 0 10px black', ');'],
-    'filter:drop-shadow(0 0 10px black);'
-  )
-})
+dropShadow.name_ = 'dropShadow'
+testStringValuesOn(
+  dropShadow,
+  'filter:drop-shadow(',
+  ');',
+  ')!important;',
+  value => value
+)
+testNumberValuesOn(
+  dropShadow,
+  'filter:drop-shadow(',
+  ');',
+  ')!important;',
+  value => value
+)
+testObjectValuesOn(
+  dropShadow,
+  'filter:drop-shadow(',
+  ');',
+  ')!important;',
+  value => value,
+  value => value
+)
+testIllegalValuesOn(dropShadow)

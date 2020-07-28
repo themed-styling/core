@@ -1,31 +1,42 @@
-import grayscale from '../../src/lib/filter/grayscale'
-import { coreTest } from '../utilities'
+import { grayscale } from '../../src/'
+import {
+  testStringValuesOn,
+  testNumberValuesOn,
+  testObjectValuesOn,
+  testIllegalValuesOn,
+} from '../utilities'
 
-test('constructs array (number <= 1 -> %)', () => {
-  coreTest(
-    grayscale(0.5)({}),
-    ['filter:grayscale(', [50, '%'], ');'],
-    'filter:grayscale(50%);'
-  )
-  coreTest(
-    grayscale(1)({}),
-    ['filter:grayscale(', [100, '%'], ');'],
-    'filter:grayscale(100%);'
-  )
-})
-
-test('constructs array (number > 1 -> %)', () => {
-  coreTest(
-    grayscale(2)({}),
-    ['filter:grayscale(', [2, '%'], ');'],
-    'filter:grayscale(2%);'
-  )
-})
-
-test('constructs array (string)', () => {
-  coreTest(
-    grayscale('3.14159%')({}),
-    ['filter:grayscale(', '3.14159%', ');'],
-    'filter:grayscale(3.14159%);'
-  )
-})
+grayscale.name_ = 'grayscale'
+testStringValuesOn(
+  grayscale,
+  'filter:grayscale(',
+  ');',
+  ')!important;',
+  value => value
+)
+testNumberValuesOn(
+  grayscale,
+  'filter:grayscale(',
+  ');',
+  ')!important;',
+  value => {
+    if (value <= 1) {
+      return [value * 100, '%']
+    }
+    return [value, '%']
+  }
+)
+testObjectValuesOn(
+  grayscale,
+  'filter:grayscale(',
+  ');',
+  ')!important;',
+  value => {
+    if (value <= 1) {
+      return [value * 100, '%']
+    }
+    return [value, '%']
+  },
+  value => value
+)
+testIllegalValuesOn(grayscale)

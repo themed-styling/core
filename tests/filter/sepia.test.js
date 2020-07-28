@@ -1,27 +1,30 @@
-import sepia from '../../src/lib/filter/sepia'
-import { coreTest } from '../utilities'
+import { sepia } from '../../src/'
+import {
+  testStringValuesOn,
+  testNumberValuesOn,
+  testObjectValuesOn,
+  testIllegalValuesOn,
+} from '../utilities'
 
-test('constructs array (number <= 1 -> %)', () => {
-  coreTest(
-    sepia(0.5)({}),
-    ['filter:sepia(', [50, '%'], ');'],
-    'filter:sepia(50%);'
-  )
-  coreTest(
-    sepia(1)({}),
-    ['filter:sepia(', [100, '%'], ');'],
-    'filter:sepia(100%);'
-  )
+sepia.name_ = 'sepia'
+testStringValuesOn(sepia, 'filter:sepia(', ');', ')!important;', value => value)
+testNumberValuesOn(sepia, 'filter:sepia(', ');', ')!important;', value => {
+  if (value <= 1) {
+    return [value * 100, '%']
+  }
+  return [value, '%']
 })
-
-test('constructs array (number > 1 -> %)', () => {
-  coreTest(sepia(2)({}), ['filter:sepia(', [2, '%'], ');'], 'filter:sepia(2%);')
-})
-
-test('constructs array (string)', () => {
-  coreTest(
-    sepia('3.14159%')({}),
-    ['filter:sepia(', '3.14159%', ');'],
-    'filter:sepia(3.14159%);'
-  )
-})
+testObjectValuesOn(
+  sepia,
+  'filter:sepia(',
+  ');',
+  ')!important;',
+  value => {
+    if (value <= 1) {
+      return [value * 100, '%']
+    }
+    return [value, '%']
+  },
+  value => value
+)
+testIllegalValuesOn(sepia)

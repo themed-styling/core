@@ -1,31 +1,42 @@
-import brightness from '../../src/lib/filter/brightness'
-import { coreTest } from '../utilities'
+import { brightness } from '../../src/'
+import {
+  testStringValuesOn,
+  testNumberValuesOn,
+  testObjectValuesOn,
+  testIllegalValuesOn,
+} from '../utilities'
 
-test('constructs array (number <= 1 -> %)', () => {
-  coreTest(
-    brightness(0.5)({}),
-    ['filter:brightness(', [50, '%'], ');'],
-    'filter:brightness(50%);'
-  )
-  coreTest(
-    brightness(1)({}),
-    ['filter:brightness(', [100, '%'], ');'],
-    'filter:brightness(100%);'
-  )
-})
-
-test('constructs array (number > 1 -> %)', () => {
-  coreTest(
-    brightness(2)({}),
-    ['filter:brightness(', [2, '%'], ');'],
-    'filter:brightness(2%);'
-  )
-})
-
-test('constructs array (string)', () => {
-  coreTest(
-    brightness('3.14159%')({}),
-    ['filter:brightness(', '3.14159%', ');'],
-    'filter:brightness(3.14159%);'
-  )
-})
+brightness.name_ = 'brightness'
+testStringValuesOn(
+  brightness,
+  'filter:brightness(',
+  ');',
+  ')!important;',
+  value => value
+)
+testNumberValuesOn(
+  brightness,
+  'filter:brightness(',
+  ');',
+  ')!important;',
+  value => {
+    if (value <= 1) {
+      return [value * 100, '%']
+    }
+    return [value, '%']
+  }
+)
+testObjectValuesOn(
+  brightness,
+  'filter:brightness(',
+  ');',
+  ')!important;',
+  value => {
+    if (value <= 1) {
+      return [value * 100, '%']
+    }
+    return [value, '%']
+  },
+  value => value
+)
+testIllegalValuesOn(brightness)

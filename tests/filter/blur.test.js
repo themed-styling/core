@@ -1,14 +1,23 @@
-import blur from '../../src/lib/filter/blur'
-import { coreTest } from '../utilities'
+import { blur } from '../../src/'
+import {
+  testStringValuesOn,
+  testNumberValuesOn,
+  testObjectValuesOn,
+  testIllegalValuesOn,
+} from '../utilities'
 
-test('constructs array (number -> px)', () => {
-  coreTest(blur(5)({}), ['filter:blur(', '5px', ');'], 'filter:blur(5px);')
-})
-
-test('constructs array (string)', () => {
-  coreTest(
-    blur('1rem')({}),
-    ['filter:blur(', '1rem', ');'],
-    'filter:blur(1rem);'
-  )
-})
+blur.name_ = 'blur'
+testStringValuesOn(blur, 'filter:blur(', ');', ')!important;', value => value)
+testNumberValuesOn(blur, 'filter:blur(', ');', ')!important;', value => [
+  value,
+  'px',
+])
+testObjectValuesOn(
+  blur,
+  'filter:blur(',
+  ');',
+  ')!important;',
+  value => [value, 'px'],
+  value => value
+)
+testIllegalValuesOn(blur)

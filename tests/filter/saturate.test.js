@@ -1,31 +1,42 @@
-import saturate from '../../src/lib/filter/saturate'
-import { coreTest } from '../utilities'
+import { saturate } from '../../src/'
+import {
+  testStringValuesOn,
+  testNumberValuesOn,
+  testObjectValuesOn,
+  testIllegalValuesOn,
+} from '../utilities'
 
-test('constructs array (number <= 1 -> %)', () => {
-  coreTest(
-    saturate(0.5)({}),
-    ['filter:saturate(', [50, '%'], ');'],
-    'filter:saturate(50%);'
-  )
-  coreTest(
-    saturate(1)({}),
-    ['filter:saturate(', [100, '%'], ');'],
-    'filter:saturate(100%);'
-  )
-})
-
-test('constructs array (number > 1 -> %)', () => {
-  coreTest(
-    saturate(2)({}),
-    ['filter:saturate(', [2, '%'], ');'],
-    'filter:saturate(2%);'
-  )
-})
-
-test('constructs array (string)', () => {
-  coreTest(
-    saturate('3.14159%')({}),
-    ['filter:saturate(', '3.14159%', ');'],
-    'filter:saturate(3.14159%);'
-  )
-})
+saturate.name_ = 'saturate'
+testStringValuesOn(
+  saturate,
+  'filter:saturate(',
+  ');',
+  ')!important;',
+  value => value
+)
+testNumberValuesOn(
+  saturate,
+  'filter:saturate(',
+  ');',
+  ')!important;',
+  value => {
+    if (value <= 1) {
+      return [value * 100, '%']
+    }
+    return [value, '%']
+  }
+)
+testObjectValuesOn(
+  saturate,
+  'filter:saturate(',
+  ');',
+  ')!important;',
+  value => {
+    if (value <= 1) {
+      return [value * 100, '%']
+    }
+    return [value, '%']
+  },
+  value => value
+)
+testIllegalValuesOn(saturate)

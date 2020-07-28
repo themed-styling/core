@@ -1,31 +1,36 @@
-import invert from '../../src/lib/filter/invert'
-import { coreTest } from '../utilities'
+import { invert } from '../../src/'
+import {
+  testStringValuesOn,
+  testNumberValuesOn,
+  testObjectValuesOn,
+  testIllegalValuesOn,
+} from '../utilities'
 
-test('constructs array (number <= 1 -> %)', () => {
-  coreTest(
-    invert(0.5)({}),
-    ['filter:invert(', [50, '%'], ');'],
-    'filter:invert(50%);'
-  )
-  coreTest(
-    invert(1)({}),
-    ['filter:invert(', [100, '%'], ');'],
-    'filter:invert(100%);'
-  )
+invert.name_ = 'invert'
+testStringValuesOn(
+  invert,
+  'filter:invert(',
+  ');',
+  ')!important;',
+  value => value
+)
+testNumberValuesOn(invert, 'filter:invert(', ');', ')!important;', value => {
+  if (value <= 1) {
+    return [value * 100, '%']
+  }
+  return [value, '%']
 })
-
-test('constructs array (number > 1 -> %)', () => {
-  coreTest(
-    invert(2)({}),
-    ['filter:invert(', [2, '%'], ');'],
-    'filter:invert(2%);'
-  )
-})
-
-test('constructs array (string)', () => {
-  coreTest(
-    invert('3.14159%')({}),
-    ['filter:invert(', '3.14159%', ');'],
-    'filter:invert(3.14159%);'
-  )
-})
+testObjectValuesOn(
+  invert,
+  'filter:invert(',
+  ');',
+  ')!important;',
+  value => {
+    if (value <= 1) {
+      return [value * 100, '%']
+    }
+    return [value, '%']
+  },
+  value => value
+)
+testIllegalValuesOn(invert)
