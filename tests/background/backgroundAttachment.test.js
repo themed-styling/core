@@ -1,10 +1,32 @@
-import backgroundAttachment from '../../src/lib/background/backgroundAttachment'
-import { coreTest } from '../utilities'
+import { backgroundAttachment } from '../../src/'
+import {
+  testStringValuesOn,
+  testNumberValuesOn,
+  testObjectValuesOn,
+  testIllegalValuesOn,
+} from '../utilities'
 
-test('constructs array (string)', () => {
-  coreTest(
-    backgroundAttachment('fixed')({}),
-    [['background-attachment', ':'], 'fixed', ';'],
-    'background-attachment:fixed;'
-  )
-})
+backgroundAttachment.name_ = 'backgroundAttachment'
+testStringValuesOn(
+  backgroundAttachment,
+  'background-attachment:',
+  ';',
+  '!important;',
+  value => value
+)
+testNumberValuesOn(
+  backgroundAttachment,
+  'background-attachment:',
+  ';',
+  '!important;',
+  value => value
+)
+testObjectValuesOn(
+  backgroundAttachment,
+  'background-attachment:',
+  ';',
+  '!important;',
+  value => value,
+  value => value
+)
+testIllegalValuesOn(backgroundAttachment)

@@ -1,10 +1,32 @@
-import backgroundRepeat from '../../src/lib/background/backgroundRepeat'
-import { coreTest } from '../utilities'
+import { backgroundRepeat } from '../../src/'
+import {
+  testStringValuesOn,
+  testNumberValuesOn,
+  testObjectValuesOn,
+  testIllegalValuesOn,
+} from '../utilities'
 
-test('constructs array (string)', () => {
-  coreTest(
-    backgroundRepeat('no-repeat')({}),
-    [['background-repeat', ':'], 'no-repeat', ';'],
-    'background-repeat:no-repeat;'
-  )
-})
+backgroundRepeat.name_ = 'backgroundRepeat'
+testStringValuesOn(
+  backgroundRepeat,
+  'background-repeat:',
+  ';',
+  '!important;',
+  value => value
+)
+testNumberValuesOn(
+  backgroundRepeat,
+  'background-repeat:',
+  ';',
+  '!important;',
+  value => value
+)
+testObjectValuesOn(
+  backgroundRepeat,
+  'background-repeat:',
+  ';',
+  '!important;',
+  value => value,
+  value => value
+)
+testIllegalValuesOn(backgroundRepeat)
