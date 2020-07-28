@@ -1,18 +1,32 @@
-import translateZ from '../../src/lib/transform/translateZ'
-import { coreTest } from '../utilities'
+import { translateZ } from '../../src/'
+import {
+  testStringValuesOn,
+  testNumberValuesOn,
+  testObjectValuesOn,
+  testIllegalValuesOn,
+} from '../utilities'
 
-test('constructs array (number)', () => {
-  coreTest(
-    translateZ(10)({}),
-    ['transform:translateZ(', '10px', ');'],
-    'transform:translateZ(10px);'
-  )
-})
-
-test('constructs array (string)', () => {
-  coreTest(
-    translateZ('20px')({}),
-    ['transform:translateZ(', '20px', ');'],
-    'transform:translateZ(20px);'
-  )
-})
+translateZ.name_ = 'translateZ'
+testStringValuesOn(
+  translateZ,
+  'transform:translateZ(',
+  ');',
+  ')!important;',
+  value => value
+)
+testNumberValuesOn(
+  translateZ,
+  'transform:translateZ(',
+  ');',
+  ')!important;',
+  value => [value, 'px']
+)
+testObjectValuesOn(
+  translateZ,
+  'transform:translateZ(',
+  ');',
+  ')!important;',
+  value => [value, 'px'],
+  value => value
+)
+testIllegalValuesOn(translateZ)

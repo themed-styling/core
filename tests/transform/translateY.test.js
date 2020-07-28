@@ -1,18 +1,32 @@
-import translateY from '../../src/lib/transform/translateY'
-import { coreTest } from '../utilities'
+import { translateY } from '../../src/'
+import {
+  testStringValuesOn,
+  testNumberValuesOn,
+  testObjectValuesOn,
+  testIllegalValuesOn,
+} from '../utilities'
 
-test('constructs array (number)', () => {
-  coreTest(
-    translateY(10)({}),
-    ['transform:translateY(', '10px', ');'],
-    'transform:translateY(10px);'
-  )
-})
-
-test('constructs array (string)', () => {
-  coreTest(
-    translateY('20px')({}),
-    ['transform:translateY(', '20px', ');'],
-    'transform:translateY(20px);'
-  )
-})
+translateY.name_ = 'translateY'
+testStringValuesOn(
+  translateY,
+  'transform:translateY(',
+  ');',
+  ')!important;',
+  value => value
+)
+testNumberValuesOn(
+  translateY,
+  'transform:translateY(',
+  ');',
+  ')!important;',
+  value => [value, 'px']
+)
+testObjectValuesOn(
+  translateY,
+  'transform:translateY(',
+  ');',
+  ')!important;',
+  value => [value, 'px'],
+  value => value
+)
+testIllegalValuesOn(translateY)

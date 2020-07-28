@@ -1,18 +1,32 @@
-import scaleX from '../../src/lib/transform/scaleX'
-import { coreTest } from '../utilities'
+import { scaleX } from '../../src/'
+import {
+  testStringValuesOn,
+  testNumberValuesOn,
+  testObjectValuesOn,
+  testIllegalValuesOn,
+} from '../utilities'
 
-test('constructs array (number)', () => {
-  coreTest(
-    scaleX(1.5)({}),
-    ['transform:scaleX(', 1.5, ');'],
-    'transform:scaleX(1.5);'
-  )
-})
-
-test('constructs array (string)', () => {
-  coreTest(
-    scaleX('2')({}),
-    ['transform:scaleX(', '2', ');'],
-    'transform:scaleX(2);'
-  )
-})
+scaleX.name_ = 'scaleX'
+testStringValuesOn(
+  scaleX,
+  'transform:scaleX(',
+  ');',
+  ')!important;',
+  value => value
+)
+testNumberValuesOn(
+  scaleX,
+  'transform:scaleX(',
+  ');',
+  ')!important;',
+  value => value
+)
+testObjectValuesOn(
+  scaleX,
+  'transform:scaleX(',
+  ');',
+  ')!important;',
+  value => value,
+  value => value
+)
+testIllegalValuesOn(scaleX)

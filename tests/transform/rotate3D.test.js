@@ -1,10 +1,32 @@
-import rotate3D from '../../src/lib/transform/rotate3D'
-import { coreTest } from '../utilities'
+import { rotate3D } from '../../src/'
+import {
+  testStringValuesOn,
+  testNumberValuesOn,
+  testObjectValuesOn,
+  testIllegalValuesOn,
+} from '../utilities'
 
-test('constructs array (string)', () => {
-  coreTest(
-    rotate3D('3,3,3,2rad')({}),
-    ['transform:rotate3d(', '3,3,3,2rad', ');'],
-    'transform:rotate3d(3,3,3,2rad);'
-  )
-})
+rotate3D.name_ = 'rotate3D'
+testStringValuesOn(
+  rotate3D,
+  'transform:rotate3d(',
+  ');',
+  ')!important;',
+  value => value
+)
+testNumberValuesOn(
+  rotate3D,
+  'transform:rotate3d(',
+  ');',
+  ')!important;',
+  value => value
+)
+testObjectValuesOn(
+  rotate3D,
+  'transform:rotate3d(',
+  ');',
+  ')!important;',
+  value => value,
+  value => value
+)
+testIllegalValuesOn(rotate3D)

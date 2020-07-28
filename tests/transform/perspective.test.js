@@ -1,18 +1,32 @@
-import perspective from '../../src/lib/transform/perspective'
-import { coreTest } from '../utilities'
+import { perspective } from '../../src/'
+import {
+  testStringValuesOn,
+  testNumberValuesOn,
+  testObjectValuesOn,
+  testIllegalValuesOn,
+} from '../utilities'
 
-test('constructs array (number)', () => {
-  coreTest(
-    perspective(100)({}),
-    ['transform:perspective(', '100px', ');'],
-    'transform:perspective(100px);'
-  )
-})
-
-test('constructs array (string)', () => {
-  coreTest(
-    perspective('200px')({}),
-    ['transform:perspective(', '200px', ');'],
-    'transform:perspective(200px);'
-  )
-})
+perspective.name_ = 'perspective'
+testStringValuesOn(
+  perspective,
+  'transform:perspective(',
+  ');',
+  ')!important;',
+  value => value
+)
+testNumberValuesOn(
+  perspective,
+  'transform:perspective(',
+  ');',
+  ')!important;',
+  value => value
+)
+testObjectValuesOn(
+  perspective,
+  'transform:perspective(',
+  ');',
+  ')!important;',
+  value => value,
+  value => value
+)
+testIllegalValuesOn(perspective)

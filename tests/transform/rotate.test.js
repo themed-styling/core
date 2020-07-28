@@ -1,23 +1,29 @@
-import rotate from '../../src/lib/transform/rotate'
-import { coreTest } from '../utilities'
+import { rotate } from '../../src/'
+import {
+  testStringValuesOn,
+  testNumberValuesOn,
+  testObjectValuesOn,
+  testIllegalValuesOn,
+} from '../utilities'
 
-test('constructs array (number)', () => {
-  coreTest(
-    rotate(36)({}),
-    ['transform:rotate(', [36, 'deg'], ');'],
-    'transform:rotate(36deg);'
-  )
-  coreTest(
-    rotate(-36)({}),
-    ['transform:rotate(', [-36, 'deg'], ');'],
-    'transform:rotate(-36deg);'
-  )
-})
-
-test('constructs array (string)', () => {
-  coreTest(
-    rotate('2rad')({}),
-    ['transform:rotate(', '2rad', ');'],
-    'transform:rotate(2rad);'
-  )
-})
+rotate.name_ = 'rotate'
+testStringValuesOn(
+  rotate,
+  'transform:rotate(',
+  ');',
+  ')!important;',
+  value => value
+)
+testNumberValuesOn(rotate, 'transform:rotate(', ');', ')!important;', value => [
+  value,
+  'deg',
+])
+testObjectValuesOn(
+  rotate,
+  'transform:rotate(',
+  ');',
+  ')!important;',
+  value => [value, 'deg'],
+  value => value
+)
+testIllegalValuesOn(rotate)
