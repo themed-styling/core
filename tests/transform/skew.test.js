@@ -1,18 +1,32 @@
-import skew from '../../src/lib/transform/skew'
-import { coreTest } from '../utilities'
+import { skew } from '../../src/'
+import {
+  testStringValuesOn,
+  testNumberValuesOn,
+  testObjectValuesOn,
+  testIllegalValuesOn,
+} from '../utilities'
 
-test('constructs array (number)', () => {
-  coreTest(
-    skew(18)({}),
-    ['transform:skew(', [18, 'deg'], ');'],
-    'transform:skew(18deg);'
-  )
-})
-
-test('constructs array (string)', () => {
-  coreTest(
-    skew('36deg,2rad')({}),
-    ['transform:skew(', '36deg,2rad', ');'],
-    'transform:skew(36deg,2rad);'
-  )
-})
+skew.name_ = 'skew'
+testStringValuesOn(
+  skew,
+  'transform:skew(',
+  ');',
+  ')!important;',
+  value => value
+)
+testNumberValuesOn(
+  skew,
+  'transform:skew(',
+  ');',
+  ')!important;',
+  value => value
+)
+testObjectValuesOn(
+  skew,
+  'transform:skew(',
+  ');',
+  ')!important;',
+  value => value,
+  value => value
+)
+testIllegalValuesOn(skew)

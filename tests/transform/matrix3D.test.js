@@ -1,10 +1,32 @@
-import matrix3D from '../../src/lib/transform/matrix3D'
-import { coreTest } from '../utilities'
+import { matrix3D } from '../../src/'
+import {
+  testStringValuesOn,
+  testNumberValuesOn,
+  testObjectValuesOn,
+  testIllegalValuesOn,
+} from '../utilities'
 
-test('constructs array (string)', () => {
-  coreTest(
-    matrix3D('1,2,2,4,1,2,5,4,1,1,3,6,1,4,8,4')({}),
-    ['transform:matrix3d(', '1,2,2,4,1,2,5,4,1,1,3,6,1,4,8,4', ');'],
-    'transform:matrix3d(1,2,2,4,1,2,5,4,1,1,3,6,1,4,8,4);'
-  )
-})
+matrix3D.name_ = 'matrix3D'
+testStringValuesOn(
+  matrix3D,
+  'transform:matrix3d(',
+  ');',
+  ')!important;',
+  value => value
+)
+testNumberValuesOn(
+  matrix3D,
+  'transform:matrix3d(',
+  ');',
+  ')!important;',
+  value => value
+)
+testObjectValuesOn(
+  matrix3D,
+  'transform:matrix3d(',
+  ');',
+  ')!important;',
+  value => value,
+  value => value
+)
+testIllegalValuesOn(matrix3D)
