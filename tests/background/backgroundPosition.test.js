@@ -1,10 +1,32 @@
-import backgroundPosition from '../../src/lib/background/backgroundPosition'
-import { coreTest } from '../utilities'
+import { backgroundPosition } from '../../src/'
+import {
+  testStringValuesOn,
+  testNumberValuesOn,
+  testObjectValuesOn,
+  testIllegalValuesOn,
+} from '../utilities'
 
-test('constructs array (string)', () => {
-  coreTest(
-    backgroundPosition('left center')({}),
-    [['background-position', ':'], 'left center', ';'],
-    'background-position:left center;'
-  )
-})
+backgroundPosition.name_ = 'backgroundPosition'
+testStringValuesOn(
+  backgroundPosition,
+  'background-position:',
+  ';',
+  '!important;',
+  value => value
+)
+testNumberValuesOn(
+  backgroundPosition,
+  'background-position:',
+  ';',
+  '!important;',
+  value => value
+)
+testObjectValuesOn(
+  backgroundPosition,
+  'background-position:',
+  ';',
+  '!important;',
+  value => value,
+  value => value
+)
+testIllegalValuesOn(backgroundPosition)

@@ -1,23 +1,32 @@
-import backgroundSize from '../../src/lib/background/backgroundSize'
-import { coreTest } from '../utilities'
+import { backgroundSize } from '../../src/'
+import {
+  testStringValuesOn,
+  testNumberValuesOn,
+  testObjectValuesOn,
+  testIllegalValuesOn,
+} from '../utilities'
 
-test('constructs array (number)', () => {
-  coreTest(
-    backgroundSize(0.3)({}),
-    [['background-size', ':'], [30, '%'], ';'],
-    'background-size:30%;'
-  )
-  coreTest(
-    backgroundSize(30)({}),
-    [['background-size', ':'], [30, '%'], ';'],
-    'background-size:30%;'
-  )
-})
-
-test('constructs array (string)', () => {
-  coreTest(
-    backgroundSize('10px 20px')({}),
-    [['background-size', ':'], '10px 20px', ';'],
-    'background-size:10px 20px;'
-  )
-})
+backgroundSize.name_ = 'backgroundSize'
+testStringValuesOn(
+  backgroundSize,
+  'background-size:',
+  ';',
+  '!important;',
+  value => value
+)
+testNumberValuesOn(
+  backgroundSize,
+  'background-size:',
+  ';',
+  '!important;',
+  value => [value, 'px']
+)
+testObjectValuesOn(
+  backgroundSize,
+  'background-size:',
+  ';',
+  '!important;',
+  value => [value, 'px'],
+  value => value
+)
+testIllegalValuesOn(backgroundSize)
