@@ -29,193 +29,180 @@ const testAnyValueOn = (
   expect(importantCSSAfterValue).toBeDefined()
   expect(valueTransformation).toBeDefined()
 
+  const valueTransformationResult = valueTransformation(value)
+  const valueTransformationString =
+    typeof valueTransformationResult === 'object'
+      ? valueTransformationResult.join('')
+      : `${valueTransformationResult}`
+  const valueType = typeof value
+
   /* FALLBACK & EMPTY PROPS */
-  test(`${
-    fn.name_
-  }(${typeof value}) constructs with fallback and empty props`, () => {
+  test(`${fn.name_}(${valueType}) constructs with fallback and empty props`, () => {
     expectToEqual(
       fn(value)({}),
-      [cssBeforeValue, valueTransformation(value), cssAfterValue],
-      `${cssBeforeValue}${valueTransformation(value)}${cssAfterValue}`
+      [cssBeforeValue, valueTransformationResult, cssAfterValue],
+      `${cssBeforeValue}${valueTransformationString}${cssAfterValue}`
     )
   })
 
   /* FALLBACK & PROP NAMED value */
-  test(`${
-    fn.name_
-  }(${typeof value}) constructs with fallback and undefined prop named value`, () => {
+  test(`${fn.name_}(${valueType}) constructs with fallback and undefined prop named value`, () => {
     expectToEqual(
       fn(value).propName('value')({}),
-      [cssBeforeValue, valueTransformation(value), cssAfterValue],
-      `${cssBeforeValue}${valueTransformation(value)}${cssAfterValue}`
+      [cssBeforeValue, valueTransformationResult, cssAfterValue],
+      `${cssBeforeValue}${valueTransformationString}${cssAfterValue}`
     )
     expectToEqual(
       fn(value).p('value')({}),
-      [cssBeforeValue, valueTransformation(value), cssAfterValue],
-      `${cssBeforeValue}${valueTransformation(value)}${cssAfterValue}`
+      [cssBeforeValue, valueTransformationResult, cssAfterValue],
+      `${cssBeforeValue}${valueTransformationString}${cssAfterValue}`
     )
   })
 
-  test(`${
-    fn.name_
-  }(${typeof value}) constructs without fallback and prop named value`, () => {
+  test(`${fn.name_}(${valueType}) constructs without fallback and prop named value`, () => {
     expectToEqual(
       fn().propName('value')({ value: value }),
-      [cssBeforeValue, valueTransformation(value), cssAfterValue],
-      `${cssBeforeValue}${valueTransformation(value)}${cssAfterValue}`
+      [cssBeforeValue, valueTransformationResult, cssAfterValue],
+      `${cssBeforeValue}${valueTransformationString}${cssAfterValue}`
     )
     expectToEqual(
       fn().p('value')({ value: value }),
-      [cssBeforeValue, valueTransformation(value), cssAfterValue],
-      `${cssBeforeValue}${valueTransformation(value)}${cssAfterValue}`
+      [cssBeforeValue, valueTransformationResult, cssAfterValue],
+      `${cssBeforeValue}${valueTransformationString}${cssAfterValue}`
     )
   })
-  test(`${
-    fn.name_
-  }(${typeof value}) constructs with illegal fallback and prop named value`, () => {
+  test(`${fn.name_}(${valueType}) constructs with illegal fallback and prop named value`, () => {
     expectToEqual(
       fn(null).propName('value')({ value: value }),
-      [cssBeforeValue, valueTransformation(value), cssAfterValue],
-      `${cssBeforeValue}${valueTransformation(value)}${cssAfterValue}`
+      [cssBeforeValue, valueTransformationResult, cssAfterValue],
+      `${cssBeforeValue}${valueTransformationString}${cssAfterValue}`
     )
     expectToEqual(
       fn(null).p('value')({ value: value }),
-      [cssBeforeValue, valueTransformation(value), cssAfterValue],
-      `${cssBeforeValue}${valueTransformation(value)}${cssAfterValue}`
+      [cssBeforeValue, valueTransformationResult, cssAfterValue],
+      `${cssBeforeValue}${valueTransformationString}${cssAfterValue}`
     )
   })
 
   /* PROPLESS */
-  test(`${fn.name_}(${typeof value}) constructs propless with fallback`, () => {
+  test(`${fn.name_}(${valueType}) constructs propless with fallback`, () => {
     expectToEqual(
       fn(value).propless()({}),
-      [cssBeforeValue, valueTransformation(value), cssAfterValue],
-      `${cssBeforeValue}${valueTransformation(value)}${cssAfterValue}`
+      [cssBeforeValue, valueTransformationResult, cssAfterValue],
+      `${cssBeforeValue}${valueTransformationString}${cssAfterValue}`
     )
     expectToEqual(
       fn(value).l()({}),
-      [cssBeforeValue, valueTransformation(value), cssAfterValue],
-      `${cssBeforeValue}${valueTransformation(value)}${cssAfterValue}`
+      [cssBeforeValue, valueTransformationResult, cssAfterValue],
+      `${cssBeforeValue}${valueTransformationString}${cssAfterValue}`
     )
   })
 
   /* FALLBACK, !important & EMPTY PROPS */
-  test(`${
-    fn.name_
-  }(${typeof value}) constructs important with fallback and empty props`, () => {
+  test(`${fn.name_}(${valueType}) constructs important with fallback and empty props`, () => {
     expectToEqual(
       fn(value).important()({}),
-      [cssBeforeValue, valueTransformation(value), importantCSSAfterValue],
-      `${cssBeforeValue}${valueTransformation(value)}${importantCSSAfterValue}`
+      [cssBeforeValue, valueTransformationResult, importantCSSAfterValue],
+      `${cssBeforeValue}${valueTransformationString}${importantCSSAfterValue}`
     )
     expectToEqual(
       fn(value).i()({}),
-      [cssBeforeValue, valueTransformation(value), importantCSSAfterValue],
-      `${cssBeforeValue}${valueTransformation(value)}${importantCSSAfterValue}`
+      [cssBeforeValue, valueTransformationResult, importantCSSAfterValue],
+      `${cssBeforeValue}${valueTransformationString}${importantCSSAfterValue}`
     )
   })
 
   /* FALLBACK, !important & PROP NAMED value */
-  test(`${
-    fn.name_
-  }(${typeof value}) constructs important with fallback and prop named value`, () => {
+  test(`${fn.name_}(${valueType}) constructs important with fallback and prop named value`, () => {
     expectToEqual(
       fn(null).important().propName('value')({ value: value }),
-      [cssBeforeValue, valueTransformation(value), importantCSSAfterValue],
-      `${cssBeforeValue}${valueTransformation(value)}${importantCSSAfterValue}`
+      [cssBeforeValue, valueTransformationResult, importantCSSAfterValue],
+      `${cssBeforeValue}${valueTransformationString}${importantCSSAfterValue}`
     )
     expectToEqual(
       fn(null).important().p('value')({ value: value }),
-      [cssBeforeValue, valueTransformation(value), importantCSSAfterValue],
-      `${cssBeforeValue}${valueTransformation(value)}${importantCSSAfterValue}`
+      [cssBeforeValue, valueTransformationResult, importantCSSAfterValue],
+      `${cssBeforeValue}${valueTransformationString}${importantCSSAfterValue}`
     )
     expectToEqual(
       fn(null).i().propName('value')({ value: value }),
-      [cssBeforeValue, valueTransformation(value), importantCSSAfterValue],
-      `${cssBeforeValue}${valueTransformation(value)}${importantCSSAfterValue}`
+      [cssBeforeValue, valueTransformationResult, importantCSSAfterValue],
+      `${cssBeforeValue}${valueTransformationString}${importantCSSAfterValue}`
     )
     expectToEqual(
       fn(null).i().p('value')({ value: value }),
-      [cssBeforeValue, valueTransformation(value), importantCSSAfterValue],
-      `${cssBeforeValue}${valueTransformation(value)}${importantCSSAfterValue}`
+      [cssBeforeValue, valueTransformationResult, importantCSSAfterValue],
+      `${cssBeforeValue}${valueTransformationString}${importantCSSAfterValue}`
     )
   })
 
   /* PROPLESS & !important */
-  test(`${
-    fn.name_
-  }(${typeof value}) constructs propless !important with fallback`, () => {
+  test(`${fn.name_}(${valueType}) constructs propless !important with fallback`, () => {
     expectToEqual(
       fn(value).propless().important()({}),
-      [cssBeforeValue, valueTransformation(value), importantCSSAfterValue],
-      `${cssBeforeValue}${valueTransformation(value)}${importantCSSAfterValue}`
+      [cssBeforeValue, valueTransformationResult, importantCSSAfterValue],
+      `${cssBeforeValue}${valueTransformationString}${importantCSSAfterValue}`
     )
     expectToEqual(
       fn(value).l().i()({}),
-      [cssBeforeValue, valueTransformation(value), importantCSSAfterValue],
-      `${cssBeforeValue}${valueTransformation(value)}${importantCSSAfterValue}`
+      [cssBeforeValue, valueTransformationResult, importantCSSAfterValue],
+      `${cssBeforeValue}${valueTransformationString}${importantCSSAfterValue}`
     )
   })
 
   /* CALC */
-  test(`${fn.name_}(${typeof value}) constructs calc with fallback`, () => {
+  test(`${fn.name_}(${valueType}) constructs calc with fallback`, () => {
     expectToEqual(
       fn(value).calc('*2')({}),
       [
         cssBeforeValue,
         'calc(',
-        valueTransformation(value),
+        valueTransformationResult,
         '*2',
         ')',
         cssAfterValue,
       ],
-      `${cssBeforeValue}calc(${valueTransformation(value)}*2)${cssAfterValue}`
+      `${cssBeforeValue}calc(${valueTransformationString}*2)${cssAfterValue}`
     )
     expectToEqual(
       fn(value).c('/3')({}),
       [
         cssBeforeValue,
         'calc(',
-        valueTransformation(value),
+        valueTransformationResult,
         '/3',
         ')',
         cssAfterValue,
       ],
-      `${cssBeforeValue}calc(${valueTransformation(value)}/3)${cssAfterValue}`
+      `${cssBeforeValue}calc(${valueTransformationString}/3)${cssAfterValue}`
     )
   })
 
   /* CALC & !important */
-  test(`${
-    fn.name_
-  }(${typeof value}) constructs calc !important with fallback`, () => {
+  test(`${fn.name_}(${valueType}) constructs calc !important with fallback`, () => {
     expectToEqual(
       fn(value).calc('/3').important()({}),
       [
         cssBeforeValue,
         'calc(',
-        valueTransformation(value),
+        valueTransformationResult,
         '/3',
         ')',
         importantCSSAfterValue,
       ],
-      `${cssBeforeValue}calc(${valueTransformation(
-        value
-      )}/3)${importantCSSAfterValue}`
+      `${cssBeforeValue}calc(${valueTransformationString}/3)${importantCSSAfterValue}`
     )
     expectToEqual(
       fn(value).c('*2').i()({}),
       [
         cssBeforeValue,
         'calc(',
-        valueTransformation(value),
+        valueTransformationResult,
         '*2',
         ')',
         importantCSSAfterValue,
       ],
-      `${cssBeforeValue}calc(${valueTransformation(
-        value
-      )}*2)${importantCSSAfterValue}`
+      `${cssBeforeValue}calc(${valueTransformationString}*2)${importantCSSAfterValue}`
     )
   })
 }
@@ -263,17 +250,47 @@ export const testObjectValuesOn = (
   cssBeforeValue,
   cssAfterValue,
   importantCSSAfterValue,
-  numberValueTransformation = value => value,
-  stringValueTransformation = value => value
+  numberValueTransformation,
+  stringValueTransformation
 ) => {
   expect(fn).toBeDefined()
+  expect(cssBeforeValue).toBeDefined()
+  expect(cssAfterValue).toBeDefined()
+  expect(importantCSSAfterValue).toBeDefined()
+  expect(numberValueTransformation).toBeDefined()
+  expect(stringValueTransformation).toBeDefined()
 
   const standard = crypto.randomBytes(8).toString('hex')
+  const standardTransformed = stringValueTransformation(standard)
+  const standardTransformedString =
+    typeof standardTransformed === 'object'
+      ? standardTransformed.join('')
+      : `${standardTransformed}`
   const mobile = Math.round(Math.random() * 1000)
+  const mobileTransformed = numberValueTransformation(mobile)
+  const mobileTransformedString =
+    typeof mobileTransformed === 'object'
+      ? mobileTransformed.join('')
+      : `${mobileTransformed}`
   const tablet = crypto.randomBytes(8).toString('hex')
+  const tabletTransformed = stringValueTransformation(tablet)
+  const tabletTransformedString =
+    typeof tabletTransformed === 'object'
+      ? tabletTransformed.join('')
+      : `${tabletTransformed}`
   const desktop = Math.round(Math.random() * 1000)
+  const desktopTransformed = numberValueTransformation(desktop)
+  const desktopTransformedString =
+    typeof desktopTransformed === 'object'
+      ? desktopTransformed.join('')
+      : `${desktopTransformed}`
   const randomName = crypto.randomBytes(8).toString('hex')
   const randomValue = crypto.randomBytes(8).toString('hex')
+  const randomValueTransformed = stringValueTransformation(randomValue)
+  const randomValueTransformedString =
+    typeof randomValueTransformed === 'object'
+      ? randomValueTransformed.join('')
+      : `${randomValueTransformed}`
 
   const object = { standard, mobile, tablet, desktop }
   object[randomName] = randomValue
@@ -291,47 +308,33 @@ export const testObjectValuesOn = (
     expectToEqual(
       fn(object)({ theme: breakpointTheme }),
       [
-        [cssBeforeValue, stringValueTransformation(standard), cssAfterValue],
+        [cssBeforeValue, standardTransformed, cssAfterValue],
         [
           ['@media screen and (min-width:', '100px', ')'],
           '{',
-          [cssBeforeValue, numberValueTransformation(mobile), cssAfterValue],
+          [cssBeforeValue, mobileTransformed, cssAfterValue],
           '}',
         ],
         [
           ['@media screen and (min-width:', '200px', ')'],
           '{',
-          [cssBeforeValue, stringValueTransformation(tablet), cssAfterValue],
+          [cssBeforeValue, tabletTransformed, cssAfterValue],
           '}',
         ],
         [
           ['@media screen and (min-width:', '300px', ')'],
           '{',
-          [cssBeforeValue, numberValueTransformation(desktop), cssAfterValue],
+          [cssBeforeValue, desktopTransformed, cssAfterValue],
           '}',
         ],
         [
           ['@media screen and (min-width:', '500px', ')'],
           '{',
-          [
-            cssBeforeValue,
-            stringValueTransformation(randomValue),
-            cssAfterValue,
-          ],
+          [cssBeforeValue, randomValueTransformed, cssAfterValue],
           '}',
         ],
       ],
-      `${cssBeforeValue}${stringValueTransformation(
-        standard
-      )}${cssAfterValue}@media screen and (min-width:100px){${cssBeforeValue}${numberValueTransformation(
-        mobile
-      )}${cssAfterValue}}@media screen and (min-width:200px){${cssBeforeValue}${stringValueTransformation(
-        tablet
-      )}${cssAfterValue}}@media screen and (min-width:300px){${cssBeforeValue}${numberValueTransformation(
-        desktop
-      )}${cssAfterValue}}@media screen and (min-width:500px){${cssBeforeValue}${stringValueTransformation(
-        randomValue
-      )}${cssAfterValue}}`
+      `${cssBeforeValue}${standardTransformedString}${cssAfterValue}@media screen and (min-width:100px){${cssBeforeValue}${mobileTransformedString}${cssAfterValue}}@media screen and (min-width:200px){${cssBeforeValue}${tabletTransformedString}${cssAfterValue}}@media screen and (min-width:300px){${cssBeforeValue}${desktopTransformedString}${cssAfterValue}}@media screen and (min-width:500px){${cssBeforeValue}${randomValueTransformedString}${cssAfterValue}}`
     )
   })
 
@@ -339,63 +342,33 @@ export const testObjectValuesOn = (
     expectToEqual(
       fn(object).important()({ theme: breakpointTheme }),
       [
-        [
-          cssBeforeValue,
-          stringValueTransformation(standard),
-          importantCSSAfterValue,
-        ],
+        [cssBeforeValue, standardTransformed, importantCSSAfterValue],
         [
           ['@media screen and (min-width:', '100px', ')'],
           '{',
-          [
-            cssBeforeValue,
-            numberValueTransformation(mobile),
-            importantCSSAfterValue,
-          ],
+          [cssBeforeValue, mobileTransformed, importantCSSAfterValue],
           '}',
         ],
         [
           ['@media screen and (min-width:', '200px', ')'],
           '{',
-          [
-            cssBeforeValue,
-            stringValueTransformation(tablet),
-            importantCSSAfterValue,
-          ],
+          [cssBeforeValue, tabletTransformed, importantCSSAfterValue],
           '}',
         ],
         [
           ['@media screen and (min-width:', '300px', ')'],
           '{',
-          [
-            cssBeforeValue,
-            numberValueTransformation(desktop),
-            importantCSSAfterValue,
-          ],
+          [cssBeforeValue, desktopTransformed, importantCSSAfterValue],
           '}',
         ],
         [
           ['@media screen and (min-width:', '500px', ')'],
           '{',
-          [
-            cssBeforeValue,
-            stringValueTransformation(randomValue),
-            importantCSSAfterValue,
-          ],
+          [cssBeforeValue, randomValueTransformed, importantCSSAfterValue],
           '}',
         ],
       ],
-      `${cssBeforeValue}${stringValueTransformation(
-        standard
-      )}${importantCSSAfterValue}@media screen and (min-width:100px){${cssBeforeValue}${numberValueTransformation(
-        mobile
-      )}${importantCSSAfterValue}}@media screen and (min-width:200px){${cssBeforeValue}${stringValueTransformation(
-        tablet
-      )}${importantCSSAfterValue}}@media screen and (min-width:300px){${cssBeforeValue}${numberValueTransformation(
-        desktop
-      )}${importantCSSAfterValue}}@media screen and (min-width:500px){${cssBeforeValue}${stringValueTransformation(
-        randomValue
-      )}${importantCSSAfterValue}}`
+      `${cssBeforeValue}${standardTransformedString}${importantCSSAfterValue}@media screen and (min-width:100px){${cssBeforeValue}${mobileTransformedString}${importantCSSAfterValue}}@media screen and (min-width:200px){${cssBeforeValue}${tabletTransformedString}${importantCSSAfterValue}}@media screen and (min-width:300px){${cssBeforeValue}${desktopTransformedString}${importantCSSAfterValue}}@media screen and (min-width:500px){${cssBeforeValue}${randomValueTransformedString}${importantCSSAfterValue}}`
     )
   })
 
@@ -417,47 +390,33 @@ export const testObjectValuesOn = (
     expectToEqual(
       fn(object)({ theme: mediaQueriesTheme }),
       [
-        [cssBeforeValue, stringValueTransformation(standard), cssAfterValue],
+        [cssBeforeValue, standardTransformed, cssAfterValue],
         [
           'mobile_mq_test',
           '{',
-          [cssBeforeValue, numberValueTransformation(mobile), cssAfterValue],
+          [cssBeforeValue, mobileTransformed, cssAfterValue],
           '}',
         ],
         [
           'tablet_mq_test',
           '{',
-          [cssBeforeValue, stringValueTransformation(tablet), cssAfterValue],
+          [cssBeforeValue, tabletTransformed, cssAfterValue],
           '}',
         ],
         [
           'desktop_mq_test',
           '{',
-          [cssBeforeValue, numberValueTransformation(desktop), cssAfterValue],
+          [cssBeforeValue, desktopTransformed, cssAfterValue],
           '}',
         ],
         [
           'randomName_mq_test',
           '{',
-          [
-            cssBeforeValue,
-            stringValueTransformation(randomValue),
-            cssAfterValue,
-          ],
+          [cssBeforeValue, randomValueTransformed, cssAfterValue],
           '}',
         ],
       ],
-      `${cssBeforeValue}${stringValueTransformation(
-        standard
-      )}${cssAfterValue}mobile_mq_test{${cssBeforeValue}${numberValueTransformation(
-        mobile
-      )}${cssAfterValue}}tablet_mq_test{${cssBeforeValue}${stringValueTransformation(
-        tablet
-      )}${cssAfterValue}}desktop_mq_test{${cssBeforeValue}${numberValueTransformation(
-        desktop
-      )}${cssAfterValue}}randomName_mq_test{${cssBeforeValue}${stringValueTransformation(
-        randomValue
-      )}${cssAfterValue}}`
+      `${cssBeforeValue}${standardTransformedString}${cssAfterValue}mobile_mq_test{${cssBeforeValue}${mobileTransformedString}${cssAfterValue}}tablet_mq_test{${cssBeforeValue}${tabletTransformedString}${cssAfterValue}}desktop_mq_test{${cssBeforeValue}${desktopTransformedString}${cssAfterValue}}randomName_mq_test{${cssBeforeValue}${randomValueTransformedString}${cssAfterValue}}`
     )
   })
 
@@ -465,63 +424,33 @@ export const testObjectValuesOn = (
     expectToEqual(
       fn(object).important()({ theme: mediaQueriesTheme }),
       [
-        [
-          cssBeforeValue,
-          stringValueTransformation(standard),
-          importantCSSAfterValue,
-        ],
+        [cssBeforeValue, standardTransformed, importantCSSAfterValue],
         [
           'mobile_mq_test',
           '{',
-          [
-            cssBeforeValue,
-            numberValueTransformation(mobile),
-            importantCSSAfterValue,
-          ],
+          [cssBeforeValue, mobileTransformed, importantCSSAfterValue],
           '}',
         ],
         [
           'tablet_mq_test',
           '{',
-          [
-            cssBeforeValue,
-            stringValueTransformation(tablet),
-            importantCSSAfterValue,
-          ],
+          [cssBeforeValue, tabletTransformed, importantCSSAfterValue],
           '}',
         ],
         [
           'desktop_mq_test',
           '{',
-          [
-            cssBeforeValue,
-            numberValueTransformation(desktop),
-            importantCSSAfterValue,
-          ],
+          [cssBeforeValue, desktopTransformed, importantCSSAfterValue],
           '}',
         ],
         [
           'randomName_mq_test',
           '{',
-          [
-            cssBeforeValue,
-            stringValueTransformation(randomValue),
-            importantCSSAfterValue,
-          ],
+          [cssBeforeValue, randomValueTransformed, importantCSSAfterValue],
           '}',
         ],
       ],
-      `${cssBeforeValue}${stringValueTransformation(
-        standard
-      )}${importantCSSAfterValue}mobile_mq_test{${cssBeforeValue}${numberValueTransformation(
-        mobile
-      )}${importantCSSAfterValue}}tablet_mq_test{${cssBeforeValue}${stringValueTransformation(
-        tablet
-      )}${importantCSSAfterValue}}desktop_mq_test{${cssBeforeValue}${numberValueTransformation(
-        desktop
-      )}${importantCSSAfterValue}}randomName_mq_test{${cssBeforeValue}${stringValueTransformation(
-        randomValue
-      )}${importantCSSAfterValue}}`
+      `${cssBeforeValue}${standardTransformedString}${importantCSSAfterValue}mobile_mq_test{${cssBeforeValue}${mobileTransformedString}${importantCSSAfterValue}}tablet_mq_test{${cssBeforeValue}${tabletTransformedString}${importantCSSAfterValue}}desktop_mq_test{${cssBeforeValue}${desktopTransformedString}${importantCSSAfterValue}}randomName_mq_test{${cssBeforeValue}${randomValueTransformedString}${importantCSSAfterValue}}`
     )
   })
 }
