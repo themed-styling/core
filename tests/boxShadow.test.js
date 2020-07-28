@@ -1,10 +1,20 @@
-import boxShadow from '../src/lib/boxShadow'
-import { coreTest } from './utilities'
+import { boxShadow } from '../src/'
+import {
+  testStringValuesOn,
+  testNumberValuesOn,
+  testObjectValuesOn,
+  testIllegalValuesOn,
+} from './utilities'
 
-test('constructs array (string)', () => {
-  coreTest(
-    boxShadow('0 0 5px DarkSlateBlue')({}),
-    [['box-shadow', ':'], '0 0 5px DarkSlateBlue', ';'],
-    'box-shadow:0 0 5px DarkSlateBlue;'
-  )
-})
+boxShadow.name_ = 'boxShadow'
+testStringValuesOn(boxShadow, 'box-shadow:', ';', '!important;', value => value)
+testNumberValuesOn(boxShadow, 'box-shadow:', ';', '!important;', value => value)
+testObjectValuesOn(
+  boxShadow,
+  'box-shadow:',
+  ';',
+  '!important;',
+  value => value,
+  value => value
+)
+testIllegalValuesOn(boxShadow)
