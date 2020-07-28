@@ -1,31 +1,42 @@
-import contrast from '../../src/lib/filter/contrast'
-import { coreTest } from '../utilities'
+import { contrast } from '../../src/'
+import {
+  testStringValuesOn,
+  testNumberValuesOn,
+  testObjectValuesOn,
+  testIllegalValuesOn,
+} from '../utilities'
 
-test('constructs array (number <= 1 -> %)', () => {
-  coreTest(
-    contrast(0.5)({}),
-    ['filter:contrast(', [50, '%'], ');'],
-    'filter:contrast(50%);'
-  )
-  coreTest(
-    contrast(1)({}),
-    ['filter:contrast(', [100, '%'], ');'],
-    'filter:contrast(100%);'
-  )
-})
-
-test('constructs array (number > 1 -> %)', () => {
-  coreTest(
-    contrast(2)({}),
-    ['filter:contrast(', [2, '%'], ');'],
-    'filter:contrast(2%);'
-  )
-})
-
-test('constructs array (string)', () => {
-  coreTest(
-    contrast('3.14159%')({}),
-    ['filter:contrast(', '3.14159%', ');'],
-    'filter:contrast(3.14159%);'
-  )
-})
+contrast.name_ = 'contrast'
+testStringValuesOn(
+  contrast,
+  'filter:contrast(',
+  ');',
+  ')!important;',
+  value => value
+)
+testNumberValuesOn(
+  contrast,
+  'filter:contrast(',
+  ');',
+  ')!important;',
+  value => {
+    if (value <= 1) {
+      return [value * 100, '%']
+    }
+    return [value, '%']
+  }
+)
+testObjectValuesOn(
+  contrast,
+  'filter:contrast(',
+  ');',
+  ')!important;',
+  value => {
+    if (value <= 1) {
+      return [value * 100, '%']
+    }
+    return [value, '%']
+  },
+  value => value
+)
+testIllegalValuesOn(contrast)

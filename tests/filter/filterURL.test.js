@@ -1,4 +1,4 @@
-import { hueRotate } from '../../src/'
+import { filterURL } from '../../src/'
 import {
   testStringValuesOn,
   testNumberValuesOn,
@@ -6,27 +6,27 @@ import {
   testIllegalValuesOn,
 } from '../utilities'
 
-hueRotate.name_ = 'hueRotate'
+filterURL.name_ = 'filterURL'
 testStringValuesOn(
-  hueRotate,
-  'filter:hue-rotate(',
+  filterURL,
+  'filter:url(',
   ');',
   ')!important;',
   value => value
 )
 testNumberValuesOn(
-  hueRotate,
-  'filter:hue-rotate(',
+  filterURL,
+  'filter:url(',
   ');',
   ')!important;',
-  value => [value, 'deg']
-)
-testObjectValuesOn(
-  hueRotate,
-  'filter:hue-rotate(',
-  ');',
-  ')!important;',
-  value => [value, 'deg'],
   value => value
 )
-testIllegalValuesOn(hueRotate)
+testObjectValuesOn(
+  filterURL,
+  'filter:url(',
+  ');',
+  ')!important;',
+  value => value,
+  value => value
+)
+testIllegalValuesOn(filterURL)
