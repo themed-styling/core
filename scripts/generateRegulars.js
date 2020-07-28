@@ -51,7 +51,7 @@ export const regularFunctions = [
   regularFunction('borderRightStyle')('border')('plain'),
   regularFunction('borderRightWidth')('border')('px'),
 
-  regularFunction('borderStyle')('border')('px'),
+  regularFunction('borderStyle')('border')('plain'),
 
   regularFunction('borderTop')('border')('plain'),
   regularFunction('borderTopColor')('border')('color'),
