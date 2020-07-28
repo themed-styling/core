@@ -15,11 +15,11 @@
  * @name color
  * @memberOf util
  */
-export default (value) => {
+export default value => {
   switch (typeof value) {
     case 'number':
     case 'bigint':
-      return `#${value}`
+      return ['#', value]
     case 'string':
       return value
     default:

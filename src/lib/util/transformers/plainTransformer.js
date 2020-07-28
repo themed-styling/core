@@ -15,4 +15,4 @@
  * @name plain
  * @memberOf util
  */
-export default (value) => value
+export default value => value
