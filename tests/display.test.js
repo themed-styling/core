@@ -1,15 +1,20 @@
-import display from '../src/lib/display'
-import { coreTest } from './utilities'
+import { display } from '../src/'
+import {
+  testStringValuesOn,
+  testNumberValuesOn,
+  testObjectValuesOn,
+  testIllegalValuesOn,
+} from './utilities'
 
-test('constructs array (string)', () => {
-  coreTest(
-    display('flex')({}),
-    [['display', ':'], 'flex', ';'],
-    'display:flex;'
-  )
-  coreTest(
-    display('none')({}),
-    [['display', ':'], 'none', ';'],
-    'display:none;'
-  )
-})
+display.name_ = 'display'
+testStringValuesOn(display, 'display:', ';', '!important;', value => value)
+testNumberValuesOn(display, 'display:', ';', '!important;', value => value)
+testObjectValuesOn(
+  display,
+  'display:',
+  ';',
+  '!important;',
+  value => value,
+  value => value
+)
+testIllegalValuesOn(display)
