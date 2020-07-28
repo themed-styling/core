@@ -1,7 +1,7 @@
 import valueConstructor from '../../util/constructors/valueConstructor'
 import valueMaker from '../../util/makers/valueMaker'
 import calcValueMaker from '../../util/makers/calcValueMaker'
-import pxTransformer from '../../util/transformers/pxTransformer'
+import plainTransformer from '../../util/transformers/plainTransformer'
 
 /**
  * Returns a function that takes an object containing <code>borderStyle</code> and <code>theme</code> properties.
@@ -22,13 +22,13 @@ export default fallback => {
       fn.doCalc_
         ? calcValueMaker(
             'border-style:',
-            pxTransformer,
+            plainTransformer,
             fn.calc_,
             fn.important_ ? '!important;' : ';'
           )
         : valueMaker(
             'border-style:',
-            pxTransformer,
+            plainTransformer,
             fn.important_ ? '!important;' : ';'
           )
     )
