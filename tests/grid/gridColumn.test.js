@@ -1,4 +1,4 @@
-import { gridColumnEnd } from '../../src/'
+import { gridColumn } from '../../src/'
 import {
   testStringValuesOn,
   testNumberValuesOn,
@@ -6,27 +6,27 @@ import {
   testIllegalValuesOn,
 } from '../utilities'
 
-gridColumnEnd.name_ = 'gridColumnEnd'
+gridColumn.name_ = 'gridColumn'
 testStringValuesOn(
-  gridColumnEnd,
-  'grid-column-end:',
+  gridColumn,
+  'grid-column:',
   ';',
   '!important;',
   value => value
 )
 testNumberValuesOn(
-  gridColumnEnd,
-  'grid-column-end:',
+  gridColumn,
+  'grid-column:',
   ';',
   '!important;',
   value => value
 )
 testObjectValuesOn(
-  gridColumnEnd,
-  'grid-column-end:',
+  gridColumn,
+  'grid-column:',
   ';',
   '!important;',
   value => value,
   value => value
 )
-testIllegalValuesOn(gridColumnEnd)
+testIllegalValuesOn(gridColumn)

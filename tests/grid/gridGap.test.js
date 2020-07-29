@@ -1,14 +1,23 @@
-import gridGap from '../../src/lib/grid/gridGap'
-import { coreTest } from '../utilities'
+import { gridGap } from '../../src/'
+import {
+  testStringValuesOn,
+  testNumberValuesOn,
+  testObjectValuesOn,
+  testIllegalValuesOn,
+} from '../utilities'
 
-test('constructs array (number)', () => {
-  coreTest(gridGap(20)({}), [['grid-gap', ':'], '20px', ';'], 'grid-gap:20px;')
-})
-
-test('constructs array (string)', () => {
-  coreTest(
-    gridGap('1rem 2rem')({}),
-    [['grid-gap', ':'], '1rem 2rem', ';'],
-    'grid-gap:1rem 2rem;'
-  )
-})
+gridGap.name_ = 'gridGap'
+testStringValuesOn(gridGap, 'grid-gap:', ';', '!important;', value => value)
+testNumberValuesOn(gridGap, 'grid-gap:', ';', '!important;', value => [
+  value,
+  'px',
+])
+testObjectValuesOn(
+  gridGap,
+  'grid-gap:',
+  ';',
+  '!important;',
+  value => [value, 'px'],
+  value => value
+)
+testIllegalValuesOn(gridGap)
