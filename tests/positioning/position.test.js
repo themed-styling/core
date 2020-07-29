@@ -1,15 +1,20 @@
-import position from '../../src/lib/positioning/position'
-import { coreTest } from '../utilities'
+import { position } from '../../src/'
+import {
+  testStringValuesOn,
+  testNumberValuesOn,
+  testObjectValuesOn,
+  testIllegalValuesOn,
+} from '../utilities'
 
-test('constructs array (string)', () => {
-  coreTest(
-    position('relative')({}),
-    [['position', ':'], 'relative', ';'],
-    'position:relative;'
-  )
-  coreTest(
-    position('absolute')({}),
-    [['position', ':'], 'absolute', ';'],
-    'position:absolute;'
-  )
-})
+position.name_ = 'position'
+testStringValuesOn(position, 'position:', ';', '!important;', value => value)
+testNumberValuesOn(position, 'position:', ';', '!important;', value => value)
+testObjectValuesOn(
+  position,
+  'position:',
+  ';',
+  '!important;',
+  value => value,
+  value => value
+)
+testIllegalValuesOn(position)

@@ -1,11 +1,20 @@
-import left from '../../src/lib/positioning/left'
-import { coreTest } from '../utilities'
+import { left } from '../../src/'
+import {
+  testStringValuesOn,
+  testNumberValuesOn,
+  testObjectValuesOn,
+  testIllegalValuesOn,
+} from '../utilities'
 
-test('constructs array (number)', () => {
-  coreTest(left(10)({}), [['left', ':'], '10px', ';'], 'left:10px;')
-  coreTest(left(-20)({}), [['left', ':'], '-20px', ';'], 'left:-20px;')
-})
-
-test('constructs array (string)', () => {
-  coreTest(left('1rem')({}), [['left', ':'], '1rem', ';'], 'left:1rem;')
-})
+left.name_ = 'left'
+testStringValuesOn(left, 'left:', ';', '!important;', value => value)
+testNumberValuesOn(left, 'left:', ';', '!important;', value => [value, 'px'])
+testObjectValuesOn(
+  left,
+  'left:',
+  ';',
+  '!important;',
+  value => [value, 'px'],
+  value => value
+)
+testIllegalValuesOn(left)
