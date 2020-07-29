@@ -1,24 +1,24 @@
-import degrees from '../../src/lib/util/transformers/degrees'
+import degreesTransformer from '../../src/lib/util/transformers/degreesTransformer'
 
 test('transforms number into degree value', () => {
-  expect(degrees(0)).toStrictEqual([0, 'deg'])
-  expect(degrees(0).join('')).toBe('0deg')
-  expect(degrees(58)).toStrictEqual([58, 'deg'])
-  expect(degrees(58).join('')).toBe('58deg')
-  expect(degrees(360)).toStrictEqual([360, 'deg'])
-  expect(degrees(360).join('')).toBe('360deg')
-  expect(degrees(-36)).toStrictEqual([-36, 'deg'])
-  expect(degrees(-36).join('')).toBe('-36deg')
+  expect(degreesTransformer(0)).toStrictEqual([0, 'deg'])
+  expect(degreesTransformer(0).join('')).toBe('0deg')
+  expect(degreesTransformer(58)).toStrictEqual([58, 'deg'])
+  expect(degreesTransformer(58).join('')).toBe('58deg')
+  expect(degreesTransformer(360)).toStrictEqual([360, 'deg'])
+  expect(degreesTransformer(360).join('')).toBe('360deg')
+  expect(degreesTransformer(-36)).toStrictEqual([-36, 'deg'])
+  expect(degreesTransformer(-36).join('')).toBe('-36deg')
 })
 
 test('leaves string value be', () => {
-  expect(degrees('asdasd')).toBe('asdasd')
+  expect(degreesTransformer('asdasd')).toBe('asdasd')
 })
 
 test('throws type error', () => {
-  expect(() => degrees(undefined)).toThrow(TypeError)
-  expect(() => degrees(null)).toThrow(TypeError)
-  expect(() => degrees({})).toThrow(TypeError)
-  expect(() => degrees([])).toThrow(TypeError)
-  expect(() => degrees(() => 123)).toThrow(TypeError)
+  expect(() => degreesTransformer(undefined)).toThrow(TypeError)
+  expect(() => degreesTransformer(null)).toThrow(TypeError)
+  expect(() => degreesTransformer({})).toThrow(TypeError)
+  expect(() => degreesTransformer([])).toThrow(TypeError)
+  expect(() => degreesTransformer(() => 123)).toThrow(TypeError)
 })

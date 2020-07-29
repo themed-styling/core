@@ -1,10 +1,10 @@
-import plain from '../../src/lib/util/transformers/plain'
+import plainTransformer from '../../src/lib/util/transformers/plainTransformer'
 
 test('leaves any value be', () => {
-  expect(plain(10)).toBe(10)
-  expect(plain('asdasd')).toBe('asdasd')
-  expect(plain(undefined)).toBe(undefined)
-  expect(plain(null)).toBe(null)
-  expect(plain({})).toStrictEqual({})
-  expect(plain([])).toStrictEqual([])
+  expect(plainTransformer(10)).toBe(10)
+  expect(plainTransformer('asdasd')).toBe('asdasd')
+  expect(plainTransformer(undefined)).toBe(undefined)
+  expect(plainTransformer(null)).toBe(null)
+  expect(plainTransformer({})).toStrictEqual({})
+  expect(plainTransformer([])).toStrictEqual([])
 })
