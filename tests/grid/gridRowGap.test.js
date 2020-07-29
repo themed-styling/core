@@ -1,4 +1,4 @@
-import { gridColumnEnd } from '../../src/'
+import { gridRowGap } from '../../src/'
 import {
   testStringValuesOn,
   testNumberValuesOn,
@@ -6,27 +6,24 @@ import {
   testIllegalValuesOn,
 } from '../utilities'
 
-gridColumnEnd.name_ = 'gridColumnEnd'
+gridRowGap.name_ = 'gridRowGap'
 testStringValuesOn(
-  gridColumnEnd,
-  'grid-column-end:',
+  gridRowGap,
+  'grid-row-gap:',
   ';',
   '!important;',
   value => value
 )
-testNumberValuesOn(
-  gridColumnEnd,
-  'grid-column-end:',
-  ';',
-  '!important;',
-  value => value
-)
+testNumberValuesOn(gridRowGap, 'grid-row-gap:', ';', '!important;', value => [
+  value,
+  'px',
+])
 testObjectValuesOn(
-  gridColumnEnd,
-  'grid-column-end:',
+  gridRowGap,
+  'grid-row-gap:',
   ';',
   '!important;',
-  value => value,
+  value => [value, 'px'],
   value => value
 )
-testIllegalValuesOn(gridColumnEnd)
+testIllegalValuesOn(gridRowGap)
