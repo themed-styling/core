@@ -1,17 +1,17 @@
-import px from '../../src/lib/util/transformers/px'
+import pxTransformer from '../../src/lib/util/transformers/pxTransformer'
 
 test('transforms number into px value', () => {
-  expect(px(10)).toBe('10px')
+  expect(pxTransformer(10)).toStrictEqual([10, 'px'])
 })
 
 test('leaves string value be', () => {
-  expect(px('asdasd')).toBe('asdasd')
+  expect(pxTransformer('asdasd')).toBe('asdasd')
 })
 
 test('throws type error', () => {
-  expect(() => px(undefined)).toThrow(TypeError)
-  expect(() => px(null)).toThrow(TypeError)
-  expect(() => px({})).toThrow(TypeError)
-  expect(() => px([])).toThrow(TypeError)
-  expect(() => px(() => 123)).toThrow(TypeError)
+  expect(() => pxTransformer(undefined)).toThrow(TypeError)
+  expect(() => pxTransformer(null)).toThrow(TypeError)
+  expect(() => pxTransformer({})).toThrow(TypeError)
+  expect(() => pxTransformer([])).toThrow(TypeError)
+  expect(() => pxTransformer(() => 123)).toThrow(TypeError)
 })

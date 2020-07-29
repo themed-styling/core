@@ -1,17 +1,17 @@
-import color from '../../src/lib/util/transformers/color'
+import colorTransformer from '../../src/lib/util/transformers/colorTransformer'
 
 test('transforms number into hex value', () => {
-  expect(color(111)).toBe('#111')
+  expect(colorTransformer(111)).toStrictEqual(['#', 111])
 })
 
 test('leaves string value be', () => {
-  expect(color('asdasd')).toBe('asdasd')
+  expect(colorTransformer('asdasd')).toBe('asdasd')
 })
 
 test('throws type error', () => {
-  expect(() => color(undefined)).toThrow(TypeError)
-  expect(() => color(null)).toThrow(TypeError)
-  expect(() => color({})).toThrow(TypeError)
-  expect(() => color([])).toThrow(TypeError)
-  expect(() => color(() => 123)).toThrow(TypeError)
+  expect(() => colorTransformer(undefined)).toThrow(TypeError)
+  expect(() => colorTransformer(null)).toThrow(TypeError)
+  expect(() => colorTransformer({})).toThrow(TypeError)
+  expect(() => colorTransformer([])).toThrow(TypeError)
+  expect(() => colorTransformer(() => 123)).toThrow(TypeError)
 })
