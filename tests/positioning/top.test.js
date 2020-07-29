@@ -1,11 +1,20 @@
-import top from '../../src/lib/positioning/top'
-import { coreTest } from '../utilities'
+import { top } from '../../src/'
+import {
+  testStringValuesOn,
+  testNumberValuesOn,
+  testObjectValuesOn,
+  testIllegalValuesOn,
+} from '../utilities'
 
-test('constructs array (number)', () => {
-  coreTest(top(10)({}), [['top', ':'], '10px', ';'], 'top:10px;')
-  coreTest(top(-20)({}), [['top', ':'], '-20px', ';'], 'top:-20px;')
-})
-
-test('constructs array (string)', () => {
-  coreTest(top('1rem')({}), [['top', ':'], '1rem', ';'], 'top:1rem;')
-})
+top.name_ = 'top'
+testStringValuesOn(top, 'top:', ';', '!important;', value => value)
+testNumberValuesOn(top, 'top:', ';', '!important;', value => [value, 'px'])
+testObjectValuesOn(
+  top,
+  'top:',
+  ';',
+  '!important;',
+  value => [value, 'px'],
+  value => value
+)
+testIllegalValuesOn(top)
