@@ -55,9 +55,7 @@
     "jsxSingleQuote": true
   },
   "husky": {
-    "hooks": {
-      "pre-commit": "npm run test"
-    }
+    "hooks": {}
   },
   "babel": {
     "presets": [
