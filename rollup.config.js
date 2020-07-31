@@ -13,7 +13,7 @@ export default {
       format: 'esm',
     },
   ],
-  external: ['@styled-system/theme-get'],
+  external: ['prop-types'],
   plugins: [
     commonjs(),
     resolve({
