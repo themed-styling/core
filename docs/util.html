@@ -72,7 +72,7 @@
     
     <dt class="tag-source">Source:</dt>
     <dd class="tag-source"><ul class="dummy"><li>
-        <a href="index.js.html">index.js</a>, <a href="index.js.html#line36">line 36</a>
+        <a href="index.js.html">index.js</a>, <a href="index.js.html#line37">line 37</a>
     </li></ul></dd>
     
 
@@ -151,7 +151,7 @@ This transformer is used in color related core functions.
     
     <dt class="tag-source">Source:</dt>
     <dd class="tag-source"><ul class="dummy"><li>
-        <a href="lib_util_transformers_color.js.html">lib/util/transformers/color.js</a>, <a href="lib_util_transformers_color.js.html#line1">line 1</a>
+        <a href="lib_util_transformers_colorTransformer.js.html">lib/util/transformers/colorTransformer.js</a>, <a href="lib_util_transformers_colorTransformer.js.html#line1">line 1</a>
     </li></ul></dd>
     
 
@@ -173,70 +173,6 @@ const stringValue = color('DarkSlateBlue')
 
 hexValue === '#000'
 stringValue === 'DarkSlateBlue'</code></pre>
-
-
-
-        
-            
-<h4 class="name" id=".construct"><span class="type-signature">(static) </span>construct<span class="type-signature"></span></h4>
-
-
-
-
-<div class="description">
-    Constructs an array for a given value and CSS property.
-
-The array is made up of strings and numbers, depending on the transformer. This function is an abstraction to be used for functions representing CSS properties.
-</div>
-
-
-
-
-
-
-
-<dl class="details">
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-    <dt class="tag-source">Source:</dt>
-    <dd class="tag-source"><ul class="dummy"><li>
-        <a href="lib_util_construct.js.html">lib/util/construct.js</a>, <a href="lib_util_construct.js.html#line3">line 3</a>
-    </li></ul></dd>
-    
-
-    
-
-    
-
-    
-</dl>
-
-
-
 
 
 
@@ -311,6 +247,75 @@ The array is made up of strings and numbers, depending on the transformer. This 
 
         
             
+<h4 class="name" id=".core"><span class="type-signature">(static) </span>core<span class="type-signature"></span></h4>
+
+
+
+
+<div class="description">
+    Universal function to create core functions.
+
+Returns a function that takes a fallback value and returns a function which
+takes an object containing a theme property and a specified property. This
+function returns an array based on the fallback value or the specified
+property. This function also has properties propName and p of type function, which
+takes a string and returns the same function but with the specified property
+being the string that was passed.
+</div>
+
+
+
+
+
+
+
+<dl class="details">
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+    <dt class="tag-source">Source:</dt>
+    <dd class="tag-source"><ul class="dummy"><li>
+        <a href="lib_util_core.js.html">lib/util/core.js</a>, <a href="lib_util_core.js.html#line4">line 4</a>
+    </li></ul></dd>
+    
+
+    
+
+    
+
+    
+</dl>
+
+
+
+
+
+
+        
+            
 <h4 class="name" id=".degrees"><span class="type-signature">(static) </span>degrees<span class="type-signature"></span></h4>
 
 
@@ -355,7 +360,7 @@ The array is made up of strings and numbers, depending on the transformer. This 
     
     <dt class="tag-source">Source:</dt>
     <dd class="tag-source"><ul class="dummy"><li>
-        <a href="lib_util_transformers_degrees.js.html">lib/util/transformers/degrees.js</a>, <a href="lib_util_transformers_degrees.js.html#line1">line 1</a>
+        <a href="lib_util_transformers_degreesTransformer.js.html">lib/util/transformers/degreesTransformer.js</a>, <a href="lib_util_transformers_degreesTransformer.js.html#line1">line 1</a>
     </li></ul></dd>
     
 
@@ -488,7 +493,7 @@ Numbers below 1 are multiplied by 100.
     
     <dt class="tag-source">Source:</dt>
     <dd class="tag-source"><ul class="dummy"><li>
-        <a href="lib_util_transformers_percent.js.html">lib/util/transformers/percent.js</a>, <a href="lib_util_transformers_percent.js.html#line1">line 1</a>
+        <a href="lib_util_transformers_percentTransformer.js.html">lib/util/transformers/percentTransformer.js</a>, <a href="lib_util_transformers_percentTransformer.js.html#line1">line 1</a>
     </li></ul></dd>
     
 
@@ -559,7 +564,7 @@ This transformer is used in core functions that take special values.
     
     <dt class="tag-source">Source:</dt>
     <dd class="tag-source"><ul class="dummy"><li>
-        <a href="lib_util_transformers_plain.js.html">lib/util/transformers/plain.js</a>, <a href="lib_util_transformers_plain.js.html#line1">line 1</a>
+        <a href="lib_util_transformers_plainTransformer.js.html">lib/util/transformers/plainTransformer.js</a>, <a href="lib_util_transformers_plainTransformer.js.html#line1">line 1</a>
     </li></ul></dd>
     
 
@@ -592,9 +597,11 @@ stringValue === '1 / 3'</code></pre>
 
 
 <div class="description">
-    Adds a parameter to specify whether or not a component should have a prop.
+    Universal function to create propless functions.
 
-Takes a callback to construct the array and the name of the prop the component will have, should it have a prop.
+Returns a function that takes a value and returns a function which
+takes an object containing a theme property. This function returns an array
+based on the value.
 </div>
 
 
@@ -632,7 +639,7 @@ Takes a callback to construct the array and the name of the prop the component w
     
     <dt class="tag-source">Source:</dt>
     <dd class="tag-source"><ul class="dummy"><li>
-        <a href="lib_util_propless.js.html">lib/util/propless.js</a>, <a href="lib_util_propless.js.html#line1">line 1</a>
+        <a href="lib_util_propless.js.html">lib/util/propless.js</a>, <a href="lib_util_propless.js.html#line3">line 3</a>
     </li></ul></dd>
     
 
@@ -696,7 +703,7 @@ This is the default transformer for the <code>construct</code> function.
     
     <dt class="tag-source">Source:</dt>
     <dd class="tag-source"><ul class="dummy"><li>
-        <a href="lib_util_transformers_px.js.html">lib/util/transformers/px.js</a>, <a href="lib_util_transformers_px.js.html#line1">line 1</a>
+        <a href="lib_util_transformers_pxTransformer.js.html">lib/util/transformers/pxTransformer.js</a>, <a href="lib_util_transformers_pxTransformer.js.html#line1">line 1</a>
     </li></ul></dd>
     
 
@@ -745,7 +752,7 @@ stringValue === '1rem'</code></pre>
 <br class="clear">
 
 <footer>
-    Documentation generated by <a href="https://github.com/jsdoc/jsdoc">JSDoc 3.6.4</a> on Wed May 20 2020 08:57:51 GMT+0200 (Central European Summer Time)
+    Documentation generated by <a href="https://github.com/jsdoc/jsdoc">JSDoc 3.6.5</a> on Sun Aug 02 2020 00:21:05 GMT+0200 (Central European Summer Time)
 </footer>
 
 <script> prettyPrint(); </script>

@@ -102,13 +102,678 @@
 
         
                 
+
+    
+
+    
+    <h4 class="name" id="coreFunction"><span class="type-signature"></span>coreFunction<span class="signature">(fallback<span class="signature-attributes">opt</span>)</span><span class="type-signature"> &rarr; {function}</span></h4>
+    
+
+    
+
+
+
+
+
+
+
+
+
+
+
+    <h5>Parameters:</h5>
+    
+
+<table class="params">
+    <thead>
+    <tr>
+        
+        <th>Name</th>
+        
+
+        <th>Type</th>
+
+        
+        <th>Attributes</th>
+        
+
+        
+
+        <th class="last">Description</th>
+    </tr>
+    </thead>
+
+    <tbody>
+    
+
+        <tr>
+            
+                <td class="name"><code>fallback</code></td>
+            
+
+            <td class="type">
+            
+                
+<span class="param-type">object.&lt;(string|number|bigint)></span>
+|
+
+<span class="param-type">array.&lt;(string|number|bigint)></span>
+|
+
+<span class="param-type">string</span>
+|
+
+<span class="param-type">number</span>
+|
+
+<span class="param-type">bigint</span>
+
+
+            
+            </td>
+
+            
+                <td class="attributes">
+                
+                    &lt;optional><br>
+                
+
+                
+
+                
+                </td>
+            
+
+            
+
+            <td class="description last">A fallback value to use when no prop value is passed</td>
+        </tr>
+
+    
+    </tbody>
+</table>
+
+
+
+
+
+
+    <h5 class="subsection-title">Properties:</h5>
+
+    
+
+<table class="props">
+    <thead>
+    <tr>
+        
+        <th>Name</th>
+        
+
+        <th>Type</th>
+
+        
+
+        
+
+        <th class="last">Description</th>
+    </tr>
+    </thead>
+
+    <tbody>
+    
+
+        <tr>
+            
+                <td class="name"><code>propName</code></td>
+            
+
+            <td class="type">
+            
+                
+<span class="param-type"><a href="global.html#stringModifier">stringModifier</a></span>
+
+
+            
+            </td>
+
+            
+
+            
+
+            <td class="description last">Function to set the name of the prop the component should have</td>
+        </tr>
+
+    
+
+        <tr>
+            
+                <td class="name"><code>p</code></td>
+            
+
+            <td class="type">
+            
+                
+<span class="param-type"><a href="global.html#stringModifier">stringModifier</a></span>
+
+
+            
+            </td>
+
+            
+
+            
+
+            <td class="description last">Shorthand for propName</td>
+        </tr>
+
+    
+
+        <tr>
+            
+                <td class="name"><code>important</code></td>
+            
+
+            <td class="type">
+            
+                
+<span class="param-type"><a href="global.html#modifier">modifier</a></span>
+
+
+            
+            </td>
+
+            
+
+            
+
+            <td class="description last">Function to mark the value as !important</td>
+        </tr>
+
+    
+
+        <tr>
+            
+                <td class="name"><code>i</code></td>
+            
+
+            <td class="type">
+            
+                
+<span class="param-type"><a href="global.html#modifier">modifier</a></span>
+
+
+            
+            </td>
+
+            
+
+            
+
+            <td class="description last">Shorthand for important</td>
+        </tr>
+
+    
+
+        <tr>
+            
+                <td class="name"><code>propless</code></td>
+            
+
+            <td class="type">
+            
+                
+<span class="param-type"><a href="global.html#modifier">modifier</a></span>
+
+
+            
+            </td>
+
+            
+
+            
+
+            <td class="description last">Function to disable using a prop</td>
+        </tr>
+
+    
+
+        <tr>
+            
+                <td class="name"><code>l</code></td>
+            
+
+            <td class="type">
+            
+                
+<span class="param-type"><a href="global.html#modifier">modifier</a></span>
+
+
+            
+            </td>
+
+            
+
+            
+
+            <td class="description last">Shorthand for propless</td>
+        </tr>
+
+    
+
+        <tr>
+            
+                <td class="name"><code>calc</code></td>
+            
+
+            <td class="type">
+            
+                
+<span class="param-type"><a href="global.html#stringModifier">stringModifier</a></span>
+
+
+            
+            </td>
+
+            
+
+            
+
+            <td class="description last">Function to add css calc() to transform the value</td>
+        </tr>
+
+    
+
+        <tr>
+            
+                <td class="name"><code>c</code></td>
+            
+
+            <td class="type">
+            
+                
+<span class="param-type"><a href="global.html#stringModifier">stringModifier</a></span>
+
+
+            
+            </td>
+
+            
+
+            
+
+            <td class="description last">Shorthand for calc</td>
+        </tr>
+
+    
+    </tbody>
+</table>
+
+
+
+
+<dl class="details">
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+    <dt class="tag-source">Source:</dt>
+    <dd class="tag-source"><ul class="dummy"><li>
+        <a href="index.js.html">index.js</a>, <a href="index.js.html#line53">line 53</a>
+    </li></ul></dd>
+    
+
+    
+
+    
+
+    
+</dl>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<h5>Returns:</h5>
+
+        
+<div class="param-desc">
+    Function to take component props passed by styled-components
+</div>
+
+
+
+<dl>
+    <dt>
+        Type
+    </dt>
+    <dd>
+        
+<span class="param-type">function</span>
+
+
+    </dd>
+</dl>
+
+    
+
+
+
+
+
+            
+                
+
+    
+
+    
+    <h4 class="name" id="cssMaker"><span class="type-signature"></span>cssMaker<span class="signature">(value)</span><span class="type-signature"> &rarr; {array.&lt;(string|number|bigint)>}</span></h4>
+    
+
+    
+
+
+
+
+
+
+
+
+
+
+
+    <h5>Parameters:</h5>
+    
+
+<table class="params">
+    <thead>
+    <tr>
+        
+        <th>Name</th>
+        
+
+        <th>Type</th>
+
+        
+
+        
+
+        <th class="last">Description</th>
+    </tr>
+    </thead>
+
+    <tbody>
+    
+
+        <tr>
+            
+                <td class="name"><code>value</code></td>
+            
+
+            <td class="type">
+            
+                
+<span class="param-type">object.&lt;(string|number|bigint)></span>
+|
+
+<span class="param-type">array.&lt;(string|number|bigint)></span>
+|
+
+<span class="param-type">string</span>
+|
+
+<span class="param-type">number</span>
+|
+
+<span class="param-type">bigint</span>
+
+
+            
+            </td>
+
+            
+
+            
+
+            <td class="description last">A CSS value</td>
+        </tr>
+
+    
+    </tbody>
+</table>
+
+
+
+
+
+
+<dl class="details">
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+    <dt class="tag-source">Source:</dt>
+    <dd class="tag-source"><ul class="dummy"><li>
+        <a href="index.js.html">index.js</a>, <a href="index.js.html#line67">line 67</a>
+    </li></ul></dd>
+    
+
+    
+
+    
+
+    
+</dl>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<h5>Returns:</h5>
+
+        
+<div class="param-desc">
+    An array that represents a line of CSS code when joined
+</div>
+
+
+
+<dl>
+    <dt>
+        Type
+    </dt>
+    <dd>
+        
+<span class="param-type">array.&lt;(string|number|bigint)></span>
+
+
+    </dd>
+</dl>
+
+    
+
+
+
+
+
+            
+                
+
+    
+
+    
+    <h4 class="name" id="modifier"><span class="type-signature"></span>modifier<span class="signature">()</span><span class="type-signature"> &rarr; {<a href="global.html#coreFunction">coreFunction</a>}</span></h4>
+    
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<dl class="details">
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+    <dt class="tag-source">Source:</dt>
+    <dd class="tag-source"><ul class="dummy"><li>
+        <a href="index.js.html">index.js</a>, <a href="index.js.html#line42">line 42</a>
+    </li></ul></dd>
+    
+
+    
+
+    
+
+    
+</dl>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<h5>Returns:</h5>
+
+        
+<div class="param-desc">
+    The function it was called on
+</div>
+
+
+
+<dl>
+    <dt>
+        Type
+    </dt>
+    <dd>
+        
+<span class="param-type"><a href="global.html#coreFunction">coreFunction</a></span>
+
+
+    </dd>
+</dl>
+
+    
+
+
+
+
+
+            
+                
 <h4 class="name" id="props">props</h4>
 
 
 
 
 <div class="description">
-    An object containing <a href="global.html#theme">theme</a>
+    An object containing a <code><a href="global.html#theme">theme</a></code> property
 </div>
 
 
@@ -117,7 +782,7 @@
     <ul>
         <li>
             
-<span class="param-type">Object</span>
+<span class="param-type">object</span>
 
 
         </li>
@@ -169,7 +834,7 @@
 
             
 
-            <td class="description last">An object containing a <code>breakpoints</code> object or array</td>
+            <td class="description last">A <code><a href="global.html#theme">theme</a></code> object</td>
         </tr>
 
     
@@ -208,7 +873,7 @@
     
     <dt class="tag-source">Source:</dt>
     <dd class="tag-source"><ul class="dummy"><li>
-        <a href="index.js.html">index.js</a>, <a href="index.js.html#line25">line 25</a>
+        <a href="index.js.html">index.js</a>, <a href="index.js.html#line26">line 26</a>
     </li></ul></dd>
     
 
@@ -226,13 +891,168 @@
 
             
                 
+
+    
+
+    
+    <h4 class="name" id="stringModifier"><span class="type-signature"></span>stringModifier<span class="signature">(string)</span><span class="type-signature"> &rarr; {<a href="global.html#coreFunction">coreFunction</a>}</span></h4>
+    
+
+    
+
+
+
+
+
+
+
+
+
+
+
+    <h5>Parameters:</h5>
+    
+
+<table class="params">
+    <thead>
+    <tr>
+        
+        <th>Name</th>
+        
+
+        <th>Type</th>
+
+        
+
+        
+
+        <th class="last">Description</th>
+    </tr>
+    </thead>
+
+    <tbody>
+    
+
+        <tr>
+            
+                <td class="name"><code>string</code></td>
+            
+
+            <td class="type">
+            
+                
+<span class="param-type">string</span>
+
+
+            
+            </td>
+
+            
+
+            
+
+            <td class="description last">A string value</td>
+        </tr>
+
+    
+    </tbody>
+</table>
+
+
+
+
+
+
+<dl class="details">
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+    <dt class="tag-source">Source:</dt>
+    <dd class="tag-source"><ul class="dummy"><li>
+        <a href="index.js.html">index.js</a>, <a href="index.js.html#line47">line 47</a>
+    </li></ul></dd>
+    
+
+    
+
+    
+
+    
+</dl>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<h5>Returns:</h5>
+
+        
+<div class="param-desc">
+    The function it was called on
+</div>
+
+
+
+<dl>
+    <dt>
+        Type
+    </dt>
+    <dd>
+        
+<span class="param-type"><a href="global.html#coreFunction">coreFunction</a></span>
+
+
+    </dd>
+</dl>
+
+    
+
+
+
+
+
+            
+                
 <h4 class="name" id="theme">theme</h4>
 
 
 
 
 <div class="description">
-    An object containing <code>breakpoints</code>
+    An object containing a <code>breakpoints</code> or a <code>mediaQueries</code> property.
 </div>
 
 
@@ -241,7 +1061,7 @@
     <ul>
         <li>
             
-<span class="param-type">Object</span>
+<span class="param-type">object</span>
 
 
         </li>
@@ -265,6 +1085,8 @@
         <th>Type</th>
 
         
+        <th>Attributes</th>
+        
 
         
 
@@ -283,15 +1105,23 @@
             <td class="type">
             
                 
-<span class="param-type">Object.&lt;(string|number|bigint)></span>
+<span class="param-type">object.&lt;(string|number|bigint)></span>
 |
 
-<span class="param-type">Array.&lt;(string|number|bigint)></span>
+<span class="param-type">array.&lt;(string|number|bigint)></span>
 
 
             
             </td>
 
+            
+                <td class="attributes">
+                
+                    &lt;optional><br>
+                
+
+                
+                </td>
             
 
             
@@ -309,15 +1139,23 @@
             <td class="type">
             
                 
-<span class="param-type">Object.&lt;string></span>
+<span class="param-type">object.&lt;string></span>
 |
 
-<span class="param-type">Array.&lt;string></span>
+<span class="param-type">array.&lt;string></span>
 
 
             
             </td>
 
+            
+                <td class="attributes">
+                
+                    &lt;optional><br>
+                
+
+                
+                </td>
             
 
             
@@ -416,7 +1254,7 @@
 <br class="clear">
 
 <footer>
-    Documentation generated by <a href="https://github.com/jsdoc/jsdoc">JSDoc 3.6.4</a> on Wed May 20 2020 08:57:51 GMT+0200 (Central European Summer Time)
+    Documentation generated by <a href="https://github.com/jsdoc/jsdoc">JSDoc 3.6.5</a> on Sun Aug 02 2020 00:21:05 GMT+0200 (Central European Summer Time)
 </footer>
 
 <script> prettyPrint(); </script>
