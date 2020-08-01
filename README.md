@@ -129,6 +129,89 @@ export default () => (
 }
 ```
 
+### Use a different prop
+
+```javascript
+const MyParagraph = styled.p`
+  ${fontSize('1rem').propName('differentProp')}
+`
+
+const MyApp = () => <MyParagraph differentProp={'2rem'} /> // font-size: 2rem;
+```
+
+>Use shorthand `p` to do the same (`fontSize().propName('differentProp')` and `fontSize().p('differentProp')` are equivalent).
+
+### Don't use any prop
+
+```javascript
+const MyParagraph = styled.p`
+  ${fontSize('1rem').propless()}
+`
+
+const MyApp = () => <MyParagraph fontSize={'2rem'} /> // font-size: 1rem;
+```
+
+>Use shorthand `l` to do the same (`fontSize().propless()` and `fontSize().l()` are equivalent).
+
+### Add `!important`
+
+```javascript
+const MyParagraph = styled.p`
+  ${fontSize('1rem').important()}
+`
+
+const MyApp = () => (
+  <>
+    <MyParagraph /> // font-size: 1rem !important;
+    <MyParagraph fontSize={'2rem'} /> // font-size: 2rem !important;
+  </>
+)
+```
+
+>Use shorthand `i` to do the same (`fontSize().important()` and `fontSize().i()` are equivalent).
+
+### `calc(` a value `)`
+
+```javascript
+const MyParagraph = styled.p`
+  ${fontSize('1rem').calc('*2')}
+`
+
+const MyApp = () => (
+  <>
+    <MyParagraph /> // font-size: calc(1rem * 2);
+    <MyParagraph fontSize={'2rem'} /> // font-size: calc(2rem * 2);
+  </>
+)
+```
+
+>Use shorthand `c` to do the same (`fontSize().calc('*2')` and `fontSize().c('*2')` are equivalent).
+
+### Do it all!
+
+You can chain these functions to your heart's content. The order doesn't matter.
+
+```javascript
+const MyParagraph = styled.p`
+  ${fontSize('1rem').calc('*2').important()}
+  ${height('20px').p('myHeight').calc('*4')}
+  ${width('100px').i().calc('/3').propless()}
+`
+
+const MyApp = () => (
+  <>
+    /* font-size: calc(1rem * 2) !important;
+       height: calc(20px * 4);
+       width: calc(100px / 3) !important; */
+    <MyParagraph height={'300px'} width={'400px'} />
+    /* font-size: calc(2rem * 2) !important;
+       height: calc(100px * 4);
+       width: calc(100px / 3) !important; */
+    <MyParagraph fontSize={'2rem'} myHeight={'100px'} width={'400px'} />
+  </>
+)
+```
+
 ## Get started
 
 Install with npm
