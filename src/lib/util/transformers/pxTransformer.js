@@ -19,9 +19,9 @@ export default value => {
   switch (typeof value) {
     case 'number':
     case 'bigint':
-      if (value === 0) {
-        return value
-      }
+      // if (value === 0) {
+      //   return value
+      // }
       return [value, 'px']
     case 'string':
       return value
