@@ -3,7 +3,7 @@
 ![Build badge](https://img.shields.io/github/workflow/status/themed-styling/core/CI)
 ![npm version](https://img.shields.io/npm/v/@themed-styling/core)
 
-*themed-styling* is a collection of functions to help you write quick and highly reusable *styled-components*. It integrates perfectly with themes and gives you enormous control over the responsiveness of your components. Keeping your breakpoints consistent and grouping them in an easy to understand way.
+*themed-styling* is a collection of functions to help you quickly create highly reusable *styled-components*. It integrates perfectly with themes and gives you enormous control over the responsiveness of your components. Keeping your breakpoints consistent and grouping them in an easy to understand way.
 
 [![Edit on CodeSandbox](https://codesandbox.io/static/img/play-codesandbox.svg)](https://codesandbox.io/s/busy-sea-7cq1k?file=/src/App.js:0-1359)
 
