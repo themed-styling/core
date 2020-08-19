@@ -72,4 +72,4 @@
 
 export * from './lib/generated'
 export { default as css } from './lib/css'
-export { default as propTypes } from './lib/propTypes'
+export { default as propType } from './lib/propType'
