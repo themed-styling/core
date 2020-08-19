@@ -6,6 +6,28 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [2.0.0] - 2020-08-20
+
+### Added
+
+* Modifier functions to change all functions' behaviour
+* `backgroundColor`
+* `filterURL` (`filter: url(<value>);`)
+* `font`
+* `fontFamily`
+* `fontStyle`
+* `fontWeight`
+* `propType`
+
+### Changed
+
+* Renamed all transformers to include '*Transformer*'
+
+### Removed
+
+* Propless parameter
+
+
 ## [1.2.0] - 2020-05-20
 
 ### Added
