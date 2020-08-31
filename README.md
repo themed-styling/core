@@ -239,23 +239,23 @@ You can specify objects or arrays as values, too. If you do this, you need to sp
 >
 >❌:
 >```javascript
-<MyParagraph fontSize={{
-  desktop: '4rem',
-  myCoolBreakpoint: '6rem',
-  tablet: '2rem',
-  mobile: '1rem'
-}}>
-  Hello readme!
-</MyParagraph>
-```
+><MyParagraph fontSize={{
+>  desktop: '4rem',
+>  myCoolBreakpoint: '6rem',
+>  tablet: '2rem',
+>  mobile: '1rem'
+>}}>
+>  Hello readme!
+></MyParagraph>
+>```
 >✔️:
 >```javascript
-<MyParagraph fontSize={{
-  mobile: '1rem',
-  tablet: '2rem',
-  desktop: '4rem',
-  myCoolBreakpoint: '6rem'
-}}>
-  Hello readme!
-</MyParagraph>
-```
+><MyParagraph fontSize={{
+>  mobile: '1rem',
+>  tablet: '2rem',
+>  desktop: '4rem',
+>  myCoolBreakpoint: '6rem'
+>}}>
+>  Hello readme!
+></MyParagraph>
+>```
