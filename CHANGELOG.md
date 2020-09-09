@@ -6,6 +6,12 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [2.0.1] - 2020-09-09
+
+### Fixed
+
+* `css` name and prop name
+
 ## [2.0.1] - 2020-08-31
 
 ### Fixed
