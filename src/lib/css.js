@@ -7,7 +7,7 @@ import valueConstructor from './util/constructors/valueConstructor'
  * component's template literal.
  *
  * @type {coreFunction}
- * @name color
+ * @name css
  * @memberOf core
  */
 
@@ -25,7 +25,7 @@ export default fallback => {
   }
   fn.l = fn.propless
 
-  fn.propName_ = 'color'
+  fn.propName_ = 'css'
   fn.propName = propName => {
     fn.propName_ = propName
     return fn
