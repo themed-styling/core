@@ -56,13 +56,6 @@
   "peerDependencies": {
     "prop-types": "^15.7.2"
   },
-  "prettier": {
-    "arrowParens": "avoid",
-    "semi": false,
-    "singleQuote": true,
-    "trailingComma": "es5",
-    "jsxSingleQuote": true
-  },
   "babel": {
     "presets": [
       [
