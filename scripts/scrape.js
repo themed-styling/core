@@ -8,6 +8,8 @@ const prettierConfig = JSON.parse(fs.readFileSync('.prettierrc'))
 
 const { parse } = parser
 
+const allowedStatuses = ['WD', 'CRD', 'CR', 'PR', 'REC']
+
 // fetch an array of css properties from the w3c api and return their names without duplicates
 const fetchPropertiesUnique = async () => {
   const response = await fetch(
@@ -17,7 +19,13 @@ const fetchPropertiesUnique = async () => {
   if (response.ok && response.status === 200) {
     const properties = await response.json()
 
-    return [...new Set(properties.map(({ property }) => property))]
+    return [
+      ...new Set(
+        properties
+          .filter(({ status }) => allowedStatuses.includes(status))
+          .map(({ property }) => property)
+      ),
+    ]
   }
   // todo add error handling
 }
