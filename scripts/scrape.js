@@ -2,6 +2,9 @@ import fetch from 'node-fetch'
 import parser from 'node-html-parser'
 import logUpdate from 'log-update'
 import fs from 'fs'
+import prettier from 'prettier'
+
+const prettierConfig = JSON.parse(fs.readFileSync('.prettierrc'))
 
 const { parse } = parser
 
@@ -50,7 +53,10 @@ const getInnerMost = tagName => ({
 
 // remove unnecessary characters
 const purifyValueText = valueText => {
-  return valueText.replace(/&lt;/, '<').replace(/&gt;/, '>')
+  return valueText
+    .replace(/&lt;/, '<')
+    .replace(/&gt;/, '>')
+    .replace(/('|")/, '')
 }
 
 // ids of heading nodes that are before the value list or table
@@ -162,7 +168,13 @@ logUpdate.done()
 
 logUpdate(`${emoji.write} Saving file...
 `)
-fs.writeFileSync('resources/properties.json', JSON.stringify(properties))
+fs.writeFileSync(
+  'resources/properties.json',
+  prettier.format(JSON.stringify(properties), {
+    ...prettierConfig,
+    parser: 'json',
+  })
+)
 logUpdate(`${emoji.write} Saving file... Done.
 `)
 logUpdate.done()
