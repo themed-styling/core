@@ -4,7 +4,7 @@ import logUpdate from 'log-update'
 import fs from 'fs'
 import prettier from 'prettier'
 
-const prettierConfig = JSON.parse(fs.readFileSync('.prettierrc'))
+import prettierConfig from './util/prettierConfig'
 
 const { parse } = parser
 
