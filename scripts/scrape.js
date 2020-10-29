@@ -54,9 +54,9 @@ const getInnerMost = tagName => ({
 // remove unnecessary characters
 const purifyValueText = valueText => {
   return valueText
-    .replace(/&lt;/, '<')
-    .replace(/&gt;/, '>')
-    .replace(/('|")/, '')
+    .replace(/&lt;/g, '<')
+    .replace(/&gt;/g, '>')
+    .replace(/('|")/g, '')
 }
 
 // ids of heading nodes that are before the value list or table
@@ -111,8 +111,8 @@ const scrapePropertyValues = async cssProperty => {
 
 const emoji = {
   fetch: '🔄',
-  scrape: '⛏️',
-  error: '⚠️',
+  scrape: '⛏️ ',
+  error: '⚠️ ',
   write: '💾',
   done: '✅',
 }
