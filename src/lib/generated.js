@@ -2180,3 +2180,1161 @@ export const writingMode = core(
   plainTransformer
 )
 export const zIndex = core('zIndex', 'z-index:', ';', plainTransformer)
+export const allSpaceTreatment = core(
+  'allSpaceTreatment',
+  'all-space-treatment:',
+  ';',
+  plainTransformer
+)
+export const backgroundBreak = core(
+  'backgroundBreak',
+  'background-break:',
+  ';',
+  plainTransformer
+)
+export const bikeshedding = core(
+  'bikeshedding',
+  'bikeshedding:',
+  ';',
+  plainTransformer
+)
+export const bleed = core('bleed', 'bleed:', ';', pxTransformer)
+export const blockOverflow = core(
+  'blockOverflow',
+  'block-overflow:',
+  ';',
+  plainTransformer
+)
+export const blockProgression = core(
+  'blockProgression',
+  'block-progression:',
+  ';',
+  plainTransformer
+)
+export const bookmarkTarget = core(
+  'bookmarkTarget',
+  'bookmark-target:',
+  ';',
+  plainTransformer
+)
+export const borderBreak = core(
+  'borderBreak',
+  'border-break:',
+  ';',
+  plainTransformer
+)
+export const borderLength = core(
+  'borderLength',
+  'border-length:',
+  ';',
+  plainTransformer
+)
+export const boxAlign = core('boxAlign', 'box-align:', ';', plainTransformer)
+export const boxDirection = core(
+  'boxDirection',
+  'box-direction:',
+  ';',
+  plainTransformer
+)
+export const boxFlex = core('boxFlex', 'box-flex:', ';', plainTransformer)
+export const boxFlexGroup = core(
+  'boxFlexGroup',
+  'box-flex-group:',
+  ';',
+  plainTransformer
+)
+export const boxHeight = core('boxHeight', 'box-height:', ';', plainTransformer)
+export const boxLines = core('boxLines', 'box-lines:', ';', plainTransformer)
+export const boxOrdinalGroup = core(
+  'boxOrdinalGroup',
+  'box-ordinal-group:',
+  ';',
+  plainTransformer
+)
+export const boxOrient = core('boxOrient', 'box-orient:', ';', plainTransformer)
+export const boxPack = core('boxPack', 'box-pack:', ';', plainTransformer)
+export const boxSuppress = core(
+  'boxSuppress',
+  'box-suppress:',
+  ';',
+  plainTransformer
+)
+export const boxWidth = core('boxWidth', 'box-width:', ';', plainTransformer)
+export const clearAfter = core(
+  'clearAfter',
+  'clear-after:',
+  ';',
+  plainTransformer
+)
+export const clipPath = core('clipPath', 'clipPath:', ';', plainTransformer)
+export const colorProfile = core(
+  'colorProfile',
+  'color-profile:',
+  ';',
+  plainTransformer
+)
+export const columnBreakAfter = core(
+  'columnBreakAfter',
+  'column-break-after:',
+  ';',
+  plainTransformer
+)
+export const columnBreakBefore = core(
+  'columnBreakBefore',
+  'column-break-before:',
+  ';',
+  plainTransformer
+)
+export const contentOrder = core(
+  'contentOrder',
+  'content-order:',
+  ';',
+  plainTransformer
+)
+export const crop = core('crop', 'crop:', ';', plainTransformer)
+export const displayInside = core(
+  'displayInside',
+  'display-inside:',
+  ';',
+  plainTransformer
+)
+export const displayList = core(
+  'displayList',
+  'display-list:',
+  ';',
+  plainTransformer
+)
+export const displayModel = core(
+  'displayModel',
+  'display-model:',
+  ';',
+  plainTransformer
+)
+export const displayOutside = core(
+  'displayOutside',
+  'display-outside:',
+  ';',
+  plainTransformer
+)
+export const displayRole = core(
+  'displayRole',
+  'display-role:',
+  ';',
+  plainTransformer
+)
+export const enableBackground = core(
+  'enableBackground',
+  'enable-background:',
+  ';',
+  plainTransformer
+)
+export const feBlend = core('feBlend', 'feBlend:', ';', plainTransformer)
+export const feColorMatrix = core(
+  'feColorMatrix',
+  'feColorMatrix:',
+  ';',
+  plainTransformer
+)
+export const feComponentTransfer = core(
+  'feComponentTransfer',
+  'feComponentTransfer:',
+  ';',
+  plainTransformer
+)
+export const feComposite = core(
+  'feComposite',
+  'feComposite:',
+  ';',
+  plainTransformer
+)
+export const feConvolveMatrix = core(
+  'feConvolveMatrix',
+  'feConvolveMatrix:',
+  ';',
+  plainTransformer
+)
+export const feCustom = core('feCustom', 'feCustom:', ';', plainTransformer)
+export const feCustomParam = core(
+  'feCustomParam',
+  'feCustomParam:',
+  ';',
+  plainTransformer
+)
+export const feCustomSource = core(
+  'feCustomSource',
+  'feCustomSource:',
+  ';',
+  plainTransformer
+)
+export const feDiffuseLighting = core(
+  'feDiffuseLighting',
+  'feDiffuseLighting:',
+  ';',
+  plainTransformer
+)
+export const feDisplacementMap = core(
+  'feDisplacementMap',
+  'feDisplacementMap:',
+  ';',
+  plainTransformer
+)
+export const feDistantLight = core(
+  'feDistantLight',
+  'feDistantLight:',
+  ';',
+  plainTransformer
+)
+export const feDropShadow = core(
+  'feDropShadow',
+  'feDropShadow:',
+  ';',
+  plainTransformer
+)
+export const feFlood = core('feFlood', 'feFlood:', ';', plainTransformer)
+export const feFuncA = core('feFuncA', 'feFuncA:', ';', plainTransformer)
+export const feFuncB = core('feFuncB', 'feFuncB:', ';', plainTransformer)
+export const feFuncG = core('feFuncG', 'feFuncG:', ';', plainTransformer)
+export const feFuncR = core('feFuncR', 'feFuncR:', ';', plainTransformer)
+export const feGaussianBlur = core(
+  'feGaussianBlur',
+  'feGaussianBlur:',
+  ';',
+  plainTransformer
+)
+export const feImage = core('feImage', 'feImage:', ';', plainTransformer)
+export const feMerge = core('feMerge', 'feMerge:', ';', plainTransformer)
+export const feMergeNode = core(
+  'feMergeNode',
+  'feMergeNode:',
+  ';',
+  plainTransformer
+)
+export const feMorphology = core(
+  'feMorphology',
+  'feMorphology:',
+  ';',
+  plainTransformer
+)
+export const feOffset = core('feOffset', 'feOffset:', ';', plainTransformer)
+export const fePointLight = core(
+  'fePointLight',
+  'fePointLight:',
+  ';',
+  plainTransformer
+)
+export const feSpecularLighting = core(
+  'feSpecularLighting',
+  'feSpecularLighting:',
+  ';',
+  plainTransformer
+)
+export const feSpotLight = core(
+  'feSpotLight',
+  'feSpotLight:',
+  ';',
+  plainTransformer
+)
+export const feTile = core('feTile', 'feTile:', ';', plainTransformer)
+export const feTurbulence = core(
+  'feTurbulence',
+  'feTurbulence:',
+  ';',
+  plainTransformer
+)
+export const feUnsharpMask = core(
+  'feUnsharpMask',
+  'feUnsharpMask:',
+  ';',
+  plainTransformer
+)
+export const filterMargin = core(
+  'filterMargin',
+  'filter-margin:',
+  ';',
+  plainTransformer
+)
+export const filterMarginBottom = core(
+  'filterMarginBottom',
+  'filter-margin-bottom:',
+  ';',
+  plainTransformer
+)
+export const filterMarginLeft = core(
+  'filterMarginLeft',
+  'filter-margin-left:',
+  ';',
+  plainTransformer
+)
+export const filterMarginRight = core(
+  'filterMarginRight',
+  'filter-margin-right:',
+  ';',
+  plainTransformer
+)
+export const filterMarginTop = core(
+  'filterMarginTop',
+  'filter-margin-top:',
+  ';',
+  plainTransformer
+)
+export const flexAlign = core('flexAlign', 'flex-align:', ';', plainTransformer)
+export const flexItemAlign = core(
+  'flexItemAlign',
+  'flex-item-align:',
+  ';',
+  plainTransformer
+)
+export const flexLinePack = core(
+  'flexLinePack',
+  'flex-line-pack:',
+  ';',
+  plainTransformer
+)
+export const flexOrder = core('flexOrder', 'flex-order:', ';', plainTransformer)
+export const flexPack = core('flexPack', 'flex-pack:', ';', plainTransformer)
+export const floatDisplace = core(
+  'floatDisplace',
+  'float-displace:',
+  ';',
+  plainTransformer
+)
+export const floatDisplaceAlternative2 = core(
+  'floatDisplaceAlternative2',
+  'float-displace--alternative-2:',
+  ';',
+  plainTransformer
+)
+export const floatDisplaceAlternative3 = core(
+  'floatDisplaceAlternative3',
+  'float-displace--alternative-3:',
+  ';',
+  plainTransformer
+)
+export const fontMaxSize = core(
+  'fontMaxSize',
+  'font-max-size:',
+  ';',
+  plainTransformer
+)
+export const fontMinSize = core(
+  'fontMinSize',
+  'font-min-size:',
+  ';',
+  plainTransformer
+)
+export const glyphOrientationHorizontal = core(
+  'glyphOrientationHorizontal',
+  'glyph-orientation-horizontal:',
+  ';',
+  plainTransformer
+)
+export const gridAfter = core('gridAfter', 'grid-after:', ';', plainTransformer)
+export const gridAutoPosition = core(
+  'gridAutoPosition',
+  'grid-auto-position:',
+  ';',
+  plainTransformer
+)
+export const gridBefore = core(
+  'gridBefore',
+  'grid-before:',
+  ';',
+  plainTransformer
+)
+export const gridCell = core('gridCell', 'grid-cell:', ';', plainTransformer)
+export const gridCellStacking = core(
+  'gridCellStacking',
+  'grid-cell-stacking:',
+  ';',
+  plainTransformer
+)
+export const gridColumnAlign = core(
+  'gridColumnAlign',
+  'grid-column-align:',
+  ';',
+  plainTransformer
+)
+export const gridColumnGap = core(
+  'gridColumnGap',
+  'grid-column-gap:',
+  ';',
+  pxTransformer
+)
+export const gridColumnPosition = core(
+  'gridColumnPosition',
+  'grid-column-position:',
+  ';',
+  plainTransformer
+)
+export const gridColumnSizing = core(
+  'gridColumnSizing',
+  'grid-column-sizing:',
+  ';',
+  plainTransformer
+)
+export const gridColumnSpan = core(
+  'gridColumnSpan',
+  'grid-column-span:',
+  ';',
+  plainTransformer
+)
+export const gridColumns = core(
+  'gridColumns',
+  'grid-columns:',
+  ';',
+  plainTransformer
+)
+export const gridDefinitionColumns = core(
+  'gridDefinitionColumns',
+  'grid-definition-columns:',
+  ';',
+  plainTransformer
+)
+export const gridDefinitionRows = core(
+  'gridDefinitionRows',
+  'grid-definition-rows:',
+  ';',
+  plainTransformer
+)
+export const gridEnd = core('gridEnd', 'grid-end:', ';', plainTransformer)
+export const gridFlow = core('gridFlow', 'grid-flow:', ';', plainTransformer)
+export const gridGap = core('gridGap', 'grid-gap:', ';', plainTransformer)
+export const gridPosition = core(
+  'gridPosition',
+  'grid-position:',
+  ';',
+  plainTransformer
+)
+export const gridRowAlign = core(
+  'gridRowAlign',
+  'grid-row-align:',
+  ';',
+  plainTransformer
+)
+export const gridRowGap = core(
+  'gridRowGap',
+  'grid-row-gap:',
+  ';',
+  pxTransformer
+)
+export const gridRowPosition = core(
+  'gridRowPosition',
+  'grid-row-position:',
+  ';',
+  plainTransformer
+)
+export const gridRowSizing = core(
+  'gridRowSizing',
+  'grid-row-sizing:',
+  ';',
+  plainTransformer
+)
+export const gridRowSpan = core(
+  'gridRowSpan',
+  'grid-row-span:',
+  ';',
+  plainTransformer
+)
+export const gridRows = core('gridRows', 'grid-rows:', ';', plainTransformer)
+export const gridSpan = core('gridSpan', 'grid-span:', ';', plainTransformer)
+export const gridStart = core('gridStart', 'grid-start:', ';', plainTransformer)
+export const hyphenate = core('hyphenate', 'hyphenate:', ';', plainTransformer)
+export const hyphenateAfter = core(
+  'hyphenateAfter',
+  'hyphenate-after:',
+  ';',
+  plainTransformer
+)
+export const hyphenateBefore = core(
+  'hyphenateBefore',
+  'hyphenate-before:',
+  ';',
+  plainTransformer
+)
+export const hyphenateDictionary = core(
+  'hyphenateDictionary',
+  'hyphenate-dictionary:',
+  ';',
+  plainTransformer
+)
+export const hyphenateLimitAfter = core(
+  'hyphenateLimitAfter',
+  'hyphenate-limit-after:',
+  ';',
+  plainTransformer
+)
+export const hyphenateLimitBefore = core(
+  'hyphenateLimitBefore',
+  'hyphenate-limit-before:',
+  ';',
+  plainTransformer
+)
+export const hyphenateLines = core(
+  'hyphenateLines',
+  'hyphenate-lines:',
+  ';',
+  plainTransformer
+)
+export const hyphenateResource = core(
+  'hyphenateResource',
+  'hyphenate-resource:',
+  ';',
+  plainTransformer
+)
+export const indentEdgeReset = core(
+  'indentEdgeReset',
+  'indent-edge-reset:',
+  ';',
+  plainTransformer
+)
+export const initialLetters = core(
+  'initialLetters',
+  'initial-letters:',
+  ';',
+  plainTransformer
+)
+export const initialLettersAlign = core(
+  'initialLettersAlign',
+  'initial-letters-align:',
+  ';',
+  plainTransformer
+)
+export const initialLettersWrap = core(
+  'initialLettersWrap',
+  'initial-letters-wrap:',
+  ';',
+  plainTransformer
+)
+export const kerningMode = core(
+  'kerningMode',
+  'kerning-mode:',
+  ';',
+  plainTransformer
+)
+export const kerningPairThreshold = core(
+  'kerningPairThreshold',
+  'kerning-pair-threshold:',
+  ';',
+  plainTransformer
+)
+export const leadingTrimOver = core(
+  'leadingTrimOver',
+  'leading-trim-over:',
+  ';',
+  plainTransformer
+)
+export const leadingTrimUnder = core(
+  'leadingTrimUnder',
+  'leading-trim-under:',
+  ';',
+  plainTransformer
+)
+export const lineGridMode = core(
+  'lineGridMode',
+  'line-grid-mode:',
+  ';',
+  plainTransformer
+)
+export const lineGridProgression = core(
+  'lineGridProgression',
+  'line-grid-progression:',
+  ';',
+  plainTransformer
+)
+export const lineSizing = core(
+  'lineSizing',
+  'line-sizing:',
+  ';',
+  plainTransformer
+)
+export const linefeedTreatment = core(
+  'linefeedTreatment',
+  'linefeed-treatment:',
+  ';',
+  plainTransformer
+)
+export const mark = core('mark', 'mark:', ';', plainTransformer)
+export const markAfter = core('markAfter', 'mark-after:', ';', plainTransformer)
+export const markBefore = core(
+  'markBefore',
+  'mark-before:',
+  ';',
+  plainTransformer
+)
+export const marks = core('marks', 'marks:', ';', plainTransformer)
+export const marquee = core('marquee', 'marquee:', ';', plainTransformer)
+export const marqueeDirection = core(
+  'marqueeDirection',
+  'marquee-direction:',
+  ';',
+  plainTransformer
+)
+export const marqueeLoop = core(
+  'marqueeLoop',
+  'marquee-loop:',
+  ';',
+  plainTransformer
+)
+export const marqueePlayCount = core(
+  'marqueePlayCount',
+  'marquee-play-count:',
+  ';',
+  plainTransformer
+)
+export const marqueeRepetition = core(
+  'marqueeRepetition',
+  'marquee-repetition:',
+  ';',
+  plainTransformer
+)
+export const marqueeSpeed = core(
+  'marqueeSpeed',
+  'marquee-speed:',
+  ';',
+  plainTransformer
+)
+export const marqueeStyle = core(
+  'marqueeStyle',
+  'marquee-style:',
+  ';',
+  plainTransformer
+)
+export const maskBox = core('maskBox', 'mask-box:', ';', plainTransformer)
+export const maskBoxOutset = core(
+  'maskBoxOutset',
+  'mask-box-outset:',
+  ';',
+  plainTransformer
+)
+export const maskBoxRepeat = core(
+  'maskBoxRepeat',
+  'mask-box-repeat:',
+  ';',
+  plainTransformer
+)
+export const maskBoxSlice = core(
+  'maskBoxSlice',
+  'mask-box-slice:',
+  ';',
+  plainTransformer
+)
+export const maskBoxSource = core(
+  'maskBoxSource',
+  'mask-box-source:',
+  ';',
+  plainTransformer
+)
+export const maskBoxWidth = core(
+  'maskBoxWidth',
+  'mask-box-width:',
+  ';',
+  plainTransformer
+)
+export const maskSourceType = core(
+  'maskSourceType',
+  'mask-source-type:',
+  ';',
+  plainTransformer
+)
+export const maxFontSize = core(
+  'maxFontSize',
+  'max-font-size:',
+  ';',
+  plainTransformer
+)
+export const maxZoom = core('maxZoom', 'max-zoom:', ';', plainTransformer)
+export const minFontSize = core(
+  'minFontSize',
+  'min-font-size:',
+  ';',
+  plainTransformer
+)
+export const minZoom = core('minZoom', 'min-zoom:', ';', plainTransformer)
+export const moveTo = core('moveTo', 'move-to:', ';', plainTransformer)
+export const offsetAfter = core(
+  'offsetAfter',
+  'offset-after:',
+  ';',
+  plainTransformer
+)
+export const offsetBefore = core(
+  'offsetBefore',
+  'offset-before:',
+  ';',
+  plainTransformer
+)
+export const offsetEnd = core('offsetEnd', 'offset-end:', ';', plainTransformer)
+export const offsetStart = core(
+  'offsetStart',
+  'offset-start:',
+  ';',
+  plainTransformer
+)
+export const orientation = core(
+  'orientation',
+  'orientation:',
+  ';',
+  plainTransformer
+)
+export const overflowClip = core(
+  'overflowClip',
+  'overflow-clip:',
+  ';',
+  plainTransformer
+)
+export const overflowStyle = core(
+  'overflowStyle',
+  'overflow-style:',
+  ';',
+  plainTransformer
+)
+export const pagePolicy = core(
+  'pagePolicy',
+  'page-policy:',
+  ';',
+  plainTransformer
+)
+export const phonemes = core('phonemes', 'phonemes:', ';', plainTransformer)
+export const polarAnchor = core(
+  'polarAnchor',
+  'polar-anchor:',
+  ';',
+  plainTransformer
+)
+export const polarAngle = core(
+  'polarAngle',
+  'polar-angle:',
+  ';',
+  plainTransformer
+)
+export const polarDistance = core(
+  'polarDistance',
+  'polar-distance:',
+  ';',
+  plainTransformer
+)
+export const polarOrigin = core(
+  'polarOrigin',
+  'polar-origin:',
+  ';',
+  plainTransformer
+)
+export const presentationLevel = core(
+  'presentationLevel',
+  'presentation-level:',
+  ';',
+  plainTransformer
+)
+export const punctuationTrim = core(
+  'punctuationTrim',
+  'punctuation-trim:',
+  ';',
+  plainTransformer
+)
+export const regionOverflow = core(
+  'regionOverflow',
+  'region-overflow:',
+  ';',
+  plainTransformer
+)
+export const renderingIntent = core(
+  'renderingIntent',
+  'rendering-intent:',
+  ';',
+  plainTransformer
+)
+export const resizer = core('resizer', 'resizer:', ';', plainTransformer)
+export const resolution = core(
+  'resolution',
+  'resolution:',
+  ';',
+  plainTransformer
+)
+export const rotation = core('rotation', 'rotation:', ';', plainTransformer)
+export const rotationPoint = core(
+  'rotationPoint',
+  'rotation-point:',
+  ';',
+  plainTransformer
+)
+export const scrollSnapMargin = core(
+  'scrollSnapMargin',
+  'scroll-snap-margin:',
+  ';',
+  plainTransformer
+)
+export const scrollSnapMarginBlock = core(
+  'scrollSnapMarginBlock',
+  'scroll-snap-margin-block:',
+  ';',
+  plainTransformer
+)
+export const scrollSnapMarginBlockEnd = core(
+  'scrollSnapMarginBlockEnd',
+  'scroll-snap-margin-block-end:',
+  ';',
+  plainTransformer
+)
+export const scrollSnapMarginBlockStart = core(
+  'scrollSnapMarginBlockStart',
+  'scroll-snap-margin-block-start:',
+  ';',
+  plainTransformer
+)
+export const scrollSnapMarginBottom = core(
+  'scrollSnapMarginBottom',
+  'scroll-snap-margin-bottom:',
+  ';',
+  plainTransformer
+)
+export const scrollSnapMarginInline = core(
+  'scrollSnapMarginInline',
+  'scroll-snap-margin-inline:',
+  ';',
+  plainTransformer
+)
+export const scrollSnapMarginInlineEnd = core(
+  'scrollSnapMarginInlineEnd',
+  'scroll-snap-margin-inline-end:',
+  ';',
+  plainTransformer
+)
+export const scrollSnapMarginInlineStart = core(
+  'scrollSnapMarginInlineStart',
+  'scroll-snap-margin-inline-start:',
+  ';',
+  plainTransformer
+)
+export const scrollSnapMarginLeft = core(
+  'scrollSnapMarginLeft',
+  'scroll-snap-margin-left:',
+  ';',
+  plainTransformer
+)
+export const scrollSnapMarginRight = core(
+  'scrollSnapMarginRight',
+  'scroll-snap-margin-right:',
+  ';',
+  plainTransformer
+)
+export const scrollSnapMarginTop = core(
+  'scrollSnapMarginTop',
+  'scroll-snap-margin-top:',
+  ';',
+  plainTransformer
+)
+export const scrollSnapPadding = core(
+  'scrollSnapPadding',
+  'scroll-snap-padding:',
+  ';',
+  plainTransformer
+)
+export const scrollSnapPaddingBlock = core(
+  'scrollSnapPaddingBlock',
+  'scroll-snap-padding-block:',
+  ';',
+  plainTransformer
+)
+export const scrollSnapPaddingBlockEnd = core(
+  'scrollSnapPaddingBlockEnd',
+  'scroll-snap-padding-block-end:',
+  ';',
+  plainTransformer
+)
+export const scrollSnapPaddingBlockStart = core(
+  'scrollSnapPaddingBlockStart',
+  'scroll-snap-padding-block-start:',
+  ';',
+  plainTransformer
+)
+export const scrollSnapPaddingBottom = core(
+  'scrollSnapPaddingBottom',
+  'scroll-snap-padding-bottom:',
+  ';',
+  plainTransformer
+)
+export const scrollSnapPaddingInline = core(
+  'scrollSnapPaddingInline',
+  'scroll-snap-padding-inline:',
+  ';',
+  plainTransformer
+)
+export const scrollSnapPaddingInlineEnd = core(
+  'scrollSnapPaddingInlineEnd',
+  'scroll-snap-padding-inline-end:',
+  ';',
+  plainTransformer
+)
+export const scrollSnapPaddingInlineStart = core(
+  'scrollSnapPaddingInlineStart',
+  'scroll-snap-padding-inline-start:',
+  ';',
+  plainTransformer
+)
+export const scrollSnapPaddingLeft = core(
+  'scrollSnapPaddingLeft',
+  'scroll-snap-padding-left:',
+  ';',
+  plainTransformer
+)
+export const scrollSnapPaddingRight = core(
+  'scrollSnapPaddingRight',
+  'scroll-snap-padding-right:',
+  ';',
+  plainTransformer
+)
+export const scrollSnapPaddingTop = core(
+  'scrollSnapPaddingTop',
+  'scroll-snap-padding-top:',
+  ';',
+  plainTransformer
+)
+export const size = core('size', 'size:', ';', plainTransformer)
+export const somethingOrOther = core(
+  'somethingOrOther',
+  'something-or-other:',
+  ';',
+  plainTransformer
+)
+export const speakability = core(
+  'speakability',
+  'speakability:',
+  ';',
+  plainTransformer
+)
+export const tabSide = core('tabSide', 'tab-side:', ';', plainTransformer)
+export const target = core('target', 'target:', ';', plainTransformer)
+export const targetName = core(
+  'targetName',
+  'target-name:',
+  ';',
+  plainTransformer
+)
+export const targetNew = core('targetNew', 'target-new:', ';', plainTransformer)
+export const targetPosition = core(
+  'targetPosition',
+  'target-position:',
+  ';',
+  plainTransformer
+)
+export const textAlignFirst = core(
+  'textAlignFirst',
+  'text-align-first:',
+  ';',
+  plainTransformer
+)
+export const textAutospace = core(
+  'textAutospace',
+  'text-autospace:',
+  ';',
+  plainTransformer
+)
+export const textBlink = core('textBlink', 'text-blink:', ';', plainTransformer)
+export const textCombine = core(
+  'textCombine',
+  'text-combine:',
+  ';',
+  plainTransformer
+)
+export const textCombineMode = core(
+  'textCombineMode',
+  'text-combine-mode:',
+  ';',
+  plainTransformer
+)
+export const textJustifyTrim = core(
+  'textJustifyTrim',
+  'text-justify-trim:',
+  ';',
+  plainTransformer
+)
+export const textKashidaSpace = core(
+  'textKashidaSpace',
+  'text-kashida-space:',
+  ';',
+  plainTransformer
+)
+export const textLineThrough = core(
+  'textLineThrough',
+  'text-line-through:',
+  ';',
+  plainTransformer
+)
+export const textLineThroughColor = core(
+  'textLineThroughColor',
+  'text-line-through-color:',
+  ';',
+  plainTransformer
+)
+export const textLineThroughMode = core(
+  'textLineThroughMode',
+  'text-line-through-mode:',
+  ';',
+  plainTransformer
+)
+export const textLineThroughStyle = core(
+  'textLineThroughStyle',
+  'text-line-through-style:',
+  ';',
+  plainTransformer
+)
+export const textLineThroughWidth = core(
+  'textLineThroughWidth',
+  'text-line-through-width:',
+  ';',
+  plainTransformer
+)
+export const textOutline = core(
+  'textOutline',
+  'text-outline:',
+  ';',
+  plainTransformer
+)
+export const textOverflowEllipsis = core(
+  'textOverflowEllipsis',
+  'text-overflow-ellipsis:',
+  ';',
+  plainTransformer
+)
+export const textOverflowMode = core(
+  'textOverflowMode',
+  'text-overflow-mode:',
+  ';',
+  plainTransformer
+)
+export const textOverline = core(
+  'textOverline',
+  'text-overline:',
+  ';',
+  plainTransformer
+)
+export const textOverlineColor = core(
+  'textOverlineColor',
+  'text-overline-color:',
+  ';',
+  plainTransformer
+)
+export const textOverlineMode = core(
+  'textOverlineMode',
+  'text-overline-mode:',
+  ';',
+  plainTransformer
+)
+export const textOverlineStyle = core(
+  'textOverlineStyle',
+  'text-overline-style:',
+  ';',
+  plainTransformer
+)
+export const textOverlineWidth = core(
+  'textOverlineWidth',
+  'text-overline-width:',
+  ';',
+  plainTransformer
+)
+export const textReplace = core(
+  'textReplace',
+  'text-replace:',
+  ';',
+  plainTransformer
+)
+export const textScript = core(
+  'textScript',
+  'text-script:',
+  ';',
+  plainTransformer
+)
+export const textTrim = core('textTrim', 'text-trim:', ';', plainTransformer)
+export const textUnderline = core(
+  'textUnderline',
+  'text-underline:',
+  ';',
+  plainTransformer
+)
+export const textUnderlineColor = core(
+  'textUnderlineColor',
+  'text-underline-color:',
+  ';',
+  plainTransformer
+)
+export const textUnderlineMode = core(
+  'textUnderlineMode',
+  'text-underline-mode:',
+  ';',
+  plainTransformer
+)
+export const textUnderlineStyle = core(
+  'textUnderlineStyle',
+  'text-underline-style:',
+  ';',
+  plainTransformer
+)
+export const textUnderlineWidth = core(
+  'textUnderlineWidth',
+  'text-underline-width:',
+  ';',
+  plainTransformer
+)
+export const userZoom = core('userZoom', 'user-zoom:', ';', plainTransformer)
+export const verticalPosition = core(
+  'verticalPosition',
+  'vertical-position:',
+  ';',
+  plainTransformer
+)
+export const voicePitchRange = core(
+  'voicePitchRange',
+  'voice-pitch-range:',
+  ';',
+  plainTransformer
+)
+export const whiteSpaceCollapse = core(
+  'whiteSpaceCollapse',
+  'white-space-collapse:',
+  ';',
+  plainTransformer
+)
+export const whiteSpaceCollapsing = core(
+  'whiteSpaceCollapsing',
+  'white-space-collapsing:',
+  ';',
+  plainTransformer
+)
+export const whiteSpaceTreatment = core(
+  'whiteSpaceTreatment',
+  'white-space-treatment:',
+  ';',
+  plainTransformer
+)
+export const wordBreakCjk = core(
+  'wordBreakCjk',
+  'word-break-cjk:',
+  ';',
+  plainTransformer
+)
+export const wordBreakInside = core(
+  'wordBreakInside',
+  'word-break-inside:',
+  ';',
+  plainTransformer
+)
+export const wrap = core('wrap', 'wrap:', ';', plainTransformer)
+export const wrapMargin = core(
+  'wrapMargin',
+  'wrap-margin:',
+  ';',
+  plainTransformer
+)
+export const wrapOption = core(
+  'wrapOption',
+  'wrap-option:',
+  ';',
+  plainTransformer
+)
+export const wrapPadding = core(
+  'wrapPadding',
+  'wrap-padding:',
+  ';',
+  plainTransformer
+)
+export const zoom = core('zoom', 'zoom:', ';', colorTransformer)
