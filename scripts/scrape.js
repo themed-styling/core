@@ -10,24 +10,56 @@ const { parse } = parser
 
 const allowedStatuses = ['WD', 'CRD', 'CR', 'PR', 'REC']
 
-// fetch an array of css properties from the w3c api and return their names without duplicates
-const fetchPropertiesUnique = async () => {
-  const response = await fetch(
-    'https://www.w3.org/Style/CSS/all-properties.en.json'
+const getInnermostText = node => {
+  let node_ = node
+  while (node_.childNodes.length > 0) {
+    node_ = node_.childNodes[0]
+  }
+  return node_.rawText.trim()
+}
+
+const readPropertyTable = table =>
+  table
+    .querySelector('tbody')
+    .querySelectorAll('tr')
+    .map(({ childNodes }) => {
+      const [
+        ,
+        propertyTableDataNode,
+        ,
+        statusTableDataNode,
+      ] = childNodes.filter(({ rawTagName }) => rawTagName)
+
+      return {
+        property: getInnermostText(propertyTableDataNode),
+        status: getInnermostText(statusTableDataNode),
+      }
+    })
+
+// read css properties from the html document and return their names without duplicates
+const scrapeProperties = async () => {
+  const documentText = fs.readFileSync('resources/Index-of-CSS-properties.html')
+
+  const root = parse(documentText, {
+    blockTextElements: true,
+  })
+
+  const list = readPropertyTable(
+    root.querySelector('#list').querySelector('table')
+  )
+  const other = readPropertyTable(
+    root.querySelector('#other').querySelector('table')
   )
 
-  if (response.ok && response.status === 200) {
-    const properties = await response.json()
+  const properties = [...list, ...other]
 
-    return [
-      ...new Set(
-        properties
-          .filter(({ status }) => allowedStatuses.includes(status))
-          .map(({ property }) => property)
-      ),
-    ]
-  }
-  // todo add error handling
+  return [
+    ...new Set(
+      properties
+        .filter(({ status }) => allowedStatuses.includes(status))
+        .map(({ property }) => property)
+    ),
+  ]
 }
 
 // return the first node of type 'tagName' that occurs after one of 'nodes' in 'nodeList'
@@ -111,7 +143,7 @@ const progressBar = ratio => {
 logUpdate(`
 ${emoji.fetch} Fetching properties...
 `)
-const propertyStrings = await fetchPropertiesUnique()
+const propertyStrings = await scrapeProperties()
 // const propertyStrings = ['margin']
 logUpdate(`
 ${emoji.fetch} Fetching properties... Done.
