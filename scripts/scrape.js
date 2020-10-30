@@ -68,11 +68,8 @@ const purifyValueText = valueText => {
     purified = valueText.substring(indexOfClosing + 2)
   }
 
-  return purified
-    .trim()
-    .replace(/&lt;/gi, '<')
-    .replace(/&gt;/gi, '>')
-    .replace(/['|"]/gi, '')
+  return purified.trim().replace(/&lt;/gi, '<').replace(/&gt;/gi, '>')
+  // .replace(/['"\[\]\|{}?#,0-9]/gi, '')
 }
 
 // scrape and return legal values of a css property from its mdn article
@@ -97,7 +94,11 @@ const scrapePropertyValues = async cssProperty => {
     // only need child node's contents
     return preformattedTextNode.childNodes
       .map(({ rawText }) => purifyValueText(rawText))
-      .filter(value => value && !/[\[\]\|{}?#,(0-9)+]/gi.test(value))
+      .filter(
+        value =>
+          value &&
+          !["'", '"', '[', ']', '{', '}', '|', '?', '#', ','].includes(value)
+      )
   }
   // todo add error handling
 }
