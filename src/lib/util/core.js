@@ -1,8 +1,11 @@
-import coreConstructor from './constructors/coreConstructor'
 import get from './get'
-import fromObject from './constructors/fromObject'
-import universalMaker from './makers/universalMaker'
-import resolveFunction from './resolveFunction'
+
+const resolveFunction = (value, props) => {
+  if (typeof value === 'function') {
+    return value(props)
+  }
+  return value
+}
 
 /**
  * Universal function to create core functions.
@@ -25,23 +28,23 @@ export default (
   transformer
 ) => fallback => {
   const fn = ({ theme, ...props }) => {
-    const value = resolveFunction(
+    const resolvedValue = resolveFunction(
       fn.propless_ ? fallback : props[fn.propName_] || fallback,
       props
     )
 
-    const make = universalMaker(
+    const make = value => [
       cssBeforeValue,
+      fn.doCalc_
+        ? ['calc(', transformer(value), fn.calc_, ')']
+        : transformer(value),
+      fn.important_ && '!important',
       cssAfterValue,
-      fn.doCalc_,
-      fn.calc_,
-      fn.important_,
-      transformer
-    )
+    ]
 
-    if (typeof value === 'object') {
+    if (typeof resolvedValue === 'object') {
       // return fromObject(value, theme, make, props)
-      const { standard, ...breakpoints } = value
+      const { standard, ...breakpoints } = resolvedValue
       if (standard !== undefined) {
         return [
           make(resolveFunction(get(standard, theme) || standard, props)),
@@ -69,7 +72,7 @@ export default (
       ])
     }
 
-    return make(value)
+    return make(resolvedValue)
   }
 
   fn.propless_ = false
