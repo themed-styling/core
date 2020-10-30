@@ -2266,7 +2266,6 @@ export const clearAfter = core(
   ';',
   plainTransformer
 )
-export const clipPath = core('clipPath', 'clipPath:', ';', plainTransformer)
 export const colorProfile = core(
   'colorProfile',
   'color-profile:',
@@ -2325,125 +2324,6 @@ export const displayRole = core(
 export const enableBackground = core(
   'enableBackground',
   'enable-background:',
-  ';',
-  plainTransformer
-)
-export const feBlend = core('feBlend', 'feBlend:', ';', plainTransformer)
-export const feColorMatrix = core(
-  'feColorMatrix',
-  'feColorMatrix:',
-  ';',
-  plainTransformer
-)
-export const feComponentTransfer = core(
-  'feComponentTransfer',
-  'feComponentTransfer:',
-  ';',
-  plainTransformer
-)
-export const feComposite = core(
-  'feComposite',
-  'feComposite:',
-  ';',
-  plainTransformer
-)
-export const feConvolveMatrix = core(
-  'feConvolveMatrix',
-  'feConvolveMatrix:',
-  ';',
-  plainTransformer
-)
-export const feCustom = core('feCustom', 'feCustom:', ';', plainTransformer)
-export const feCustomParam = core(
-  'feCustomParam',
-  'feCustomParam:',
-  ';',
-  plainTransformer
-)
-export const feCustomSource = core(
-  'feCustomSource',
-  'feCustomSource:',
-  ';',
-  plainTransformer
-)
-export const feDiffuseLighting = core(
-  'feDiffuseLighting',
-  'feDiffuseLighting:',
-  ';',
-  plainTransformer
-)
-export const feDisplacementMap = core(
-  'feDisplacementMap',
-  'feDisplacementMap:',
-  ';',
-  plainTransformer
-)
-export const feDistantLight = core(
-  'feDistantLight',
-  'feDistantLight:',
-  ';',
-  plainTransformer
-)
-export const feDropShadow = core(
-  'feDropShadow',
-  'feDropShadow:',
-  ';',
-  plainTransformer
-)
-export const feFlood = core('feFlood', 'feFlood:', ';', plainTransformer)
-export const feFuncA = core('feFuncA', 'feFuncA:', ';', plainTransformer)
-export const feFuncB = core('feFuncB', 'feFuncB:', ';', plainTransformer)
-export const feFuncG = core('feFuncG', 'feFuncG:', ';', plainTransformer)
-export const feFuncR = core('feFuncR', 'feFuncR:', ';', plainTransformer)
-export const feGaussianBlur = core(
-  'feGaussianBlur',
-  'feGaussianBlur:',
-  ';',
-  plainTransformer
-)
-export const feImage = core('feImage', 'feImage:', ';', plainTransformer)
-export const feMerge = core('feMerge', 'feMerge:', ';', plainTransformer)
-export const feMergeNode = core(
-  'feMergeNode',
-  'feMergeNode:',
-  ';',
-  plainTransformer
-)
-export const feMorphology = core(
-  'feMorphology',
-  'feMorphology:',
-  ';',
-  plainTransformer
-)
-export const feOffset = core('feOffset', 'feOffset:', ';', plainTransformer)
-export const fePointLight = core(
-  'fePointLight',
-  'fePointLight:',
-  ';',
-  plainTransformer
-)
-export const feSpecularLighting = core(
-  'feSpecularLighting',
-  'feSpecularLighting:',
-  ';',
-  plainTransformer
-)
-export const feSpotLight = core(
-  'feSpotLight',
-  'feSpotLight:',
-  ';',
-  plainTransformer
-)
-export const feTile = core('feTile', 'feTile:', ';', plainTransformer)
-export const feTurbulence = core(
-  'feTurbulence',
-  'feTurbulence:',
-  ';',
-  plainTransformer
-)
-export const feUnsharpMask = core(
-  'feUnsharpMask',
-  'feUnsharpMask:',
   ';',
   plainTransformer
 )

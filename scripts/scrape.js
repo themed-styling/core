@@ -56,7 +56,10 @@ const scrapeProperties = async () => {
   return [
     ...new Set(
       properties
-        .filter(({ status }) => allowedStatuses.includes(status))
+        .filter(
+          ({ property, status }) =>
+            allowedStatuses.includes(status) && !/[A-Z]/g.test(property)
+        )
         .map(({ property }) => property)
     ),
   ]
