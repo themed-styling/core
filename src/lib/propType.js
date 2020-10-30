@@ -4,4 +4,5 @@ export default PropTypes.oneOfType([
   PropTypes.string,
   PropTypes.number,
   PropTypes.object,
+  PropTypes.func,
 ])
