@@ -1,23 +1,45 @@
-import valueConstructor from './util/constructors/valueConstructor'
-
-/**
- * Returns a function that takes an object containing <code>css</code> and <code>theme</code> properties.
- *
- * This function is meant to be used with styled-components within your
- * component's template literal.
- *
- * @type {coreFunction}
- * @name css
- * @memberOf core
- */
+import get from './util/get'
+import resolveFunction from './util/resolveFunction'
 
 export default fallback => {
-  const fn = ({ theme, ...props }) =>
-    valueConstructor(
+  const fn = ({ theme, ...props }) => {
+    const resolvedValue = resolveFunction(
       fn.propless_ ? fallback : props[fn.propName_] || fallback,
-      theme,
-      value => value
+      props
     )
+
+    if (typeof resolvedValue === 'object') {
+      const { standard, ...breakpoints } = resolvedValue
+      if (standard !== undefined) {
+        return [
+          resolveFunction(get(standard, theme) || standard, props),
+          ...Object.entries(breakpoints).map(([key, value]) => [
+            (theme.mediaQueries && theme.mediaQueries[key]) || [
+              '@media screen and (min-width:',
+              theme.breakpoints[key],
+              ')',
+            ],
+            '{',
+            resolveFunction(get(value, theme) || value),
+            '}',
+          ]),
+        ]
+      }
+      return Object.entries(breakpoints).map(([key, value]) => [
+        (theme.mediaQueries && theme.mediaQueries[key]) || [
+          '@media screen and (min-width:',
+          theme.breakpoints[key],
+          ')',
+        ],
+        '{',
+        resolveFunction(get(value, theme) || value),
+        '}',
+      ])
+    }
+
+    return resolvedValue
+  }
+
   fn.propless_ = false
   fn.propless = () => {
     fn.propless_ = true
