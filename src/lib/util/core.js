@@ -1,11 +1,5 @@
 import get from './get'
-
-const resolveFunction = (value, props) => {
-  if (typeof value === 'function') {
-    return value(props)
-  }
-  return value
-}
+import resolveFunction from './resolveFunction'
 
 /**
  * Universal function to create core functions.
