@@ -30,6 +30,7 @@ const fetchPropertiesUnique = async () => {
   // todo add error handling
 }
 
+// return the first node of type 'tagName' that occurs after one of 'nodes' in 'nodeList'
 const getFirst = tagName => ({
   after: nodes => ({
     in: nodeList => {
@@ -43,20 +44,6 @@ const getFirst = tagName => ({
       }
     },
   }),
-})
-
-// get the leaf tag of type tagName from a tree 'node'
-const getInnerMost = tagName => ({
-  of: node => {
-    let current = node
-    while (current) {
-      const next = current.querySelector(tagName)
-      if (!next) {
-        return current
-      }
-      current = next
-    }
-  },
 })
 
 // remove unnecessary characters
@@ -73,7 +60,7 @@ const purifyValueText = valueText => {
 }
 
 // scrape and return legal values of a css property from its mdn article
-const scrapePropertyValues = async cssProperty => {
+const scrapeValues = async cssProperty => {
   // hit mdn
   const response = await fetch(
     `https://developer.mozilla.org/en-US/docs/Web/CSS/${cssProperty}`
@@ -136,7 +123,7 @@ let progress = 0
 const properties = await Promise.all(
   propertyStrings.map(async name => {
     try {
-      const values = await scrapePropertyValues(name)
+      const values = await scrapeValues(name)
 
       return {
         name,
