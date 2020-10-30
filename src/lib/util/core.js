@@ -37,7 +37,6 @@ export default (
     ]
 
     if (typeof resolvedValue === 'object') {
-      // return fromObject(value, theme, make, props)
       const { standard, ...breakpoints } = resolvedValue
       if (standard !== undefined) {
         return [
