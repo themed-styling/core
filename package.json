@@ -9,7 +9,9 @@
     "doc": "jsdoc -r src -d docs",
     "build": "rollup -c",
     "test": "jest tests/component.test.js",
-    "prepublishOnly": "npm run build"
+    "prepublishOnly": "rm -rf dist && npm run build",
+    "scrape": "node scripts/scrape.js",
+    "generate": "node scripts/generate.js"
   },
   "repository": {
     "type": "git",
