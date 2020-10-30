@@ -58,24 +58,33 @@ const getTransformer = values => {
 // read scraped properties
 const properties = JSON.parse(fs.readFileSync('resources/properties.json'))
 
+// collect which transformers are used
+const transformerSet = new Set()
+// create an array of expressions
+const expressions = properties
+  .filter(({ name }) => name !== '--*')
+  .map(({ name, values }) => {
+    const functionName = getFunctionName(name)
+    const transformer = getTransformer(values)
+    transformerSet.add(transformer)
+
+    return `export const ${functionName} = core('${functionName}', '${name}:', ';', ${transformer})`
+  })
+
+// create an array of import statements
+const transformerImports = [...transformerSet].map(
+  transformer =>
+    `import ${transformer} from './util/transformers/${transformer}'`
+)
+
 // write file
 fs.writeFileSync(
   'src/lib/generated.js',
   prettier.format(
-    `import core from '../util/core'
-import colorTransformer from '../util/transformers/colorTransformer'
-import percentageTransformer from '../util/transformers/percentageTransformer'
-import pxTransformer from '../util/transformers/pxTransformer'
+    `import core from './util/core'
+${transformerImports.join('\n')}
 
-${properties
-  .filter(({ name }) => name !== '--*')
-  .map(({ name, values }) => {
-    const functionName = getFunctionName(name)
-    return `export const ${functionName} = core('${functionName}', '${name}:', ';', ${getTransformer(
-      values
-    )})`
-  })
-  .join('\n')}
+${expressions.join('\n')}
 `,
     { ...prettierConfig, parser: 'babel' }
   )

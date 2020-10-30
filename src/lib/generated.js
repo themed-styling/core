@@ -1,7 +1,7 @@
-import core from '../util/core'
-import colorTransformer from '../util/transformers/colorTransformer'
-import percentageTransformer from '../util/transformers/percentageTransformer'
-import pxTransformer from '../util/transformers/pxTransformer'
+import core from './util/core'
+import plainTransformer from './util/transformers/plainTransformer'
+import colorTransformer from './util/transformers/colorTransformer'
+import pxTransformer from './util/transformers/pxTransformer'
 
 export const alignContent = core(
   'alignContent',
