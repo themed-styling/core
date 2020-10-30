@@ -4,7 +4,7 @@ import logUpdate from 'log-update'
 import fs from 'fs'
 import prettier from 'prettier'
 
-import prettierConfig from './util/prettierConfig'
+import prettierConfig from './util/prettierConfig.js'
 
 const { parse } = parser
 
@@ -45,7 +45,7 @@ const getFirst = tagName => ({
   }),
 })
 
-// get the leaf tag of type tagName from a tree node
+// get the leaf tag of type tagName from a tree 'node'
 const getInnerMost = tagName => ({
   of: node => {
     let current = node
@@ -61,14 +61,19 @@ const getInnerMost = tagName => ({
 
 // remove unnecessary characters
 const purifyValueText = valueText => {
-  return valueText
-    .replace(/&lt;/g, '<')
-    .replace(/&gt;/g, '>')
-    .replace(/('|")/g, '')
-}
+  const indexOfClosing = valueText.indexOf('">')
 
-// ids of heading nodes that are before the value list or table
-const headingNodeSelectors = ['#Values', '#Syntax', '#Usage_notes']
+  let purified = valueText
+  if (indexOfClosing !== -1) {
+    purified = valueText.substring(indexOfClosing + 2)
+  }
+
+  return purified
+    .trim()
+    .replace(/&lt;/gi, '<')
+    .replace(/&gt;/gi, '>')
+    .replace(/['|"]/gi, '')
+}
 
 // scrape and return legal values of a css property from its mdn article
 const scrapePropertyValues = async cssProperty => {
@@ -80,39 +85,19 @@ const scrapePropertyValues = async cssProperty => {
   if (response.ok && response.status === 200) {
     const responseText = await response.text()
     // parse html
-    const root = parse(responseText)
+    const root = parse(responseText, { blockTextElements: true })
     // get main content
     const articleNode = root.querySelector('#wikiArticle')
-    // get headings that mark value chapters
-    const headingNodes = headingNodeSelectors.map(selector =>
-      articleNode.querySelector(selector)
-    )
-    // get the first description list after one of the marker heading
-    const descriptionListNode = getFirst('dl')
-      .after(headingNodes)
+
+    // get the first preformatted text node after a heading with id 'Formal_syntax'
+    const preformattedTextNode = getFirst('pre')
+      .after([articleNode.querySelector('#Formal_syntax')])
       .in(articleNode.childNodes)
 
-    // sometimes it's a table
-    if (!descriptionListNode) {
-      // get first table after one of the marker headings
-      const tableNode = getFirst('table')
-        .after(headingNodes)
-        .in(articleNode.childNodes)
-
-      // read text of <tr><td><code>text</code><td>...</tr> (every first <code> of each <tr> in the table)
-      return tableNode
-        .querySelectorAll('tr')
-        .map(tableRowNode => tableRowNode.querySelector('code')?.rawText)
-        .filter(text => text)
-    }
-
-    // read the text of <code>...<dt><code>text</code></dt>...</code>
-    return descriptionListNode.childNodes
-      .filter(childNode => childNode.rawTagName === 'dt')
-      .map(
-        descriptionTermNode =>
-          getInnerMost('code').of(descriptionTermNode).rawText
-      )
+    // only need child node's contents
+    return preformattedTextNode.childNodes
+      .map(({ rawText }) => purifyValueText(rawText))
+      .filter(value => value && !/[\[\]\|{}?#,(0-9)+]/gi.test(value))
   }
   // todo add error handling
 }
@@ -125,11 +110,11 @@ const emoji = {
   done: '✅',
 }
 
-const progressBarLenght = 50
+const progressBarLength = 50
 const progressBar = ratio => {
-  const progressLength = Math.floor(ratio * progressBarLenght)
+  const progressLength = Math.floor(ratio * progressBarLength)
   return `[${new Array(progressLength).fill('=').join('')}${new Array(
-    progressBarLenght - progressLength
+    progressBarLength - progressLength
   )
     .fill(' ')
     .join('')}] ${Math.floor(ratio * 100)}%`
@@ -139,13 +124,13 @@ logUpdate(`
 ${emoji.fetch} Fetching properties...
 `)
 const propertyStrings = await fetchPropertiesUnique()
-// const properties_ = ['padding', 'margin']
+// const propertyStrings = ['margin']
 logUpdate(`
 ${emoji.fetch} Fetching properties... Done.
 `)
 logUpdate.done()
 
-// map all properties to an object with its name and purified values
+// map all properties to an object with their name and values
 let progress = 0
 const properties = await Promise.all(
   propertyStrings.map(async name => {
@@ -154,7 +139,7 @@ const properties = await Promise.all(
 
       return {
         name,
-        values: values.map(value => purifyValueText(value)),
+        values,
       }
     } catch (error) {
       logUpdate(`${emoji.error} ${name}: ${error.message}`)
