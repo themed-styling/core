@@ -1,27 +1,90 @@
-import filterTemplate from './util/templates/filterTemplate.js'
-import { writeFunctions, writeIndex } from './util/write.js'
+import fs from 'fs'
+import prettier from 'prettier'
 
-const filterFunction = name => cssFunctionName => transformerType => ({
-  name,
-  namespace: 'filter',
-  cssFunctionName:
-    cssFunctionName || name.replace(/([a-z])([A-Z])/g, '$1-$2').toLowerCase(),
-  transformerType,
-})
+import prettierConfig from './util/prettierConfig.js'
 
-export const filterFunctions = [
-  filterFunction('blur')()('px'),
-  filterFunction('brightness')()('percent'),
-  filterFunction('contrast')()('percent'),
-  filterFunction('dropShadow')()('plain'),
-  filterFunction('grayscale')()('percent'),
-  filterFunction('hueRotate')()('degrees'),
-  filterFunction('invert')()('percent'),
-  filterFunction('filterOpacity')('opacity')('percent'),
-  filterFunction('saturate')()('percent'),
-  filterFunction('sepia')()('percent'),
-  filterFunction('filterURL')('url')('plain'),
+export const filters = [
+  {
+    name: 'blur',
+    cssFunctionName: 'blur',
+    transformer: 'pxTransformer',
+  },
+  {
+    name: 'brightness',
+    cssFunctionName: 'brightness',
+    transformer: 'percentTransformer',
+  },
+  {
+    name: 'contrast',
+    cssFunctionName: 'contrast',
+    transformer: 'percentTransformer',
+  },
+  {
+    name: 'dropShadow',
+    cssFunctionName: 'drop-shadow',
+    transformer: 'plainTransformer',
+  },
+  {
+    name: 'grayscale',
+    cssFunctionName: 'grayscale',
+    transformer: 'percentTransformer',
+  },
+  {
+    name: 'hueRotate',
+    cssFunctionName: 'hue-rotate',
+    transformer: 'degreesTransformer',
+  },
+  {
+    name: 'invert',
+    cssFunctionName: 'invert',
+    transformer: 'percentTransformer',
+  },
+  {
+    name: 'filterOpacity',
+    cssFunctionName: 'opacity',
+    transformer: 'percentTransformer',
+  },
+  {
+    name: 'saturate',
+    cssFunctionName: 'saturate',
+    transformer: 'percentTransformer',
+  },
+  {
+    name: 'sepia',
+    cssFunctionName: 'sepia',
+    transformer: 'percentTransformer',
+  },
+  {
+    name: 'filterURL',
+    cssFunctionName: 'url',
+    transformer: 'plainTransformer',
+  },
 ]
 
-writeFunctions(filterFunctions, filterTemplate)
-writeIndex(filterFunctions)
+const expressions = filters.map(
+  ({ name, cssFunctionName, transformer }) =>
+    `export const ${name} = core('${name}', 'filter:${cssFunctionName}(', ');', ${transformer})`
+)
+
+const imports = [
+  'pxTransformer',
+  'percentTransformer',
+  'plainTransformer',
+  'degreesTransformer',
+].map(
+  transformer =>
+    `import ${transformer} from './util/transformers/${transformer}'`
+)
+
+// write file
+fs.writeFileSync(
+  'src/lib/filter.js',
+  prettier.format(
+    `import core from './util/core'
+${imports.join('\n')}
+
+${expressions.join('\n')}
+`,
+    { ...prettierConfig, parser: 'babel' }
+  )
+)
