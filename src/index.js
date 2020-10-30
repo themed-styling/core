@@ -71,5 +71,7 @@
  */
 
 export * from './lib/generated'
+export * from './lib/filter'
+export * from './lib/transform'
 export { default as css } from './lib/css'
 export { default as propType } from './lib/propType'
