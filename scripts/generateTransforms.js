@@ -1,36 +1,135 @@
-import transformTemplate from './util/templates/transformTemplate.js'
-import { writeFunctions, writeIndex } from './util/write.js'
+import fs from 'fs'
+import prettier from 'prettier'
 
-const transformFunction = name => transformerType => ({
-  name,
-  namespace: 'transform',
-  cssFunctionName: name.replace(/3D/g, '3d'),
-  transformerType,
-})
+import prettierConfig from './util/prettierConfig.js'
 
-export const transformFunctions = [
-  transformFunction('matrix')('plain'),
-  transformFunction('matrix3D')('plain'),
-  transformFunction('translate')('plain'),
-  transformFunction('translate3D')('plain'),
-  transformFunction('translateX')('px'),
-  transformFunction('translateY')('px'),
-  transformFunction('translateZ')('px'),
-  transformFunction('scale')('plain'),
-  transformFunction('scale3D')('plain'),
-  transformFunction('scaleX')('plain'),
-  transformFunction('scaleY')('plain'),
-  transformFunction('scaleZ')('plain'),
-  transformFunction('rotate')('degrees'),
-  transformFunction('rotate3D')('plain'),
-  transformFunction('rotateX')('degrees'),
-  transformFunction('rotateY')('degrees'),
-  transformFunction('rotateZ')('degrees'),
-  transformFunction('skew')('plain'),
-  transformFunction('skewX')('degrees'),
-  transformFunction('skewY')('degrees'),
-  transformFunction('perspective')('plain'),
+export const transforms = [
+  {
+    name: 'matrix',
+    cssFunctionName: 'matrix',
+    transformer: 'plainTransformer',
+  },
+  {
+    name: 'matrix3D',
+    cssFunctionName: 'matrix3d',
+    transformer: 'plainTransformer',
+  },
+  {
+    name: 'translate',
+    cssFunctionName: 'translate',
+    transformer: 'plainTransformer',
+  },
+  {
+    name: 'translate3D',
+    cssFunctionName: 'translate3d',
+    transformer: 'plainTransformer',
+  },
+  {
+    name: 'translateX',
+    cssFunctionName: 'translateX',
+    transformer: 'pxTransformer',
+  },
+  {
+    name: 'translateY',
+    cssFunctionName: 'translateY',
+    transformer: 'pxTransformer',
+  },
+  {
+    name: 'translateZ',
+    cssFunctionName: 'translateZ',
+    transformer: 'pxTransformer',
+  },
+  {
+    name: 'scale',
+    cssFunctionName: 'scale',
+    transformer: 'plainTransformer',
+  },
+  {
+    name: 'scale3D',
+    cssFunctionName: 'scale3d',
+    transformer: 'plainTransformer',
+  },
+  {
+    name: 'scaleX',
+    cssFunctionName: 'scaleX',
+    transformer: 'plainTransformer',
+  },
+  {
+    name: 'scaleY',
+    cssFunctionName: 'scaleY',
+    transformer: 'plainTransformer',
+  },
+  {
+    name: 'scaleZ',
+    cssFunctionName: 'scaleZ',
+    transformer: 'plainTransformer',
+  },
+  {
+    name: 'rotate',
+    cssFunctionName: 'rotate',
+    transformer: 'degreesTransformer',
+  },
+  {
+    name: 'rotate3D',
+    cssFunctionName: 'rotate3d',
+    transformer: 'plainTransformer',
+  },
+  {
+    name: 'rotateX',
+    cssFunctionName: 'rotateX',
+    transformer: 'degreesTransformer',
+  },
+  {
+    name: 'rotateY',
+    cssFunctionName: 'rotateY',
+    transformer: 'degreesTransformer',
+  },
+  {
+    name: 'rotateZ',
+    cssFunctionName: 'rotateZ',
+    transformer: 'degreesTransformer',
+  },
+  {
+    name: 'skew',
+    cssFunctionName: 'skew',
+    transformer: 'plainTransformer',
+  },
+  {
+    name: 'skewX',
+    cssFunctionName: 'skewX',
+    transformer: 'degreesTransformer',
+  },
+  {
+    name: 'skewY',
+    cssFunctionName: 'skewY',
+    transformer: 'degreesTransformer',
+  },
+  {
+    name: 'perspective',
+    cssFunctionName: 'perspective',
+    transformer: 'plainTransformer',
+  },
 ]
 
-writeFunctions(transformFunctions, transformTemplate)
-writeIndex(transformFunctions)
+const expressions = transforms.map(
+  ({ name, cssFunctionName, transformer }) =>
+    `export const ${name} = core('${name}', 'transform:${cssFunctionName}(', ');', ${transformer})`
+)
+
+const imports = ['pxTransformer', 'plainTransformer', 'degreesTransformer'].map(
+  transformer =>
+    `import ${transformer} from './util/transformers/${transformer}'`
+)
+
+// write file
+fs.writeFileSync(
+  'src/lib/transform.js',
+  prettier.format(
+    `import core from './util/core'
+${imports.join('\n')}
+
+${expressions.join('\n')}
+`,
+    { ...prettierConfig, parser: 'babel' }
+  )
+)
