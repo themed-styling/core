@@ -52,6 +52,7 @@ const getTransformer = values => {
       '<row-gap>',
       '<line-width>',
       '<bg-size>',
+      '<border-top-width>',
     ])
   ) {
     return 'pxTransformer'
