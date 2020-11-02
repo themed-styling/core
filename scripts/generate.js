@@ -27,28 +27,41 @@ const getFunctionName = cssProperty => {
   }
 }
 
+const limitValues = values => {
+  const indexOfWhere = values?.indexOf('where')
+  if (!indexOfWhere || indexOfWhere === -1) {
+    return values
+  }
+  return values.slice(0, indexOfWhere)
+}
+
 // returns an appropriate transformer for a given set of legal values
 const getTransformer = values => {
-  if (typeof values === 'undefined') {
+  if (
+    typeof values === 'undefined' ||
+    array(values).includesOneOf(['<line-style>'])
+  ) {
     return 'plainTransformer'
-  }
-
-  if (array(values).includesOneOf(['color', '<color>'])) {
-    return 'colorTransformer'
   }
 
   if (
     array(values).includesOneOf([
-      'length',
       '<length>',
-      'length-percentage',
       '<length-percentage>',
+      '<column-gap>',
+      '<row-gap>',
+      '<line-width>',
+      '<bg-size>',
     ])
   ) {
     return 'pxTransformer'
   }
 
-  if (array(values).includesOneOf(['percentage', '<percentage>'])) {
+  if (array(values).includesOneOf(['<color>', '<border-top-color>'])) {
+    return 'colorTransformer'
+  }
+
+  if (array(values).includesOneOf(['<percentage>'])) {
     return 'colorTransformer'
   }
 
@@ -65,7 +78,7 @@ const expressions = properties
   .filter(({ name }) => name !== '--*')
   .map(({ name, values }) => {
     const functionName = getFunctionName(name)
-    const transformer = getTransformer(values)
+    const transformer = getTransformer(limitValues(values))
     transformerSet.add(transformer)
 
     return `export const ${functionName} = core('${functionName}', '${name}:', ';', ${transformer})`
