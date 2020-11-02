@@ -11261,7 +11261,7 @@ exports[`renders number object with breakpoints 1`] = `
   -webkit-align-self: 41466;
   -ms-flex-item-align: 41466;
   align-self: 41466;
-  background: #41466;
+  background: 41466;
   background-attachment: 41466;
   background-color: #41466;
   background-position: 41466;
@@ -11567,43 +11567,43 @@ exports[`renders number object with breakpoints 1`] = `
 
 @media screen and (min-width:Montenegro) {
   .c0 {
-    background: #58201;
+    background: 58201;
   }
 }
 
 @media screen and (min-width:generating) {
   .c0 {
-    background: #14335;
+    background: 14335;
   }
 }
 
 @media screen and (min-width:Suriname) {
   .c0 {
-    background: #53737;
+    background: 53737;
   }
 }
 
 @media screen and (min-width:Card) {
   .c0 {
-    background: #94466;
+    background: 94466;
   }
 }
 
 @media screen and (min-width:e-tailers) {
   .c0 {
-    background: #75861;
+    background: 75861;
   }
 }
 
 @media screen and (min-width:Concrete) {
   .c0 {
-    background: #52184;
+    background: 52184;
   }
 }
 
 @media screen and (min-width:neural) {
   .c0 {
-    background: #10590;
+    background: 10590;
   }
 }
 
@@ -16887,7 +16887,7 @@ exports[`renders number object with mediaQueries 1`] = `
   -webkit-align-self: 41466;
   -ms-flex-item-align: 41466;
   align-self: 41466;
-  background: #41466;
+  background: 41466;
   background-attachment: 41466;
   background-color: #41466;
   background-position: 41466;
@@ -17193,43 +17193,43 @@ exports[`renders number object with mediaQueries 1`] = `
 
 @media Parks {
   .c0 {
-    background: #58201;
+    background: 58201;
   }
 }
 
 @media Internal {
   .c0 {
-    background: #14335;
+    background: 14335;
   }
 }
 
 @media revolutionary {
   .c0 {
-    background: #53737;
+    background: 53737;
   }
 }
 
 @media Tools {
   .c0 {
-    background: #94466;
+    background: 94466;
   }
 }
 
 @media Accounts {
   .c0 {
-    background: #75861;
+    background: 75861;
   }
 }
 
 @media SCSI {
   .c0 {
-    background: #52184;
+    background: 52184;
   }
 }
 
 @media Squares {
   .c0 {
-    background: #10590;
+    background: 10590;
   }
 }
 
@@ -22513,7 +22513,7 @@ exports[`renders number values 1`] = `
   -webkit-align-self: 67887;
   -ms-flex-item-align: 67887;
   align-self: 67887;
-  background: #67887;
+  background: 67887;
   background-attachment: 67887;
   background-color: #67887;
   background-position: 67887;
