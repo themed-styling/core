@@ -7,7 +7,7 @@ import 'jest-styled-components'
 import * as themedStyling from '../src'
 import { testElement } from 'domutils'
 
-const { propType, css, ...functions } = themedStyling
+const { propType, css, theme, ...functions } = themedStyling
 
 const stringToSeed = string =>
   parseInt(
