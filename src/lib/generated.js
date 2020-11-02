@@ -187,7 +187,7 @@ export const borderBlock = core(
   'borderBlock',
   'border-block:',
   ';',
-  colorTransformer
+  pxTransformer
 )
 export const borderBlockColor = core(
   'borderBlockColor',
@@ -199,7 +199,7 @@ export const borderBlockEnd = core(
   'borderBlockEnd',
   'border-block-end:',
   ';',
-  colorTransformer
+  pxTransformer
 )
 export const borderBlockEndColor = core(
   'borderBlockEndColor',
@@ -217,13 +217,13 @@ export const borderBlockEndWidth = core(
   'borderBlockEndWidth',
   'border-block-end-width:',
   ';',
-  plainTransformer
+  pxTransformer
 )
 export const borderBlockStart = core(
   'borderBlockStart',
   'border-block-start:',
   ';',
-  colorTransformer
+  pxTransformer
 )
 export const borderBlockStartColor = core(
   'borderBlockStartColor',
@@ -241,7 +241,7 @@ export const borderBlockStartWidth = core(
   'borderBlockStartWidth',
   'border-block-start-width:',
   ';',
-  plainTransformer
+  pxTransformer
 )
 export const borderBlockStyle = core(
   'borderBlockStyle',
@@ -253,7 +253,7 @@ export const borderBlockWidth = core(
   'borderBlockWidth',
   'border-block-width:',
   ';',
-  plainTransformer
+  pxTransformer
 )
 export const borderBottom = core(
   'borderBottom',
@@ -361,7 +361,7 @@ export const borderInline = core(
   'borderInline',
   'border-inline:',
   ';',
-  colorTransformer
+  pxTransformer
 )
 export const borderInlineColor = core(
   'borderInlineColor',
@@ -373,7 +373,7 @@ export const borderInlineEnd = core(
   'borderInlineEnd',
   'border-inline-end:',
   ';',
-  colorTransformer
+  pxTransformer
 )
 export const borderInlineEndColor = core(
   'borderInlineEndColor',
@@ -391,13 +391,13 @@ export const borderInlineEndWidth = core(
   'borderInlineEndWidth',
   'border-inline-end-width:',
   ';',
-  plainTransformer
+  pxTransformer
 )
 export const borderInlineStart = core(
   'borderInlineStart',
   'border-inline-start:',
   ';',
-  colorTransformer
+  pxTransformer
 )
 export const borderInlineStartColor = core(
   'borderInlineStartColor',
@@ -415,7 +415,7 @@ export const borderInlineStartWidth = core(
   'borderInlineStartWidth',
   'border-inline-start-width:',
   ';',
-  plainTransformer
+  pxTransformer
 )
 export const borderInlineStyle = core(
   'borderInlineStyle',
@@ -427,7 +427,7 @@ export const borderInlineWidth = core(
   'borderInlineWidth',
   'border-inline-width:',
   ';',
-  plainTransformer
+  pxTransformer
 )
 export const borderLeft = core(
   'borderLeft',
