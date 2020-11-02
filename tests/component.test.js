@@ -5,9 +5,8 @@ import faker from 'faker'
 import 'jest-styled-components'
 
 import * as themedStyling from '../src'
-import { testElement } from 'domutils'
 
-const { propType, css, theme, ...functions } = themedStyling
+const { propType, css, theme: _, ...functions } = themedStyling
 
 const stringToSeed = string =>
   parseInt(
@@ -16,8 +15,6 @@ const stringToSeed = string =>
       .map(char => char.charCodeAt(0))
       .join('')
   )
-
-const functionsArray = Object.values(functions)
 
 const theme = {
   colors: {
