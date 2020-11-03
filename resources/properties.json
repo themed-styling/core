@@ -1,7 +1,14 @@
 [
-  { "name": "--*", "values": ["<declaration-value>"] },
   {
-    "name": "align-content",
+    "property": "--*",
+    "statuses": ["ED", "ED", "CR"],
+    "status": "CR",
+    "values": ["<declaration-value>"]
+  },
+  {
+    "property": "align-content",
+    "statuses": ["ED", "ED", "CR", "WD"],
+    "status": "CR",
     "values": [
       "normal",
       "|",
@@ -47,7 +54,9 @@
     ]
   },
   {
-    "name": "align-items",
+    "property": "align-items",
+    "statuses": ["ED", "ED", "CR", "WD"],
+    "status": "CR",
     "values": [
       "normal",
       "|",
@@ -91,7 +100,9 @@
     ]
   },
   {
-    "name": "align-self",
+    "property": "align-self",
+    "statuses": ["ED", "ED", "CR", "WD"],
+    "status": "CR",
     "values": [
       "auto",
       "|",
@@ -134,13 +145,21 @@
       "flex-end"
     ]
   },
-  { "name": "alignment-baseline" },
   {
-    "name": "all",
+    "property": "alignment-baseline",
+    "statuses": ["ED", "WD"],
+    "status": "WD"
+  },
+  {
+    "property": "all",
+    "statuses": ["ED", "ED", "CR", "WD"],
+    "status": "CR",
     "values": ["initial", "|", "inherit", "|", "unset", "|", "revert"]
   },
   {
-    "name": "animation",
+    "property": "animation",
+    "statuses": ["ED", "WD"],
+    "status": "WD",
     "values": [
       "<single-animation>",
       "#",
@@ -249,9 +268,16 @@
       "end"
     ]
   },
-  { "name": "animation-delay", "values": ["<time>", "#"] },
   {
-    "name": "animation-direction",
+    "property": "animation-delay",
+    "statuses": ["ED", "WD"],
+    "status": "WD",
+    "values": ["<time>", "#"]
+  },
+  {
+    "property": "animation-direction",
+    "statuses": ["ED", "WD"],
+    "status": "WD",
     "values": [
       "<single-animation-direction>",
       "#",
@@ -266,9 +292,16 @@
       "alternate-reverse"
     ]
   },
-  { "name": "animation-duration", "values": ["<time>", "#"] },
   {
-    "name": "animation-fill-mode",
+    "property": "animation-duration",
+    "statuses": ["ED", "WD"],
+    "status": "WD",
+    "values": ["<time>", "#"]
+  },
+  {
+    "property": "animation-fill-mode",
+    "statuses": ["ED", "WD"],
+    "status": "WD",
     "values": [
       "<single-animation-fill-mode>",
       "#",
@@ -284,7 +317,9 @@
     ]
   },
   {
-    "name": "animation-iteration-count",
+    "property": "animation-iteration-count",
+    "statuses": ["ED", "WD"],
+    "status": "WD",
     "values": [
       "<single-animation-iteration-count>",
       "#",
@@ -296,7 +331,9 @@
     ]
   },
   {
-    "name": "animation-name",
+    "property": "animation-name",
+    "statuses": ["ED", "WD"],
+    "status": "WD",
     "values": [
       "[",
       "none",
@@ -313,7 +350,9 @@
     ]
   },
   {
-    "name": "animation-play-state",
+    "property": "animation-play-state",
+    "statuses": ["ED", "WD"],
+    "status": "WD",
     "values": [
       "<single-animation-play-state>",
       "#",
@@ -325,7 +364,9 @@
     ]
   },
   {
-    "name": "animation-timing-function",
+    "property": "animation-timing-function",
+    "statuses": ["ED", "WD"],
+    "status": "WD",
     "values": [
       "<timing-function>",
       "#",
@@ -384,7 +425,9 @@
     ]
   },
   {
-    "name": "appearance",
+    "property": "appearance",
+    "statuses": ["ED", "WD"],
+    "status": "WD",
     "values": [
       "none",
       "|",
@@ -422,10 +465,23 @@
       "progress-bar"
     ]
   },
-  { "name": "aspect-ratio", "values": ["auto", "|", "<ratio>"] },
-  { "name": "azimuth" },
   {
-    "name": "background",
+    "property": "aspect-ratio",
+    "statuses": ["ED", "WD"],
+    "status": "WD",
+    "values": ["auto", "|", "<ratio>"]
+  },
+  { "property": "azimuth", "statuses": ["REC"], "status": "REC" },
+  {
+    "property": "backface-visibility",
+    "statuses": ["ED", "FPWD"],
+    "status": "FPWD",
+    "values": ["visible", "|", "hidden"]
+  },
+  {
+    "property": "background",
+    "statuses": ["REC", "ED", "ED", "ED", "CR"],
+    "status": "REC",
     "values": [
       "[",
       "<bg-layer>",
@@ -1068,7 +1124,9 @@
     ]
   },
   {
-    "name": "background-attachment",
+    "property": "background-attachment",
+    "statuses": ["REC", "ED", "ED", "ED", "CR"],
+    "status": "REC",
     "values": [
       "<attachment>",
       "#",
@@ -1082,7 +1140,9 @@
     ]
   },
   {
-    "name": "background-blend-mode",
+    "property": "background-blend-mode",
+    "statuses": ["ED", "CR"],
+    "status": "CR",
     "values": [
       "<blend-mode>",
       "#",
@@ -1122,7 +1182,9 @@
     ]
   },
   {
-    "name": "background-clip",
+    "property": "background-clip",
+    "statuses": ["ED", "CR"],
+    "status": "CR",
     "values": [
       "<box>",
       "#",
@@ -1136,7 +1198,9 @@
     ]
   },
   {
-    "name": "background-color",
+    "property": "background-color",
+    "statuses": ["REC", "ED", "ED", "ED", "CR"],
+    "status": "REC",
     "values": [
       "<color>",
       "where",
@@ -1308,7 +1372,9 @@
     ]
   },
   {
-    "name": "background-image",
+    "property": "background-image",
+    "statuses": ["REC", "ED", "ED", "ED", "CR"],
+    "status": "REC",
     "values": [
       "<bg-image>",
       "#",
@@ -1805,7 +1871,9 @@
     ]
   },
   {
-    "name": "background-origin",
+    "property": "background-origin",
+    "statuses": ["ED", "CR"],
+    "status": "CR",
     "values": [
       "<box>",
       "#",
@@ -1819,7 +1887,9 @@
     ]
   },
   {
-    "name": "background-position",
+    "property": "background-position",
+    "statuses": ["REC", "ED", "ED", "ED", "CR"],
+    "status": "REC",
     "values": [
       "<bg-position>",
       "#",
@@ -1893,7 +1963,9 @@
     ]
   },
   {
-    "name": "background-repeat",
+    "property": "background-repeat",
+    "statuses": ["REC", "ED", "ED", "ED", "CR"],
+    "status": "REC",
     "values": [
       "<repeat-style>",
       "#",
@@ -1918,7 +1990,9 @@
     ]
   },
   {
-    "name": "background-size",
+    "property": "background-size",
+    "statuses": ["ED", "CR"],
+    "status": "CR",
     "values": [
       "<bg-size>",
       "#",
@@ -1945,15 +2019,55 @@
       "<percentage>"
     ]
   },
-  { "name": "baseline-shift" },
-  { "name": "baseline-source" },
-  { "name": "block-ellipsis" },
-  { "name": "block-size", "values": ["<width>"] },
-  { "name": "bookmark-label" },
-  { "name": "bookmark-level" },
-  { "name": "bookmark-state" },
+  { "property": "baseline-shift", "statuses": ["ED", "WD"], "status": "WD" },
+  { "property": "baseline-source", "statuses": ["ED", "WD"], "status": "WD" },
+  { "property": "block-ellipsis", "statuses": ["ED", "WD"], "status": "WD" },
   {
-    "name": "border",
+    "property": "block-size",
+    "statuses": ["ED", "WD"],
+    "status": "WD",
+    "values": ["<width>"]
+  },
+  { "property": "block-step", "statuses": ["ED", "FPWD"], "status": "FPWD" },
+  {
+    "property": "block-step-align",
+    "statuses": ["ED", "FPWD"],
+    "status": "FPWD"
+  },
+  {
+    "property": "block-step-insert",
+    "statuses": ["ED", "FPWD"],
+    "status": "FPWD"
+  },
+  {
+    "property": "block-step-round",
+    "statuses": ["ED", "FPWD"],
+    "status": "FPWD"
+  },
+  {
+    "property": "block-step-size",
+    "statuses": ["ED", "FPWD"],
+    "status": "FPWD"
+  },
+  {
+    "property": "bookmark-label",
+    "statuses": ["ED", "WD", "WD"],
+    "status": "WD"
+  },
+  {
+    "property": "bookmark-level",
+    "statuses": ["ED", "WD", "WD"],
+    "status": "WD"
+  },
+  {
+    "property": "bookmark-state",
+    "statuses": ["ED", "WD", "WD"],
+    "status": "WD"
+  },
+  {
+    "property": "border",
+    "statuses": ["REC", "ED", "ED", "ED", "CR"],
+    "status": "REC",
     "values": [
       "<line-width>",
       "||",
@@ -2158,7 +2272,9 @@
     ]
   },
   {
-    "name": "border-block",
+    "property": "border-block",
+    "statuses": ["ED", "WD"],
+    "status": "WD",
     "values": [
       "<border-top-width>",
       "||",
@@ -2334,11 +2450,15 @@
     ]
   },
   {
-    "name": "border-block-color",
+    "property": "border-block-color",
+    "statuses": ["ED", "WD"],
+    "status": "WD",
     "values": ["<border-top-color>", "{", "1,2", "}"]
   },
   {
-    "name": "border-block-end",
+    "property": "border-block-end",
+    "statuses": ["ED", "WD"],
+    "status": "WD",
     "values": [
       "<border-top-width>",
       "||",
@@ -2513,11 +2633,28 @@
       "<angle>"
     ]
   },
-  { "name": "border-block-end-color", "values": ["<border-top-color>"] },
-  { "name": "border-block-end-style", "values": ["<border-top-style>"] },
-  { "name": "border-block-end-width", "values": ["<border-top-width>"] },
   {
-    "name": "border-block-start",
+    "property": "border-block-end-color",
+    "statuses": ["ED", "WD"],
+    "status": "WD",
+    "values": ["<border-top-color>"]
+  },
+  {
+    "property": "border-block-end-style",
+    "statuses": ["ED", "WD"],
+    "status": "WD",
+    "values": ["<border-top-style>"]
+  },
+  {
+    "property": "border-block-end-width",
+    "statuses": ["ED", "WD"],
+    "status": "WD",
+    "values": ["<border-top-width>"]
+  },
+  {
+    "property": "border-block-start",
+    "statuses": ["ED", "WD"],
+    "status": "WD",
     "values": [
       "<border-top-width>",
       "||",
@@ -2692,13 +2829,40 @@
       "<angle>"
     ]
   },
-  { "name": "border-block-start-color", "values": ["<border-top-color>"] },
-  { "name": "border-block-start-style", "values": ["<border-top-style>"] },
-  { "name": "border-block-start-width", "values": ["<border-top-width>"] },
-  { "name": "border-block-style", "values": ["<border-top-style>"] },
-  { "name": "border-block-width", "values": ["<border-top-width>"] },
   {
-    "name": "border-bottom",
+    "property": "border-block-start-color",
+    "statuses": ["ED", "WD"],
+    "status": "WD",
+    "values": ["<border-top-color>"]
+  },
+  {
+    "property": "border-block-start-style",
+    "statuses": ["ED", "WD"],
+    "status": "WD",
+    "values": ["<border-top-style>"]
+  },
+  {
+    "property": "border-block-start-width",
+    "statuses": ["ED", "WD"],
+    "status": "WD",
+    "values": ["<border-top-width>"]
+  },
+  {
+    "property": "border-block-style",
+    "statuses": ["ED", "WD"],
+    "status": "WD",
+    "values": ["<border-top-style>"]
+  },
+  {
+    "property": "border-block-width",
+    "statuses": ["ED", "WD"],
+    "status": "WD",
+    "values": ["<border-top-width>"]
+  },
+  {
+    "property": "border-bottom",
+    "statuses": ["REC", "ED", "ED", "ED", "CR"],
+    "status": "REC",
     "values": [
       "<line-width>",
       "||",
@@ -2902,9 +3066,16 @@
       "<angle>"
     ]
   },
-  { "name": "border-bottom-color", "values": ["<border-top-color>"] },
   {
-    "name": "border-bottom-left-radius",
+    "property": "border-bottom-color",
+    "statuses": ["REC", "ED", "ED", "ED", "CR"],
+    "status": "REC",
+    "values": ["<border-top-color>"]
+  },
+  {
+    "property": "border-bottom-left-radius",
+    "statuses": ["ED", "CR"],
+    "status": "CR",
     "values": [
       "<length-percentage>",
       "{",
@@ -2919,7 +3090,9 @@
     ]
   },
   {
-    "name": "border-bottom-right-radius",
+    "property": "border-bottom-right-radius",
+    "statuses": ["ED", "CR"],
+    "status": "CR",
     "values": [
       "<length-percentage>",
       "{",
@@ -2934,7 +3107,9 @@
     ]
   },
   {
-    "name": "border-bottom-style",
+    "property": "border-bottom-style",
+    "statuses": ["REC", "ED", "ED", "ED", "CR"],
+    "status": "REC",
     "values": [
       "<line-style>",
       "where",
@@ -2961,7 +3136,9 @@
     ]
   },
   {
-    "name": "border-bottom-width",
+    "property": "border-bottom-width",
+    "statuses": ["REC", "ED", "ED", "ED", "CR"],
+    "status": "REC",
     "values": [
       "<line-width>",
       "where",
@@ -2976,10 +3153,17 @@
       "thick"
     ]
   },
-  { "name": "border-boundary" },
-  { "name": "border-collapse", "values": ["collapse", "|", "separate"] },
+  { "property": "border-boundary", "statuses": ["ED", "WD"], "status": "WD" },
   {
-    "name": "border-color",
+    "property": "border-collapse",
+    "statuses": ["REC", "ED", "ED", "ED", "WD"],
+    "status": "REC",
+    "values": ["collapse", "|", "separate"]
+  },
+  {
+    "property": "border-color",
+    "statuses": ["REC", "ED", "ED", "ED", "CR"],
+    "status": "REC",
     "values": [
       "<color>",
       "{",
@@ -3154,7 +3338,9 @@
     ]
   },
   {
-    "name": "border-end-end-radius",
+    "property": "border-end-end-radius",
+    "statuses": ["ED", "WD"],
+    "status": "WD",
     "values": [
       "<length-percentage>",
       "{",
@@ -3169,7 +3355,9 @@
     ]
   },
   {
-    "name": "border-end-start-radius",
+    "property": "border-end-start-radius",
+    "statuses": ["ED", "WD"],
+    "status": "WD",
     "values": [
       "<length-percentage>",
       "{",
@@ -3184,7 +3372,9 @@
     ]
   },
   {
-    "name": "border-image",
+    "property": "border-image",
+    "statuses": ["ED", "CR"],
+    "status": "CR",
     "values": [
       "<border-image-source>",
       "||",
@@ -3205,11 +3395,15 @@
     ]
   },
   {
-    "name": "border-image-outset",
+    "property": "border-image-outset",
+    "statuses": ["ED", "CR"],
+    "status": "CR",
     "values": ["[", "<length>", "|", "<number>", "]", "{", "1,4", "}"]
   },
   {
-    "name": "border-image-repeat",
+    "property": "border-image-repeat",
+    "statuses": ["ED", "CR"],
+    "status": "CR",
     "values": [
       "[",
       "stretch",
@@ -3226,7 +3420,9 @@
     ]
   },
   {
-    "name": "border-image-slice",
+    "property": "border-image-slice",
+    "statuses": ["ED", "CR"],
+    "status": "CR",
     "values": [
       "<number-percentage>",
       "{",
@@ -3244,7 +3440,9 @@
     ]
   },
   {
-    "name": "border-image-source",
+    "property": "border-image-source",
+    "statuses": ["ED", "CR"],
+    "status": "CR",
     "values": [
       "none",
       "|",
@@ -3737,7 +3935,9 @@
     ]
   },
   {
-    "name": "border-image-width",
+    "property": "border-image-width",
+    "statuses": ["ED", "CR"],
+    "status": "CR",
     "values": [
       "[",
       "<length-percentage>",
@@ -3758,7 +3958,9 @@
     ]
   },
   {
-    "name": "border-inline",
+    "property": "border-inline",
+    "statuses": ["ED", "WD"],
+    "status": "WD",
     "values": [
       "<border-top-width>",
       "||",
@@ -3934,11 +4136,15 @@
     ]
   },
   {
-    "name": "border-inline-color",
+    "property": "border-inline-color",
+    "statuses": ["ED", "WD"],
+    "status": "WD",
     "values": ["<border-top-color>", "{", "1,2", "}"]
   },
   {
-    "name": "border-inline-end",
+    "property": "border-inline-end",
+    "statuses": ["ED", "WD"],
+    "status": "WD",
     "values": [
       "<border-top-width>",
       "||",
@@ -4113,11 +4319,28 @@
       "<angle>"
     ]
   },
-  { "name": "border-inline-end-color", "values": ["<border-top-color>"] },
-  { "name": "border-inline-end-style", "values": ["<border-top-style>"] },
-  { "name": "border-inline-end-width", "values": ["<border-top-width>"] },
   {
-    "name": "border-inline-start",
+    "property": "border-inline-end-color",
+    "statuses": ["ED", "WD"],
+    "status": "WD",
+    "values": ["<border-top-color>"]
+  },
+  {
+    "property": "border-inline-end-style",
+    "statuses": ["ED", "WD"],
+    "status": "WD",
+    "values": ["<border-top-style>"]
+  },
+  {
+    "property": "border-inline-end-width",
+    "statuses": ["ED", "WD"],
+    "status": "WD",
+    "values": ["<border-top-width>"]
+  },
+  {
+    "property": "border-inline-start",
+    "statuses": ["ED", "WD"],
+    "status": "WD",
     "values": [
       "<border-top-width>",
       "||",
@@ -4292,13 +4515,40 @@
       "<angle>"
     ]
   },
-  { "name": "border-inline-start-color", "values": ["<border-top-color>"] },
-  { "name": "border-inline-start-style", "values": ["<border-top-style>"] },
-  { "name": "border-inline-start-width", "values": ["<border-top-width>"] },
-  { "name": "border-inline-style", "values": ["<border-top-style>"] },
-  { "name": "border-inline-width", "values": ["<border-top-width>"] },
   {
-    "name": "border-left",
+    "property": "border-inline-start-color",
+    "statuses": ["ED", "WD"],
+    "status": "WD",
+    "values": ["<border-top-color>"]
+  },
+  {
+    "property": "border-inline-start-style",
+    "statuses": ["ED", "WD"],
+    "status": "WD",
+    "values": ["<border-top-style>"]
+  },
+  {
+    "property": "border-inline-start-width",
+    "statuses": ["ED", "WD"],
+    "status": "WD",
+    "values": ["<border-top-width>"]
+  },
+  {
+    "property": "border-inline-style",
+    "statuses": ["ED", "WD"],
+    "status": "WD",
+    "values": ["<border-top-style>"]
+  },
+  {
+    "property": "border-inline-width",
+    "statuses": ["ED", "WD"],
+    "status": "WD",
+    "values": ["<border-top-width>"]
+  },
+  {
+    "property": "border-left",
+    "statuses": ["REC", "ED", "ED", "ED", "CR"],
+    "status": "REC",
     "values": [
       "<line-width>",
       "||",
@@ -4503,7 +4753,9 @@
     ]
   },
   {
-    "name": "border-left-color",
+    "property": "border-left-color",
+    "statuses": ["REC", "ED", "ED", "ED", "CR"],
+    "status": "REC",
     "values": [
       "<color>",
       "where",
@@ -4675,7 +4927,9 @@
     ]
   },
   {
-    "name": "border-left-style",
+    "property": "border-left-style",
+    "statuses": ["REC", "ED", "ED", "ED", "CR"],
+    "status": "REC",
     "values": [
       "<line-style>",
       "where",
@@ -4702,7 +4956,9 @@
     ]
   },
   {
-    "name": "border-left-width",
+    "property": "border-left-width",
+    "statuses": ["REC", "ED", "ED", "ED", "CR"],
+    "status": "REC",
     "values": [
       "<line-width>",
       "where",
@@ -4718,7 +4974,9 @@
     ]
   },
   {
-    "name": "border-radius",
+    "property": "border-radius",
+    "statuses": ["ED", "CR"],
+    "status": "CR",
     "values": [
       "<length-percentage>",
       "{",
@@ -4741,7 +4999,9 @@
     ]
   },
   {
-    "name": "border-right",
+    "property": "border-right",
+    "statuses": ["REC", "ED", "ED", "ED", "CR"],
+    "status": "REC",
     "values": [
       "<line-width>",
       "||",
@@ -4946,7 +5206,9 @@
     ]
   },
   {
-    "name": "border-right-color",
+    "property": "border-right-color",
+    "statuses": ["REC", "ED", "ED", "ED", "CR"],
+    "status": "REC",
     "values": [
       "<color>",
       "where",
@@ -5118,7 +5380,9 @@
     ]
   },
   {
-    "name": "border-right-style",
+    "property": "border-right-style",
+    "statuses": ["REC", "ED", "ED", "ED", "CR"],
+    "status": "REC",
     "values": [
       "<line-style>",
       "where",
@@ -5145,7 +5409,9 @@
     ]
   },
   {
-    "name": "border-right-width",
+    "property": "border-right-width",
+    "statuses": ["REC", "ED", "ED", "ED", "CR"],
+    "status": "REC",
     "values": [
       "<line-width>",
       "where",
@@ -5160,9 +5426,16 @@
       "thick"
     ]
   },
-  { "name": "border-spacing", "values": ["<length>", "<length>", "?"] },
   {
-    "name": "border-start-end-radius",
+    "property": "border-spacing",
+    "statuses": ["REC", "ED", "ED", "ED", "WD"],
+    "status": "REC",
+    "values": ["<length>", "<length>", "?"]
+  },
+  {
+    "property": "border-start-end-radius",
+    "statuses": ["ED", "WD"],
+    "status": "WD",
     "values": [
       "<length-percentage>",
       "{",
@@ -5177,7 +5450,9 @@
     ]
   },
   {
-    "name": "border-start-start-radius",
+    "property": "border-start-start-radius",
+    "statuses": ["ED", "WD"],
+    "status": "WD",
     "values": [
       "<length-percentage>",
       "{",
@@ -5192,7 +5467,9 @@
     ]
   },
   {
-    "name": "border-style",
+    "property": "border-style",
+    "statuses": ["REC", "ED", "ED", "ED", "CR"],
+    "status": "REC",
     "values": [
       "<line-style>",
       "{",
@@ -5222,7 +5499,9 @@
     ]
   },
   {
-    "name": "border-top",
+    "property": "border-top",
+    "statuses": ["REC", "ED", "ED", "ED", "CR"],
+    "status": "REC",
     "values": [
       "<line-width>",
       "||",
@@ -5427,7 +5706,9 @@
     ]
   },
   {
-    "name": "border-top-color",
+    "property": "border-top-color",
+    "statuses": ["REC", "ED", "ED", "ED", "CR"],
+    "status": "REC",
     "values": [
       "<color>",
       "where",
@@ -5599,7 +5880,9 @@
     ]
   },
   {
-    "name": "border-top-left-radius",
+    "property": "border-top-left-radius",
+    "statuses": ["ED", "CR"],
+    "status": "CR",
     "values": [
       "<length-percentage>",
       "{",
@@ -5614,7 +5897,9 @@
     ]
   },
   {
-    "name": "border-top-right-radius",
+    "property": "border-top-right-radius",
+    "statuses": ["ED", "CR"],
+    "status": "CR",
     "values": [
       "<length-percentage>",
       "{",
@@ -5629,7 +5914,9 @@
     ]
   },
   {
-    "name": "border-top-style",
+    "property": "border-top-style",
+    "statuses": ["REC", "ED", "ED", "ED", "CR"],
+    "status": "REC",
     "values": [
       "<line-style>",
       "where",
@@ -5656,7 +5943,9 @@
     ]
   },
   {
-    "name": "border-top-width",
+    "property": "border-top-width",
+    "statuses": ["REC", "ED", "ED", "ED", "CR"],
+    "status": "REC",
     "values": [
       "<line-width>",
       "where",
@@ -5672,7 +5961,9 @@
     ]
   },
   {
-    "name": "border-width",
+    "property": "border-width",
+    "statuses": ["REC", "ED", "ED", "ED", "CR"],
+    "status": "REC",
     "values": [
       "<line-width>",
       "{",
@@ -5691,12 +5982,21 @@
     ]
   },
   {
-    "name": "bottom",
+    "property": "bottom",
+    "statuses": ["REC", "ED", "ED", "ED", "WD"],
+    "status": "REC",
     "values": ["<length>", "|", "<percentage>", "|", "auto"]
   },
-  { "name": "box-decoration-break", "values": ["slice", "|", "clone"] },
   {
-    "name": "box-shadow",
+    "property": "box-decoration-break",
+    "statuses": ["ED", "ED", "CR", "FPWD"],
+    "status": "CR",
+    "values": ["slice", "|", "clone"]
+  },
+  {
+    "property": "box-shadow",
+    "statuses": ["ED", "CR"],
+    "status": "CR",
     "values": [
       "none",
       "|",
@@ -5882,10 +6182,17 @@
       "<angle>"
     ]
   },
-  { "name": "box-sizing", "values": ["content-box", "|", "border-box"] },
-  { "name": "box-snap" },
   {
-    "name": "break-after",
+    "property": "box-sizing",
+    "statuses": ["ED", "ED", "REC", "WD"],
+    "status": "REC",
+    "values": ["content-box", "|", "border-box"]
+  },
+  { "property": "box-snap", "statuses": ["ED", "WD"], "status": "WD" },
+  {
+    "property": "break-after",
+    "statuses": ["ED", "ED", "WD", "CR", "FPWD"],
+    "status": "CR",
     "values": [
       "auto",
       "|",
@@ -5917,7 +6224,9 @@
     ]
   },
   {
-    "name": "break-before",
+    "property": "break-before",
+    "statuses": ["ED", "ED", "WD", "CR", "FPWD"],
+    "status": "CR",
     "values": [
       "auto",
       "|",
@@ -5949,7 +6258,9 @@
     ]
   },
   {
-    "name": "break-inside",
+    "property": "break-inside",
+    "statuses": ["ED", "ED", "WD", "CR", "FPWD"],
+    "status": "CR",
     "values": [
       "auto",
       "|",
@@ -5963,7 +6274,9 @@
     ]
   },
   {
-    "name": "caption-side",
+    "property": "caption-side",
+    "statuses": ["REC", "ED", "ED", "ED", "WD"],
+    "status": "REC",
     "values": [
       "top",
       "|",
@@ -5978,9 +6291,11 @@
       "inline-end"
     ]
   },
-  { "name": "caret" },
+  { "property": "caret", "statuses": ["ED", "WD"], "status": "WD" },
   {
-    "name": "caret-color",
+    "property": "caret-color",
+    "statuses": ["ED", "ED", "REC", "WD"],
+    "status": "REC",
     "values": [
       "auto",
       "|",
@@ -6153,9 +6468,12 @@
       "<angle>"
     ]
   },
-  { "name": "caret-shape" },
+  { "property": "caret-shape", "statuses": ["ED", "WD"], "status": "WD" },
+  { "property": "chains", "statuses": ["ED", "NOTE"], "status": "ED" },
   {
-    "name": "clear",
+    "property": "clear",
+    "statuses": ["REC", "ED", "ED", "ED", "FPWD"],
+    "status": "REC",
     "values": [
       "none",
       "|",
@@ -6171,7 +6489,9 @@
     ]
   },
   {
-    "name": "clip",
+    "property": "clip",
+    "statuses": ["REC", "ED", "ED", "ED", "CR"],
+    "status": "REC",
     "values": [
       "<shape>",
       "|",
@@ -6182,7 +6502,9 @@
     ]
   },
   {
-    "name": "clip-path",
+    "property": "clip-path",
+    "statuses": ["ED", "CR"],
+    "status": "CR",
     "values": [
       "<clip-source>",
       "|",
@@ -6364,9 +6686,11 @@
       "content-box"
     ]
   },
-  { "name": "clip-rule" },
+  { "property": "clip-rule", "statuses": ["ED", "CR"], "status": "CR" },
   {
-    "name": "color",
+    "property": "color",
+    "statuses": ["REC", "ED", "ED", "ED", "ED", "REC", "WD"],
+    "status": "REC",
     "values": [
       "<color>",
       "where",
@@ -6537,16 +6861,34 @@
       "<angle>"
     ]
   },
-  { "name": "color-adjust", "values": ["economy", "|", "exact"] },
-  { "name": "color-interpolation-filters" },
-  { "name": "color-scheme" },
-  { "name": "column-count", "values": ["<integer>", "|", "auto"] },
   {
-    "name": "column-fill",
+    "property": "color-adjust",
+    "statuses": ["ED", "WD"],
+    "status": "WD",
+    "values": ["economy", "|", "exact"]
+  },
+  {
+    "property": "color-interpolation-filters",
+    "statuses": ["ED", "WD"],
+    "status": "WD"
+  },
+  { "property": "color-scheme", "statuses": ["ED", "WD"], "status": "WD" },
+  {
+    "property": "column-count",
+    "statuses": ["ED", "WD"],
+    "status": "WD",
+    "values": ["<integer>", "|", "auto"]
+  },
+  {
+    "property": "column-fill",
+    "statuses": ["ED", "WD"],
+    "status": "WD",
     "values": ["auto", "|", "balance", "|", "balance-all"]
   },
   {
-    "name": "column-gap",
+    "property": "column-gap",
+    "statuses": ["ED", "ED", "WD"],
+    "status": "WD",
     "values": [
       "normal",
       "|",
@@ -6560,7 +6902,9 @@
     ]
   },
   {
-    "name": "column-rule",
+    "property": "column-rule",
+    "statuses": ["ED", "WD"],
+    "status": "WD",
     "values": [
       "<column-rule-width>",
       "||",
@@ -6570,7 +6914,9 @@
     ]
   },
   {
-    "name": "column-rule-color",
+    "property": "column-rule-color",
+    "statuses": ["ED", "WD"],
+    "status": "WD",
     "values": [
       "<color>",
       "where",
@@ -6741,13 +7087,40 @@
       "<angle>"
     ]
   },
-  { "name": "column-rule-style", "values": ["<border-style>"] },
-  { "name": "column-rule-width", "values": ["<border-width>"] },
-  { "name": "column-span", "values": ["none", "|", "all"] },
-  { "name": "column-width", "values": ["<length>", "|", "auto"] },
-  { "name": "columns", "values": ["<column-width>", "||", "<column-count>"] },
   {
-    "name": "contain",
+    "property": "column-rule-style",
+    "statuses": ["ED", "WD"],
+    "status": "WD",
+    "values": ["<border-style>"]
+  },
+  {
+    "property": "column-rule-width",
+    "statuses": ["ED", "WD"],
+    "status": "WD",
+    "values": ["<border-width>"]
+  },
+  {
+    "property": "column-span",
+    "statuses": ["ED", "WD"],
+    "status": "WD",
+    "values": ["none", "|", "all"]
+  },
+  {
+    "property": "column-width",
+    "statuses": ["ED", "WD"],
+    "status": "WD",
+    "values": ["<length>", "|", "auto"]
+  },
+  {
+    "property": "columns",
+    "statuses": ["ED", "WD"],
+    "status": "WD",
+    "values": ["<column-width>", "||", "<column-count>"]
+  },
+  {
+    "property": "contain",
+    "statuses": ["ED", "ED", "REC", "WD"],
+    "status": "REC",
     "values": [
       "none",
       "|",
@@ -6766,9 +7139,15 @@
       "]"
     ]
   },
-  { "name": "contain-intrinsic-size" },
   {
-    "name": "content",
+    "property": "contain-intrinsic-size",
+    "statuses": ["ED", "WD"],
+    "status": "WD"
+  },
+  {
+    "property": "content",
+    "statuses": ["REC", "ED", "ED", "ED", "WD"],
+    "status": "REC",
     "values": [
       "normal",
       "|",
@@ -7373,25 +7752,46 @@
       "<percentage>"
     ]
   },
-  { "name": "content-visibility", "values": ["Syntax not found in DB!"] },
-  { "name": "continue" },
   {
-    "name": "counter-increment",
+    "property": "content-visibility",
+    "statuses": ["ED", "WD"],
+    "status": "WD",
+    "values": ["Syntax not found in DB!"]
+  },
+  {
+    "property": "continue",
+    "statuses": ["ED", "ED", "FPWD", "WD"],
+    "status": "WD"
+  },
+  {
+    "property": "counter-increment",
+    "statuses": ["REC", "ED", "ED", "ED", "WD"],
+    "status": "REC",
     "values": ["[", "<custom-ident>", "<integer>", "?", "]", "+", "|", "none"]
   },
   {
-    "name": "counter-reset",
+    "property": "counter-reset",
+    "statuses": ["REC", "ED", "ED", "ED", "WD"],
+    "status": "REC",
     "values": ["[", "<custom-ident>", "<integer>", "?", "]", "+", "|", "none"]
   },
   {
-    "name": "counter-set",
+    "property": "counter-set",
+    "statuses": ["ED", "WD"],
+    "status": "WD",
     "values": ["[", "<custom-ident>", "<integer>", "?", "]", "+", "|", "none"]
   },
-  { "name": "cue" },
-  { "name": "cue-after" },
-  { "name": "cue-before" },
+  { "property": "cue", "statuses": ["REC", "ED", "CR"], "status": "REC" },
+  { "property": "cue-after", "statuses": ["REC", "ED", "CR"], "status": "REC" },
   {
-    "name": "cursor",
+    "property": "cue-before",
+    "statuses": ["REC", "ED", "CR"],
+    "status": "REC"
+  },
+  {
+    "property": "cursor",
+    "statuses": ["REC", "ED", "ED", "ED", "ED", "REC", "WD"],
+    "status": "REC",
     "values": [
       "[",
       "[",
@@ -7479,9 +7879,16 @@
       "]"
     ]
   },
-  { "name": "direction", "values": ["ltr", "|", "rtl"] },
   {
-    "name": "display",
+    "property": "direction",
+    "statuses": ["REC", "ED", "ED", "ED", "ED", "CR", "REC"],
+    "status": "REC",
+    "values": ["ltr", "|", "rtl"]
+  },
+  {
+    "property": "display",
+    "statuses": ["REC", "ED", "ED", "ED", "CR"],
+    "status": "REC",
     "values": [
       "[",
       "<display-outside>",
@@ -7568,11 +7975,28 @@
       "inline-grid"
     ]
   },
-  { "name": "dominant-baseline" },
-  { "name": "elevation" },
-  { "name": "empty-cells", "values": ["show", "|", "hide"] },
+  { "property": "dominant-baseline", "statuses": ["ED", "WD"], "status": "WD" },
+  { "property": "elevation", "statuses": ["REC"], "status": "REC" },
   {
-    "name": "filter",
+    "property": "empty-cells",
+    "statuses": ["REC", "ED", "ED", "ED", "WD"],
+    "status": "REC",
+    "values": ["show", "|", "hide"]
+  },
+  { "property": "fill", "statuses": ["ED", "FPWD"], "status": "FPWD" },
+  { "property": "fill-break", "statuses": ["ED", "FPWD"], "status": "FPWD" },
+  { "property": "fill-color", "statuses": ["ED", "FPWD"], "status": "FPWD" },
+  { "property": "fill-image", "statuses": ["ED", "FPWD"], "status": "FPWD" },
+  { "property": "fill-opacity", "statuses": ["ED", "FPWD"], "status": "FPWD" },
+  { "property": "fill-origin", "statuses": ["ED", "FPWD"], "status": "FPWD" },
+  { "property": "fill-position", "statuses": ["ED", "FPWD"], "status": "FPWD" },
+  { "property": "fill-repeat", "statuses": ["ED", "FPWD"], "status": "FPWD" },
+  { "property": "fill-rule", "statuses": ["ED", "FPWD"], "status": "FPWD" },
+  { "property": "fill-size", "statuses": ["ED", "FPWD"], "status": "FPWD" },
+  {
+    "property": "filter",
+    "statuses": ["ED", "WD"],
+    "status": "WD",
     "values": [
       "none",
       "|",
@@ -7832,7 +8256,9 @@
     ]
   },
   {
-    "name": "flex",
+    "property": "flex",
+    "statuses": ["ED", "CR"],
+    "status": "CR",
     "values": [
       "none",
       "|",
@@ -7845,20 +8271,46 @@
       "]"
     ]
   },
-  { "name": "flex-basis", "values": ["content", "|", "<width>"] },
   {
-    "name": "flex-direction",
+    "property": "flex-basis",
+    "statuses": ["ED", "CR"],
+    "status": "CR",
+    "values": ["content", "|", "<width>"]
+  },
+  {
+    "property": "flex-direction",
+    "statuses": ["ED", "CR"],
+    "status": "CR",
     "values": ["row", "|", "row-reverse", "|", "column", "|", "column-reverse"]
   },
-  { "name": "flex-flow", "values": ["<flex-direction>", "||", "<flex-wrap>"] },
-  { "name": "flex-grow", "values": ["<number>"] },
-  { "name": "flex-shrink", "values": ["<number>"] },
   {
-    "name": "flex-wrap",
+    "property": "flex-flow",
+    "statuses": ["ED", "CR"],
+    "status": "CR",
+    "values": ["<flex-direction>", "||", "<flex-wrap>"]
+  },
+  {
+    "property": "flex-grow",
+    "statuses": ["ED", "CR"],
+    "status": "CR",
+    "values": ["<number>"]
+  },
+  {
+    "property": "flex-shrink",
+    "statuses": ["ED", "CR"],
+    "status": "CR",
+    "values": ["<number>"]
+  },
+  {
+    "property": "flex-wrap",
+    "statuses": ["ED", "CR"],
+    "status": "CR",
     "values": ["nowrap", "|", "wrap", "|", "wrap-reverse"]
   },
   {
-    "name": "float",
+    "property": "float",
+    "statuses": ["REC", "ED", "ED", "ED", "FPWD"],
+    "status": "REC",
     "values": [
       "left",
       "|",
@@ -7871,12 +8323,22 @@
       "inline-end"
     ]
   },
-  { "name": "flood-color" },
-  { "name": "flood-opacity" },
-  { "name": "flow-from" },
-  { "name": "flow-into" },
+  { "property": "float-defer", "statuses": ["ED", "FPWD"], "status": "FPWD" },
+  { "property": "float-offset", "statuses": ["ED", "FPWD"], "status": "FPWD" },
   {
-    "name": "font",
+    "property": "float-reference",
+    "statuses": ["ED", "FPWD"],
+    "status": "FPWD"
+  },
+  { "property": "flood-color", "statuses": ["ED", "WD"], "status": "WD" },
+  { "property": "flood-opacity", "statuses": ["ED", "WD"], "status": "WD" },
+  { "property": "flow", "statuses": ["ED", "NOTE"], "status": "ED" },
+  { "property": "flow-from", "statuses": ["ED", "WD"], "status": "WD" },
+  { "property": "flow-into", "statuses": ["ED", "WD"], "status": "WD" },
+  {
+    "property": "font",
+    "statuses": ["REC", "ED", "ED", "ED", "ED", "REC", "WD"],
+    "status": "REC",
     "values": [
       "[",
       "[",
@@ -7920,7 +8382,9 @@
     ]
   },
   {
-    "name": "font-family",
+    "property": "font-family",
+    "statuses": ["REC", "ED", "ED", "ED", "ED", "REC", "WD"],
+    "status": "REC",
     "values": [
       "[",
       "<family-name>",
@@ -7948,7 +8412,9 @@
     ]
   },
   {
-    "name": "font-feature-settings",
+    "property": "font-feature-settings",
+    "statuses": ["ED", "ED", "REC", "WD"],
+    "status": "REC",
     "values": [
       "normal",
       "|",
@@ -7968,12 +8434,29 @@
       "?"
     ]
   },
-  { "name": "font-kerning", "values": ["auto", "|", "normal", "|", "none"] },
-  { "name": "font-language-override", "values": ["normal", "|", "<string>"] },
-  { "name": "font-optical-sizing", "values": ["auto", "|", "none"] },
-  { "name": "font-palette" },
   {
-    "name": "font-size",
+    "property": "font-kerning",
+    "statuses": ["ED", "ED", "REC", "WD"],
+    "status": "REC",
+    "values": ["auto", "|", "normal", "|", "none"]
+  },
+  {
+    "property": "font-language-override",
+    "statuses": ["ED", "WD"],
+    "status": "WD",
+    "values": ["normal", "|", "<string>"]
+  },
+  {
+    "property": "font-optical-sizing",
+    "statuses": ["ED", "WD"],
+    "status": "WD",
+    "values": ["auto", "|", "none"]
+  },
+  { "property": "font-palette", "statuses": ["ED", "WD"], "status": "WD" },
+  {
+    "property": "font-size",
+    "statuses": ["REC", "ED", "ED", "ED", "ED", "REC", "WD"],
+    "status": "REC",
     "values": [
       "<absolute-size>",
       "|",
@@ -8008,9 +8491,16 @@
       "<percentage>"
     ]
   },
-  { "name": "font-size-adjust", "values": ["none", "|", "<number>"] },
   {
-    "name": "font-stretch",
+    "property": "font-size-adjust",
+    "statuses": ["ED", "ED", "REC", "WD"],
+    "status": "REC",
+    "values": ["none", "|", "<number>"]
+  },
+  {
+    "property": "font-stretch",
+    "statuses": ["ED", "ED", "REC", "WD"],
+    "status": "REC",
     "values": [
       "<font-stretch-absolute>",
       "where",
@@ -8037,18 +8527,36 @@
     ]
   },
   {
-    "name": "font-style",
+    "property": "font-style",
+    "statuses": ["REC", "ED", "ED", "ED", "ED", "REC", "WD"],
+    "status": "REC",
     "values": ["normal", "|", "italic", "|", "oblique", "<angle>", "?"]
   },
   {
-    "name": "font-synthesis",
+    "property": "font-synthesis",
+    "statuses": ["ED", "ED", "REC", "WD"],
+    "status": "REC",
     "values": ["none", "|", "[", "weight", "||", "style", "]"]
   },
-  { "name": "font-synthesis-small-caps" },
-  { "name": "font-synthesis-style" },
-  { "name": "font-synthesis-weight" },
   {
-    "name": "font-variant",
+    "property": "font-synthesis-small-caps",
+    "statuses": ["ED", "WD"],
+    "status": "WD"
+  },
+  {
+    "property": "font-synthesis-style",
+    "statuses": ["ED", "WD"],
+    "status": "WD"
+  },
+  {
+    "property": "font-synthesis-weight",
+    "statuses": ["ED", "WD"],
+    "status": "WD"
+  },
+  {
+    "property": "font-variant",
+    "statuses": ["REC", "ED", "ED", "ED", "ED", "REC", "WD"],
+    "status": "REC",
     "values": [
       "normal",
       "|",
@@ -8199,7 +8707,9 @@
     ]
   },
   {
-    "name": "font-variant-alternates",
+    "property": "font-variant-alternates",
+    "statuses": ["ED", "WD"],
+    "status": "WD",
     "values": [
       "normal",
       "|",
@@ -8239,7 +8749,9 @@
     ]
   },
   {
-    "name": "font-variant-caps",
+    "property": "font-variant-caps",
+    "statuses": ["ED", "ED", "REC", "WD"],
+    "status": "REC",
     "values": [
       "normal",
       "|",
@@ -8257,7 +8769,9 @@
     ]
   },
   {
-    "name": "font-variant-east-asian",
+    "property": "font-variant-east-asian",
+    "statuses": ["ED", "ED", "REC", "WD"],
+    "status": "REC",
     "values": [
       "normal",
       "|",
@@ -8293,9 +8807,15 @@
       "]"
     ]
   },
-  { "name": "font-variant-emoji" },
   {
-    "name": "font-variant-ligatures",
+    "property": "font-variant-emoji",
+    "statuses": ["ED", "WD"],
+    "status": "WD"
+  },
+  {
+    "property": "font-variant-ligatures",
+    "statuses": ["ED", "ED", "REC", "WD"],
+    "status": "REC",
     "values": [
       "normal",
       "|",
@@ -8342,7 +8862,9 @@
     ]
   },
   {
-    "name": "font-variant-numeric",
+    "property": "font-variant-numeric",
+    "statuses": ["ED", "ED", "REC", "WD"],
+    "status": "REC",
     "values": [
       "normal",
       "|",
@@ -8382,15 +8904,21 @@
     ]
   },
   {
-    "name": "font-variant-position",
+    "property": "font-variant-position",
+    "statuses": ["ED", "ED", "REC", "WD"],
+    "status": "REC",
     "values": ["normal", "|", "sub", "|", "super"]
   },
   {
-    "name": "font-variation-settings",
+    "property": "font-variation-settings",
+    "statuses": ["ED", "WD"],
+    "status": "WD",
     "values": ["normal", "|", "[", "<string>", "<number>", "]", "#"]
   },
   {
-    "name": "font-weight",
+    "property": "font-weight",
+    "statuses": ["REC", "ED", "ED", "ED", "ED", "REC", "WD"],
+    "status": "REC",
     "values": [
       "<font-weight-absolute>",
       "|",
@@ -8408,13 +8936,28 @@
       ">"
     ]
   },
-  { "name": "footnote-display" },
-  { "name": "footnote-policy" },
-  { "name": "forced-color-adjust" },
-  { "name": "gap", "values": ["<row-gap>", "<column-gap>", "?"] },
-  { "name": "glyph-orientation-vertical" },
+  { "property": "footnote-display", "statuses": ["ED", "WD"], "status": "WD" },
+  { "property": "footnote-policy", "statuses": ["ED", "WD"], "status": "WD" },
   {
-    "name": "grid",
+    "property": "forced-color-adjust",
+    "statuses": ["ED", "WD"],
+    "status": "WD"
+  },
+  {
+    "property": "gap",
+    "statuses": ["ED", "WD"],
+    "status": "WD",
+    "values": ["<row-gap>", "<column-gap>", "?"]
+  },
+  {
+    "property": "glyph-orientation-vertical",
+    "statuses": ["ED", "ED", "CR", "REC"],
+    "status": "REC"
+  },
+  {
+    "property": "grid",
+    "statuses": ["ED", "ED", "ED", "NOTE", "CR", "CR"],
+    "status": "CR",
     "values": [
       "<grid-template>",
       "|",
@@ -8442,7 +8985,9 @@
     ]
   },
   {
-    "name": "grid-area",
+    "property": "grid-area",
+    "statuses": ["ED", "ED", "CR", "CR"],
+    "status": "CR",
     "values": [
       "<grid-line>",
       "[",
@@ -8477,7 +9022,9 @@
     ]
   },
   {
-    "name": "grid-auto-columns",
+    "property": "grid-auto-columns",
+    "statuses": ["ED", "ED", "CR", "CR"],
+    "status": "CR",
     "values": [
       "<track-size>",
       "+",
@@ -8531,11 +9078,15 @@
     ]
   },
   {
-    "name": "grid-auto-flow",
+    "property": "grid-auto-flow",
+    "statuses": ["ED", "ED", "CR", "CR"],
+    "status": "CR",
     "values": ["[", "row", "|", "column", "]", "||", "dense"]
   },
   {
-    "name": "grid-auto-rows",
+    "property": "grid-auto-rows",
+    "statuses": ["ED", "ED", "CR", "CR"],
+    "status": "CR",
     "values": [
       "<track-size>",
       "+",
@@ -8589,7 +9140,9 @@
     ]
   },
   {
-    "name": "grid-column",
+    "property": "grid-column",
+    "statuses": ["ED", "ED", "CR", "CR"],
+    "status": "CR",
     "values": [
       "<grid-line>",
       "[",
@@ -8622,7 +9175,9 @@
     ]
   },
   {
-    "name": "grid-column-end",
+    "property": "grid-column-end",
+    "statuses": ["ED", "ED", "CR", "CR"],
+    "status": "CR",
     "values": [
       "<grid-line>",
       "where",
@@ -8650,7 +9205,9 @@
     ]
   },
   {
-    "name": "grid-column-start",
+    "property": "grid-column-start",
+    "statuses": ["ED", "ED", "CR", "CR"],
+    "status": "CR",
     "values": [
       "<grid-line>",
       "where",
@@ -8678,7 +9235,9 @@
     ]
   },
   {
-    "name": "grid-row",
+    "property": "grid-row",
+    "statuses": ["ED", "ED", "CR", "CR"],
+    "status": "CR",
     "values": [
       "<grid-line>",
       "[",
@@ -8711,7 +9270,9 @@
     ]
   },
   {
-    "name": "grid-row-end",
+    "property": "grid-row-end",
+    "statuses": ["ED", "ED", "CR", "CR"],
+    "status": "CR",
     "values": [
       "<grid-line>",
       "where",
@@ -8739,7 +9300,9 @@
     ]
   },
   {
-    "name": "grid-row-start",
+    "property": "grid-row-start",
+    "statuses": ["ED", "ED", "CR", "CR"],
+    "status": "CR",
     "values": [
       "<grid-line>",
       "where",
@@ -8767,7 +9330,9 @@
     ]
   },
   {
-    "name": "grid-template",
+    "property": "grid-template",
+    "statuses": ["ED", "ED", "ED", "NOTE", "CR", "CR"],
+    "status": "CR",
     "values": [
       "none",
       "|",
@@ -8857,9 +9422,16 @@
       "<percentage>"
     ]
   },
-  { "name": "grid-template-areas", "values": ["none", "|", "<string>", "+"] },
   {
-    "name": "grid-template-columns",
+    "property": "grid-template-areas",
+    "statuses": ["ED", "ED", "ED", "NOTE", "CR", "CR"],
+    "status": "CR",
+    "values": ["none", "|", "<string>", "+"]
+  },
+  {
+    "property": "grid-template-columns",
+    "statuses": ["ED", "ED", "ED", "NOTE", "CR", "CR"],
+    "status": "CR",
     "values": [
       "none",
       "|",
@@ -9041,7 +9613,9 @@
     ]
   },
   {
-    "name": "grid-template-rows",
+    "property": "grid-template-rows",
+    "statuses": ["ED", "ED", "ED", "NOTE", "CR", "CR"],
+    "status": "CR",
     "values": [
       "none",
       "|",
@@ -9223,7 +9797,9 @@
     ]
   },
   {
-    "name": "hanging-punctuation",
+    "property": "hanging-punctuation",
+    "statuses": ["ED", "WD"],
+    "status": "WD",
     "values": [
       "none",
       "|",
@@ -9241,7 +9817,9 @@
     ]
   },
   {
-    "name": "height",
+    "property": "height",
+    "statuses": ["REC", "ED", "ED", "ED", "WD"],
+    "status": "REC",
     "values": [
       "auto",
       "|",
@@ -9264,14 +9842,41 @@
       "<percentage>"
     ]
   },
-  { "name": "hyphenate-character" },
-  { "name": "hyphenate-limit-chars" },
-  { "name": "hyphenate-limit-last" },
-  { "name": "hyphenate-limit-lines" },
-  { "name": "hyphenate-limit-zone" },
-  { "name": "hyphens", "values": ["none", "|", "manual", "|", "auto"] },
   {
-    "name": "image-orientation",
+    "property": "hyphenate-character",
+    "statuses": ["ED", "WD"],
+    "status": "WD"
+  },
+  {
+    "property": "hyphenate-limit-chars",
+    "statuses": ["ED", "WD"],
+    "status": "WD"
+  },
+  {
+    "property": "hyphenate-limit-last",
+    "statuses": ["ED", "WD"],
+    "status": "WD"
+  },
+  {
+    "property": "hyphenate-limit-lines",
+    "statuses": ["ED", "WD"],
+    "status": "WD"
+  },
+  {
+    "property": "hyphenate-limit-zone",
+    "statuses": ["ED", "WD"],
+    "status": "WD"
+  },
+  {
+    "property": "hyphens",
+    "statuses": ["ED", "WD"],
+    "status": "WD",
+    "values": ["none", "|", "manual", "|", "auto"]
+  },
+  {
+    "property": "image-orientation",
+    "statuses": ["ED", "CR"],
+    "status": "CR",
     "values": [
       "from-image",
       "|",
@@ -9285,16 +9890,22 @@
     ]
   },
   {
-    "name": "image-rendering",
+    "property": "image-rendering",
+    "statuses": ["ED", "CR"],
+    "status": "CR",
     "values": ["auto", "|", "crisp-edges", "|", "pixelated"]
   },
-  { "name": "image-resolution" },
+  { "property": "image-resolution", "statuses": ["ED", "WD"], "status": "WD" },
   {
-    "name": "initial-letter",
+    "property": "initial-letter",
+    "statuses": ["ED", "WD"],
+    "status": "WD",
     "values": ["normal", "|", "[", "<number>", "<integer>", "?", "]"]
   },
   {
-    "name": "initial-letter-align",
+    "property": "initial-letter-align",
+    "statuses": ["ED", "WD"],
+    "status": "WD",
     "values": [
       "[",
       "auto",
@@ -9307,19 +9918,70 @@
       "]"
     ]
   },
-  { "name": "initial-letter-wrap" },
-  { "name": "inline-size", "values": ["<width>"] },
-  { "name": "inline-sizing" },
-  { "name": "inset", "values": ["<top>", "{", "1,4", "}"] },
-  { "name": "inset-block", "values": ["<top>", "{", "1,2", "}"] },
-  { "name": "inset-block-end", "values": ["<top>"] },
-  { "name": "inset-block-start", "values": ["<top>"] },
-  { "name": "inset-inline", "values": ["<top>", "{", "1,2", "}"] },
-  { "name": "inset-inline-end", "values": ["<top>"] },
-  { "name": "inset-inline-start", "values": ["<top>"] },
-  { "name": "isolation", "values": ["auto", "|", "isolate"] },
   {
-    "name": "justify-content",
+    "property": "initial-letter-wrap",
+    "statuses": ["ED", "WD"],
+    "status": "WD"
+  },
+  {
+    "property": "inline-size",
+    "statuses": ["ED", "WD"],
+    "status": "WD",
+    "values": ["<width>"]
+  },
+  { "property": "inline-sizing", "statuses": ["ED", "WD"], "status": "WD" },
+  {
+    "property": "inset",
+    "statuses": ["ED", "ED", "WD", "WD"],
+    "status": "WD",
+    "values": ["<top>", "{", "1,4", "}"]
+  },
+  {
+    "property": "inset-block",
+    "statuses": ["ED", "ED", "WD", "WD"],
+    "status": "WD",
+    "values": ["<top>", "{", "1,2", "}"]
+  },
+  {
+    "property": "inset-block-end",
+    "statuses": ["ED", "ED", "WD", "WD"],
+    "status": "WD",
+    "values": ["<top>"]
+  },
+  {
+    "property": "inset-block-start",
+    "statuses": ["ED", "ED", "WD", "WD"],
+    "status": "WD",
+    "values": ["<top>"]
+  },
+  {
+    "property": "inset-inline",
+    "statuses": ["ED", "ED", "WD", "WD"],
+    "status": "WD",
+    "values": ["<top>", "{", "1,2", "}"]
+  },
+  {
+    "property": "inset-inline-end",
+    "statuses": ["ED", "ED", "WD", "WD"],
+    "status": "WD",
+    "values": ["<top>"]
+  },
+  {
+    "property": "inset-inline-start",
+    "statuses": ["ED", "ED", "WD", "WD"],
+    "status": "WD",
+    "values": ["<top>"]
+  },
+  {
+    "property": "isolation",
+    "statuses": ["ED", "CR"],
+    "status": "CR",
+    "values": ["auto", "|", "isolate"]
+  },
+  {
+    "property": "justify-content",
+    "statuses": ["ED", "ED", "CR", "WD"],
+    "status": "CR",
     "values": [
       "normal",
       "|",
@@ -9360,7 +10022,9 @@
     ]
   },
   {
-    "name": "justify-items",
+    "property": "justify-items",
+    "statuses": ["ED", "WD"],
+    "status": "WD",
     "values": [
       "normal",
       "|",
@@ -9420,7 +10084,9 @@
     ]
   },
   {
-    "name": "justify-self",
+    "property": "justify-self",
+    "statuses": ["ED", "WD"],
+    "status": "WD",
     "values": [
       "auto",
       "|",
@@ -9469,12 +10135,24 @@
       "flex-end"
     ]
   },
-  { "name": "leading-trim" },
-  { "name": "left", "values": ["<length>", "|", "<percentage>", "|", "auto"] },
-  { "name": "letter-spacing", "values": ["normal", "|", "<length>"] },
-  { "name": "lighting-color" },
+  { "property": "leading-trim", "statuses": ["ED", "WD"], "status": "WD" },
   {
-    "name": "line-break",
+    "property": "left",
+    "statuses": ["REC", "ED", "ED", "ED", "WD"],
+    "status": "REC",
+    "values": ["<length>", "|", "<percentage>", "|", "auto"]
+  },
+  {
+    "property": "letter-spacing",
+    "statuses": ["REC", "ED", "ED", "ED", "WD"],
+    "status": "REC",
+    "values": ["normal", "|", "<length>"]
+  },
+  { "property": "lighting-color", "statuses": ["ED", "WD"], "status": "WD" },
+  {
+    "property": "line-break",
+    "statuses": ["ED", "WD"],
+    "status": "WD",
     "values": [
       "auto",
       "|",
@@ -9487,16 +10165,26 @@
       "anywhere"
     ]
   },
-  { "name": "line-clamp" },
-  { "name": "line-grid" },
+  { "property": "line-clamp", "statuses": ["ED", "WD"], "status": "WD" },
+  { "property": "line-grid", "statuses": ["ED", "WD"], "status": "WD" },
   {
-    "name": "line-height",
+    "property": "line-height",
+    "statuses": ["REC", "ED", "ED", "ED", "WD"],
+    "status": "REC",
     "values": ["normal", "|", "<number>", "|", "<length>", "|", "<percentage>"]
   },
-  { "name": "line-padding" },
-  { "name": "line-snap" },
   {
-    "name": "list-style",
+    "property": "line-height-step",
+    "statuses": ["ED", "FPWD"],
+    "status": "FPWD",
+    "values": ["<length>"]
+  },
+  { "property": "line-padding", "statuses": ["ED", "WD"], "status": "WD" },
+  { "property": "line-snap", "statuses": ["ED", "WD"], "status": "WD" },
+  {
+    "property": "list-style",
+    "statuses": ["REC", "ED", "ED", "ED", "WD"],
+    "status": "REC",
     "values": [
       "<list-style-type>",
       "||",
@@ -9505,10 +10193,22 @@
       "<list-style-image>"
     ]
   },
-  { "name": "list-style-image", "values": ["<url>", "|", "none"] },
-  { "name": "list-style-position", "values": ["inside", "|", "outside"] },
   {
-    "name": "list-style-type",
+    "property": "list-style-image",
+    "statuses": ["REC", "ED", "ED", "ED", "WD"],
+    "status": "REC",
+    "values": ["<url>", "|", "none"]
+  },
+  {
+    "property": "list-style-position",
+    "statuses": ["REC", "ED", "ED", "ED", "WD"],
+    "status": "REC",
+    "values": ["inside", "|", "outside"]
+  },
+  {
+    "property": "list-style-type",
+    "statuses": ["REC", "ED", "ED", "ED", "WD"],
+    "status": "REC",
     "values": [
       "<counter-style>",
       "|",
@@ -9528,7 +10228,9 @@
     ]
   },
   {
-    "name": "margin",
+    "property": "margin",
+    "statuses": ["REC", "ED", "ED", "ED", "ED", "WD", "FPWD"],
+    "status": "REC",
     "values": [
       "[",
       "<length>",
@@ -9542,31 +10244,102 @@
       "}"
     ]
   },
-  { "name": "margin-block", "values": ["<margin-left>", "{", "1,2", "}"] },
-  { "name": "margin-block-end", "values": ["<margin-left>"] },
-  { "name": "margin-block-start", "values": ["<margin-left>"] },
   {
-    "name": "margin-bottom",
-    "values": ["<length>", "|", "<percentage>", "|", "auto"]
-  },
-  { "name": "margin-inline", "values": ["<margin-left>", "{", "1,2", "}"] },
-  { "name": "margin-inline-end", "values": ["<margin-left>"] },
-  { "name": "margin-inline-start", "values": ["<margin-left>"] },
-  {
-    "name": "margin-left",
-    "values": ["<length>", "|", "<percentage>", "|", "auto"]
+    "property": "margin-block",
+    "statuses": ["ED", "WD"],
+    "status": "WD",
+    "values": ["<margin-left>", "{", "1,2", "}"]
   },
   {
-    "name": "margin-right",
+    "property": "margin-block-end",
+    "statuses": ["ED", "WD"],
+    "status": "WD",
+    "values": ["<margin-left>"]
+  },
+  {
+    "property": "margin-block-start",
+    "statuses": ["ED", "WD"],
+    "status": "WD",
+    "values": ["<margin-left>"]
+  },
+  {
+    "property": "margin-bottom",
+    "statuses": ["REC", "ED", "ED", "ED", "ED", "WD", "FPWD"],
+    "status": "REC",
+    "values": ["<length>", "|", "<percentage>", "|", "auto"]
+  },
+  { "property": "margin-break", "statuses": ["ED", "FPWD"], "status": "FPWD" },
+  {
+    "property": "margin-inline",
+    "statuses": ["ED", "WD"],
+    "status": "WD",
+    "values": ["<margin-left>", "{", "1,2", "}"]
+  },
+  {
+    "property": "margin-inline-end",
+    "statuses": ["ED", "WD"],
+    "status": "WD",
+    "values": ["<margin-left>"]
+  },
+  {
+    "property": "margin-inline-start",
+    "statuses": ["ED", "WD"],
+    "status": "WD",
+    "values": ["<margin-left>"]
+  },
+  {
+    "property": "margin-left",
+    "statuses": ["REC", "ED", "ED", "ED", "ED", "WD", "FPWD"],
+    "status": "REC",
     "values": ["<length>", "|", "<percentage>", "|", "auto"]
   },
   {
-    "name": "margin-top",
+    "property": "margin-right",
+    "statuses": ["REC", "ED", "ED", "ED", "ED", "WD", "FPWD"],
+    "status": "REC",
     "values": ["<length>", "|", "<percentage>", "|", "auto"]
   },
-  { "name": "marker-side" },
   {
-    "name": "mask",
+    "property": "margin-top",
+    "statuses": ["REC", "ED", "ED", "ED", "ED", "WD", "FPWD"],
+    "status": "REC",
+    "values": ["<length>", "|", "<percentage>", "|", "auto"]
+  },
+  {
+    "property": "margin-trim",
+    "statuses": ["ED", "FPWD"],
+    "status": "FPWD",
+    "values": ["none", "|", "in-flow", "|", "all"]
+  },
+  { "property": "marker", "statuses": ["ED", "FPWD"], "status": "FPWD" },
+  { "property": "marker-end", "statuses": ["ED", "FPWD"], "status": "FPWD" },
+  {
+    "property": "marker-knockout-left",
+    "statuses": ["ED", "FPWD"],
+    "status": "FPWD"
+  },
+  {
+    "property": "marker-knockout-right",
+    "statuses": ["ED", "FPWD"],
+    "status": "FPWD"
+  },
+  { "property": "marker-mid", "statuses": ["ED", "FPWD"], "status": "FPWD" },
+  {
+    "property": "marker-pattern",
+    "statuses": ["ED", "FPWD"],
+    "status": "FPWD"
+  },
+  {
+    "property": "marker-segment",
+    "statuses": ["ED", "FPWD"],
+    "status": "FPWD"
+  },
+  { "property": "marker-side", "statuses": ["ED", "WD"], "status": "WD" },
+  { "property": "marker-start", "statuses": ["ED", "FPWD"], "status": "FPWD" },
+  {
+    "property": "mask",
+    "statuses": ["ED", "CR"],
+    "status": "CR",
     "values": [
       "<mask-layer>",
       "#",
@@ -10158,7 +10931,9 @@
     ]
   },
   {
-    "name": "mask-border",
+    "property": "mask-border",
+    "statuses": ["ED", "CR"],
+    "status": "CR",
     "values": [
       "<mask-border-source>",
       "||",
@@ -10180,13 +10955,22 @@
       "<mask-border-mode>"
     ]
   },
-  { "name": "mask-border-mode", "values": ["luminance", "|", "alpha"] },
   {
-    "name": "mask-border-outset",
+    "property": "mask-border-mode",
+    "statuses": ["ED", "CR"],
+    "status": "CR",
+    "values": ["luminance", "|", "alpha"]
+  },
+  {
+    "property": "mask-border-outset",
+    "statuses": ["ED", "CR"],
+    "status": "CR",
     "values": ["[", "<length>", "|", "<number>", "]", "{", "1,4", "}"]
   },
   {
-    "name": "mask-border-repeat",
+    "property": "mask-border-repeat",
+    "statuses": ["ED", "CR"],
+    "status": "CR",
     "values": [
       "[",
       "stretch",
@@ -10203,7 +10987,9 @@
     ]
   },
   {
-    "name": "mask-border-slice",
+    "property": "mask-border-slice",
+    "statuses": ["ED", "CR"],
+    "status": "CR",
     "values": [
       "<number-percentage>",
       "{",
@@ -10220,7 +11006,9 @@
     ]
   },
   {
-    "name": "mask-border-source",
+    "property": "mask-border-source",
+    "statuses": ["ED", "CR"],
+    "status": "CR",
     "values": [
       "none",
       "|",
@@ -10713,7 +11501,9 @@
     ]
   },
   {
-    "name": "mask-border-width",
+    "property": "mask-border-width",
+    "statuses": ["ED", "CR"],
+    "status": "CR",
     "values": [
       "[",
       "<length-percentage>",
@@ -10734,7 +11524,9 @@
     ]
   },
   {
-    "name": "mask-clip",
+    "property": "mask-clip",
+    "statuses": ["ED", "CR"],
+    "status": "CR",
     "values": [
       "[",
       "<geometry-box>",
@@ -10768,7 +11560,9 @@
     ]
   },
   {
-    "name": "mask-composite",
+    "property": "mask-composite",
+    "statuses": ["ED", "CR"],
+    "status": "CR",
     "values": [
       "<compositing-operator>",
       "#",
@@ -10784,7 +11578,9 @@
     ]
   },
   {
-    "name": "mask-image",
+    "property": "mask-image",
+    "statuses": ["ED", "CR"],
+    "status": "CR",
     "values": [
       "<mask-reference>",
       "#",
@@ -11286,7 +12082,9 @@
     ]
   },
   {
-    "name": "mask-mode",
+    "property": "mask-mode",
+    "statuses": ["ED", "CR"],
+    "status": "CR",
     "values": [
       "<masking-mode>",
       "#",
@@ -11300,7 +12098,9 @@
     ]
   },
   {
-    "name": "mask-origin",
+    "property": "mask-origin",
+    "statuses": ["ED", "CR"],
+    "status": "CR",
     "values": [
       "<geometry-box>",
       "#",
@@ -11330,7 +12130,9 @@
     ]
   },
   {
-    "name": "mask-position",
+    "property": "mask-position",
+    "statuses": ["ED", "CR"],
+    "status": "CR",
     "values": [
       "<position>",
       "#",
@@ -11401,7 +12203,9 @@
     ]
   },
   {
-    "name": "mask-repeat",
+    "property": "mask-repeat",
+    "statuses": ["ED", "CR"],
+    "status": "CR",
     "values": [
       "<repeat-style>",
       "#",
@@ -11426,7 +12230,9 @@
     ]
   },
   {
-    "name": "mask-size",
+    "property": "mask-size",
+    "statuses": ["ED", "CR"],
+    "status": "CR",
     "values": [
       "<bg-size>",
       "#",
@@ -11453,86 +12259,22 @@
       "<percentage>"
     ]
   },
-  { "name": "mask-type", "values": ["luminance", "|", "alpha"] },
-  { "name": "max-block-size", "values": ["<max-width>"] },
   {
-    "name": "max-height",
-    "values": [
-      "auto",
-      "|",
-      "<length>",
-      "|",
-      "<percentage>",
-      "|",
-      "min-content",
-      "|",
-      "max-content",
-      "|",
-      "fit-content(",
-      "<length-percentage>",
-      ")",
-      "where",
-      "<length-percentage>",
-      "=",
-      "<length>",
-      "|",
-      "<percentage>"
-    ]
+    "property": "mask-type",
+    "statuses": ["ED", "CR"],
+    "status": "CR",
+    "values": ["luminance", "|", "alpha"]
   },
-  { "name": "max-inline-size", "values": ["<max-width>"] },
-  { "name": "max-lines" },
   {
-    "name": "max-width",
-    "values": [
-      "auto",
-      "|",
-      "<length>",
-      "|",
-      "<percentage>",
-      "|",
-      "min-content",
-      "|",
-      "max-content",
-      "|",
-      "fit-content(",
-      "<length-percentage>",
-      ")",
-      "where",
-      "<length-percentage>",
-      "=",
-      "<length>",
-      "|",
-      "<percentage>"
-    ]
+    "property": "max-block-size",
+    "statuses": ["ED", "WD"],
+    "status": "WD",
+    "values": ["<max-width>"]
   },
-  { "name": "min-block-size", "values": ["<min-width>"] },
   {
-    "name": "min-height",
-    "values": [
-      "auto",
-      "|",
-      "<length>",
-      "|",
-      "<percentage>",
-      "|",
-      "min-content",
-      "|",
-      "max-content",
-      "|",
-      "fit-content(",
-      "<length-percentage>",
-      ")",
-      "where",
-      "<length-percentage>",
-      "=",
-      "<length>",
-      "|",
-      "<percentage>"
-    ]
-  },
-  { "name": "min-inline-size", "values": ["<min-width>"] },
-  {
-    "name": "min-width",
+    "property": "max-height",
+    "statuses": ["REC", "ED", "ED", "ED", "WD"],
+    "status": "REC",
     "values": [
       "auto",
       "|",
@@ -11556,7 +12298,110 @@
     ]
   },
   {
-    "name": "mix-blend-mode",
+    "property": "max-inline-size",
+    "statuses": ["ED", "WD"],
+    "status": "WD",
+    "values": ["<max-width>"]
+  },
+  {
+    "property": "max-lines",
+    "statuses": ["ED", "ED", "FPWD", "WD"],
+    "status": "WD"
+  },
+  {
+    "property": "max-width",
+    "statuses": ["REC", "ED", "ED", "ED", "WD"],
+    "status": "REC",
+    "values": [
+      "auto",
+      "|",
+      "<length>",
+      "|",
+      "<percentage>",
+      "|",
+      "min-content",
+      "|",
+      "max-content",
+      "|",
+      "fit-content(",
+      "<length-percentage>",
+      ")",
+      "where",
+      "<length-percentage>",
+      "=",
+      "<length>",
+      "|",
+      "<percentage>"
+    ]
+  },
+  {
+    "property": "min-block-size",
+    "statuses": ["ED", "WD"],
+    "status": "WD",
+    "values": ["<min-width>"]
+  },
+  {
+    "property": "min-height",
+    "statuses": ["REC", "ED", "ED", "ED", "WD"],
+    "status": "REC",
+    "values": [
+      "auto",
+      "|",
+      "<length>",
+      "|",
+      "<percentage>",
+      "|",
+      "min-content",
+      "|",
+      "max-content",
+      "|",
+      "fit-content(",
+      "<length-percentage>",
+      ")",
+      "where",
+      "<length-percentage>",
+      "=",
+      "<length>",
+      "|",
+      "<percentage>"
+    ]
+  },
+  {
+    "property": "min-inline-size",
+    "statuses": ["ED", "WD"],
+    "status": "WD",
+    "values": ["<min-width>"]
+  },
+  {
+    "property": "min-width",
+    "statuses": ["REC", "ED", "ED", "ED", "WD"],
+    "status": "REC",
+    "values": [
+      "auto",
+      "|",
+      "<length>",
+      "|",
+      "<percentage>",
+      "|",
+      "min-content",
+      "|",
+      "max-content",
+      "|",
+      "fit-content(",
+      "<length-percentage>",
+      ")",
+      "where",
+      "<length-percentage>",
+      "=",
+      "<length>",
+      "|",
+      "<percentage>"
+    ]
+  },
+  {
+    "property": "mix-blend-mode",
+    "statuses": ["ED", "CR"],
+    "status": "CR",
     "values": [
       "<blend-mode>",
       "where",
@@ -11594,12 +12439,14 @@
       "luminosity"
     ]
   },
-  { "name": "nav-down" },
-  { "name": "nav-left" },
-  { "name": "nav-right" },
-  { "name": "nav-up" },
+  { "property": "nav-down", "statuses": ["ED", "WD"], "status": "WD" },
+  { "property": "nav-left", "statuses": ["ED", "WD"], "status": "WD" },
+  { "property": "nav-right", "statuses": ["ED", "WD"], "status": "WD" },
+  { "property": "nav-up", "statuses": ["ED", "WD"], "status": "WD" },
   {
-    "name": "object-fit",
+    "property": "object-fit",
+    "statuses": ["ED", "ED", "CR"],
+    "status": "CR",
     "values": [
       "fill",
       "|",
@@ -11613,7 +12460,9 @@
     ]
   },
   {
-    "name": "object-position",
+    "property": "object-position",
+    "statuses": ["ED", "CR"],
+    "status": "CR",
     "values": [
       "<position>",
       "where",
@@ -11683,7 +12532,9 @@
     ]
   },
   {
-    "name": "offset",
+    "property": "offset",
+    "statuses": ["ED", "WD"],
+    "status": "WD",
     "values": [
       "[",
       "<offset-position>",
@@ -11708,7 +12559,9 @@
     ]
   },
   {
-    "name": "offset-anchor",
+    "property": "offset-anchor",
+    "statuses": ["ED", "WD"],
+    "status": "WD",
     "values": [
       "auto",
       "|",
@@ -11780,7 +12633,9 @@
     ]
   },
   {
-    "name": "offset-distance",
+    "property": "offset-distance",
+    "statuses": ["ED", "WD"],
+    "status": "WD",
     "values": [
       "<length-percentage>",
       "where",
@@ -11792,7 +12647,9 @@
     ]
   },
   {
-    "name": "offset-path",
+    "property": "offset-path",
+    "statuses": ["ED", "WD"],
+    "status": "WD",
     "values": [
       "none",
       "|",
@@ -12001,7 +12858,9 @@
     ]
   },
   {
-    "name": "offset-position",
+    "property": "offset-position",
+    "statuses": ["ED", "WD"],
+    "status": "WD",
     "values": [
       "auto",
       "|",
@@ -12073,11 +12932,15 @@
     ]
   },
   {
-    "name": "offset-rotate",
+    "property": "offset-rotate",
+    "statuses": ["ED", "WD"],
+    "status": "WD",
     "values": ["[", "auto", "|", "reverse", "]", "||", "<angle>"]
   },
   {
-    "name": "opacity",
+    "property": "opacity",
+    "statuses": ["ED", "ED", "REC", "WD"],
+    "status": "REC",
     "values": [
       "<alpha-value>",
       "where",
@@ -12088,10 +12951,22 @@
       "<percentage>"
     ]
   },
-  { "name": "order", "values": ["<integer>"] },
-  { "name": "orphans", "values": ["<integer>"] },
   {
-    "name": "outline",
+    "property": "order",
+    "statuses": ["ED", "CR"],
+    "status": "CR",
+    "values": ["<integer>"]
+  },
+  {
+    "property": "orphans",
+    "statuses": ["REC", "ED", "ED", "ED", "ED", "CR", "FPWD"],
+    "status": "REC",
+    "values": ["<integer>"]
+  },
+  {
+    "property": "outline",
+    "statuses": ["REC", "ED", "ED", "ED", "ED", "REC", "WD"],
+    "status": "REC",
     "values": [
       "[",
       "<outline-color>",
@@ -12103,7 +12978,9 @@
     ]
   },
   {
-    "name": "outline-color",
+    "property": "outline-color",
+    "statuses": ["REC", "ED", "ED", "ED", "ED", "REC", "WD"],
+    "status": "REC",
     "values": [
       "<color>",
       "|",
@@ -12276,10 +13153,22 @@
       "<angle>"
     ]
   },
-  { "name": "outline-offset", "values": ["<length>"] },
-  { "name": "outline-style", "values": ["auto", "|", "<border-style>"] },
   {
-    "name": "outline-width",
+    "property": "outline-offset",
+    "statuses": ["ED", "ED", "REC", "WD"],
+    "status": "REC",
+    "values": ["<length>"]
+  },
+  {
+    "property": "outline-style",
+    "statuses": ["REC", "ED", "ED", "ED", "ED", "REC", "WD"],
+    "status": "REC",
+    "values": ["auto", "|", "<border-style>"]
+  },
+  {
+    "property": "outline-width",
+    "statuses": ["REC", "ED", "ED", "ED", "ED", "REC", "WD"],
+    "status": "REC",
     "values": [
       "<line-width>",
       "where",
@@ -12295,7 +13184,9 @@
     ]
   },
   {
-    "name": "overflow",
+    "property": "overflow",
+    "statuses": ["REC", "ED", "ED", "ED", "WD"],
+    "status": "REC",
     "values": [
       "[",
       "visible",
@@ -12314,22 +13205,15 @@
     ]
   },
   {
-    "name": "overflow-block",
-    "values": [
-      "visible",
-      "|",
-      "hidden",
-      "|",
-      "clip",
-      "|",
-      "scroll",
-      "|",
-      "auto"
-    ]
+    "property": "overflow-anchor",
+    "statuses": ["ED", "FPWD"],
+    "status": "FPWD",
+    "values": ["auto", "|", "none"]
   },
-  { "name": "overflow-clip-margin" },
   {
-    "name": "overflow-inline",
+    "property": "overflow-block",
+    "statuses": ["ED", "WD"],
+    "status": "WD",
     "values": [
       "visible",
       "|",
@@ -12343,11 +13227,36 @@
     ]
   },
   {
-    "name": "overflow-wrap",
+    "property": "overflow-clip-margin",
+    "statuses": ["ED", "WD"],
+    "status": "WD"
+  },
+  {
+    "property": "overflow-inline",
+    "statuses": ["ED", "WD"],
+    "status": "WD",
+    "values": [
+      "visible",
+      "|",
+      "hidden",
+      "|",
+      "clip",
+      "|",
+      "scroll",
+      "|",
+      "auto"
+    ]
+  },
+  {
+    "property": "overflow-wrap",
+    "statuses": ["ED", "WD"],
+    "status": "WD",
     "values": ["normal", "|", "break-word", "|", "anywhere"]
   },
   {
-    "name": "overflow-x",
+    "property": "overflow-x",
+    "statuses": ["ED", "WD"],
+    "status": "WD",
     "values": [
       "visible",
       "|",
@@ -12361,7 +13270,9 @@
     ]
   },
   {
-    "name": "overflow-y",
+    "property": "overflow-y",
+    "statuses": ["ED", "WD"],
+    "status": "WD",
     "values": [
       "visible",
       "|",
@@ -12375,22 +13286,106 @@
     ]
   },
   {
-    "name": "padding",
+    "property": "overscroll-behavior",
+    "statuses": ["ED", "FPWD"],
+    "status": "FPWD",
+    "values": ["[", "contain", "|", "none", "|", "auto", "]", "{", "1,2", "}"]
+  },
+  {
+    "property": "overscroll-behavior-block",
+    "statuses": ["ED", "FPWD"],
+    "status": "FPWD",
+    "values": ["contain", "|", "none", "|", "auto"]
+  },
+  {
+    "property": "overscroll-behavior-inline",
+    "statuses": ["ED", "FPWD"],
+    "status": "FPWD",
+    "values": ["contain", "|", "none", "|", "auto"]
+  },
+  {
+    "property": "overscroll-behavior-x",
+    "statuses": ["ED", "FPWD"],
+    "status": "FPWD",
+    "values": ["contain", "|", "none", "|", "auto"]
+  },
+  {
+    "property": "overscroll-behavior-y",
+    "statuses": ["ED", "FPWD"],
+    "status": "FPWD",
+    "values": ["contain", "|", "none", "|", "auto"]
+  },
+  {
+    "property": "padding",
+    "statuses": ["REC", "ED", "ED", "ED", "ED", "WD", "FPWD"],
+    "status": "REC",
     "values": ["[", "<length>", "|", "<percentage>", "]", "{", "1,4", "}"]
   },
-  { "name": "padding-block", "values": ["<padding-left>", "{", "1,2", "}"] },
-  { "name": "padding-block-end", "values": ["<padding-left>"] },
-  { "name": "padding-block-start", "values": ["<padding-left>"] },
-  { "name": "padding-bottom", "values": ["<length>", "|", "<percentage>"] },
-  { "name": "padding-inline", "values": ["<padding-left>", "{", "1,2", "}"] },
-  { "name": "padding-inline-end", "values": ["<padding-left>"] },
-  { "name": "padding-inline-start", "values": ["<padding-left>"] },
-  { "name": "padding-left", "values": ["<length>", "|", "<percentage>"] },
-  { "name": "padding-right", "values": ["<length>", "|", "<percentage>"] },
-  { "name": "padding-top", "values": ["<length>", "|", "<percentage>"] },
-  { "name": "page" },
   {
-    "name": "page-break-after",
+    "property": "padding-block",
+    "statuses": ["ED", "WD"],
+    "status": "WD",
+    "values": ["<padding-left>", "{", "1,2", "}"]
+  },
+  {
+    "property": "padding-block-end",
+    "statuses": ["ED", "WD"],
+    "status": "WD",
+    "values": ["<padding-left>"]
+  },
+  {
+    "property": "padding-block-start",
+    "statuses": ["ED", "WD"],
+    "status": "WD",
+    "values": ["<padding-left>"]
+  },
+  {
+    "property": "padding-bottom",
+    "statuses": ["REC", "ED", "ED", "ED", "ED", "WD", "FPWD"],
+    "status": "REC",
+    "values": ["<length>", "|", "<percentage>"]
+  },
+  {
+    "property": "padding-inline",
+    "statuses": ["ED", "WD"],
+    "status": "WD",
+    "values": ["<padding-left>", "{", "1,2", "}"]
+  },
+  {
+    "property": "padding-inline-end",
+    "statuses": ["ED", "WD"],
+    "status": "WD",
+    "values": ["<padding-left>"]
+  },
+  {
+    "property": "padding-inline-start",
+    "statuses": ["ED", "WD"],
+    "status": "WD",
+    "values": ["<padding-left>"]
+  },
+  {
+    "property": "padding-left",
+    "statuses": ["REC", "ED", "ED", "ED", "ED", "WD", "FPWD"],
+    "status": "REC",
+    "values": ["<length>", "|", "<percentage>"]
+  },
+  {
+    "property": "padding-right",
+    "statuses": ["REC", "ED", "ED", "ED", "ED", "WD", "FPWD"],
+    "status": "REC",
+    "values": ["<length>", "|", "<percentage>"]
+  },
+  {
+    "property": "padding-top",
+    "statuses": ["REC", "ED", "ED", "ED", "ED", "WD", "FPWD"],
+    "status": "REC",
+    "values": ["<length>", "|", "<percentage>"]
+  },
+  { "property": "page", "statuses": ["ED", "WD"], "status": "WD" },
+  {
+    "property": "page-break-after",
+    "statuses": ["REC", "ED", "ED"],
+    "status": "REC",
     "values": [
       "auto",
       "|",
@@ -12408,7 +13403,9 @@
     ]
   },
   {
-    "name": "page-break-before",
+    "property": "page-break-before",
+    "statuses": ["REC", "ED", "ED"],
+    "status": "REC",
     "values": [
       "auto",
       "|",
@@ -12425,24 +13422,126 @@
       "verso"
     ]
   },
-  { "name": "page-break-inside", "values": ["auto", "|", "avoid"] },
-  { "name": "pause" },
-  { "name": "pause-after" },
-  { "name": "pause-before" },
-  { "name": "pitch" },
-  { "name": "pitch-range" },
   {
-    "name": "place-content",
+    "property": "page-break-inside",
+    "statuses": ["REC", "ED", "ED"],
+    "status": "REC",
+    "values": ["auto", "|", "avoid"]
+  },
+  { "property": "pause", "statuses": ["REC", "ED", "CR"], "status": "REC" },
+  {
+    "property": "pause-after",
+    "statuses": ["REC", "ED", "CR"],
+    "status": "REC"
+  },
+  {
+    "property": "pause-before",
+    "statuses": ["REC", "ED", "CR"],
+    "status": "REC"
+  },
+  {
+    "property": "perspective",
+    "statuses": ["ED", "FPWD"],
+    "status": "FPWD",
+    "values": ["none", "|", "<length>"]
+  },
+  {
+    "property": "perspective-origin",
+    "statuses": ["ED", "FPWD"],
+    "status": "FPWD",
+    "values": [
+      "<position>",
+      "where",
+      "<position>",
+      "=",
+      "[",
+      "[",
+      "left",
+      "|",
+      "center",
+      "|",
+      "right",
+      "]",
+      "||",
+      "[",
+      "top",
+      "|",
+      "center",
+      "|",
+      "bottom",
+      "]",
+      "|",
+      "[",
+      "left",
+      "|",
+      "center",
+      "|",
+      "right",
+      "|",
+      "<length-percentage>",
+      "]",
+      "[",
+      "top",
+      "|",
+      "center",
+      "|",
+      "bottom",
+      "|",
+      "<length-percentage>",
+      "]",
+      "?",
+      "|",
+      "[",
+      "[",
+      "left",
+      "|",
+      "right",
+      "]",
+      "<length-percentage>",
+      "]",
+      "&&",
+      "[",
+      "[",
+      "top",
+      "|",
+      "bottom",
+      "]",
+      "<length-percentage>",
+      "]",
+      "]",
+      "where",
+      "<length-percentage>",
+      "=",
+      "<length>",
+      "|",
+      "<percentage>"
+    ]
+  },
+  { "property": "pitch", "statuses": ["REC"], "status": "REC" },
+  { "property": "pitch-range", "statuses": ["REC"], "status": "REC" },
+  {
+    "property": "place-content",
+    "statuses": ["ED", "WD"],
+    "status": "WD",
     "values": ["<align-content>", "<justify-content>", "?"]
   },
   {
-    "name": "place-items",
+    "property": "place-items",
+    "statuses": ["ED", "WD"],
+    "status": "WD",
     "values": ["<align-items>", "<justify-items>", "?"]
   },
-  { "name": "place-self", "values": ["<align-self>", "<justify-self>", "?"] },
-  { "name": "play-during" },
   {
-    "name": "position",
+    "property": "place-self",
+    "statuses": ["ED", "WD"],
+    "status": "WD",
+    "values": ["<align-self>", "<justify-self>", "?"]
+  },
+  { "property": "play-during", "statuses": ["REC"], "status": "REC" },
+  {
+    "property": "position",
+    "statuses": ["REC", "ED", "ED", "ED", "WD"],
+    "status": "REC",
     "values": [
       "static",
       "|",
@@ -12455,13 +13554,18 @@
       "fixed"
     ]
   },
+  { "property": "property-name", "statuses": ["ED", "ED"], "status": "ED" },
   {
-    "name": "quotes",
+    "property": "quotes",
+    "statuses": ["REC", "ED", "ED", "ED", "WD"],
+    "status": "REC",
     "values": ["none", "|", "auto", "|", "[", "<string>", "<string>", "]", "+"]
   },
-  { "name": "region-fragment" },
+  { "property": "region-fragment", "statuses": ["ED", "WD"], "status": "WD" },
   {
-    "name": "resize",
+    "property": "resize",
+    "statuses": ["ED", "ED", "REC", "WD"],
+    "status": "REC",
     "values": [
       "none",
       "|",
@@ -12476,13 +13580,45 @@
       "inline"
     ]
   },
-  { "name": "rest" },
-  { "name": "rest-after" },
-  { "name": "rest-before" },
-  { "name": "richness" },
-  { "name": "right", "values": ["<length>", "|", "<percentage>", "|", "auto"] },
+  { "property": "rest", "statuses": ["ED", "CR"], "status": "CR" },
+  { "property": "rest-after", "statuses": ["ED", "CR"], "status": "CR" },
+  { "property": "rest-before", "statuses": ["ED", "CR"], "status": "CR" },
+  { "property": "richness", "statuses": ["REC"], "status": "REC" },
   {
-    "name": "row-gap",
+    "property": "right",
+    "statuses": ["REC", "ED", "ED", "ED", "WD"],
+    "status": "REC",
+    "values": ["<length>", "|", "<percentage>", "|", "auto"]
+  },
+  {
+    "property": "rotate",
+    "statuses": ["ED", "FPWD"],
+    "status": "FPWD",
+    "values": [
+      "none",
+      "|",
+      "<angle>",
+      "|",
+      "[",
+      "x",
+      "|",
+      "y",
+      "|",
+      "z",
+      "|",
+      "<number>",
+      "{",
+      "3",
+      "}",
+      "]",
+      "&&",
+      "<angle>"
+    ]
+  },
+  {
+    "property": "row-gap",
+    "statuses": ["ED", "WD"],
+    "status": "WD",
     "values": [
       "normal",
       "|",
@@ -12496,7 +13632,9 @@
     ]
   },
   {
-    "name": "ruby-align",
+    "property": "ruby-align",
+    "statuses": ["ED", "WD"],
+    "status": "WD",
     "values": [
       "start",
       "|",
@@ -12507,27 +13645,97 @@
       "space-around"
     ]
   },
-  { "name": "ruby-merge" },
-  { "name": "ruby-overhang" },
+  { "property": "ruby-merge", "statuses": ["ED", "WD"], "status": "WD" },
+  { "property": "ruby-overhang", "statuses": ["ED", "WD"], "status": "WD" },
   {
-    "name": "ruby-position",
+    "property": "ruby-position",
+    "statuses": ["ED", "WD"],
+    "status": "WD",
     "values": ["over", "|", "under", "|", "inter-character"]
   },
-  { "name": "running" },
-  { "name": "scroll-behavior", "values": ["auto", "|", "smooth"] },
-  { "name": "scroll-margin", "values": ["<length>", "{", "1,4", "}"] },
-  { "name": "scroll-margin-block", "values": ["<length>", "{", "1,2", "}"] },
-  { "name": "scroll-margin-block-end", "values": ["<length>"] },
-  { "name": "scroll-margin-block-start", "values": ["<length>"] },
-  { "name": "scroll-margin-bottom", "values": ["<length>"] },
-  { "name": "scroll-margin-inline", "values": ["<length>", "{", "1,2", "}"] },
-  { "name": "scroll-margin-inline-end", "values": ["<length>"] },
-  { "name": "scroll-margin-inline-start", "values": ["<length>"] },
-  { "name": "scroll-margin-left", "values": ["<length>"] },
-  { "name": "scroll-margin-right", "values": ["<length>"] },
-  { "name": "scroll-margin-top", "values": ["<length>"] },
+  { "property": "running", "statuses": ["ED", "WD"], "status": "WD" },
   {
-    "name": "scroll-padding",
+    "property": "scale",
+    "statuses": ["ED", "FPWD"],
+    "status": "FPWD",
+    "values": ["none", "|", "<number>", "{", "1,3", "}"]
+  },
+  {
+    "property": "scroll-behavior",
+    "statuses": ["ED", "WD"],
+    "status": "WD",
+    "values": ["auto", "|", "smooth"]
+  },
+  {
+    "property": "scroll-margin",
+    "statuses": ["ED", "CR"],
+    "status": "CR",
+    "values": ["<length>", "{", "1,4", "}"]
+  },
+  {
+    "property": "scroll-margin-block",
+    "statuses": ["ED", "CR"],
+    "status": "CR",
+    "values": ["<length>", "{", "1,2", "}"]
+  },
+  {
+    "property": "scroll-margin-block-end",
+    "statuses": ["ED", "CR"],
+    "status": "CR",
+    "values": ["<length>"]
+  },
+  {
+    "property": "scroll-margin-block-start",
+    "statuses": ["ED", "CR"],
+    "status": "CR",
+    "values": ["<length>"]
+  },
+  {
+    "property": "scroll-margin-bottom",
+    "statuses": ["ED", "CR"],
+    "status": "CR",
+    "values": ["<length>"]
+  },
+  {
+    "property": "scroll-margin-inline",
+    "statuses": ["ED", "CR"],
+    "status": "CR",
+    "values": ["<length>", "{", "1,2", "}"]
+  },
+  {
+    "property": "scroll-margin-inline-end",
+    "statuses": ["ED", "CR"],
+    "status": "CR",
+    "values": ["<length>"]
+  },
+  {
+    "property": "scroll-margin-inline-start",
+    "statuses": ["ED", "CR"],
+    "status": "CR",
+    "values": ["<length>"]
+  },
+  {
+    "property": "scroll-margin-left",
+    "statuses": ["ED", "CR"],
+    "status": "CR",
+    "values": ["<length>"]
+  },
+  {
+    "property": "scroll-margin-right",
+    "statuses": ["ED", "CR"],
+    "status": "CR",
+    "values": ["<length>"]
+  },
+  {
+    "property": "scroll-margin-top",
+    "statuses": ["ED", "CR"],
+    "status": "CR",
+    "values": ["<length>"]
+  },
+  {
+    "property": "scroll-padding",
+    "statuses": ["ED", "CR"],
+    "status": "CR",
     "values": [
       "[",
       "auto",
@@ -12546,7 +13754,9 @@
     ]
   },
   {
-    "name": "scroll-padding-block",
+    "property": "scroll-padding-block",
+    "statuses": ["ED", "CR"],
+    "status": "CR",
     "values": [
       "[",
       "auto",
@@ -12565,7 +13775,9 @@
     ]
   },
   {
-    "name": "scroll-padding-block-end",
+    "property": "scroll-padding-block-end",
+    "statuses": ["ED", "CR"],
+    "status": "CR",
     "values": [
       "auto",
       "|",
@@ -12579,7 +13791,9 @@
     ]
   },
   {
-    "name": "scroll-padding-block-start",
+    "property": "scroll-padding-block-start",
+    "statuses": ["ED", "CR"],
+    "status": "CR",
     "values": [
       "auto",
       "|",
@@ -12593,7 +13807,9 @@
     ]
   },
   {
-    "name": "scroll-padding-bottom",
+    "property": "scroll-padding-bottom",
+    "statuses": ["ED", "CR"],
+    "status": "CR",
     "values": [
       "auto",
       "|",
@@ -12607,7 +13823,9 @@
     ]
   },
   {
-    "name": "scroll-padding-inline",
+    "property": "scroll-padding-inline",
+    "statuses": ["ED", "CR"],
+    "status": "CR",
     "values": [
       "[",
       "auto",
@@ -12626,7 +13844,9 @@
     ]
   },
   {
-    "name": "scroll-padding-inline-end",
+    "property": "scroll-padding-inline-end",
+    "statuses": ["ED", "CR"],
+    "status": "CR",
     "values": [
       "auto",
       "|",
@@ -12640,7 +13860,9 @@
     ]
   },
   {
-    "name": "scroll-padding-inline-start",
+    "property": "scroll-padding-inline-start",
+    "statuses": ["ED", "CR"],
+    "status": "CR",
     "values": [
       "auto",
       "|",
@@ -12654,7 +13876,9 @@
     ]
   },
   {
-    "name": "scroll-padding-left",
+    "property": "scroll-padding-left",
+    "statuses": ["ED", "CR"],
+    "status": "CR",
     "values": [
       "auto",
       "|",
@@ -12668,7 +13892,9 @@
     ]
   },
   {
-    "name": "scroll-padding-right",
+    "property": "scroll-padding-right",
+    "statuses": ["ED", "CR"],
+    "status": "CR",
     "values": [
       "auto",
       "|",
@@ -12682,7 +13908,9 @@
     ]
   },
   {
-    "name": "scroll-padding-top",
+    "property": "scroll-padding-top",
+    "statuses": ["ED", "CR"],
+    "status": "CR",
     "values": [
       "auto",
       "|",
@@ -12696,7 +13924,9 @@
     ]
   },
   {
-    "name": "scroll-snap-align",
+    "property": "scroll-snap-align",
+    "statuses": ["ED", "CR"],
+    "status": "CR",
     "values": [
       "[",
       "none",
@@ -12712,9 +13942,16 @@
       "}"
     ]
   },
-  { "name": "scroll-snap-stop", "values": ["normal", "|", "always"] },
   {
-    "name": "scroll-snap-type",
+    "property": "scroll-snap-stop",
+    "statuses": ["ED", "CR"],
+    "status": "CR",
+    "values": ["normal", "|", "always"]
+  },
+  {
+    "property": "scroll-snap-type",
+    "statuses": ["ED", "CR"],
+    "status": "CR",
     "values": [
       "none",
       "|",
@@ -12738,7 +13975,203 @@
     ]
   },
   {
-    "name": "shape-image-threshold",
+    "property": "scrollbar-color",
+    "statuses": ["ED", "FPWD"],
+    "status": "FPWD",
+    "values": [
+      "auto",
+      "|",
+      "dark",
+      "|",
+      "light",
+      "|",
+      "<color>",
+      "{",
+      "2",
+      "}",
+      "where",
+      "<color>",
+      "=",
+      "<rgb()>",
+      "|",
+      "<rgba()>",
+      "|",
+      "<hsl()>",
+      "|",
+      "<hsla()>",
+      "|",
+      "<hex-color>",
+      "|",
+      "<named-color>",
+      "|",
+      "currentcolor",
+      "|",
+      "<deprecated-system-color>",
+      "where",
+      "<rgb()>",
+      "= rgb(",
+      "<percentage>",
+      "{",
+      "3",
+      "}",
+      "[",
+      "/",
+      "<alpha-value>",
+      "]",
+      "?",
+      ")",
+      "|",
+      "rgb(",
+      "<number>",
+      "{",
+      "3",
+      "}",
+      "[",
+      "/",
+      "<alpha-value>",
+      "]",
+      "?",
+      ")",
+      "|",
+      "rgb(",
+      "<percentage>",
+      "#",
+      "{",
+      "3",
+      "}",
+      ",",
+      "<alpha-value>",
+      "?",
+      ")",
+      "|",
+      "rgb(",
+      "<number>",
+      "#",
+      "{",
+      "3",
+      "}",
+      ",",
+      "<alpha-value>",
+      "?",
+      ")",
+      "<rgba()>",
+      "= rgba(",
+      "<percentage>",
+      "{",
+      "3",
+      "}",
+      "[",
+      "/",
+      "<alpha-value>",
+      "]",
+      "?",
+      ")",
+      "|",
+      "rgba(",
+      "<number>",
+      "{",
+      "3",
+      "}",
+      "[",
+      "/",
+      "<alpha-value>",
+      "]",
+      "?",
+      ")",
+      "|",
+      "rgba(",
+      "<percentage>",
+      "#",
+      "{",
+      "3",
+      "}",
+      ",",
+      "<alpha-value>",
+      "?",
+      ")",
+      "|",
+      "rgba(",
+      "<number>",
+      "#",
+      "{",
+      "3",
+      "}",
+      ",",
+      "<alpha-value>",
+      "?",
+      ")",
+      "<hsl()>",
+      "= hsl(",
+      "<hue>",
+      "<percentage>",
+      "<percentage>",
+      "[",
+      "/",
+      "<alpha-value>",
+      "]",
+      "?",
+      ")",
+      "|",
+      "hsl(",
+      "<hue>",
+      ",",
+      "<percentage>",
+      ",",
+      "<percentage>",
+      ",",
+      "<alpha-value>",
+      "?",
+      ")",
+      "<hsla()>",
+      "= hsla(",
+      "<hue>",
+      "<percentage>",
+      "<percentage>",
+      "[",
+      "/",
+      "<alpha-value>",
+      "]",
+      "?",
+      ")",
+      "|",
+      "hsla(",
+      "<hue>",
+      ",",
+      "<percentage>",
+      ",",
+      "<percentage>",
+      ",",
+      "<alpha-value>",
+      "?",
+      ")",
+      "where",
+      "<alpha-value>",
+      "=",
+      "<number>",
+      "|",
+      "<percentage>",
+      "<hue>",
+      "=",
+      "<number>",
+      "|",
+      "<angle>"
+    ]
+  },
+  {
+    "property": "scrollbar-gutter",
+    "statuses": ["ED", "FPWD"],
+    "status": "FPWD"
+  },
+  {
+    "property": "scrollbar-width",
+    "statuses": ["ED", "FPWD"],
+    "status": "FPWD",
+    "values": ["auto", "|", "thin", "|", "none"]
+  },
+  {
+    "property": "shape-image-threshold",
+    "statuses": ["ED", "CR"],
+    "status": "CR",
     "values": [
       "<alpha-value>",
       "where",
@@ -12749,9 +14182,11 @@
       "<percentage>"
     ]
   },
-  { "name": "shape-inside" },
+  { "property": "shape-inside", "statuses": ["ED", "WD"], "status": "WD" },
   {
-    "name": "shape-margin",
+    "property": "shape-margin",
+    "statuses": ["ED", "CR"],
+    "status": "CR",
     "values": [
       "<length-percentage>",
       "where",
@@ -12763,7 +14198,9 @@
     ]
   },
   {
-    "name": "shape-outside",
+    "property": "shape-outside",
+    "statuses": ["ED", "CR"],
+    "status": "CR",
     "values": [
       "none",
       "|",
@@ -13351,12 +14788,26 @@
       "<percentage>"
     ]
   },
-  { "name": "spatial-navigation-action" },
-  { "name": "spatial-navigation-contain" },
-  { "name": "spatial-navigation-function" },
-  { "name": "speak" },
   {
-    "name": "speak-as",
+    "property": "spatial-navigation-action",
+    "statuses": ["ED", "WD"],
+    "status": "WD"
+  },
+  {
+    "property": "spatial-navigation-contain",
+    "statuses": ["ED", "WD"],
+    "status": "WD"
+  },
+  {
+    "property": "spatial-navigation-function",
+    "statuses": ["ED", "WD"],
+    "status": "WD"
+  },
+  { "property": "speak", "statuses": ["REC", "ED", "CR"], "status": "REC" },
+  {
+    "property": "speak-as",
+    "statuses": ["ED", "CR"],
+    "status": "CR",
     "values": [
       "auto",
       "|",
@@ -13375,16 +14826,109 @@
       "<custom-ident>"
     ]
   },
-  { "name": "speak-header" },
-  { "name": "speak-numeral" },
-  { "name": "speak-punctuation" },
-  { "name": "speech-rate" },
-  { "name": "stress" },
-  { "name": "string-set" },
-  { "name": "tab-size", "values": ["<integer>", "|", "<length>"] },
-  { "name": "table-layout", "values": ["auto", "|", "fixed"] },
+  { "property": "speak-header", "statuses": ["REC"], "status": "REC" },
+  { "property": "speak-numeral", "statuses": ["REC"], "status": "REC" },
+  { "property": "speak-punctuation", "statuses": ["REC"], "status": "REC" },
+  { "property": "speech-rate", "statuses": ["REC"], "status": "REC" },
+  { "property": "stress", "statuses": ["REC"], "status": "REC" },
   {
-    "name": "text-align",
+    "property": "string-set",
+    "statuses": ["ED", "ED", "WD", "WD"],
+    "status": "WD"
+  },
+  {
+    "property": "stroke",
+    "statuses": ["ED", "ED", "FPWD", "FPWD"],
+    "status": "FPWD"
+  },
+  { "property": "stroke-align", "statuses": ["ED", "FPWD"], "status": "FPWD" },
+  {
+    "property": "stroke-alignment",
+    "statuses": ["ED", "FPWD"],
+    "status": "FPWD"
+  },
+  { "property": "stroke-break", "statuses": ["ED", "FPWD"], "status": "FPWD" },
+  { "property": "stroke-color", "statuses": ["ED", "FPWD"], "status": "FPWD" },
+  {
+    "property": "stroke-dash-corner",
+    "statuses": ["ED", "FPWD"],
+    "status": "FPWD"
+  },
+  {
+    "property": "stroke-dash-justify",
+    "statuses": ["ED", "FPWD"],
+    "status": "FPWD"
+  },
+  {
+    "property": "stroke-dashadjust",
+    "statuses": ["ED", "FPWD"],
+    "status": "FPWD"
+  },
+  {
+    "property": "stroke-dasharray",
+    "statuses": ["ED", "ED", "FPWD", "FPWD"],
+    "status": "FPWD"
+  },
+  {
+    "property": "stroke-dashcorner",
+    "statuses": ["ED", "FPWD"],
+    "status": "FPWD"
+  },
+  {
+    "property": "stroke-dashoffset",
+    "statuses": ["ED", "ED", "FPWD", "FPWD"],
+    "status": "FPWD"
+  },
+  { "property": "stroke-image", "statuses": ["ED", "FPWD"], "status": "FPWD" },
+  {
+    "property": "stroke-linecap",
+    "statuses": ["ED", "ED", "FPWD", "FPWD"],
+    "status": "FPWD"
+  },
+  {
+    "property": "stroke-linejoin",
+    "statuses": ["ED", "ED", "FPWD", "FPWD"],
+    "status": "FPWD"
+  },
+  {
+    "property": "stroke-miterlimit",
+    "statuses": ["ED", "ED", "FPWD", "FPWD"],
+    "status": "FPWD"
+  },
+  {
+    "property": "stroke-opacity",
+    "statuses": ["ED", "ED", "FPWD", "FPWD"],
+    "status": "FPWD"
+  },
+  { "property": "stroke-origin", "statuses": ["ED", "FPWD"], "status": "FPWD" },
+  {
+    "property": "stroke-position",
+    "statuses": ["ED", "FPWD"],
+    "status": "FPWD"
+  },
+  { "property": "stroke-repeat", "statuses": ["ED", "FPWD"], "status": "FPWD" },
+  { "property": "stroke-size", "statuses": ["ED", "FPWD"], "status": "FPWD" },
+  {
+    "property": "stroke-width",
+    "statuses": ["ED", "ED", "FPWD", "FPWD"],
+    "status": "FPWD"
+  },
+  {
+    "property": "tab-size",
+    "statuses": ["ED", "WD"],
+    "status": "WD",
+    "values": ["<integer>", "|", "<length>"]
+  },
+  {
+    "property": "table-layout",
+    "statuses": ["REC", "ED", "ED", "ED", "WD"],
+    "status": "REC",
+    "values": ["auto", "|", "fixed"]
+  },
+  {
+    "property": "text-align",
+    "statuses": ["REC", "ED", "ED", "ED", "WD"],
+    "status": "REC",
     "values": [
       "start",
       "|",
@@ -13401,9 +14945,11 @@
       "match-parent"
     ]
   },
-  { "name": "text-align-all" },
+  { "property": "text-align-all", "statuses": ["ED", "WD"], "status": "WD" },
   {
-    "name": "text-align-last",
+    "property": "text-align-last",
+    "statuses": ["ED", "WD"],
+    "status": "WD",
     "values": [
       "auto",
       "|",
@@ -13421,11 +14967,15 @@
     ]
   },
   {
-    "name": "text-combine-upright",
+    "property": "text-combine-upright",
+    "statuses": ["ED", "ED", "CR", "REC"],
+    "status": "REC",
     "values": ["none", "|", "all", "|", "[", "digits", "<integer>", "?", "]"]
   },
   {
-    "name": "text-decoration",
+    "property": "text-decoration",
+    "statuses": ["REC", "ED", "ED", "ED", "ED", "CR", "WD"],
+    "status": "REC",
     "values": [
       "<text-decoration-line>",
       "||",
@@ -13437,7 +14987,9 @@
     ]
   },
   {
-    "name": "text-decoration-color",
+    "property": "text-decoration-color",
+    "statuses": ["ED", "ED", "CR", "WD"],
+    "status": "CR",
     "values": [
       "<color>",
       "where",
@@ -13609,7 +15161,9 @@
     ]
   },
   {
-    "name": "text-decoration-line",
+    "property": "text-decoration-line",
+    "statuses": ["ED", "ED", "CR", "WD"],
+    "status": "CR",
     "values": [
       "none",
       "|",
@@ -13629,7 +15183,9 @@
     ]
   },
   {
-    "name": "text-decoration-skip",
+    "property": "text-decoration-skip",
+    "statuses": ["ED", "WD"],
+    "status": "WD",
     "values": [
       "none",
       "|",
@@ -13652,16 +15208,36 @@
       "]"
     ]
   },
-  { "name": "text-decoration-skip-box" },
   {
-    "name": "text-decoration-skip-ink",
+    "property": "text-decoration-skip-box",
+    "statuses": ["ED", "WD"],
+    "status": "WD"
+  },
+  {
+    "property": "text-decoration-skip-ink",
+    "statuses": ["ED", "WD"],
+    "status": "WD",
     "values": ["auto", "|", "all", "|", "none"]
   },
-  { "name": "text-decoration-skip-inset" },
-  { "name": "text-decoration-skip-self" },
-  { "name": "text-decoration-skip-spaces" },
   {
-    "name": "text-decoration-style",
+    "property": "text-decoration-skip-inset",
+    "statuses": ["ED", "WD"],
+    "status": "WD"
+  },
+  {
+    "property": "text-decoration-skip-self",
+    "statuses": ["ED", "WD"],
+    "status": "WD"
+  },
+  {
+    "property": "text-decoration-skip-spaces",
+    "statuses": ["ED", "WD"],
+    "status": "WD"
+  },
+  {
+    "property": "text-decoration-style",
+    "statuses": ["ED", "ED", "CR", "WD"],
+    "status": "CR",
     "values": [
       "solid",
       "|",
@@ -13675,16 +15251,22 @@
     ]
   },
   {
-    "name": "text-decoration-thickness",
+    "property": "text-decoration-thickness",
+    "statuses": ["ED", "WD"],
+    "status": "WD",
     "values": ["auto", "|", "from-font", "|", "<length>", "|", "<percentage>"]
   },
-  { "name": "text-edge" },
+  { "property": "text-edge", "statuses": ["ED", "WD"], "status": "WD" },
   {
-    "name": "text-emphasis",
+    "property": "text-emphasis",
+    "statuses": ["ED", "ED", "CR", "WD"],
+    "status": "CR",
     "values": ["<text-emphasis-style>", "||", "<text-emphasis-color>"]
   },
   {
-    "name": "text-emphasis-color",
+    "property": "text-emphasis-color",
+    "statuses": ["ED", "ED", "CR", "WD"],
+    "status": "CR",
     "values": [
       "<color>",
       "where",
@@ -13856,7 +15438,9 @@
     ]
   },
   {
-    "name": "text-emphasis-position",
+    "property": "text-emphasis-position",
+    "statuses": ["ED", "ED", "CR", "WD"],
+    "status": "CR",
     "values": [
       "[",
       "over",
@@ -13871,9 +15455,15 @@
       "]"
     ]
   },
-  { "name": "text-emphasis-skip" },
   {
-    "name": "text-emphasis-style",
+    "property": "text-emphasis-skip",
+    "statuses": ["ED", "WD"],
+    "status": "WD"
+  },
+  {
+    "property": "text-emphasis-style",
+    "statuses": ["ED", "ED", "CR", "WD"],
+    "status": "CR",
     "values": [
       "none",
       "|",
@@ -13900,9 +15490,11 @@
       "<string>"
     ]
   },
-  { "name": "text-group-align" },
+  { "property": "text-group-align", "statuses": ["ED", "WD"], "status": "WD" },
   {
-    "name": "text-indent",
+    "property": "text-indent",
+    "statuses": ["REC", "ED", "ED", "ED", "WD"],
+    "status": "REC",
     "values": [
       "<length-percentage>",
       "&&",
@@ -13920,15 +15512,21 @@
     ]
   },
   {
-    "name": "text-justify",
+    "property": "text-justify",
+    "statuses": ["ED", "WD"],
+    "status": "WD",
     "values": ["auto", "|", "inter-character", "|", "inter-word", "|", "none"]
   },
   {
-    "name": "text-orientation",
+    "property": "text-orientation",
+    "statuses": ["ED", "ED", "CR", "REC"],
+    "status": "REC",
     "values": ["mixed", "|", "upright", "|", "sideways"]
   },
   {
-    "name": "text-overflow",
+    "property": "text-overflow",
+    "statuses": ["ED", "ED", "ED", "REC", "WD"],
+    "status": "REC",
     "values": [
       "[",
       "clip",
@@ -13943,7 +15541,9 @@
     ]
   },
   {
-    "name": "text-shadow",
+    "property": "text-shadow",
+    "statuses": ["ED", "ED", "CR", "WD"],
+    "status": "CR",
     "values": [
       "none",
       "|",
@@ -14129,11 +15729,17 @@
       "<angle>"
     ]
   },
-  { "name": "text-space-collapse" },
-  { "name": "text-space-trim" },
-  { "name": "text-spacing" },
   {
-    "name": "text-transform",
+    "property": "text-space-collapse",
+    "statuses": ["ED", "WD"],
+    "status": "WD"
+  },
+  { "property": "text-space-trim", "statuses": ["ED", "WD"], "status": "WD" },
+  { "property": "text-spacing", "statuses": ["ED", "WD"], "status": "WD" },
+  {
+    "property": "text-transform",
+    "statuses": ["REC", "ED", "ED", "ED", "WD"],
+    "status": "REC",
     "values": [
       "none",
       "|",
@@ -14149,11 +15755,15 @@
     ]
   },
   {
-    "name": "text-underline-offset",
+    "property": "text-underline-offset",
+    "statuses": ["ED", "WD"],
+    "status": "WD",
     "values": ["auto", "|", "<length>", "|", "<percentage>"]
   },
   {
-    "name": "text-underline-position",
+    "property": "text-underline-position",
+    "statuses": ["ED", "ED", "CR", "WD"],
+    "status": "CR",
     "values": [
       "auto",
       "|",
@@ -14170,10 +15780,17 @@
       "]"
     ]
   },
-  { "name": "text-wrap" },
-  { "name": "top", "values": ["<length>", "|", "<percentage>", "|", "auto"] },
+  { "property": "text-wrap", "statuses": ["ED", "WD"], "status": "WD" },
   {
-    "name": "transform",
+    "property": "top",
+    "statuses": ["REC", "ED", "ED", "ED", "WD"],
+    "status": "REC",
+    "values": ["<length>", "|", "<percentage>", "|", "auto"]
+  },
+  {
+    "property": "transform",
+    "statuses": ["ED", "CR"],
+    "status": "CR",
     "values": [
       "none",
       "|",
@@ -14388,7 +16005,9 @@
     ]
   },
   {
-    "name": "transform-box",
+    "property": "transform-box",
+    "statuses": ["ED", "CR"],
+    "status": "CR",
     "values": [
       "content-box",
       "|",
@@ -14402,7 +16021,9 @@
     ]
   },
   {
-    "name": "transform-origin",
+    "property": "transform-origin",
+    "statuses": ["ED", "CR"],
+    "status": "CR",
     "values": [
       "[",
       "<length-percentage>",
@@ -14450,7 +16071,15 @@
     ]
   },
   {
-    "name": "transition",
+    "property": "transform-style",
+    "statuses": ["ED", "FPWD"],
+    "status": "FPWD",
+    "values": ["flat", "|", "preserve-3d"]
+  },
+  {
+    "property": "transition",
+    "statuses": ["ED", "WD"],
+    "status": "WD",
     "values": [
       "<single-transition>",
       "#",
@@ -14526,10 +16155,22 @@
       "end"
     ]
   },
-  { "name": "transition-delay", "values": ["<time>", "#"] },
-  { "name": "transition-duration", "values": ["<time>", "#"] },
   {
-    "name": "transition-property",
+    "property": "transition-delay",
+    "statuses": ["ED", "WD"],
+    "status": "WD",
+    "values": ["<time>", "#"]
+  },
+  {
+    "property": "transition-duration",
+    "statuses": ["ED", "WD"],
+    "status": "WD",
+    "values": ["<time>", "#"]
+  },
+  {
+    "property": "transition-property",
+    "statuses": ["ED", "WD"],
+    "status": "WD",
     "values": [
       "none",
       "|",
@@ -14543,7 +16184,9 @@
     ]
   },
   {
-    "name": "transition-timing-function",
+    "property": "transition-timing-function",
+    "statuses": ["ED", "WD"],
+    "status": "WD",
     "values": [
       "<timing-function>",
       "#",
@@ -14602,7 +16245,31 @@
     ]
   },
   {
-    "name": "unicode-bidi",
+    "property": "translate",
+    "statuses": ["ED", "FPWD"],
+    "status": "FPWD",
+    "values": [
+      "none",
+      "|",
+      "<length-percentage>",
+      "[",
+      "<length-percentage>",
+      "<length>",
+      "?",
+      "]",
+      "?",
+      "where",
+      "<length-percentage>",
+      "=",
+      "<length>",
+      "|",
+      "<percentage>"
+    ]
+  },
+  {
+    "property": "unicode-bidi",
+    "statuses": ["REC", "ED", "ED", "ED", "ED", "CR", "REC"],
+    "status": "REC",
     "values": [
       "normal",
       "|",
@@ -14618,11 +16285,15 @@
     ]
   },
   {
-    "name": "user-select",
+    "property": "user-select",
+    "statuses": ["ED", "WD"],
+    "status": "WD",
     "values": ["auto", "|", "text", "|", "none", "|", "contain", "|", "all"]
   },
   {
-    "name": "vertical-align",
+    "property": "vertical-align",
+    "statuses": ["REC", "ED", "ED", "ED", "WD"],
+    "status": "REC",
     "values": [
       "baseline",
       "|",
@@ -14646,20 +16317,28 @@
     ]
   },
   {
-    "name": "visibility",
+    "property": "visibility",
+    "statuses": ["REC", "ED", "ED"],
+    "status": "REC",
     "values": ["visible", "|", "hidden", "|", "collapse"]
   },
-  { "name": "voice-balance" },
-  { "name": "voice-duration" },
-  { "name": "voice-family" },
-  { "name": "voice-pitch" },
-  { "name": "voice-range" },
-  { "name": "voice-rate" },
-  { "name": "voice-stress" },
-  { "name": "voice-volume" },
-  { "name": "volume" },
+  { "property": "voice-balance", "statuses": ["ED", "CR"], "status": "CR" },
+  { "property": "voice-duration", "statuses": ["ED", "CR"], "status": "CR" },
   {
-    "name": "white-space",
+    "property": "voice-family",
+    "statuses": ["REC", "ED", "CR"],
+    "status": "REC"
+  },
+  { "property": "voice-pitch", "statuses": ["ED", "CR"], "status": "CR" },
+  { "property": "voice-range", "statuses": ["ED", "CR"], "status": "CR" },
+  { "property": "voice-rate", "statuses": ["ED", "CR"], "status": "CR" },
+  { "property": "voice-stress", "statuses": ["ED", "CR"], "status": "CR" },
+  { "property": "voice-volume", "statuses": ["ED", "CR"], "status": "CR" },
+  { "property": "volume", "statuses": ["REC"], "status": "REC" },
+  {
+    "property": "white-space",
+    "statuses": ["REC", "ED", "ED", "ED", "ED", "WD", "WD"],
+    "status": "REC",
     "values": [
       "normal",
       "|",
@@ -14674,9 +16353,16 @@
       "break-spaces"
     ]
   },
-  { "name": "widows", "values": ["<integer>"] },
   {
-    "name": "width",
+    "property": "widows",
+    "statuses": ["REC", "ED", "ED", "ED", "ED", "CR", "FPWD"],
+    "status": "REC",
+    "values": ["<integer>"]
+  },
+  {
+    "property": "width",
+    "statuses": ["REC", "ED", "ED", "ED", "WD"],
+    "status": "REC",
     "values": [
       "auto",
       "|",
@@ -14700,7 +16386,9 @@
     ]
   },
   {
-    "name": "will-change",
+    "property": "will-change",
+    "statuses": ["ED", "CR"],
+    "status": "CR",
     "values": [
       "auto",
       "|",
@@ -14715,14 +16403,26 @@
       "<custom-ident>"
     ]
   },
-  { "name": "word-boundary-detection" },
-  { "name": "word-boundary-expansion" },
   {
-    "name": "word-break",
+    "property": "word-boundary-detection",
+    "statuses": ["ED", "WD"],
+    "status": "WD"
+  },
+  {
+    "property": "word-boundary-expansion",
+    "statuses": ["ED", "WD"],
+    "status": "WD"
+  },
+  {
+    "property": "word-break",
+    "statuses": ["ED", "WD"],
+    "status": "WD",
     "values": ["normal", "|", "break-all", "|", "keep-all", "|", "break-word"]
   },
   {
-    "name": "word-spacing",
+    "property": "word-spacing",
+    "statuses": ["REC", "ED", "ED", "ED", "WD"],
+    "status": "REC",
     "values": [
       "normal",
       "|",
@@ -14736,16 +16436,20 @@
     ]
   },
   {
-    "name": "word-wrap",
+    "property": "word-wrap",
+    "statuses": ["ED", "WD"],
+    "status": "WD",
     "values": ["normal", "|", "break-word", "|", "anywhere"]
   },
-  { "name": "wrap-after" },
-  { "name": "wrap-before" },
-  { "name": "wrap-flow" },
-  { "name": "wrap-inside" },
-  { "name": "wrap-through" },
+  { "property": "wrap-after", "statuses": ["ED", "WD"], "status": "WD" },
+  { "property": "wrap-before", "statuses": ["ED", "WD"], "status": "WD" },
+  { "property": "wrap-flow", "statuses": ["ED", "WD"], "status": "WD" },
+  { "property": "wrap-inside", "statuses": ["ED", "WD"], "status": "WD" },
+  { "property": "wrap-through", "statuses": ["ED", "WD"], "status": "WD" },
   {
-    "name": "writing-mode",
+    "property": "writing-mode",
+    "statuses": ["ED", "ED", "CR", "REC"],
+    "status": "REC",
     "values": [
       "horizontal-tb",
       "|",
@@ -14758,18 +16462,46 @@
       "sideways-lr"
     ]
   },
-  { "name": "z-index", "values": ["auto", "|", "<integer>"] },
-  { "name": "all-space-treatment" },
-  { "name": "background-break" },
-  { "name": "bikeshedding" },
-  { "name": "bleed", "values": ["auto", "|", "<length>"] },
-  { "name": "block-overflow" },
-  { "name": "block-progression" },
-  { "name": "bookmark-target" },
-  { "name": "border-break" },
-  { "name": "border-length" },
   {
-    "name": "box-align",
+    "property": "z-index",
+    "statuses": ["REC", "ED", "ED"],
+    "status": "REC",
+    "values": ["auto", "|", "<integer>"]
+  },
+  {
+    "property": "all-space-treatment",
+    "statuses": ["CR", "CR"],
+    "status": "CR"
+  },
+  { "property": "background-break", "statuses": ["WD"], "status": "WD" },
+  {
+    "property": "background-image-transform",
+    "statuses": ["FPWD"],
+    "status": "FPWD"
+  },
+  { "property": "background-quantity", "statuses": ["LC"], "status": "LC" },
+  { "property": "background-spacing", "statuses": ["LC"], "status": "LC" },
+  { "property": "bikeshedding", "statuses": ["WD"], "status": "WD" },
+  {
+    "property": "bleed",
+    "statuses": ["WD"],
+    "status": "WD",
+    "values": ["auto", "|", "<length>"]
+  },
+  { "property": "block-overflow", "statuses": ["WD"], "status": "WD" },
+  { "property": "block-progression", "statuses": ["CR"], "status": "CR" },
+  { "property": "bookmark-target", "statuses": ["WD"], "status": "WD" },
+  { "property": "border-break", "statuses": ["WD"], "status": "WD" },
+  {
+    "property": "border-image-transform",
+    "statuses": ["FPWD"],
+    "status": "FPWD"
+  },
+  { "property": "border-length", "statuses": ["WD"], "status": "WD" },
+  {
+    "property": "box-align",
+    "statuses": ["WD"],
+    "status": "WD",
     "values": [
       "start",
       "|",
@@ -14782,17 +16514,42 @@
       "stretch"
     ]
   },
+  { "property": "box-break", "statuses": ["LC"], "status": "LC" },
   {
-    "name": "box-direction",
+    "property": "box-direction",
+    "statuses": ["WD"],
+    "status": "WD",
     "values": ["normal", "|", "reverse", "|", "inherit"]
   },
-  { "name": "box-flex", "values": ["<number>"] },
-  { "name": "box-flex-group", "values": ["<integer>"] },
-  { "name": "box-height" },
-  { "name": "box-lines", "values": ["single", "|", "multiple"] },
-  { "name": "box-ordinal-group", "values": ["<integer>"] },
   {
-    "name": "box-orient",
+    "property": "box-flex",
+    "statuses": ["WD"],
+    "status": "WD",
+    "values": ["<number>"]
+  },
+  {
+    "property": "box-flex-group",
+    "statuses": ["WD"],
+    "status": "WD",
+    "values": ["<integer>"]
+  },
+  { "property": "box-height", "statuses": ["WD"], "status": "WD" },
+  {
+    "property": "box-lines",
+    "statuses": ["WD"],
+    "status": "WD",
+    "values": ["single", "|", "multiple"]
+  },
+  {
+    "property": "box-ordinal-group",
+    "statuses": ["WD"],
+    "status": "WD",
+    "values": ["<integer>"]
+  },
+  {
+    "property": "box-orient",
+    "statuses": ["WD"],
+    "status": "WD",
     "values": [
       "horizontal",
       "|",
@@ -14806,30 +16563,39 @@
     ]
   },
   {
-    "name": "box-pack",
+    "property": "box-pack",
+    "statuses": ["WD"],
+    "status": "WD",
     "values": ["start", "|", "center", "|", "end", "|", "justify"]
   },
-  { "name": "box-suppress" },
-  { "name": "box-width" },
-  { "name": "clear-after" },
-  { "name": "color-profile" },
-  { "name": "column-break-after" },
-  { "name": "column-break-before" },
-  { "name": "content-order" },
-  { "name": "crop" },
-  { "name": "display-inside" },
-  { "name": "display-list" },
-  { "name": "display-model" },
-  { "name": "display-outside" },
-  { "name": "display-role" },
-  { "name": "enable-background" },
-  { "name": "filter-margin" },
-  { "name": "filter-margin-bottom" },
-  { "name": "filter-margin-left" },
-  { "name": "filter-margin-right" },
-  { "name": "filter-margin-top" },
+  { "property": "box-suppress", "statuses": ["WD"], "status": "WD" },
+  { "property": "box-width", "statuses": ["WD"], "status": "WD" },
+  { "property": "caret-animation", "statuses": ["FPWD"], "status": "FPWD" },
+  { "property": "clear-after", "statuses": ["WD"], "status": "WD" },
+  { "property": "color-profile", "statuses": ["CR"], "status": "CR" },
+  { "property": "column-break-after", "statuses": ["WD"], "status": "WD" },
+  { "property": "column-break-before", "statuses": ["WD"], "status": "WD" },
+  { "property": "content-order", "statuses": ["WD"], "status": "WD" },
+  { "property": "crop", "statuses": ["WD"], "status": "WD" },
+  { "property": "display-box", "statuses": ["FPWD"], "status": "FPWD" },
+  { "property": "display-extras", "statuses": ["FPWD"], "status": "FPWD" },
+  { "property": "display-inside", "statuses": ["WD"], "status": "WD" },
+  { "property": "display-list", "statuses": ["WD"], "status": "WD" },
+  { "property": "display-model", "statuses": ["WD"], "status": "WD" },
+  { "property": "display-outside", "statuses": ["WD"], "status": "WD" },
+  { "property": "display-role", "statuses": ["WD"], "status": "WD" },
+  { "property": "enable-background", "statuses": ["WD"], "status": "WD" },
+  { "property": "filter-margin", "statuses": ["WD"], "status": "WD" },
+  { "property": "filter-margin-bottom", "statuses": ["WD"], "status": "WD" },
+  { "property": "filter-margin-left", "statuses": ["WD"], "status": "WD" },
+  { "property": "filter-margin-right", "statuses": ["WD"], "status": "WD" },
+  { "property": "filter-margin-top", "statuses": ["WD"], "status": "WD" },
+  { "property": "fit", "statuses": ["LC"], "status": "LC" },
+  { "property": "fit-position", "statuses": ["LC"], "status": "LC" },
   {
-    "name": "flex-align",
+    "property": "flex-align",
+    "statuses": ["WD"],
+    "status": "WD",
     "values": [
       "normal",
       "|",
@@ -14873,7 +16639,9 @@
     ]
   },
   {
-    "name": "flex-item-align",
+    "property": "flex-item-align",
+    "statuses": ["WD"],
+    "status": "WD",
     "values": [
       "auto",
       "|",
@@ -14917,7 +16685,9 @@
     ]
   },
   {
-    "name": "flex-line-pack",
+    "property": "flex-line-pack",
+    "statuses": ["WD"],
+    "status": "WD",
     "values": [
       "normal",
       "|",
@@ -14962,9 +16732,16 @@
       "flex-end"
     ]
   },
-  { "name": "flex-order", "values": ["<integer>"] },
   {
-    "name": "flex-pack",
+    "property": "flex-order",
+    "statuses": ["WD"],
+    "status": "WD",
+    "values": ["<integer>"]
+  },
+  {
+    "property": "flex-pack",
+    "statuses": ["WD"],
+    "status": "WD",
     "values": [
       "normal",
       "|",
@@ -15004,20 +16781,35 @@
       "flex-end"
     ]
   },
-  { "name": "float-displace" },
-  { "name": "float-displace--alternative-2" },
-  { "name": "float-displace--alternative-3" },
-  { "name": "font-max-size" },
-  { "name": "font-min-size" },
-  { "name": "glyph-orientation-horizontal" },
-  { "name": "grid-after" },
-  { "name": "grid-auto-position" },
-  { "name": "grid-before" },
-  { "name": "grid-cell" },
-  { "name": "grid-cell-stacking" },
-  { "name": "grid-column-align" },
+  { "property": "float-displace", "statuses": ["WD"], "status": "WD" },
   {
-    "name": "grid-column-gap",
+    "property": "float-displace--alternative-2",
+    "statuses": ["WD"],
+    "status": "WD"
+  },
+  {
+    "property": "float-displace--alternative-3",
+    "statuses": ["WD"],
+    "status": "WD"
+  },
+  { "property": "font-max-size", "statuses": ["WD"], "status": "WD" },
+  { "property": "font-min-size", "statuses": ["WD"], "status": "WD" },
+  { "property": "font-presentation", "statuses": ["FPWD"], "status": "FPWD" },
+  {
+    "property": "glyph-orientation-horizontal",
+    "statuses": ["CR"],
+    "status": "CR"
+  },
+  { "property": "grid-after", "statuses": ["WD"], "status": "WD" },
+  { "property": "grid-auto-position", "statuses": ["WD"], "status": "WD" },
+  { "property": "grid-before", "statuses": ["WD"], "status": "WD" },
+  { "property": "grid-cell", "statuses": ["WD"], "status": "WD" },
+  { "property": "grid-cell-stacking", "statuses": ["WD"], "status": "WD" },
+  { "property": "grid-column-align", "statuses": ["WD"], "status": "WD" },
+  {
+    "property": "grid-column-gap",
+    "statuses": ["CR"],
+    "status": "CR",
     "values": [
       "normal",
       "|",
@@ -15030,19 +16822,26 @@
       "<percentage>"
     ]
   },
-  { "name": "grid-column-position" },
-  { "name": "grid-column-sizing" },
-  { "name": "grid-column-span" },
-  { "name": "grid-columns" },
-  { "name": "grid-definition-columns" },
-  { "name": "grid-definition-rows" },
-  { "name": "grid-end" },
-  { "name": "grid-flow" },
-  { "name": "grid-gap", "values": ["<row-gap>", "<column-gap>", "?"] },
-  { "name": "grid-position" },
-  { "name": "grid-row-align" },
+  { "property": "grid-column-position", "statuses": ["WD"], "status": "WD" },
+  { "property": "grid-column-sizing", "statuses": ["WD"], "status": "WD" },
+  { "property": "grid-column-span", "statuses": ["WD"], "status": "WD" },
+  { "property": "grid-columns", "statuses": ["WD"], "status": "WD" },
+  { "property": "grid-definition-columns", "statuses": ["WD"], "status": "WD" },
+  { "property": "grid-definition-rows", "statuses": ["WD"], "status": "WD" },
+  { "property": "grid-end", "statuses": ["WD"], "status": "WD" },
+  { "property": "grid-flow", "statuses": ["WD"], "status": "WD" },
   {
-    "name": "grid-row-gap",
+    "property": "grid-gap",
+    "statuses": ["CR"],
+    "status": "CR",
+    "values": ["<row-gap>", "<column-gap>", "?"]
+  },
+  { "property": "grid-position", "statuses": ["WD"], "status": "WD" },
+  { "property": "grid-row-align", "statuses": ["WD"], "status": "WD" },
+  {
+    "property": "grid-row-gap",
+    "statuses": ["CR"],
+    "status": "CR",
     "values": [
       "normal",
       "|",
@@ -15055,148 +16854,704 @@
       "<percentage>"
     ]
   },
-  { "name": "grid-row-position" },
-  { "name": "grid-row-sizing" },
-  { "name": "grid-row-span" },
-  { "name": "grid-rows" },
-  { "name": "grid-span" },
-  { "name": "grid-start" },
-  { "name": "hyphenate" },
-  { "name": "hyphenate-after" },
-  { "name": "hyphenate-before" },
-  { "name": "hyphenate-dictionary" },
-  { "name": "hyphenate-limit-after" },
-  { "name": "hyphenate-limit-before" },
-  { "name": "hyphenate-lines" },
-  { "name": "hyphenate-resource" },
-  { "name": "indent-edge-reset" },
-  { "name": "initial-letters" },
-  { "name": "initial-letters-align" },
-  { "name": "initial-letters-wrap" },
-  { "name": "kerning-mode" },
-  { "name": "kerning-pair-threshold" },
-  { "name": "leading-trim-over" },
-  { "name": "leading-trim-under" },
-  { "name": "line-grid-mode" },
-  { "name": "line-grid-progression" },
-  { "name": "line-sizing" },
-  { "name": "linefeed-treatment" },
-  { "name": "mark" },
-  { "name": "mark-after" },
-  { "name": "mark-before" },
-  { "name": "marks", "values": ["none", "|", "[", "crop", "||", "cross", "]"] },
-  { "name": "marquee" },
-  { "name": "marquee-direction" },
-  { "name": "marquee-loop" },
-  { "name": "marquee-play-count" },
-  { "name": "marquee-repetition" },
-  { "name": "marquee-speed" },
-  { "name": "marquee-style" },
-  { "name": "mask-box" },
-  { "name": "mask-box-outset" },
-  { "name": "mask-box-repeat" },
-  { "name": "mask-box-slice" },
-  { "name": "mask-box-source" },
-  { "name": "mask-box-width" },
-  { "name": "mask-source-type" },
-  { "name": "max-font-size" },
-  { "name": "max-zoom" },
-  { "name": "min-font-size" },
-  { "name": "min-zoom" },
-  { "name": "move-to" },
-  { "name": "offset-after" },
-  { "name": "offset-before" },
-  { "name": "offset-end" },
-  { "name": "offset-start" },
-  { "name": "orientation" },
-  { "name": "overflow-clip" },
-  { "name": "overflow-style" },
-  { "name": "page-policy" },
-  { "name": "phonemes" },
-  { "name": "polar-anchor" },
-  { "name": "polar-angle" },
-  { "name": "polar-distance" },
-  { "name": "polar-origin" },
-  { "name": "presentation-level" },
-  { "name": "punctuation-trim" },
-  { "name": "region-overflow" },
-  { "name": "rendering-intent" },
-  { "name": "resizer" },
-  { "name": "resolution" },
-  { "name": "rotation" },
-  { "name": "rotation-point" },
-  { "name": "scroll-snap-margin" },
-  { "name": "scroll-snap-margin-block" },
-  { "name": "scroll-snap-margin-block-end" },
-  { "name": "scroll-snap-margin-block-start" },
-  { "name": "scroll-snap-margin-bottom" },
-  { "name": "scroll-snap-margin-inline" },
-  { "name": "scroll-snap-margin-inline-end" },
-  { "name": "scroll-snap-margin-inline-start" },
-  { "name": "scroll-snap-margin-left" },
-  { "name": "scroll-snap-margin-right" },
-  { "name": "scroll-snap-margin-top" },
-  { "name": "scroll-snap-padding" },
-  { "name": "scroll-snap-padding-block" },
-  { "name": "scroll-snap-padding-block-end" },
-  { "name": "scroll-snap-padding-block-start" },
-  { "name": "scroll-snap-padding-bottom" },
-  { "name": "scroll-snap-padding-inline" },
-  { "name": "scroll-snap-padding-inline-end" },
-  { "name": "scroll-snap-padding-inline-start" },
-  { "name": "scroll-snap-padding-left" },
-  { "name": "scroll-snap-padding-right" },
-  { "name": "scroll-snap-padding-top" },
-  { "name": "size" },
-  { "name": "something-or-other" },
-  { "name": "speakability" },
-  { "name": "tab-side" },
-  { "name": "target" },
-  { "name": "target-name" },
-  { "name": "target-new" },
-  { "name": "target-position" },
-  { "name": "text-align-first" },
-  { "name": "text-autospace" },
-  { "name": "text-blink" },
-  { "name": "text-combine" },
-  { "name": "text-combine-mode" },
-  { "name": "text-justify-trim" },
-  { "name": "text-kashida-space" },
-  { "name": "text-line-through" },
-  { "name": "text-line-through-color" },
-  { "name": "text-line-through-mode" },
-  { "name": "text-line-through-style" },
-  { "name": "text-line-through-width" },
-  { "name": "text-outline" },
-  { "name": "text-overflow-ellipsis" },
-  { "name": "text-overflow-mode" },
-  { "name": "text-overline" },
-  { "name": "text-overline-color" },
-  { "name": "text-overline-mode" },
-  { "name": "text-overline-style" },
-  { "name": "text-overline-width" },
-  { "name": "text-replace" },
-  { "name": "text-script" },
-  { "name": "text-trim" },
-  { "name": "text-underline" },
-  { "name": "text-underline-color" },
-  { "name": "text-underline-mode" },
-  { "name": "text-underline-style" },
-  { "name": "text-underline-width" },
-  { "name": "user-zoom" },
-  { "name": "vertical-position" },
-  { "name": "voice-pitch-range" },
-  { "name": "white-space-collapse" },
-  { "name": "white-space-collapsing" },
-  { "name": "white-space-treatment" },
-  { "name": "word-break-cjk" },
-  { "name": "word-break-inside" },
-  { "name": "wrap" },
-  { "name": "wrap-margin" },
-  { "name": "wrap-option" },
-  { "name": "wrap-padding" },
+  { "property": "grid-row-position", "statuses": ["WD"], "status": "WD" },
+  { "property": "grid-row-sizing", "statuses": ["WD"], "status": "WD" },
+  { "property": "grid-row-span", "statuses": ["WD"], "status": "WD" },
+  { "property": "grid-rows", "statuses": ["WD"], "status": "WD" },
+  { "property": "grid-span", "statuses": ["WD"], "status": "WD" },
+  { "property": "grid-start", "statuses": ["WD"], "status": "WD" },
+  { "property": "hyphenate", "statuses": ["WD"], "status": "WD" },
+  { "property": "hyphenate-after", "statuses": ["WD"], "status": "WD" },
+  { "property": "hyphenate-before", "statuses": ["WD"], "status": "WD" },
+  { "property": "hyphenate-dictionary", "statuses": ["WD"], "status": "WD" },
+  { "property": "hyphenate-limit-after", "statuses": ["WD"], "status": "WD" },
+  { "property": "hyphenate-limit-before", "statuses": ["WD"], "status": "WD" },
+  { "property": "hyphenate-lines", "statuses": ["WD"], "status": "WD" },
+  { "property": "hyphenate-resource", "statuses": ["WD"], "status": "WD" },
+  { "property": "icon", "statuses": ["LC"], "status": "LC" },
   {
-    "name": "zoom",
+    "property": "ime-mode",
+    "statuses": ["LC"],
+    "status": "LC",
+    "values": [
+      "auto",
+      "|",
+      "normal",
+      "|",
+      "active",
+      "|",
+      "inactive",
+      "|",
+      "disabled"
+    ]
+  },
+  { "property": "indent-edge-reset", "statuses": ["WD"], "status": "WD" },
+  { "property": "initial-letters", "statuses": ["WD"], "status": "WD" },
+  { "property": "initial-letters-align", "statuses": ["WD"], "status": "WD" },
+  { "property": "initial-letters-wrap", "statuses": ["WD"], "status": "WD" },
+  { "property": "kerning-mode", "statuses": ["CR"], "status": "CR" },
+  { "property": "kerning-pair-threshold", "statuses": ["CR"], "status": "CR" },
+  { "property": "key-equivalent", "statuses": ["LC"], "status": "LC" },
+  { "property": "leading-trim-over", "statuses": ["WD"], "status": "WD" },
+  { "property": "leading-trim-under", "statuses": ["WD"], "status": "WD" },
+  { "property": "line-grid-mode", "statuses": ["CR"], "status": "CR" },
+  { "property": "line-grid-progression", "statuses": ["CR"], "status": "CR" },
+  { "property": "line-sizing", "statuses": ["WD"], "status": "WD" },
+  { "property": "line-slack", "statuses": ["FPWD"], "status": "FPWD" },
+  { "property": "linefeed-treatment", "statuses": ["CR"], "status": "CR" },
+  { "property": "mark", "statuses": ["WD"], "status": "WD" },
+  { "property": "mark-after", "statuses": ["WD"], "status": "WD" },
+  { "property": "mark-before", "statuses": ["WD"], "status": "WD" },
+  {
+    "property": "marks",
+    "statuses": ["WD"],
+    "status": "WD",
+    "values": ["none", "|", "[", "crop", "||", "cross", "]"]
+  },
+  { "property": "marquee", "statuses": ["WD"], "status": "WD" },
+  { "property": "marquee-direction", "statuses": ["CR"], "status": "CR" },
+  { "property": "marquee-loop", "statuses": ["WD"], "status": "WD" },
+  { "property": "marquee-play-count", "statuses": ["CR"], "status": "CR" },
+  { "property": "marquee-repetition", "statuses": ["WD"], "status": "WD" },
+  { "property": "marquee-speed", "statuses": ["CR"], "status": "CR" },
+  { "property": "marquee-style", "statuses": ["CR"], "status": "CR" },
+  { "property": "mask-box", "statuses": ["WD"], "status": "WD" },
+  { "property": "mask-box-image", "statuses": ["LC"], "status": "LC" },
+  { "property": "mask-box-image-outset", "statuses": ["LC"], "status": "LC" },
+  { "property": "mask-box-image-repeat", "statuses": ["LC"], "status": "LC" },
+  { "property": "mask-box-image-slice", "statuses": ["LC"], "status": "LC" },
+  { "property": "mask-box-image-source", "statuses": ["LC"], "status": "LC" },
+  { "property": "mask-box-image-width", "statuses": ["LC"], "status": "LC" },
+  { "property": "mask-box-outset", "statuses": ["WD"], "status": "WD" },
+  { "property": "mask-box-repeat", "statuses": ["WD"], "status": "WD" },
+  { "property": "mask-box-slice", "statuses": ["WD"], "status": "WD" },
+  { "property": "mask-box-source", "statuses": ["WD"], "status": "WD" },
+  { "property": "mask-box-width", "statuses": ["WD"], "status": "WD" },
+  { "property": "mask-source-type", "statuses": ["WD"], "status": "WD" },
+  { "property": "max-font-size", "statuses": ["CR"], "status": "CR" },
+  { "property": "max-zoom", "statuses": ["WD"], "status": "WD" },
+  { "property": "min-font-size", "statuses": ["CR"], "status": "CR" },
+  { "property": "min-zoom", "statuses": ["WD"], "status": "WD" },
+  {
+    "property": "motion",
+    "statuses": ["FPWD"],
+    "status": "FPWD",
+    "values": [
+      "[",
+      "<offset-position>",
+      "?",
+      "[",
+      "<offset-path>",
+      "[",
+      "<offset-distance>",
+      "||",
+      "<offset-rotate>",
+      "]",
+      "?",
+      "]",
+      "?",
+      "]",
+      "!",
+      "[",
+      "/",
+      "<offset-anchor>",
+      "]",
+      "?"
+    ]
+  },
+  {
+    "property": "motion-offset",
+    "statuses": ["FPWD"],
+    "status": "FPWD",
+    "values": [
+      "<length-percentage>",
+      "where",
+      "<length-percentage>",
+      "=",
+      "<length>",
+      "|",
+      "<percentage>"
+    ]
+  },
+  {
+    "property": "motion-path",
+    "statuses": ["FPWD"],
+    "status": "FPWD",
+    "values": [
+      "none",
+      "|",
+      "ray(",
+      "[",
+      "<angle>",
+      "&&",
+      "<size>",
+      "?",
+      "&&",
+      "contain",
+      "?",
+      "]",
+      ")",
+      "|",
+      "<path()>",
+      "|",
+      "<url>",
+      "|",
+      "[",
+      "<basic-shape>",
+      "||",
+      "<geometry-box>",
+      "]",
+      "where",
+      "<size>",
+      "= closest-side",
+      "|",
+      "farthest-side",
+      "|",
+      "closest-corner",
+      "|",
+      "farthest-corner",
+      "|",
+      "<length>",
+      "|",
+      "<length-percentage>",
+      "{",
+      "2",
+      "}",
+      "<path()>",
+      "= path(",
+      "[",
+      "<fill-rule>",
+      ",",
+      "]",
+      "?",
+      "<string>",
+      ")",
+      "<basic-shape>",
+      "=",
+      "<inset()>",
+      "|",
+      "<circle()>",
+      "|",
+      "<ellipse()>",
+      "|",
+      "<polygon()>",
+      "|",
+      "<path()>",
+      "<geometry-box>",
+      "=",
+      "<shape-box>",
+      "|",
+      "fill-box",
+      "|",
+      "stroke-box",
+      "|",
+      "view-box",
+      "where",
+      "<length-percentage>",
+      "=",
+      "<length>",
+      "|",
+      "<percentage>",
+      "<fill-rule>",
+      "= nonzero",
+      "|",
+      "evenodd",
+      "<inset()>",
+      "= inset(",
+      "<length-percentage>",
+      "{",
+      "1,4",
+      "}",
+      "[",
+      "round",
+      "<border-radius>",
+      "]",
+      "?",
+      ")",
+      "<circle()>",
+      "= circle(",
+      "[",
+      "<shape-radius>",
+      "]",
+      "?",
+      "[",
+      "at",
+      "<position>",
+      "]",
+      "?",
+      ")",
+      "<ellipse()>",
+      "= ellipse(",
+      "[",
+      "<shape-radius>",
+      "{",
+      "2",
+      "}",
+      "]",
+      "?",
+      "[",
+      "at",
+      "<position>",
+      "]",
+      "?",
+      ")",
+      "<polygon()>",
+      "= polygon(",
+      "<fill-rule>",
+      "?",
+      ",",
+      "[",
+      "<length-percentage>",
+      "<length-percentage>",
+      "]",
+      "#",
+      ")",
+      "<shape-box>",
+      "=",
+      "<box>",
+      "|",
+      "margin-box",
+      "where",
+      "<shape-radius>",
+      "=",
+      "<length-percentage>",
+      "|",
+      "closest-side",
+      "|",
+      "farthest-side",
+      "<position>",
+      "=",
+      "[",
+      "[",
+      "left",
+      "|",
+      "center",
+      "|",
+      "right",
+      "]",
+      "||",
+      "[",
+      "top",
+      "|",
+      "center",
+      "|",
+      "bottom",
+      "]",
+      "|",
+      "[",
+      "left",
+      "|",
+      "center",
+      "|",
+      "right",
+      "|",
+      "<length-percentage>",
+      "]",
+      "[",
+      "top",
+      "|",
+      "center",
+      "|",
+      "bottom",
+      "|",
+      "<length-percentage>",
+      "]",
+      "?",
+      "|",
+      "[",
+      "[",
+      "left",
+      "|",
+      "right",
+      "]",
+      "<length-percentage>",
+      "]",
+      "&&",
+      "[",
+      "[",
+      "top",
+      "|",
+      "bottom",
+      "]",
+      "<length-percentage>",
+      "]",
+      "]",
+      "<box>",
+      "= border-box",
+      "|",
+      "padding-box",
+      "|",
+      "content-box"
+    ]
+  },
+  {
+    "property": "motion-rotation",
+    "statuses": ["FPWD"],
+    "status": "FPWD",
+    "values": ["[", "auto", "|", "reverse", "]", "||", "<angle>"]
+  },
+  { "property": "move-to", "statuses": ["WD"], "status": "WD" },
+  { "property": "nav-index", "statuses": ["LC"], "status": "LC" },
+  { "property": "offset-after", "statuses": ["WD"], "status": "WD" },
+  { "property": "offset-before", "statuses": ["WD"], "status": "WD" },
+  { "property": "offset-end", "statuses": ["WD"], "status": "WD" },
+  { "property": "offset-start", "statuses": ["WD"], "status": "WD" },
+  { "property": "orientation", "statuses": ["WD"], "status": "WD" },
+  { "property": "overflow-clip", "statuses": ["WD"], "status": "WD" },
+  { "property": "overflow-style", "statuses": ["CR"], "status": "CR" },
+  { "property": "page-policy", "statuses": ["CR"], "status": "CR" },
+  { "property": "phonemes", "statuses": ["WD"], "status": "WD" },
+  { "property": "polar-anchor", "statuses": ["WD"], "status": "WD" },
+  { "property": "polar-angle", "statuses": ["WD"], "status": "WD" },
+  { "property": "polar-distance", "statuses": ["WD"], "status": "WD" },
+  { "property": "polar-origin", "statuses": ["WD"], "status": "WD" },
+  { "property": "presentation-level", "statuses": ["WD"], "status": "WD" },
+  { "property": "punctuation-trim", "statuses": ["WD"], "status": "WD" },
+  { "property": "region-overflow", "statuses": ["WD"], "status": "WD" },
+  { "property": "rendering-intent", "statuses": ["CR"], "status": "CR" },
+  { "property": "resizer", "statuses": ["WD"], "status": "WD" },
+  { "property": "resolution", "statuses": ["WD"], "status": "WD" },
+  { "property": "rotation", "statuses": ["WD"], "status": "WD" },
+  { "property": "rotation-point", "statuses": ["WD"], "status": "WD" },
+  {
+    "property": "scroll-snap-coordinate",
+    "statuses": ["FPWD"],
+    "status": "FPWD",
+    "values": [
+      "none",
+      "|",
+      "<position>",
+      "#",
+      "where",
+      "<position>",
+      "=",
+      "[",
+      "[",
+      "left",
+      "|",
+      "center",
+      "|",
+      "right",
+      "]",
+      "||",
+      "[",
+      "top",
+      "|",
+      "center",
+      "|",
+      "bottom",
+      "]",
+      "|",
+      "[",
+      "left",
+      "|",
+      "center",
+      "|",
+      "right",
+      "|",
+      "<length-percentage>",
+      "]",
+      "[",
+      "top",
+      "|",
+      "center",
+      "|",
+      "bottom",
+      "|",
+      "<length-percentage>",
+      "]",
+      "?",
+      "|",
+      "[",
+      "[",
+      "left",
+      "|",
+      "right",
+      "]",
+      "<length-percentage>",
+      "]",
+      "&&",
+      "[",
+      "[",
+      "top",
+      "|",
+      "bottom",
+      "]",
+      "<length-percentage>",
+      "]",
+      "]",
+      "where",
+      "<length-percentage>",
+      "=",
+      "<length>",
+      "|",
+      "<percentage>"
+    ]
+  },
+  {
+    "property": "scroll-snap-destination",
+    "statuses": ["FPWD"],
+    "status": "FPWD",
+    "values": [
+      "<position>",
+      "where",
+      "<position>",
+      "=",
+      "[",
+      "[",
+      "left",
+      "|",
+      "center",
+      "|",
+      "right",
+      "]",
+      "||",
+      "[",
+      "top",
+      "|",
+      "center",
+      "|",
+      "bottom",
+      "]",
+      "|",
+      "[",
+      "left",
+      "|",
+      "center",
+      "|",
+      "right",
+      "|",
+      "<length-percentage>",
+      "]",
+      "[",
+      "top",
+      "|",
+      "center",
+      "|",
+      "bottom",
+      "|",
+      "<length-percentage>",
+      "]",
+      "?",
+      "|",
+      "[",
+      "[",
+      "left",
+      "|",
+      "right",
+      "]",
+      "<length-percentage>",
+      "]",
+      "&&",
+      "[",
+      "[",
+      "top",
+      "|",
+      "bottom",
+      "]",
+      "<length-percentage>",
+      "]",
+      "]",
+      "where",
+      "<length-percentage>",
+      "=",
+      "<length>",
+      "|",
+      "<percentage>"
+    ]
+  },
+  { "property": "scroll-snap-margin", "statuses": ["CR"], "status": "CR" },
+  {
+    "property": "scroll-snap-margin-block",
+    "statuses": ["CR"],
+    "status": "CR"
+  },
+  {
+    "property": "scroll-snap-margin-block-end",
+    "statuses": ["CR"],
+    "status": "CR"
+  },
+  {
+    "property": "scroll-snap-margin-block-start",
+    "statuses": ["CR"],
+    "status": "CR"
+  },
+  {
+    "property": "scroll-snap-margin-bottom",
+    "statuses": ["CR"],
+    "status": "CR"
+  },
+  {
+    "property": "scroll-snap-margin-inline",
+    "statuses": ["CR"],
+    "status": "CR"
+  },
+  {
+    "property": "scroll-snap-margin-inline-end",
+    "statuses": ["CR"],
+    "status": "CR"
+  },
+  {
+    "property": "scroll-snap-margin-inline-start",
+    "statuses": ["CR"],
+    "status": "CR"
+  },
+  { "property": "scroll-snap-margin-left", "statuses": ["CR"], "status": "CR" },
+  {
+    "property": "scroll-snap-margin-right",
+    "statuses": ["CR"],
+    "status": "CR"
+  },
+  { "property": "scroll-snap-margin-top", "statuses": ["CR"], "status": "CR" },
+  { "property": "scroll-snap-padding", "statuses": ["WD"], "status": "WD" },
+  {
+    "property": "scroll-snap-padding-block",
+    "statuses": ["WD"],
+    "status": "WD"
+  },
+  {
+    "property": "scroll-snap-padding-block-end",
+    "statuses": ["WD"],
+    "status": "WD"
+  },
+  {
+    "property": "scroll-snap-padding-block-start",
+    "statuses": ["WD"],
+    "status": "WD"
+  },
+  {
+    "property": "scroll-snap-padding-bottom",
+    "statuses": ["WD"],
+    "status": "WD"
+  },
+  {
+    "property": "scroll-snap-padding-inline",
+    "statuses": ["WD"],
+    "status": "WD"
+  },
+  {
+    "property": "scroll-snap-padding-inline-end",
+    "statuses": ["WD"],
+    "status": "WD"
+  },
+  {
+    "property": "scroll-snap-padding-inline-start",
+    "statuses": ["WD"],
+    "status": "WD"
+  },
+  {
+    "property": "scroll-snap-padding-left",
+    "statuses": ["WD"],
+    "status": "WD"
+  },
+  {
+    "property": "scroll-snap-padding-right",
+    "statuses": ["WD"],
+    "status": "WD"
+  },
+  { "property": "scroll-snap-padding-top", "statuses": ["WD"], "status": "WD" },
+  {
+    "property": "scroll-snap-points-x",
+    "statuses": ["FPWD"],
+    "status": "FPWD",
+    "values": [
+      "none",
+      "|",
+      "repeat(",
+      "<length-percentage>",
+      ")",
+      "where",
+      "<length-percentage>",
+      "=",
+      "<length>",
+      "|",
+      "<percentage>"
+    ]
+  },
+  {
+    "property": "scroll-snap-points-y",
+    "statuses": ["FPWD"],
+    "status": "FPWD",
+    "values": [
+      "none",
+      "|",
+      "repeat(",
+      "<length-percentage>",
+      ")",
+      "where",
+      "<length-percentage>",
+      "=",
+      "<length>",
+      "|",
+      "<percentage>"
+    ]
+  },
+  { "property": "size", "statuses": ["WD"], "status": "WD" },
+  { "property": "something-or-other", "statuses": ["WD"], "status": "WD" },
+  { "property": "speakability", "statuses": ["WD"], "status": "WD" },
+  { "property": "tab-side", "statuses": ["WD"], "status": "WD" },
+  { "property": "target", "statuses": ["WD"], "status": "WD" },
+  { "property": "target-name", "statuses": ["WD"], "status": "WD" },
+  { "property": "target-new", "statuses": ["WD"], "status": "WD" },
+  { "property": "target-position", "statuses": ["WD"], "status": "WD" },
+  { "property": "text-align-first", "statuses": ["WD"], "status": "WD" },
+  { "property": "text-autospace", "statuses": ["WD"], "status": "WD" },
+  { "property": "text-blink", "statuses": ["CR"], "status": "CR" },
+  { "property": "text-block-indent", "statuses": ["LC"], "status": "LC" },
+  { "property": "text-combine", "statuses": ["WD"], "status": "WD" },
+  {
+    "property": "text-combine-horizontal",
+    "statuses": ["LC"],
+    "status": "LC",
+    "values": ["none", "|", "all", "|", "[", "digits", "<integer>", "?", "]"]
+  },
+  { "property": "text-combine-mode", "statuses": ["WD"], "status": "WD" },
+  {
+    "property": "text-decoration-width",
+    "statuses": ["FPWD"],
+    "status": "FPWD"
+  },
+  { "property": "text-first-indent", "statuses": ["LC"], "status": "LC" },
+  { "property": "text-justify-trim", "statuses": ["CR"], "status": "CR" },
+  { "property": "text-kashida-space", "statuses": ["CR"], "status": "CR" },
+  { "property": "text-line-through", "statuses": ["CR"], "status": "CR" },
+  { "property": "text-line-through-color", "statuses": ["CR"], "status": "CR" },
+  { "property": "text-line-through-mode", "statuses": ["CR"], "status": "CR" },
+  { "property": "text-line-through-style", "statuses": ["CR"], "status": "CR" },
+  { "property": "text-line-through-width", "statuses": ["CR"], "status": "CR" },
+  { "property": "text-outline", "statuses": ["WD"], "status": "WD" },
+  { "property": "text-overflow-ellipsis", "statuses": ["CR"], "status": "CR" },
+  { "property": "text-overflow-mode", "statuses": ["CR"], "status": "CR" },
+  { "property": "text-overline", "statuses": ["CR"], "status": "CR" },
+  { "property": "text-overline-color", "statuses": ["CR"], "status": "CR" },
+  { "property": "text-overline-mode", "statuses": ["CR"], "status": "CR" },
+  { "property": "text-overline-style", "statuses": ["CR"], "status": "CR" },
+  { "property": "text-overline-width", "statuses": ["CR"], "status": "CR" },
+  { "property": "text-replace", "statuses": ["WD"], "status": "WD" },
+  { "property": "text-script", "statuses": ["CR"], "status": "CR" },
+  { "property": "text-trim", "statuses": ["WD"], "status": "WD" },
+  { "property": "text-underline", "statuses": ["CR"], "status": "CR" },
+  { "property": "text-underline-color", "statuses": ["CR"], "status": "CR" },
+  { "property": "text-underline-mode", "statuses": ["CR"], "status": "CR" },
+  { "property": "text-underline-style", "statuses": ["CR"], "status": "CR" },
+  { "property": "text-underline-width", "statuses": ["CR"], "status": "CR" },
+  { "property": "user-zoom", "statuses": ["WD"], "status": "WD" },
+  { "property": "var-*", "statuses": ["LC"], "status": "LC" },
+  { "property": "vertical-position", "statuses": ["WD"], "status": "WD" },
+  { "property": "voice-pitch-range", "statuses": ["WD"], "status": "WD" },
+  { "property": "white-space-collapse", "statuses": ["WD"], "status": "WD" },
+  { "property": "white-space-collapsing", "statuses": ["WD"], "status": "WD" },
+  { "property": "white-space-treatment", "statuses": ["CR"], "status": "CR" },
+  { "property": "word-break-cjk", "statuses": ["CR"], "status": "CR" },
+  { "property": "word-break-inside", "statuses": ["CR"], "status": "CR" },
+  { "property": "wrap", "statuses": ["WD"], "status": "WD" },
+  { "property": "wrap-margin", "statuses": ["WD"], "status": "WD" },
+  { "property": "wrap-option", "statuses": ["CR"], "status": "CR" },
+  { "property": "wrap-padding", "statuses": ["WD"], "status": "WD" },
+  {
+    "property": "zoom",
+    "statuses": ["WD"],
+    "status": "WD",
     "values": ["normal", "|", "reset", "|", "<number>", "|", "<percentage>"]
   }
 ]
