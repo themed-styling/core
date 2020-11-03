@@ -55,7 +55,7 @@ const getTransformer = values => {
       '<border-top-width>',
     ])
   ) {
-    return 'pxTransformer'
+    return 'pixelsTransformer'
   }
 
   if (array(values).includesOneOf(['<color>', '<border-top-color>'])) {

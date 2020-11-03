@@ -1,7 +1,7 @@
 import core from './util/core'
 import plainTransformer from './util/transformers/plainTransformer'
 import colorTransformer from './util/transformers/colorTransformer'
-import pxTransformer from './util/transformers/pxTransformer'
+import pixelsTransformer from './util/transformers/pixelsTransformer'
 
 export const alignContent = core(
   'alignContent',
@@ -143,7 +143,7 @@ export const backgroundSize = core(
   'backgroundSize',
   'background-size:',
   ';',
-  pxTransformer
+  pixelsTransformer
 )
 export const baselineShift = core(
   'baselineShift',
@@ -187,7 +187,7 @@ export const borderBlock = core(
   'borderBlock',
   'border-block:',
   ';',
-  pxTransformer
+  pixelsTransformer
 )
 export const borderBlockColor = core(
   'borderBlockColor',
@@ -199,7 +199,7 @@ export const borderBlockEnd = core(
   'borderBlockEnd',
   'border-block-end:',
   ';',
-  pxTransformer
+  pixelsTransformer
 )
 export const borderBlockEndColor = core(
   'borderBlockEndColor',
@@ -217,13 +217,13 @@ export const borderBlockEndWidth = core(
   'borderBlockEndWidth',
   'border-block-end-width:',
   ';',
-  pxTransformer
+  pixelsTransformer
 )
 export const borderBlockStart = core(
   'borderBlockStart',
   'border-block-start:',
   ';',
-  pxTransformer
+  pixelsTransformer
 )
 export const borderBlockStartColor = core(
   'borderBlockStartColor',
@@ -241,7 +241,7 @@ export const borderBlockStartWidth = core(
   'borderBlockStartWidth',
   'border-block-start-width:',
   ';',
-  pxTransformer
+  pixelsTransformer
 )
 export const borderBlockStyle = core(
   'borderBlockStyle',
@@ -253,7 +253,7 @@ export const borderBlockWidth = core(
   'borderBlockWidth',
   'border-block-width:',
   ';',
-  pxTransformer
+  pixelsTransformer
 )
 export const borderBottom = core(
   'borderBottom',
@@ -271,13 +271,13 @@ export const borderBottomLeftRadius = core(
   'borderBottomLeftRadius',
   'border-bottom-left-radius:',
   ';',
-  pxTransformer
+  pixelsTransformer
 )
 export const borderBottomRightRadius = core(
   'borderBottomRightRadius',
   'border-bottom-right-radius:',
   ';',
-  pxTransformer
+  pixelsTransformer
 )
 export const borderBottomStyle = core(
   'borderBottomStyle',
@@ -289,7 +289,7 @@ export const borderBottomWidth = core(
   'borderBottomWidth',
   'border-bottom-width:',
   ';',
-  pxTransformer
+  pixelsTransformer
 )
 export const borderBoundary = core(
   'borderBoundary',
@@ -313,13 +313,13 @@ export const borderEndEndRadius = core(
   'borderEndEndRadius',
   'border-end-end-radius:',
   ';',
-  pxTransformer
+  pixelsTransformer
 )
 export const borderEndStartRadius = core(
   'borderEndStartRadius',
   'border-end-start-radius:',
   ';',
-  pxTransformer
+  pixelsTransformer
 )
 export const borderImage = core(
   'borderImage',
@@ -331,7 +331,7 @@ export const borderImageOutset = core(
   'borderImageOutset',
   'border-image-outset:',
   ';',
-  pxTransformer
+  pixelsTransformer
 )
 export const borderImageRepeat = core(
   'borderImageRepeat',
@@ -355,13 +355,13 @@ export const borderImageWidth = core(
   'borderImageWidth',
   'border-image-width:',
   ';',
-  pxTransformer
+  pixelsTransformer
 )
 export const borderInline = core(
   'borderInline',
   'border-inline:',
   ';',
-  pxTransformer
+  pixelsTransformer
 )
 export const borderInlineColor = core(
   'borderInlineColor',
@@ -373,7 +373,7 @@ export const borderInlineEnd = core(
   'borderInlineEnd',
   'border-inline-end:',
   ';',
-  pxTransformer
+  pixelsTransformer
 )
 export const borderInlineEndColor = core(
   'borderInlineEndColor',
@@ -391,13 +391,13 @@ export const borderInlineEndWidth = core(
   'borderInlineEndWidth',
   'border-inline-end-width:',
   ';',
-  pxTransformer
+  pixelsTransformer
 )
 export const borderInlineStart = core(
   'borderInlineStart',
   'border-inline-start:',
   ';',
-  pxTransformer
+  pixelsTransformer
 )
 export const borderInlineStartColor = core(
   'borderInlineStartColor',
@@ -415,7 +415,7 @@ export const borderInlineStartWidth = core(
   'borderInlineStartWidth',
   'border-inline-start-width:',
   ';',
-  pxTransformer
+  pixelsTransformer
 )
 export const borderInlineStyle = core(
   'borderInlineStyle',
@@ -427,7 +427,7 @@ export const borderInlineWidth = core(
   'borderInlineWidth',
   'border-inline-width:',
   ';',
-  pxTransformer
+  pixelsTransformer
 )
 export const borderLeft = core(
   'borderLeft',
@@ -451,13 +451,13 @@ export const borderLeftWidth = core(
   'borderLeftWidth',
   'border-left-width:',
   ';',
-  pxTransformer
+  pixelsTransformer
 )
 export const borderRadius = core(
   'borderRadius',
   'border-radius:',
   ';',
-  pxTransformer
+  pixelsTransformer
 )
 export const borderRight = core(
   'borderRight',
@@ -481,25 +481,25 @@ export const borderRightWidth = core(
   'borderRightWidth',
   'border-right-width:',
   ';',
-  pxTransformer
+  pixelsTransformer
 )
 export const borderSpacing = core(
   'borderSpacing',
   'border-spacing:',
   ';',
-  pxTransformer
+  pixelsTransformer
 )
 export const borderStartEndRadius = core(
   'borderStartEndRadius',
   'border-start-end-radius:',
   ';',
-  pxTransformer
+  pixelsTransformer
 )
 export const borderStartStartRadius = core(
   'borderStartStartRadius',
   'border-start-start-radius:',
   ';',
-  pxTransformer
+  pixelsTransformer
 )
 export const borderStyle = core(
   'borderStyle',
@@ -518,13 +518,13 @@ export const borderTopLeftRadius = core(
   'borderTopLeftRadius',
   'border-top-left-radius:',
   ';',
-  pxTransformer
+  pixelsTransformer
 )
 export const borderTopRightRadius = core(
   'borderTopRightRadius',
   'border-top-right-radius:',
   ';',
-  pxTransformer
+  pixelsTransformer
 )
 export const borderTopStyle = core(
   'borderTopStyle',
@@ -536,15 +536,15 @@ export const borderTopWidth = core(
   'borderTopWidth',
   'border-top-width:',
   ';',
-  pxTransformer
+  pixelsTransformer
 )
 export const borderWidth = core(
   'borderWidth',
   'border-width:',
   ';',
-  pxTransformer
+  pixelsTransformer
 )
-export const bottom = core('bottom', 'bottom:', ';', pxTransformer)
+export const bottom = core('bottom', 'bottom:', ';', pixelsTransformer)
 export const boxDecorationBreak = core(
   'boxDecorationBreak',
   'box-decoration-break:',
@@ -626,7 +626,12 @@ export const columnFill = core(
   ';',
   plainTransformer
 )
-export const columnGap = core('columnGap', 'column-gap:', ';', pxTransformer)
+export const columnGap = core(
+  'columnGap',
+  'column-gap:',
+  ';',
+  pixelsTransformer
+)
 export const columnRule = core(
   'columnRule',
   'column-rule:',
@@ -661,7 +666,7 @@ export const columnWidth = core(
   'columnWidth',
   'column-width:',
   ';',
-  pxTransformer
+  pixelsTransformer
 )
 export const columns = core('columns', 'columns:', ';', plainTransformer)
 export const contain = core('contain', 'contain:', ';', plainTransformer)
@@ -791,7 +796,7 @@ export const fontPalette = core(
   ';',
   plainTransformer
 )
-export const fontSize = core('fontSize', 'font-size:', ';', pxTransformer)
+export const fontSize = core('fontSize', 'font-size:', ';', pixelsTransformer)
 export const fontSizeAdjust = core(
   'fontSizeAdjust',
   'font-size-adjust:',
@@ -907,7 +912,7 @@ export const forcedColorAdjust = core(
   ';',
   plainTransformer
 )
-export const gap = core('gap', 'gap:', ';', pxTransformer)
+export const gap = core('gap', 'gap:', ';', pixelsTransformer)
 export const glyphOrientationVertical = core(
   'glyphOrientationVertical',
   'glyph-orientation-vertical:',
@@ -995,7 +1000,7 @@ export const hangingPunctuation = core(
   ';',
   plainTransformer
 )
-export const height = core('height', 'height:', ';', pxTransformer)
+export const height = core('height', 'height:', ';', pixelsTransformer)
 export const hyphenateCharacter = core(
   'hyphenateCharacter',
   'hyphenate-character:',
@@ -1137,12 +1142,12 @@ export const leadingTrim = core(
   ';',
   plainTransformer
 )
-export const left = core('left', 'left:', ';', pxTransformer)
+export const left = core('left', 'left:', ';', pixelsTransformer)
 export const letterSpacing = core(
   'letterSpacing',
   'letter-spacing:',
   ';',
-  pxTransformer
+  pixelsTransformer
 )
 export const lightingColor = core(
   'lightingColor',
@@ -1153,7 +1158,12 @@ export const lightingColor = core(
 export const lineBreak = core('lineBreak', 'line-break:', ';', plainTransformer)
 export const lineClamp = core('lineClamp', 'line-clamp:', ';', plainTransformer)
 export const lineGrid = core('lineGrid', 'line-grid:', ';', plainTransformer)
-export const lineHeight = core('lineHeight', 'line-height:', ';', pxTransformer)
+export const lineHeight = core(
+  'lineHeight',
+  'line-height:',
+  ';',
+  pixelsTransformer
+)
 export const linePadding = core(
   'linePadding',
   'line-padding:',
@@ -1180,7 +1190,7 @@ export const listStyleType = core(
   ';',
   plainTransformer
 )
-export const margin = core('margin', 'margin:', ';', pxTransformer)
+export const margin = core('margin', 'margin:', ';', pixelsTransformer)
 export const marginBlock = core(
   'marginBlock',
   'margin-block:',
@@ -1203,7 +1213,7 @@ export const marginBottom = core(
   'marginBottom',
   'margin-bottom:',
   ';',
-  pxTransformer
+  pixelsTransformer
 )
 export const marginInline = core(
   'marginInline',
@@ -1223,14 +1233,24 @@ export const marginInlineStart = core(
   ';',
   plainTransformer
 )
-export const marginLeft = core('marginLeft', 'margin-left:', ';', pxTransformer)
+export const marginLeft = core(
+  'marginLeft',
+  'margin-left:',
+  ';',
+  pixelsTransformer
+)
 export const marginRight = core(
   'marginRight',
   'margin-right:',
   ';',
-  pxTransformer
+  pixelsTransformer
 )
-export const marginTop = core('marginTop', 'margin-top:', ';', pxTransformer)
+export const marginTop = core(
+  'marginTop',
+  'margin-top:',
+  ';',
+  pixelsTransformer
+)
 export const markerSide = core(
   'markerSide',
   'marker-side:',
@@ -1254,7 +1274,7 @@ export const maskBorderOutset = core(
   'maskBorderOutset',
   'mask-border-outset:',
   ';',
-  pxTransformer
+  pixelsTransformer
 )
 export const maskBorderRepeat = core(
   'maskBorderRepeat',
@@ -1278,7 +1298,7 @@ export const maskBorderWidth = core(
   'maskBorderWidth',
   'mask-border-width:',
   ';',
-  pxTransformer
+  pixelsTransformer
 )
 export const maskClip = core('maskClip', 'mask-clip:', ';', plainTransformer)
 export const maskComposite = core(
@@ -1307,7 +1327,7 @@ export const maskRepeat = core(
   ';',
   plainTransformer
 )
-export const maskSize = core('maskSize', 'mask-size:', ';', pxTransformer)
+export const maskSize = core('maskSize', 'mask-size:', ';', pixelsTransformer)
 export const maskType = core('maskType', 'mask-type:', ';', plainTransformer)
 export const maxBlockSize = core(
   'maxBlockSize',
@@ -1315,7 +1335,12 @@ export const maxBlockSize = core(
   ';',
   plainTransformer
 )
-export const maxHeight = core('maxHeight', 'max-height:', ';', pxTransformer)
+export const maxHeight = core(
+  'maxHeight',
+  'max-height:',
+  ';',
+  pixelsTransformer
+)
 export const maxInlineSize = core(
   'maxInlineSize',
   'max-inline-size:',
@@ -1323,21 +1348,26 @@ export const maxInlineSize = core(
   plainTransformer
 )
 export const maxLines = core('maxLines', 'max-lines:', ';', plainTransformer)
-export const maxWidth = core('maxWidth', 'max-width:', ';', pxTransformer)
+export const maxWidth = core('maxWidth', 'max-width:', ';', pixelsTransformer)
 export const minBlockSize = core(
   'minBlockSize',
   'min-block-size:',
   ';',
   plainTransformer
 )
-export const minHeight = core('minHeight', 'min-height:', ';', pxTransformer)
+export const minHeight = core(
+  'minHeight',
+  'min-height:',
+  ';',
+  pixelsTransformer
+)
 export const minInlineSize = core(
   'minInlineSize',
   'min-inline-size:',
   ';',
   plainTransformer
 )
-export const minWidth = core('minWidth', 'min-width:', ';', pxTransformer)
+export const minWidth = core('minWidth', 'min-width:', ';', pixelsTransformer)
 export const mixBlendMode = core(
   'mixBlendMode',
   'mix-blend-mode:',
@@ -1366,7 +1396,7 @@ export const offsetDistance = core(
   'offsetDistance',
   'offset-distance:',
   ';',
-  pxTransformer
+  pixelsTransformer
 )
 export const offsetPath = core(
   'offsetPath',
@@ -1400,7 +1430,7 @@ export const outlineOffset = core(
   'outlineOffset',
   'outline-offset:',
   ';',
-  pxTransformer
+  pixelsTransformer
 )
 export const outlineStyle = core(
   'outlineStyle',
@@ -1412,7 +1442,7 @@ export const outlineWidth = core(
   'outlineWidth',
   'outline-width:',
   ';',
-  pxTransformer
+  pixelsTransformer
 )
 export const overflow = core('overflow', 'overflow:', ';', plainTransformer)
 export const overflowBlock = core(
@@ -1441,7 +1471,7 @@ export const overflowWrap = core(
 )
 export const overflowX = core('overflowX', 'overflow-x:', ';', plainTransformer)
 export const overflowY = core('overflowY', 'overflow-y:', ';', plainTransformer)
-export const padding = core('padding', 'padding:', ';', pxTransformer)
+export const padding = core('padding', 'padding:', ';', pixelsTransformer)
 export const paddingBlock = core(
   'paddingBlock',
   'padding-block:',
@@ -1464,7 +1494,7 @@ export const paddingBottom = core(
   'paddingBottom',
   'padding-bottom:',
   ';',
-  pxTransformer
+  pixelsTransformer
 )
 export const paddingInline = core(
   'paddingInline',
@@ -1488,15 +1518,20 @@ export const paddingLeft = core(
   'paddingLeft',
   'padding-left:',
   ';',
-  pxTransformer
+  pixelsTransformer
 )
 export const paddingRight = core(
   'paddingRight',
   'padding-right:',
   ';',
-  pxTransformer
+  pixelsTransformer
 )
-export const paddingTop = core('paddingTop', 'padding-top:', ';', pxTransformer)
+export const paddingTop = core(
+  'paddingTop',
+  'padding-top:',
+  ';',
+  pixelsTransformer
+)
 export const page = core('page', 'page:', ';', plainTransformer)
 export const pageBreakAfter = core(
   'pageBreakAfter',
@@ -1573,8 +1608,8 @@ export const restBefore = core(
   plainTransformer
 )
 export const richness = core('richness', 'richness:', ';', plainTransformer)
-export const right = core('right', 'right:', ';', pxTransformer)
-export const rowGap = core('rowGap', 'row-gap:', ';', pxTransformer)
+export const right = core('right', 'right:', ';', pixelsTransformer)
+export const rowGap = core('rowGap', 'row-gap:', ';', pixelsTransformer)
 export const rubyAlign = core('rubyAlign', 'ruby-align:', ';', plainTransformer)
 export const rubyMerge = core('rubyMerge', 'ruby-merge:', ';', plainTransformer)
 export const rubyOverhang = core(
@@ -1600,133 +1635,133 @@ export const scrollMargin = core(
   'scrollMargin',
   'scroll-margin:',
   ';',
-  pxTransformer
+  pixelsTransformer
 )
 export const scrollMarginBlock = core(
   'scrollMarginBlock',
   'scroll-margin-block:',
   ';',
-  pxTransformer
+  pixelsTransformer
 )
 export const scrollMarginBlockEnd = core(
   'scrollMarginBlockEnd',
   'scroll-margin-block-end:',
   ';',
-  pxTransformer
+  pixelsTransformer
 )
 export const scrollMarginBlockStart = core(
   'scrollMarginBlockStart',
   'scroll-margin-block-start:',
   ';',
-  pxTransformer
+  pixelsTransformer
 )
 export const scrollMarginBottom = core(
   'scrollMarginBottom',
   'scroll-margin-bottom:',
   ';',
-  pxTransformer
+  pixelsTransformer
 )
 export const scrollMarginInline = core(
   'scrollMarginInline',
   'scroll-margin-inline:',
   ';',
-  pxTransformer
+  pixelsTransformer
 )
 export const scrollMarginInlineEnd = core(
   'scrollMarginInlineEnd',
   'scroll-margin-inline-end:',
   ';',
-  pxTransformer
+  pixelsTransformer
 )
 export const scrollMarginInlineStart = core(
   'scrollMarginInlineStart',
   'scroll-margin-inline-start:',
   ';',
-  pxTransformer
+  pixelsTransformer
 )
 export const scrollMarginLeft = core(
   'scrollMarginLeft',
   'scroll-margin-left:',
   ';',
-  pxTransformer
+  pixelsTransformer
 )
 export const scrollMarginRight = core(
   'scrollMarginRight',
   'scroll-margin-right:',
   ';',
-  pxTransformer
+  pixelsTransformer
 )
 export const scrollMarginTop = core(
   'scrollMarginTop',
   'scroll-margin-top:',
   ';',
-  pxTransformer
+  pixelsTransformer
 )
 export const scrollPadding = core(
   'scrollPadding',
   'scroll-padding:',
   ';',
-  pxTransformer
+  pixelsTransformer
 )
 export const scrollPaddingBlock = core(
   'scrollPaddingBlock',
   'scroll-padding-block:',
   ';',
-  pxTransformer
+  pixelsTransformer
 )
 export const scrollPaddingBlockEnd = core(
   'scrollPaddingBlockEnd',
   'scroll-padding-block-end:',
   ';',
-  pxTransformer
+  pixelsTransformer
 )
 export const scrollPaddingBlockStart = core(
   'scrollPaddingBlockStart',
   'scroll-padding-block-start:',
   ';',
-  pxTransformer
+  pixelsTransformer
 )
 export const scrollPaddingBottom = core(
   'scrollPaddingBottom',
   'scroll-padding-bottom:',
   ';',
-  pxTransformer
+  pixelsTransformer
 )
 export const scrollPaddingInline = core(
   'scrollPaddingInline',
   'scroll-padding-inline:',
   ';',
-  pxTransformer
+  pixelsTransformer
 )
 export const scrollPaddingInlineEnd = core(
   'scrollPaddingInlineEnd',
   'scroll-padding-inline-end:',
   ';',
-  pxTransformer
+  pixelsTransformer
 )
 export const scrollPaddingInlineStart = core(
   'scrollPaddingInlineStart',
   'scroll-padding-inline-start:',
   ';',
-  pxTransformer
+  pixelsTransformer
 )
 export const scrollPaddingLeft = core(
   'scrollPaddingLeft',
   'scroll-padding-left:',
   ';',
-  pxTransformer
+  pixelsTransformer
 )
 export const scrollPaddingRight = core(
   'scrollPaddingRight',
   'scroll-padding-right:',
   ';',
-  pxTransformer
+  pixelsTransformer
 )
 export const scrollPaddingTop = core(
   'scrollPaddingTop',
   'scroll-padding-top:',
   ';',
-  pxTransformer
+  pixelsTransformer
 )
 export const scrollSnapAlign = core(
   'scrollSnapAlign',
@@ -1762,7 +1797,7 @@ export const shapeMargin = core(
   'shapeMargin',
   'shape-margin:',
   ';',
-  pxTransformer
+  pixelsTransformer
 )
 export const shapeOutside = core(
   'shapeOutside',
@@ -1816,7 +1851,7 @@ export const speechRate = core(
 )
 export const stress = core('stress', 'stress:', ';', plainTransformer)
 export const stringSet = core('stringSet', 'string-set:', ';', plainTransformer)
-export const tabSize = core('tabSize', 'tab-size:', ';', pxTransformer)
+export const tabSize = core('tabSize', 'tab-size:', ';', pixelsTransformer)
 export const tableLayout = core(
   'tableLayout',
   'table-layout:',
@@ -1906,7 +1941,7 @@ export const textDecorationThickness = core(
   'textDecorationThickness',
   'text-decoration-thickness:',
   ';',
-  pxTransformer
+  pixelsTransformer
 )
 export const textEdge = core('textEdge', 'text-edge:', ';', plainTransformer)
 export const textEmphasis = core(
@@ -1945,7 +1980,12 @@ export const textGroupAlign = core(
   ';',
   plainTransformer
 )
-export const textIndent = core('textIndent', 'text-indent:', ';', pxTransformer)
+export const textIndent = core(
+  'textIndent',
+  'text-indent:',
+  ';',
+  pixelsTransformer
+)
 export const textJustify = core(
   'textJustify',
   'text-justify:',
@@ -1998,7 +2038,7 @@ export const textUnderlineOffset = core(
   'textUnderlineOffset',
   'text-underline-offset:',
   ';',
-  pxTransformer
+  pixelsTransformer
 )
 export const textUnderlinePosition = core(
   'textUnderlinePosition',
@@ -2007,7 +2047,7 @@ export const textUnderlinePosition = core(
   plainTransformer
 )
 export const textWrap = core('textWrap', 'text-wrap:', ';', plainTransformer)
-export const top = core('top', 'top:', ';', pxTransformer)
+export const top = core('top', 'top:', ';', pixelsTransformer)
 export const transform = core('transform', 'transform:', ';', plainTransformer)
 export const transformBox = core(
   'transformBox',
@@ -2019,7 +2059,7 @@ export const transformOrigin = core(
   'transformOrigin',
   'transform-origin:',
   ';',
-  pxTransformer
+  pixelsTransformer
 )
 export const transition = core(
   'transition',
@@ -2067,7 +2107,7 @@ export const verticalAlign = core(
   'verticalAlign',
   'vertical-align:',
   ';',
-  pxTransformer
+  pixelsTransformer
 )
 export const visibility = core(
   'visibility',
@@ -2126,7 +2166,7 @@ export const whiteSpace = core(
   plainTransformer
 )
 export const widows = core('widows', 'widows:', ';', plainTransformer)
-export const width = core('width', 'width:', ';', pxTransformer)
+export const width = core('width', 'width:', ';', pixelsTransformer)
 export const willChange = core(
   'willChange',
   'will-change:',
@@ -2150,7 +2190,7 @@ export const wordSpacing = core(
   'wordSpacing',
   'word-spacing:',
   ';',
-  pxTransformer
+  pixelsTransformer
 )
 export const wordWrap = core('wordWrap', 'word-wrap:', ';', plainTransformer)
 export const wrapAfter = core('wrapAfter', 'wrap-after:', ';', plainTransformer)
@@ -2198,7 +2238,7 @@ export const bikeshedding = core(
   ';',
   plainTransformer
 )
-export const bleed = core('bleed', 'bleed:', ';', pxTransformer)
+export const bleed = core('bleed', 'bleed:', ';', pixelsTransformer)
 export const blockOverflow = core(
   'blockOverflow',
   'block-overflow:',
@@ -2438,7 +2478,7 @@ export const gridColumnGap = core(
   'gridColumnGap',
   'grid-column-gap:',
   ';',
-  pxTransformer
+  pixelsTransformer
 )
 export const gridColumnPosition = core(
   'gridColumnPosition',
@@ -2478,7 +2518,7 @@ export const gridDefinitionRows = core(
 )
 export const gridEnd = core('gridEnd', 'grid-end:', ';', plainTransformer)
 export const gridFlow = core('gridFlow', 'grid-flow:', ';', plainTransformer)
-export const gridGap = core('gridGap', 'grid-gap:', ';', pxTransformer)
+export const gridGap = core('gridGap', 'grid-gap:', ';', pixelsTransformer)
 export const gridPosition = core(
   'gridPosition',
   'grid-position:',
@@ -2495,7 +2535,7 @@ export const gridRowGap = core(
   'gridRowGap',
   'grid-row-gap:',
   ';',
-  pxTransformer
+  pixelsTransformer
 )
 export const gridRowPosition = core(
   'gridRowPosition',

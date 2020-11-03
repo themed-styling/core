@@ -7,7 +7,7 @@ export const filters = [
   {
     name: 'blur',
     cssFunctionName: 'blur',
-    transformer: 'pxTransformer',
+    transformer: 'pixelsTransformer',
   },
   {
     name: 'brightness',
@@ -67,7 +67,7 @@ const expressions = filters.map(
 )
 
 const imports = [
-  'pxTransformer',
+  'pixelsTransformer',
   'percentTransformer',
   'plainTransformer',
   'degreesTransformer',

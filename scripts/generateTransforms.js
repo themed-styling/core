@@ -27,17 +27,17 @@ export const transforms = [
   {
     name: 'translateX',
     cssFunctionName: 'translateX',
-    transformer: 'pxTransformer',
+    transformer: 'pixelsTransformer',
   },
   {
     name: 'translateY',
     cssFunctionName: 'translateY',
-    transformer: 'pxTransformer',
+    transformer: 'pixelsTransformer',
   },
   {
     name: 'translateZ',
     cssFunctionName: 'translateZ',
-    transformer: 'pxTransformer',
+    transformer: 'pixelsTransformer',
   },
   {
     name: 'scale',
@@ -116,7 +116,11 @@ const expressions = transforms.map(
     `export const ${name} = core('${name}', 'transform:${cssFunctionName}(', ');', ${transformer})`
 )
 
-const imports = ['pxTransformer', 'plainTransformer', 'degreesTransformer'].map(
+const imports = [
+  'pixelsTransformer',
+  'plainTransformer',
+  'degreesTransformer',
+].map(
   transformer =>
     `import ${transformer} from './util/transformers/${transformer}'`
 )

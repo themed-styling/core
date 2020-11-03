@@ -23,6 +23,10 @@ export default value => {
     case 'string':
       return value
     default:
-      throw new TypeError(`Value has to be of type object, string, number or bigint but got ${JSON.stringify(value)}`)
+      throw new TypeError(
+        `Value has to be of type object, string, number or bigint but got ${JSON.stringify(
+          value
+        )}`
+      )
   }
 }

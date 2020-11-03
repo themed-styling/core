@@ -1,5 +1,5 @@
 import core from './util/core'
-import pxTransformer from './util/transformers/pxTransformer'
+import pixelsTransformer from './util/transformers/pixelsTransformer'
 import plainTransformer from './util/transformers/plainTransformer'
 import degreesTransformer from './util/transformers/degreesTransformer'
 
@@ -31,19 +31,19 @@ export const translateX = core(
   'translateX',
   'transform:translateX(',
   ');',
-  pxTransformer
+  pixelsTransformer
 )
 export const translateY = core(
   'translateY',
   'transform:translateY(',
   ');',
-  pxTransformer
+  pixelsTransformer
 )
 export const translateZ = core(
   'translateZ',
   'transform:translateZ(',
   ');',
-  pxTransformer
+  pixelsTransformer
 )
 export const scale = core('scale', 'transform:scale(', ');', plainTransformer)
 export const scale3D = core(
