@@ -1,10 +1,10 @@
 import core from './util/core'
-import pxTransformer from './util/transformers/pxTransformer'
+import pixelsTransformer from './util/transformers/pixelsTransformer'
 import percentTransformer from './util/transformers/percentTransformer'
 import plainTransformer from './util/transformers/plainTransformer'
 import degreesTransformer from './util/transformers/degreesTransformer'
 
-export const blur = core('blur', 'filter:blur(', ');', pxTransformer)
+export const blur = core('blur', 'filter:blur(', ');', pixelsTransformer)
 export const brightness = core(
   'brightness',
   'filter:brightness(',

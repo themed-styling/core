@@ -19,13 +19,17 @@ export default value => {
   switch (typeof value) {
     case 'number':
     case 'bigint':
-      // if (value === 0) {
-      //   return value
-      // }
+      if (value === 0) {
+        return value
+      }
       return [value, 'px']
     case 'string':
       return value
     default:
-      throw new TypeError(`Value has to be of type object, string, number or bigint but got ${JSON.stringify(value)}`)
+      throw new TypeError(
+        `Value has to be of type object, string, number or bigint but got ${JSON.stringify(
+          value
+        )}`
+      )
   }
 }
