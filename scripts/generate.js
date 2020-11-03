@@ -69,20 +69,31 @@ const getTransformer = values => {
   return 'plainTransformer'
 }
 
-// read scraped properties
-const properties = JSON.parse(fs.readFileSync('resources/properties.json'))
+// read properties
+const allowedStatuses = ['WD', 'CRD', 'CR', 'PR', 'REC']
+
+const properties = JSON.parse(
+  fs.readFileSync('resources/properties.json')
+).filter(({ statuses }) => {
+  for (const status of statuses) {
+    if (allowedStatuses.includes(status)) {
+      return true
+    }
+  }
+  return false
+})
 
 // collect which transformers are used
 const transformerSet = new Set()
 // create an array of expressions
 const expressions = properties
-  .filter(({ name }) => name !== '--*')
-  .map(({ name, values }) => {
-    const functionName = getFunctionName(name)
+  .filter(({ property }) => property !== '--*')
+  .map(({ property, values }) => {
+    const functionName = getFunctionName(property)
     const transformer = getTransformer(limitValues(values))
     transformerSet.add(transformer)
 
-    return `export const ${functionName} = core('${functionName}', '${name}:', ';', ${transformer})`
+    return `export const ${functionName} = core('${functionName}', '${property}:', ';', ${transformer})`
   })
 
 // create an array of import statements
