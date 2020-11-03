@@ -4,12 +4,11 @@ on: push
 
 jobs:
   test:
-
     runs-on: ubuntu-latest
 
     strategy:
       matrix:
-        node-version: [12.x]
+        node-version: [15.x]
 
     steps:
       - uses: actions/checkout@v2
@@ -21,9 +20,8 @@ jobs:
       - run: npm run test
         env:
           CI: true
-          
-  build:
 
+  build:
     runs-on: ubuntu-latest
 
     strategy:
