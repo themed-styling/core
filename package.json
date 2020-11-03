@@ -11,7 +11,7 @@
     "test": "jest tests/component.test.js",
     "prepublishOnly": "rm -rf dist && npm run build",
     "scrape": "node scripts/scrape.js",
-    "generate": "node scripts/generate.js"
+    "generate": "node scripts/generate.js; node scripts/generateFilters.js; node scripts/generateTransforms.js"
   },
   "repository": {
     "type": "git",
