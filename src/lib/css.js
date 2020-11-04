@@ -8,6 +8,10 @@ export default fallback => {
       props
     )
 
+    if (typeof resolvedValue === 'undefined') {
+      return
+    }
+
     if (typeof resolvedValue === 'object') {
       const { standard, ...breakpoints } = resolvedValue
       if (standard !== undefined) {
