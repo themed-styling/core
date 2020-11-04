@@ -41,7 +41,7 @@ export default fallback => {
       ])
     }
 
-    return resolvedValue
+    return resolveFunction(get(resolvedValue, theme) || resolvedValue)
   }
 
   fn.propless_ = false
