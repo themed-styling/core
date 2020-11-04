@@ -7,6 +7,12 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [3.0.1] - 2020-11-04
+
+### Fixed
+
+- All functions throwing an error when not passed any value
+
 ## [3.0.0] - 2020-11-03
 
 ### Added
