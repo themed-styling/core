@@ -69,7 +69,7 @@ export default (
       ])
     }
 
-    return make(resolvedValue)
+    return make(resolveFunction(get(resolvedValue, theme) || resolvedValue))
   }
 
   fn.propless_ = false
