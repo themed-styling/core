@@ -27,6 +27,10 @@ export default (
       props
     )
 
+    if (typeof resolvedValue === 'undefined') {
+      return
+    }
+
     const make = value => [
       cssBeforeValue,
       fn.doCalc_
