@@ -8,7 +8,9 @@
   "scripts": {
     "doc": "jsdoc -r src -d docs",
     "build": "rollup -c",
-    "test": "jest tests/component.test.js",
+    "test": "jest",
+    "test:coverage": "jest --coverage",
+    "test:generate": "node scripts/generateTests.js",
     "prepublishOnly": "rm -rf dist && npm run build",
     "scrape": "node scripts/scrape.js",
     "generate": "node scripts/generate.js; node scripts/generateFilters.js; node scripts/generateTransforms.js"
