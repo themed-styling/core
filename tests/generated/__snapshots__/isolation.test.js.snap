@@ -1,0 +1,626 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`isolation renders 0 1`] = `
+Array [
+  .c0 {
+  isolation: 0;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  isolation: 0;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  isolation: 0;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  isolation: 0;
+}
+
+<div
+    className="c0"
+  />,
+]
+`;
+
+exports[`isolation renders function 1`] = `
+Array [
+  .c0 {
+  isolation: hasnot;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  isolation: has;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  isolation: hasnot;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  isolation: has;
+}
+
+<div
+    className="c0"
+  />,
+]
+`;
+
+exports[`isolation renders invalid theme path 1`] = `
+Array [
+  .c0 {
+  isolation: invalid.path.1;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  isolation: invalid.path.1;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  isolation: invalid.path.1;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  isolation: invalid.path.1;
+}
+
+<div
+    className="c0"
+  />,
+]
+`;
+
+exports[`isolation renders negative number 1`] = `
+Array [
+  .c0 {
+  isolation: -54881;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  isolation: -54881;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  isolation: -42365;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  isolation: -42365;
+}
+
+<div
+    className="c0"
+  />,
+]
+`;
+
+exports[`isolation renders object [breakpoints] 1`] = `
+Array [
+  @media screen and (min-width:November) {
+  .c0 {
+    isolation: July;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    isolation: August;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    isolation: September;
+  }
+}
+
+@media screen and (min-width:August) {
+  .c0 {
+    isolation: November;
+  }
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:August) {
+
+}
+
+<div
+    className="c0"
+  />,
+  @media screen and (min-width:November) {
+  .c0 {
+    isolation: July;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    isolation: August;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    isolation: September;
+  }
+}
+
+@media screen and (min-width:August) {
+  .c0 {
+    isolation: November;
+  }
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:August) {
+
+}
+
+<div
+    className="c0"
+  />,
+  @media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:August) {
+
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    isolation: May;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    isolation: June;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    isolation: April;
+  }
+}
+
+@media screen and (min-width:August) {
+  .c0 {
+    isolation: November;
+  }
+}
+
+<div
+    className="c0"
+  />,
+  @media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:August) {
+
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    isolation: May;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    isolation: June;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    isolation: April;
+  }
+}
+
+@media screen and (min-width:August) {
+  .c0 {
+    isolation: November;
+  }
+}
+
+<div
+    className="c0"
+  />,
+]
+`;
+
+exports[`isolation renders object [breakpoints] 2`] = `
+Array [
+  @media May {
+  .c0 {
+    isolation: July;
+  }
+}
+
+@media April {
+  .c0 {
+    isolation: August;
+  }
+}
+
+@media January {
+  .c0 {
+    isolation: September;
+  }
+}
+
+@media April {
+  .c0 {
+    isolation: November;
+  }
+}
+
+@media June {
+  .c0 {
+    isolation: August;
+  }
+}
+
+@media May {
+
+}
+
+@media April {
+
+}
+
+@media January {
+
+}
+
+@media April {
+
+}
+
+@media June {
+
+}
+
+<div
+    className="c0"
+  />,
+  @media May {
+  .c0 {
+    isolation: July;
+  }
+}
+
+@media April {
+  .c0 {
+    isolation: August;
+  }
+}
+
+@media January {
+  .c0 {
+    isolation: September;
+  }
+}
+
+@media April {
+  .c0 {
+    isolation: November;
+  }
+}
+
+@media June {
+  .c0 {
+    isolation: August;
+  }
+}
+
+@media May {
+
+}
+
+@media April {
+
+}
+
+@media January {
+
+}
+
+@media April {
+
+}
+
+@media June {
+
+}
+
+<div
+    className="c0"
+  />,
+  @media May {
+
+}
+
+@media April {
+
+}
+
+@media January {
+
+}
+
+@media April {
+
+}
+
+@media June {
+
+}
+
+@media May {
+  .c0 {
+    isolation: January;
+  }
+}
+
+@media April {
+  .c0 {
+    isolation: December;
+  }
+}
+
+@media January {
+  .c0 {
+    isolation: April;
+  }
+}
+
+@media April {
+  .c0 {
+    isolation: May;
+  }
+}
+
+@media June {
+  .c0 {
+    isolation: June;
+  }
+}
+
+<div
+    className="c0"
+  />,
+  @media May {
+
+}
+
+@media April {
+
+}
+
+@media January {
+
+}
+
+@media April {
+
+}
+
+@media June {
+
+}
+
+@media May {
+  .c0 {
+    isolation: January;
+  }
+}
+
+@media April {
+  .c0 {
+    isolation: December;
+  }
+}
+
+@media January {
+  .c0 {
+    isolation: April;
+  }
+}
+
+@media April {
+  .c0 {
+    isolation: May;
+  }
+}
+
+@media June {
+  .c0 {
+    isolation: June;
+  }
+}
+
+<div
+    className="c0"
+  />,
+]
+`;
+
+exports[`isolation renders postitive number 1`] = `
+Array [
+  .c0 {
+  isolation: 54881;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  isolation: 54881;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  isolation: 42365;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  isolation: 42365;
+}
+
+<div
+    className="c0"
+  />,
+]
+`;
+
+exports[`isolation renders string 1`] = `
+Array [
+  .c0 {
+  isolation: July;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  isolation: July;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  isolation: June;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  isolation: June;
+}
+
+<div
+    className="c0"
+  />,
+]
+`;
+
+exports[`isolation renders valid theme path 1`] = `
+Array [
+  .c0 {
+  isolation: DarkSlateBlue;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  isolation: DarkSlateBlue;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  isolation: DarkSlateBlue;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  isolation: DarkSlateBlue;
+}
+
+<div
+    className="c0"
+  />,
+]
+`;

@@ -1,0 +1,690 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`breakInside renders 0 1`] = `
+Array [
+  .c0 {
+  -webkit-break-inside: 0;
+  break-inside: 0;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-break-inside: 0;
+  break-inside: 0;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-break-inside: 0;
+  break-inside: 0;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-break-inside: 0;
+  break-inside: 0;
+}
+
+<div
+    className="c0"
+  />,
+]
+`;
+
+exports[`breakInside renders function 1`] = `
+Array [
+  .c0 {
+  -webkit-break-inside: hasnot;
+  break-inside: hasnot;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-break-inside: has;
+  break-inside: has;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-break-inside: hasnot;
+  break-inside: hasnot;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-break-inside: has;
+  break-inside: has;
+}
+
+<div
+    className="c0"
+  />,
+]
+`;
+
+exports[`breakInside renders invalid theme path 1`] = `
+Array [
+  .c0 {
+  -webkit-break-inside: invalid.path.1;
+  break-inside: invalid.path.1;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-break-inside: invalid.path.1;
+  break-inside: invalid.path.1;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-break-inside: invalid.path.1;
+  break-inside: invalid.path.1;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-break-inside: invalid.path.1;
+  break-inside: invalid.path.1;
+}
+
+<div
+    className="c0"
+  />,
+]
+`;
+
+exports[`breakInside renders negative number 1`] = `
+Array [
+  .c0 {
+  -webkit-break-inside: -54881;
+  break-inside: -54881;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-break-inside: -54881;
+  break-inside: -54881;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-break-inside: -42365;
+  break-inside: -42365;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-break-inside: -42365;
+  break-inside: -42365;
+}
+
+<div
+    className="c0"
+  />,
+]
+`;
+
+exports[`breakInside renders object [breakpoints] 1`] = `
+Array [
+  @media screen and (min-width:November) {
+  .c0 {
+    -webkit-break-inside: July;
+    break-inside: July;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    -webkit-break-inside: August;
+    break-inside: August;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    -webkit-break-inside: September;
+    break-inside: September;
+  }
+}
+
+@media screen and (min-width:August) {
+  .c0 {
+    -webkit-break-inside: November;
+    break-inside: November;
+  }
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:August) {
+
+}
+
+<div
+    className="c0"
+  />,
+  @media screen and (min-width:November) {
+  .c0 {
+    -webkit-break-inside: July;
+    break-inside: July;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    -webkit-break-inside: August;
+    break-inside: August;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    -webkit-break-inside: September;
+    break-inside: September;
+  }
+}
+
+@media screen and (min-width:August) {
+  .c0 {
+    -webkit-break-inside: November;
+    break-inside: November;
+  }
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:August) {
+
+}
+
+<div
+    className="c0"
+  />,
+  @media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:August) {
+
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    -webkit-break-inside: May;
+    break-inside: May;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    -webkit-break-inside: June;
+    break-inside: June;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    -webkit-break-inside: April;
+    break-inside: April;
+  }
+}
+
+@media screen and (min-width:August) {
+  .c0 {
+    -webkit-break-inside: November;
+    break-inside: November;
+  }
+}
+
+<div
+    className="c0"
+  />,
+  @media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:August) {
+
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    -webkit-break-inside: May;
+    break-inside: May;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    -webkit-break-inside: June;
+    break-inside: June;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    -webkit-break-inside: April;
+    break-inside: April;
+  }
+}
+
+@media screen and (min-width:August) {
+  .c0 {
+    -webkit-break-inside: November;
+    break-inside: November;
+  }
+}
+
+<div
+    className="c0"
+  />,
+]
+`;
+
+exports[`breakInside renders object [breakpoints] 2`] = `
+Array [
+  @media May {
+  .c0 {
+    -webkit-break-inside: July;
+    break-inside: July;
+  }
+}
+
+@media April {
+  .c0 {
+    -webkit-break-inside: August;
+    break-inside: August;
+  }
+}
+
+@media January {
+  .c0 {
+    -webkit-break-inside: September;
+    break-inside: September;
+  }
+}
+
+@media April {
+  .c0 {
+    -webkit-break-inside: November;
+    break-inside: November;
+  }
+}
+
+@media June {
+  .c0 {
+    -webkit-break-inside: August;
+    break-inside: August;
+  }
+}
+
+@media May {
+
+}
+
+@media April {
+
+}
+
+@media January {
+
+}
+
+@media April {
+
+}
+
+@media June {
+
+}
+
+<div
+    className="c0"
+  />,
+  @media May {
+  .c0 {
+    -webkit-break-inside: July;
+    break-inside: July;
+  }
+}
+
+@media April {
+  .c0 {
+    -webkit-break-inside: August;
+    break-inside: August;
+  }
+}
+
+@media January {
+  .c0 {
+    -webkit-break-inside: September;
+    break-inside: September;
+  }
+}
+
+@media April {
+  .c0 {
+    -webkit-break-inside: November;
+    break-inside: November;
+  }
+}
+
+@media June {
+  .c0 {
+    -webkit-break-inside: August;
+    break-inside: August;
+  }
+}
+
+@media May {
+
+}
+
+@media April {
+
+}
+
+@media January {
+
+}
+
+@media April {
+
+}
+
+@media June {
+
+}
+
+<div
+    className="c0"
+  />,
+  @media May {
+
+}
+
+@media April {
+
+}
+
+@media January {
+
+}
+
+@media April {
+
+}
+
+@media June {
+
+}
+
+@media May {
+  .c0 {
+    -webkit-break-inside: January;
+    break-inside: January;
+  }
+}
+
+@media April {
+  .c0 {
+    -webkit-break-inside: December;
+    break-inside: December;
+  }
+}
+
+@media January {
+  .c0 {
+    -webkit-break-inside: April;
+    break-inside: April;
+  }
+}
+
+@media April {
+  .c0 {
+    -webkit-break-inside: May;
+    break-inside: May;
+  }
+}
+
+@media June {
+  .c0 {
+    -webkit-break-inside: June;
+    break-inside: June;
+  }
+}
+
+<div
+    className="c0"
+  />,
+  @media May {
+
+}
+
+@media April {
+
+}
+
+@media January {
+
+}
+
+@media April {
+
+}
+
+@media June {
+
+}
+
+@media May {
+  .c0 {
+    -webkit-break-inside: January;
+    break-inside: January;
+  }
+}
+
+@media April {
+  .c0 {
+    -webkit-break-inside: December;
+    break-inside: December;
+  }
+}
+
+@media January {
+  .c0 {
+    -webkit-break-inside: April;
+    break-inside: April;
+  }
+}
+
+@media April {
+  .c0 {
+    -webkit-break-inside: May;
+    break-inside: May;
+  }
+}
+
+@media June {
+  .c0 {
+    -webkit-break-inside: June;
+    break-inside: June;
+  }
+}
+
+<div
+    className="c0"
+  />,
+]
+`;
+
+exports[`breakInside renders postitive number 1`] = `
+Array [
+  .c0 {
+  -webkit-break-inside: 54881;
+  break-inside: 54881;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-break-inside: 54881;
+  break-inside: 54881;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-break-inside: 42365;
+  break-inside: 42365;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-break-inside: 42365;
+  break-inside: 42365;
+}
+
+<div
+    className="c0"
+  />,
+]
+`;
+
+exports[`breakInside renders string 1`] = `
+Array [
+  .c0 {
+  -webkit-break-inside: July;
+  break-inside: July;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-break-inside: July;
+  break-inside: July;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-break-inside: June;
+  break-inside: June;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-break-inside: June;
+  break-inside: June;
+}
+
+<div
+    className="c0"
+  />,
+]
+`;
+
+exports[`breakInside renders valid theme path 1`] = `
+Array [
+  .c0 {
+  -webkit-break-inside: DarkSlateBlue;
+  break-inside: DarkSlateBlue;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-break-inside: DarkSlateBlue;
+  break-inside: DarkSlateBlue;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-break-inside: DarkSlateBlue;
+  break-inside: DarkSlateBlue;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-break-inside: DarkSlateBlue;
+  break-inside: DarkSlateBlue;
+}
+
+<div
+    className="c0"
+  />,
+]
+`;

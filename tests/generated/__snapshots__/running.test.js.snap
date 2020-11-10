@@ -1,0 +1,818 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`running renders 0 1`] = `
+Array [
+  .c0 {
+  -webkit-running: 0;
+  -moz-running: 0;
+  -ms-running: 0;
+  running: 0;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-running: 0;
+  -moz-running: 0;
+  -ms-running: 0;
+  running: 0;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-running: 0;
+  -moz-running: 0;
+  -ms-running: 0;
+  running: 0;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-running: 0;
+  -moz-running: 0;
+  -ms-running: 0;
+  running: 0;
+}
+
+<div
+    className="c0"
+  />,
+]
+`;
+
+exports[`running renders function 1`] = `
+Array [
+  .c0 {
+  -webkit-running: hasnot;
+  -moz-running: hasnot;
+  -ms-running: hasnot;
+  running: hasnot;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-running: has;
+  -moz-running: has;
+  -ms-running: has;
+  running: has;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-running: hasnot;
+  -moz-running: hasnot;
+  -ms-running: hasnot;
+  running: hasnot;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-running: has;
+  -moz-running: has;
+  -ms-running: has;
+  running: has;
+}
+
+<div
+    className="c0"
+  />,
+]
+`;
+
+exports[`running renders invalid theme path 1`] = `
+Array [
+  .c0 {
+  -webkit-running: invalid.path.1;
+  -moz-running: invalid.path.1;
+  -ms-running: invalid.path.1;
+  running: invalid.path.1;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-running: invalid.path.1;
+  -moz-running: invalid.path.1;
+  -ms-running: invalid.path.1;
+  running: invalid.path.1;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-running: invalid.path.1;
+  -moz-running: invalid.path.1;
+  -ms-running: invalid.path.1;
+  running: invalid.path.1;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-running: invalid.path.1;
+  -moz-running: invalid.path.1;
+  -ms-running: invalid.path.1;
+  running: invalid.path.1;
+}
+
+<div
+    className="c0"
+  />,
+]
+`;
+
+exports[`running renders negative number 1`] = `
+Array [
+  .c0 {
+  -webkit-running: -54881;
+  -moz-running: -54881;
+  -ms-running: -54881;
+  running: -54881;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-running: -54881;
+  -moz-running: -54881;
+  -ms-running: -54881;
+  running: -54881;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-running: -42365;
+  -moz-running: -42365;
+  -ms-running: -42365;
+  running: -42365;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-running: -42365;
+  -moz-running: -42365;
+  -ms-running: -42365;
+  running: -42365;
+}
+
+<div
+    className="c0"
+  />,
+]
+`;
+
+exports[`running renders object [breakpoints] 1`] = `
+Array [
+  @media screen and (min-width:November) {
+  .c0 {
+    -webkit-running: July;
+    -moz-running: July;
+    -ms-running: July;
+    running: July;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    -webkit-running: August;
+    -moz-running: August;
+    -ms-running: August;
+    running: August;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    -webkit-running: September;
+    -moz-running: September;
+    -ms-running: September;
+    running: September;
+  }
+}
+
+@media screen and (min-width:August) {
+  .c0 {
+    -webkit-running: November;
+    -moz-running: November;
+    -ms-running: November;
+    running: November;
+  }
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:August) {
+
+}
+
+<div
+    className="c0"
+  />,
+  @media screen and (min-width:November) {
+  .c0 {
+    -webkit-running: July;
+    -moz-running: July;
+    -ms-running: July;
+    running: July;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    -webkit-running: August;
+    -moz-running: August;
+    -ms-running: August;
+    running: August;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    -webkit-running: September;
+    -moz-running: September;
+    -ms-running: September;
+    running: September;
+  }
+}
+
+@media screen and (min-width:August) {
+  .c0 {
+    -webkit-running: November;
+    -moz-running: November;
+    -ms-running: November;
+    running: November;
+  }
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:August) {
+
+}
+
+<div
+    className="c0"
+  />,
+  @media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:August) {
+
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    -webkit-running: May;
+    -moz-running: May;
+    -ms-running: May;
+    running: May;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    -webkit-running: June;
+    -moz-running: June;
+    -ms-running: June;
+    running: June;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    -webkit-running: April;
+    -moz-running: April;
+    -ms-running: April;
+    running: April;
+  }
+}
+
+@media screen and (min-width:August) {
+  .c0 {
+    -webkit-running: November;
+    -moz-running: November;
+    -ms-running: November;
+    running: November;
+  }
+}
+
+<div
+    className="c0"
+  />,
+  @media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:August) {
+
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    -webkit-running: May;
+    -moz-running: May;
+    -ms-running: May;
+    running: May;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    -webkit-running: June;
+    -moz-running: June;
+    -ms-running: June;
+    running: June;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    -webkit-running: April;
+    -moz-running: April;
+    -ms-running: April;
+    running: April;
+  }
+}
+
+@media screen and (min-width:August) {
+  .c0 {
+    -webkit-running: November;
+    -moz-running: November;
+    -ms-running: November;
+    running: November;
+  }
+}
+
+<div
+    className="c0"
+  />,
+]
+`;
+
+exports[`running renders object [breakpoints] 2`] = `
+Array [
+  @media May {
+  .c0 {
+    -webkit-running: July;
+    -moz-running: July;
+    -ms-running: July;
+    running: July;
+  }
+}
+
+@media April {
+  .c0 {
+    -webkit-running: August;
+    -moz-running: August;
+    -ms-running: August;
+    running: August;
+  }
+}
+
+@media January {
+  .c0 {
+    -webkit-running: September;
+    -moz-running: September;
+    -ms-running: September;
+    running: September;
+  }
+}
+
+@media April {
+  .c0 {
+    -webkit-running: November;
+    -moz-running: November;
+    -ms-running: November;
+    running: November;
+  }
+}
+
+@media June {
+  .c0 {
+    -webkit-running: August;
+    -moz-running: August;
+    -ms-running: August;
+    running: August;
+  }
+}
+
+@media May {
+
+}
+
+@media April {
+
+}
+
+@media January {
+
+}
+
+@media April {
+
+}
+
+@media June {
+
+}
+
+<div
+    className="c0"
+  />,
+  @media May {
+  .c0 {
+    -webkit-running: July;
+    -moz-running: July;
+    -ms-running: July;
+    running: July;
+  }
+}
+
+@media April {
+  .c0 {
+    -webkit-running: August;
+    -moz-running: August;
+    -ms-running: August;
+    running: August;
+  }
+}
+
+@media January {
+  .c0 {
+    -webkit-running: September;
+    -moz-running: September;
+    -ms-running: September;
+    running: September;
+  }
+}
+
+@media April {
+  .c0 {
+    -webkit-running: November;
+    -moz-running: November;
+    -ms-running: November;
+    running: November;
+  }
+}
+
+@media June {
+  .c0 {
+    -webkit-running: August;
+    -moz-running: August;
+    -ms-running: August;
+    running: August;
+  }
+}
+
+@media May {
+
+}
+
+@media April {
+
+}
+
+@media January {
+
+}
+
+@media April {
+
+}
+
+@media June {
+
+}
+
+<div
+    className="c0"
+  />,
+  @media May {
+
+}
+
+@media April {
+
+}
+
+@media January {
+
+}
+
+@media April {
+
+}
+
+@media June {
+
+}
+
+@media May {
+  .c0 {
+    -webkit-running: January;
+    -moz-running: January;
+    -ms-running: January;
+    running: January;
+  }
+}
+
+@media April {
+  .c0 {
+    -webkit-running: December;
+    -moz-running: December;
+    -ms-running: December;
+    running: December;
+  }
+}
+
+@media January {
+  .c0 {
+    -webkit-running: April;
+    -moz-running: April;
+    -ms-running: April;
+    running: April;
+  }
+}
+
+@media April {
+  .c0 {
+    -webkit-running: May;
+    -moz-running: May;
+    -ms-running: May;
+    running: May;
+  }
+}
+
+@media June {
+  .c0 {
+    -webkit-running: June;
+    -moz-running: June;
+    -ms-running: June;
+    running: June;
+  }
+}
+
+<div
+    className="c0"
+  />,
+  @media May {
+
+}
+
+@media April {
+
+}
+
+@media January {
+
+}
+
+@media April {
+
+}
+
+@media June {
+
+}
+
+@media May {
+  .c0 {
+    -webkit-running: January;
+    -moz-running: January;
+    -ms-running: January;
+    running: January;
+  }
+}
+
+@media April {
+  .c0 {
+    -webkit-running: December;
+    -moz-running: December;
+    -ms-running: December;
+    running: December;
+  }
+}
+
+@media January {
+  .c0 {
+    -webkit-running: April;
+    -moz-running: April;
+    -ms-running: April;
+    running: April;
+  }
+}
+
+@media April {
+  .c0 {
+    -webkit-running: May;
+    -moz-running: May;
+    -ms-running: May;
+    running: May;
+  }
+}
+
+@media June {
+  .c0 {
+    -webkit-running: June;
+    -moz-running: June;
+    -ms-running: June;
+    running: June;
+  }
+}
+
+<div
+    className="c0"
+  />,
+]
+`;
+
+exports[`running renders postitive number 1`] = `
+Array [
+  .c0 {
+  -webkit-running: 54881;
+  -moz-running: 54881;
+  -ms-running: 54881;
+  running: 54881;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-running: 54881;
+  -moz-running: 54881;
+  -ms-running: 54881;
+  running: 54881;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-running: 42365;
+  -moz-running: 42365;
+  -ms-running: 42365;
+  running: 42365;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-running: 42365;
+  -moz-running: 42365;
+  -ms-running: 42365;
+  running: 42365;
+}
+
+<div
+    className="c0"
+  />,
+]
+`;
+
+exports[`running renders string 1`] = `
+Array [
+  .c0 {
+  -webkit-running: July;
+  -moz-running: July;
+  -ms-running: July;
+  running: July;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-running: July;
+  -moz-running: July;
+  -ms-running: July;
+  running: July;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-running: June;
+  -moz-running: June;
+  -ms-running: June;
+  running: June;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-running: June;
+  -moz-running: June;
+  -ms-running: June;
+  running: June;
+}
+
+<div
+    className="c0"
+  />,
+]
+`;
+
+exports[`running renders valid theme path 1`] = `
+Array [
+  .c0 {
+  -webkit-running: DarkSlateBlue;
+  -moz-running: DarkSlateBlue;
+  -ms-running: DarkSlateBlue;
+  running: DarkSlateBlue;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-running: DarkSlateBlue;
+  -moz-running: DarkSlateBlue;
+  -ms-running: DarkSlateBlue;
+  running: DarkSlateBlue;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-running: DarkSlateBlue;
+  -moz-running: DarkSlateBlue;
+  -ms-running: DarkSlateBlue;
+  running: DarkSlateBlue;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-running: DarkSlateBlue;
+  -moz-running: DarkSlateBlue;
+  -ms-running: DarkSlateBlue;
+  running: DarkSlateBlue;
+}
+
+<div
+    className="c0"
+  />,
+]
+`;

@@ -1,0 +1,818 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`flexGrow renders 0 1`] = `
+Array [
+  .c0 {
+  -webkit-box-flex: 0;
+  -webkit-flex-grow: 0;
+  -ms-flex-positive: 0;
+  flex-grow: 0;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-box-flex: 0;
+  -webkit-flex-grow: 0;
+  -ms-flex-positive: 0;
+  flex-grow: 0;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-box-flex: 0;
+  -webkit-flex-grow: 0;
+  -ms-flex-positive: 0;
+  flex-grow: 0;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-box-flex: 0;
+  -webkit-flex-grow: 0;
+  -ms-flex-positive: 0;
+  flex-grow: 0;
+}
+
+<div
+    className="c0"
+  />,
+]
+`;
+
+exports[`flexGrow renders function 1`] = `
+Array [
+  .c0 {
+  -webkit-box-flex: hasnot;
+  -webkit-flex-grow: hasnot;
+  -ms-flex-positive: hasnot;
+  flex-grow: hasnot;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-box-flex: has;
+  -webkit-flex-grow: has;
+  -ms-flex-positive: has;
+  flex-grow: has;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-box-flex: hasnot;
+  -webkit-flex-grow: hasnot;
+  -ms-flex-positive: hasnot;
+  flex-grow: hasnot;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-box-flex: has;
+  -webkit-flex-grow: has;
+  -ms-flex-positive: has;
+  flex-grow: has;
+}
+
+<div
+    className="c0"
+  />,
+]
+`;
+
+exports[`flexGrow renders invalid theme path 1`] = `
+Array [
+  .c0 {
+  -webkit-box-flex: invalid.path.1;
+  -webkit-flex-grow: invalid.path.1;
+  -ms-flex-positive: invalid.path.1;
+  flex-grow: invalid.path.1;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-box-flex: invalid.path.1;
+  -webkit-flex-grow: invalid.path.1;
+  -ms-flex-positive: invalid.path.1;
+  flex-grow: invalid.path.1;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-box-flex: invalid.path.1;
+  -webkit-flex-grow: invalid.path.1;
+  -ms-flex-positive: invalid.path.1;
+  flex-grow: invalid.path.1;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-box-flex: invalid.path.1;
+  -webkit-flex-grow: invalid.path.1;
+  -ms-flex-positive: invalid.path.1;
+  flex-grow: invalid.path.1;
+}
+
+<div
+    className="c0"
+  />,
+]
+`;
+
+exports[`flexGrow renders negative number 1`] = `
+Array [
+  .c0 {
+  -webkit-box-flex: -54881;
+  -webkit-flex-grow: -54881;
+  -ms-flex-positive: -54881;
+  flex-grow: -54881;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-box-flex: -54881;
+  -webkit-flex-grow: -54881;
+  -ms-flex-positive: -54881;
+  flex-grow: -54881;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-box-flex: -42365;
+  -webkit-flex-grow: -42365;
+  -ms-flex-positive: -42365;
+  flex-grow: -42365;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-box-flex: -42365;
+  -webkit-flex-grow: -42365;
+  -ms-flex-positive: -42365;
+  flex-grow: -42365;
+}
+
+<div
+    className="c0"
+  />,
+]
+`;
+
+exports[`flexGrow renders object [breakpoints] 1`] = `
+Array [
+  @media screen and (min-width:November) {
+  .c0 {
+    -webkit-box-flex: July;
+    -webkit-flex-grow: July;
+    -ms-flex-positive: July;
+    flex-grow: July;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    -webkit-box-flex: August;
+    -webkit-flex-grow: August;
+    -ms-flex-positive: August;
+    flex-grow: August;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    -webkit-box-flex: September;
+    -webkit-flex-grow: September;
+    -ms-flex-positive: September;
+    flex-grow: September;
+  }
+}
+
+@media screen and (min-width:August) {
+  .c0 {
+    -webkit-box-flex: November;
+    -webkit-flex-grow: November;
+    -ms-flex-positive: November;
+    flex-grow: November;
+  }
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:August) {
+
+}
+
+<div
+    className="c0"
+  />,
+  @media screen and (min-width:November) {
+  .c0 {
+    -webkit-box-flex: July;
+    -webkit-flex-grow: July;
+    -ms-flex-positive: July;
+    flex-grow: July;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    -webkit-box-flex: August;
+    -webkit-flex-grow: August;
+    -ms-flex-positive: August;
+    flex-grow: August;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    -webkit-box-flex: September;
+    -webkit-flex-grow: September;
+    -ms-flex-positive: September;
+    flex-grow: September;
+  }
+}
+
+@media screen and (min-width:August) {
+  .c0 {
+    -webkit-box-flex: November;
+    -webkit-flex-grow: November;
+    -ms-flex-positive: November;
+    flex-grow: November;
+  }
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:August) {
+
+}
+
+<div
+    className="c0"
+  />,
+  @media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:August) {
+
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    -webkit-box-flex: May;
+    -webkit-flex-grow: May;
+    -ms-flex-positive: May;
+    flex-grow: May;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    -webkit-box-flex: June;
+    -webkit-flex-grow: June;
+    -ms-flex-positive: June;
+    flex-grow: June;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    -webkit-box-flex: April;
+    -webkit-flex-grow: April;
+    -ms-flex-positive: April;
+    flex-grow: April;
+  }
+}
+
+@media screen and (min-width:August) {
+  .c0 {
+    -webkit-box-flex: November;
+    -webkit-flex-grow: November;
+    -ms-flex-positive: November;
+    flex-grow: November;
+  }
+}
+
+<div
+    className="c0"
+  />,
+  @media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:August) {
+
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    -webkit-box-flex: May;
+    -webkit-flex-grow: May;
+    -ms-flex-positive: May;
+    flex-grow: May;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    -webkit-box-flex: June;
+    -webkit-flex-grow: June;
+    -ms-flex-positive: June;
+    flex-grow: June;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    -webkit-box-flex: April;
+    -webkit-flex-grow: April;
+    -ms-flex-positive: April;
+    flex-grow: April;
+  }
+}
+
+@media screen and (min-width:August) {
+  .c0 {
+    -webkit-box-flex: November;
+    -webkit-flex-grow: November;
+    -ms-flex-positive: November;
+    flex-grow: November;
+  }
+}
+
+<div
+    className="c0"
+  />,
+]
+`;
+
+exports[`flexGrow renders object [breakpoints] 2`] = `
+Array [
+  @media May {
+  .c0 {
+    -webkit-box-flex: July;
+    -webkit-flex-grow: July;
+    -ms-flex-positive: July;
+    flex-grow: July;
+  }
+}
+
+@media April {
+  .c0 {
+    -webkit-box-flex: August;
+    -webkit-flex-grow: August;
+    -ms-flex-positive: August;
+    flex-grow: August;
+  }
+}
+
+@media January {
+  .c0 {
+    -webkit-box-flex: September;
+    -webkit-flex-grow: September;
+    -ms-flex-positive: September;
+    flex-grow: September;
+  }
+}
+
+@media April {
+  .c0 {
+    -webkit-box-flex: November;
+    -webkit-flex-grow: November;
+    -ms-flex-positive: November;
+    flex-grow: November;
+  }
+}
+
+@media June {
+  .c0 {
+    -webkit-box-flex: August;
+    -webkit-flex-grow: August;
+    -ms-flex-positive: August;
+    flex-grow: August;
+  }
+}
+
+@media May {
+
+}
+
+@media April {
+
+}
+
+@media January {
+
+}
+
+@media April {
+
+}
+
+@media June {
+
+}
+
+<div
+    className="c0"
+  />,
+  @media May {
+  .c0 {
+    -webkit-box-flex: July;
+    -webkit-flex-grow: July;
+    -ms-flex-positive: July;
+    flex-grow: July;
+  }
+}
+
+@media April {
+  .c0 {
+    -webkit-box-flex: August;
+    -webkit-flex-grow: August;
+    -ms-flex-positive: August;
+    flex-grow: August;
+  }
+}
+
+@media January {
+  .c0 {
+    -webkit-box-flex: September;
+    -webkit-flex-grow: September;
+    -ms-flex-positive: September;
+    flex-grow: September;
+  }
+}
+
+@media April {
+  .c0 {
+    -webkit-box-flex: November;
+    -webkit-flex-grow: November;
+    -ms-flex-positive: November;
+    flex-grow: November;
+  }
+}
+
+@media June {
+  .c0 {
+    -webkit-box-flex: August;
+    -webkit-flex-grow: August;
+    -ms-flex-positive: August;
+    flex-grow: August;
+  }
+}
+
+@media May {
+
+}
+
+@media April {
+
+}
+
+@media January {
+
+}
+
+@media April {
+
+}
+
+@media June {
+
+}
+
+<div
+    className="c0"
+  />,
+  @media May {
+
+}
+
+@media April {
+
+}
+
+@media January {
+
+}
+
+@media April {
+
+}
+
+@media June {
+
+}
+
+@media May {
+  .c0 {
+    -webkit-box-flex: January;
+    -webkit-flex-grow: January;
+    -ms-flex-positive: January;
+    flex-grow: January;
+  }
+}
+
+@media April {
+  .c0 {
+    -webkit-box-flex: December;
+    -webkit-flex-grow: December;
+    -ms-flex-positive: December;
+    flex-grow: December;
+  }
+}
+
+@media January {
+  .c0 {
+    -webkit-box-flex: April;
+    -webkit-flex-grow: April;
+    -ms-flex-positive: April;
+    flex-grow: April;
+  }
+}
+
+@media April {
+  .c0 {
+    -webkit-box-flex: May;
+    -webkit-flex-grow: May;
+    -ms-flex-positive: May;
+    flex-grow: May;
+  }
+}
+
+@media June {
+  .c0 {
+    -webkit-box-flex: June;
+    -webkit-flex-grow: June;
+    -ms-flex-positive: June;
+    flex-grow: June;
+  }
+}
+
+<div
+    className="c0"
+  />,
+  @media May {
+
+}
+
+@media April {
+
+}
+
+@media January {
+
+}
+
+@media April {
+
+}
+
+@media June {
+
+}
+
+@media May {
+  .c0 {
+    -webkit-box-flex: January;
+    -webkit-flex-grow: January;
+    -ms-flex-positive: January;
+    flex-grow: January;
+  }
+}
+
+@media April {
+  .c0 {
+    -webkit-box-flex: December;
+    -webkit-flex-grow: December;
+    -ms-flex-positive: December;
+    flex-grow: December;
+  }
+}
+
+@media January {
+  .c0 {
+    -webkit-box-flex: April;
+    -webkit-flex-grow: April;
+    -ms-flex-positive: April;
+    flex-grow: April;
+  }
+}
+
+@media April {
+  .c0 {
+    -webkit-box-flex: May;
+    -webkit-flex-grow: May;
+    -ms-flex-positive: May;
+    flex-grow: May;
+  }
+}
+
+@media June {
+  .c0 {
+    -webkit-box-flex: June;
+    -webkit-flex-grow: June;
+    -ms-flex-positive: June;
+    flex-grow: June;
+  }
+}
+
+<div
+    className="c0"
+  />,
+]
+`;
+
+exports[`flexGrow renders postitive number 1`] = `
+Array [
+  .c0 {
+  -webkit-box-flex: 54881;
+  -webkit-flex-grow: 54881;
+  -ms-flex-positive: 54881;
+  flex-grow: 54881;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-box-flex: 54881;
+  -webkit-flex-grow: 54881;
+  -ms-flex-positive: 54881;
+  flex-grow: 54881;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-box-flex: 42365;
+  -webkit-flex-grow: 42365;
+  -ms-flex-positive: 42365;
+  flex-grow: 42365;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-box-flex: 42365;
+  -webkit-flex-grow: 42365;
+  -ms-flex-positive: 42365;
+  flex-grow: 42365;
+}
+
+<div
+    className="c0"
+  />,
+]
+`;
+
+exports[`flexGrow renders string 1`] = `
+Array [
+  .c0 {
+  -webkit-box-flex: July;
+  -webkit-flex-grow: July;
+  -ms-flex-positive: July;
+  flex-grow: July;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-box-flex: July;
+  -webkit-flex-grow: July;
+  -ms-flex-positive: July;
+  flex-grow: July;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-box-flex: June;
+  -webkit-flex-grow: June;
+  -ms-flex-positive: June;
+  flex-grow: June;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-box-flex: June;
+  -webkit-flex-grow: June;
+  -ms-flex-positive: June;
+  flex-grow: June;
+}
+
+<div
+    className="c0"
+  />,
+]
+`;
+
+exports[`flexGrow renders valid theme path 1`] = `
+Array [
+  .c0 {
+  -webkit-box-flex: DarkSlateBlue;
+  -webkit-flex-grow: DarkSlateBlue;
+  -ms-flex-positive: DarkSlateBlue;
+  flex-grow: DarkSlateBlue;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-box-flex: DarkSlateBlue;
+  -webkit-flex-grow: DarkSlateBlue;
+  -ms-flex-positive: DarkSlateBlue;
+  flex-grow: DarkSlateBlue;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-box-flex: DarkSlateBlue;
+  -webkit-flex-grow: DarkSlateBlue;
+  -ms-flex-positive: DarkSlateBlue;
+  flex-grow: DarkSlateBlue;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-box-flex: DarkSlateBlue;
+  -webkit-flex-grow: DarkSlateBlue;
+  -ms-flex-positive: DarkSlateBlue;
+  flex-grow: DarkSlateBlue;
+}
+
+<div
+    className="c0"
+  />,
+]
+`;

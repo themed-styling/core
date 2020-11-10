@@ -1,0 +1,626 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`markerSide renders 0 1`] = `
+Array [
+  .c0 {
+  marker-side: 0;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  marker-side: 0;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  marker-side: 0;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  marker-side: 0;
+}
+
+<div
+    className="c0"
+  />,
+]
+`;
+
+exports[`markerSide renders function 1`] = `
+Array [
+  .c0 {
+  marker-side: hasnot;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  marker-side: has;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  marker-side: hasnot;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  marker-side: has;
+}
+
+<div
+    className="c0"
+  />,
+]
+`;
+
+exports[`markerSide renders invalid theme path 1`] = `
+Array [
+  .c0 {
+  marker-side: invalid.path.1;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  marker-side: invalid.path.1;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  marker-side: invalid.path.1;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  marker-side: invalid.path.1;
+}
+
+<div
+    className="c0"
+  />,
+]
+`;
+
+exports[`markerSide renders negative number 1`] = `
+Array [
+  .c0 {
+  marker-side: -54881;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  marker-side: -54881;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  marker-side: -42365;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  marker-side: -42365;
+}
+
+<div
+    className="c0"
+  />,
+]
+`;
+
+exports[`markerSide renders object [breakpoints] 1`] = `
+Array [
+  @media screen and (min-width:November) {
+  .c0 {
+    marker-side: July;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    marker-side: August;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    marker-side: September;
+  }
+}
+
+@media screen and (min-width:August) {
+  .c0 {
+    marker-side: November;
+  }
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:August) {
+
+}
+
+<div
+    className="c0"
+  />,
+  @media screen and (min-width:November) {
+  .c0 {
+    marker-side: July;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    marker-side: August;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    marker-side: September;
+  }
+}
+
+@media screen and (min-width:August) {
+  .c0 {
+    marker-side: November;
+  }
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:August) {
+
+}
+
+<div
+    className="c0"
+  />,
+  @media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:August) {
+
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    marker-side: May;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    marker-side: June;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    marker-side: April;
+  }
+}
+
+@media screen and (min-width:August) {
+  .c0 {
+    marker-side: November;
+  }
+}
+
+<div
+    className="c0"
+  />,
+  @media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:August) {
+
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    marker-side: May;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    marker-side: June;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    marker-side: April;
+  }
+}
+
+@media screen and (min-width:August) {
+  .c0 {
+    marker-side: November;
+  }
+}
+
+<div
+    className="c0"
+  />,
+]
+`;
+
+exports[`markerSide renders object [breakpoints] 2`] = `
+Array [
+  @media May {
+  .c0 {
+    marker-side: July;
+  }
+}
+
+@media April {
+  .c0 {
+    marker-side: August;
+  }
+}
+
+@media January {
+  .c0 {
+    marker-side: September;
+  }
+}
+
+@media April {
+  .c0 {
+    marker-side: November;
+  }
+}
+
+@media June {
+  .c0 {
+    marker-side: August;
+  }
+}
+
+@media May {
+
+}
+
+@media April {
+
+}
+
+@media January {
+
+}
+
+@media April {
+
+}
+
+@media June {
+
+}
+
+<div
+    className="c0"
+  />,
+  @media May {
+  .c0 {
+    marker-side: July;
+  }
+}
+
+@media April {
+  .c0 {
+    marker-side: August;
+  }
+}
+
+@media January {
+  .c0 {
+    marker-side: September;
+  }
+}
+
+@media April {
+  .c0 {
+    marker-side: November;
+  }
+}
+
+@media June {
+  .c0 {
+    marker-side: August;
+  }
+}
+
+@media May {
+
+}
+
+@media April {
+
+}
+
+@media January {
+
+}
+
+@media April {
+
+}
+
+@media June {
+
+}
+
+<div
+    className="c0"
+  />,
+  @media May {
+
+}
+
+@media April {
+
+}
+
+@media January {
+
+}
+
+@media April {
+
+}
+
+@media June {
+
+}
+
+@media May {
+  .c0 {
+    marker-side: January;
+  }
+}
+
+@media April {
+  .c0 {
+    marker-side: December;
+  }
+}
+
+@media January {
+  .c0 {
+    marker-side: April;
+  }
+}
+
+@media April {
+  .c0 {
+    marker-side: May;
+  }
+}
+
+@media June {
+  .c0 {
+    marker-side: June;
+  }
+}
+
+<div
+    className="c0"
+  />,
+  @media May {
+
+}
+
+@media April {
+
+}
+
+@media January {
+
+}
+
+@media April {
+
+}
+
+@media June {
+
+}
+
+@media May {
+  .c0 {
+    marker-side: January;
+  }
+}
+
+@media April {
+  .c0 {
+    marker-side: December;
+  }
+}
+
+@media January {
+  .c0 {
+    marker-side: April;
+  }
+}
+
+@media April {
+  .c0 {
+    marker-side: May;
+  }
+}
+
+@media June {
+  .c0 {
+    marker-side: June;
+  }
+}
+
+<div
+    className="c0"
+  />,
+]
+`;
+
+exports[`markerSide renders postitive number 1`] = `
+Array [
+  .c0 {
+  marker-side: 54881;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  marker-side: 54881;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  marker-side: 42365;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  marker-side: 42365;
+}
+
+<div
+    className="c0"
+  />,
+]
+`;
+
+exports[`markerSide renders string 1`] = `
+Array [
+  .c0 {
+  marker-side: July;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  marker-side: July;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  marker-side: June;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  marker-side: June;
+}
+
+<div
+    className="c0"
+  />,
+]
+`;
+
+exports[`markerSide renders valid theme path 1`] = `
+Array [
+  .c0 {
+  marker-side: DarkSlateBlue;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  marker-side: DarkSlateBlue;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  marker-side: DarkSlateBlue;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  marker-side: DarkSlateBlue;
+}
+
+<div
+    className="c0"
+  />,
+]
+`;

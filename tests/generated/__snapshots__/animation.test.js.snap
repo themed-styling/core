@@ -1,0 +1,690 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`animation renders 0 1`] = `
+Array [
+  .c0 {
+  -webkit-animation: 0;
+  animation: 0;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-animation: 0;
+  animation: 0;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-animation: 0;
+  animation: 0;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-animation: 0;
+  animation: 0;
+}
+
+<div
+    className="c0"
+  />,
+]
+`;
+
+exports[`animation renders function 1`] = `
+Array [
+  .c0 {
+  -webkit-animation: hasnot;
+  animation: hasnot;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-animation: has;
+  animation: has;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-animation: hasnot;
+  animation: hasnot;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-animation: has;
+  animation: has;
+}
+
+<div
+    className="c0"
+  />,
+]
+`;
+
+exports[`animation renders invalid theme path 1`] = `
+Array [
+  .c0 {
+  -webkit-animation: invalid.path.1;
+  animation: invalid.path.1;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-animation: invalid.path.1;
+  animation: invalid.path.1;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-animation: invalid.path.1;
+  animation: invalid.path.1;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-animation: invalid.path.1;
+  animation: invalid.path.1;
+}
+
+<div
+    className="c0"
+  />,
+]
+`;
+
+exports[`animation renders negative number 1`] = `
+Array [
+  .c0 {
+  -webkit-animation: -54881;
+  animation: -54881;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-animation: -54881;
+  animation: -54881;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-animation: -42365;
+  animation: -42365;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-animation: -42365;
+  animation: -42365;
+}
+
+<div
+    className="c0"
+  />,
+]
+`;
+
+exports[`animation renders object [breakpoints] 1`] = `
+Array [
+  @media screen and (min-width:November) {
+  .c0 {
+    -webkit-animation: July;
+    animation: July;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    -webkit-animation: August;
+    animation: August;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    -webkit-animation: September;
+    animation: September;
+  }
+}
+
+@media screen and (min-width:August) {
+  .c0 {
+    -webkit-animation: November;
+    animation: November;
+  }
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:August) {
+
+}
+
+<div
+    className="c0"
+  />,
+  @media screen and (min-width:November) {
+  .c0 {
+    -webkit-animation: July;
+    animation: July;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    -webkit-animation: August;
+    animation: August;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    -webkit-animation: September;
+    animation: September;
+  }
+}
+
+@media screen and (min-width:August) {
+  .c0 {
+    -webkit-animation: November;
+    animation: November;
+  }
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:August) {
+
+}
+
+<div
+    className="c0"
+  />,
+  @media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:August) {
+
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    -webkit-animation: May;
+    animation: May;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    -webkit-animation: June;
+    animation: June;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    -webkit-animation: April;
+    animation: April;
+  }
+}
+
+@media screen and (min-width:August) {
+  .c0 {
+    -webkit-animation: November;
+    animation: November;
+  }
+}
+
+<div
+    className="c0"
+  />,
+  @media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:August) {
+
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    -webkit-animation: May;
+    animation: May;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    -webkit-animation: June;
+    animation: June;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    -webkit-animation: April;
+    animation: April;
+  }
+}
+
+@media screen and (min-width:August) {
+  .c0 {
+    -webkit-animation: November;
+    animation: November;
+  }
+}
+
+<div
+    className="c0"
+  />,
+]
+`;
+
+exports[`animation renders object [breakpoints] 2`] = `
+Array [
+  @media May {
+  .c0 {
+    -webkit-animation: July;
+    animation: July;
+  }
+}
+
+@media April {
+  .c0 {
+    -webkit-animation: August;
+    animation: August;
+  }
+}
+
+@media January {
+  .c0 {
+    -webkit-animation: September;
+    animation: September;
+  }
+}
+
+@media April {
+  .c0 {
+    -webkit-animation: November;
+    animation: November;
+  }
+}
+
+@media June {
+  .c0 {
+    -webkit-animation: August;
+    animation: August;
+  }
+}
+
+@media May {
+
+}
+
+@media April {
+
+}
+
+@media January {
+
+}
+
+@media April {
+
+}
+
+@media June {
+
+}
+
+<div
+    className="c0"
+  />,
+  @media May {
+  .c0 {
+    -webkit-animation: July;
+    animation: July;
+  }
+}
+
+@media April {
+  .c0 {
+    -webkit-animation: August;
+    animation: August;
+  }
+}
+
+@media January {
+  .c0 {
+    -webkit-animation: September;
+    animation: September;
+  }
+}
+
+@media April {
+  .c0 {
+    -webkit-animation: November;
+    animation: November;
+  }
+}
+
+@media June {
+  .c0 {
+    -webkit-animation: August;
+    animation: August;
+  }
+}
+
+@media May {
+
+}
+
+@media April {
+
+}
+
+@media January {
+
+}
+
+@media April {
+
+}
+
+@media June {
+
+}
+
+<div
+    className="c0"
+  />,
+  @media May {
+
+}
+
+@media April {
+
+}
+
+@media January {
+
+}
+
+@media April {
+
+}
+
+@media June {
+
+}
+
+@media May {
+  .c0 {
+    -webkit-animation: January;
+    animation: January;
+  }
+}
+
+@media April {
+  .c0 {
+    -webkit-animation: December;
+    animation: December;
+  }
+}
+
+@media January {
+  .c0 {
+    -webkit-animation: April;
+    animation: April;
+  }
+}
+
+@media April {
+  .c0 {
+    -webkit-animation: May;
+    animation: May;
+  }
+}
+
+@media June {
+  .c0 {
+    -webkit-animation: June;
+    animation: June;
+  }
+}
+
+<div
+    className="c0"
+  />,
+  @media May {
+
+}
+
+@media April {
+
+}
+
+@media January {
+
+}
+
+@media April {
+
+}
+
+@media June {
+
+}
+
+@media May {
+  .c0 {
+    -webkit-animation: January;
+    animation: January;
+  }
+}
+
+@media April {
+  .c0 {
+    -webkit-animation: December;
+    animation: December;
+  }
+}
+
+@media January {
+  .c0 {
+    -webkit-animation: April;
+    animation: April;
+  }
+}
+
+@media April {
+  .c0 {
+    -webkit-animation: May;
+    animation: May;
+  }
+}
+
+@media June {
+  .c0 {
+    -webkit-animation: June;
+    animation: June;
+  }
+}
+
+<div
+    className="c0"
+  />,
+]
+`;
+
+exports[`animation renders postitive number 1`] = `
+Array [
+  .c0 {
+  -webkit-animation: 54881;
+  animation: 54881;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-animation: 54881;
+  animation: 54881;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-animation: 42365;
+  animation: 42365;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-animation: 42365;
+  animation: 42365;
+}
+
+<div
+    className="c0"
+  />,
+]
+`;
+
+exports[`animation renders string 1`] = `
+Array [
+  .c0 {
+  -webkit-animation: July;
+  animation: July;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-animation: July;
+  animation: July;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-animation: June;
+  animation: June;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-animation: June;
+  animation: June;
+}
+
+<div
+    className="c0"
+  />,
+]
+`;
+
+exports[`animation renders valid theme path 1`] = `
+Array [
+  .c0 {
+  -webkit-animation: DarkSlateBlue;
+  animation: DarkSlateBlue;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-animation: DarkSlateBlue;
+  animation: DarkSlateBlue;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-animation: DarkSlateBlue;
+  animation: DarkSlateBlue;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-animation: DarkSlateBlue;
+  animation: DarkSlateBlue;
+}
+
+<div
+    className="c0"
+  />,
+]
+`;

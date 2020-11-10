@@ -1,0 +1,626 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`spatialNavigationFunction renders 0 1`] = `
+Array [
+  .c0 {
+  spatial-navigation-function: 0;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  spatial-navigation-function: 0;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  spatial-navigation-function: 0;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  spatial-navigation-function: 0;
+}
+
+<div
+    className="c0"
+  />,
+]
+`;
+
+exports[`spatialNavigationFunction renders function 1`] = `
+Array [
+  .c0 {
+  spatial-navigation-function: hasnot;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  spatial-navigation-function: has;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  spatial-navigation-function: hasnot;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  spatial-navigation-function: has;
+}
+
+<div
+    className="c0"
+  />,
+]
+`;
+
+exports[`spatialNavigationFunction renders invalid theme path 1`] = `
+Array [
+  .c0 {
+  spatial-navigation-function: invalid.path.1;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  spatial-navigation-function: invalid.path.1;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  spatial-navigation-function: invalid.path.1;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  spatial-navigation-function: invalid.path.1;
+}
+
+<div
+    className="c0"
+  />,
+]
+`;
+
+exports[`spatialNavigationFunction renders negative number 1`] = `
+Array [
+  .c0 {
+  spatial-navigation-function: -54881;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  spatial-navigation-function: -54881;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  spatial-navigation-function: -42365;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  spatial-navigation-function: -42365;
+}
+
+<div
+    className="c0"
+  />,
+]
+`;
+
+exports[`spatialNavigationFunction renders object [breakpoints] 1`] = `
+Array [
+  @media screen and (min-width:November) {
+  .c0 {
+    spatial-navigation-function: July;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    spatial-navigation-function: August;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    spatial-navigation-function: September;
+  }
+}
+
+@media screen and (min-width:August) {
+  .c0 {
+    spatial-navigation-function: November;
+  }
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:August) {
+
+}
+
+<div
+    className="c0"
+  />,
+  @media screen and (min-width:November) {
+  .c0 {
+    spatial-navigation-function: July;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    spatial-navigation-function: August;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    spatial-navigation-function: September;
+  }
+}
+
+@media screen and (min-width:August) {
+  .c0 {
+    spatial-navigation-function: November;
+  }
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:August) {
+
+}
+
+<div
+    className="c0"
+  />,
+  @media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:August) {
+
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    spatial-navigation-function: May;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    spatial-navigation-function: June;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    spatial-navigation-function: April;
+  }
+}
+
+@media screen and (min-width:August) {
+  .c0 {
+    spatial-navigation-function: November;
+  }
+}
+
+<div
+    className="c0"
+  />,
+  @media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:August) {
+
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    spatial-navigation-function: May;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    spatial-navigation-function: June;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    spatial-navigation-function: April;
+  }
+}
+
+@media screen and (min-width:August) {
+  .c0 {
+    spatial-navigation-function: November;
+  }
+}
+
+<div
+    className="c0"
+  />,
+]
+`;
+
+exports[`spatialNavigationFunction renders object [breakpoints] 2`] = `
+Array [
+  @media May {
+  .c0 {
+    spatial-navigation-function: July;
+  }
+}
+
+@media April {
+  .c0 {
+    spatial-navigation-function: August;
+  }
+}
+
+@media January {
+  .c0 {
+    spatial-navigation-function: September;
+  }
+}
+
+@media April {
+  .c0 {
+    spatial-navigation-function: November;
+  }
+}
+
+@media June {
+  .c0 {
+    spatial-navigation-function: August;
+  }
+}
+
+@media May {
+
+}
+
+@media April {
+
+}
+
+@media January {
+
+}
+
+@media April {
+
+}
+
+@media June {
+
+}
+
+<div
+    className="c0"
+  />,
+  @media May {
+  .c0 {
+    spatial-navigation-function: July;
+  }
+}
+
+@media April {
+  .c0 {
+    spatial-navigation-function: August;
+  }
+}
+
+@media January {
+  .c0 {
+    spatial-navigation-function: September;
+  }
+}
+
+@media April {
+  .c0 {
+    spatial-navigation-function: November;
+  }
+}
+
+@media June {
+  .c0 {
+    spatial-navigation-function: August;
+  }
+}
+
+@media May {
+
+}
+
+@media April {
+
+}
+
+@media January {
+
+}
+
+@media April {
+
+}
+
+@media June {
+
+}
+
+<div
+    className="c0"
+  />,
+  @media May {
+
+}
+
+@media April {
+
+}
+
+@media January {
+
+}
+
+@media April {
+
+}
+
+@media June {
+
+}
+
+@media May {
+  .c0 {
+    spatial-navigation-function: January;
+  }
+}
+
+@media April {
+  .c0 {
+    spatial-navigation-function: December;
+  }
+}
+
+@media January {
+  .c0 {
+    spatial-navigation-function: April;
+  }
+}
+
+@media April {
+  .c0 {
+    spatial-navigation-function: May;
+  }
+}
+
+@media June {
+  .c0 {
+    spatial-navigation-function: June;
+  }
+}
+
+<div
+    className="c0"
+  />,
+  @media May {
+
+}
+
+@media April {
+
+}
+
+@media January {
+
+}
+
+@media April {
+
+}
+
+@media June {
+
+}
+
+@media May {
+  .c0 {
+    spatial-navigation-function: January;
+  }
+}
+
+@media April {
+  .c0 {
+    spatial-navigation-function: December;
+  }
+}
+
+@media January {
+  .c0 {
+    spatial-navigation-function: April;
+  }
+}
+
+@media April {
+  .c0 {
+    spatial-navigation-function: May;
+  }
+}
+
+@media June {
+  .c0 {
+    spatial-navigation-function: June;
+  }
+}
+
+<div
+    className="c0"
+  />,
+]
+`;
+
+exports[`spatialNavigationFunction renders postitive number 1`] = `
+Array [
+  .c0 {
+  spatial-navigation-function: 54881;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  spatial-navigation-function: 54881;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  spatial-navigation-function: 42365;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  spatial-navigation-function: 42365;
+}
+
+<div
+    className="c0"
+  />,
+]
+`;
+
+exports[`spatialNavigationFunction renders string 1`] = `
+Array [
+  .c0 {
+  spatial-navigation-function: July;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  spatial-navigation-function: July;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  spatial-navigation-function: June;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  spatial-navigation-function: June;
+}
+
+<div
+    className="c0"
+  />,
+]
+`;
+
+exports[`spatialNavigationFunction renders valid theme path 1`] = `
+Array [
+  .c0 {
+  spatial-navigation-function: DarkSlateBlue;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  spatial-navigation-function: DarkSlateBlue;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  spatial-navigation-function: DarkSlateBlue;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  spatial-navigation-function: DarkSlateBlue;
+}
+
+<div
+    className="c0"
+  />,
+]
+`;

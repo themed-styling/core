@@ -1,0 +1,626 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`textOverflowEllipsis renders 0 1`] = `
+Array [
+  .c0 {
+  text-overflow-ellipsis: 0;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  text-overflow-ellipsis: 0;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  text-overflow-ellipsis: 0;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  text-overflow-ellipsis: 0;
+}
+
+<div
+    className="c0"
+  />,
+]
+`;
+
+exports[`textOverflowEllipsis renders function 1`] = `
+Array [
+  .c0 {
+  text-overflow-ellipsis: hasnot;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  text-overflow-ellipsis: has;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  text-overflow-ellipsis: hasnot;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  text-overflow-ellipsis: has;
+}
+
+<div
+    className="c0"
+  />,
+]
+`;
+
+exports[`textOverflowEllipsis renders invalid theme path 1`] = `
+Array [
+  .c0 {
+  text-overflow-ellipsis: invalid.path.1;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  text-overflow-ellipsis: invalid.path.1;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  text-overflow-ellipsis: invalid.path.1;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  text-overflow-ellipsis: invalid.path.1;
+}
+
+<div
+    className="c0"
+  />,
+]
+`;
+
+exports[`textOverflowEllipsis renders negative number 1`] = `
+Array [
+  .c0 {
+  text-overflow-ellipsis: -54881;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  text-overflow-ellipsis: -54881;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  text-overflow-ellipsis: -42365;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  text-overflow-ellipsis: -42365;
+}
+
+<div
+    className="c0"
+  />,
+]
+`;
+
+exports[`textOverflowEllipsis renders object [breakpoints] 1`] = `
+Array [
+  @media screen and (min-width:November) {
+  .c0 {
+    text-overflow-ellipsis: July;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    text-overflow-ellipsis: August;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    text-overflow-ellipsis: September;
+  }
+}
+
+@media screen and (min-width:August) {
+  .c0 {
+    text-overflow-ellipsis: November;
+  }
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:August) {
+
+}
+
+<div
+    className="c0"
+  />,
+  @media screen and (min-width:November) {
+  .c0 {
+    text-overflow-ellipsis: July;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    text-overflow-ellipsis: August;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    text-overflow-ellipsis: September;
+  }
+}
+
+@media screen and (min-width:August) {
+  .c0 {
+    text-overflow-ellipsis: November;
+  }
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:August) {
+
+}
+
+<div
+    className="c0"
+  />,
+  @media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:August) {
+
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    text-overflow-ellipsis: May;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    text-overflow-ellipsis: June;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    text-overflow-ellipsis: April;
+  }
+}
+
+@media screen and (min-width:August) {
+  .c0 {
+    text-overflow-ellipsis: November;
+  }
+}
+
+<div
+    className="c0"
+  />,
+  @media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:August) {
+
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    text-overflow-ellipsis: May;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    text-overflow-ellipsis: June;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    text-overflow-ellipsis: April;
+  }
+}
+
+@media screen and (min-width:August) {
+  .c0 {
+    text-overflow-ellipsis: November;
+  }
+}
+
+<div
+    className="c0"
+  />,
+]
+`;
+
+exports[`textOverflowEllipsis renders object [breakpoints] 2`] = `
+Array [
+  @media May {
+  .c0 {
+    text-overflow-ellipsis: July;
+  }
+}
+
+@media April {
+  .c0 {
+    text-overflow-ellipsis: August;
+  }
+}
+
+@media January {
+  .c0 {
+    text-overflow-ellipsis: September;
+  }
+}
+
+@media April {
+  .c0 {
+    text-overflow-ellipsis: November;
+  }
+}
+
+@media June {
+  .c0 {
+    text-overflow-ellipsis: August;
+  }
+}
+
+@media May {
+
+}
+
+@media April {
+
+}
+
+@media January {
+
+}
+
+@media April {
+
+}
+
+@media June {
+
+}
+
+<div
+    className="c0"
+  />,
+  @media May {
+  .c0 {
+    text-overflow-ellipsis: July;
+  }
+}
+
+@media April {
+  .c0 {
+    text-overflow-ellipsis: August;
+  }
+}
+
+@media January {
+  .c0 {
+    text-overflow-ellipsis: September;
+  }
+}
+
+@media April {
+  .c0 {
+    text-overflow-ellipsis: November;
+  }
+}
+
+@media June {
+  .c0 {
+    text-overflow-ellipsis: August;
+  }
+}
+
+@media May {
+
+}
+
+@media April {
+
+}
+
+@media January {
+
+}
+
+@media April {
+
+}
+
+@media June {
+
+}
+
+<div
+    className="c0"
+  />,
+  @media May {
+
+}
+
+@media April {
+
+}
+
+@media January {
+
+}
+
+@media April {
+
+}
+
+@media June {
+
+}
+
+@media May {
+  .c0 {
+    text-overflow-ellipsis: January;
+  }
+}
+
+@media April {
+  .c0 {
+    text-overflow-ellipsis: December;
+  }
+}
+
+@media January {
+  .c0 {
+    text-overflow-ellipsis: April;
+  }
+}
+
+@media April {
+  .c0 {
+    text-overflow-ellipsis: May;
+  }
+}
+
+@media June {
+  .c0 {
+    text-overflow-ellipsis: June;
+  }
+}
+
+<div
+    className="c0"
+  />,
+  @media May {
+
+}
+
+@media April {
+
+}
+
+@media January {
+
+}
+
+@media April {
+
+}
+
+@media June {
+
+}
+
+@media May {
+  .c0 {
+    text-overflow-ellipsis: January;
+  }
+}
+
+@media April {
+  .c0 {
+    text-overflow-ellipsis: December;
+  }
+}
+
+@media January {
+  .c0 {
+    text-overflow-ellipsis: April;
+  }
+}
+
+@media April {
+  .c0 {
+    text-overflow-ellipsis: May;
+  }
+}
+
+@media June {
+  .c0 {
+    text-overflow-ellipsis: June;
+  }
+}
+
+<div
+    className="c0"
+  />,
+]
+`;
+
+exports[`textOverflowEllipsis renders postitive number 1`] = `
+Array [
+  .c0 {
+  text-overflow-ellipsis: 54881;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  text-overflow-ellipsis: 54881;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  text-overflow-ellipsis: 42365;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  text-overflow-ellipsis: 42365;
+}
+
+<div
+    className="c0"
+  />,
+]
+`;
+
+exports[`textOverflowEllipsis renders string 1`] = `
+Array [
+  .c0 {
+  text-overflow-ellipsis: July;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  text-overflow-ellipsis: July;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  text-overflow-ellipsis: June;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  text-overflow-ellipsis: June;
+}
+
+<div
+    className="c0"
+  />,
+]
+`;
+
+exports[`textOverflowEllipsis renders valid theme path 1`] = `
+Array [
+  .c0 {
+  text-overflow-ellipsis: DarkSlateBlue;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  text-overflow-ellipsis: DarkSlateBlue;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  text-overflow-ellipsis: DarkSlateBlue;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  text-overflow-ellipsis: DarkSlateBlue;
+}
+
+<div
+    className="c0"
+  />,
+]
+`;

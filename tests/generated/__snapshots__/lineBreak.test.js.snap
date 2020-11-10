@@ -1,0 +1,626 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`lineBreak renders 0 1`] = `
+Array [
+  .c0 {
+  line-break: 0;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  line-break: 0;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  line-break: 0;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  line-break: 0;
+}
+
+<div
+    className="c0"
+  />,
+]
+`;
+
+exports[`lineBreak renders function 1`] = `
+Array [
+  .c0 {
+  line-break: hasnot;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  line-break: has;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  line-break: hasnot;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  line-break: has;
+}
+
+<div
+    className="c0"
+  />,
+]
+`;
+
+exports[`lineBreak renders invalid theme path 1`] = `
+Array [
+  .c0 {
+  line-break: invalid.path.1;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  line-break: invalid.path.1;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  line-break: invalid.path.1;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  line-break: invalid.path.1;
+}
+
+<div
+    className="c0"
+  />,
+]
+`;
+
+exports[`lineBreak renders negative number 1`] = `
+Array [
+  .c0 {
+  line-break: -54881;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  line-break: -54881;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  line-break: -42365;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  line-break: -42365;
+}
+
+<div
+    className="c0"
+  />,
+]
+`;
+
+exports[`lineBreak renders object [breakpoints] 1`] = `
+Array [
+  @media screen and (min-width:November) {
+  .c0 {
+    line-break: July;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    line-break: August;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    line-break: September;
+  }
+}
+
+@media screen and (min-width:August) {
+  .c0 {
+    line-break: November;
+  }
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:August) {
+
+}
+
+<div
+    className="c0"
+  />,
+  @media screen and (min-width:November) {
+  .c0 {
+    line-break: July;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    line-break: August;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    line-break: September;
+  }
+}
+
+@media screen and (min-width:August) {
+  .c0 {
+    line-break: November;
+  }
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:August) {
+
+}
+
+<div
+    className="c0"
+  />,
+  @media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:August) {
+
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    line-break: May;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    line-break: June;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    line-break: April;
+  }
+}
+
+@media screen and (min-width:August) {
+  .c0 {
+    line-break: November;
+  }
+}
+
+<div
+    className="c0"
+  />,
+  @media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:August) {
+
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    line-break: May;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    line-break: June;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    line-break: April;
+  }
+}
+
+@media screen and (min-width:August) {
+  .c0 {
+    line-break: November;
+  }
+}
+
+<div
+    className="c0"
+  />,
+]
+`;
+
+exports[`lineBreak renders object [breakpoints] 2`] = `
+Array [
+  @media May {
+  .c0 {
+    line-break: July;
+  }
+}
+
+@media April {
+  .c0 {
+    line-break: August;
+  }
+}
+
+@media January {
+  .c0 {
+    line-break: September;
+  }
+}
+
+@media April {
+  .c0 {
+    line-break: November;
+  }
+}
+
+@media June {
+  .c0 {
+    line-break: August;
+  }
+}
+
+@media May {
+
+}
+
+@media April {
+
+}
+
+@media January {
+
+}
+
+@media April {
+
+}
+
+@media June {
+
+}
+
+<div
+    className="c0"
+  />,
+  @media May {
+  .c0 {
+    line-break: July;
+  }
+}
+
+@media April {
+  .c0 {
+    line-break: August;
+  }
+}
+
+@media January {
+  .c0 {
+    line-break: September;
+  }
+}
+
+@media April {
+  .c0 {
+    line-break: November;
+  }
+}
+
+@media June {
+  .c0 {
+    line-break: August;
+  }
+}
+
+@media May {
+
+}
+
+@media April {
+
+}
+
+@media January {
+
+}
+
+@media April {
+
+}
+
+@media June {
+
+}
+
+<div
+    className="c0"
+  />,
+  @media May {
+
+}
+
+@media April {
+
+}
+
+@media January {
+
+}
+
+@media April {
+
+}
+
+@media June {
+
+}
+
+@media May {
+  .c0 {
+    line-break: January;
+  }
+}
+
+@media April {
+  .c0 {
+    line-break: December;
+  }
+}
+
+@media January {
+  .c0 {
+    line-break: April;
+  }
+}
+
+@media April {
+  .c0 {
+    line-break: May;
+  }
+}
+
+@media June {
+  .c0 {
+    line-break: June;
+  }
+}
+
+<div
+    className="c0"
+  />,
+  @media May {
+
+}
+
+@media April {
+
+}
+
+@media January {
+
+}
+
+@media April {
+
+}
+
+@media June {
+
+}
+
+@media May {
+  .c0 {
+    line-break: January;
+  }
+}
+
+@media April {
+  .c0 {
+    line-break: December;
+  }
+}
+
+@media January {
+  .c0 {
+    line-break: April;
+  }
+}
+
+@media April {
+  .c0 {
+    line-break: May;
+  }
+}
+
+@media June {
+  .c0 {
+    line-break: June;
+  }
+}
+
+<div
+    className="c0"
+  />,
+]
+`;
+
+exports[`lineBreak renders postitive number 1`] = `
+Array [
+  .c0 {
+  line-break: 54881;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  line-break: 54881;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  line-break: 42365;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  line-break: 42365;
+}
+
+<div
+    className="c0"
+  />,
+]
+`;
+
+exports[`lineBreak renders string 1`] = `
+Array [
+  .c0 {
+  line-break: July;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  line-break: July;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  line-break: June;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  line-break: June;
+}
+
+<div
+    className="c0"
+  />,
+]
+`;
+
+exports[`lineBreak renders valid theme path 1`] = `
+Array [
+  .c0 {
+  line-break: DarkSlateBlue;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  line-break: DarkSlateBlue;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  line-break: DarkSlateBlue;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  line-break: DarkSlateBlue;
+}
+
+<div
+    className="c0"
+  />,
+]
+`;

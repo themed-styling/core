@@ -1,0 +1,626 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`rotationPoint renders 0 1`] = `
+Array [
+  .c0 {
+  rotation-point: 0;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  rotation-point: 0;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  rotation-point: 0;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  rotation-point: 0;
+}
+
+<div
+    className="c0"
+  />,
+]
+`;
+
+exports[`rotationPoint renders function 1`] = `
+Array [
+  .c0 {
+  rotation-point: hasnot;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  rotation-point: has;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  rotation-point: hasnot;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  rotation-point: has;
+}
+
+<div
+    className="c0"
+  />,
+]
+`;
+
+exports[`rotationPoint renders invalid theme path 1`] = `
+Array [
+  .c0 {
+  rotation-point: invalid.path.1;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  rotation-point: invalid.path.1;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  rotation-point: invalid.path.1;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  rotation-point: invalid.path.1;
+}
+
+<div
+    className="c0"
+  />,
+]
+`;
+
+exports[`rotationPoint renders negative number 1`] = `
+Array [
+  .c0 {
+  rotation-point: -54881;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  rotation-point: -54881;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  rotation-point: -42365;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  rotation-point: -42365;
+}
+
+<div
+    className="c0"
+  />,
+]
+`;
+
+exports[`rotationPoint renders object [breakpoints] 1`] = `
+Array [
+  @media screen and (min-width:November) {
+  .c0 {
+    rotation-point: July;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    rotation-point: August;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    rotation-point: September;
+  }
+}
+
+@media screen and (min-width:August) {
+  .c0 {
+    rotation-point: November;
+  }
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:August) {
+
+}
+
+<div
+    className="c0"
+  />,
+  @media screen and (min-width:November) {
+  .c0 {
+    rotation-point: July;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    rotation-point: August;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    rotation-point: September;
+  }
+}
+
+@media screen and (min-width:August) {
+  .c0 {
+    rotation-point: November;
+  }
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:August) {
+
+}
+
+<div
+    className="c0"
+  />,
+  @media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:August) {
+
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    rotation-point: May;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    rotation-point: June;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    rotation-point: April;
+  }
+}
+
+@media screen and (min-width:August) {
+  .c0 {
+    rotation-point: November;
+  }
+}
+
+<div
+    className="c0"
+  />,
+  @media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:August) {
+
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    rotation-point: May;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    rotation-point: June;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    rotation-point: April;
+  }
+}
+
+@media screen and (min-width:August) {
+  .c0 {
+    rotation-point: November;
+  }
+}
+
+<div
+    className="c0"
+  />,
+]
+`;
+
+exports[`rotationPoint renders object [breakpoints] 2`] = `
+Array [
+  @media May {
+  .c0 {
+    rotation-point: July;
+  }
+}
+
+@media April {
+  .c0 {
+    rotation-point: August;
+  }
+}
+
+@media January {
+  .c0 {
+    rotation-point: September;
+  }
+}
+
+@media April {
+  .c0 {
+    rotation-point: November;
+  }
+}
+
+@media June {
+  .c0 {
+    rotation-point: August;
+  }
+}
+
+@media May {
+
+}
+
+@media April {
+
+}
+
+@media January {
+
+}
+
+@media April {
+
+}
+
+@media June {
+
+}
+
+<div
+    className="c0"
+  />,
+  @media May {
+  .c0 {
+    rotation-point: July;
+  }
+}
+
+@media April {
+  .c0 {
+    rotation-point: August;
+  }
+}
+
+@media January {
+  .c0 {
+    rotation-point: September;
+  }
+}
+
+@media April {
+  .c0 {
+    rotation-point: November;
+  }
+}
+
+@media June {
+  .c0 {
+    rotation-point: August;
+  }
+}
+
+@media May {
+
+}
+
+@media April {
+
+}
+
+@media January {
+
+}
+
+@media April {
+
+}
+
+@media June {
+
+}
+
+<div
+    className="c0"
+  />,
+  @media May {
+
+}
+
+@media April {
+
+}
+
+@media January {
+
+}
+
+@media April {
+
+}
+
+@media June {
+
+}
+
+@media May {
+  .c0 {
+    rotation-point: January;
+  }
+}
+
+@media April {
+  .c0 {
+    rotation-point: December;
+  }
+}
+
+@media January {
+  .c0 {
+    rotation-point: April;
+  }
+}
+
+@media April {
+  .c0 {
+    rotation-point: May;
+  }
+}
+
+@media June {
+  .c0 {
+    rotation-point: June;
+  }
+}
+
+<div
+    className="c0"
+  />,
+  @media May {
+
+}
+
+@media April {
+
+}
+
+@media January {
+
+}
+
+@media April {
+
+}
+
+@media June {
+
+}
+
+@media May {
+  .c0 {
+    rotation-point: January;
+  }
+}
+
+@media April {
+  .c0 {
+    rotation-point: December;
+  }
+}
+
+@media January {
+  .c0 {
+    rotation-point: April;
+  }
+}
+
+@media April {
+  .c0 {
+    rotation-point: May;
+  }
+}
+
+@media June {
+  .c0 {
+    rotation-point: June;
+  }
+}
+
+<div
+    className="c0"
+  />,
+]
+`;
+
+exports[`rotationPoint renders postitive number 1`] = `
+Array [
+  .c0 {
+  rotation-point: 54881;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  rotation-point: 54881;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  rotation-point: 42365;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  rotation-point: 42365;
+}
+
+<div
+    className="c0"
+  />,
+]
+`;
+
+exports[`rotationPoint renders string 1`] = `
+Array [
+  .c0 {
+  rotation-point: July;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  rotation-point: July;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  rotation-point: June;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  rotation-point: June;
+}
+
+<div
+    className="c0"
+  />,
+]
+`;
+
+exports[`rotationPoint renders valid theme path 1`] = `
+Array [
+  .c0 {
+  rotation-point: DarkSlateBlue;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  rotation-point: DarkSlateBlue;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  rotation-point: DarkSlateBlue;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  rotation-point: DarkSlateBlue;
+}
+
+<div
+    className="c0"
+  />,
+]
+`;

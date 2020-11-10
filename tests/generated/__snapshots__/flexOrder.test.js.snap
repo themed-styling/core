@@ -1,0 +1,754 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`flexOrder renders 0 1`] = `
+Array [
+  .c0 {
+  -webkit-flex-order: 0;
+  -ms-flex-order: 0;
+  flex-order: 0;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-flex-order: 0;
+  -ms-flex-order: 0;
+  flex-order: 0;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-flex-order: 0;
+  -ms-flex-order: 0;
+  flex-order: 0;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-flex-order: 0;
+  -ms-flex-order: 0;
+  flex-order: 0;
+}
+
+<div
+    className="c0"
+  />,
+]
+`;
+
+exports[`flexOrder renders function 1`] = `
+Array [
+  .c0 {
+  -webkit-flex-order: hasnot;
+  -ms-flex-order: hasnot;
+  flex-order: hasnot;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-flex-order: has;
+  -ms-flex-order: has;
+  flex-order: has;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-flex-order: hasnot;
+  -ms-flex-order: hasnot;
+  flex-order: hasnot;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-flex-order: has;
+  -ms-flex-order: has;
+  flex-order: has;
+}
+
+<div
+    className="c0"
+  />,
+]
+`;
+
+exports[`flexOrder renders invalid theme path 1`] = `
+Array [
+  .c0 {
+  -webkit-flex-order: invalid.path.1;
+  -ms-flex-order: invalid.path.1;
+  flex-order: invalid.path.1;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-flex-order: invalid.path.1;
+  -ms-flex-order: invalid.path.1;
+  flex-order: invalid.path.1;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-flex-order: invalid.path.1;
+  -ms-flex-order: invalid.path.1;
+  flex-order: invalid.path.1;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-flex-order: invalid.path.1;
+  -ms-flex-order: invalid.path.1;
+  flex-order: invalid.path.1;
+}
+
+<div
+    className="c0"
+  />,
+]
+`;
+
+exports[`flexOrder renders negative number 1`] = `
+Array [
+  .c0 {
+  -webkit-flex-order: -54881;
+  -ms-flex-order: -54881;
+  flex-order: -54881;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-flex-order: -54881;
+  -ms-flex-order: -54881;
+  flex-order: -54881;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-flex-order: -42365;
+  -ms-flex-order: -42365;
+  flex-order: -42365;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-flex-order: -42365;
+  -ms-flex-order: -42365;
+  flex-order: -42365;
+}
+
+<div
+    className="c0"
+  />,
+]
+`;
+
+exports[`flexOrder renders object [breakpoints] 1`] = `
+Array [
+  @media screen and (min-width:November) {
+  .c0 {
+    -webkit-flex-order: July;
+    -ms-flex-order: July;
+    flex-order: July;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    -webkit-flex-order: August;
+    -ms-flex-order: August;
+    flex-order: August;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    -webkit-flex-order: September;
+    -ms-flex-order: September;
+    flex-order: September;
+  }
+}
+
+@media screen and (min-width:August) {
+  .c0 {
+    -webkit-flex-order: November;
+    -ms-flex-order: November;
+    flex-order: November;
+  }
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:August) {
+
+}
+
+<div
+    className="c0"
+  />,
+  @media screen and (min-width:November) {
+  .c0 {
+    -webkit-flex-order: July;
+    -ms-flex-order: July;
+    flex-order: July;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    -webkit-flex-order: August;
+    -ms-flex-order: August;
+    flex-order: August;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    -webkit-flex-order: September;
+    -ms-flex-order: September;
+    flex-order: September;
+  }
+}
+
+@media screen and (min-width:August) {
+  .c0 {
+    -webkit-flex-order: November;
+    -ms-flex-order: November;
+    flex-order: November;
+  }
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:August) {
+
+}
+
+<div
+    className="c0"
+  />,
+  @media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:August) {
+
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    -webkit-flex-order: May;
+    -ms-flex-order: May;
+    flex-order: May;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    -webkit-flex-order: June;
+    -ms-flex-order: June;
+    flex-order: June;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    -webkit-flex-order: April;
+    -ms-flex-order: April;
+    flex-order: April;
+  }
+}
+
+@media screen and (min-width:August) {
+  .c0 {
+    -webkit-flex-order: November;
+    -ms-flex-order: November;
+    flex-order: November;
+  }
+}
+
+<div
+    className="c0"
+  />,
+  @media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:August) {
+
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    -webkit-flex-order: May;
+    -ms-flex-order: May;
+    flex-order: May;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    -webkit-flex-order: June;
+    -ms-flex-order: June;
+    flex-order: June;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    -webkit-flex-order: April;
+    -ms-flex-order: April;
+    flex-order: April;
+  }
+}
+
+@media screen and (min-width:August) {
+  .c0 {
+    -webkit-flex-order: November;
+    -ms-flex-order: November;
+    flex-order: November;
+  }
+}
+
+<div
+    className="c0"
+  />,
+]
+`;
+
+exports[`flexOrder renders object [breakpoints] 2`] = `
+Array [
+  @media May {
+  .c0 {
+    -webkit-flex-order: July;
+    -ms-flex-order: July;
+    flex-order: July;
+  }
+}
+
+@media April {
+  .c0 {
+    -webkit-flex-order: August;
+    -ms-flex-order: August;
+    flex-order: August;
+  }
+}
+
+@media January {
+  .c0 {
+    -webkit-flex-order: September;
+    -ms-flex-order: September;
+    flex-order: September;
+  }
+}
+
+@media April {
+  .c0 {
+    -webkit-flex-order: November;
+    -ms-flex-order: November;
+    flex-order: November;
+  }
+}
+
+@media June {
+  .c0 {
+    -webkit-flex-order: August;
+    -ms-flex-order: August;
+    flex-order: August;
+  }
+}
+
+@media May {
+
+}
+
+@media April {
+
+}
+
+@media January {
+
+}
+
+@media April {
+
+}
+
+@media June {
+
+}
+
+<div
+    className="c0"
+  />,
+  @media May {
+  .c0 {
+    -webkit-flex-order: July;
+    -ms-flex-order: July;
+    flex-order: July;
+  }
+}
+
+@media April {
+  .c0 {
+    -webkit-flex-order: August;
+    -ms-flex-order: August;
+    flex-order: August;
+  }
+}
+
+@media January {
+  .c0 {
+    -webkit-flex-order: September;
+    -ms-flex-order: September;
+    flex-order: September;
+  }
+}
+
+@media April {
+  .c0 {
+    -webkit-flex-order: November;
+    -ms-flex-order: November;
+    flex-order: November;
+  }
+}
+
+@media June {
+  .c0 {
+    -webkit-flex-order: August;
+    -ms-flex-order: August;
+    flex-order: August;
+  }
+}
+
+@media May {
+
+}
+
+@media April {
+
+}
+
+@media January {
+
+}
+
+@media April {
+
+}
+
+@media June {
+
+}
+
+<div
+    className="c0"
+  />,
+  @media May {
+
+}
+
+@media April {
+
+}
+
+@media January {
+
+}
+
+@media April {
+
+}
+
+@media June {
+
+}
+
+@media May {
+  .c0 {
+    -webkit-flex-order: January;
+    -ms-flex-order: January;
+    flex-order: January;
+  }
+}
+
+@media April {
+  .c0 {
+    -webkit-flex-order: December;
+    -ms-flex-order: December;
+    flex-order: December;
+  }
+}
+
+@media January {
+  .c0 {
+    -webkit-flex-order: April;
+    -ms-flex-order: April;
+    flex-order: April;
+  }
+}
+
+@media April {
+  .c0 {
+    -webkit-flex-order: May;
+    -ms-flex-order: May;
+    flex-order: May;
+  }
+}
+
+@media June {
+  .c0 {
+    -webkit-flex-order: June;
+    -ms-flex-order: June;
+    flex-order: June;
+  }
+}
+
+<div
+    className="c0"
+  />,
+  @media May {
+
+}
+
+@media April {
+
+}
+
+@media January {
+
+}
+
+@media April {
+
+}
+
+@media June {
+
+}
+
+@media May {
+  .c0 {
+    -webkit-flex-order: January;
+    -ms-flex-order: January;
+    flex-order: January;
+  }
+}
+
+@media April {
+  .c0 {
+    -webkit-flex-order: December;
+    -ms-flex-order: December;
+    flex-order: December;
+  }
+}
+
+@media January {
+  .c0 {
+    -webkit-flex-order: April;
+    -ms-flex-order: April;
+    flex-order: April;
+  }
+}
+
+@media April {
+  .c0 {
+    -webkit-flex-order: May;
+    -ms-flex-order: May;
+    flex-order: May;
+  }
+}
+
+@media June {
+  .c0 {
+    -webkit-flex-order: June;
+    -ms-flex-order: June;
+    flex-order: June;
+  }
+}
+
+<div
+    className="c0"
+  />,
+]
+`;
+
+exports[`flexOrder renders postitive number 1`] = `
+Array [
+  .c0 {
+  -webkit-flex-order: 54881;
+  -ms-flex-order: 54881;
+  flex-order: 54881;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-flex-order: 54881;
+  -ms-flex-order: 54881;
+  flex-order: 54881;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-flex-order: 42365;
+  -ms-flex-order: 42365;
+  flex-order: 42365;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-flex-order: 42365;
+  -ms-flex-order: 42365;
+  flex-order: 42365;
+}
+
+<div
+    className="c0"
+  />,
+]
+`;
+
+exports[`flexOrder renders string 1`] = `
+Array [
+  .c0 {
+  -webkit-flex-order: July;
+  -ms-flex-order: July;
+  flex-order: July;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-flex-order: July;
+  -ms-flex-order: July;
+  flex-order: July;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-flex-order: June;
+  -ms-flex-order: June;
+  flex-order: June;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-flex-order: June;
+  -ms-flex-order: June;
+  flex-order: June;
+}
+
+<div
+    className="c0"
+  />,
+]
+`;
+
+exports[`flexOrder renders valid theme path 1`] = `
+Array [
+  .c0 {
+  -webkit-flex-order: DarkSlateBlue;
+  -ms-flex-order: DarkSlateBlue;
+  flex-order: DarkSlateBlue;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-flex-order: DarkSlateBlue;
+  -ms-flex-order: DarkSlateBlue;
+  flex-order: DarkSlateBlue;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-flex-order: DarkSlateBlue;
+  -ms-flex-order: DarkSlateBlue;
+  flex-order: DarkSlateBlue;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-flex-order: DarkSlateBlue;
+  -ms-flex-order: DarkSlateBlue;
+  flex-order: DarkSlateBlue;
+}
+
+<div
+    className="c0"
+  />,
+]
+`;

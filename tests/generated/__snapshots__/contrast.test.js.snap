@@ -1,0 +1,690 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`contrast renders 0 1`] = `
+Array [
+  .c0 {
+  -webkit-filter: contrast(0%);
+  filter: contrast(0%);
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-filter: contrast(0%);
+  filter: contrast(0%);
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-filter: contrast(0%);
+  filter: contrast(0%);
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-filter: contrast(0%);
+  filter: contrast(0%);
+}
+
+<div
+    className="c0"
+  />,
+]
+`;
+
+exports[`contrast renders function 1`] = `
+Array [
+  .c0 {
+  -webkit-filter: contrast(hasnot);
+  filter: contrast(hasnot);
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-filter: contrast(has);
+  filter: contrast(has);
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-filter: contrast(hasnot);
+  filter: contrast(hasnot);
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-filter: contrast(has);
+  filter: contrast(has);
+}
+
+<div
+    className="c0"
+  />,
+]
+`;
+
+exports[`contrast renders invalid theme path 1`] = `
+Array [
+  .c0 {
+  -webkit-filter: contrast(invalid.path.1);
+  filter: contrast(invalid.path.1);
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-filter: contrast(invalid.path.1);
+  filter: contrast(invalid.path.1);
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-filter: contrast(invalid.path.1);
+  filter: contrast(invalid.path.1);
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-filter: contrast(invalid.path.1);
+  filter: contrast(invalid.path.1);
+}
+
+<div
+    className="c0"
+  />,
+]
+`;
+
+exports[`contrast renders negative number 1`] = `
+Array [
+  .c0 {
+  -webkit-filter: contrast(-5488100%);
+  filter: contrast(-5488100%);
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-filter: contrast(-5488100%);
+  filter: contrast(-5488100%);
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-filter: contrast(-4236500%);
+  filter: contrast(-4236500%);
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-filter: contrast(-4236500%);
+  filter: contrast(-4236500%);
+}
+
+<div
+    className="c0"
+  />,
+]
+`;
+
+exports[`contrast renders object [breakpoints] 1`] = `
+Array [
+  @media screen and (min-width:November) {
+  .c0 {
+    -webkit-filter: contrast(July);
+    filter: contrast(July);
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    -webkit-filter: contrast(August);
+    filter: contrast(August);
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    -webkit-filter: contrast(September);
+    filter: contrast(September);
+  }
+}
+
+@media screen and (min-width:August) {
+  .c0 {
+    -webkit-filter: contrast(November);
+    filter: contrast(November);
+  }
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:August) {
+
+}
+
+<div
+    className="c0"
+  />,
+  @media screen and (min-width:November) {
+  .c0 {
+    -webkit-filter: contrast(July);
+    filter: contrast(July);
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    -webkit-filter: contrast(August);
+    filter: contrast(August);
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    -webkit-filter: contrast(September);
+    filter: contrast(September);
+  }
+}
+
+@media screen and (min-width:August) {
+  .c0 {
+    -webkit-filter: contrast(November);
+    filter: contrast(November);
+  }
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:August) {
+
+}
+
+<div
+    className="c0"
+  />,
+  @media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:August) {
+
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    -webkit-filter: contrast(May);
+    filter: contrast(May);
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    -webkit-filter: contrast(June);
+    filter: contrast(June);
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    -webkit-filter: contrast(April);
+    filter: contrast(April);
+  }
+}
+
+@media screen and (min-width:August) {
+  .c0 {
+    -webkit-filter: contrast(November);
+    filter: contrast(November);
+  }
+}
+
+<div
+    className="c0"
+  />,
+  @media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:August) {
+
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    -webkit-filter: contrast(May);
+    filter: contrast(May);
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    -webkit-filter: contrast(June);
+    filter: contrast(June);
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    -webkit-filter: contrast(April);
+    filter: contrast(April);
+  }
+}
+
+@media screen and (min-width:August) {
+  .c0 {
+    -webkit-filter: contrast(November);
+    filter: contrast(November);
+  }
+}
+
+<div
+    className="c0"
+  />,
+]
+`;
+
+exports[`contrast renders object [breakpoints] 2`] = `
+Array [
+  @media May {
+  .c0 {
+    -webkit-filter: contrast(July);
+    filter: contrast(July);
+  }
+}
+
+@media April {
+  .c0 {
+    -webkit-filter: contrast(August);
+    filter: contrast(August);
+  }
+}
+
+@media January {
+  .c0 {
+    -webkit-filter: contrast(September);
+    filter: contrast(September);
+  }
+}
+
+@media April {
+  .c0 {
+    -webkit-filter: contrast(November);
+    filter: contrast(November);
+  }
+}
+
+@media June {
+  .c0 {
+    -webkit-filter: contrast(August);
+    filter: contrast(August);
+  }
+}
+
+@media May {
+
+}
+
+@media April {
+
+}
+
+@media January {
+
+}
+
+@media April {
+
+}
+
+@media June {
+
+}
+
+<div
+    className="c0"
+  />,
+  @media May {
+  .c0 {
+    -webkit-filter: contrast(July);
+    filter: contrast(July);
+  }
+}
+
+@media April {
+  .c0 {
+    -webkit-filter: contrast(August);
+    filter: contrast(August);
+  }
+}
+
+@media January {
+  .c0 {
+    -webkit-filter: contrast(September);
+    filter: contrast(September);
+  }
+}
+
+@media April {
+  .c0 {
+    -webkit-filter: contrast(November);
+    filter: contrast(November);
+  }
+}
+
+@media June {
+  .c0 {
+    -webkit-filter: contrast(August);
+    filter: contrast(August);
+  }
+}
+
+@media May {
+
+}
+
+@media April {
+
+}
+
+@media January {
+
+}
+
+@media April {
+
+}
+
+@media June {
+
+}
+
+<div
+    className="c0"
+  />,
+  @media May {
+
+}
+
+@media April {
+
+}
+
+@media January {
+
+}
+
+@media April {
+
+}
+
+@media June {
+
+}
+
+@media May {
+  .c0 {
+    -webkit-filter: contrast(January);
+    filter: contrast(January);
+  }
+}
+
+@media April {
+  .c0 {
+    -webkit-filter: contrast(December);
+    filter: contrast(December);
+  }
+}
+
+@media January {
+  .c0 {
+    -webkit-filter: contrast(April);
+    filter: contrast(April);
+  }
+}
+
+@media April {
+  .c0 {
+    -webkit-filter: contrast(May);
+    filter: contrast(May);
+  }
+}
+
+@media June {
+  .c0 {
+    -webkit-filter: contrast(June);
+    filter: contrast(June);
+  }
+}
+
+<div
+    className="c0"
+  />,
+  @media May {
+
+}
+
+@media April {
+
+}
+
+@media January {
+
+}
+
+@media April {
+
+}
+
+@media June {
+
+}
+
+@media May {
+  .c0 {
+    -webkit-filter: contrast(January);
+    filter: contrast(January);
+  }
+}
+
+@media April {
+  .c0 {
+    -webkit-filter: contrast(December);
+    filter: contrast(December);
+  }
+}
+
+@media January {
+  .c0 {
+    -webkit-filter: contrast(April);
+    filter: contrast(April);
+  }
+}
+
+@media April {
+  .c0 {
+    -webkit-filter: contrast(May);
+    filter: contrast(May);
+  }
+}
+
+@media June {
+  .c0 {
+    -webkit-filter: contrast(June);
+    filter: contrast(June);
+  }
+}
+
+<div
+    className="c0"
+  />,
+]
+`;
+
+exports[`contrast renders postitive number 1`] = `
+Array [
+  .c0 {
+  -webkit-filter: contrast(54881%);
+  filter: contrast(54881%);
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-filter: contrast(54881%);
+  filter: contrast(54881%);
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-filter: contrast(42365%);
+  filter: contrast(42365%);
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-filter: contrast(42365%);
+  filter: contrast(42365%);
+}
+
+<div
+    className="c0"
+  />,
+]
+`;
+
+exports[`contrast renders string 1`] = `
+Array [
+  .c0 {
+  -webkit-filter: contrast(July);
+  filter: contrast(July);
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-filter: contrast(July);
+  filter: contrast(July);
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-filter: contrast(June);
+  filter: contrast(June);
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-filter: contrast(June);
+  filter: contrast(June);
+}
+
+<div
+    className="c0"
+  />,
+]
+`;
+
+exports[`contrast renders valid theme path 1`] = `
+Array [
+  .c0 {
+  -webkit-filter: contrast(DarkSlateBlue);
+  filter: contrast(DarkSlateBlue);
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-filter: contrast(DarkSlateBlue);
+  filter: contrast(DarkSlateBlue);
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-filter: contrast(DarkSlateBlue);
+  filter: contrast(DarkSlateBlue);
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-filter: contrast(DarkSlateBlue);
+  filter: contrast(DarkSlateBlue);
+}
+
+<div
+    className="c0"
+  />,
+]
+`;

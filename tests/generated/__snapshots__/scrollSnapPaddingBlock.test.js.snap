@@ -1,0 +1,818 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`scrollSnapPaddingBlock renders 0 1`] = `
+Array [
+  .c0 {
+  -webkit-scroll-snap-padding-block: 0;
+  -moz-scroll-snap-padding-block: 0;
+  -ms-scroll-snap-padding-block: 0;
+  scroll-snap-padding-block: 0;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-scroll-snap-padding-block: 0;
+  -moz-scroll-snap-padding-block: 0;
+  -ms-scroll-snap-padding-block: 0;
+  scroll-snap-padding-block: 0;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-scroll-snap-padding-block: 0;
+  -moz-scroll-snap-padding-block: 0;
+  -ms-scroll-snap-padding-block: 0;
+  scroll-snap-padding-block: 0;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-scroll-snap-padding-block: 0;
+  -moz-scroll-snap-padding-block: 0;
+  -ms-scroll-snap-padding-block: 0;
+  scroll-snap-padding-block: 0;
+}
+
+<div
+    className="c0"
+  />,
+]
+`;
+
+exports[`scrollSnapPaddingBlock renders function 1`] = `
+Array [
+  .c0 {
+  -webkit-scroll-snap-padding-block: hasnot;
+  -moz-scroll-snap-padding-block: hasnot;
+  -ms-scroll-snap-padding-block: hasnot;
+  scroll-snap-padding-block: hasnot;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-scroll-snap-padding-block: has;
+  -moz-scroll-snap-padding-block: has;
+  -ms-scroll-snap-padding-block: has;
+  scroll-snap-padding-block: has;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-scroll-snap-padding-block: hasnot;
+  -moz-scroll-snap-padding-block: hasnot;
+  -ms-scroll-snap-padding-block: hasnot;
+  scroll-snap-padding-block: hasnot;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-scroll-snap-padding-block: has;
+  -moz-scroll-snap-padding-block: has;
+  -ms-scroll-snap-padding-block: has;
+  scroll-snap-padding-block: has;
+}
+
+<div
+    className="c0"
+  />,
+]
+`;
+
+exports[`scrollSnapPaddingBlock renders invalid theme path 1`] = `
+Array [
+  .c0 {
+  -webkit-scroll-snap-padding-block: invalid.path.1;
+  -moz-scroll-snap-padding-block: invalid.path.1;
+  -ms-scroll-snap-padding-block: invalid.path.1;
+  scroll-snap-padding-block: invalid.path.1;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-scroll-snap-padding-block: invalid.path.1;
+  -moz-scroll-snap-padding-block: invalid.path.1;
+  -ms-scroll-snap-padding-block: invalid.path.1;
+  scroll-snap-padding-block: invalid.path.1;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-scroll-snap-padding-block: invalid.path.1;
+  -moz-scroll-snap-padding-block: invalid.path.1;
+  -ms-scroll-snap-padding-block: invalid.path.1;
+  scroll-snap-padding-block: invalid.path.1;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-scroll-snap-padding-block: invalid.path.1;
+  -moz-scroll-snap-padding-block: invalid.path.1;
+  -ms-scroll-snap-padding-block: invalid.path.1;
+  scroll-snap-padding-block: invalid.path.1;
+}
+
+<div
+    className="c0"
+  />,
+]
+`;
+
+exports[`scrollSnapPaddingBlock renders negative number 1`] = `
+Array [
+  .c0 {
+  -webkit-scroll-snap-padding-block: -54881;
+  -moz-scroll-snap-padding-block: -54881;
+  -ms-scroll-snap-padding-block: -54881;
+  scroll-snap-padding-block: -54881;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-scroll-snap-padding-block: -54881;
+  -moz-scroll-snap-padding-block: -54881;
+  -ms-scroll-snap-padding-block: -54881;
+  scroll-snap-padding-block: -54881;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-scroll-snap-padding-block: -42365;
+  -moz-scroll-snap-padding-block: -42365;
+  -ms-scroll-snap-padding-block: -42365;
+  scroll-snap-padding-block: -42365;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-scroll-snap-padding-block: -42365;
+  -moz-scroll-snap-padding-block: -42365;
+  -ms-scroll-snap-padding-block: -42365;
+  scroll-snap-padding-block: -42365;
+}
+
+<div
+    className="c0"
+  />,
+]
+`;
+
+exports[`scrollSnapPaddingBlock renders object [breakpoints] 1`] = `
+Array [
+  @media screen and (min-width:November) {
+  .c0 {
+    -webkit-scroll-snap-padding-block: July;
+    -moz-scroll-snap-padding-block: July;
+    -ms-scroll-snap-padding-block: July;
+    scroll-snap-padding-block: July;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    -webkit-scroll-snap-padding-block: August;
+    -moz-scroll-snap-padding-block: August;
+    -ms-scroll-snap-padding-block: August;
+    scroll-snap-padding-block: August;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    -webkit-scroll-snap-padding-block: September;
+    -moz-scroll-snap-padding-block: September;
+    -ms-scroll-snap-padding-block: September;
+    scroll-snap-padding-block: September;
+  }
+}
+
+@media screen and (min-width:August) {
+  .c0 {
+    -webkit-scroll-snap-padding-block: November;
+    -moz-scroll-snap-padding-block: November;
+    -ms-scroll-snap-padding-block: November;
+    scroll-snap-padding-block: November;
+  }
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:August) {
+
+}
+
+<div
+    className="c0"
+  />,
+  @media screen and (min-width:November) {
+  .c0 {
+    -webkit-scroll-snap-padding-block: July;
+    -moz-scroll-snap-padding-block: July;
+    -ms-scroll-snap-padding-block: July;
+    scroll-snap-padding-block: July;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    -webkit-scroll-snap-padding-block: August;
+    -moz-scroll-snap-padding-block: August;
+    -ms-scroll-snap-padding-block: August;
+    scroll-snap-padding-block: August;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    -webkit-scroll-snap-padding-block: September;
+    -moz-scroll-snap-padding-block: September;
+    -ms-scroll-snap-padding-block: September;
+    scroll-snap-padding-block: September;
+  }
+}
+
+@media screen and (min-width:August) {
+  .c0 {
+    -webkit-scroll-snap-padding-block: November;
+    -moz-scroll-snap-padding-block: November;
+    -ms-scroll-snap-padding-block: November;
+    scroll-snap-padding-block: November;
+  }
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:August) {
+
+}
+
+<div
+    className="c0"
+  />,
+  @media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:August) {
+
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    -webkit-scroll-snap-padding-block: May;
+    -moz-scroll-snap-padding-block: May;
+    -ms-scroll-snap-padding-block: May;
+    scroll-snap-padding-block: May;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    -webkit-scroll-snap-padding-block: June;
+    -moz-scroll-snap-padding-block: June;
+    -ms-scroll-snap-padding-block: June;
+    scroll-snap-padding-block: June;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    -webkit-scroll-snap-padding-block: April;
+    -moz-scroll-snap-padding-block: April;
+    -ms-scroll-snap-padding-block: April;
+    scroll-snap-padding-block: April;
+  }
+}
+
+@media screen and (min-width:August) {
+  .c0 {
+    -webkit-scroll-snap-padding-block: November;
+    -moz-scroll-snap-padding-block: November;
+    -ms-scroll-snap-padding-block: November;
+    scroll-snap-padding-block: November;
+  }
+}
+
+<div
+    className="c0"
+  />,
+  @media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:August) {
+
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    -webkit-scroll-snap-padding-block: May;
+    -moz-scroll-snap-padding-block: May;
+    -ms-scroll-snap-padding-block: May;
+    scroll-snap-padding-block: May;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    -webkit-scroll-snap-padding-block: June;
+    -moz-scroll-snap-padding-block: June;
+    -ms-scroll-snap-padding-block: June;
+    scroll-snap-padding-block: June;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    -webkit-scroll-snap-padding-block: April;
+    -moz-scroll-snap-padding-block: April;
+    -ms-scroll-snap-padding-block: April;
+    scroll-snap-padding-block: April;
+  }
+}
+
+@media screen and (min-width:August) {
+  .c0 {
+    -webkit-scroll-snap-padding-block: November;
+    -moz-scroll-snap-padding-block: November;
+    -ms-scroll-snap-padding-block: November;
+    scroll-snap-padding-block: November;
+  }
+}
+
+<div
+    className="c0"
+  />,
+]
+`;
+
+exports[`scrollSnapPaddingBlock renders object [breakpoints] 2`] = `
+Array [
+  @media May {
+  .c0 {
+    -webkit-scroll-snap-padding-block: July;
+    -moz-scroll-snap-padding-block: July;
+    -ms-scroll-snap-padding-block: July;
+    scroll-snap-padding-block: July;
+  }
+}
+
+@media April {
+  .c0 {
+    -webkit-scroll-snap-padding-block: August;
+    -moz-scroll-snap-padding-block: August;
+    -ms-scroll-snap-padding-block: August;
+    scroll-snap-padding-block: August;
+  }
+}
+
+@media January {
+  .c0 {
+    -webkit-scroll-snap-padding-block: September;
+    -moz-scroll-snap-padding-block: September;
+    -ms-scroll-snap-padding-block: September;
+    scroll-snap-padding-block: September;
+  }
+}
+
+@media April {
+  .c0 {
+    -webkit-scroll-snap-padding-block: November;
+    -moz-scroll-snap-padding-block: November;
+    -ms-scroll-snap-padding-block: November;
+    scroll-snap-padding-block: November;
+  }
+}
+
+@media June {
+  .c0 {
+    -webkit-scroll-snap-padding-block: August;
+    -moz-scroll-snap-padding-block: August;
+    -ms-scroll-snap-padding-block: August;
+    scroll-snap-padding-block: August;
+  }
+}
+
+@media May {
+
+}
+
+@media April {
+
+}
+
+@media January {
+
+}
+
+@media April {
+
+}
+
+@media June {
+
+}
+
+<div
+    className="c0"
+  />,
+  @media May {
+  .c0 {
+    -webkit-scroll-snap-padding-block: July;
+    -moz-scroll-snap-padding-block: July;
+    -ms-scroll-snap-padding-block: July;
+    scroll-snap-padding-block: July;
+  }
+}
+
+@media April {
+  .c0 {
+    -webkit-scroll-snap-padding-block: August;
+    -moz-scroll-snap-padding-block: August;
+    -ms-scroll-snap-padding-block: August;
+    scroll-snap-padding-block: August;
+  }
+}
+
+@media January {
+  .c0 {
+    -webkit-scroll-snap-padding-block: September;
+    -moz-scroll-snap-padding-block: September;
+    -ms-scroll-snap-padding-block: September;
+    scroll-snap-padding-block: September;
+  }
+}
+
+@media April {
+  .c0 {
+    -webkit-scroll-snap-padding-block: November;
+    -moz-scroll-snap-padding-block: November;
+    -ms-scroll-snap-padding-block: November;
+    scroll-snap-padding-block: November;
+  }
+}
+
+@media June {
+  .c0 {
+    -webkit-scroll-snap-padding-block: August;
+    -moz-scroll-snap-padding-block: August;
+    -ms-scroll-snap-padding-block: August;
+    scroll-snap-padding-block: August;
+  }
+}
+
+@media May {
+
+}
+
+@media April {
+
+}
+
+@media January {
+
+}
+
+@media April {
+
+}
+
+@media June {
+
+}
+
+<div
+    className="c0"
+  />,
+  @media May {
+
+}
+
+@media April {
+
+}
+
+@media January {
+
+}
+
+@media April {
+
+}
+
+@media June {
+
+}
+
+@media May {
+  .c0 {
+    -webkit-scroll-snap-padding-block: January;
+    -moz-scroll-snap-padding-block: January;
+    -ms-scroll-snap-padding-block: January;
+    scroll-snap-padding-block: January;
+  }
+}
+
+@media April {
+  .c0 {
+    -webkit-scroll-snap-padding-block: December;
+    -moz-scroll-snap-padding-block: December;
+    -ms-scroll-snap-padding-block: December;
+    scroll-snap-padding-block: December;
+  }
+}
+
+@media January {
+  .c0 {
+    -webkit-scroll-snap-padding-block: April;
+    -moz-scroll-snap-padding-block: April;
+    -ms-scroll-snap-padding-block: April;
+    scroll-snap-padding-block: April;
+  }
+}
+
+@media April {
+  .c0 {
+    -webkit-scroll-snap-padding-block: May;
+    -moz-scroll-snap-padding-block: May;
+    -ms-scroll-snap-padding-block: May;
+    scroll-snap-padding-block: May;
+  }
+}
+
+@media June {
+  .c0 {
+    -webkit-scroll-snap-padding-block: June;
+    -moz-scroll-snap-padding-block: June;
+    -ms-scroll-snap-padding-block: June;
+    scroll-snap-padding-block: June;
+  }
+}
+
+<div
+    className="c0"
+  />,
+  @media May {
+
+}
+
+@media April {
+
+}
+
+@media January {
+
+}
+
+@media April {
+
+}
+
+@media June {
+
+}
+
+@media May {
+  .c0 {
+    -webkit-scroll-snap-padding-block: January;
+    -moz-scroll-snap-padding-block: January;
+    -ms-scroll-snap-padding-block: January;
+    scroll-snap-padding-block: January;
+  }
+}
+
+@media April {
+  .c0 {
+    -webkit-scroll-snap-padding-block: December;
+    -moz-scroll-snap-padding-block: December;
+    -ms-scroll-snap-padding-block: December;
+    scroll-snap-padding-block: December;
+  }
+}
+
+@media January {
+  .c0 {
+    -webkit-scroll-snap-padding-block: April;
+    -moz-scroll-snap-padding-block: April;
+    -ms-scroll-snap-padding-block: April;
+    scroll-snap-padding-block: April;
+  }
+}
+
+@media April {
+  .c0 {
+    -webkit-scroll-snap-padding-block: May;
+    -moz-scroll-snap-padding-block: May;
+    -ms-scroll-snap-padding-block: May;
+    scroll-snap-padding-block: May;
+  }
+}
+
+@media June {
+  .c0 {
+    -webkit-scroll-snap-padding-block: June;
+    -moz-scroll-snap-padding-block: June;
+    -ms-scroll-snap-padding-block: June;
+    scroll-snap-padding-block: June;
+  }
+}
+
+<div
+    className="c0"
+  />,
+]
+`;
+
+exports[`scrollSnapPaddingBlock renders postitive number 1`] = `
+Array [
+  .c0 {
+  -webkit-scroll-snap-padding-block: 54881;
+  -moz-scroll-snap-padding-block: 54881;
+  -ms-scroll-snap-padding-block: 54881;
+  scroll-snap-padding-block: 54881;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-scroll-snap-padding-block: 54881;
+  -moz-scroll-snap-padding-block: 54881;
+  -ms-scroll-snap-padding-block: 54881;
+  scroll-snap-padding-block: 54881;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-scroll-snap-padding-block: 42365;
+  -moz-scroll-snap-padding-block: 42365;
+  -ms-scroll-snap-padding-block: 42365;
+  scroll-snap-padding-block: 42365;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-scroll-snap-padding-block: 42365;
+  -moz-scroll-snap-padding-block: 42365;
+  -ms-scroll-snap-padding-block: 42365;
+  scroll-snap-padding-block: 42365;
+}
+
+<div
+    className="c0"
+  />,
+]
+`;
+
+exports[`scrollSnapPaddingBlock renders string 1`] = `
+Array [
+  .c0 {
+  -webkit-scroll-snap-padding-block: July;
+  -moz-scroll-snap-padding-block: July;
+  -ms-scroll-snap-padding-block: July;
+  scroll-snap-padding-block: July;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-scroll-snap-padding-block: July;
+  -moz-scroll-snap-padding-block: July;
+  -ms-scroll-snap-padding-block: July;
+  scroll-snap-padding-block: July;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-scroll-snap-padding-block: June;
+  -moz-scroll-snap-padding-block: June;
+  -ms-scroll-snap-padding-block: June;
+  scroll-snap-padding-block: June;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-scroll-snap-padding-block: June;
+  -moz-scroll-snap-padding-block: June;
+  -ms-scroll-snap-padding-block: June;
+  scroll-snap-padding-block: June;
+}
+
+<div
+    className="c0"
+  />,
+]
+`;
+
+exports[`scrollSnapPaddingBlock renders valid theme path 1`] = `
+Array [
+  .c0 {
+  -webkit-scroll-snap-padding-block: DarkSlateBlue;
+  -moz-scroll-snap-padding-block: DarkSlateBlue;
+  -ms-scroll-snap-padding-block: DarkSlateBlue;
+  scroll-snap-padding-block: DarkSlateBlue;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-scroll-snap-padding-block: DarkSlateBlue;
+  -moz-scroll-snap-padding-block: DarkSlateBlue;
+  -ms-scroll-snap-padding-block: DarkSlateBlue;
+  scroll-snap-padding-block: DarkSlateBlue;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-scroll-snap-padding-block: DarkSlateBlue;
+  -moz-scroll-snap-padding-block: DarkSlateBlue;
+  -ms-scroll-snap-padding-block: DarkSlateBlue;
+  scroll-snap-padding-block: DarkSlateBlue;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-scroll-snap-padding-block: DarkSlateBlue;
+  -moz-scroll-snap-padding-block: DarkSlateBlue;
+  -ms-scroll-snap-padding-block: DarkSlateBlue;
+  scroll-snap-padding-block: DarkSlateBlue;
+}
+
+<div
+    className="c0"
+  />,
+]
+`;

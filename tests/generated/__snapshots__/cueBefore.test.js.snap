@@ -1,0 +1,626 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`cueBefore renders 0 1`] = `
+Array [
+  .c0 {
+  cue-before: 0;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  cue-before: 0;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  cue-before: 0;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  cue-before: 0;
+}
+
+<div
+    className="c0"
+  />,
+]
+`;
+
+exports[`cueBefore renders function 1`] = `
+Array [
+  .c0 {
+  cue-before: hasnot;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  cue-before: has;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  cue-before: hasnot;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  cue-before: has;
+}
+
+<div
+    className="c0"
+  />,
+]
+`;
+
+exports[`cueBefore renders invalid theme path 1`] = `
+Array [
+  .c0 {
+  cue-before: invalid.path.1;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  cue-before: invalid.path.1;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  cue-before: invalid.path.1;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  cue-before: invalid.path.1;
+}
+
+<div
+    className="c0"
+  />,
+]
+`;
+
+exports[`cueBefore renders negative number 1`] = `
+Array [
+  .c0 {
+  cue-before: -54881;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  cue-before: -54881;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  cue-before: -42365;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  cue-before: -42365;
+}
+
+<div
+    className="c0"
+  />,
+]
+`;
+
+exports[`cueBefore renders object [breakpoints] 1`] = `
+Array [
+  @media screen and (min-width:November) {
+  .c0 {
+    cue-before: July;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    cue-before: August;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    cue-before: September;
+  }
+}
+
+@media screen and (min-width:August) {
+  .c0 {
+    cue-before: November;
+  }
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:August) {
+
+}
+
+<div
+    className="c0"
+  />,
+  @media screen and (min-width:November) {
+  .c0 {
+    cue-before: July;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    cue-before: August;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    cue-before: September;
+  }
+}
+
+@media screen and (min-width:August) {
+  .c0 {
+    cue-before: November;
+  }
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:August) {
+
+}
+
+<div
+    className="c0"
+  />,
+  @media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:August) {
+
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    cue-before: May;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    cue-before: June;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    cue-before: April;
+  }
+}
+
+@media screen and (min-width:August) {
+  .c0 {
+    cue-before: November;
+  }
+}
+
+<div
+    className="c0"
+  />,
+  @media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:August) {
+
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    cue-before: May;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    cue-before: June;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    cue-before: April;
+  }
+}
+
+@media screen and (min-width:August) {
+  .c0 {
+    cue-before: November;
+  }
+}
+
+<div
+    className="c0"
+  />,
+]
+`;
+
+exports[`cueBefore renders object [breakpoints] 2`] = `
+Array [
+  @media May {
+  .c0 {
+    cue-before: July;
+  }
+}
+
+@media April {
+  .c0 {
+    cue-before: August;
+  }
+}
+
+@media January {
+  .c0 {
+    cue-before: September;
+  }
+}
+
+@media April {
+  .c0 {
+    cue-before: November;
+  }
+}
+
+@media June {
+  .c0 {
+    cue-before: August;
+  }
+}
+
+@media May {
+
+}
+
+@media April {
+
+}
+
+@media January {
+
+}
+
+@media April {
+
+}
+
+@media June {
+
+}
+
+<div
+    className="c0"
+  />,
+  @media May {
+  .c0 {
+    cue-before: July;
+  }
+}
+
+@media April {
+  .c0 {
+    cue-before: August;
+  }
+}
+
+@media January {
+  .c0 {
+    cue-before: September;
+  }
+}
+
+@media April {
+  .c0 {
+    cue-before: November;
+  }
+}
+
+@media June {
+  .c0 {
+    cue-before: August;
+  }
+}
+
+@media May {
+
+}
+
+@media April {
+
+}
+
+@media January {
+
+}
+
+@media April {
+
+}
+
+@media June {
+
+}
+
+<div
+    className="c0"
+  />,
+  @media May {
+
+}
+
+@media April {
+
+}
+
+@media January {
+
+}
+
+@media April {
+
+}
+
+@media June {
+
+}
+
+@media May {
+  .c0 {
+    cue-before: January;
+  }
+}
+
+@media April {
+  .c0 {
+    cue-before: December;
+  }
+}
+
+@media January {
+  .c0 {
+    cue-before: April;
+  }
+}
+
+@media April {
+  .c0 {
+    cue-before: May;
+  }
+}
+
+@media June {
+  .c0 {
+    cue-before: June;
+  }
+}
+
+<div
+    className="c0"
+  />,
+  @media May {
+
+}
+
+@media April {
+
+}
+
+@media January {
+
+}
+
+@media April {
+
+}
+
+@media June {
+
+}
+
+@media May {
+  .c0 {
+    cue-before: January;
+  }
+}
+
+@media April {
+  .c0 {
+    cue-before: December;
+  }
+}
+
+@media January {
+  .c0 {
+    cue-before: April;
+  }
+}
+
+@media April {
+  .c0 {
+    cue-before: May;
+  }
+}
+
+@media June {
+  .c0 {
+    cue-before: June;
+  }
+}
+
+<div
+    className="c0"
+  />,
+]
+`;
+
+exports[`cueBefore renders postitive number 1`] = `
+Array [
+  .c0 {
+  cue-before: 54881;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  cue-before: 54881;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  cue-before: 42365;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  cue-before: 42365;
+}
+
+<div
+    className="c0"
+  />,
+]
+`;
+
+exports[`cueBefore renders string 1`] = `
+Array [
+  .c0 {
+  cue-before: July;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  cue-before: July;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  cue-before: June;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  cue-before: June;
+}
+
+<div
+    className="c0"
+  />,
+]
+`;
+
+exports[`cueBefore renders valid theme path 1`] = `
+Array [
+  .c0 {
+  cue-before: DarkSlateBlue;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  cue-before: DarkSlateBlue;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  cue-before: DarkSlateBlue;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  cue-before: DarkSlateBlue;
+}
+
+<div
+    className="c0"
+  />,
+]
+`;

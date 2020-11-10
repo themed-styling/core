@@ -1,0 +1,626 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`textSpacing renders 0 1`] = `
+Array [
+  .c0 {
+  text-spacing: 0;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  text-spacing: 0;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  text-spacing: 0;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  text-spacing: 0;
+}
+
+<div
+    className="c0"
+  />,
+]
+`;
+
+exports[`textSpacing renders function 1`] = `
+Array [
+  .c0 {
+  text-spacing: hasnot;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  text-spacing: has;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  text-spacing: hasnot;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  text-spacing: has;
+}
+
+<div
+    className="c0"
+  />,
+]
+`;
+
+exports[`textSpacing renders invalid theme path 1`] = `
+Array [
+  .c0 {
+  text-spacing: invalid.path.1;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  text-spacing: invalid.path.1;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  text-spacing: invalid.path.1;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  text-spacing: invalid.path.1;
+}
+
+<div
+    className="c0"
+  />,
+]
+`;
+
+exports[`textSpacing renders negative number 1`] = `
+Array [
+  .c0 {
+  text-spacing: -54881;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  text-spacing: -54881;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  text-spacing: -42365;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  text-spacing: -42365;
+}
+
+<div
+    className="c0"
+  />,
+]
+`;
+
+exports[`textSpacing renders object [breakpoints] 1`] = `
+Array [
+  @media screen and (min-width:November) {
+  .c0 {
+    text-spacing: July;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    text-spacing: August;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    text-spacing: September;
+  }
+}
+
+@media screen and (min-width:August) {
+  .c0 {
+    text-spacing: November;
+  }
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:August) {
+
+}
+
+<div
+    className="c0"
+  />,
+  @media screen and (min-width:November) {
+  .c0 {
+    text-spacing: July;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    text-spacing: August;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    text-spacing: September;
+  }
+}
+
+@media screen and (min-width:August) {
+  .c0 {
+    text-spacing: November;
+  }
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:August) {
+
+}
+
+<div
+    className="c0"
+  />,
+  @media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:August) {
+
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    text-spacing: May;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    text-spacing: June;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    text-spacing: April;
+  }
+}
+
+@media screen and (min-width:August) {
+  .c0 {
+    text-spacing: November;
+  }
+}
+
+<div
+    className="c0"
+  />,
+  @media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:August) {
+
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    text-spacing: May;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    text-spacing: June;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    text-spacing: April;
+  }
+}
+
+@media screen and (min-width:August) {
+  .c0 {
+    text-spacing: November;
+  }
+}
+
+<div
+    className="c0"
+  />,
+]
+`;
+
+exports[`textSpacing renders object [breakpoints] 2`] = `
+Array [
+  @media May {
+  .c0 {
+    text-spacing: July;
+  }
+}
+
+@media April {
+  .c0 {
+    text-spacing: August;
+  }
+}
+
+@media January {
+  .c0 {
+    text-spacing: September;
+  }
+}
+
+@media April {
+  .c0 {
+    text-spacing: November;
+  }
+}
+
+@media June {
+  .c0 {
+    text-spacing: August;
+  }
+}
+
+@media May {
+
+}
+
+@media April {
+
+}
+
+@media January {
+
+}
+
+@media April {
+
+}
+
+@media June {
+
+}
+
+<div
+    className="c0"
+  />,
+  @media May {
+  .c0 {
+    text-spacing: July;
+  }
+}
+
+@media April {
+  .c0 {
+    text-spacing: August;
+  }
+}
+
+@media January {
+  .c0 {
+    text-spacing: September;
+  }
+}
+
+@media April {
+  .c0 {
+    text-spacing: November;
+  }
+}
+
+@media June {
+  .c0 {
+    text-spacing: August;
+  }
+}
+
+@media May {
+
+}
+
+@media April {
+
+}
+
+@media January {
+
+}
+
+@media April {
+
+}
+
+@media June {
+
+}
+
+<div
+    className="c0"
+  />,
+  @media May {
+
+}
+
+@media April {
+
+}
+
+@media January {
+
+}
+
+@media April {
+
+}
+
+@media June {
+
+}
+
+@media May {
+  .c0 {
+    text-spacing: January;
+  }
+}
+
+@media April {
+  .c0 {
+    text-spacing: December;
+  }
+}
+
+@media January {
+  .c0 {
+    text-spacing: April;
+  }
+}
+
+@media April {
+  .c0 {
+    text-spacing: May;
+  }
+}
+
+@media June {
+  .c0 {
+    text-spacing: June;
+  }
+}
+
+<div
+    className="c0"
+  />,
+  @media May {
+
+}
+
+@media April {
+
+}
+
+@media January {
+
+}
+
+@media April {
+
+}
+
+@media June {
+
+}
+
+@media May {
+  .c0 {
+    text-spacing: January;
+  }
+}
+
+@media April {
+  .c0 {
+    text-spacing: December;
+  }
+}
+
+@media January {
+  .c0 {
+    text-spacing: April;
+  }
+}
+
+@media April {
+  .c0 {
+    text-spacing: May;
+  }
+}
+
+@media June {
+  .c0 {
+    text-spacing: June;
+  }
+}
+
+<div
+    className="c0"
+  />,
+]
+`;
+
+exports[`textSpacing renders postitive number 1`] = `
+Array [
+  .c0 {
+  text-spacing: 54881;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  text-spacing: 54881;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  text-spacing: 42365;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  text-spacing: 42365;
+}
+
+<div
+    className="c0"
+  />,
+]
+`;
+
+exports[`textSpacing renders string 1`] = `
+Array [
+  .c0 {
+  text-spacing: July;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  text-spacing: July;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  text-spacing: June;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  text-spacing: June;
+}
+
+<div
+    className="c0"
+  />,
+]
+`;
+
+exports[`textSpacing renders valid theme path 1`] = `
+Array [
+  .c0 {
+  text-spacing: DarkSlateBlue;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  text-spacing: DarkSlateBlue;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  text-spacing: DarkSlateBlue;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  text-spacing: DarkSlateBlue;
+}
+
+<div
+    className="c0"
+  />,
+]
+`;

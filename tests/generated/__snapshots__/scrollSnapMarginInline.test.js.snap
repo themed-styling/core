@@ -1,0 +1,818 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`scrollSnapMarginInline renders 0 1`] = `
+Array [
+  .c0 {
+  -webkit-scroll-snap-margin-inline: 0;
+  -moz-scroll-snap-margin-inline: 0;
+  -ms-scroll-snap-margin-inline: 0;
+  scroll-snap-margin-inline: 0;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-scroll-snap-margin-inline: 0;
+  -moz-scroll-snap-margin-inline: 0;
+  -ms-scroll-snap-margin-inline: 0;
+  scroll-snap-margin-inline: 0;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-scroll-snap-margin-inline: 0;
+  -moz-scroll-snap-margin-inline: 0;
+  -ms-scroll-snap-margin-inline: 0;
+  scroll-snap-margin-inline: 0;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-scroll-snap-margin-inline: 0;
+  -moz-scroll-snap-margin-inline: 0;
+  -ms-scroll-snap-margin-inline: 0;
+  scroll-snap-margin-inline: 0;
+}
+
+<div
+    className="c0"
+  />,
+]
+`;
+
+exports[`scrollSnapMarginInline renders function 1`] = `
+Array [
+  .c0 {
+  -webkit-scroll-snap-margin-inline: hasnot;
+  -moz-scroll-snap-margin-inline: hasnot;
+  -ms-scroll-snap-margin-inline: hasnot;
+  scroll-snap-margin-inline: hasnot;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-scroll-snap-margin-inline: has;
+  -moz-scroll-snap-margin-inline: has;
+  -ms-scroll-snap-margin-inline: has;
+  scroll-snap-margin-inline: has;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-scroll-snap-margin-inline: hasnot;
+  -moz-scroll-snap-margin-inline: hasnot;
+  -ms-scroll-snap-margin-inline: hasnot;
+  scroll-snap-margin-inline: hasnot;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-scroll-snap-margin-inline: has;
+  -moz-scroll-snap-margin-inline: has;
+  -ms-scroll-snap-margin-inline: has;
+  scroll-snap-margin-inline: has;
+}
+
+<div
+    className="c0"
+  />,
+]
+`;
+
+exports[`scrollSnapMarginInline renders invalid theme path 1`] = `
+Array [
+  .c0 {
+  -webkit-scroll-snap-margin-inline: invalid.path.1;
+  -moz-scroll-snap-margin-inline: invalid.path.1;
+  -ms-scroll-snap-margin-inline: invalid.path.1;
+  scroll-snap-margin-inline: invalid.path.1;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-scroll-snap-margin-inline: invalid.path.1;
+  -moz-scroll-snap-margin-inline: invalid.path.1;
+  -ms-scroll-snap-margin-inline: invalid.path.1;
+  scroll-snap-margin-inline: invalid.path.1;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-scroll-snap-margin-inline: invalid.path.1;
+  -moz-scroll-snap-margin-inline: invalid.path.1;
+  -ms-scroll-snap-margin-inline: invalid.path.1;
+  scroll-snap-margin-inline: invalid.path.1;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-scroll-snap-margin-inline: invalid.path.1;
+  -moz-scroll-snap-margin-inline: invalid.path.1;
+  -ms-scroll-snap-margin-inline: invalid.path.1;
+  scroll-snap-margin-inline: invalid.path.1;
+}
+
+<div
+    className="c0"
+  />,
+]
+`;
+
+exports[`scrollSnapMarginInline renders negative number 1`] = `
+Array [
+  .c0 {
+  -webkit-scroll-snap-margin-inline: -54881;
+  -moz-scroll-snap-margin-inline: -54881;
+  -ms-scroll-snap-margin-inline: -54881;
+  scroll-snap-margin-inline: -54881;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-scroll-snap-margin-inline: -54881;
+  -moz-scroll-snap-margin-inline: -54881;
+  -ms-scroll-snap-margin-inline: -54881;
+  scroll-snap-margin-inline: -54881;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-scroll-snap-margin-inline: -42365;
+  -moz-scroll-snap-margin-inline: -42365;
+  -ms-scroll-snap-margin-inline: -42365;
+  scroll-snap-margin-inline: -42365;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-scroll-snap-margin-inline: -42365;
+  -moz-scroll-snap-margin-inline: -42365;
+  -ms-scroll-snap-margin-inline: -42365;
+  scroll-snap-margin-inline: -42365;
+}
+
+<div
+    className="c0"
+  />,
+]
+`;
+
+exports[`scrollSnapMarginInline renders object [breakpoints] 1`] = `
+Array [
+  @media screen and (min-width:November) {
+  .c0 {
+    -webkit-scroll-snap-margin-inline: July;
+    -moz-scroll-snap-margin-inline: July;
+    -ms-scroll-snap-margin-inline: July;
+    scroll-snap-margin-inline: July;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    -webkit-scroll-snap-margin-inline: August;
+    -moz-scroll-snap-margin-inline: August;
+    -ms-scroll-snap-margin-inline: August;
+    scroll-snap-margin-inline: August;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    -webkit-scroll-snap-margin-inline: September;
+    -moz-scroll-snap-margin-inline: September;
+    -ms-scroll-snap-margin-inline: September;
+    scroll-snap-margin-inline: September;
+  }
+}
+
+@media screen and (min-width:August) {
+  .c0 {
+    -webkit-scroll-snap-margin-inline: November;
+    -moz-scroll-snap-margin-inline: November;
+    -ms-scroll-snap-margin-inline: November;
+    scroll-snap-margin-inline: November;
+  }
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:August) {
+
+}
+
+<div
+    className="c0"
+  />,
+  @media screen and (min-width:November) {
+  .c0 {
+    -webkit-scroll-snap-margin-inline: July;
+    -moz-scroll-snap-margin-inline: July;
+    -ms-scroll-snap-margin-inline: July;
+    scroll-snap-margin-inline: July;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    -webkit-scroll-snap-margin-inline: August;
+    -moz-scroll-snap-margin-inline: August;
+    -ms-scroll-snap-margin-inline: August;
+    scroll-snap-margin-inline: August;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    -webkit-scroll-snap-margin-inline: September;
+    -moz-scroll-snap-margin-inline: September;
+    -ms-scroll-snap-margin-inline: September;
+    scroll-snap-margin-inline: September;
+  }
+}
+
+@media screen and (min-width:August) {
+  .c0 {
+    -webkit-scroll-snap-margin-inline: November;
+    -moz-scroll-snap-margin-inline: November;
+    -ms-scroll-snap-margin-inline: November;
+    scroll-snap-margin-inline: November;
+  }
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:August) {
+
+}
+
+<div
+    className="c0"
+  />,
+  @media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:August) {
+
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    -webkit-scroll-snap-margin-inline: May;
+    -moz-scroll-snap-margin-inline: May;
+    -ms-scroll-snap-margin-inline: May;
+    scroll-snap-margin-inline: May;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    -webkit-scroll-snap-margin-inline: June;
+    -moz-scroll-snap-margin-inline: June;
+    -ms-scroll-snap-margin-inline: June;
+    scroll-snap-margin-inline: June;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    -webkit-scroll-snap-margin-inline: April;
+    -moz-scroll-snap-margin-inline: April;
+    -ms-scroll-snap-margin-inline: April;
+    scroll-snap-margin-inline: April;
+  }
+}
+
+@media screen and (min-width:August) {
+  .c0 {
+    -webkit-scroll-snap-margin-inline: November;
+    -moz-scroll-snap-margin-inline: November;
+    -ms-scroll-snap-margin-inline: November;
+    scroll-snap-margin-inline: November;
+  }
+}
+
+<div
+    className="c0"
+  />,
+  @media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:August) {
+
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    -webkit-scroll-snap-margin-inline: May;
+    -moz-scroll-snap-margin-inline: May;
+    -ms-scroll-snap-margin-inline: May;
+    scroll-snap-margin-inline: May;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    -webkit-scroll-snap-margin-inline: June;
+    -moz-scroll-snap-margin-inline: June;
+    -ms-scroll-snap-margin-inline: June;
+    scroll-snap-margin-inline: June;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    -webkit-scroll-snap-margin-inline: April;
+    -moz-scroll-snap-margin-inline: April;
+    -ms-scroll-snap-margin-inline: April;
+    scroll-snap-margin-inline: April;
+  }
+}
+
+@media screen and (min-width:August) {
+  .c0 {
+    -webkit-scroll-snap-margin-inline: November;
+    -moz-scroll-snap-margin-inline: November;
+    -ms-scroll-snap-margin-inline: November;
+    scroll-snap-margin-inline: November;
+  }
+}
+
+<div
+    className="c0"
+  />,
+]
+`;
+
+exports[`scrollSnapMarginInline renders object [breakpoints] 2`] = `
+Array [
+  @media May {
+  .c0 {
+    -webkit-scroll-snap-margin-inline: July;
+    -moz-scroll-snap-margin-inline: July;
+    -ms-scroll-snap-margin-inline: July;
+    scroll-snap-margin-inline: July;
+  }
+}
+
+@media April {
+  .c0 {
+    -webkit-scroll-snap-margin-inline: August;
+    -moz-scroll-snap-margin-inline: August;
+    -ms-scroll-snap-margin-inline: August;
+    scroll-snap-margin-inline: August;
+  }
+}
+
+@media January {
+  .c0 {
+    -webkit-scroll-snap-margin-inline: September;
+    -moz-scroll-snap-margin-inline: September;
+    -ms-scroll-snap-margin-inline: September;
+    scroll-snap-margin-inline: September;
+  }
+}
+
+@media April {
+  .c0 {
+    -webkit-scroll-snap-margin-inline: November;
+    -moz-scroll-snap-margin-inline: November;
+    -ms-scroll-snap-margin-inline: November;
+    scroll-snap-margin-inline: November;
+  }
+}
+
+@media June {
+  .c0 {
+    -webkit-scroll-snap-margin-inline: August;
+    -moz-scroll-snap-margin-inline: August;
+    -ms-scroll-snap-margin-inline: August;
+    scroll-snap-margin-inline: August;
+  }
+}
+
+@media May {
+
+}
+
+@media April {
+
+}
+
+@media January {
+
+}
+
+@media April {
+
+}
+
+@media June {
+
+}
+
+<div
+    className="c0"
+  />,
+  @media May {
+  .c0 {
+    -webkit-scroll-snap-margin-inline: July;
+    -moz-scroll-snap-margin-inline: July;
+    -ms-scroll-snap-margin-inline: July;
+    scroll-snap-margin-inline: July;
+  }
+}
+
+@media April {
+  .c0 {
+    -webkit-scroll-snap-margin-inline: August;
+    -moz-scroll-snap-margin-inline: August;
+    -ms-scroll-snap-margin-inline: August;
+    scroll-snap-margin-inline: August;
+  }
+}
+
+@media January {
+  .c0 {
+    -webkit-scroll-snap-margin-inline: September;
+    -moz-scroll-snap-margin-inline: September;
+    -ms-scroll-snap-margin-inline: September;
+    scroll-snap-margin-inline: September;
+  }
+}
+
+@media April {
+  .c0 {
+    -webkit-scroll-snap-margin-inline: November;
+    -moz-scroll-snap-margin-inline: November;
+    -ms-scroll-snap-margin-inline: November;
+    scroll-snap-margin-inline: November;
+  }
+}
+
+@media June {
+  .c0 {
+    -webkit-scroll-snap-margin-inline: August;
+    -moz-scroll-snap-margin-inline: August;
+    -ms-scroll-snap-margin-inline: August;
+    scroll-snap-margin-inline: August;
+  }
+}
+
+@media May {
+
+}
+
+@media April {
+
+}
+
+@media January {
+
+}
+
+@media April {
+
+}
+
+@media June {
+
+}
+
+<div
+    className="c0"
+  />,
+  @media May {
+
+}
+
+@media April {
+
+}
+
+@media January {
+
+}
+
+@media April {
+
+}
+
+@media June {
+
+}
+
+@media May {
+  .c0 {
+    -webkit-scroll-snap-margin-inline: January;
+    -moz-scroll-snap-margin-inline: January;
+    -ms-scroll-snap-margin-inline: January;
+    scroll-snap-margin-inline: January;
+  }
+}
+
+@media April {
+  .c0 {
+    -webkit-scroll-snap-margin-inline: December;
+    -moz-scroll-snap-margin-inline: December;
+    -ms-scroll-snap-margin-inline: December;
+    scroll-snap-margin-inline: December;
+  }
+}
+
+@media January {
+  .c0 {
+    -webkit-scroll-snap-margin-inline: April;
+    -moz-scroll-snap-margin-inline: April;
+    -ms-scroll-snap-margin-inline: April;
+    scroll-snap-margin-inline: April;
+  }
+}
+
+@media April {
+  .c0 {
+    -webkit-scroll-snap-margin-inline: May;
+    -moz-scroll-snap-margin-inline: May;
+    -ms-scroll-snap-margin-inline: May;
+    scroll-snap-margin-inline: May;
+  }
+}
+
+@media June {
+  .c0 {
+    -webkit-scroll-snap-margin-inline: June;
+    -moz-scroll-snap-margin-inline: June;
+    -ms-scroll-snap-margin-inline: June;
+    scroll-snap-margin-inline: June;
+  }
+}
+
+<div
+    className="c0"
+  />,
+  @media May {
+
+}
+
+@media April {
+
+}
+
+@media January {
+
+}
+
+@media April {
+
+}
+
+@media June {
+
+}
+
+@media May {
+  .c0 {
+    -webkit-scroll-snap-margin-inline: January;
+    -moz-scroll-snap-margin-inline: January;
+    -ms-scroll-snap-margin-inline: January;
+    scroll-snap-margin-inline: January;
+  }
+}
+
+@media April {
+  .c0 {
+    -webkit-scroll-snap-margin-inline: December;
+    -moz-scroll-snap-margin-inline: December;
+    -ms-scroll-snap-margin-inline: December;
+    scroll-snap-margin-inline: December;
+  }
+}
+
+@media January {
+  .c0 {
+    -webkit-scroll-snap-margin-inline: April;
+    -moz-scroll-snap-margin-inline: April;
+    -ms-scroll-snap-margin-inline: April;
+    scroll-snap-margin-inline: April;
+  }
+}
+
+@media April {
+  .c0 {
+    -webkit-scroll-snap-margin-inline: May;
+    -moz-scroll-snap-margin-inline: May;
+    -ms-scroll-snap-margin-inline: May;
+    scroll-snap-margin-inline: May;
+  }
+}
+
+@media June {
+  .c0 {
+    -webkit-scroll-snap-margin-inline: June;
+    -moz-scroll-snap-margin-inline: June;
+    -ms-scroll-snap-margin-inline: June;
+    scroll-snap-margin-inline: June;
+  }
+}
+
+<div
+    className="c0"
+  />,
+]
+`;
+
+exports[`scrollSnapMarginInline renders postitive number 1`] = `
+Array [
+  .c0 {
+  -webkit-scroll-snap-margin-inline: 54881;
+  -moz-scroll-snap-margin-inline: 54881;
+  -ms-scroll-snap-margin-inline: 54881;
+  scroll-snap-margin-inline: 54881;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-scroll-snap-margin-inline: 54881;
+  -moz-scroll-snap-margin-inline: 54881;
+  -ms-scroll-snap-margin-inline: 54881;
+  scroll-snap-margin-inline: 54881;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-scroll-snap-margin-inline: 42365;
+  -moz-scroll-snap-margin-inline: 42365;
+  -ms-scroll-snap-margin-inline: 42365;
+  scroll-snap-margin-inline: 42365;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-scroll-snap-margin-inline: 42365;
+  -moz-scroll-snap-margin-inline: 42365;
+  -ms-scroll-snap-margin-inline: 42365;
+  scroll-snap-margin-inline: 42365;
+}
+
+<div
+    className="c0"
+  />,
+]
+`;
+
+exports[`scrollSnapMarginInline renders string 1`] = `
+Array [
+  .c0 {
+  -webkit-scroll-snap-margin-inline: July;
+  -moz-scroll-snap-margin-inline: July;
+  -ms-scroll-snap-margin-inline: July;
+  scroll-snap-margin-inline: July;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-scroll-snap-margin-inline: July;
+  -moz-scroll-snap-margin-inline: July;
+  -ms-scroll-snap-margin-inline: July;
+  scroll-snap-margin-inline: July;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-scroll-snap-margin-inline: June;
+  -moz-scroll-snap-margin-inline: June;
+  -ms-scroll-snap-margin-inline: June;
+  scroll-snap-margin-inline: June;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-scroll-snap-margin-inline: June;
+  -moz-scroll-snap-margin-inline: June;
+  -ms-scroll-snap-margin-inline: June;
+  scroll-snap-margin-inline: June;
+}
+
+<div
+    className="c0"
+  />,
+]
+`;
+
+exports[`scrollSnapMarginInline renders valid theme path 1`] = `
+Array [
+  .c0 {
+  -webkit-scroll-snap-margin-inline: DarkSlateBlue;
+  -moz-scroll-snap-margin-inline: DarkSlateBlue;
+  -ms-scroll-snap-margin-inline: DarkSlateBlue;
+  scroll-snap-margin-inline: DarkSlateBlue;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-scroll-snap-margin-inline: DarkSlateBlue;
+  -moz-scroll-snap-margin-inline: DarkSlateBlue;
+  -ms-scroll-snap-margin-inline: DarkSlateBlue;
+  scroll-snap-margin-inline: DarkSlateBlue;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-scroll-snap-margin-inline: DarkSlateBlue;
+  -moz-scroll-snap-margin-inline: DarkSlateBlue;
+  -ms-scroll-snap-margin-inline: DarkSlateBlue;
+  scroll-snap-margin-inline: DarkSlateBlue;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-scroll-snap-margin-inline: DarkSlateBlue;
+  -moz-scroll-snap-margin-inline: DarkSlateBlue;
+  -ms-scroll-snap-margin-inline: DarkSlateBlue;
+  scroll-snap-margin-inline: DarkSlateBlue;
+}
+
+<div
+    className="c0"
+  />,
+]
+`;

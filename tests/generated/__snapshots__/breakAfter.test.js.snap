@@ -1,0 +1,690 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`breakAfter renders 0 1`] = `
+Array [
+  .c0 {
+  -webkit-break-after: 0;
+  break-after: 0;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-break-after: 0;
+  break-after: 0;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-break-after: 0;
+  break-after: 0;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-break-after: 0;
+  break-after: 0;
+}
+
+<div
+    className="c0"
+  />,
+]
+`;
+
+exports[`breakAfter renders function 1`] = `
+Array [
+  .c0 {
+  -webkit-break-after: hasnot;
+  break-after: hasnot;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-break-after: has;
+  break-after: has;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-break-after: hasnot;
+  break-after: hasnot;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-break-after: has;
+  break-after: has;
+}
+
+<div
+    className="c0"
+  />,
+]
+`;
+
+exports[`breakAfter renders invalid theme path 1`] = `
+Array [
+  .c0 {
+  -webkit-break-after: invalid.path.1;
+  break-after: invalid.path.1;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-break-after: invalid.path.1;
+  break-after: invalid.path.1;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-break-after: invalid.path.1;
+  break-after: invalid.path.1;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-break-after: invalid.path.1;
+  break-after: invalid.path.1;
+}
+
+<div
+    className="c0"
+  />,
+]
+`;
+
+exports[`breakAfter renders negative number 1`] = `
+Array [
+  .c0 {
+  -webkit-break-after: -54881;
+  break-after: -54881;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-break-after: -54881;
+  break-after: -54881;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-break-after: -42365;
+  break-after: -42365;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-break-after: -42365;
+  break-after: -42365;
+}
+
+<div
+    className="c0"
+  />,
+]
+`;
+
+exports[`breakAfter renders object [breakpoints] 1`] = `
+Array [
+  @media screen and (min-width:November) {
+  .c0 {
+    -webkit-break-after: July;
+    break-after: July;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    -webkit-break-after: August;
+    break-after: August;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    -webkit-break-after: September;
+    break-after: September;
+  }
+}
+
+@media screen and (min-width:August) {
+  .c0 {
+    -webkit-break-after: November;
+    break-after: November;
+  }
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:August) {
+
+}
+
+<div
+    className="c0"
+  />,
+  @media screen and (min-width:November) {
+  .c0 {
+    -webkit-break-after: July;
+    break-after: July;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    -webkit-break-after: August;
+    break-after: August;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    -webkit-break-after: September;
+    break-after: September;
+  }
+}
+
+@media screen and (min-width:August) {
+  .c0 {
+    -webkit-break-after: November;
+    break-after: November;
+  }
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:August) {
+
+}
+
+<div
+    className="c0"
+  />,
+  @media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:August) {
+
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    -webkit-break-after: May;
+    break-after: May;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    -webkit-break-after: June;
+    break-after: June;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    -webkit-break-after: April;
+    break-after: April;
+  }
+}
+
+@media screen and (min-width:August) {
+  .c0 {
+    -webkit-break-after: November;
+    break-after: November;
+  }
+}
+
+<div
+    className="c0"
+  />,
+  @media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:August) {
+
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    -webkit-break-after: May;
+    break-after: May;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    -webkit-break-after: June;
+    break-after: June;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    -webkit-break-after: April;
+    break-after: April;
+  }
+}
+
+@media screen and (min-width:August) {
+  .c0 {
+    -webkit-break-after: November;
+    break-after: November;
+  }
+}
+
+<div
+    className="c0"
+  />,
+]
+`;
+
+exports[`breakAfter renders object [breakpoints] 2`] = `
+Array [
+  @media May {
+  .c0 {
+    -webkit-break-after: July;
+    break-after: July;
+  }
+}
+
+@media April {
+  .c0 {
+    -webkit-break-after: August;
+    break-after: August;
+  }
+}
+
+@media January {
+  .c0 {
+    -webkit-break-after: September;
+    break-after: September;
+  }
+}
+
+@media April {
+  .c0 {
+    -webkit-break-after: November;
+    break-after: November;
+  }
+}
+
+@media June {
+  .c0 {
+    -webkit-break-after: August;
+    break-after: August;
+  }
+}
+
+@media May {
+
+}
+
+@media April {
+
+}
+
+@media January {
+
+}
+
+@media April {
+
+}
+
+@media June {
+
+}
+
+<div
+    className="c0"
+  />,
+  @media May {
+  .c0 {
+    -webkit-break-after: July;
+    break-after: July;
+  }
+}
+
+@media April {
+  .c0 {
+    -webkit-break-after: August;
+    break-after: August;
+  }
+}
+
+@media January {
+  .c0 {
+    -webkit-break-after: September;
+    break-after: September;
+  }
+}
+
+@media April {
+  .c0 {
+    -webkit-break-after: November;
+    break-after: November;
+  }
+}
+
+@media June {
+  .c0 {
+    -webkit-break-after: August;
+    break-after: August;
+  }
+}
+
+@media May {
+
+}
+
+@media April {
+
+}
+
+@media January {
+
+}
+
+@media April {
+
+}
+
+@media June {
+
+}
+
+<div
+    className="c0"
+  />,
+  @media May {
+
+}
+
+@media April {
+
+}
+
+@media January {
+
+}
+
+@media April {
+
+}
+
+@media June {
+
+}
+
+@media May {
+  .c0 {
+    -webkit-break-after: January;
+    break-after: January;
+  }
+}
+
+@media April {
+  .c0 {
+    -webkit-break-after: December;
+    break-after: December;
+  }
+}
+
+@media January {
+  .c0 {
+    -webkit-break-after: April;
+    break-after: April;
+  }
+}
+
+@media April {
+  .c0 {
+    -webkit-break-after: May;
+    break-after: May;
+  }
+}
+
+@media June {
+  .c0 {
+    -webkit-break-after: June;
+    break-after: June;
+  }
+}
+
+<div
+    className="c0"
+  />,
+  @media May {
+
+}
+
+@media April {
+
+}
+
+@media January {
+
+}
+
+@media April {
+
+}
+
+@media June {
+
+}
+
+@media May {
+  .c0 {
+    -webkit-break-after: January;
+    break-after: January;
+  }
+}
+
+@media April {
+  .c0 {
+    -webkit-break-after: December;
+    break-after: December;
+  }
+}
+
+@media January {
+  .c0 {
+    -webkit-break-after: April;
+    break-after: April;
+  }
+}
+
+@media April {
+  .c0 {
+    -webkit-break-after: May;
+    break-after: May;
+  }
+}
+
+@media June {
+  .c0 {
+    -webkit-break-after: June;
+    break-after: June;
+  }
+}
+
+<div
+    className="c0"
+  />,
+]
+`;
+
+exports[`breakAfter renders postitive number 1`] = `
+Array [
+  .c0 {
+  -webkit-break-after: 54881;
+  break-after: 54881;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-break-after: 54881;
+  break-after: 54881;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-break-after: 42365;
+  break-after: 42365;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-break-after: 42365;
+  break-after: 42365;
+}
+
+<div
+    className="c0"
+  />,
+]
+`;
+
+exports[`breakAfter renders string 1`] = `
+Array [
+  .c0 {
+  -webkit-break-after: July;
+  break-after: July;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-break-after: July;
+  break-after: July;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-break-after: June;
+  break-after: June;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-break-after: June;
+  break-after: June;
+}
+
+<div
+    className="c0"
+  />,
+]
+`;
+
+exports[`breakAfter renders valid theme path 1`] = `
+Array [
+  .c0 {
+  -webkit-break-after: DarkSlateBlue;
+  break-after: DarkSlateBlue;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-break-after: DarkSlateBlue;
+  break-after: DarkSlateBlue;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-break-after: DarkSlateBlue;
+  break-after: DarkSlateBlue;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-break-after: DarkSlateBlue;
+  break-after: DarkSlateBlue;
+}
+
+<div
+    className="c0"
+  />,
+]
+`;

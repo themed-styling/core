@@ -1,0 +1,818 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`scrollMarginTop renders 0 1`] = `
+Array [
+  .c0 {
+  -webkit-scroll-margin-top: 0;
+  -moz-scroll-margin-top: 0;
+  -ms-scroll-margin-top: 0;
+  scroll-margin-top: 0;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-scroll-margin-top: 0;
+  -moz-scroll-margin-top: 0;
+  -ms-scroll-margin-top: 0;
+  scroll-margin-top: 0;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-scroll-margin-top: 0;
+  -moz-scroll-margin-top: 0;
+  -ms-scroll-margin-top: 0;
+  scroll-margin-top: 0;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-scroll-margin-top: 0;
+  -moz-scroll-margin-top: 0;
+  -ms-scroll-margin-top: 0;
+  scroll-margin-top: 0;
+}
+
+<div
+    className="c0"
+  />,
+]
+`;
+
+exports[`scrollMarginTop renders function 1`] = `
+Array [
+  .c0 {
+  -webkit-scroll-margin-top: hasnot;
+  -moz-scroll-margin-top: hasnot;
+  -ms-scroll-margin-top: hasnot;
+  scroll-margin-top: hasnot;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-scroll-margin-top: has;
+  -moz-scroll-margin-top: has;
+  -ms-scroll-margin-top: has;
+  scroll-margin-top: has;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-scroll-margin-top: hasnot;
+  -moz-scroll-margin-top: hasnot;
+  -ms-scroll-margin-top: hasnot;
+  scroll-margin-top: hasnot;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-scroll-margin-top: has;
+  -moz-scroll-margin-top: has;
+  -ms-scroll-margin-top: has;
+  scroll-margin-top: has;
+}
+
+<div
+    className="c0"
+  />,
+]
+`;
+
+exports[`scrollMarginTop renders invalid theme path 1`] = `
+Array [
+  .c0 {
+  -webkit-scroll-margin-top: invalid.path.1;
+  -moz-scroll-margin-top: invalid.path.1;
+  -ms-scroll-margin-top: invalid.path.1;
+  scroll-margin-top: invalid.path.1;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-scroll-margin-top: invalid.path.1;
+  -moz-scroll-margin-top: invalid.path.1;
+  -ms-scroll-margin-top: invalid.path.1;
+  scroll-margin-top: invalid.path.1;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-scroll-margin-top: invalid.path.1;
+  -moz-scroll-margin-top: invalid.path.1;
+  -ms-scroll-margin-top: invalid.path.1;
+  scroll-margin-top: invalid.path.1;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-scroll-margin-top: invalid.path.1;
+  -moz-scroll-margin-top: invalid.path.1;
+  -ms-scroll-margin-top: invalid.path.1;
+  scroll-margin-top: invalid.path.1;
+}
+
+<div
+    className="c0"
+  />,
+]
+`;
+
+exports[`scrollMarginTop renders negative number 1`] = `
+Array [
+  .c0 {
+  -webkit-scroll-margin-top: -54881px;
+  -moz-scroll-margin-top: -54881px;
+  -ms-scroll-margin-top: -54881px;
+  scroll-margin-top: -54881px;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-scroll-margin-top: -54881px;
+  -moz-scroll-margin-top: -54881px;
+  -ms-scroll-margin-top: -54881px;
+  scroll-margin-top: -54881px;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-scroll-margin-top: -42365px;
+  -moz-scroll-margin-top: -42365px;
+  -ms-scroll-margin-top: -42365px;
+  scroll-margin-top: -42365px;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-scroll-margin-top: -42365px;
+  -moz-scroll-margin-top: -42365px;
+  -ms-scroll-margin-top: -42365px;
+  scroll-margin-top: -42365px;
+}
+
+<div
+    className="c0"
+  />,
+]
+`;
+
+exports[`scrollMarginTop renders object [breakpoints] 1`] = `
+Array [
+  @media screen and (min-width:November) {
+  .c0 {
+    -webkit-scroll-margin-top: July;
+    -moz-scroll-margin-top: July;
+    -ms-scroll-margin-top: July;
+    scroll-margin-top: July;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    -webkit-scroll-margin-top: August;
+    -moz-scroll-margin-top: August;
+    -ms-scroll-margin-top: August;
+    scroll-margin-top: August;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    -webkit-scroll-margin-top: September;
+    -moz-scroll-margin-top: September;
+    -ms-scroll-margin-top: September;
+    scroll-margin-top: September;
+  }
+}
+
+@media screen and (min-width:August) {
+  .c0 {
+    -webkit-scroll-margin-top: November;
+    -moz-scroll-margin-top: November;
+    -ms-scroll-margin-top: November;
+    scroll-margin-top: November;
+  }
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:August) {
+
+}
+
+<div
+    className="c0"
+  />,
+  @media screen and (min-width:November) {
+  .c0 {
+    -webkit-scroll-margin-top: July;
+    -moz-scroll-margin-top: July;
+    -ms-scroll-margin-top: July;
+    scroll-margin-top: July;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    -webkit-scroll-margin-top: August;
+    -moz-scroll-margin-top: August;
+    -ms-scroll-margin-top: August;
+    scroll-margin-top: August;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    -webkit-scroll-margin-top: September;
+    -moz-scroll-margin-top: September;
+    -ms-scroll-margin-top: September;
+    scroll-margin-top: September;
+  }
+}
+
+@media screen and (min-width:August) {
+  .c0 {
+    -webkit-scroll-margin-top: November;
+    -moz-scroll-margin-top: November;
+    -ms-scroll-margin-top: November;
+    scroll-margin-top: November;
+  }
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:August) {
+
+}
+
+<div
+    className="c0"
+  />,
+  @media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:August) {
+
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    -webkit-scroll-margin-top: May;
+    -moz-scroll-margin-top: May;
+    -ms-scroll-margin-top: May;
+    scroll-margin-top: May;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    -webkit-scroll-margin-top: June;
+    -moz-scroll-margin-top: June;
+    -ms-scroll-margin-top: June;
+    scroll-margin-top: June;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    -webkit-scroll-margin-top: April;
+    -moz-scroll-margin-top: April;
+    -ms-scroll-margin-top: April;
+    scroll-margin-top: April;
+  }
+}
+
+@media screen and (min-width:August) {
+  .c0 {
+    -webkit-scroll-margin-top: November;
+    -moz-scroll-margin-top: November;
+    -ms-scroll-margin-top: November;
+    scroll-margin-top: November;
+  }
+}
+
+<div
+    className="c0"
+  />,
+  @media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:August) {
+
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    -webkit-scroll-margin-top: May;
+    -moz-scroll-margin-top: May;
+    -ms-scroll-margin-top: May;
+    scroll-margin-top: May;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    -webkit-scroll-margin-top: June;
+    -moz-scroll-margin-top: June;
+    -ms-scroll-margin-top: June;
+    scroll-margin-top: June;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    -webkit-scroll-margin-top: April;
+    -moz-scroll-margin-top: April;
+    -ms-scroll-margin-top: April;
+    scroll-margin-top: April;
+  }
+}
+
+@media screen and (min-width:August) {
+  .c0 {
+    -webkit-scroll-margin-top: November;
+    -moz-scroll-margin-top: November;
+    -ms-scroll-margin-top: November;
+    scroll-margin-top: November;
+  }
+}
+
+<div
+    className="c0"
+  />,
+]
+`;
+
+exports[`scrollMarginTop renders object [breakpoints] 2`] = `
+Array [
+  @media May {
+  .c0 {
+    -webkit-scroll-margin-top: July;
+    -moz-scroll-margin-top: July;
+    -ms-scroll-margin-top: July;
+    scroll-margin-top: July;
+  }
+}
+
+@media April {
+  .c0 {
+    -webkit-scroll-margin-top: August;
+    -moz-scroll-margin-top: August;
+    -ms-scroll-margin-top: August;
+    scroll-margin-top: August;
+  }
+}
+
+@media January {
+  .c0 {
+    -webkit-scroll-margin-top: September;
+    -moz-scroll-margin-top: September;
+    -ms-scroll-margin-top: September;
+    scroll-margin-top: September;
+  }
+}
+
+@media April {
+  .c0 {
+    -webkit-scroll-margin-top: November;
+    -moz-scroll-margin-top: November;
+    -ms-scroll-margin-top: November;
+    scroll-margin-top: November;
+  }
+}
+
+@media June {
+  .c0 {
+    -webkit-scroll-margin-top: August;
+    -moz-scroll-margin-top: August;
+    -ms-scroll-margin-top: August;
+    scroll-margin-top: August;
+  }
+}
+
+@media May {
+
+}
+
+@media April {
+
+}
+
+@media January {
+
+}
+
+@media April {
+
+}
+
+@media June {
+
+}
+
+<div
+    className="c0"
+  />,
+  @media May {
+  .c0 {
+    -webkit-scroll-margin-top: July;
+    -moz-scroll-margin-top: July;
+    -ms-scroll-margin-top: July;
+    scroll-margin-top: July;
+  }
+}
+
+@media April {
+  .c0 {
+    -webkit-scroll-margin-top: August;
+    -moz-scroll-margin-top: August;
+    -ms-scroll-margin-top: August;
+    scroll-margin-top: August;
+  }
+}
+
+@media January {
+  .c0 {
+    -webkit-scroll-margin-top: September;
+    -moz-scroll-margin-top: September;
+    -ms-scroll-margin-top: September;
+    scroll-margin-top: September;
+  }
+}
+
+@media April {
+  .c0 {
+    -webkit-scroll-margin-top: November;
+    -moz-scroll-margin-top: November;
+    -ms-scroll-margin-top: November;
+    scroll-margin-top: November;
+  }
+}
+
+@media June {
+  .c0 {
+    -webkit-scroll-margin-top: August;
+    -moz-scroll-margin-top: August;
+    -ms-scroll-margin-top: August;
+    scroll-margin-top: August;
+  }
+}
+
+@media May {
+
+}
+
+@media April {
+
+}
+
+@media January {
+
+}
+
+@media April {
+
+}
+
+@media June {
+
+}
+
+<div
+    className="c0"
+  />,
+  @media May {
+
+}
+
+@media April {
+
+}
+
+@media January {
+
+}
+
+@media April {
+
+}
+
+@media June {
+
+}
+
+@media May {
+  .c0 {
+    -webkit-scroll-margin-top: January;
+    -moz-scroll-margin-top: January;
+    -ms-scroll-margin-top: January;
+    scroll-margin-top: January;
+  }
+}
+
+@media April {
+  .c0 {
+    -webkit-scroll-margin-top: December;
+    -moz-scroll-margin-top: December;
+    -ms-scroll-margin-top: December;
+    scroll-margin-top: December;
+  }
+}
+
+@media January {
+  .c0 {
+    -webkit-scroll-margin-top: April;
+    -moz-scroll-margin-top: April;
+    -ms-scroll-margin-top: April;
+    scroll-margin-top: April;
+  }
+}
+
+@media April {
+  .c0 {
+    -webkit-scroll-margin-top: May;
+    -moz-scroll-margin-top: May;
+    -ms-scroll-margin-top: May;
+    scroll-margin-top: May;
+  }
+}
+
+@media June {
+  .c0 {
+    -webkit-scroll-margin-top: June;
+    -moz-scroll-margin-top: June;
+    -ms-scroll-margin-top: June;
+    scroll-margin-top: June;
+  }
+}
+
+<div
+    className="c0"
+  />,
+  @media May {
+
+}
+
+@media April {
+
+}
+
+@media January {
+
+}
+
+@media April {
+
+}
+
+@media June {
+
+}
+
+@media May {
+  .c0 {
+    -webkit-scroll-margin-top: January;
+    -moz-scroll-margin-top: January;
+    -ms-scroll-margin-top: January;
+    scroll-margin-top: January;
+  }
+}
+
+@media April {
+  .c0 {
+    -webkit-scroll-margin-top: December;
+    -moz-scroll-margin-top: December;
+    -ms-scroll-margin-top: December;
+    scroll-margin-top: December;
+  }
+}
+
+@media January {
+  .c0 {
+    -webkit-scroll-margin-top: April;
+    -moz-scroll-margin-top: April;
+    -ms-scroll-margin-top: April;
+    scroll-margin-top: April;
+  }
+}
+
+@media April {
+  .c0 {
+    -webkit-scroll-margin-top: May;
+    -moz-scroll-margin-top: May;
+    -ms-scroll-margin-top: May;
+    scroll-margin-top: May;
+  }
+}
+
+@media June {
+  .c0 {
+    -webkit-scroll-margin-top: June;
+    -moz-scroll-margin-top: June;
+    -ms-scroll-margin-top: June;
+    scroll-margin-top: June;
+  }
+}
+
+<div
+    className="c0"
+  />,
+]
+`;
+
+exports[`scrollMarginTop renders postitive number 1`] = `
+Array [
+  .c0 {
+  -webkit-scroll-margin-top: 54881px;
+  -moz-scroll-margin-top: 54881px;
+  -ms-scroll-margin-top: 54881px;
+  scroll-margin-top: 54881px;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-scroll-margin-top: 54881px;
+  -moz-scroll-margin-top: 54881px;
+  -ms-scroll-margin-top: 54881px;
+  scroll-margin-top: 54881px;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-scroll-margin-top: 42365px;
+  -moz-scroll-margin-top: 42365px;
+  -ms-scroll-margin-top: 42365px;
+  scroll-margin-top: 42365px;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-scroll-margin-top: 42365px;
+  -moz-scroll-margin-top: 42365px;
+  -ms-scroll-margin-top: 42365px;
+  scroll-margin-top: 42365px;
+}
+
+<div
+    className="c0"
+  />,
+]
+`;
+
+exports[`scrollMarginTop renders string 1`] = `
+Array [
+  .c0 {
+  -webkit-scroll-margin-top: July;
+  -moz-scroll-margin-top: July;
+  -ms-scroll-margin-top: July;
+  scroll-margin-top: July;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-scroll-margin-top: July;
+  -moz-scroll-margin-top: July;
+  -ms-scroll-margin-top: July;
+  scroll-margin-top: July;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-scroll-margin-top: June;
+  -moz-scroll-margin-top: June;
+  -ms-scroll-margin-top: June;
+  scroll-margin-top: June;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-scroll-margin-top: June;
+  -moz-scroll-margin-top: June;
+  -ms-scroll-margin-top: June;
+  scroll-margin-top: June;
+}
+
+<div
+    className="c0"
+  />,
+]
+`;
+
+exports[`scrollMarginTop renders valid theme path 1`] = `
+Array [
+  .c0 {
+  -webkit-scroll-margin-top: DarkSlateBlue;
+  -moz-scroll-margin-top: DarkSlateBlue;
+  -ms-scroll-margin-top: DarkSlateBlue;
+  scroll-margin-top: DarkSlateBlue;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-scroll-margin-top: DarkSlateBlue;
+  -moz-scroll-margin-top: DarkSlateBlue;
+  -ms-scroll-margin-top: DarkSlateBlue;
+  scroll-margin-top: DarkSlateBlue;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-scroll-margin-top: DarkSlateBlue;
+  -moz-scroll-margin-top: DarkSlateBlue;
+  -ms-scroll-margin-top: DarkSlateBlue;
+  scroll-margin-top: DarkSlateBlue;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-scroll-margin-top: DarkSlateBlue;
+  -moz-scroll-margin-top: DarkSlateBlue;
+  -ms-scroll-margin-top: DarkSlateBlue;
+  scroll-margin-top: DarkSlateBlue;
+}
+
+<div
+    className="c0"
+  />,
+]
+`;

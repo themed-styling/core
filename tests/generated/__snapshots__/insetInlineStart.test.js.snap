@@ -1,0 +1,626 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`insetInlineStart renders 0 1`] = `
+Array [
+  .c0 {
+  inset-inline-start: 0;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  inset-inline-start: 0;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  inset-inline-start: 0;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  inset-inline-start: 0;
+}
+
+<div
+    className="c0"
+  />,
+]
+`;
+
+exports[`insetInlineStart renders function 1`] = `
+Array [
+  .c0 {
+  inset-inline-start: hasnot;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  inset-inline-start: has;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  inset-inline-start: hasnot;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  inset-inline-start: has;
+}
+
+<div
+    className="c0"
+  />,
+]
+`;
+
+exports[`insetInlineStart renders invalid theme path 1`] = `
+Array [
+  .c0 {
+  inset-inline-start: invalid.path.1;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  inset-inline-start: invalid.path.1;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  inset-inline-start: invalid.path.1;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  inset-inline-start: invalid.path.1;
+}
+
+<div
+    className="c0"
+  />,
+]
+`;
+
+exports[`insetInlineStart renders negative number 1`] = `
+Array [
+  .c0 {
+  inset-inline-start: -54881;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  inset-inline-start: -54881;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  inset-inline-start: -42365;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  inset-inline-start: -42365;
+}
+
+<div
+    className="c0"
+  />,
+]
+`;
+
+exports[`insetInlineStart renders object [breakpoints] 1`] = `
+Array [
+  @media screen and (min-width:November) {
+  .c0 {
+    inset-inline-start: July;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    inset-inline-start: August;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    inset-inline-start: September;
+  }
+}
+
+@media screen and (min-width:August) {
+  .c0 {
+    inset-inline-start: November;
+  }
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:August) {
+
+}
+
+<div
+    className="c0"
+  />,
+  @media screen and (min-width:November) {
+  .c0 {
+    inset-inline-start: July;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    inset-inline-start: August;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    inset-inline-start: September;
+  }
+}
+
+@media screen and (min-width:August) {
+  .c0 {
+    inset-inline-start: November;
+  }
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:August) {
+
+}
+
+<div
+    className="c0"
+  />,
+  @media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:August) {
+
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    inset-inline-start: May;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    inset-inline-start: June;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    inset-inline-start: April;
+  }
+}
+
+@media screen and (min-width:August) {
+  .c0 {
+    inset-inline-start: November;
+  }
+}
+
+<div
+    className="c0"
+  />,
+  @media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:August) {
+
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    inset-inline-start: May;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    inset-inline-start: June;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    inset-inline-start: April;
+  }
+}
+
+@media screen and (min-width:August) {
+  .c0 {
+    inset-inline-start: November;
+  }
+}
+
+<div
+    className="c0"
+  />,
+]
+`;
+
+exports[`insetInlineStart renders object [breakpoints] 2`] = `
+Array [
+  @media May {
+  .c0 {
+    inset-inline-start: July;
+  }
+}
+
+@media April {
+  .c0 {
+    inset-inline-start: August;
+  }
+}
+
+@media January {
+  .c0 {
+    inset-inline-start: September;
+  }
+}
+
+@media April {
+  .c0 {
+    inset-inline-start: November;
+  }
+}
+
+@media June {
+  .c0 {
+    inset-inline-start: August;
+  }
+}
+
+@media May {
+
+}
+
+@media April {
+
+}
+
+@media January {
+
+}
+
+@media April {
+
+}
+
+@media June {
+
+}
+
+<div
+    className="c0"
+  />,
+  @media May {
+  .c0 {
+    inset-inline-start: July;
+  }
+}
+
+@media April {
+  .c0 {
+    inset-inline-start: August;
+  }
+}
+
+@media January {
+  .c0 {
+    inset-inline-start: September;
+  }
+}
+
+@media April {
+  .c0 {
+    inset-inline-start: November;
+  }
+}
+
+@media June {
+  .c0 {
+    inset-inline-start: August;
+  }
+}
+
+@media May {
+
+}
+
+@media April {
+
+}
+
+@media January {
+
+}
+
+@media April {
+
+}
+
+@media June {
+
+}
+
+<div
+    className="c0"
+  />,
+  @media May {
+
+}
+
+@media April {
+
+}
+
+@media January {
+
+}
+
+@media April {
+
+}
+
+@media June {
+
+}
+
+@media May {
+  .c0 {
+    inset-inline-start: January;
+  }
+}
+
+@media April {
+  .c0 {
+    inset-inline-start: December;
+  }
+}
+
+@media January {
+  .c0 {
+    inset-inline-start: April;
+  }
+}
+
+@media April {
+  .c0 {
+    inset-inline-start: May;
+  }
+}
+
+@media June {
+  .c0 {
+    inset-inline-start: June;
+  }
+}
+
+<div
+    className="c0"
+  />,
+  @media May {
+
+}
+
+@media April {
+
+}
+
+@media January {
+
+}
+
+@media April {
+
+}
+
+@media June {
+
+}
+
+@media May {
+  .c0 {
+    inset-inline-start: January;
+  }
+}
+
+@media April {
+  .c0 {
+    inset-inline-start: December;
+  }
+}
+
+@media January {
+  .c0 {
+    inset-inline-start: April;
+  }
+}
+
+@media April {
+  .c0 {
+    inset-inline-start: May;
+  }
+}
+
+@media June {
+  .c0 {
+    inset-inline-start: June;
+  }
+}
+
+<div
+    className="c0"
+  />,
+]
+`;
+
+exports[`insetInlineStart renders postitive number 1`] = `
+Array [
+  .c0 {
+  inset-inline-start: 54881;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  inset-inline-start: 54881;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  inset-inline-start: 42365;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  inset-inline-start: 42365;
+}
+
+<div
+    className="c0"
+  />,
+]
+`;
+
+exports[`insetInlineStart renders string 1`] = `
+Array [
+  .c0 {
+  inset-inline-start: July;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  inset-inline-start: July;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  inset-inline-start: June;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  inset-inline-start: June;
+}
+
+<div
+    className="c0"
+  />,
+]
+`;
+
+exports[`insetInlineStart renders valid theme path 1`] = `
+Array [
+  .c0 {
+  inset-inline-start: DarkSlateBlue;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  inset-inline-start: DarkSlateBlue;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  inset-inline-start: DarkSlateBlue;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  inset-inline-start: DarkSlateBlue;
+}
+
+<div
+    className="c0"
+  />,
+]
+`;

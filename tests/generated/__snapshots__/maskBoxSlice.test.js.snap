@@ -1,0 +1,690 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`maskBoxSlice renders 0 1`] = `
+Array [
+  .c0 {
+  -webkit-mask-box-slice: 0;
+  mask-box-slice: 0;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-mask-box-slice: 0;
+  mask-box-slice: 0;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-mask-box-slice: 0;
+  mask-box-slice: 0;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-mask-box-slice: 0;
+  mask-box-slice: 0;
+}
+
+<div
+    className="c0"
+  />,
+]
+`;
+
+exports[`maskBoxSlice renders function 1`] = `
+Array [
+  .c0 {
+  -webkit-mask-box-slice: hasnot;
+  mask-box-slice: hasnot;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-mask-box-slice: has;
+  mask-box-slice: has;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-mask-box-slice: hasnot;
+  mask-box-slice: hasnot;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-mask-box-slice: has;
+  mask-box-slice: has;
+}
+
+<div
+    className="c0"
+  />,
+]
+`;
+
+exports[`maskBoxSlice renders invalid theme path 1`] = `
+Array [
+  .c0 {
+  -webkit-mask-box-slice: invalid.path.1;
+  mask-box-slice: invalid.path.1;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-mask-box-slice: invalid.path.1;
+  mask-box-slice: invalid.path.1;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-mask-box-slice: invalid.path.1;
+  mask-box-slice: invalid.path.1;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-mask-box-slice: invalid.path.1;
+  mask-box-slice: invalid.path.1;
+}
+
+<div
+    className="c0"
+  />,
+]
+`;
+
+exports[`maskBoxSlice renders negative number 1`] = `
+Array [
+  .c0 {
+  -webkit-mask-box-slice: -54881;
+  mask-box-slice: -54881;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-mask-box-slice: -54881;
+  mask-box-slice: -54881;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-mask-box-slice: -42365;
+  mask-box-slice: -42365;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-mask-box-slice: -42365;
+  mask-box-slice: -42365;
+}
+
+<div
+    className="c0"
+  />,
+]
+`;
+
+exports[`maskBoxSlice renders object [breakpoints] 1`] = `
+Array [
+  @media screen and (min-width:November) {
+  .c0 {
+    -webkit-mask-box-slice: July;
+    mask-box-slice: July;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    -webkit-mask-box-slice: August;
+    mask-box-slice: August;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    -webkit-mask-box-slice: September;
+    mask-box-slice: September;
+  }
+}
+
+@media screen and (min-width:August) {
+  .c0 {
+    -webkit-mask-box-slice: November;
+    mask-box-slice: November;
+  }
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:August) {
+
+}
+
+<div
+    className="c0"
+  />,
+  @media screen and (min-width:November) {
+  .c0 {
+    -webkit-mask-box-slice: July;
+    mask-box-slice: July;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    -webkit-mask-box-slice: August;
+    mask-box-slice: August;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    -webkit-mask-box-slice: September;
+    mask-box-slice: September;
+  }
+}
+
+@media screen and (min-width:August) {
+  .c0 {
+    -webkit-mask-box-slice: November;
+    mask-box-slice: November;
+  }
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:August) {
+
+}
+
+<div
+    className="c0"
+  />,
+  @media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:August) {
+
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    -webkit-mask-box-slice: May;
+    mask-box-slice: May;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    -webkit-mask-box-slice: June;
+    mask-box-slice: June;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    -webkit-mask-box-slice: April;
+    mask-box-slice: April;
+  }
+}
+
+@media screen and (min-width:August) {
+  .c0 {
+    -webkit-mask-box-slice: November;
+    mask-box-slice: November;
+  }
+}
+
+<div
+    className="c0"
+  />,
+  @media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:August) {
+
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    -webkit-mask-box-slice: May;
+    mask-box-slice: May;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    -webkit-mask-box-slice: June;
+    mask-box-slice: June;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    -webkit-mask-box-slice: April;
+    mask-box-slice: April;
+  }
+}
+
+@media screen and (min-width:August) {
+  .c0 {
+    -webkit-mask-box-slice: November;
+    mask-box-slice: November;
+  }
+}
+
+<div
+    className="c0"
+  />,
+]
+`;
+
+exports[`maskBoxSlice renders object [breakpoints] 2`] = `
+Array [
+  @media May {
+  .c0 {
+    -webkit-mask-box-slice: July;
+    mask-box-slice: July;
+  }
+}
+
+@media April {
+  .c0 {
+    -webkit-mask-box-slice: August;
+    mask-box-slice: August;
+  }
+}
+
+@media January {
+  .c0 {
+    -webkit-mask-box-slice: September;
+    mask-box-slice: September;
+  }
+}
+
+@media April {
+  .c0 {
+    -webkit-mask-box-slice: November;
+    mask-box-slice: November;
+  }
+}
+
+@media June {
+  .c0 {
+    -webkit-mask-box-slice: August;
+    mask-box-slice: August;
+  }
+}
+
+@media May {
+
+}
+
+@media April {
+
+}
+
+@media January {
+
+}
+
+@media April {
+
+}
+
+@media June {
+
+}
+
+<div
+    className="c0"
+  />,
+  @media May {
+  .c0 {
+    -webkit-mask-box-slice: July;
+    mask-box-slice: July;
+  }
+}
+
+@media April {
+  .c0 {
+    -webkit-mask-box-slice: August;
+    mask-box-slice: August;
+  }
+}
+
+@media January {
+  .c0 {
+    -webkit-mask-box-slice: September;
+    mask-box-slice: September;
+  }
+}
+
+@media April {
+  .c0 {
+    -webkit-mask-box-slice: November;
+    mask-box-slice: November;
+  }
+}
+
+@media June {
+  .c0 {
+    -webkit-mask-box-slice: August;
+    mask-box-slice: August;
+  }
+}
+
+@media May {
+
+}
+
+@media April {
+
+}
+
+@media January {
+
+}
+
+@media April {
+
+}
+
+@media June {
+
+}
+
+<div
+    className="c0"
+  />,
+  @media May {
+
+}
+
+@media April {
+
+}
+
+@media January {
+
+}
+
+@media April {
+
+}
+
+@media June {
+
+}
+
+@media May {
+  .c0 {
+    -webkit-mask-box-slice: January;
+    mask-box-slice: January;
+  }
+}
+
+@media April {
+  .c0 {
+    -webkit-mask-box-slice: December;
+    mask-box-slice: December;
+  }
+}
+
+@media January {
+  .c0 {
+    -webkit-mask-box-slice: April;
+    mask-box-slice: April;
+  }
+}
+
+@media April {
+  .c0 {
+    -webkit-mask-box-slice: May;
+    mask-box-slice: May;
+  }
+}
+
+@media June {
+  .c0 {
+    -webkit-mask-box-slice: June;
+    mask-box-slice: June;
+  }
+}
+
+<div
+    className="c0"
+  />,
+  @media May {
+
+}
+
+@media April {
+
+}
+
+@media January {
+
+}
+
+@media April {
+
+}
+
+@media June {
+
+}
+
+@media May {
+  .c0 {
+    -webkit-mask-box-slice: January;
+    mask-box-slice: January;
+  }
+}
+
+@media April {
+  .c0 {
+    -webkit-mask-box-slice: December;
+    mask-box-slice: December;
+  }
+}
+
+@media January {
+  .c0 {
+    -webkit-mask-box-slice: April;
+    mask-box-slice: April;
+  }
+}
+
+@media April {
+  .c0 {
+    -webkit-mask-box-slice: May;
+    mask-box-slice: May;
+  }
+}
+
+@media June {
+  .c0 {
+    -webkit-mask-box-slice: June;
+    mask-box-slice: June;
+  }
+}
+
+<div
+    className="c0"
+  />,
+]
+`;
+
+exports[`maskBoxSlice renders postitive number 1`] = `
+Array [
+  .c0 {
+  -webkit-mask-box-slice: 54881;
+  mask-box-slice: 54881;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-mask-box-slice: 54881;
+  mask-box-slice: 54881;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-mask-box-slice: 42365;
+  mask-box-slice: 42365;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-mask-box-slice: 42365;
+  mask-box-slice: 42365;
+}
+
+<div
+    className="c0"
+  />,
+]
+`;
+
+exports[`maskBoxSlice renders string 1`] = `
+Array [
+  .c0 {
+  -webkit-mask-box-slice: July;
+  mask-box-slice: July;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-mask-box-slice: July;
+  mask-box-slice: July;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-mask-box-slice: June;
+  mask-box-slice: June;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-mask-box-slice: June;
+  mask-box-slice: June;
+}
+
+<div
+    className="c0"
+  />,
+]
+`;
+
+exports[`maskBoxSlice renders valid theme path 1`] = `
+Array [
+  .c0 {
+  -webkit-mask-box-slice: DarkSlateBlue;
+  mask-box-slice: DarkSlateBlue;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-mask-box-slice: DarkSlateBlue;
+  mask-box-slice: DarkSlateBlue;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-mask-box-slice: DarkSlateBlue;
+  mask-box-slice: DarkSlateBlue;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-mask-box-slice: DarkSlateBlue;
+  mask-box-slice: DarkSlateBlue;
+}
+
+<div
+    className="c0"
+  />,
+]
+`;

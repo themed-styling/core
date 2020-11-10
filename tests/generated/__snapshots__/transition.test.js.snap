@@ -1,0 +1,690 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`transition renders 0 1`] = `
+Array [
+  .c0 {
+  -webkit-transition: 0;
+  transition: 0;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-transition: 0;
+  transition: 0;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-transition: 0;
+  transition: 0;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-transition: 0;
+  transition: 0;
+}
+
+<div
+    className="c0"
+  />,
+]
+`;
+
+exports[`transition renders function 1`] = `
+Array [
+  .c0 {
+  -webkit-transition: hasnot;
+  transition: hasnot;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-transition: has;
+  transition: has;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-transition: hasnot;
+  transition: hasnot;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-transition: has;
+  transition: has;
+}
+
+<div
+    className="c0"
+  />,
+]
+`;
+
+exports[`transition renders invalid theme path 1`] = `
+Array [
+  .c0 {
+  -webkit-transition: invalid.path.1;
+  transition: invalid.path.1;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-transition: invalid.path.1;
+  transition: invalid.path.1;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-transition: invalid.path.1;
+  transition: invalid.path.1;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-transition: invalid.path.1;
+  transition: invalid.path.1;
+}
+
+<div
+    className="c0"
+  />,
+]
+`;
+
+exports[`transition renders negative number 1`] = `
+Array [
+  .c0 {
+  -webkit-transition: -54881;
+  transition: -54881;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-transition: -54881;
+  transition: -54881;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-transition: -42365;
+  transition: -42365;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-transition: -42365;
+  transition: -42365;
+}
+
+<div
+    className="c0"
+  />,
+]
+`;
+
+exports[`transition renders object [breakpoints] 1`] = `
+Array [
+  @media screen and (min-width:November) {
+  .c0 {
+    -webkit-transition: July;
+    transition: July;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    -webkit-transition: August;
+    transition: August;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    -webkit-transition: September;
+    transition: September;
+  }
+}
+
+@media screen and (min-width:August) {
+  .c0 {
+    -webkit-transition: November;
+    transition: November;
+  }
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:August) {
+
+}
+
+<div
+    className="c0"
+  />,
+  @media screen and (min-width:November) {
+  .c0 {
+    -webkit-transition: July;
+    transition: July;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    -webkit-transition: August;
+    transition: August;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    -webkit-transition: September;
+    transition: September;
+  }
+}
+
+@media screen and (min-width:August) {
+  .c0 {
+    -webkit-transition: November;
+    transition: November;
+  }
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:August) {
+
+}
+
+<div
+    className="c0"
+  />,
+  @media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:August) {
+
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    -webkit-transition: May;
+    transition: May;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    -webkit-transition: June;
+    transition: June;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    -webkit-transition: April;
+    transition: April;
+  }
+}
+
+@media screen and (min-width:August) {
+  .c0 {
+    -webkit-transition: November;
+    transition: November;
+  }
+}
+
+<div
+    className="c0"
+  />,
+  @media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:August) {
+
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    -webkit-transition: May;
+    transition: May;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    -webkit-transition: June;
+    transition: June;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    -webkit-transition: April;
+    transition: April;
+  }
+}
+
+@media screen and (min-width:August) {
+  .c0 {
+    -webkit-transition: November;
+    transition: November;
+  }
+}
+
+<div
+    className="c0"
+  />,
+]
+`;
+
+exports[`transition renders object [breakpoints] 2`] = `
+Array [
+  @media May {
+  .c0 {
+    -webkit-transition: July;
+    transition: July;
+  }
+}
+
+@media April {
+  .c0 {
+    -webkit-transition: August;
+    transition: August;
+  }
+}
+
+@media January {
+  .c0 {
+    -webkit-transition: September;
+    transition: September;
+  }
+}
+
+@media April {
+  .c0 {
+    -webkit-transition: November;
+    transition: November;
+  }
+}
+
+@media June {
+  .c0 {
+    -webkit-transition: August;
+    transition: August;
+  }
+}
+
+@media May {
+
+}
+
+@media April {
+
+}
+
+@media January {
+
+}
+
+@media April {
+
+}
+
+@media June {
+
+}
+
+<div
+    className="c0"
+  />,
+  @media May {
+  .c0 {
+    -webkit-transition: July;
+    transition: July;
+  }
+}
+
+@media April {
+  .c0 {
+    -webkit-transition: August;
+    transition: August;
+  }
+}
+
+@media January {
+  .c0 {
+    -webkit-transition: September;
+    transition: September;
+  }
+}
+
+@media April {
+  .c0 {
+    -webkit-transition: November;
+    transition: November;
+  }
+}
+
+@media June {
+  .c0 {
+    -webkit-transition: August;
+    transition: August;
+  }
+}
+
+@media May {
+
+}
+
+@media April {
+
+}
+
+@media January {
+
+}
+
+@media April {
+
+}
+
+@media June {
+
+}
+
+<div
+    className="c0"
+  />,
+  @media May {
+
+}
+
+@media April {
+
+}
+
+@media January {
+
+}
+
+@media April {
+
+}
+
+@media June {
+
+}
+
+@media May {
+  .c0 {
+    -webkit-transition: January;
+    transition: January;
+  }
+}
+
+@media April {
+  .c0 {
+    -webkit-transition: December;
+    transition: December;
+  }
+}
+
+@media January {
+  .c0 {
+    -webkit-transition: April;
+    transition: April;
+  }
+}
+
+@media April {
+  .c0 {
+    -webkit-transition: May;
+    transition: May;
+  }
+}
+
+@media June {
+  .c0 {
+    -webkit-transition: June;
+    transition: June;
+  }
+}
+
+<div
+    className="c0"
+  />,
+  @media May {
+
+}
+
+@media April {
+
+}
+
+@media January {
+
+}
+
+@media April {
+
+}
+
+@media June {
+
+}
+
+@media May {
+  .c0 {
+    -webkit-transition: January;
+    transition: January;
+  }
+}
+
+@media April {
+  .c0 {
+    -webkit-transition: December;
+    transition: December;
+  }
+}
+
+@media January {
+  .c0 {
+    -webkit-transition: April;
+    transition: April;
+  }
+}
+
+@media April {
+  .c0 {
+    -webkit-transition: May;
+    transition: May;
+  }
+}
+
+@media June {
+  .c0 {
+    -webkit-transition: June;
+    transition: June;
+  }
+}
+
+<div
+    className="c0"
+  />,
+]
+`;
+
+exports[`transition renders postitive number 1`] = `
+Array [
+  .c0 {
+  -webkit-transition: 54881;
+  transition: 54881;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-transition: 54881;
+  transition: 54881;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-transition: 42365;
+  transition: 42365;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-transition: 42365;
+  transition: 42365;
+}
+
+<div
+    className="c0"
+  />,
+]
+`;
+
+exports[`transition renders string 1`] = `
+Array [
+  .c0 {
+  -webkit-transition: July;
+  transition: July;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-transition: July;
+  transition: July;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-transition: June;
+  transition: June;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-transition: June;
+  transition: June;
+}
+
+<div
+    className="c0"
+  />,
+]
+`;
+
+exports[`transition renders valid theme path 1`] = `
+Array [
+  .c0 {
+  -webkit-transition: DarkSlateBlue;
+  transition: DarkSlateBlue;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-transition: DarkSlateBlue;
+  transition: DarkSlateBlue;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-transition: DarkSlateBlue;
+  transition: DarkSlateBlue;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-transition: DarkSlateBlue;
+  transition: DarkSlateBlue;
+}
+
+<div
+    className="c0"
+  />,
+]
+`;

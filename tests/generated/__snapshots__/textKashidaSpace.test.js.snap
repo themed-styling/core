@@ -1,0 +1,626 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`textKashidaSpace renders 0 1`] = `
+Array [
+  .c0 {
+  text-kashida-space: 0;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  text-kashida-space: 0;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  text-kashida-space: 0;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  text-kashida-space: 0;
+}
+
+<div
+    className="c0"
+  />,
+]
+`;
+
+exports[`textKashidaSpace renders function 1`] = `
+Array [
+  .c0 {
+  text-kashida-space: hasnot;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  text-kashida-space: has;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  text-kashida-space: hasnot;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  text-kashida-space: has;
+}
+
+<div
+    className="c0"
+  />,
+]
+`;
+
+exports[`textKashidaSpace renders invalid theme path 1`] = `
+Array [
+  .c0 {
+  text-kashida-space: invalid.path.1;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  text-kashida-space: invalid.path.1;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  text-kashida-space: invalid.path.1;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  text-kashida-space: invalid.path.1;
+}
+
+<div
+    className="c0"
+  />,
+]
+`;
+
+exports[`textKashidaSpace renders negative number 1`] = `
+Array [
+  .c0 {
+  text-kashida-space: -54881;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  text-kashida-space: -54881;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  text-kashida-space: -42365;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  text-kashida-space: -42365;
+}
+
+<div
+    className="c0"
+  />,
+]
+`;
+
+exports[`textKashidaSpace renders object [breakpoints] 1`] = `
+Array [
+  @media screen and (min-width:November) {
+  .c0 {
+    text-kashida-space: July;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    text-kashida-space: August;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    text-kashida-space: September;
+  }
+}
+
+@media screen and (min-width:August) {
+  .c0 {
+    text-kashida-space: November;
+  }
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:August) {
+
+}
+
+<div
+    className="c0"
+  />,
+  @media screen and (min-width:November) {
+  .c0 {
+    text-kashida-space: July;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    text-kashida-space: August;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    text-kashida-space: September;
+  }
+}
+
+@media screen and (min-width:August) {
+  .c0 {
+    text-kashida-space: November;
+  }
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:August) {
+
+}
+
+<div
+    className="c0"
+  />,
+  @media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:August) {
+
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    text-kashida-space: May;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    text-kashida-space: June;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    text-kashida-space: April;
+  }
+}
+
+@media screen and (min-width:August) {
+  .c0 {
+    text-kashida-space: November;
+  }
+}
+
+<div
+    className="c0"
+  />,
+  @media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:August) {
+
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    text-kashida-space: May;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    text-kashida-space: June;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    text-kashida-space: April;
+  }
+}
+
+@media screen and (min-width:August) {
+  .c0 {
+    text-kashida-space: November;
+  }
+}
+
+<div
+    className="c0"
+  />,
+]
+`;
+
+exports[`textKashidaSpace renders object [breakpoints] 2`] = `
+Array [
+  @media May {
+  .c0 {
+    text-kashida-space: July;
+  }
+}
+
+@media April {
+  .c0 {
+    text-kashida-space: August;
+  }
+}
+
+@media January {
+  .c0 {
+    text-kashida-space: September;
+  }
+}
+
+@media April {
+  .c0 {
+    text-kashida-space: November;
+  }
+}
+
+@media June {
+  .c0 {
+    text-kashida-space: August;
+  }
+}
+
+@media May {
+
+}
+
+@media April {
+
+}
+
+@media January {
+
+}
+
+@media April {
+
+}
+
+@media June {
+
+}
+
+<div
+    className="c0"
+  />,
+  @media May {
+  .c0 {
+    text-kashida-space: July;
+  }
+}
+
+@media April {
+  .c0 {
+    text-kashida-space: August;
+  }
+}
+
+@media January {
+  .c0 {
+    text-kashida-space: September;
+  }
+}
+
+@media April {
+  .c0 {
+    text-kashida-space: November;
+  }
+}
+
+@media June {
+  .c0 {
+    text-kashida-space: August;
+  }
+}
+
+@media May {
+
+}
+
+@media April {
+
+}
+
+@media January {
+
+}
+
+@media April {
+
+}
+
+@media June {
+
+}
+
+<div
+    className="c0"
+  />,
+  @media May {
+
+}
+
+@media April {
+
+}
+
+@media January {
+
+}
+
+@media April {
+
+}
+
+@media June {
+
+}
+
+@media May {
+  .c0 {
+    text-kashida-space: January;
+  }
+}
+
+@media April {
+  .c0 {
+    text-kashida-space: December;
+  }
+}
+
+@media January {
+  .c0 {
+    text-kashida-space: April;
+  }
+}
+
+@media April {
+  .c0 {
+    text-kashida-space: May;
+  }
+}
+
+@media June {
+  .c0 {
+    text-kashida-space: June;
+  }
+}
+
+<div
+    className="c0"
+  />,
+  @media May {
+
+}
+
+@media April {
+
+}
+
+@media January {
+
+}
+
+@media April {
+
+}
+
+@media June {
+
+}
+
+@media May {
+  .c0 {
+    text-kashida-space: January;
+  }
+}
+
+@media April {
+  .c0 {
+    text-kashida-space: December;
+  }
+}
+
+@media January {
+  .c0 {
+    text-kashida-space: April;
+  }
+}
+
+@media April {
+  .c0 {
+    text-kashida-space: May;
+  }
+}
+
+@media June {
+  .c0 {
+    text-kashida-space: June;
+  }
+}
+
+<div
+    className="c0"
+  />,
+]
+`;
+
+exports[`textKashidaSpace renders postitive number 1`] = `
+Array [
+  .c0 {
+  text-kashida-space: 54881;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  text-kashida-space: 54881;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  text-kashida-space: 42365;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  text-kashida-space: 42365;
+}
+
+<div
+    className="c0"
+  />,
+]
+`;
+
+exports[`textKashidaSpace renders string 1`] = `
+Array [
+  .c0 {
+  text-kashida-space: July;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  text-kashida-space: July;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  text-kashida-space: June;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  text-kashida-space: June;
+}
+
+<div
+    className="c0"
+  />,
+]
+`;
+
+exports[`textKashidaSpace renders valid theme path 1`] = `
+Array [
+  .c0 {
+  text-kashida-space: DarkSlateBlue;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  text-kashida-space: DarkSlateBlue;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  text-kashida-space: DarkSlateBlue;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  text-kashida-space: DarkSlateBlue;
+}
+
+<div
+    className="c0"
+  />,
+]
+`;

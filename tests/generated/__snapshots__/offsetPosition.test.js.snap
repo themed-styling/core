@@ -1,0 +1,626 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`offsetPosition renders 0 1`] = `
+Array [
+  .c0 {
+  offset-position: 0;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  offset-position: 0;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  offset-position: 0;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  offset-position: 0;
+}
+
+<div
+    className="c0"
+  />,
+]
+`;
+
+exports[`offsetPosition renders function 1`] = `
+Array [
+  .c0 {
+  offset-position: hasnot;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  offset-position: has;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  offset-position: hasnot;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  offset-position: has;
+}
+
+<div
+    className="c0"
+  />,
+]
+`;
+
+exports[`offsetPosition renders invalid theme path 1`] = `
+Array [
+  .c0 {
+  offset-position: invalid.path.1;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  offset-position: invalid.path.1;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  offset-position: invalid.path.1;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  offset-position: invalid.path.1;
+}
+
+<div
+    className="c0"
+  />,
+]
+`;
+
+exports[`offsetPosition renders negative number 1`] = `
+Array [
+  .c0 {
+  offset-position: -54881;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  offset-position: -54881;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  offset-position: -42365;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  offset-position: -42365;
+}
+
+<div
+    className="c0"
+  />,
+]
+`;
+
+exports[`offsetPosition renders object [breakpoints] 1`] = `
+Array [
+  @media screen and (min-width:November) {
+  .c0 {
+    offset-position: July;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    offset-position: August;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    offset-position: September;
+  }
+}
+
+@media screen and (min-width:August) {
+  .c0 {
+    offset-position: November;
+  }
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:August) {
+
+}
+
+<div
+    className="c0"
+  />,
+  @media screen and (min-width:November) {
+  .c0 {
+    offset-position: July;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    offset-position: August;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    offset-position: September;
+  }
+}
+
+@media screen and (min-width:August) {
+  .c0 {
+    offset-position: November;
+  }
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:August) {
+
+}
+
+<div
+    className="c0"
+  />,
+  @media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:August) {
+
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    offset-position: May;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    offset-position: June;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    offset-position: April;
+  }
+}
+
+@media screen and (min-width:August) {
+  .c0 {
+    offset-position: November;
+  }
+}
+
+<div
+    className="c0"
+  />,
+  @media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:August) {
+
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    offset-position: May;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    offset-position: June;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    offset-position: April;
+  }
+}
+
+@media screen and (min-width:August) {
+  .c0 {
+    offset-position: November;
+  }
+}
+
+<div
+    className="c0"
+  />,
+]
+`;
+
+exports[`offsetPosition renders object [breakpoints] 2`] = `
+Array [
+  @media May {
+  .c0 {
+    offset-position: July;
+  }
+}
+
+@media April {
+  .c0 {
+    offset-position: August;
+  }
+}
+
+@media January {
+  .c0 {
+    offset-position: September;
+  }
+}
+
+@media April {
+  .c0 {
+    offset-position: November;
+  }
+}
+
+@media June {
+  .c0 {
+    offset-position: August;
+  }
+}
+
+@media May {
+
+}
+
+@media April {
+
+}
+
+@media January {
+
+}
+
+@media April {
+
+}
+
+@media June {
+
+}
+
+<div
+    className="c0"
+  />,
+  @media May {
+  .c0 {
+    offset-position: July;
+  }
+}
+
+@media April {
+  .c0 {
+    offset-position: August;
+  }
+}
+
+@media January {
+  .c0 {
+    offset-position: September;
+  }
+}
+
+@media April {
+  .c0 {
+    offset-position: November;
+  }
+}
+
+@media June {
+  .c0 {
+    offset-position: August;
+  }
+}
+
+@media May {
+
+}
+
+@media April {
+
+}
+
+@media January {
+
+}
+
+@media April {
+
+}
+
+@media June {
+
+}
+
+<div
+    className="c0"
+  />,
+  @media May {
+
+}
+
+@media April {
+
+}
+
+@media January {
+
+}
+
+@media April {
+
+}
+
+@media June {
+
+}
+
+@media May {
+  .c0 {
+    offset-position: January;
+  }
+}
+
+@media April {
+  .c0 {
+    offset-position: December;
+  }
+}
+
+@media January {
+  .c0 {
+    offset-position: April;
+  }
+}
+
+@media April {
+  .c0 {
+    offset-position: May;
+  }
+}
+
+@media June {
+  .c0 {
+    offset-position: June;
+  }
+}
+
+<div
+    className="c0"
+  />,
+  @media May {
+
+}
+
+@media April {
+
+}
+
+@media January {
+
+}
+
+@media April {
+
+}
+
+@media June {
+
+}
+
+@media May {
+  .c0 {
+    offset-position: January;
+  }
+}
+
+@media April {
+  .c0 {
+    offset-position: December;
+  }
+}
+
+@media January {
+  .c0 {
+    offset-position: April;
+  }
+}
+
+@media April {
+  .c0 {
+    offset-position: May;
+  }
+}
+
+@media June {
+  .c0 {
+    offset-position: June;
+  }
+}
+
+<div
+    className="c0"
+  />,
+]
+`;
+
+exports[`offsetPosition renders postitive number 1`] = `
+Array [
+  .c0 {
+  offset-position: 54881;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  offset-position: 54881;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  offset-position: 42365;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  offset-position: 42365;
+}
+
+<div
+    className="c0"
+  />,
+]
+`;
+
+exports[`offsetPosition renders string 1`] = `
+Array [
+  .c0 {
+  offset-position: July;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  offset-position: July;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  offset-position: June;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  offset-position: June;
+}
+
+<div
+    className="c0"
+  />,
+]
+`;
+
+exports[`offsetPosition renders valid theme path 1`] = `
+Array [
+  .c0 {
+  offset-position: DarkSlateBlue;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  offset-position: DarkSlateBlue;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  offset-position: DarkSlateBlue;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  offset-position: DarkSlateBlue;
+}
+
+<div
+    className="c0"
+  />,
+]
+`;

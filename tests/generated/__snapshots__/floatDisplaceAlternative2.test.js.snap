@@ -1,0 +1,626 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`floatDisplaceAlternative2 renders 0 1`] = `
+Array [
+  .c0 {
+  float-displace--alternative-2: 0;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  float-displace--alternative-2: 0;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  float-displace--alternative-2: 0;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  float-displace--alternative-2: 0;
+}
+
+<div
+    className="c0"
+  />,
+]
+`;
+
+exports[`floatDisplaceAlternative2 renders function 1`] = `
+Array [
+  .c0 {
+  float-displace--alternative-2: hasnot;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  float-displace--alternative-2: has;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  float-displace--alternative-2: hasnot;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  float-displace--alternative-2: has;
+}
+
+<div
+    className="c0"
+  />,
+]
+`;
+
+exports[`floatDisplaceAlternative2 renders invalid theme path 1`] = `
+Array [
+  .c0 {
+  float-displace--alternative-2: invalid.path.1;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  float-displace--alternative-2: invalid.path.1;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  float-displace--alternative-2: invalid.path.1;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  float-displace--alternative-2: invalid.path.1;
+}
+
+<div
+    className="c0"
+  />,
+]
+`;
+
+exports[`floatDisplaceAlternative2 renders negative number 1`] = `
+Array [
+  .c0 {
+  float-displace--alternative-2: -54881;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  float-displace--alternative-2: -54881;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  float-displace--alternative-2: -42365;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  float-displace--alternative-2: -42365;
+}
+
+<div
+    className="c0"
+  />,
+]
+`;
+
+exports[`floatDisplaceAlternative2 renders object [breakpoints] 1`] = `
+Array [
+  @media screen and (min-width:November) {
+  .c0 {
+    float-displace--alternative-2: July;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    float-displace--alternative-2: August;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    float-displace--alternative-2: September;
+  }
+}
+
+@media screen and (min-width:August) {
+  .c0 {
+    float-displace--alternative-2: November;
+  }
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:August) {
+
+}
+
+<div
+    className="c0"
+  />,
+  @media screen and (min-width:November) {
+  .c0 {
+    float-displace--alternative-2: July;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    float-displace--alternative-2: August;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    float-displace--alternative-2: September;
+  }
+}
+
+@media screen and (min-width:August) {
+  .c0 {
+    float-displace--alternative-2: November;
+  }
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:August) {
+
+}
+
+<div
+    className="c0"
+  />,
+  @media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:August) {
+
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    float-displace--alternative-2: May;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    float-displace--alternative-2: June;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    float-displace--alternative-2: April;
+  }
+}
+
+@media screen and (min-width:August) {
+  .c0 {
+    float-displace--alternative-2: November;
+  }
+}
+
+<div
+    className="c0"
+  />,
+  @media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:August) {
+
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    float-displace--alternative-2: May;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    float-displace--alternative-2: June;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    float-displace--alternative-2: April;
+  }
+}
+
+@media screen and (min-width:August) {
+  .c0 {
+    float-displace--alternative-2: November;
+  }
+}
+
+<div
+    className="c0"
+  />,
+]
+`;
+
+exports[`floatDisplaceAlternative2 renders object [breakpoints] 2`] = `
+Array [
+  @media May {
+  .c0 {
+    float-displace--alternative-2: July;
+  }
+}
+
+@media April {
+  .c0 {
+    float-displace--alternative-2: August;
+  }
+}
+
+@media January {
+  .c0 {
+    float-displace--alternative-2: September;
+  }
+}
+
+@media April {
+  .c0 {
+    float-displace--alternative-2: November;
+  }
+}
+
+@media June {
+  .c0 {
+    float-displace--alternative-2: August;
+  }
+}
+
+@media May {
+
+}
+
+@media April {
+
+}
+
+@media January {
+
+}
+
+@media April {
+
+}
+
+@media June {
+
+}
+
+<div
+    className="c0"
+  />,
+  @media May {
+  .c0 {
+    float-displace--alternative-2: July;
+  }
+}
+
+@media April {
+  .c0 {
+    float-displace--alternative-2: August;
+  }
+}
+
+@media January {
+  .c0 {
+    float-displace--alternative-2: September;
+  }
+}
+
+@media April {
+  .c0 {
+    float-displace--alternative-2: November;
+  }
+}
+
+@media June {
+  .c0 {
+    float-displace--alternative-2: August;
+  }
+}
+
+@media May {
+
+}
+
+@media April {
+
+}
+
+@media January {
+
+}
+
+@media April {
+
+}
+
+@media June {
+
+}
+
+<div
+    className="c0"
+  />,
+  @media May {
+
+}
+
+@media April {
+
+}
+
+@media January {
+
+}
+
+@media April {
+
+}
+
+@media June {
+
+}
+
+@media May {
+  .c0 {
+    float-displace--alternative-2: January;
+  }
+}
+
+@media April {
+  .c0 {
+    float-displace--alternative-2: December;
+  }
+}
+
+@media January {
+  .c0 {
+    float-displace--alternative-2: April;
+  }
+}
+
+@media April {
+  .c0 {
+    float-displace--alternative-2: May;
+  }
+}
+
+@media June {
+  .c0 {
+    float-displace--alternative-2: June;
+  }
+}
+
+<div
+    className="c0"
+  />,
+  @media May {
+
+}
+
+@media April {
+
+}
+
+@media January {
+
+}
+
+@media April {
+
+}
+
+@media June {
+
+}
+
+@media May {
+  .c0 {
+    float-displace--alternative-2: January;
+  }
+}
+
+@media April {
+  .c0 {
+    float-displace--alternative-2: December;
+  }
+}
+
+@media January {
+  .c0 {
+    float-displace--alternative-2: April;
+  }
+}
+
+@media April {
+  .c0 {
+    float-displace--alternative-2: May;
+  }
+}
+
+@media June {
+  .c0 {
+    float-displace--alternative-2: June;
+  }
+}
+
+<div
+    className="c0"
+  />,
+]
+`;
+
+exports[`floatDisplaceAlternative2 renders postitive number 1`] = `
+Array [
+  .c0 {
+  float-displace--alternative-2: 54881;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  float-displace--alternative-2: 54881;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  float-displace--alternative-2: 42365;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  float-displace--alternative-2: 42365;
+}
+
+<div
+    className="c0"
+  />,
+]
+`;
+
+exports[`floatDisplaceAlternative2 renders string 1`] = `
+Array [
+  .c0 {
+  float-displace--alternative-2: July;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  float-displace--alternative-2: July;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  float-displace--alternative-2: June;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  float-displace--alternative-2: June;
+}
+
+<div
+    className="c0"
+  />,
+]
+`;
+
+exports[`floatDisplaceAlternative2 renders valid theme path 1`] = `
+Array [
+  .c0 {
+  float-displace--alternative-2: DarkSlateBlue;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  float-displace--alternative-2: DarkSlateBlue;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  float-displace--alternative-2: DarkSlateBlue;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  float-displace--alternative-2: DarkSlateBlue;
+}
+
+<div
+    className="c0"
+  />,
+]
+`;

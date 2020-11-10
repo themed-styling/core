@@ -1,0 +1,690 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`animationPlayState renders 0 1`] = `
+Array [
+  .c0 {
+  -webkit-animation-play-state: 0;
+  animation-play-state: 0;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-animation-play-state: 0;
+  animation-play-state: 0;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-animation-play-state: 0;
+  animation-play-state: 0;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-animation-play-state: 0;
+  animation-play-state: 0;
+}
+
+<div
+    className="c0"
+  />,
+]
+`;
+
+exports[`animationPlayState renders function 1`] = `
+Array [
+  .c0 {
+  -webkit-animation-play-state: hasnot;
+  animation-play-state: hasnot;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-animation-play-state: has;
+  animation-play-state: has;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-animation-play-state: hasnot;
+  animation-play-state: hasnot;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-animation-play-state: has;
+  animation-play-state: has;
+}
+
+<div
+    className="c0"
+  />,
+]
+`;
+
+exports[`animationPlayState renders invalid theme path 1`] = `
+Array [
+  .c0 {
+  -webkit-animation-play-state: invalid.path.1;
+  animation-play-state: invalid.path.1;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-animation-play-state: invalid.path.1;
+  animation-play-state: invalid.path.1;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-animation-play-state: invalid.path.1;
+  animation-play-state: invalid.path.1;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-animation-play-state: invalid.path.1;
+  animation-play-state: invalid.path.1;
+}
+
+<div
+    className="c0"
+  />,
+]
+`;
+
+exports[`animationPlayState renders negative number 1`] = `
+Array [
+  .c0 {
+  -webkit-animation-play-state: -54881;
+  animation-play-state: -54881;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-animation-play-state: -54881;
+  animation-play-state: -54881;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-animation-play-state: -42365;
+  animation-play-state: -42365;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-animation-play-state: -42365;
+  animation-play-state: -42365;
+}
+
+<div
+    className="c0"
+  />,
+]
+`;
+
+exports[`animationPlayState renders object [breakpoints] 1`] = `
+Array [
+  @media screen and (min-width:November) {
+  .c0 {
+    -webkit-animation-play-state: July;
+    animation-play-state: July;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    -webkit-animation-play-state: August;
+    animation-play-state: August;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    -webkit-animation-play-state: September;
+    animation-play-state: September;
+  }
+}
+
+@media screen and (min-width:August) {
+  .c0 {
+    -webkit-animation-play-state: November;
+    animation-play-state: November;
+  }
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:August) {
+
+}
+
+<div
+    className="c0"
+  />,
+  @media screen and (min-width:November) {
+  .c0 {
+    -webkit-animation-play-state: July;
+    animation-play-state: July;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    -webkit-animation-play-state: August;
+    animation-play-state: August;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    -webkit-animation-play-state: September;
+    animation-play-state: September;
+  }
+}
+
+@media screen and (min-width:August) {
+  .c0 {
+    -webkit-animation-play-state: November;
+    animation-play-state: November;
+  }
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:August) {
+
+}
+
+<div
+    className="c0"
+  />,
+  @media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:August) {
+
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    -webkit-animation-play-state: May;
+    animation-play-state: May;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    -webkit-animation-play-state: June;
+    animation-play-state: June;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    -webkit-animation-play-state: April;
+    animation-play-state: April;
+  }
+}
+
+@media screen and (min-width:August) {
+  .c0 {
+    -webkit-animation-play-state: November;
+    animation-play-state: November;
+  }
+}
+
+<div
+    className="c0"
+  />,
+  @media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:August) {
+
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    -webkit-animation-play-state: May;
+    animation-play-state: May;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    -webkit-animation-play-state: June;
+    animation-play-state: June;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    -webkit-animation-play-state: April;
+    animation-play-state: April;
+  }
+}
+
+@media screen and (min-width:August) {
+  .c0 {
+    -webkit-animation-play-state: November;
+    animation-play-state: November;
+  }
+}
+
+<div
+    className="c0"
+  />,
+]
+`;
+
+exports[`animationPlayState renders object [breakpoints] 2`] = `
+Array [
+  @media May {
+  .c0 {
+    -webkit-animation-play-state: July;
+    animation-play-state: July;
+  }
+}
+
+@media April {
+  .c0 {
+    -webkit-animation-play-state: August;
+    animation-play-state: August;
+  }
+}
+
+@media January {
+  .c0 {
+    -webkit-animation-play-state: September;
+    animation-play-state: September;
+  }
+}
+
+@media April {
+  .c0 {
+    -webkit-animation-play-state: November;
+    animation-play-state: November;
+  }
+}
+
+@media June {
+  .c0 {
+    -webkit-animation-play-state: August;
+    animation-play-state: August;
+  }
+}
+
+@media May {
+
+}
+
+@media April {
+
+}
+
+@media January {
+
+}
+
+@media April {
+
+}
+
+@media June {
+
+}
+
+<div
+    className="c0"
+  />,
+  @media May {
+  .c0 {
+    -webkit-animation-play-state: July;
+    animation-play-state: July;
+  }
+}
+
+@media April {
+  .c0 {
+    -webkit-animation-play-state: August;
+    animation-play-state: August;
+  }
+}
+
+@media January {
+  .c0 {
+    -webkit-animation-play-state: September;
+    animation-play-state: September;
+  }
+}
+
+@media April {
+  .c0 {
+    -webkit-animation-play-state: November;
+    animation-play-state: November;
+  }
+}
+
+@media June {
+  .c0 {
+    -webkit-animation-play-state: August;
+    animation-play-state: August;
+  }
+}
+
+@media May {
+
+}
+
+@media April {
+
+}
+
+@media January {
+
+}
+
+@media April {
+
+}
+
+@media June {
+
+}
+
+<div
+    className="c0"
+  />,
+  @media May {
+
+}
+
+@media April {
+
+}
+
+@media January {
+
+}
+
+@media April {
+
+}
+
+@media June {
+
+}
+
+@media May {
+  .c0 {
+    -webkit-animation-play-state: January;
+    animation-play-state: January;
+  }
+}
+
+@media April {
+  .c0 {
+    -webkit-animation-play-state: December;
+    animation-play-state: December;
+  }
+}
+
+@media January {
+  .c0 {
+    -webkit-animation-play-state: April;
+    animation-play-state: April;
+  }
+}
+
+@media April {
+  .c0 {
+    -webkit-animation-play-state: May;
+    animation-play-state: May;
+  }
+}
+
+@media June {
+  .c0 {
+    -webkit-animation-play-state: June;
+    animation-play-state: June;
+  }
+}
+
+<div
+    className="c0"
+  />,
+  @media May {
+
+}
+
+@media April {
+
+}
+
+@media January {
+
+}
+
+@media April {
+
+}
+
+@media June {
+
+}
+
+@media May {
+  .c0 {
+    -webkit-animation-play-state: January;
+    animation-play-state: January;
+  }
+}
+
+@media April {
+  .c0 {
+    -webkit-animation-play-state: December;
+    animation-play-state: December;
+  }
+}
+
+@media January {
+  .c0 {
+    -webkit-animation-play-state: April;
+    animation-play-state: April;
+  }
+}
+
+@media April {
+  .c0 {
+    -webkit-animation-play-state: May;
+    animation-play-state: May;
+  }
+}
+
+@media June {
+  .c0 {
+    -webkit-animation-play-state: June;
+    animation-play-state: June;
+  }
+}
+
+<div
+    className="c0"
+  />,
+]
+`;
+
+exports[`animationPlayState renders postitive number 1`] = `
+Array [
+  .c0 {
+  -webkit-animation-play-state: 54881;
+  animation-play-state: 54881;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-animation-play-state: 54881;
+  animation-play-state: 54881;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-animation-play-state: 42365;
+  animation-play-state: 42365;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-animation-play-state: 42365;
+  animation-play-state: 42365;
+}
+
+<div
+    className="c0"
+  />,
+]
+`;
+
+exports[`animationPlayState renders string 1`] = `
+Array [
+  .c0 {
+  -webkit-animation-play-state: July;
+  animation-play-state: July;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-animation-play-state: July;
+  animation-play-state: July;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-animation-play-state: June;
+  animation-play-state: June;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-animation-play-state: June;
+  animation-play-state: June;
+}
+
+<div
+    className="c0"
+  />,
+]
+`;
+
+exports[`animationPlayState renders valid theme path 1`] = `
+Array [
+  .c0 {
+  -webkit-animation-play-state: DarkSlateBlue;
+  animation-play-state: DarkSlateBlue;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-animation-play-state: DarkSlateBlue;
+  animation-play-state: DarkSlateBlue;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-animation-play-state: DarkSlateBlue;
+  animation-play-state: DarkSlateBlue;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-animation-play-state: DarkSlateBlue;
+  animation-play-state: DarkSlateBlue;
+}
+
+<div
+    className="c0"
+  />,
+]
+`;

@@ -1,0 +1,690 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`maskRepeat renders 0 1`] = `
+Array [
+  .c0 {
+  -webkit-mask-repeat: 0;
+  mask-repeat: 0;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-mask-repeat: 0;
+  mask-repeat: 0;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-mask-repeat: 0;
+  mask-repeat: 0;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-mask-repeat: 0;
+  mask-repeat: 0;
+}
+
+<div
+    className="c0"
+  />,
+]
+`;
+
+exports[`maskRepeat renders function 1`] = `
+Array [
+  .c0 {
+  -webkit-mask-repeat: hasnot;
+  mask-repeat: hasnot;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-mask-repeat: has;
+  mask-repeat: has;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-mask-repeat: hasnot;
+  mask-repeat: hasnot;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-mask-repeat: has;
+  mask-repeat: has;
+}
+
+<div
+    className="c0"
+  />,
+]
+`;
+
+exports[`maskRepeat renders invalid theme path 1`] = `
+Array [
+  .c0 {
+  -webkit-mask-repeat: invalid.path.1;
+  mask-repeat: invalid.path.1;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-mask-repeat: invalid.path.1;
+  mask-repeat: invalid.path.1;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-mask-repeat: invalid.path.1;
+  mask-repeat: invalid.path.1;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-mask-repeat: invalid.path.1;
+  mask-repeat: invalid.path.1;
+}
+
+<div
+    className="c0"
+  />,
+]
+`;
+
+exports[`maskRepeat renders negative number 1`] = `
+Array [
+  .c0 {
+  -webkit-mask-repeat: -54881;
+  mask-repeat: -54881;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-mask-repeat: -54881;
+  mask-repeat: -54881;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-mask-repeat: -42365;
+  mask-repeat: -42365;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-mask-repeat: -42365;
+  mask-repeat: -42365;
+}
+
+<div
+    className="c0"
+  />,
+]
+`;
+
+exports[`maskRepeat renders object [breakpoints] 1`] = `
+Array [
+  @media screen and (min-width:November) {
+  .c0 {
+    -webkit-mask-repeat: July;
+    mask-repeat: July;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    -webkit-mask-repeat: August;
+    mask-repeat: August;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    -webkit-mask-repeat: September;
+    mask-repeat: September;
+  }
+}
+
+@media screen and (min-width:August) {
+  .c0 {
+    -webkit-mask-repeat: November;
+    mask-repeat: November;
+  }
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:August) {
+
+}
+
+<div
+    className="c0"
+  />,
+  @media screen and (min-width:November) {
+  .c0 {
+    -webkit-mask-repeat: July;
+    mask-repeat: July;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    -webkit-mask-repeat: August;
+    mask-repeat: August;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    -webkit-mask-repeat: September;
+    mask-repeat: September;
+  }
+}
+
+@media screen and (min-width:August) {
+  .c0 {
+    -webkit-mask-repeat: November;
+    mask-repeat: November;
+  }
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:August) {
+
+}
+
+<div
+    className="c0"
+  />,
+  @media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:August) {
+
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    -webkit-mask-repeat: May;
+    mask-repeat: May;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    -webkit-mask-repeat: June;
+    mask-repeat: June;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    -webkit-mask-repeat: April;
+    mask-repeat: April;
+  }
+}
+
+@media screen and (min-width:August) {
+  .c0 {
+    -webkit-mask-repeat: November;
+    mask-repeat: November;
+  }
+}
+
+<div
+    className="c0"
+  />,
+  @media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:August) {
+
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    -webkit-mask-repeat: May;
+    mask-repeat: May;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    -webkit-mask-repeat: June;
+    mask-repeat: June;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    -webkit-mask-repeat: April;
+    mask-repeat: April;
+  }
+}
+
+@media screen and (min-width:August) {
+  .c0 {
+    -webkit-mask-repeat: November;
+    mask-repeat: November;
+  }
+}
+
+<div
+    className="c0"
+  />,
+]
+`;
+
+exports[`maskRepeat renders object [breakpoints] 2`] = `
+Array [
+  @media May {
+  .c0 {
+    -webkit-mask-repeat: July;
+    mask-repeat: July;
+  }
+}
+
+@media April {
+  .c0 {
+    -webkit-mask-repeat: August;
+    mask-repeat: August;
+  }
+}
+
+@media January {
+  .c0 {
+    -webkit-mask-repeat: September;
+    mask-repeat: September;
+  }
+}
+
+@media April {
+  .c0 {
+    -webkit-mask-repeat: November;
+    mask-repeat: November;
+  }
+}
+
+@media June {
+  .c0 {
+    -webkit-mask-repeat: August;
+    mask-repeat: August;
+  }
+}
+
+@media May {
+
+}
+
+@media April {
+
+}
+
+@media January {
+
+}
+
+@media April {
+
+}
+
+@media June {
+
+}
+
+<div
+    className="c0"
+  />,
+  @media May {
+  .c0 {
+    -webkit-mask-repeat: July;
+    mask-repeat: July;
+  }
+}
+
+@media April {
+  .c0 {
+    -webkit-mask-repeat: August;
+    mask-repeat: August;
+  }
+}
+
+@media January {
+  .c0 {
+    -webkit-mask-repeat: September;
+    mask-repeat: September;
+  }
+}
+
+@media April {
+  .c0 {
+    -webkit-mask-repeat: November;
+    mask-repeat: November;
+  }
+}
+
+@media June {
+  .c0 {
+    -webkit-mask-repeat: August;
+    mask-repeat: August;
+  }
+}
+
+@media May {
+
+}
+
+@media April {
+
+}
+
+@media January {
+
+}
+
+@media April {
+
+}
+
+@media June {
+
+}
+
+<div
+    className="c0"
+  />,
+  @media May {
+
+}
+
+@media April {
+
+}
+
+@media January {
+
+}
+
+@media April {
+
+}
+
+@media June {
+
+}
+
+@media May {
+  .c0 {
+    -webkit-mask-repeat: January;
+    mask-repeat: January;
+  }
+}
+
+@media April {
+  .c0 {
+    -webkit-mask-repeat: December;
+    mask-repeat: December;
+  }
+}
+
+@media January {
+  .c0 {
+    -webkit-mask-repeat: April;
+    mask-repeat: April;
+  }
+}
+
+@media April {
+  .c0 {
+    -webkit-mask-repeat: May;
+    mask-repeat: May;
+  }
+}
+
+@media June {
+  .c0 {
+    -webkit-mask-repeat: June;
+    mask-repeat: June;
+  }
+}
+
+<div
+    className="c0"
+  />,
+  @media May {
+
+}
+
+@media April {
+
+}
+
+@media January {
+
+}
+
+@media April {
+
+}
+
+@media June {
+
+}
+
+@media May {
+  .c0 {
+    -webkit-mask-repeat: January;
+    mask-repeat: January;
+  }
+}
+
+@media April {
+  .c0 {
+    -webkit-mask-repeat: December;
+    mask-repeat: December;
+  }
+}
+
+@media January {
+  .c0 {
+    -webkit-mask-repeat: April;
+    mask-repeat: April;
+  }
+}
+
+@media April {
+  .c0 {
+    -webkit-mask-repeat: May;
+    mask-repeat: May;
+  }
+}
+
+@media June {
+  .c0 {
+    -webkit-mask-repeat: June;
+    mask-repeat: June;
+  }
+}
+
+<div
+    className="c0"
+  />,
+]
+`;
+
+exports[`maskRepeat renders postitive number 1`] = `
+Array [
+  .c0 {
+  -webkit-mask-repeat: 54881;
+  mask-repeat: 54881;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-mask-repeat: 54881;
+  mask-repeat: 54881;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-mask-repeat: 42365;
+  mask-repeat: 42365;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-mask-repeat: 42365;
+  mask-repeat: 42365;
+}
+
+<div
+    className="c0"
+  />,
+]
+`;
+
+exports[`maskRepeat renders string 1`] = `
+Array [
+  .c0 {
+  -webkit-mask-repeat: July;
+  mask-repeat: July;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-mask-repeat: July;
+  mask-repeat: July;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-mask-repeat: June;
+  mask-repeat: June;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-mask-repeat: June;
+  mask-repeat: June;
+}
+
+<div
+    className="c0"
+  />,
+]
+`;
+
+exports[`maskRepeat renders valid theme path 1`] = `
+Array [
+  .c0 {
+  -webkit-mask-repeat: DarkSlateBlue;
+  mask-repeat: DarkSlateBlue;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-mask-repeat: DarkSlateBlue;
+  mask-repeat: DarkSlateBlue;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-mask-repeat: DarkSlateBlue;
+  mask-repeat: DarkSlateBlue;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-mask-repeat: DarkSlateBlue;
+  mask-repeat: DarkSlateBlue;
+}
+
+<div
+    className="c0"
+  />,
+]
+`;

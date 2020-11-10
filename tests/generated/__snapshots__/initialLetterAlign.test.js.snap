@@ -1,0 +1,626 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`initialLetterAlign renders 0 1`] = `
+Array [
+  .c0 {
+  initial-letter-align: 0;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  initial-letter-align: 0;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  initial-letter-align: 0;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  initial-letter-align: 0;
+}
+
+<div
+    className="c0"
+  />,
+]
+`;
+
+exports[`initialLetterAlign renders function 1`] = `
+Array [
+  .c0 {
+  initial-letter-align: hasnot;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  initial-letter-align: has;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  initial-letter-align: hasnot;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  initial-letter-align: has;
+}
+
+<div
+    className="c0"
+  />,
+]
+`;
+
+exports[`initialLetterAlign renders invalid theme path 1`] = `
+Array [
+  .c0 {
+  initial-letter-align: invalid.path.1;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  initial-letter-align: invalid.path.1;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  initial-letter-align: invalid.path.1;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  initial-letter-align: invalid.path.1;
+}
+
+<div
+    className="c0"
+  />,
+]
+`;
+
+exports[`initialLetterAlign renders negative number 1`] = `
+Array [
+  .c0 {
+  initial-letter-align: -54881;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  initial-letter-align: -54881;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  initial-letter-align: -42365;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  initial-letter-align: -42365;
+}
+
+<div
+    className="c0"
+  />,
+]
+`;
+
+exports[`initialLetterAlign renders object [breakpoints] 1`] = `
+Array [
+  @media screen and (min-width:November) {
+  .c0 {
+    initial-letter-align: July;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    initial-letter-align: August;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    initial-letter-align: September;
+  }
+}
+
+@media screen and (min-width:August) {
+  .c0 {
+    initial-letter-align: November;
+  }
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:August) {
+
+}
+
+<div
+    className="c0"
+  />,
+  @media screen and (min-width:November) {
+  .c0 {
+    initial-letter-align: July;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    initial-letter-align: August;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    initial-letter-align: September;
+  }
+}
+
+@media screen and (min-width:August) {
+  .c0 {
+    initial-letter-align: November;
+  }
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:August) {
+
+}
+
+<div
+    className="c0"
+  />,
+  @media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:August) {
+
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    initial-letter-align: May;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    initial-letter-align: June;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    initial-letter-align: April;
+  }
+}
+
+@media screen and (min-width:August) {
+  .c0 {
+    initial-letter-align: November;
+  }
+}
+
+<div
+    className="c0"
+  />,
+  @media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:August) {
+
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    initial-letter-align: May;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    initial-letter-align: June;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    initial-letter-align: April;
+  }
+}
+
+@media screen and (min-width:August) {
+  .c0 {
+    initial-letter-align: November;
+  }
+}
+
+<div
+    className="c0"
+  />,
+]
+`;
+
+exports[`initialLetterAlign renders object [breakpoints] 2`] = `
+Array [
+  @media May {
+  .c0 {
+    initial-letter-align: July;
+  }
+}
+
+@media April {
+  .c0 {
+    initial-letter-align: August;
+  }
+}
+
+@media January {
+  .c0 {
+    initial-letter-align: September;
+  }
+}
+
+@media April {
+  .c0 {
+    initial-letter-align: November;
+  }
+}
+
+@media June {
+  .c0 {
+    initial-letter-align: August;
+  }
+}
+
+@media May {
+
+}
+
+@media April {
+
+}
+
+@media January {
+
+}
+
+@media April {
+
+}
+
+@media June {
+
+}
+
+<div
+    className="c0"
+  />,
+  @media May {
+  .c0 {
+    initial-letter-align: July;
+  }
+}
+
+@media April {
+  .c0 {
+    initial-letter-align: August;
+  }
+}
+
+@media January {
+  .c0 {
+    initial-letter-align: September;
+  }
+}
+
+@media April {
+  .c0 {
+    initial-letter-align: November;
+  }
+}
+
+@media June {
+  .c0 {
+    initial-letter-align: August;
+  }
+}
+
+@media May {
+
+}
+
+@media April {
+
+}
+
+@media January {
+
+}
+
+@media April {
+
+}
+
+@media June {
+
+}
+
+<div
+    className="c0"
+  />,
+  @media May {
+
+}
+
+@media April {
+
+}
+
+@media January {
+
+}
+
+@media April {
+
+}
+
+@media June {
+
+}
+
+@media May {
+  .c0 {
+    initial-letter-align: January;
+  }
+}
+
+@media April {
+  .c0 {
+    initial-letter-align: December;
+  }
+}
+
+@media January {
+  .c0 {
+    initial-letter-align: April;
+  }
+}
+
+@media April {
+  .c0 {
+    initial-letter-align: May;
+  }
+}
+
+@media June {
+  .c0 {
+    initial-letter-align: June;
+  }
+}
+
+<div
+    className="c0"
+  />,
+  @media May {
+
+}
+
+@media April {
+
+}
+
+@media January {
+
+}
+
+@media April {
+
+}
+
+@media June {
+
+}
+
+@media May {
+  .c0 {
+    initial-letter-align: January;
+  }
+}
+
+@media April {
+  .c0 {
+    initial-letter-align: December;
+  }
+}
+
+@media January {
+  .c0 {
+    initial-letter-align: April;
+  }
+}
+
+@media April {
+  .c0 {
+    initial-letter-align: May;
+  }
+}
+
+@media June {
+  .c0 {
+    initial-letter-align: June;
+  }
+}
+
+<div
+    className="c0"
+  />,
+]
+`;
+
+exports[`initialLetterAlign renders postitive number 1`] = `
+Array [
+  .c0 {
+  initial-letter-align: 54881;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  initial-letter-align: 54881;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  initial-letter-align: 42365;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  initial-letter-align: 42365;
+}
+
+<div
+    className="c0"
+  />,
+]
+`;
+
+exports[`initialLetterAlign renders string 1`] = `
+Array [
+  .c0 {
+  initial-letter-align: July;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  initial-letter-align: July;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  initial-letter-align: June;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  initial-letter-align: June;
+}
+
+<div
+    className="c0"
+  />,
+]
+`;
+
+exports[`initialLetterAlign renders valid theme path 1`] = `
+Array [
+  .c0 {
+  initial-letter-align: DarkSlateBlue;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  initial-letter-align: DarkSlateBlue;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  initial-letter-align: DarkSlateBlue;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  initial-letter-align: DarkSlateBlue;
+}
+
+<div
+    className="c0"
+  />,
+]
+`;

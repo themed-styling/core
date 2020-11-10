@@ -1,0 +1,818 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`pause renders 0 1`] = `
+Array [
+  .c0 {
+  -webkit-pause: 0;
+  -moz-pause: 0;
+  -ms-pause: 0;
+  pause: 0;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-pause: 0;
+  -moz-pause: 0;
+  -ms-pause: 0;
+  pause: 0;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-pause: 0;
+  -moz-pause: 0;
+  -ms-pause: 0;
+  pause: 0;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-pause: 0;
+  -moz-pause: 0;
+  -ms-pause: 0;
+  pause: 0;
+}
+
+<div
+    className="c0"
+  />,
+]
+`;
+
+exports[`pause renders function 1`] = `
+Array [
+  .c0 {
+  -webkit-pause: hasnot;
+  -moz-pause: hasnot;
+  -ms-pause: hasnot;
+  pause: hasnot;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-pause: has;
+  -moz-pause: has;
+  -ms-pause: has;
+  pause: has;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-pause: hasnot;
+  -moz-pause: hasnot;
+  -ms-pause: hasnot;
+  pause: hasnot;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-pause: has;
+  -moz-pause: has;
+  -ms-pause: has;
+  pause: has;
+}
+
+<div
+    className="c0"
+  />,
+]
+`;
+
+exports[`pause renders invalid theme path 1`] = `
+Array [
+  .c0 {
+  -webkit-pause: invalid.path.1;
+  -moz-pause: invalid.path.1;
+  -ms-pause: invalid.path.1;
+  pause: invalid.path.1;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-pause: invalid.path.1;
+  -moz-pause: invalid.path.1;
+  -ms-pause: invalid.path.1;
+  pause: invalid.path.1;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-pause: invalid.path.1;
+  -moz-pause: invalid.path.1;
+  -ms-pause: invalid.path.1;
+  pause: invalid.path.1;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-pause: invalid.path.1;
+  -moz-pause: invalid.path.1;
+  -ms-pause: invalid.path.1;
+  pause: invalid.path.1;
+}
+
+<div
+    className="c0"
+  />,
+]
+`;
+
+exports[`pause renders negative number 1`] = `
+Array [
+  .c0 {
+  -webkit-pause: -54881;
+  -moz-pause: -54881;
+  -ms-pause: -54881;
+  pause: -54881;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-pause: -54881;
+  -moz-pause: -54881;
+  -ms-pause: -54881;
+  pause: -54881;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-pause: -42365;
+  -moz-pause: -42365;
+  -ms-pause: -42365;
+  pause: -42365;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-pause: -42365;
+  -moz-pause: -42365;
+  -ms-pause: -42365;
+  pause: -42365;
+}
+
+<div
+    className="c0"
+  />,
+]
+`;
+
+exports[`pause renders object [breakpoints] 1`] = `
+Array [
+  @media screen and (min-width:November) {
+  .c0 {
+    -webkit-pause: July;
+    -moz-pause: July;
+    -ms-pause: July;
+    pause: July;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    -webkit-pause: August;
+    -moz-pause: August;
+    -ms-pause: August;
+    pause: August;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    -webkit-pause: September;
+    -moz-pause: September;
+    -ms-pause: September;
+    pause: September;
+  }
+}
+
+@media screen and (min-width:August) {
+  .c0 {
+    -webkit-pause: November;
+    -moz-pause: November;
+    -ms-pause: November;
+    pause: November;
+  }
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:August) {
+
+}
+
+<div
+    className="c0"
+  />,
+  @media screen and (min-width:November) {
+  .c0 {
+    -webkit-pause: July;
+    -moz-pause: July;
+    -ms-pause: July;
+    pause: July;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    -webkit-pause: August;
+    -moz-pause: August;
+    -ms-pause: August;
+    pause: August;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    -webkit-pause: September;
+    -moz-pause: September;
+    -ms-pause: September;
+    pause: September;
+  }
+}
+
+@media screen and (min-width:August) {
+  .c0 {
+    -webkit-pause: November;
+    -moz-pause: November;
+    -ms-pause: November;
+    pause: November;
+  }
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:August) {
+
+}
+
+<div
+    className="c0"
+  />,
+  @media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:August) {
+
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    -webkit-pause: May;
+    -moz-pause: May;
+    -ms-pause: May;
+    pause: May;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    -webkit-pause: June;
+    -moz-pause: June;
+    -ms-pause: June;
+    pause: June;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    -webkit-pause: April;
+    -moz-pause: April;
+    -ms-pause: April;
+    pause: April;
+  }
+}
+
+@media screen and (min-width:August) {
+  .c0 {
+    -webkit-pause: November;
+    -moz-pause: November;
+    -ms-pause: November;
+    pause: November;
+  }
+}
+
+<div
+    className="c0"
+  />,
+  @media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:August) {
+
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    -webkit-pause: May;
+    -moz-pause: May;
+    -ms-pause: May;
+    pause: May;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    -webkit-pause: June;
+    -moz-pause: June;
+    -ms-pause: June;
+    pause: June;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    -webkit-pause: April;
+    -moz-pause: April;
+    -ms-pause: April;
+    pause: April;
+  }
+}
+
+@media screen and (min-width:August) {
+  .c0 {
+    -webkit-pause: November;
+    -moz-pause: November;
+    -ms-pause: November;
+    pause: November;
+  }
+}
+
+<div
+    className="c0"
+  />,
+]
+`;
+
+exports[`pause renders object [breakpoints] 2`] = `
+Array [
+  @media May {
+  .c0 {
+    -webkit-pause: July;
+    -moz-pause: July;
+    -ms-pause: July;
+    pause: July;
+  }
+}
+
+@media April {
+  .c0 {
+    -webkit-pause: August;
+    -moz-pause: August;
+    -ms-pause: August;
+    pause: August;
+  }
+}
+
+@media January {
+  .c0 {
+    -webkit-pause: September;
+    -moz-pause: September;
+    -ms-pause: September;
+    pause: September;
+  }
+}
+
+@media April {
+  .c0 {
+    -webkit-pause: November;
+    -moz-pause: November;
+    -ms-pause: November;
+    pause: November;
+  }
+}
+
+@media June {
+  .c0 {
+    -webkit-pause: August;
+    -moz-pause: August;
+    -ms-pause: August;
+    pause: August;
+  }
+}
+
+@media May {
+
+}
+
+@media April {
+
+}
+
+@media January {
+
+}
+
+@media April {
+
+}
+
+@media June {
+
+}
+
+<div
+    className="c0"
+  />,
+  @media May {
+  .c0 {
+    -webkit-pause: July;
+    -moz-pause: July;
+    -ms-pause: July;
+    pause: July;
+  }
+}
+
+@media April {
+  .c0 {
+    -webkit-pause: August;
+    -moz-pause: August;
+    -ms-pause: August;
+    pause: August;
+  }
+}
+
+@media January {
+  .c0 {
+    -webkit-pause: September;
+    -moz-pause: September;
+    -ms-pause: September;
+    pause: September;
+  }
+}
+
+@media April {
+  .c0 {
+    -webkit-pause: November;
+    -moz-pause: November;
+    -ms-pause: November;
+    pause: November;
+  }
+}
+
+@media June {
+  .c0 {
+    -webkit-pause: August;
+    -moz-pause: August;
+    -ms-pause: August;
+    pause: August;
+  }
+}
+
+@media May {
+
+}
+
+@media April {
+
+}
+
+@media January {
+
+}
+
+@media April {
+
+}
+
+@media June {
+
+}
+
+<div
+    className="c0"
+  />,
+  @media May {
+
+}
+
+@media April {
+
+}
+
+@media January {
+
+}
+
+@media April {
+
+}
+
+@media June {
+
+}
+
+@media May {
+  .c0 {
+    -webkit-pause: January;
+    -moz-pause: January;
+    -ms-pause: January;
+    pause: January;
+  }
+}
+
+@media April {
+  .c0 {
+    -webkit-pause: December;
+    -moz-pause: December;
+    -ms-pause: December;
+    pause: December;
+  }
+}
+
+@media January {
+  .c0 {
+    -webkit-pause: April;
+    -moz-pause: April;
+    -ms-pause: April;
+    pause: April;
+  }
+}
+
+@media April {
+  .c0 {
+    -webkit-pause: May;
+    -moz-pause: May;
+    -ms-pause: May;
+    pause: May;
+  }
+}
+
+@media June {
+  .c0 {
+    -webkit-pause: June;
+    -moz-pause: June;
+    -ms-pause: June;
+    pause: June;
+  }
+}
+
+<div
+    className="c0"
+  />,
+  @media May {
+
+}
+
+@media April {
+
+}
+
+@media January {
+
+}
+
+@media April {
+
+}
+
+@media June {
+
+}
+
+@media May {
+  .c0 {
+    -webkit-pause: January;
+    -moz-pause: January;
+    -ms-pause: January;
+    pause: January;
+  }
+}
+
+@media April {
+  .c0 {
+    -webkit-pause: December;
+    -moz-pause: December;
+    -ms-pause: December;
+    pause: December;
+  }
+}
+
+@media January {
+  .c0 {
+    -webkit-pause: April;
+    -moz-pause: April;
+    -ms-pause: April;
+    pause: April;
+  }
+}
+
+@media April {
+  .c0 {
+    -webkit-pause: May;
+    -moz-pause: May;
+    -ms-pause: May;
+    pause: May;
+  }
+}
+
+@media June {
+  .c0 {
+    -webkit-pause: June;
+    -moz-pause: June;
+    -ms-pause: June;
+    pause: June;
+  }
+}
+
+<div
+    className="c0"
+  />,
+]
+`;
+
+exports[`pause renders postitive number 1`] = `
+Array [
+  .c0 {
+  -webkit-pause: 54881;
+  -moz-pause: 54881;
+  -ms-pause: 54881;
+  pause: 54881;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-pause: 54881;
+  -moz-pause: 54881;
+  -ms-pause: 54881;
+  pause: 54881;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-pause: 42365;
+  -moz-pause: 42365;
+  -ms-pause: 42365;
+  pause: 42365;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-pause: 42365;
+  -moz-pause: 42365;
+  -ms-pause: 42365;
+  pause: 42365;
+}
+
+<div
+    className="c0"
+  />,
+]
+`;
+
+exports[`pause renders string 1`] = `
+Array [
+  .c0 {
+  -webkit-pause: July;
+  -moz-pause: July;
+  -ms-pause: July;
+  pause: July;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-pause: July;
+  -moz-pause: July;
+  -ms-pause: July;
+  pause: July;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-pause: June;
+  -moz-pause: June;
+  -ms-pause: June;
+  pause: June;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-pause: June;
+  -moz-pause: June;
+  -ms-pause: June;
+  pause: June;
+}
+
+<div
+    className="c0"
+  />,
+]
+`;
+
+exports[`pause renders valid theme path 1`] = `
+Array [
+  .c0 {
+  -webkit-pause: DarkSlateBlue;
+  -moz-pause: DarkSlateBlue;
+  -ms-pause: DarkSlateBlue;
+  pause: DarkSlateBlue;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-pause: DarkSlateBlue;
+  -moz-pause: DarkSlateBlue;
+  -ms-pause: DarkSlateBlue;
+  pause: DarkSlateBlue;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-pause: DarkSlateBlue;
+  -moz-pause: DarkSlateBlue;
+  -ms-pause: DarkSlateBlue;
+  pause: DarkSlateBlue;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-pause: DarkSlateBlue;
+  -moz-pause: DarkSlateBlue;
+  -ms-pause: DarkSlateBlue;
+  pause: DarkSlateBlue;
+}
+
+<div
+    className="c0"
+  />,
+]
+`;

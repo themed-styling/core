@@ -1,0 +1,626 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`textWrap renders 0 1`] = `
+Array [
+  .c0 {
+  text-wrap: 0;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  text-wrap: 0;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  text-wrap: 0;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  text-wrap: 0;
+}
+
+<div
+    className="c0"
+  />,
+]
+`;
+
+exports[`textWrap renders function 1`] = `
+Array [
+  .c0 {
+  text-wrap: hasnot;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  text-wrap: has;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  text-wrap: hasnot;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  text-wrap: has;
+}
+
+<div
+    className="c0"
+  />,
+]
+`;
+
+exports[`textWrap renders invalid theme path 1`] = `
+Array [
+  .c0 {
+  text-wrap: invalid.path.1;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  text-wrap: invalid.path.1;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  text-wrap: invalid.path.1;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  text-wrap: invalid.path.1;
+}
+
+<div
+    className="c0"
+  />,
+]
+`;
+
+exports[`textWrap renders negative number 1`] = `
+Array [
+  .c0 {
+  text-wrap: -54881;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  text-wrap: -54881;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  text-wrap: -42365;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  text-wrap: -42365;
+}
+
+<div
+    className="c0"
+  />,
+]
+`;
+
+exports[`textWrap renders object [breakpoints] 1`] = `
+Array [
+  @media screen and (min-width:November) {
+  .c0 {
+    text-wrap: July;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    text-wrap: August;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    text-wrap: September;
+  }
+}
+
+@media screen and (min-width:August) {
+  .c0 {
+    text-wrap: November;
+  }
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:August) {
+
+}
+
+<div
+    className="c0"
+  />,
+  @media screen and (min-width:November) {
+  .c0 {
+    text-wrap: July;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    text-wrap: August;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    text-wrap: September;
+  }
+}
+
+@media screen and (min-width:August) {
+  .c0 {
+    text-wrap: November;
+  }
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:August) {
+
+}
+
+<div
+    className="c0"
+  />,
+  @media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:August) {
+
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    text-wrap: May;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    text-wrap: June;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    text-wrap: April;
+  }
+}
+
+@media screen and (min-width:August) {
+  .c0 {
+    text-wrap: November;
+  }
+}
+
+<div
+    className="c0"
+  />,
+  @media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:August) {
+
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    text-wrap: May;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    text-wrap: June;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    text-wrap: April;
+  }
+}
+
+@media screen and (min-width:August) {
+  .c0 {
+    text-wrap: November;
+  }
+}
+
+<div
+    className="c0"
+  />,
+]
+`;
+
+exports[`textWrap renders object [breakpoints] 2`] = `
+Array [
+  @media May {
+  .c0 {
+    text-wrap: July;
+  }
+}
+
+@media April {
+  .c0 {
+    text-wrap: August;
+  }
+}
+
+@media January {
+  .c0 {
+    text-wrap: September;
+  }
+}
+
+@media April {
+  .c0 {
+    text-wrap: November;
+  }
+}
+
+@media June {
+  .c0 {
+    text-wrap: August;
+  }
+}
+
+@media May {
+
+}
+
+@media April {
+
+}
+
+@media January {
+
+}
+
+@media April {
+
+}
+
+@media June {
+
+}
+
+<div
+    className="c0"
+  />,
+  @media May {
+  .c0 {
+    text-wrap: July;
+  }
+}
+
+@media April {
+  .c0 {
+    text-wrap: August;
+  }
+}
+
+@media January {
+  .c0 {
+    text-wrap: September;
+  }
+}
+
+@media April {
+  .c0 {
+    text-wrap: November;
+  }
+}
+
+@media June {
+  .c0 {
+    text-wrap: August;
+  }
+}
+
+@media May {
+
+}
+
+@media April {
+
+}
+
+@media January {
+
+}
+
+@media April {
+
+}
+
+@media June {
+
+}
+
+<div
+    className="c0"
+  />,
+  @media May {
+
+}
+
+@media April {
+
+}
+
+@media January {
+
+}
+
+@media April {
+
+}
+
+@media June {
+
+}
+
+@media May {
+  .c0 {
+    text-wrap: January;
+  }
+}
+
+@media April {
+  .c0 {
+    text-wrap: December;
+  }
+}
+
+@media January {
+  .c0 {
+    text-wrap: April;
+  }
+}
+
+@media April {
+  .c0 {
+    text-wrap: May;
+  }
+}
+
+@media June {
+  .c0 {
+    text-wrap: June;
+  }
+}
+
+<div
+    className="c0"
+  />,
+  @media May {
+
+}
+
+@media April {
+
+}
+
+@media January {
+
+}
+
+@media April {
+
+}
+
+@media June {
+
+}
+
+@media May {
+  .c0 {
+    text-wrap: January;
+  }
+}
+
+@media April {
+  .c0 {
+    text-wrap: December;
+  }
+}
+
+@media January {
+  .c0 {
+    text-wrap: April;
+  }
+}
+
+@media April {
+  .c0 {
+    text-wrap: May;
+  }
+}
+
+@media June {
+  .c0 {
+    text-wrap: June;
+  }
+}
+
+<div
+    className="c0"
+  />,
+]
+`;
+
+exports[`textWrap renders postitive number 1`] = `
+Array [
+  .c0 {
+  text-wrap: 54881;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  text-wrap: 54881;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  text-wrap: 42365;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  text-wrap: 42365;
+}
+
+<div
+    className="c0"
+  />,
+]
+`;
+
+exports[`textWrap renders string 1`] = `
+Array [
+  .c0 {
+  text-wrap: July;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  text-wrap: July;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  text-wrap: June;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  text-wrap: June;
+}
+
+<div
+    className="c0"
+  />,
+]
+`;
+
+exports[`textWrap renders valid theme path 1`] = `
+Array [
+  .c0 {
+  text-wrap: DarkSlateBlue;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  text-wrap: DarkSlateBlue;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  text-wrap: DarkSlateBlue;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  text-wrap: DarkSlateBlue;
+}
+
+<div
+    className="c0"
+  />,
+]
+`;

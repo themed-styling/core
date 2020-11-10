@@ -1,0 +1,626 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`fontSize renders 0 1`] = `
+Array [
+  .c0 {
+  font-size: 0;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  font-size: 0;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  font-size: 0;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  font-size: 0;
+}
+
+<div
+    className="c0"
+  />,
+]
+`;
+
+exports[`fontSize renders function 1`] = `
+Array [
+  .c0 {
+  font-size: hasnot;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  font-size: has;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  font-size: hasnot;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  font-size: has;
+}
+
+<div
+    className="c0"
+  />,
+]
+`;
+
+exports[`fontSize renders invalid theme path 1`] = `
+Array [
+  .c0 {
+  font-size: invalid.path.1;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  font-size: invalid.path.1;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  font-size: invalid.path.1;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  font-size: invalid.path.1;
+}
+
+<div
+    className="c0"
+  />,
+]
+`;
+
+exports[`fontSize renders negative number 1`] = `
+Array [
+  .c0 {
+  font-size: -54881px;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  font-size: -54881px;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  font-size: -42365px;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  font-size: -42365px;
+}
+
+<div
+    className="c0"
+  />,
+]
+`;
+
+exports[`fontSize renders object [breakpoints] 1`] = `
+Array [
+  @media screen and (min-width:November) {
+  .c0 {
+    font-size: July;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    font-size: August;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    font-size: September;
+  }
+}
+
+@media screen and (min-width:August) {
+  .c0 {
+    font-size: November;
+  }
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:August) {
+
+}
+
+<div
+    className="c0"
+  />,
+  @media screen and (min-width:November) {
+  .c0 {
+    font-size: July;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    font-size: August;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    font-size: September;
+  }
+}
+
+@media screen and (min-width:August) {
+  .c0 {
+    font-size: November;
+  }
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:August) {
+
+}
+
+<div
+    className="c0"
+  />,
+  @media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:August) {
+
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    font-size: May;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    font-size: June;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    font-size: April;
+  }
+}
+
+@media screen and (min-width:August) {
+  .c0 {
+    font-size: November;
+  }
+}
+
+<div
+    className="c0"
+  />,
+  @media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:August) {
+
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    font-size: May;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    font-size: June;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    font-size: April;
+  }
+}
+
+@media screen and (min-width:August) {
+  .c0 {
+    font-size: November;
+  }
+}
+
+<div
+    className="c0"
+  />,
+]
+`;
+
+exports[`fontSize renders object [breakpoints] 2`] = `
+Array [
+  @media May {
+  .c0 {
+    font-size: July;
+  }
+}
+
+@media April {
+  .c0 {
+    font-size: August;
+  }
+}
+
+@media January {
+  .c0 {
+    font-size: September;
+  }
+}
+
+@media April {
+  .c0 {
+    font-size: November;
+  }
+}
+
+@media June {
+  .c0 {
+    font-size: August;
+  }
+}
+
+@media May {
+
+}
+
+@media April {
+
+}
+
+@media January {
+
+}
+
+@media April {
+
+}
+
+@media June {
+
+}
+
+<div
+    className="c0"
+  />,
+  @media May {
+  .c0 {
+    font-size: July;
+  }
+}
+
+@media April {
+  .c0 {
+    font-size: August;
+  }
+}
+
+@media January {
+  .c0 {
+    font-size: September;
+  }
+}
+
+@media April {
+  .c0 {
+    font-size: November;
+  }
+}
+
+@media June {
+  .c0 {
+    font-size: August;
+  }
+}
+
+@media May {
+
+}
+
+@media April {
+
+}
+
+@media January {
+
+}
+
+@media April {
+
+}
+
+@media June {
+
+}
+
+<div
+    className="c0"
+  />,
+  @media May {
+
+}
+
+@media April {
+
+}
+
+@media January {
+
+}
+
+@media April {
+
+}
+
+@media June {
+
+}
+
+@media May {
+  .c0 {
+    font-size: January;
+  }
+}
+
+@media April {
+  .c0 {
+    font-size: December;
+  }
+}
+
+@media January {
+  .c0 {
+    font-size: April;
+  }
+}
+
+@media April {
+  .c0 {
+    font-size: May;
+  }
+}
+
+@media June {
+  .c0 {
+    font-size: June;
+  }
+}
+
+<div
+    className="c0"
+  />,
+  @media May {
+
+}
+
+@media April {
+
+}
+
+@media January {
+
+}
+
+@media April {
+
+}
+
+@media June {
+
+}
+
+@media May {
+  .c0 {
+    font-size: January;
+  }
+}
+
+@media April {
+  .c0 {
+    font-size: December;
+  }
+}
+
+@media January {
+  .c0 {
+    font-size: April;
+  }
+}
+
+@media April {
+  .c0 {
+    font-size: May;
+  }
+}
+
+@media June {
+  .c0 {
+    font-size: June;
+  }
+}
+
+<div
+    className="c0"
+  />,
+]
+`;
+
+exports[`fontSize renders postitive number 1`] = `
+Array [
+  .c0 {
+  font-size: 54881px;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  font-size: 54881px;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  font-size: 42365px;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  font-size: 42365px;
+}
+
+<div
+    className="c0"
+  />,
+]
+`;
+
+exports[`fontSize renders string 1`] = `
+Array [
+  .c0 {
+  font-size: July;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  font-size: July;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  font-size: June;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  font-size: June;
+}
+
+<div
+    className="c0"
+  />,
+]
+`;
+
+exports[`fontSize renders valid theme path 1`] = `
+Array [
+  .c0 {
+  font-size: DarkSlateBlue;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  font-size: DarkSlateBlue;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  font-size: DarkSlateBlue;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  font-size: DarkSlateBlue;
+}
+
+<div
+    className="c0"
+  />,
+]
+`;

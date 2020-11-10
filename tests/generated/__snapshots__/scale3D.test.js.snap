@@ -1,0 +1,754 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`scale3D renders 0 1`] = `
+Array [
+  .c0 {
+  -webkit-transform: scale3d(0);
+  -ms-transform: scale3d(0);
+  transform: scale3d(0);
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-transform: scale3d(0);
+  -ms-transform: scale3d(0);
+  transform: scale3d(0);
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-transform: scale3d(0);
+  -ms-transform: scale3d(0);
+  transform: scale3d(0);
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-transform: scale3d(0);
+  -ms-transform: scale3d(0);
+  transform: scale3d(0);
+}
+
+<div
+    className="c0"
+  />,
+]
+`;
+
+exports[`scale3D renders function 1`] = `
+Array [
+  .c0 {
+  -webkit-transform: scale3d(hasnot);
+  -ms-transform: scale3d(hasnot);
+  transform: scale3d(hasnot);
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-transform: scale3d(has);
+  -ms-transform: scale3d(has);
+  transform: scale3d(has);
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-transform: scale3d(hasnot);
+  -ms-transform: scale3d(hasnot);
+  transform: scale3d(hasnot);
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-transform: scale3d(has);
+  -ms-transform: scale3d(has);
+  transform: scale3d(has);
+}
+
+<div
+    className="c0"
+  />,
+]
+`;
+
+exports[`scale3D renders invalid theme path 1`] = `
+Array [
+  .c0 {
+  -webkit-transform: scale3d(invalid.path.1);
+  -ms-transform: scale3d(invalid.path.1);
+  transform: scale3d(invalid.path.1);
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-transform: scale3d(invalid.path.1);
+  -ms-transform: scale3d(invalid.path.1);
+  transform: scale3d(invalid.path.1);
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-transform: scale3d(invalid.path.1);
+  -ms-transform: scale3d(invalid.path.1);
+  transform: scale3d(invalid.path.1);
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-transform: scale3d(invalid.path.1);
+  -ms-transform: scale3d(invalid.path.1);
+  transform: scale3d(invalid.path.1);
+}
+
+<div
+    className="c0"
+  />,
+]
+`;
+
+exports[`scale3D renders negative number 1`] = `
+Array [
+  .c0 {
+  -webkit-transform: scale3d(-54881);
+  -ms-transform: scale3d(-54881);
+  transform: scale3d(-54881);
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-transform: scale3d(-54881);
+  -ms-transform: scale3d(-54881);
+  transform: scale3d(-54881);
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-transform: scale3d(-42365);
+  -ms-transform: scale3d(-42365);
+  transform: scale3d(-42365);
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-transform: scale3d(-42365);
+  -ms-transform: scale3d(-42365);
+  transform: scale3d(-42365);
+}
+
+<div
+    className="c0"
+  />,
+]
+`;
+
+exports[`scale3D renders object [breakpoints] 1`] = `
+Array [
+  @media screen and (min-width:November) {
+  .c0 {
+    -webkit-transform: scale3d(July);
+    -ms-transform: scale3d(July);
+    transform: scale3d(July);
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    -webkit-transform: scale3d(August);
+    -ms-transform: scale3d(August);
+    transform: scale3d(August);
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    -webkit-transform: scale3d(September);
+    -ms-transform: scale3d(September);
+    transform: scale3d(September);
+  }
+}
+
+@media screen and (min-width:August) {
+  .c0 {
+    -webkit-transform: scale3d(November);
+    -ms-transform: scale3d(November);
+    transform: scale3d(November);
+  }
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:August) {
+
+}
+
+<div
+    className="c0"
+  />,
+  @media screen and (min-width:November) {
+  .c0 {
+    -webkit-transform: scale3d(July);
+    -ms-transform: scale3d(July);
+    transform: scale3d(July);
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    -webkit-transform: scale3d(August);
+    -ms-transform: scale3d(August);
+    transform: scale3d(August);
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    -webkit-transform: scale3d(September);
+    -ms-transform: scale3d(September);
+    transform: scale3d(September);
+  }
+}
+
+@media screen and (min-width:August) {
+  .c0 {
+    -webkit-transform: scale3d(November);
+    -ms-transform: scale3d(November);
+    transform: scale3d(November);
+  }
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:August) {
+
+}
+
+<div
+    className="c0"
+  />,
+  @media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:August) {
+
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    -webkit-transform: scale3d(May);
+    -ms-transform: scale3d(May);
+    transform: scale3d(May);
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    -webkit-transform: scale3d(June);
+    -ms-transform: scale3d(June);
+    transform: scale3d(June);
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    -webkit-transform: scale3d(April);
+    -ms-transform: scale3d(April);
+    transform: scale3d(April);
+  }
+}
+
+@media screen and (min-width:August) {
+  .c0 {
+    -webkit-transform: scale3d(November);
+    -ms-transform: scale3d(November);
+    transform: scale3d(November);
+  }
+}
+
+<div
+    className="c0"
+  />,
+  @media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:August) {
+
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    -webkit-transform: scale3d(May);
+    -ms-transform: scale3d(May);
+    transform: scale3d(May);
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    -webkit-transform: scale3d(June);
+    -ms-transform: scale3d(June);
+    transform: scale3d(June);
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    -webkit-transform: scale3d(April);
+    -ms-transform: scale3d(April);
+    transform: scale3d(April);
+  }
+}
+
+@media screen and (min-width:August) {
+  .c0 {
+    -webkit-transform: scale3d(November);
+    -ms-transform: scale3d(November);
+    transform: scale3d(November);
+  }
+}
+
+<div
+    className="c0"
+  />,
+]
+`;
+
+exports[`scale3D renders object [breakpoints] 2`] = `
+Array [
+  @media May {
+  .c0 {
+    -webkit-transform: scale3d(July);
+    -ms-transform: scale3d(July);
+    transform: scale3d(July);
+  }
+}
+
+@media April {
+  .c0 {
+    -webkit-transform: scale3d(August);
+    -ms-transform: scale3d(August);
+    transform: scale3d(August);
+  }
+}
+
+@media January {
+  .c0 {
+    -webkit-transform: scale3d(September);
+    -ms-transform: scale3d(September);
+    transform: scale3d(September);
+  }
+}
+
+@media April {
+  .c0 {
+    -webkit-transform: scale3d(November);
+    -ms-transform: scale3d(November);
+    transform: scale3d(November);
+  }
+}
+
+@media June {
+  .c0 {
+    -webkit-transform: scale3d(August);
+    -ms-transform: scale3d(August);
+    transform: scale3d(August);
+  }
+}
+
+@media May {
+
+}
+
+@media April {
+
+}
+
+@media January {
+
+}
+
+@media April {
+
+}
+
+@media June {
+
+}
+
+<div
+    className="c0"
+  />,
+  @media May {
+  .c0 {
+    -webkit-transform: scale3d(July);
+    -ms-transform: scale3d(July);
+    transform: scale3d(July);
+  }
+}
+
+@media April {
+  .c0 {
+    -webkit-transform: scale3d(August);
+    -ms-transform: scale3d(August);
+    transform: scale3d(August);
+  }
+}
+
+@media January {
+  .c0 {
+    -webkit-transform: scale3d(September);
+    -ms-transform: scale3d(September);
+    transform: scale3d(September);
+  }
+}
+
+@media April {
+  .c0 {
+    -webkit-transform: scale3d(November);
+    -ms-transform: scale3d(November);
+    transform: scale3d(November);
+  }
+}
+
+@media June {
+  .c0 {
+    -webkit-transform: scale3d(August);
+    -ms-transform: scale3d(August);
+    transform: scale3d(August);
+  }
+}
+
+@media May {
+
+}
+
+@media April {
+
+}
+
+@media January {
+
+}
+
+@media April {
+
+}
+
+@media June {
+
+}
+
+<div
+    className="c0"
+  />,
+  @media May {
+
+}
+
+@media April {
+
+}
+
+@media January {
+
+}
+
+@media April {
+
+}
+
+@media June {
+
+}
+
+@media May {
+  .c0 {
+    -webkit-transform: scale3d(January);
+    -ms-transform: scale3d(January);
+    transform: scale3d(January);
+  }
+}
+
+@media April {
+  .c0 {
+    -webkit-transform: scale3d(December);
+    -ms-transform: scale3d(December);
+    transform: scale3d(December);
+  }
+}
+
+@media January {
+  .c0 {
+    -webkit-transform: scale3d(April);
+    -ms-transform: scale3d(April);
+    transform: scale3d(April);
+  }
+}
+
+@media April {
+  .c0 {
+    -webkit-transform: scale3d(May);
+    -ms-transform: scale3d(May);
+    transform: scale3d(May);
+  }
+}
+
+@media June {
+  .c0 {
+    -webkit-transform: scale3d(June);
+    -ms-transform: scale3d(June);
+    transform: scale3d(June);
+  }
+}
+
+<div
+    className="c0"
+  />,
+  @media May {
+
+}
+
+@media April {
+
+}
+
+@media January {
+
+}
+
+@media April {
+
+}
+
+@media June {
+
+}
+
+@media May {
+  .c0 {
+    -webkit-transform: scale3d(January);
+    -ms-transform: scale3d(January);
+    transform: scale3d(January);
+  }
+}
+
+@media April {
+  .c0 {
+    -webkit-transform: scale3d(December);
+    -ms-transform: scale3d(December);
+    transform: scale3d(December);
+  }
+}
+
+@media January {
+  .c0 {
+    -webkit-transform: scale3d(April);
+    -ms-transform: scale3d(April);
+    transform: scale3d(April);
+  }
+}
+
+@media April {
+  .c0 {
+    -webkit-transform: scale3d(May);
+    -ms-transform: scale3d(May);
+    transform: scale3d(May);
+  }
+}
+
+@media June {
+  .c0 {
+    -webkit-transform: scale3d(June);
+    -ms-transform: scale3d(June);
+    transform: scale3d(June);
+  }
+}
+
+<div
+    className="c0"
+  />,
+]
+`;
+
+exports[`scale3D renders postitive number 1`] = `
+Array [
+  .c0 {
+  -webkit-transform: scale3d(54881);
+  -ms-transform: scale3d(54881);
+  transform: scale3d(54881);
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-transform: scale3d(54881);
+  -ms-transform: scale3d(54881);
+  transform: scale3d(54881);
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-transform: scale3d(42365);
+  -ms-transform: scale3d(42365);
+  transform: scale3d(42365);
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-transform: scale3d(42365);
+  -ms-transform: scale3d(42365);
+  transform: scale3d(42365);
+}
+
+<div
+    className="c0"
+  />,
+]
+`;
+
+exports[`scale3D renders string 1`] = `
+Array [
+  .c0 {
+  -webkit-transform: scale3d(July);
+  -ms-transform: scale3d(July);
+  transform: scale3d(July);
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-transform: scale3d(July);
+  -ms-transform: scale3d(July);
+  transform: scale3d(July);
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-transform: scale3d(June);
+  -ms-transform: scale3d(June);
+  transform: scale3d(June);
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-transform: scale3d(June);
+  -ms-transform: scale3d(June);
+  transform: scale3d(June);
+}
+
+<div
+    className="c0"
+  />,
+]
+`;
+
+exports[`scale3D renders valid theme path 1`] = `
+Array [
+  .c0 {
+  -webkit-transform: scale3d(DarkSlateBlue);
+  -ms-transform: scale3d(DarkSlateBlue);
+  transform: scale3d(DarkSlateBlue);
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-transform: scale3d(DarkSlateBlue);
+  -ms-transform: scale3d(DarkSlateBlue);
+  transform: scale3d(DarkSlateBlue);
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-transform: scale3d(DarkSlateBlue);
+  -ms-transform: scale3d(DarkSlateBlue);
+  transform: scale3d(DarkSlateBlue);
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-transform: scale3d(DarkSlateBlue);
+  -ms-transform: scale3d(DarkSlateBlue);
+  transform: scale3d(DarkSlateBlue);
+}
+
+<div
+    className="c0"
+  />,
+]
+`;

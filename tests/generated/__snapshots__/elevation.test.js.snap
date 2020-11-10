@@ -1,0 +1,626 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`elevation renders 0 1`] = `
+Array [
+  .c0 {
+  elevation: 0;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  elevation: 0;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  elevation: 0;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  elevation: 0;
+}
+
+<div
+    className="c0"
+  />,
+]
+`;
+
+exports[`elevation renders function 1`] = `
+Array [
+  .c0 {
+  elevation: hasnot;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  elevation: has;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  elevation: hasnot;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  elevation: has;
+}
+
+<div
+    className="c0"
+  />,
+]
+`;
+
+exports[`elevation renders invalid theme path 1`] = `
+Array [
+  .c0 {
+  elevation: invalid.path.1;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  elevation: invalid.path.1;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  elevation: invalid.path.1;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  elevation: invalid.path.1;
+}
+
+<div
+    className="c0"
+  />,
+]
+`;
+
+exports[`elevation renders negative number 1`] = `
+Array [
+  .c0 {
+  elevation: -54881;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  elevation: -54881;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  elevation: -42365;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  elevation: -42365;
+}
+
+<div
+    className="c0"
+  />,
+]
+`;
+
+exports[`elevation renders object [breakpoints] 1`] = `
+Array [
+  @media screen and (min-width:November) {
+  .c0 {
+    elevation: July;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    elevation: August;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    elevation: September;
+  }
+}
+
+@media screen and (min-width:August) {
+  .c0 {
+    elevation: November;
+  }
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:August) {
+
+}
+
+<div
+    className="c0"
+  />,
+  @media screen and (min-width:November) {
+  .c0 {
+    elevation: July;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    elevation: August;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    elevation: September;
+  }
+}
+
+@media screen and (min-width:August) {
+  .c0 {
+    elevation: November;
+  }
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:August) {
+
+}
+
+<div
+    className="c0"
+  />,
+  @media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:August) {
+
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    elevation: May;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    elevation: June;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    elevation: April;
+  }
+}
+
+@media screen and (min-width:August) {
+  .c0 {
+    elevation: November;
+  }
+}
+
+<div
+    className="c0"
+  />,
+  @media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:August) {
+
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    elevation: May;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    elevation: June;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    elevation: April;
+  }
+}
+
+@media screen and (min-width:August) {
+  .c0 {
+    elevation: November;
+  }
+}
+
+<div
+    className="c0"
+  />,
+]
+`;
+
+exports[`elevation renders object [breakpoints] 2`] = `
+Array [
+  @media May {
+  .c0 {
+    elevation: July;
+  }
+}
+
+@media April {
+  .c0 {
+    elevation: August;
+  }
+}
+
+@media January {
+  .c0 {
+    elevation: September;
+  }
+}
+
+@media April {
+  .c0 {
+    elevation: November;
+  }
+}
+
+@media June {
+  .c0 {
+    elevation: August;
+  }
+}
+
+@media May {
+
+}
+
+@media April {
+
+}
+
+@media January {
+
+}
+
+@media April {
+
+}
+
+@media June {
+
+}
+
+<div
+    className="c0"
+  />,
+  @media May {
+  .c0 {
+    elevation: July;
+  }
+}
+
+@media April {
+  .c0 {
+    elevation: August;
+  }
+}
+
+@media January {
+  .c0 {
+    elevation: September;
+  }
+}
+
+@media April {
+  .c0 {
+    elevation: November;
+  }
+}
+
+@media June {
+  .c0 {
+    elevation: August;
+  }
+}
+
+@media May {
+
+}
+
+@media April {
+
+}
+
+@media January {
+
+}
+
+@media April {
+
+}
+
+@media June {
+
+}
+
+<div
+    className="c0"
+  />,
+  @media May {
+
+}
+
+@media April {
+
+}
+
+@media January {
+
+}
+
+@media April {
+
+}
+
+@media June {
+
+}
+
+@media May {
+  .c0 {
+    elevation: January;
+  }
+}
+
+@media April {
+  .c0 {
+    elevation: December;
+  }
+}
+
+@media January {
+  .c0 {
+    elevation: April;
+  }
+}
+
+@media April {
+  .c0 {
+    elevation: May;
+  }
+}
+
+@media June {
+  .c0 {
+    elevation: June;
+  }
+}
+
+<div
+    className="c0"
+  />,
+  @media May {
+
+}
+
+@media April {
+
+}
+
+@media January {
+
+}
+
+@media April {
+
+}
+
+@media June {
+
+}
+
+@media May {
+  .c0 {
+    elevation: January;
+  }
+}
+
+@media April {
+  .c0 {
+    elevation: December;
+  }
+}
+
+@media January {
+  .c0 {
+    elevation: April;
+  }
+}
+
+@media April {
+  .c0 {
+    elevation: May;
+  }
+}
+
+@media June {
+  .c0 {
+    elevation: June;
+  }
+}
+
+<div
+    className="c0"
+  />,
+]
+`;
+
+exports[`elevation renders postitive number 1`] = `
+Array [
+  .c0 {
+  elevation: 54881;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  elevation: 54881;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  elevation: 42365;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  elevation: 42365;
+}
+
+<div
+    className="c0"
+  />,
+]
+`;
+
+exports[`elevation renders string 1`] = `
+Array [
+  .c0 {
+  elevation: July;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  elevation: July;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  elevation: June;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  elevation: June;
+}
+
+<div
+    className="c0"
+  />,
+]
+`;
+
+exports[`elevation renders valid theme path 1`] = `
+Array [
+  .c0 {
+  elevation: DarkSlateBlue;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  elevation: DarkSlateBlue;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  elevation: DarkSlateBlue;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  elevation: DarkSlateBlue;
+}
+
+<div
+    className="c0"
+  />,
+]
+`;

@@ -1,0 +1,754 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`flexDirection renders 0 1`] = `
+Array [
+  .c0 {
+  -webkit-flex-direction: 0;
+  -ms-flex-direction: 0;
+  flex-direction: 0;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-flex-direction: 0;
+  -ms-flex-direction: 0;
+  flex-direction: 0;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-flex-direction: 0;
+  -ms-flex-direction: 0;
+  flex-direction: 0;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-flex-direction: 0;
+  -ms-flex-direction: 0;
+  flex-direction: 0;
+}
+
+<div
+    className="c0"
+  />,
+]
+`;
+
+exports[`flexDirection renders function 1`] = `
+Array [
+  .c0 {
+  -webkit-flex-direction: hasnot;
+  -ms-flex-direction: hasnot;
+  flex-direction: hasnot;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-flex-direction: has;
+  -ms-flex-direction: has;
+  flex-direction: has;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-flex-direction: hasnot;
+  -ms-flex-direction: hasnot;
+  flex-direction: hasnot;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-flex-direction: has;
+  -ms-flex-direction: has;
+  flex-direction: has;
+}
+
+<div
+    className="c0"
+  />,
+]
+`;
+
+exports[`flexDirection renders invalid theme path 1`] = `
+Array [
+  .c0 {
+  -webkit-flex-direction: invalid.path.1;
+  -ms-flex-direction: invalid.path.1;
+  flex-direction: invalid.path.1;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-flex-direction: invalid.path.1;
+  -ms-flex-direction: invalid.path.1;
+  flex-direction: invalid.path.1;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-flex-direction: invalid.path.1;
+  -ms-flex-direction: invalid.path.1;
+  flex-direction: invalid.path.1;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-flex-direction: invalid.path.1;
+  -ms-flex-direction: invalid.path.1;
+  flex-direction: invalid.path.1;
+}
+
+<div
+    className="c0"
+  />,
+]
+`;
+
+exports[`flexDirection renders negative number 1`] = `
+Array [
+  .c0 {
+  -webkit-flex-direction: -54881;
+  -ms-flex-direction: -54881;
+  flex-direction: -54881;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-flex-direction: -54881;
+  -ms-flex-direction: -54881;
+  flex-direction: -54881;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-flex-direction: -42365;
+  -ms-flex-direction: -42365;
+  flex-direction: -42365;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-flex-direction: -42365;
+  -ms-flex-direction: -42365;
+  flex-direction: -42365;
+}
+
+<div
+    className="c0"
+  />,
+]
+`;
+
+exports[`flexDirection renders object [breakpoints] 1`] = `
+Array [
+  @media screen and (min-width:November) {
+  .c0 {
+    -webkit-flex-direction: July;
+    -ms-flex-direction: July;
+    flex-direction: July;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    -webkit-flex-direction: August;
+    -ms-flex-direction: August;
+    flex-direction: August;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    -webkit-flex-direction: September;
+    -ms-flex-direction: September;
+    flex-direction: September;
+  }
+}
+
+@media screen and (min-width:August) {
+  .c0 {
+    -webkit-flex-direction: November;
+    -ms-flex-direction: November;
+    flex-direction: November;
+  }
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:August) {
+
+}
+
+<div
+    className="c0"
+  />,
+  @media screen and (min-width:November) {
+  .c0 {
+    -webkit-flex-direction: July;
+    -ms-flex-direction: July;
+    flex-direction: July;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    -webkit-flex-direction: August;
+    -ms-flex-direction: August;
+    flex-direction: August;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    -webkit-flex-direction: September;
+    -ms-flex-direction: September;
+    flex-direction: September;
+  }
+}
+
+@media screen and (min-width:August) {
+  .c0 {
+    -webkit-flex-direction: November;
+    -ms-flex-direction: November;
+    flex-direction: November;
+  }
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:August) {
+
+}
+
+<div
+    className="c0"
+  />,
+  @media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:August) {
+
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    -webkit-flex-direction: May;
+    -ms-flex-direction: May;
+    flex-direction: May;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    -webkit-flex-direction: June;
+    -ms-flex-direction: June;
+    flex-direction: June;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    -webkit-flex-direction: April;
+    -ms-flex-direction: April;
+    flex-direction: April;
+  }
+}
+
+@media screen and (min-width:August) {
+  .c0 {
+    -webkit-flex-direction: November;
+    -ms-flex-direction: November;
+    flex-direction: November;
+  }
+}
+
+<div
+    className="c0"
+  />,
+  @media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:August) {
+
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    -webkit-flex-direction: May;
+    -ms-flex-direction: May;
+    flex-direction: May;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    -webkit-flex-direction: June;
+    -ms-flex-direction: June;
+    flex-direction: June;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    -webkit-flex-direction: April;
+    -ms-flex-direction: April;
+    flex-direction: April;
+  }
+}
+
+@media screen and (min-width:August) {
+  .c0 {
+    -webkit-flex-direction: November;
+    -ms-flex-direction: November;
+    flex-direction: November;
+  }
+}
+
+<div
+    className="c0"
+  />,
+]
+`;
+
+exports[`flexDirection renders object [breakpoints] 2`] = `
+Array [
+  @media May {
+  .c0 {
+    -webkit-flex-direction: July;
+    -ms-flex-direction: July;
+    flex-direction: July;
+  }
+}
+
+@media April {
+  .c0 {
+    -webkit-flex-direction: August;
+    -ms-flex-direction: August;
+    flex-direction: August;
+  }
+}
+
+@media January {
+  .c0 {
+    -webkit-flex-direction: September;
+    -ms-flex-direction: September;
+    flex-direction: September;
+  }
+}
+
+@media April {
+  .c0 {
+    -webkit-flex-direction: November;
+    -ms-flex-direction: November;
+    flex-direction: November;
+  }
+}
+
+@media June {
+  .c0 {
+    -webkit-flex-direction: August;
+    -ms-flex-direction: August;
+    flex-direction: August;
+  }
+}
+
+@media May {
+
+}
+
+@media April {
+
+}
+
+@media January {
+
+}
+
+@media April {
+
+}
+
+@media June {
+
+}
+
+<div
+    className="c0"
+  />,
+  @media May {
+  .c0 {
+    -webkit-flex-direction: July;
+    -ms-flex-direction: July;
+    flex-direction: July;
+  }
+}
+
+@media April {
+  .c0 {
+    -webkit-flex-direction: August;
+    -ms-flex-direction: August;
+    flex-direction: August;
+  }
+}
+
+@media January {
+  .c0 {
+    -webkit-flex-direction: September;
+    -ms-flex-direction: September;
+    flex-direction: September;
+  }
+}
+
+@media April {
+  .c0 {
+    -webkit-flex-direction: November;
+    -ms-flex-direction: November;
+    flex-direction: November;
+  }
+}
+
+@media June {
+  .c0 {
+    -webkit-flex-direction: August;
+    -ms-flex-direction: August;
+    flex-direction: August;
+  }
+}
+
+@media May {
+
+}
+
+@media April {
+
+}
+
+@media January {
+
+}
+
+@media April {
+
+}
+
+@media June {
+
+}
+
+<div
+    className="c0"
+  />,
+  @media May {
+
+}
+
+@media April {
+
+}
+
+@media January {
+
+}
+
+@media April {
+
+}
+
+@media June {
+
+}
+
+@media May {
+  .c0 {
+    -webkit-flex-direction: January;
+    -ms-flex-direction: January;
+    flex-direction: January;
+  }
+}
+
+@media April {
+  .c0 {
+    -webkit-flex-direction: December;
+    -ms-flex-direction: December;
+    flex-direction: December;
+  }
+}
+
+@media January {
+  .c0 {
+    -webkit-flex-direction: April;
+    -ms-flex-direction: April;
+    flex-direction: April;
+  }
+}
+
+@media April {
+  .c0 {
+    -webkit-flex-direction: May;
+    -ms-flex-direction: May;
+    flex-direction: May;
+  }
+}
+
+@media June {
+  .c0 {
+    -webkit-flex-direction: June;
+    -ms-flex-direction: June;
+    flex-direction: June;
+  }
+}
+
+<div
+    className="c0"
+  />,
+  @media May {
+
+}
+
+@media April {
+
+}
+
+@media January {
+
+}
+
+@media April {
+
+}
+
+@media June {
+
+}
+
+@media May {
+  .c0 {
+    -webkit-flex-direction: January;
+    -ms-flex-direction: January;
+    flex-direction: January;
+  }
+}
+
+@media April {
+  .c0 {
+    -webkit-flex-direction: December;
+    -ms-flex-direction: December;
+    flex-direction: December;
+  }
+}
+
+@media January {
+  .c0 {
+    -webkit-flex-direction: April;
+    -ms-flex-direction: April;
+    flex-direction: April;
+  }
+}
+
+@media April {
+  .c0 {
+    -webkit-flex-direction: May;
+    -ms-flex-direction: May;
+    flex-direction: May;
+  }
+}
+
+@media June {
+  .c0 {
+    -webkit-flex-direction: June;
+    -ms-flex-direction: June;
+    flex-direction: June;
+  }
+}
+
+<div
+    className="c0"
+  />,
+]
+`;
+
+exports[`flexDirection renders postitive number 1`] = `
+Array [
+  .c0 {
+  -webkit-flex-direction: 54881;
+  -ms-flex-direction: 54881;
+  flex-direction: 54881;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-flex-direction: 54881;
+  -ms-flex-direction: 54881;
+  flex-direction: 54881;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-flex-direction: 42365;
+  -ms-flex-direction: 42365;
+  flex-direction: 42365;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-flex-direction: 42365;
+  -ms-flex-direction: 42365;
+  flex-direction: 42365;
+}
+
+<div
+    className="c0"
+  />,
+]
+`;
+
+exports[`flexDirection renders string 1`] = `
+Array [
+  .c0 {
+  -webkit-flex-direction: July;
+  -ms-flex-direction: July;
+  flex-direction: July;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-flex-direction: July;
+  -ms-flex-direction: July;
+  flex-direction: July;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-flex-direction: June;
+  -ms-flex-direction: June;
+  flex-direction: June;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-flex-direction: June;
+  -ms-flex-direction: June;
+  flex-direction: June;
+}
+
+<div
+    className="c0"
+  />,
+]
+`;
+
+exports[`flexDirection renders valid theme path 1`] = `
+Array [
+  .c0 {
+  -webkit-flex-direction: DarkSlateBlue;
+  -ms-flex-direction: DarkSlateBlue;
+  flex-direction: DarkSlateBlue;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-flex-direction: DarkSlateBlue;
+  -ms-flex-direction: DarkSlateBlue;
+  flex-direction: DarkSlateBlue;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-flex-direction: DarkSlateBlue;
+  -ms-flex-direction: DarkSlateBlue;
+  flex-direction: DarkSlateBlue;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-flex-direction: DarkSlateBlue;
+  -ms-flex-direction: DarkSlateBlue;
+  flex-direction: DarkSlateBlue;
+}
+
+<div
+    className="c0"
+  />,
+]
+`;

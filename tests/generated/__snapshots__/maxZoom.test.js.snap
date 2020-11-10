@@ -1,0 +1,626 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`maxZoom renders 0 1`] = `
+Array [
+  .c0 {
+  max-zoom: 0;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  max-zoom: 0;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  max-zoom: 0;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  max-zoom: 0;
+}
+
+<div
+    className="c0"
+  />,
+]
+`;
+
+exports[`maxZoom renders function 1`] = `
+Array [
+  .c0 {
+  max-zoom: hasnot;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  max-zoom: has;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  max-zoom: hasnot;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  max-zoom: has;
+}
+
+<div
+    className="c0"
+  />,
+]
+`;
+
+exports[`maxZoom renders invalid theme path 1`] = `
+Array [
+  .c0 {
+  max-zoom: invalid.path.1;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  max-zoom: invalid.path.1;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  max-zoom: invalid.path.1;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  max-zoom: invalid.path.1;
+}
+
+<div
+    className="c0"
+  />,
+]
+`;
+
+exports[`maxZoom renders negative number 1`] = `
+Array [
+  .c0 {
+  max-zoom: -54881;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  max-zoom: -54881;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  max-zoom: -42365;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  max-zoom: -42365;
+}
+
+<div
+    className="c0"
+  />,
+]
+`;
+
+exports[`maxZoom renders object [breakpoints] 1`] = `
+Array [
+  @media screen and (min-width:November) {
+  .c0 {
+    max-zoom: July;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    max-zoom: August;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    max-zoom: September;
+  }
+}
+
+@media screen and (min-width:August) {
+  .c0 {
+    max-zoom: November;
+  }
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:August) {
+
+}
+
+<div
+    className="c0"
+  />,
+  @media screen and (min-width:November) {
+  .c0 {
+    max-zoom: July;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    max-zoom: August;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    max-zoom: September;
+  }
+}
+
+@media screen and (min-width:August) {
+  .c0 {
+    max-zoom: November;
+  }
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:August) {
+
+}
+
+<div
+    className="c0"
+  />,
+  @media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:August) {
+
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    max-zoom: May;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    max-zoom: June;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    max-zoom: April;
+  }
+}
+
+@media screen and (min-width:August) {
+  .c0 {
+    max-zoom: November;
+  }
+}
+
+<div
+    className="c0"
+  />,
+  @media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:August) {
+
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    max-zoom: May;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    max-zoom: June;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    max-zoom: April;
+  }
+}
+
+@media screen and (min-width:August) {
+  .c0 {
+    max-zoom: November;
+  }
+}
+
+<div
+    className="c0"
+  />,
+]
+`;
+
+exports[`maxZoom renders object [breakpoints] 2`] = `
+Array [
+  @media May {
+  .c0 {
+    max-zoom: July;
+  }
+}
+
+@media April {
+  .c0 {
+    max-zoom: August;
+  }
+}
+
+@media January {
+  .c0 {
+    max-zoom: September;
+  }
+}
+
+@media April {
+  .c0 {
+    max-zoom: November;
+  }
+}
+
+@media June {
+  .c0 {
+    max-zoom: August;
+  }
+}
+
+@media May {
+
+}
+
+@media April {
+
+}
+
+@media January {
+
+}
+
+@media April {
+
+}
+
+@media June {
+
+}
+
+<div
+    className="c0"
+  />,
+  @media May {
+  .c0 {
+    max-zoom: July;
+  }
+}
+
+@media April {
+  .c0 {
+    max-zoom: August;
+  }
+}
+
+@media January {
+  .c0 {
+    max-zoom: September;
+  }
+}
+
+@media April {
+  .c0 {
+    max-zoom: November;
+  }
+}
+
+@media June {
+  .c0 {
+    max-zoom: August;
+  }
+}
+
+@media May {
+
+}
+
+@media April {
+
+}
+
+@media January {
+
+}
+
+@media April {
+
+}
+
+@media June {
+
+}
+
+<div
+    className="c0"
+  />,
+  @media May {
+
+}
+
+@media April {
+
+}
+
+@media January {
+
+}
+
+@media April {
+
+}
+
+@media June {
+
+}
+
+@media May {
+  .c0 {
+    max-zoom: January;
+  }
+}
+
+@media April {
+  .c0 {
+    max-zoom: December;
+  }
+}
+
+@media January {
+  .c0 {
+    max-zoom: April;
+  }
+}
+
+@media April {
+  .c0 {
+    max-zoom: May;
+  }
+}
+
+@media June {
+  .c0 {
+    max-zoom: June;
+  }
+}
+
+<div
+    className="c0"
+  />,
+  @media May {
+
+}
+
+@media April {
+
+}
+
+@media January {
+
+}
+
+@media April {
+
+}
+
+@media June {
+
+}
+
+@media May {
+  .c0 {
+    max-zoom: January;
+  }
+}
+
+@media April {
+  .c0 {
+    max-zoom: December;
+  }
+}
+
+@media January {
+  .c0 {
+    max-zoom: April;
+  }
+}
+
+@media April {
+  .c0 {
+    max-zoom: May;
+  }
+}
+
+@media June {
+  .c0 {
+    max-zoom: June;
+  }
+}
+
+<div
+    className="c0"
+  />,
+]
+`;
+
+exports[`maxZoom renders postitive number 1`] = `
+Array [
+  .c0 {
+  max-zoom: 54881;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  max-zoom: 54881;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  max-zoom: 42365;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  max-zoom: 42365;
+}
+
+<div
+    className="c0"
+  />,
+]
+`;
+
+exports[`maxZoom renders string 1`] = `
+Array [
+  .c0 {
+  max-zoom: July;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  max-zoom: July;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  max-zoom: June;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  max-zoom: June;
+}
+
+<div
+    className="c0"
+  />,
+]
+`;
+
+exports[`maxZoom renders valid theme path 1`] = `
+Array [
+  .c0 {
+  max-zoom: DarkSlateBlue;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  max-zoom: DarkSlateBlue;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  max-zoom: DarkSlateBlue;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  max-zoom: DarkSlateBlue;
+}
+
+<div
+    className="c0"
+  />,
+]
+`;

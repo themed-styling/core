@@ -1,0 +1,690 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`transitionDuration renders 0 1`] = `
+Array [
+  .c0 {
+  -webkit-transition-duration: 0;
+  transition-duration: 0;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-transition-duration: 0;
+  transition-duration: 0;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-transition-duration: 0;
+  transition-duration: 0;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-transition-duration: 0;
+  transition-duration: 0;
+}
+
+<div
+    className="c0"
+  />,
+]
+`;
+
+exports[`transitionDuration renders function 1`] = `
+Array [
+  .c0 {
+  -webkit-transition-duration: hasnot;
+  transition-duration: hasnot;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-transition-duration: has;
+  transition-duration: has;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-transition-duration: hasnot;
+  transition-duration: hasnot;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-transition-duration: has;
+  transition-duration: has;
+}
+
+<div
+    className="c0"
+  />,
+]
+`;
+
+exports[`transitionDuration renders invalid theme path 1`] = `
+Array [
+  .c0 {
+  -webkit-transition-duration: invalid.path.1;
+  transition-duration: invalid.path.1;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-transition-duration: invalid.path.1;
+  transition-duration: invalid.path.1;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-transition-duration: invalid.path.1;
+  transition-duration: invalid.path.1;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-transition-duration: invalid.path.1;
+  transition-duration: invalid.path.1;
+}
+
+<div
+    className="c0"
+  />,
+]
+`;
+
+exports[`transitionDuration renders negative number 1`] = `
+Array [
+  .c0 {
+  -webkit-transition-duration: -54881;
+  transition-duration: -54881;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-transition-duration: -54881;
+  transition-duration: -54881;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-transition-duration: -42365;
+  transition-duration: -42365;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-transition-duration: -42365;
+  transition-duration: -42365;
+}
+
+<div
+    className="c0"
+  />,
+]
+`;
+
+exports[`transitionDuration renders object [breakpoints] 1`] = `
+Array [
+  @media screen and (min-width:November) {
+  .c0 {
+    -webkit-transition-duration: July;
+    transition-duration: July;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    -webkit-transition-duration: August;
+    transition-duration: August;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    -webkit-transition-duration: September;
+    transition-duration: September;
+  }
+}
+
+@media screen and (min-width:August) {
+  .c0 {
+    -webkit-transition-duration: November;
+    transition-duration: November;
+  }
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:August) {
+
+}
+
+<div
+    className="c0"
+  />,
+  @media screen and (min-width:November) {
+  .c0 {
+    -webkit-transition-duration: July;
+    transition-duration: July;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    -webkit-transition-duration: August;
+    transition-duration: August;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    -webkit-transition-duration: September;
+    transition-duration: September;
+  }
+}
+
+@media screen and (min-width:August) {
+  .c0 {
+    -webkit-transition-duration: November;
+    transition-duration: November;
+  }
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:August) {
+
+}
+
+<div
+    className="c0"
+  />,
+  @media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:August) {
+
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    -webkit-transition-duration: May;
+    transition-duration: May;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    -webkit-transition-duration: June;
+    transition-duration: June;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    -webkit-transition-duration: April;
+    transition-duration: April;
+  }
+}
+
+@media screen and (min-width:August) {
+  .c0 {
+    -webkit-transition-duration: November;
+    transition-duration: November;
+  }
+}
+
+<div
+    className="c0"
+  />,
+  @media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:August) {
+
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    -webkit-transition-duration: May;
+    transition-duration: May;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    -webkit-transition-duration: June;
+    transition-duration: June;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    -webkit-transition-duration: April;
+    transition-duration: April;
+  }
+}
+
+@media screen and (min-width:August) {
+  .c0 {
+    -webkit-transition-duration: November;
+    transition-duration: November;
+  }
+}
+
+<div
+    className="c0"
+  />,
+]
+`;
+
+exports[`transitionDuration renders object [breakpoints] 2`] = `
+Array [
+  @media May {
+  .c0 {
+    -webkit-transition-duration: July;
+    transition-duration: July;
+  }
+}
+
+@media April {
+  .c0 {
+    -webkit-transition-duration: August;
+    transition-duration: August;
+  }
+}
+
+@media January {
+  .c0 {
+    -webkit-transition-duration: September;
+    transition-duration: September;
+  }
+}
+
+@media April {
+  .c0 {
+    -webkit-transition-duration: November;
+    transition-duration: November;
+  }
+}
+
+@media June {
+  .c0 {
+    -webkit-transition-duration: August;
+    transition-duration: August;
+  }
+}
+
+@media May {
+
+}
+
+@media April {
+
+}
+
+@media January {
+
+}
+
+@media April {
+
+}
+
+@media June {
+
+}
+
+<div
+    className="c0"
+  />,
+  @media May {
+  .c0 {
+    -webkit-transition-duration: July;
+    transition-duration: July;
+  }
+}
+
+@media April {
+  .c0 {
+    -webkit-transition-duration: August;
+    transition-duration: August;
+  }
+}
+
+@media January {
+  .c0 {
+    -webkit-transition-duration: September;
+    transition-duration: September;
+  }
+}
+
+@media April {
+  .c0 {
+    -webkit-transition-duration: November;
+    transition-duration: November;
+  }
+}
+
+@media June {
+  .c0 {
+    -webkit-transition-duration: August;
+    transition-duration: August;
+  }
+}
+
+@media May {
+
+}
+
+@media April {
+
+}
+
+@media January {
+
+}
+
+@media April {
+
+}
+
+@media June {
+
+}
+
+<div
+    className="c0"
+  />,
+  @media May {
+
+}
+
+@media April {
+
+}
+
+@media January {
+
+}
+
+@media April {
+
+}
+
+@media June {
+
+}
+
+@media May {
+  .c0 {
+    -webkit-transition-duration: January;
+    transition-duration: January;
+  }
+}
+
+@media April {
+  .c0 {
+    -webkit-transition-duration: December;
+    transition-duration: December;
+  }
+}
+
+@media January {
+  .c0 {
+    -webkit-transition-duration: April;
+    transition-duration: April;
+  }
+}
+
+@media April {
+  .c0 {
+    -webkit-transition-duration: May;
+    transition-duration: May;
+  }
+}
+
+@media June {
+  .c0 {
+    -webkit-transition-duration: June;
+    transition-duration: June;
+  }
+}
+
+<div
+    className="c0"
+  />,
+  @media May {
+
+}
+
+@media April {
+
+}
+
+@media January {
+
+}
+
+@media April {
+
+}
+
+@media June {
+
+}
+
+@media May {
+  .c0 {
+    -webkit-transition-duration: January;
+    transition-duration: January;
+  }
+}
+
+@media April {
+  .c0 {
+    -webkit-transition-duration: December;
+    transition-duration: December;
+  }
+}
+
+@media January {
+  .c0 {
+    -webkit-transition-duration: April;
+    transition-duration: April;
+  }
+}
+
+@media April {
+  .c0 {
+    -webkit-transition-duration: May;
+    transition-duration: May;
+  }
+}
+
+@media June {
+  .c0 {
+    -webkit-transition-duration: June;
+    transition-duration: June;
+  }
+}
+
+<div
+    className="c0"
+  />,
+]
+`;
+
+exports[`transitionDuration renders postitive number 1`] = `
+Array [
+  .c0 {
+  -webkit-transition-duration: 54881;
+  transition-duration: 54881;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-transition-duration: 54881;
+  transition-duration: 54881;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-transition-duration: 42365;
+  transition-duration: 42365;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-transition-duration: 42365;
+  transition-duration: 42365;
+}
+
+<div
+    className="c0"
+  />,
+]
+`;
+
+exports[`transitionDuration renders string 1`] = `
+Array [
+  .c0 {
+  -webkit-transition-duration: July;
+  transition-duration: July;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-transition-duration: July;
+  transition-duration: July;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-transition-duration: June;
+  transition-duration: June;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-transition-duration: June;
+  transition-duration: June;
+}
+
+<div
+    className="c0"
+  />,
+]
+`;
+
+exports[`transitionDuration renders valid theme path 1`] = `
+Array [
+  .c0 {
+  -webkit-transition-duration: DarkSlateBlue;
+  transition-duration: DarkSlateBlue;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-transition-duration: DarkSlateBlue;
+  transition-duration: DarkSlateBlue;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-transition-duration: DarkSlateBlue;
+  transition-duration: DarkSlateBlue;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-transition-duration: DarkSlateBlue;
+  transition-duration: DarkSlateBlue;
+}
+
+<div
+    className="c0"
+  />,
+]
+`;

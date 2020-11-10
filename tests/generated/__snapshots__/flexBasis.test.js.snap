@@ -1,0 +1,754 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`flexBasis renders 0 1`] = `
+Array [
+  .c0 {
+  -webkit-flex-basis: 0;
+  -ms-flex-preferred-size: 0;
+  flex-basis: 0;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-flex-basis: 0;
+  -ms-flex-preferred-size: 0;
+  flex-basis: 0;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-flex-basis: 0;
+  -ms-flex-preferred-size: 0;
+  flex-basis: 0;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-flex-basis: 0;
+  -ms-flex-preferred-size: 0;
+  flex-basis: 0;
+}
+
+<div
+    className="c0"
+  />,
+]
+`;
+
+exports[`flexBasis renders function 1`] = `
+Array [
+  .c0 {
+  -webkit-flex-basis: hasnot;
+  -ms-flex-preferred-size: hasnot;
+  flex-basis: hasnot;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-flex-basis: has;
+  -ms-flex-preferred-size: has;
+  flex-basis: has;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-flex-basis: hasnot;
+  -ms-flex-preferred-size: hasnot;
+  flex-basis: hasnot;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-flex-basis: has;
+  -ms-flex-preferred-size: has;
+  flex-basis: has;
+}
+
+<div
+    className="c0"
+  />,
+]
+`;
+
+exports[`flexBasis renders invalid theme path 1`] = `
+Array [
+  .c0 {
+  -webkit-flex-basis: invalid.path.1;
+  -ms-flex-preferred-size: invalid.path.1;
+  flex-basis: invalid.path.1;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-flex-basis: invalid.path.1;
+  -ms-flex-preferred-size: invalid.path.1;
+  flex-basis: invalid.path.1;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-flex-basis: invalid.path.1;
+  -ms-flex-preferred-size: invalid.path.1;
+  flex-basis: invalid.path.1;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-flex-basis: invalid.path.1;
+  -ms-flex-preferred-size: invalid.path.1;
+  flex-basis: invalid.path.1;
+}
+
+<div
+    className="c0"
+  />,
+]
+`;
+
+exports[`flexBasis renders negative number 1`] = `
+Array [
+  .c0 {
+  -webkit-flex-basis: -54881;
+  -ms-flex-preferred-size: -54881;
+  flex-basis: -54881;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-flex-basis: -54881;
+  -ms-flex-preferred-size: -54881;
+  flex-basis: -54881;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-flex-basis: -42365;
+  -ms-flex-preferred-size: -42365;
+  flex-basis: -42365;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-flex-basis: -42365;
+  -ms-flex-preferred-size: -42365;
+  flex-basis: -42365;
+}
+
+<div
+    className="c0"
+  />,
+]
+`;
+
+exports[`flexBasis renders object [breakpoints] 1`] = `
+Array [
+  @media screen and (min-width:November) {
+  .c0 {
+    -webkit-flex-basis: July;
+    -ms-flex-preferred-size: July;
+    flex-basis: July;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    -webkit-flex-basis: August;
+    -ms-flex-preferred-size: August;
+    flex-basis: August;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    -webkit-flex-basis: September;
+    -ms-flex-preferred-size: September;
+    flex-basis: September;
+  }
+}
+
+@media screen and (min-width:August) {
+  .c0 {
+    -webkit-flex-basis: November;
+    -ms-flex-preferred-size: November;
+    flex-basis: November;
+  }
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:August) {
+
+}
+
+<div
+    className="c0"
+  />,
+  @media screen and (min-width:November) {
+  .c0 {
+    -webkit-flex-basis: July;
+    -ms-flex-preferred-size: July;
+    flex-basis: July;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    -webkit-flex-basis: August;
+    -ms-flex-preferred-size: August;
+    flex-basis: August;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    -webkit-flex-basis: September;
+    -ms-flex-preferred-size: September;
+    flex-basis: September;
+  }
+}
+
+@media screen and (min-width:August) {
+  .c0 {
+    -webkit-flex-basis: November;
+    -ms-flex-preferred-size: November;
+    flex-basis: November;
+  }
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:August) {
+
+}
+
+<div
+    className="c0"
+  />,
+  @media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:August) {
+
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    -webkit-flex-basis: May;
+    -ms-flex-preferred-size: May;
+    flex-basis: May;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    -webkit-flex-basis: June;
+    -ms-flex-preferred-size: June;
+    flex-basis: June;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    -webkit-flex-basis: April;
+    -ms-flex-preferred-size: April;
+    flex-basis: April;
+  }
+}
+
+@media screen and (min-width:August) {
+  .c0 {
+    -webkit-flex-basis: November;
+    -ms-flex-preferred-size: November;
+    flex-basis: November;
+  }
+}
+
+<div
+    className="c0"
+  />,
+  @media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:August) {
+
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    -webkit-flex-basis: May;
+    -ms-flex-preferred-size: May;
+    flex-basis: May;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    -webkit-flex-basis: June;
+    -ms-flex-preferred-size: June;
+    flex-basis: June;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    -webkit-flex-basis: April;
+    -ms-flex-preferred-size: April;
+    flex-basis: April;
+  }
+}
+
+@media screen and (min-width:August) {
+  .c0 {
+    -webkit-flex-basis: November;
+    -ms-flex-preferred-size: November;
+    flex-basis: November;
+  }
+}
+
+<div
+    className="c0"
+  />,
+]
+`;
+
+exports[`flexBasis renders object [breakpoints] 2`] = `
+Array [
+  @media May {
+  .c0 {
+    -webkit-flex-basis: July;
+    -ms-flex-preferred-size: July;
+    flex-basis: July;
+  }
+}
+
+@media April {
+  .c0 {
+    -webkit-flex-basis: August;
+    -ms-flex-preferred-size: August;
+    flex-basis: August;
+  }
+}
+
+@media January {
+  .c0 {
+    -webkit-flex-basis: September;
+    -ms-flex-preferred-size: September;
+    flex-basis: September;
+  }
+}
+
+@media April {
+  .c0 {
+    -webkit-flex-basis: November;
+    -ms-flex-preferred-size: November;
+    flex-basis: November;
+  }
+}
+
+@media June {
+  .c0 {
+    -webkit-flex-basis: August;
+    -ms-flex-preferred-size: August;
+    flex-basis: August;
+  }
+}
+
+@media May {
+
+}
+
+@media April {
+
+}
+
+@media January {
+
+}
+
+@media April {
+
+}
+
+@media June {
+
+}
+
+<div
+    className="c0"
+  />,
+  @media May {
+  .c0 {
+    -webkit-flex-basis: July;
+    -ms-flex-preferred-size: July;
+    flex-basis: July;
+  }
+}
+
+@media April {
+  .c0 {
+    -webkit-flex-basis: August;
+    -ms-flex-preferred-size: August;
+    flex-basis: August;
+  }
+}
+
+@media January {
+  .c0 {
+    -webkit-flex-basis: September;
+    -ms-flex-preferred-size: September;
+    flex-basis: September;
+  }
+}
+
+@media April {
+  .c0 {
+    -webkit-flex-basis: November;
+    -ms-flex-preferred-size: November;
+    flex-basis: November;
+  }
+}
+
+@media June {
+  .c0 {
+    -webkit-flex-basis: August;
+    -ms-flex-preferred-size: August;
+    flex-basis: August;
+  }
+}
+
+@media May {
+
+}
+
+@media April {
+
+}
+
+@media January {
+
+}
+
+@media April {
+
+}
+
+@media June {
+
+}
+
+<div
+    className="c0"
+  />,
+  @media May {
+
+}
+
+@media April {
+
+}
+
+@media January {
+
+}
+
+@media April {
+
+}
+
+@media June {
+
+}
+
+@media May {
+  .c0 {
+    -webkit-flex-basis: January;
+    -ms-flex-preferred-size: January;
+    flex-basis: January;
+  }
+}
+
+@media April {
+  .c0 {
+    -webkit-flex-basis: December;
+    -ms-flex-preferred-size: December;
+    flex-basis: December;
+  }
+}
+
+@media January {
+  .c0 {
+    -webkit-flex-basis: April;
+    -ms-flex-preferred-size: April;
+    flex-basis: April;
+  }
+}
+
+@media April {
+  .c0 {
+    -webkit-flex-basis: May;
+    -ms-flex-preferred-size: May;
+    flex-basis: May;
+  }
+}
+
+@media June {
+  .c0 {
+    -webkit-flex-basis: June;
+    -ms-flex-preferred-size: June;
+    flex-basis: June;
+  }
+}
+
+<div
+    className="c0"
+  />,
+  @media May {
+
+}
+
+@media April {
+
+}
+
+@media January {
+
+}
+
+@media April {
+
+}
+
+@media June {
+
+}
+
+@media May {
+  .c0 {
+    -webkit-flex-basis: January;
+    -ms-flex-preferred-size: January;
+    flex-basis: January;
+  }
+}
+
+@media April {
+  .c0 {
+    -webkit-flex-basis: December;
+    -ms-flex-preferred-size: December;
+    flex-basis: December;
+  }
+}
+
+@media January {
+  .c0 {
+    -webkit-flex-basis: April;
+    -ms-flex-preferred-size: April;
+    flex-basis: April;
+  }
+}
+
+@media April {
+  .c0 {
+    -webkit-flex-basis: May;
+    -ms-flex-preferred-size: May;
+    flex-basis: May;
+  }
+}
+
+@media June {
+  .c0 {
+    -webkit-flex-basis: June;
+    -ms-flex-preferred-size: June;
+    flex-basis: June;
+  }
+}
+
+<div
+    className="c0"
+  />,
+]
+`;
+
+exports[`flexBasis renders postitive number 1`] = `
+Array [
+  .c0 {
+  -webkit-flex-basis: 54881;
+  -ms-flex-preferred-size: 54881;
+  flex-basis: 54881;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-flex-basis: 54881;
+  -ms-flex-preferred-size: 54881;
+  flex-basis: 54881;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-flex-basis: 42365;
+  -ms-flex-preferred-size: 42365;
+  flex-basis: 42365;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-flex-basis: 42365;
+  -ms-flex-preferred-size: 42365;
+  flex-basis: 42365;
+}
+
+<div
+    className="c0"
+  />,
+]
+`;
+
+exports[`flexBasis renders string 1`] = `
+Array [
+  .c0 {
+  -webkit-flex-basis: July;
+  -ms-flex-preferred-size: July;
+  flex-basis: July;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-flex-basis: July;
+  -ms-flex-preferred-size: July;
+  flex-basis: July;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-flex-basis: June;
+  -ms-flex-preferred-size: June;
+  flex-basis: June;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-flex-basis: June;
+  -ms-flex-preferred-size: June;
+  flex-basis: June;
+}
+
+<div
+    className="c0"
+  />,
+]
+`;
+
+exports[`flexBasis renders valid theme path 1`] = `
+Array [
+  .c0 {
+  -webkit-flex-basis: DarkSlateBlue;
+  -ms-flex-preferred-size: DarkSlateBlue;
+  flex-basis: DarkSlateBlue;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-flex-basis: DarkSlateBlue;
+  -ms-flex-preferred-size: DarkSlateBlue;
+  flex-basis: DarkSlateBlue;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-flex-basis: DarkSlateBlue;
+  -ms-flex-preferred-size: DarkSlateBlue;
+  flex-basis: DarkSlateBlue;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-flex-basis: DarkSlateBlue;
+  -ms-flex-preferred-size: DarkSlateBlue;
+  flex-basis: DarkSlateBlue;
+}
+
+<div
+    className="c0"
+  />,
+]
+`;

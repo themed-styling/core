@@ -1,0 +1,626 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`gridColumnAlign renders 0 1`] = `
+Array [
+  .c0 {
+  grid-column-align: 0;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  grid-column-align: 0;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  grid-column-align: 0;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  grid-column-align: 0;
+}
+
+<div
+    className="c0"
+  />,
+]
+`;
+
+exports[`gridColumnAlign renders function 1`] = `
+Array [
+  .c0 {
+  grid-column-align: hasnot;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  grid-column-align: has;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  grid-column-align: hasnot;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  grid-column-align: has;
+}
+
+<div
+    className="c0"
+  />,
+]
+`;
+
+exports[`gridColumnAlign renders invalid theme path 1`] = `
+Array [
+  .c0 {
+  grid-column-align: invalid.path.1;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  grid-column-align: invalid.path.1;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  grid-column-align: invalid.path.1;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  grid-column-align: invalid.path.1;
+}
+
+<div
+    className="c0"
+  />,
+]
+`;
+
+exports[`gridColumnAlign renders negative number 1`] = `
+Array [
+  .c0 {
+  grid-column-align: -54881;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  grid-column-align: -54881;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  grid-column-align: -42365;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  grid-column-align: -42365;
+}
+
+<div
+    className="c0"
+  />,
+]
+`;
+
+exports[`gridColumnAlign renders object [breakpoints] 1`] = `
+Array [
+  @media screen and (min-width:November) {
+  .c0 {
+    grid-column-align: July;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    grid-column-align: August;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    grid-column-align: September;
+  }
+}
+
+@media screen and (min-width:August) {
+  .c0 {
+    grid-column-align: November;
+  }
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:August) {
+
+}
+
+<div
+    className="c0"
+  />,
+  @media screen and (min-width:November) {
+  .c0 {
+    grid-column-align: July;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    grid-column-align: August;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    grid-column-align: September;
+  }
+}
+
+@media screen and (min-width:August) {
+  .c0 {
+    grid-column-align: November;
+  }
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:August) {
+
+}
+
+<div
+    className="c0"
+  />,
+  @media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:August) {
+
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    grid-column-align: May;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    grid-column-align: June;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    grid-column-align: April;
+  }
+}
+
+@media screen and (min-width:August) {
+  .c0 {
+    grid-column-align: November;
+  }
+}
+
+<div
+    className="c0"
+  />,
+  @media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:August) {
+
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    grid-column-align: May;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    grid-column-align: June;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    grid-column-align: April;
+  }
+}
+
+@media screen and (min-width:August) {
+  .c0 {
+    grid-column-align: November;
+  }
+}
+
+<div
+    className="c0"
+  />,
+]
+`;
+
+exports[`gridColumnAlign renders object [breakpoints] 2`] = `
+Array [
+  @media May {
+  .c0 {
+    grid-column-align: July;
+  }
+}
+
+@media April {
+  .c0 {
+    grid-column-align: August;
+  }
+}
+
+@media January {
+  .c0 {
+    grid-column-align: September;
+  }
+}
+
+@media April {
+  .c0 {
+    grid-column-align: November;
+  }
+}
+
+@media June {
+  .c0 {
+    grid-column-align: August;
+  }
+}
+
+@media May {
+
+}
+
+@media April {
+
+}
+
+@media January {
+
+}
+
+@media April {
+
+}
+
+@media June {
+
+}
+
+<div
+    className="c0"
+  />,
+  @media May {
+  .c0 {
+    grid-column-align: July;
+  }
+}
+
+@media April {
+  .c0 {
+    grid-column-align: August;
+  }
+}
+
+@media January {
+  .c0 {
+    grid-column-align: September;
+  }
+}
+
+@media April {
+  .c0 {
+    grid-column-align: November;
+  }
+}
+
+@media June {
+  .c0 {
+    grid-column-align: August;
+  }
+}
+
+@media May {
+
+}
+
+@media April {
+
+}
+
+@media January {
+
+}
+
+@media April {
+
+}
+
+@media June {
+
+}
+
+<div
+    className="c0"
+  />,
+  @media May {
+
+}
+
+@media April {
+
+}
+
+@media January {
+
+}
+
+@media April {
+
+}
+
+@media June {
+
+}
+
+@media May {
+  .c0 {
+    grid-column-align: January;
+  }
+}
+
+@media April {
+  .c0 {
+    grid-column-align: December;
+  }
+}
+
+@media January {
+  .c0 {
+    grid-column-align: April;
+  }
+}
+
+@media April {
+  .c0 {
+    grid-column-align: May;
+  }
+}
+
+@media June {
+  .c0 {
+    grid-column-align: June;
+  }
+}
+
+<div
+    className="c0"
+  />,
+  @media May {
+
+}
+
+@media April {
+
+}
+
+@media January {
+
+}
+
+@media April {
+
+}
+
+@media June {
+
+}
+
+@media May {
+  .c0 {
+    grid-column-align: January;
+  }
+}
+
+@media April {
+  .c0 {
+    grid-column-align: December;
+  }
+}
+
+@media January {
+  .c0 {
+    grid-column-align: April;
+  }
+}
+
+@media April {
+  .c0 {
+    grid-column-align: May;
+  }
+}
+
+@media June {
+  .c0 {
+    grid-column-align: June;
+  }
+}
+
+<div
+    className="c0"
+  />,
+]
+`;
+
+exports[`gridColumnAlign renders postitive number 1`] = `
+Array [
+  .c0 {
+  grid-column-align: 54881;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  grid-column-align: 54881;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  grid-column-align: 42365;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  grid-column-align: 42365;
+}
+
+<div
+    className="c0"
+  />,
+]
+`;
+
+exports[`gridColumnAlign renders string 1`] = `
+Array [
+  .c0 {
+  grid-column-align: July;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  grid-column-align: July;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  grid-column-align: June;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  grid-column-align: June;
+}
+
+<div
+    className="c0"
+  />,
+]
+`;
+
+exports[`gridColumnAlign renders valid theme path 1`] = `
+Array [
+  .c0 {
+  grid-column-align: DarkSlateBlue;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  grid-column-align: DarkSlateBlue;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  grid-column-align: DarkSlateBlue;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  grid-column-align: DarkSlateBlue;
+}
+
+<div
+    className="c0"
+  />,
+]
+`;

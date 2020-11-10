@@ -1,0 +1,626 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`textScript renders 0 1`] = `
+Array [
+  .c0 {
+  text-script: 0;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  text-script: 0;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  text-script: 0;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  text-script: 0;
+}
+
+<div
+    className="c0"
+  />,
+]
+`;
+
+exports[`textScript renders function 1`] = `
+Array [
+  .c0 {
+  text-script: hasnot;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  text-script: has;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  text-script: hasnot;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  text-script: has;
+}
+
+<div
+    className="c0"
+  />,
+]
+`;
+
+exports[`textScript renders invalid theme path 1`] = `
+Array [
+  .c0 {
+  text-script: invalid.path.1;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  text-script: invalid.path.1;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  text-script: invalid.path.1;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  text-script: invalid.path.1;
+}
+
+<div
+    className="c0"
+  />,
+]
+`;
+
+exports[`textScript renders negative number 1`] = `
+Array [
+  .c0 {
+  text-script: -54881;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  text-script: -54881;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  text-script: -42365;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  text-script: -42365;
+}
+
+<div
+    className="c0"
+  />,
+]
+`;
+
+exports[`textScript renders object [breakpoints] 1`] = `
+Array [
+  @media screen and (min-width:November) {
+  .c0 {
+    text-script: July;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    text-script: August;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    text-script: September;
+  }
+}
+
+@media screen and (min-width:August) {
+  .c0 {
+    text-script: November;
+  }
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:August) {
+
+}
+
+<div
+    className="c0"
+  />,
+  @media screen and (min-width:November) {
+  .c0 {
+    text-script: July;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    text-script: August;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    text-script: September;
+  }
+}
+
+@media screen and (min-width:August) {
+  .c0 {
+    text-script: November;
+  }
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:August) {
+
+}
+
+<div
+    className="c0"
+  />,
+  @media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:August) {
+
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    text-script: May;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    text-script: June;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    text-script: April;
+  }
+}
+
+@media screen and (min-width:August) {
+  .c0 {
+    text-script: November;
+  }
+}
+
+<div
+    className="c0"
+  />,
+  @media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:August) {
+
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    text-script: May;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    text-script: June;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    text-script: April;
+  }
+}
+
+@media screen and (min-width:August) {
+  .c0 {
+    text-script: November;
+  }
+}
+
+<div
+    className="c0"
+  />,
+]
+`;
+
+exports[`textScript renders object [breakpoints] 2`] = `
+Array [
+  @media May {
+  .c0 {
+    text-script: July;
+  }
+}
+
+@media April {
+  .c0 {
+    text-script: August;
+  }
+}
+
+@media January {
+  .c0 {
+    text-script: September;
+  }
+}
+
+@media April {
+  .c0 {
+    text-script: November;
+  }
+}
+
+@media June {
+  .c0 {
+    text-script: August;
+  }
+}
+
+@media May {
+
+}
+
+@media April {
+
+}
+
+@media January {
+
+}
+
+@media April {
+
+}
+
+@media June {
+
+}
+
+<div
+    className="c0"
+  />,
+  @media May {
+  .c0 {
+    text-script: July;
+  }
+}
+
+@media April {
+  .c0 {
+    text-script: August;
+  }
+}
+
+@media January {
+  .c0 {
+    text-script: September;
+  }
+}
+
+@media April {
+  .c0 {
+    text-script: November;
+  }
+}
+
+@media June {
+  .c0 {
+    text-script: August;
+  }
+}
+
+@media May {
+
+}
+
+@media April {
+
+}
+
+@media January {
+
+}
+
+@media April {
+
+}
+
+@media June {
+
+}
+
+<div
+    className="c0"
+  />,
+  @media May {
+
+}
+
+@media April {
+
+}
+
+@media January {
+
+}
+
+@media April {
+
+}
+
+@media June {
+
+}
+
+@media May {
+  .c0 {
+    text-script: January;
+  }
+}
+
+@media April {
+  .c0 {
+    text-script: December;
+  }
+}
+
+@media January {
+  .c0 {
+    text-script: April;
+  }
+}
+
+@media April {
+  .c0 {
+    text-script: May;
+  }
+}
+
+@media June {
+  .c0 {
+    text-script: June;
+  }
+}
+
+<div
+    className="c0"
+  />,
+  @media May {
+
+}
+
+@media April {
+
+}
+
+@media January {
+
+}
+
+@media April {
+
+}
+
+@media June {
+
+}
+
+@media May {
+  .c0 {
+    text-script: January;
+  }
+}
+
+@media April {
+  .c0 {
+    text-script: December;
+  }
+}
+
+@media January {
+  .c0 {
+    text-script: April;
+  }
+}
+
+@media April {
+  .c0 {
+    text-script: May;
+  }
+}
+
+@media June {
+  .c0 {
+    text-script: June;
+  }
+}
+
+<div
+    className="c0"
+  />,
+]
+`;
+
+exports[`textScript renders postitive number 1`] = `
+Array [
+  .c0 {
+  text-script: 54881;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  text-script: 54881;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  text-script: 42365;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  text-script: 42365;
+}
+
+<div
+    className="c0"
+  />,
+]
+`;
+
+exports[`textScript renders string 1`] = `
+Array [
+  .c0 {
+  text-script: July;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  text-script: July;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  text-script: June;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  text-script: June;
+}
+
+<div
+    className="c0"
+  />,
+]
+`;
+
+exports[`textScript renders valid theme path 1`] = `
+Array [
+  .c0 {
+  text-script: DarkSlateBlue;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  text-script: DarkSlateBlue;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  text-script: DarkSlateBlue;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  text-script: DarkSlateBlue;
+}
+
+<div
+    className="c0"
+  />,
+]
+`;

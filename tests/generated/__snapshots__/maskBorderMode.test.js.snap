@@ -1,0 +1,690 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`maskBorderMode renders 0 1`] = `
+Array [
+  .c0 {
+  -webkit-mask-border-mode: 0;
+  mask-border-mode: 0;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-mask-border-mode: 0;
+  mask-border-mode: 0;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-mask-border-mode: 0;
+  mask-border-mode: 0;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-mask-border-mode: 0;
+  mask-border-mode: 0;
+}
+
+<div
+    className="c0"
+  />,
+]
+`;
+
+exports[`maskBorderMode renders function 1`] = `
+Array [
+  .c0 {
+  -webkit-mask-border-mode: hasnot;
+  mask-border-mode: hasnot;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-mask-border-mode: has;
+  mask-border-mode: has;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-mask-border-mode: hasnot;
+  mask-border-mode: hasnot;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-mask-border-mode: has;
+  mask-border-mode: has;
+}
+
+<div
+    className="c0"
+  />,
+]
+`;
+
+exports[`maskBorderMode renders invalid theme path 1`] = `
+Array [
+  .c0 {
+  -webkit-mask-border-mode: invalid.path.1;
+  mask-border-mode: invalid.path.1;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-mask-border-mode: invalid.path.1;
+  mask-border-mode: invalid.path.1;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-mask-border-mode: invalid.path.1;
+  mask-border-mode: invalid.path.1;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-mask-border-mode: invalid.path.1;
+  mask-border-mode: invalid.path.1;
+}
+
+<div
+    className="c0"
+  />,
+]
+`;
+
+exports[`maskBorderMode renders negative number 1`] = `
+Array [
+  .c0 {
+  -webkit-mask-border-mode: -54881;
+  mask-border-mode: -54881;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-mask-border-mode: -54881;
+  mask-border-mode: -54881;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-mask-border-mode: -42365;
+  mask-border-mode: -42365;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-mask-border-mode: -42365;
+  mask-border-mode: -42365;
+}
+
+<div
+    className="c0"
+  />,
+]
+`;
+
+exports[`maskBorderMode renders object [breakpoints] 1`] = `
+Array [
+  @media screen and (min-width:November) {
+  .c0 {
+    -webkit-mask-border-mode: July;
+    mask-border-mode: July;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    -webkit-mask-border-mode: August;
+    mask-border-mode: August;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    -webkit-mask-border-mode: September;
+    mask-border-mode: September;
+  }
+}
+
+@media screen and (min-width:August) {
+  .c0 {
+    -webkit-mask-border-mode: November;
+    mask-border-mode: November;
+  }
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:August) {
+
+}
+
+<div
+    className="c0"
+  />,
+  @media screen and (min-width:November) {
+  .c0 {
+    -webkit-mask-border-mode: July;
+    mask-border-mode: July;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    -webkit-mask-border-mode: August;
+    mask-border-mode: August;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    -webkit-mask-border-mode: September;
+    mask-border-mode: September;
+  }
+}
+
+@media screen and (min-width:August) {
+  .c0 {
+    -webkit-mask-border-mode: November;
+    mask-border-mode: November;
+  }
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:August) {
+
+}
+
+<div
+    className="c0"
+  />,
+  @media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:August) {
+
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    -webkit-mask-border-mode: May;
+    mask-border-mode: May;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    -webkit-mask-border-mode: June;
+    mask-border-mode: June;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    -webkit-mask-border-mode: April;
+    mask-border-mode: April;
+  }
+}
+
+@media screen and (min-width:August) {
+  .c0 {
+    -webkit-mask-border-mode: November;
+    mask-border-mode: November;
+  }
+}
+
+<div
+    className="c0"
+  />,
+  @media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:August) {
+
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    -webkit-mask-border-mode: May;
+    mask-border-mode: May;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    -webkit-mask-border-mode: June;
+    mask-border-mode: June;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    -webkit-mask-border-mode: April;
+    mask-border-mode: April;
+  }
+}
+
+@media screen and (min-width:August) {
+  .c0 {
+    -webkit-mask-border-mode: November;
+    mask-border-mode: November;
+  }
+}
+
+<div
+    className="c0"
+  />,
+]
+`;
+
+exports[`maskBorderMode renders object [breakpoints] 2`] = `
+Array [
+  @media May {
+  .c0 {
+    -webkit-mask-border-mode: July;
+    mask-border-mode: July;
+  }
+}
+
+@media April {
+  .c0 {
+    -webkit-mask-border-mode: August;
+    mask-border-mode: August;
+  }
+}
+
+@media January {
+  .c0 {
+    -webkit-mask-border-mode: September;
+    mask-border-mode: September;
+  }
+}
+
+@media April {
+  .c0 {
+    -webkit-mask-border-mode: November;
+    mask-border-mode: November;
+  }
+}
+
+@media June {
+  .c0 {
+    -webkit-mask-border-mode: August;
+    mask-border-mode: August;
+  }
+}
+
+@media May {
+
+}
+
+@media April {
+
+}
+
+@media January {
+
+}
+
+@media April {
+
+}
+
+@media June {
+
+}
+
+<div
+    className="c0"
+  />,
+  @media May {
+  .c0 {
+    -webkit-mask-border-mode: July;
+    mask-border-mode: July;
+  }
+}
+
+@media April {
+  .c0 {
+    -webkit-mask-border-mode: August;
+    mask-border-mode: August;
+  }
+}
+
+@media January {
+  .c0 {
+    -webkit-mask-border-mode: September;
+    mask-border-mode: September;
+  }
+}
+
+@media April {
+  .c0 {
+    -webkit-mask-border-mode: November;
+    mask-border-mode: November;
+  }
+}
+
+@media June {
+  .c0 {
+    -webkit-mask-border-mode: August;
+    mask-border-mode: August;
+  }
+}
+
+@media May {
+
+}
+
+@media April {
+
+}
+
+@media January {
+
+}
+
+@media April {
+
+}
+
+@media June {
+
+}
+
+<div
+    className="c0"
+  />,
+  @media May {
+
+}
+
+@media April {
+
+}
+
+@media January {
+
+}
+
+@media April {
+
+}
+
+@media June {
+
+}
+
+@media May {
+  .c0 {
+    -webkit-mask-border-mode: January;
+    mask-border-mode: January;
+  }
+}
+
+@media April {
+  .c0 {
+    -webkit-mask-border-mode: December;
+    mask-border-mode: December;
+  }
+}
+
+@media January {
+  .c0 {
+    -webkit-mask-border-mode: April;
+    mask-border-mode: April;
+  }
+}
+
+@media April {
+  .c0 {
+    -webkit-mask-border-mode: May;
+    mask-border-mode: May;
+  }
+}
+
+@media June {
+  .c0 {
+    -webkit-mask-border-mode: June;
+    mask-border-mode: June;
+  }
+}
+
+<div
+    className="c0"
+  />,
+  @media May {
+
+}
+
+@media April {
+
+}
+
+@media January {
+
+}
+
+@media April {
+
+}
+
+@media June {
+
+}
+
+@media May {
+  .c0 {
+    -webkit-mask-border-mode: January;
+    mask-border-mode: January;
+  }
+}
+
+@media April {
+  .c0 {
+    -webkit-mask-border-mode: December;
+    mask-border-mode: December;
+  }
+}
+
+@media January {
+  .c0 {
+    -webkit-mask-border-mode: April;
+    mask-border-mode: April;
+  }
+}
+
+@media April {
+  .c0 {
+    -webkit-mask-border-mode: May;
+    mask-border-mode: May;
+  }
+}
+
+@media June {
+  .c0 {
+    -webkit-mask-border-mode: June;
+    mask-border-mode: June;
+  }
+}
+
+<div
+    className="c0"
+  />,
+]
+`;
+
+exports[`maskBorderMode renders postitive number 1`] = `
+Array [
+  .c0 {
+  -webkit-mask-border-mode: 54881;
+  mask-border-mode: 54881;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-mask-border-mode: 54881;
+  mask-border-mode: 54881;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-mask-border-mode: 42365;
+  mask-border-mode: 42365;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-mask-border-mode: 42365;
+  mask-border-mode: 42365;
+}
+
+<div
+    className="c0"
+  />,
+]
+`;
+
+exports[`maskBorderMode renders string 1`] = `
+Array [
+  .c0 {
+  -webkit-mask-border-mode: July;
+  mask-border-mode: July;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-mask-border-mode: July;
+  mask-border-mode: July;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-mask-border-mode: June;
+  mask-border-mode: June;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-mask-border-mode: June;
+  mask-border-mode: June;
+}
+
+<div
+    className="c0"
+  />,
+]
+`;
+
+exports[`maskBorderMode renders valid theme path 1`] = `
+Array [
+  .c0 {
+  -webkit-mask-border-mode: DarkSlateBlue;
+  mask-border-mode: DarkSlateBlue;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-mask-border-mode: DarkSlateBlue;
+  mask-border-mode: DarkSlateBlue;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-mask-border-mode: DarkSlateBlue;
+  mask-border-mode: DarkSlateBlue;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-mask-border-mode: DarkSlateBlue;
+  mask-border-mode: DarkSlateBlue;
+}
+
+<div
+    className="c0"
+  />,
+]
+`;

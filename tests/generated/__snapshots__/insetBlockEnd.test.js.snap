@@ -1,0 +1,746 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`insetBlockEnd renders 0 1`] = `
+Array [
+  .c0 {
+  -webkit-inset-block-end: 0;
+  -ms-inlrock-end: 0;
+  inset-block-end: 0;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-inset-block-end: 0;
+  -ms-inlrock-end: 0;
+  inset-block-end: 0;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-inset-block-end: 0;
+  -ms-inlrock-end: 0;
+  inset-block-end: 0;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-inset-block-end: 0;
+  -ms-inlrock-end: 0;
+  inset-block-end: 0;
+}
+
+<div
+    className="c0"
+  />,
+]
+`;
+
+exports[`insetBlockEnd renders function 1`] = `
+Array [
+  .c0 {
+  -webkit-inset-block-end: hasnot;
+  -ms-inlrock-end: hasnot;
+  inset-block-end: hasnot;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-inset-block-end: has;
+  -ms-inlrock-end: has;
+  inset-block-end: has;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-inset-block-end: hasnot;
+  -ms-inlrock-end: hasnot;
+  inset-block-end: hasnot;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-inset-block-end: has;
+  -ms-inlrock-end: has;
+  inset-block-end: has;
+}
+
+<div
+    className="c0"
+  />,
+]
+`;
+
+exports[`insetBlockEnd renders invalid theme path 1`] = `
+Array [
+  .c0 {
+  -webkit-inset-block-end: invalid.path.1;
+  -ms-inlrock-end: invalid.path.1;
+  inset-block-end: invalid.path.1;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-inset-block-end: invalid.path.1;
+  -ms-inlrock-end: invalid.path.1;
+  inset-block-end: invalid.path.1;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-inset-block-end: invalid.path.1;
+  -ms-inlrock-end: invalid.path.1;
+  inset-block-end: invalid.path.1;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-inset-block-end: invalid.path.1;
+  -ms-inlrock-end: invalid.path.1;
+  inset-block-end: invalid.path.1;
+}
+
+<div
+    className="c0"
+  />,
+]
+`;
+
+exports[`insetBlockEnd renders negative number 1`] = `
+Array [
+  .c0 {
+  inset-block-end: -54881;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  inset-block-end: -54881;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  inset-block-end: -42365;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  inset-block-end: -42365;
+}
+
+<div
+    className="c0"
+  />,
+]
+`;
+
+exports[`insetBlockEnd renders object [breakpoints] 1`] = `
+Array [
+  @media screen and (min-width:November) {
+  .c0 {
+    -webkit-inset-block-end: July;
+    -ms-inlrock-end: July;
+    inset-block-end: July;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    -webkit-inset-block-end: August;
+    -ms-inlrock-end: August;
+    inset-block-end: August;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    -webkit-inset-block-end: September;
+    -ms-inlrock-end: September;
+    inset-block-end: September;
+  }
+}
+
+@media screen and (min-width:August) {
+  .c0 {
+    -webkit-inset-block-end: November;
+    -ms-inlrock-end: November;
+    inset-block-end: November;
+  }
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:August) {
+
+}
+
+<div
+    className="c0"
+  />,
+  @media screen and (min-width:November) {
+  .c0 {
+    -webkit-inset-block-end: July;
+    -ms-inlrock-end: July;
+    inset-block-end: July;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    -webkit-inset-block-end: August;
+    -ms-inlrock-end: August;
+    inset-block-end: August;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    -webkit-inset-block-end: September;
+    -ms-inlrock-end: September;
+    inset-block-end: September;
+  }
+}
+
+@media screen and (min-width:August) {
+  .c0 {
+    -webkit-inset-block-end: November;
+    -ms-inlrock-end: November;
+    inset-block-end: November;
+  }
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:August) {
+
+}
+
+<div
+    className="c0"
+  />,
+  @media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:August) {
+
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    -webkit-inset-block-end: May;
+    -ms-inlrock-end: May;
+    inset-block-end: May;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    -webkit-inset-block-end: June;
+    -ms-inlrock-end: June;
+    inset-block-end: June;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    -webkit-inset-block-end: April;
+    -ms-inlrock-end: April;
+    inset-block-end: April;
+  }
+}
+
+@media screen and (min-width:August) {
+  .c0 {
+    -webkit-inset-block-end: November;
+    -ms-inlrock-end: November;
+    inset-block-end: November;
+  }
+}
+
+<div
+    className="c0"
+  />,
+  @media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:August) {
+
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    -webkit-inset-block-end: May;
+    -ms-inlrock-end: May;
+    inset-block-end: May;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    -webkit-inset-block-end: June;
+    -ms-inlrock-end: June;
+    inset-block-end: June;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    -webkit-inset-block-end: April;
+    -ms-inlrock-end: April;
+    inset-block-end: April;
+  }
+}
+
+@media screen and (min-width:August) {
+  .c0 {
+    -webkit-inset-block-end: November;
+    -ms-inlrock-end: November;
+    inset-block-end: November;
+  }
+}
+
+<div
+    className="c0"
+  />,
+]
+`;
+
+exports[`insetBlockEnd renders object [breakpoints] 2`] = `
+Array [
+  @media May {
+  .c0 {
+    -webkit-inset-block-end: July;
+    -ms-inlrock-end: July;
+    inset-block-end: July;
+  }
+}
+
+@media April {
+  .c0 {
+    -webkit-inset-block-end: August;
+    -ms-inlrock-end: August;
+    inset-block-end: August;
+  }
+}
+
+@media January {
+  .c0 {
+    -webkit-inset-block-end: September;
+    -ms-inlrock-end: September;
+    inset-block-end: September;
+  }
+}
+
+@media April {
+  .c0 {
+    -webkit-inset-block-end: November;
+    -ms-inlrock-end: November;
+    inset-block-end: November;
+  }
+}
+
+@media June {
+  .c0 {
+    -webkit-inset-block-end: August;
+    -ms-inlrock-end: August;
+    inset-block-end: August;
+  }
+}
+
+@media May {
+
+}
+
+@media April {
+
+}
+
+@media January {
+
+}
+
+@media April {
+
+}
+
+@media June {
+
+}
+
+<div
+    className="c0"
+  />,
+  @media May {
+  .c0 {
+    -webkit-inset-block-end: July;
+    -ms-inlrock-end: July;
+    inset-block-end: July;
+  }
+}
+
+@media April {
+  .c0 {
+    -webkit-inset-block-end: August;
+    -ms-inlrock-end: August;
+    inset-block-end: August;
+  }
+}
+
+@media January {
+  .c0 {
+    -webkit-inset-block-end: September;
+    -ms-inlrock-end: September;
+    inset-block-end: September;
+  }
+}
+
+@media April {
+  .c0 {
+    -webkit-inset-block-end: November;
+    -ms-inlrock-end: November;
+    inset-block-end: November;
+  }
+}
+
+@media June {
+  .c0 {
+    -webkit-inset-block-end: August;
+    -ms-inlrock-end: August;
+    inset-block-end: August;
+  }
+}
+
+@media May {
+
+}
+
+@media April {
+
+}
+
+@media January {
+
+}
+
+@media April {
+
+}
+
+@media June {
+
+}
+
+<div
+    className="c0"
+  />,
+  @media May {
+
+}
+
+@media April {
+
+}
+
+@media January {
+
+}
+
+@media April {
+
+}
+
+@media June {
+
+}
+
+@media May {
+  .c0 {
+    -webkit-inset-block-end: January;
+    -ms-inlrock-end: January;
+    inset-block-end: January;
+  }
+}
+
+@media April {
+  .c0 {
+    -webkit-inset-block-end: December;
+    -ms-inlrock-end: December;
+    inset-block-end: December;
+  }
+}
+
+@media January {
+  .c0 {
+    -webkit-inset-block-end: April;
+    -ms-inlrock-end: April;
+    inset-block-end: April;
+  }
+}
+
+@media April {
+  .c0 {
+    -webkit-inset-block-end: May;
+    -ms-inlrock-end: May;
+    inset-block-end: May;
+  }
+}
+
+@media June {
+  .c0 {
+    -webkit-inset-block-end: June;
+    -ms-inlrock-end: June;
+    inset-block-end: June;
+  }
+}
+
+<div
+    className="c0"
+  />,
+  @media May {
+
+}
+
+@media April {
+
+}
+
+@media January {
+
+}
+
+@media April {
+
+}
+
+@media June {
+
+}
+
+@media May {
+  .c0 {
+    -webkit-inset-block-end: January;
+    -ms-inlrock-end: January;
+    inset-block-end: January;
+  }
+}
+
+@media April {
+  .c0 {
+    -webkit-inset-block-end: December;
+    -ms-inlrock-end: December;
+    inset-block-end: December;
+  }
+}
+
+@media January {
+  .c0 {
+    -webkit-inset-block-end: April;
+    -ms-inlrock-end: April;
+    inset-block-end: April;
+  }
+}
+
+@media April {
+  .c0 {
+    -webkit-inset-block-end: May;
+    -ms-inlrock-end: May;
+    inset-block-end: May;
+  }
+}
+
+@media June {
+  .c0 {
+    -webkit-inset-block-end: June;
+    -ms-inlrock-end: June;
+    inset-block-end: June;
+  }
+}
+
+<div
+    className="c0"
+  />,
+]
+`;
+
+exports[`insetBlockEnd renders postitive number 1`] = `
+Array [
+  .c0 {
+  -webkit-inset-block-end: 54881;
+  -ms-inlrock-end: 54881;
+  inset-block-end: 54881;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-inset-block-end: 54881;
+  -ms-inlrock-end: 54881;
+  inset-block-end: 54881;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-inset-block-end: 42365;
+  -ms-inlrock-end: 42365;
+  inset-block-end: 42365;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-inset-block-end: 42365;
+  -ms-inlrock-end: 42365;
+  inset-block-end: 42365;
+}
+
+<div
+    className="c0"
+  />,
+]
+`;
+
+exports[`insetBlockEnd renders string 1`] = `
+Array [
+  .c0 {
+  -webkit-inset-block-end: July;
+  -ms-inlrock-end: July;
+  inset-block-end: July;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-inset-block-end: July;
+  -ms-inlrock-end: July;
+  inset-block-end: July;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-inset-block-end: June;
+  -ms-inlrock-end: June;
+  inset-block-end: June;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-inset-block-end: June;
+  -ms-inlrock-end: June;
+  inset-block-end: June;
+}
+
+<div
+    className="c0"
+  />,
+]
+`;
+
+exports[`insetBlockEnd renders valid theme path 1`] = `
+Array [
+  .c0 {
+  -webkit-inset-block-end: DarkSlateBlue;
+  -ms-inlrock-end: DarkSlateBlue;
+  inset-block-end: DarkSlateBlue;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-inset-block-end: DarkSlateBlue;
+  -ms-inlrock-end: DarkSlateBlue;
+  inset-block-end: DarkSlateBlue;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-inset-block-end: DarkSlateBlue;
+  -ms-inlrock-end: DarkSlateBlue;
+  inset-block-end: DarkSlateBlue;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-inset-block-end: DarkSlateBlue;
+  -ms-inlrock-end: DarkSlateBlue;
+  inset-block-end: DarkSlateBlue;
+}
+
+<div
+    className="c0"
+  />,
+]
+`;

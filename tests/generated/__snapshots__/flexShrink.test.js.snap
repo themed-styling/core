@@ -1,0 +1,754 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`flexShrink renders 0 1`] = `
+Array [
+  .c0 {
+  -webkit-flex-shrink: 0;
+  -ms-flex-negative: 0;
+  flex-shrink: 0;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-flex-shrink: 0;
+  -ms-flex-negative: 0;
+  flex-shrink: 0;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-flex-shrink: 0;
+  -ms-flex-negative: 0;
+  flex-shrink: 0;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-flex-shrink: 0;
+  -ms-flex-negative: 0;
+  flex-shrink: 0;
+}
+
+<div
+    className="c0"
+  />,
+]
+`;
+
+exports[`flexShrink renders function 1`] = `
+Array [
+  .c0 {
+  -webkit-flex-shrink: hasnot;
+  -ms-flex-negative: hasnot;
+  flex-shrink: hasnot;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-flex-shrink: has;
+  -ms-flex-negative: has;
+  flex-shrink: has;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-flex-shrink: hasnot;
+  -ms-flex-negative: hasnot;
+  flex-shrink: hasnot;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-flex-shrink: has;
+  -ms-flex-negative: has;
+  flex-shrink: has;
+}
+
+<div
+    className="c0"
+  />,
+]
+`;
+
+exports[`flexShrink renders invalid theme path 1`] = `
+Array [
+  .c0 {
+  -webkit-flex-shrink: invalid.path.1;
+  -ms-flex-negative: invalid.path.1;
+  flex-shrink: invalid.path.1;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-flex-shrink: invalid.path.1;
+  -ms-flex-negative: invalid.path.1;
+  flex-shrink: invalid.path.1;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-flex-shrink: invalid.path.1;
+  -ms-flex-negative: invalid.path.1;
+  flex-shrink: invalid.path.1;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-flex-shrink: invalid.path.1;
+  -ms-flex-negative: invalid.path.1;
+  flex-shrink: invalid.path.1;
+}
+
+<div
+    className="c0"
+  />,
+]
+`;
+
+exports[`flexShrink renders negative number 1`] = `
+Array [
+  .c0 {
+  -webkit-flex-shrink: -54881;
+  -ms-flex-negative: -54881;
+  flex-shrink: -54881;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-flex-shrink: -54881;
+  -ms-flex-negative: -54881;
+  flex-shrink: -54881;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-flex-shrink: -42365;
+  -ms-flex-negative: -42365;
+  flex-shrink: -42365;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-flex-shrink: -42365;
+  -ms-flex-negative: -42365;
+  flex-shrink: -42365;
+}
+
+<div
+    className="c0"
+  />,
+]
+`;
+
+exports[`flexShrink renders object [breakpoints] 1`] = `
+Array [
+  @media screen and (min-width:November) {
+  .c0 {
+    -webkit-flex-shrink: July;
+    -ms-flex-negative: July;
+    flex-shrink: July;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    -webkit-flex-shrink: August;
+    -ms-flex-negative: August;
+    flex-shrink: August;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    -webkit-flex-shrink: September;
+    -ms-flex-negative: September;
+    flex-shrink: September;
+  }
+}
+
+@media screen and (min-width:August) {
+  .c0 {
+    -webkit-flex-shrink: November;
+    -ms-flex-negative: November;
+    flex-shrink: November;
+  }
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:August) {
+
+}
+
+<div
+    className="c0"
+  />,
+  @media screen and (min-width:November) {
+  .c0 {
+    -webkit-flex-shrink: July;
+    -ms-flex-negative: July;
+    flex-shrink: July;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    -webkit-flex-shrink: August;
+    -ms-flex-negative: August;
+    flex-shrink: August;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    -webkit-flex-shrink: September;
+    -ms-flex-negative: September;
+    flex-shrink: September;
+  }
+}
+
+@media screen and (min-width:August) {
+  .c0 {
+    -webkit-flex-shrink: November;
+    -ms-flex-negative: November;
+    flex-shrink: November;
+  }
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:August) {
+
+}
+
+<div
+    className="c0"
+  />,
+  @media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:August) {
+
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    -webkit-flex-shrink: May;
+    -ms-flex-negative: May;
+    flex-shrink: May;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    -webkit-flex-shrink: June;
+    -ms-flex-negative: June;
+    flex-shrink: June;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    -webkit-flex-shrink: April;
+    -ms-flex-negative: April;
+    flex-shrink: April;
+  }
+}
+
+@media screen and (min-width:August) {
+  .c0 {
+    -webkit-flex-shrink: November;
+    -ms-flex-negative: November;
+    flex-shrink: November;
+  }
+}
+
+<div
+    className="c0"
+  />,
+  @media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:August) {
+
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    -webkit-flex-shrink: May;
+    -ms-flex-negative: May;
+    flex-shrink: May;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    -webkit-flex-shrink: June;
+    -ms-flex-negative: June;
+    flex-shrink: June;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    -webkit-flex-shrink: April;
+    -ms-flex-negative: April;
+    flex-shrink: April;
+  }
+}
+
+@media screen and (min-width:August) {
+  .c0 {
+    -webkit-flex-shrink: November;
+    -ms-flex-negative: November;
+    flex-shrink: November;
+  }
+}
+
+<div
+    className="c0"
+  />,
+]
+`;
+
+exports[`flexShrink renders object [breakpoints] 2`] = `
+Array [
+  @media May {
+  .c0 {
+    -webkit-flex-shrink: July;
+    -ms-flex-negative: July;
+    flex-shrink: July;
+  }
+}
+
+@media April {
+  .c0 {
+    -webkit-flex-shrink: August;
+    -ms-flex-negative: August;
+    flex-shrink: August;
+  }
+}
+
+@media January {
+  .c0 {
+    -webkit-flex-shrink: September;
+    -ms-flex-negative: September;
+    flex-shrink: September;
+  }
+}
+
+@media April {
+  .c0 {
+    -webkit-flex-shrink: November;
+    -ms-flex-negative: November;
+    flex-shrink: November;
+  }
+}
+
+@media June {
+  .c0 {
+    -webkit-flex-shrink: August;
+    -ms-flex-negative: August;
+    flex-shrink: August;
+  }
+}
+
+@media May {
+
+}
+
+@media April {
+
+}
+
+@media January {
+
+}
+
+@media April {
+
+}
+
+@media June {
+
+}
+
+<div
+    className="c0"
+  />,
+  @media May {
+  .c0 {
+    -webkit-flex-shrink: July;
+    -ms-flex-negative: July;
+    flex-shrink: July;
+  }
+}
+
+@media April {
+  .c0 {
+    -webkit-flex-shrink: August;
+    -ms-flex-negative: August;
+    flex-shrink: August;
+  }
+}
+
+@media January {
+  .c0 {
+    -webkit-flex-shrink: September;
+    -ms-flex-negative: September;
+    flex-shrink: September;
+  }
+}
+
+@media April {
+  .c0 {
+    -webkit-flex-shrink: November;
+    -ms-flex-negative: November;
+    flex-shrink: November;
+  }
+}
+
+@media June {
+  .c0 {
+    -webkit-flex-shrink: August;
+    -ms-flex-negative: August;
+    flex-shrink: August;
+  }
+}
+
+@media May {
+
+}
+
+@media April {
+
+}
+
+@media January {
+
+}
+
+@media April {
+
+}
+
+@media June {
+
+}
+
+<div
+    className="c0"
+  />,
+  @media May {
+
+}
+
+@media April {
+
+}
+
+@media January {
+
+}
+
+@media April {
+
+}
+
+@media June {
+
+}
+
+@media May {
+  .c0 {
+    -webkit-flex-shrink: January;
+    -ms-flex-negative: January;
+    flex-shrink: January;
+  }
+}
+
+@media April {
+  .c0 {
+    -webkit-flex-shrink: December;
+    -ms-flex-negative: December;
+    flex-shrink: December;
+  }
+}
+
+@media January {
+  .c0 {
+    -webkit-flex-shrink: April;
+    -ms-flex-negative: April;
+    flex-shrink: April;
+  }
+}
+
+@media April {
+  .c0 {
+    -webkit-flex-shrink: May;
+    -ms-flex-negative: May;
+    flex-shrink: May;
+  }
+}
+
+@media June {
+  .c0 {
+    -webkit-flex-shrink: June;
+    -ms-flex-negative: June;
+    flex-shrink: June;
+  }
+}
+
+<div
+    className="c0"
+  />,
+  @media May {
+
+}
+
+@media April {
+
+}
+
+@media January {
+
+}
+
+@media April {
+
+}
+
+@media June {
+
+}
+
+@media May {
+  .c0 {
+    -webkit-flex-shrink: January;
+    -ms-flex-negative: January;
+    flex-shrink: January;
+  }
+}
+
+@media April {
+  .c0 {
+    -webkit-flex-shrink: December;
+    -ms-flex-negative: December;
+    flex-shrink: December;
+  }
+}
+
+@media January {
+  .c0 {
+    -webkit-flex-shrink: April;
+    -ms-flex-negative: April;
+    flex-shrink: April;
+  }
+}
+
+@media April {
+  .c0 {
+    -webkit-flex-shrink: May;
+    -ms-flex-negative: May;
+    flex-shrink: May;
+  }
+}
+
+@media June {
+  .c0 {
+    -webkit-flex-shrink: June;
+    -ms-flex-negative: June;
+    flex-shrink: June;
+  }
+}
+
+<div
+    className="c0"
+  />,
+]
+`;
+
+exports[`flexShrink renders postitive number 1`] = `
+Array [
+  .c0 {
+  -webkit-flex-shrink: 54881;
+  -ms-flex-negative: 54881;
+  flex-shrink: 54881;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-flex-shrink: 54881;
+  -ms-flex-negative: 54881;
+  flex-shrink: 54881;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-flex-shrink: 42365;
+  -ms-flex-negative: 42365;
+  flex-shrink: 42365;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-flex-shrink: 42365;
+  -ms-flex-negative: 42365;
+  flex-shrink: 42365;
+}
+
+<div
+    className="c0"
+  />,
+]
+`;
+
+exports[`flexShrink renders string 1`] = `
+Array [
+  .c0 {
+  -webkit-flex-shrink: July;
+  -ms-flex-negative: July;
+  flex-shrink: July;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-flex-shrink: July;
+  -ms-flex-negative: July;
+  flex-shrink: July;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-flex-shrink: June;
+  -ms-flex-negative: June;
+  flex-shrink: June;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-flex-shrink: June;
+  -ms-flex-negative: June;
+  flex-shrink: June;
+}
+
+<div
+    className="c0"
+  />,
+]
+`;
+
+exports[`flexShrink renders valid theme path 1`] = `
+Array [
+  .c0 {
+  -webkit-flex-shrink: DarkSlateBlue;
+  -ms-flex-negative: DarkSlateBlue;
+  flex-shrink: DarkSlateBlue;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-flex-shrink: DarkSlateBlue;
+  -ms-flex-negative: DarkSlateBlue;
+  flex-shrink: DarkSlateBlue;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-flex-shrink: DarkSlateBlue;
+  -ms-flex-negative: DarkSlateBlue;
+  flex-shrink: DarkSlateBlue;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-flex-shrink: DarkSlateBlue;
+  -ms-flex-negative: DarkSlateBlue;
+  flex-shrink: DarkSlateBlue;
+}
+
+<div
+    className="c0"
+  />,
+]
+`;

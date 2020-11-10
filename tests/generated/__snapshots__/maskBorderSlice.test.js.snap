@@ -1,0 +1,690 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`maskBorderSlice renders 0 1`] = `
+Array [
+  .c0 {
+  -webkit-mask-border-slice: 0;
+  mask-border-slice: 0;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-mask-border-slice: 0;
+  mask-border-slice: 0;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-mask-border-slice: 0;
+  mask-border-slice: 0;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-mask-border-slice: 0;
+  mask-border-slice: 0;
+}
+
+<div
+    className="c0"
+  />,
+]
+`;
+
+exports[`maskBorderSlice renders function 1`] = `
+Array [
+  .c0 {
+  -webkit-mask-border-slice: hasnot;
+  mask-border-slice: hasnot;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-mask-border-slice: has;
+  mask-border-slice: has;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-mask-border-slice: hasnot;
+  mask-border-slice: hasnot;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-mask-border-slice: has;
+  mask-border-slice: has;
+}
+
+<div
+    className="c0"
+  />,
+]
+`;
+
+exports[`maskBorderSlice renders invalid theme path 1`] = `
+Array [
+  .c0 {
+  -webkit-mask-border-slice: invalid.path.1;
+  mask-border-slice: invalid.path.1;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-mask-border-slice: invalid.path.1;
+  mask-border-slice: invalid.path.1;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-mask-border-slice: invalid.path.1;
+  mask-border-slice: invalid.path.1;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-mask-border-slice: invalid.path.1;
+  mask-border-slice: invalid.path.1;
+}
+
+<div
+    className="c0"
+  />,
+]
+`;
+
+exports[`maskBorderSlice renders negative number 1`] = `
+Array [
+  .c0 {
+  -webkit-mask-border-slice: -54881;
+  mask-border-slice: -54881;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-mask-border-slice: -54881;
+  mask-border-slice: -54881;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-mask-border-slice: -42365;
+  mask-border-slice: -42365;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-mask-border-slice: -42365;
+  mask-border-slice: -42365;
+}
+
+<div
+    className="c0"
+  />,
+]
+`;
+
+exports[`maskBorderSlice renders object [breakpoints] 1`] = `
+Array [
+  @media screen and (min-width:November) {
+  .c0 {
+    -webkit-mask-border-slice: July;
+    mask-border-slice: July;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    -webkit-mask-border-slice: August;
+    mask-border-slice: August;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    -webkit-mask-border-slice: September;
+    mask-border-slice: September;
+  }
+}
+
+@media screen and (min-width:August) {
+  .c0 {
+    -webkit-mask-border-slice: November;
+    mask-border-slice: November;
+  }
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:August) {
+
+}
+
+<div
+    className="c0"
+  />,
+  @media screen and (min-width:November) {
+  .c0 {
+    -webkit-mask-border-slice: July;
+    mask-border-slice: July;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    -webkit-mask-border-slice: August;
+    mask-border-slice: August;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    -webkit-mask-border-slice: September;
+    mask-border-slice: September;
+  }
+}
+
+@media screen and (min-width:August) {
+  .c0 {
+    -webkit-mask-border-slice: November;
+    mask-border-slice: November;
+  }
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:August) {
+
+}
+
+<div
+    className="c0"
+  />,
+  @media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:August) {
+
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    -webkit-mask-border-slice: May;
+    mask-border-slice: May;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    -webkit-mask-border-slice: June;
+    mask-border-slice: June;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    -webkit-mask-border-slice: April;
+    mask-border-slice: April;
+  }
+}
+
+@media screen and (min-width:August) {
+  .c0 {
+    -webkit-mask-border-slice: November;
+    mask-border-slice: November;
+  }
+}
+
+<div
+    className="c0"
+  />,
+  @media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:August) {
+
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    -webkit-mask-border-slice: May;
+    mask-border-slice: May;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    -webkit-mask-border-slice: June;
+    mask-border-slice: June;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    -webkit-mask-border-slice: April;
+    mask-border-slice: April;
+  }
+}
+
+@media screen and (min-width:August) {
+  .c0 {
+    -webkit-mask-border-slice: November;
+    mask-border-slice: November;
+  }
+}
+
+<div
+    className="c0"
+  />,
+]
+`;
+
+exports[`maskBorderSlice renders object [breakpoints] 2`] = `
+Array [
+  @media May {
+  .c0 {
+    -webkit-mask-border-slice: July;
+    mask-border-slice: July;
+  }
+}
+
+@media April {
+  .c0 {
+    -webkit-mask-border-slice: August;
+    mask-border-slice: August;
+  }
+}
+
+@media January {
+  .c0 {
+    -webkit-mask-border-slice: September;
+    mask-border-slice: September;
+  }
+}
+
+@media April {
+  .c0 {
+    -webkit-mask-border-slice: November;
+    mask-border-slice: November;
+  }
+}
+
+@media June {
+  .c0 {
+    -webkit-mask-border-slice: August;
+    mask-border-slice: August;
+  }
+}
+
+@media May {
+
+}
+
+@media April {
+
+}
+
+@media January {
+
+}
+
+@media April {
+
+}
+
+@media June {
+
+}
+
+<div
+    className="c0"
+  />,
+  @media May {
+  .c0 {
+    -webkit-mask-border-slice: July;
+    mask-border-slice: July;
+  }
+}
+
+@media April {
+  .c0 {
+    -webkit-mask-border-slice: August;
+    mask-border-slice: August;
+  }
+}
+
+@media January {
+  .c0 {
+    -webkit-mask-border-slice: September;
+    mask-border-slice: September;
+  }
+}
+
+@media April {
+  .c0 {
+    -webkit-mask-border-slice: November;
+    mask-border-slice: November;
+  }
+}
+
+@media June {
+  .c0 {
+    -webkit-mask-border-slice: August;
+    mask-border-slice: August;
+  }
+}
+
+@media May {
+
+}
+
+@media April {
+
+}
+
+@media January {
+
+}
+
+@media April {
+
+}
+
+@media June {
+
+}
+
+<div
+    className="c0"
+  />,
+  @media May {
+
+}
+
+@media April {
+
+}
+
+@media January {
+
+}
+
+@media April {
+
+}
+
+@media June {
+
+}
+
+@media May {
+  .c0 {
+    -webkit-mask-border-slice: January;
+    mask-border-slice: January;
+  }
+}
+
+@media April {
+  .c0 {
+    -webkit-mask-border-slice: December;
+    mask-border-slice: December;
+  }
+}
+
+@media January {
+  .c0 {
+    -webkit-mask-border-slice: April;
+    mask-border-slice: April;
+  }
+}
+
+@media April {
+  .c0 {
+    -webkit-mask-border-slice: May;
+    mask-border-slice: May;
+  }
+}
+
+@media June {
+  .c0 {
+    -webkit-mask-border-slice: June;
+    mask-border-slice: June;
+  }
+}
+
+<div
+    className="c0"
+  />,
+  @media May {
+
+}
+
+@media April {
+
+}
+
+@media January {
+
+}
+
+@media April {
+
+}
+
+@media June {
+
+}
+
+@media May {
+  .c0 {
+    -webkit-mask-border-slice: January;
+    mask-border-slice: January;
+  }
+}
+
+@media April {
+  .c0 {
+    -webkit-mask-border-slice: December;
+    mask-border-slice: December;
+  }
+}
+
+@media January {
+  .c0 {
+    -webkit-mask-border-slice: April;
+    mask-border-slice: April;
+  }
+}
+
+@media April {
+  .c0 {
+    -webkit-mask-border-slice: May;
+    mask-border-slice: May;
+  }
+}
+
+@media June {
+  .c0 {
+    -webkit-mask-border-slice: June;
+    mask-border-slice: June;
+  }
+}
+
+<div
+    className="c0"
+  />,
+]
+`;
+
+exports[`maskBorderSlice renders postitive number 1`] = `
+Array [
+  .c0 {
+  -webkit-mask-border-slice: 54881;
+  mask-border-slice: 54881;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-mask-border-slice: 54881;
+  mask-border-slice: 54881;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-mask-border-slice: 42365;
+  mask-border-slice: 42365;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-mask-border-slice: 42365;
+  mask-border-slice: 42365;
+}
+
+<div
+    className="c0"
+  />,
+]
+`;
+
+exports[`maskBorderSlice renders string 1`] = `
+Array [
+  .c0 {
+  -webkit-mask-border-slice: July;
+  mask-border-slice: July;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-mask-border-slice: July;
+  mask-border-slice: July;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-mask-border-slice: June;
+  mask-border-slice: June;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-mask-border-slice: June;
+  mask-border-slice: June;
+}
+
+<div
+    className="c0"
+  />,
+]
+`;
+
+exports[`maskBorderSlice renders valid theme path 1`] = `
+Array [
+  .c0 {
+  -webkit-mask-border-slice: DarkSlateBlue;
+  mask-border-slice: DarkSlateBlue;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-mask-border-slice: DarkSlateBlue;
+  mask-border-slice: DarkSlateBlue;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-mask-border-slice: DarkSlateBlue;
+  mask-border-slice: DarkSlateBlue;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-mask-border-slice: DarkSlateBlue;
+  mask-border-slice: DarkSlateBlue;
+}
+
+<div
+    className="c0"
+  />,
+]
+`;

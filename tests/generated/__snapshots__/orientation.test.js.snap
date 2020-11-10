@@ -1,0 +1,626 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`orientation renders 0 1`] = `
+Array [
+  .c0 {
+  orientation: 0;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  orientation: 0;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  orientation: 0;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  orientation: 0;
+}
+
+<div
+    className="c0"
+  />,
+]
+`;
+
+exports[`orientation renders function 1`] = `
+Array [
+  .c0 {
+  orientation: hasnot;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  orientation: has;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  orientation: hasnot;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  orientation: has;
+}
+
+<div
+    className="c0"
+  />,
+]
+`;
+
+exports[`orientation renders invalid theme path 1`] = `
+Array [
+  .c0 {
+  orientation: invalid.path.1;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  orientation: invalid.path.1;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  orientation: invalid.path.1;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  orientation: invalid.path.1;
+}
+
+<div
+    className="c0"
+  />,
+]
+`;
+
+exports[`orientation renders negative number 1`] = `
+Array [
+  .c0 {
+  orientation: -54881;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  orientation: -54881;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  orientation: -42365;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  orientation: -42365;
+}
+
+<div
+    className="c0"
+  />,
+]
+`;
+
+exports[`orientation renders object [breakpoints] 1`] = `
+Array [
+  @media screen and (min-width:November) {
+  .c0 {
+    orientation: July;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    orientation: August;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    orientation: September;
+  }
+}
+
+@media screen and (min-width:August) {
+  .c0 {
+    orientation: November;
+  }
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:August) {
+
+}
+
+<div
+    className="c0"
+  />,
+  @media screen and (min-width:November) {
+  .c0 {
+    orientation: July;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    orientation: August;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    orientation: September;
+  }
+}
+
+@media screen and (min-width:August) {
+  .c0 {
+    orientation: November;
+  }
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:August) {
+
+}
+
+<div
+    className="c0"
+  />,
+  @media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:August) {
+
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    orientation: May;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    orientation: June;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    orientation: April;
+  }
+}
+
+@media screen and (min-width:August) {
+  .c0 {
+    orientation: November;
+  }
+}
+
+<div
+    className="c0"
+  />,
+  @media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:August) {
+
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    orientation: May;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    orientation: June;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    orientation: April;
+  }
+}
+
+@media screen and (min-width:August) {
+  .c0 {
+    orientation: November;
+  }
+}
+
+<div
+    className="c0"
+  />,
+]
+`;
+
+exports[`orientation renders object [breakpoints] 2`] = `
+Array [
+  @media May {
+  .c0 {
+    orientation: July;
+  }
+}
+
+@media April {
+  .c0 {
+    orientation: August;
+  }
+}
+
+@media January {
+  .c0 {
+    orientation: September;
+  }
+}
+
+@media April {
+  .c0 {
+    orientation: November;
+  }
+}
+
+@media June {
+  .c0 {
+    orientation: August;
+  }
+}
+
+@media May {
+
+}
+
+@media April {
+
+}
+
+@media January {
+
+}
+
+@media April {
+
+}
+
+@media June {
+
+}
+
+<div
+    className="c0"
+  />,
+  @media May {
+  .c0 {
+    orientation: July;
+  }
+}
+
+@media April {
+  .c0 {
+    orientation: August;
+  }
+}
+
+@media January {
+  .c0 {
+    orientation: September;
+  }
+}
+
+@media April {
+  .c0 {
+    orientation: November;
+  }
+}
+
+@media June {
+  .c0 {
+    orientation: August;
+  }
+}
+
+@media May {
+
+}
+
+@media April {
+
+}
+
+@media January {
+
+}
+
+@media April {
+
+}
+
+@media June {
+
+}
+
+<div
+    className="c0"
+  />,
+  @media May {
+
+}
+
+@media April {
+
+}
+
+@media January {
+
+}
+
+@media April {
+
+}
+
+@media June {
+
+}
+
+@media May {
+  .c0 {
+    orientation: January;
+  }
+}
+
+@media April {
+  .c0 {
+    orientation: December;
+  }
+}
+
+@media January {
+  .c0 {
+    orientation: April;
+  }
+}
+
+@media April {
+  .c0 {
+    orientation: May;
+  }
+}
+
+@media June {
+  .c0 {
+    orientation: June;
+  }
+}
+
+<div
+    className="c0"
+  />,
+  @media May {
+
+}
+
+@media April {
+
+}
+
+@media January {
+
+}
+
+@media April {
+
+}
+
+@media June {
+
+}
+
+@media May {
+  .c0 {
+    orientation: January;
+  }
+}
+
+@media April {
+  .c0 {
+    orientation: December;
+  }
+}
+
+@media January {
+  .c0 {
+    orientation: April;
+  }
+}
+
+@media April {
+  .c0 {
+    orientation: May;
+  }
+}
+
+@media June {
+  .c0 {
+    orientation: June;
+  }
+}
+
+<div
+    className="c0"
+  />,
+]
+`;
+
+exports[`orientation renders postitive number 1`] = `
+Array [
+  .c0 {
+  orientation: 54881;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  orientation: 54881;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  orientation: 42365;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  orientation: 42365;
+}
+
+<div
+    className="c0"
+  />,
+]
+`;
+
+exports[`orientation renders string 1`] = `
+Array [
+  .c0 {
+  orientation: July;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  orientation: July;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  orientation: June;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  orientation: June;
+}
+
+<div
+    className="c0"
+  />,
+]
+`;
+
+exports[`orientation renders valid theme path 1`] = `
+Array [
+  .c0 {
+  orientation: DarkSlateBlue;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  orientation: DarkSlateBlue;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  orientation: DarkSlateBlue;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  orientation: DarkSlateBlue;
+}
+
+<div
+    className="c0"
+  />,
+]
+`;

@@ -1,0 +1,626 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`offsetEnd renders 0 1`] = `
+Array [
+  .c0 {
+  offset-end: 0;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  offset-end: 0;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  offset-end: 0;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  offset-end: 0;
+}
+
+<div
+    className="c0"
+  />,
+]
+`;
+
+exports[`offsetEnd renders function 1`] = `
+Array [
+  .c0 {
+  offset-end: hasnot;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  offset-end: has;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  offset-end: hasnot;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  offset-end: has;
+}
+
+<div
+    className="c0"
+  />,
+]
+`;
+
+exports[`offsetEnd renders invalid theme path 1`] = `
+Array [
+  .c0 {
+  offset-end: invalid.path.1;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  offset-end: invalid.path.1;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  offset-end: invalid.path.1;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  offset-end: invalid.path.1;
+}
+
+<div
+    className="c0"
+  />,
+]
+`;
+
+exports[`offsetEnd renders negative number 1`] = `
+Array [
+  .c0 {
+  offset-end: -54881;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  offset-end: -54881;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  offset-end: -42365;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  offset-end: -42365;
+}
+
+<div
+    className="c0"
+  />,
+]
+`;
+
+exports[`offsetEnd renders object [breakpoints] 1`] = `
+Array [
+  @media screen and (min-width:November) {
+  .c0 {
+    offset-end: July;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    offset-end: August;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    offset-end: September;
+  }
+}
+
+@media screen and (min-width:August) {
+  .c0 {
+    offset-end: November;
+  }
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:August) {
+
+}
+
+<div
+    className="c0"
+  />,
+  @media screen and (min-width:November) {
+  .c0 {
+    offset-end: July;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    offset-end: August;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    offset-end: September;
+  }
+}
+
+@media screen and (min-width:August) {
+  .c0 {
+    offset-end: November;
+  }
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:August) {
+
+}
+
+<div
+    className="c0"
+  />,
+  @media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:August) {
+
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    offset-end: May;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    offset-end: June;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    offset-end: April;
+  }
+}
+
+@media screen and (min-width:August) {
+  .c0 {
+    offset-end: November;
+  }
+}
+
+<div
+    className="c0"
+  />,
+  @media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:August) {
+
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    offset-end: May;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    offset-end: June;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    offset-end: April;
+  }
+}
+
+@media screen and (min-width:August) {
+  .c0 {
+    offset-end: November;
+  }
+}
+
+<div
+    className="c0"
+  />,
+]
+`;
+
+exports[`offsetEnd renders object [breakpoints] 2`] = `
+Array [
+  @media May {
+  .c0 {
+    offset-end: July;
+  }
+}
+
+@media April {
+  .c0 {
+    offset-end: August;
+  }
+}
+
+@media January {
+  .c0 {
+    offset-end: September;
+  }
+}
+
+@media April {
+  .c0 {
+    offset-end: November;
+  }
+}
+
+@media June {
+  .c0 {
+    offset-end: August;
+  }
+}
+
+@media May {
+
+}
+
+@media April {
+
+}
+
+@media January {
+
+}
+
+@media April {
+
+}
+
+@media June {
+
+}
+
+<div
+    className="c0"
+  />,
+  @media May {
+  .c0 {
+    offset-end: July;
+  }
+}
+
+@media April {
+  .c0 {
+    offset-end: August;
+  }
+}
+
+@media January {
+  .c0 {
+    offset-end: September;
+  }
+}
+
+@media April {
+  .c0 {
+    offset-end: November;
+  }
+}
+
+@media June {
+  .c0 {
+    offset-end: August;
+  }
+}
+
+@media May {
+
+}
+
+@media April {
+
+}
+
+@media January {
+
+}
+
+@media April {
+
+}
+
+@media June {
+
+}
+
+<div
+    className="c0"
+  />,
+  @media May {
+
+}
+
+@media April {
+
+}
+
+@media January {
+
+}
+
+@media April {
+
+}
+
+@media June {
+
+}
+
+@media May {
+  .c0 {
+    offset-end: January;
+  }
+}
+
+@media April {
+  .c0 {
+    offset-end: December;
+  }
+}
+
+@media January {
+  .c0 {
+    offset-end: April;
+  }
+}
+
+@media April {
+  .c0 {
+    offset-end: May;
+  }
+}
+
+@media June {
+  .c0 {
+    offset-end: June;
+  }
+}
+
+<div
+    className="c0"
+  />,
+  @media May {
+
+}
+
+@media April {
+
+}
+
+@media January {
+
+}
+
+@media April {
+
+}
+
+@media June {
+
+}
+
+@media May {
+  .c0 {
+    offset-end: January;
+  }
+}
+
+@media April {
+  .c0 {
+    offset-end: December;
+  }
+}
+
+@media January {
+  .c0 {
+    offset-end: April;
+  }
+}
+
+@media April {
+  .c0 {
+    offset-end: May;
+  }
+}
+
+@media June {
+  .c0 {
+    offset-end: June;
+  }
+}
+
+<div
+    className="c0"
+  />,
+]
+`;
+
+exports[`offsetEnd renders postitive number 1`] = `
+Array [
+  .c0 {
+  offset-end: 54881;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  offset-end: 54881;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  offset-end: 42365;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  offset-end: 42365;
+}
+
+<div
+    className="c0"
+  />,
+]
+`;
+
+exports[`offsetEnd renders string 1`] = `
+Array [
+  .c0 {
+  offset-end: July;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  offset-end: July;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  offset-end: June;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  offset-end: June;
+}
+
+<div
+    className="c0"
+  />,
+]
+`;
+
+exports[`offsetEnd renders valid theme path 1`] = `
+Array [
+  .c0 {
+  offset-end: DarkSlateBlue;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  offset-end: DarkSlateBlue;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  offset-end: DarkSlateBlue;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  offset-end: DarkSlateBlue;
+}
+
+<div
+    className="c0"
+  />,
+]
+`;

@@ -1,0 +1,626 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`quotes renders 0 1`] = `
+Array [
+  .c0 {
+  quotes: 0;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  quotes: 0;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  quotes: 0;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  quotes: 0;
+}
+
+<div
+    className="c0"
+  />,
+]
+`;
+
+exports[`quotes renders function 1`] = `
+Array [
+  .c0 {
+  quotes: hasnot;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  quotes: has;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  quotes: hasnot;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  quotes: has;
+}
+
+<div
+    className="c0"
+  />,
+]
+`;
+
+exports[`quotes renders invalid theme path 1`] = `
+Array [
+  .c0 {
+  quotes: invalid.path.1;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  quotes: invalid.path.1;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  quotes: invalid.path.1;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  quotes: invalid.path.1;
+}
+
+<div
+    className="c0"
+  />,
+]
+`;
+
+exports[`quotes renders negative number 1`] = `
+Array [
+  .c0 {
+  quotes: -54881;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  quotes: -54881;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  quotes: -42365;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  quotes: -42365;
+}
+
+<div
+    className="c0"
+  />,
+]
+`;
+
+exports[`quotes renders object [breakpoints] 1`] = `
+Array [
+  @media screen and (min-width:November) {
+  .c0 {
+    quotes: July;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    quotes: August;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    quotes: September;
+  }
+}
+
+@media screen and (min-width:August) {
+  .c0 {
+    quotes: November;
+  }
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:August) {
+
+}
+
+<div
+    className="c0"
+  />,
+  @media screen and (min-width:November) {
+  .c0 {
+    quotes: July;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    quotes: August;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    quotes: September;
+  }
+}
+
+@media screen and (min-width:August) {
+  .c0 {
+    quotes: November;
+  }
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:August) {
+
+}
+
+<div
+    className="c0"
+  />,
+  @media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:August) {
+
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    quotes: May;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    quotes: June;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    quotes: April;
+  }
+}
+
+@media screen and (min-width:August) {
+  .c0 {
+    quotes: November;
+  }
+}
+
+<div
+    className="c0"
+  />,
+  @media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:August) {
+
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    quotes: May;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    quotes: June;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    quotes: April;
+  }
+}
+
+@media screen and (min-width:August) {
+  .c0 {
+    quotes: November;
+  }
+}
+
+<div
+    className="c0"
+  />,
+]
+`;
+
+exports[`quotes renders object [breakpoints] 2`] = `
+Array [
+  @media May {
+  .c0 {
+    quotes: July;
+  }
+}
+
+@media April {
+  .c0 {
+    quotes: August;
+  }
+}
+
+@media January {
+  .c0 {
+    quotes: September;
+  }
+}
+
+@media April {
+  .c0 {
+    quotes: November;
+  }
+}
+
+@media June {
+  .c0 {
+    quotes: August;
+  }
+}
+
+@media May {
+
+}
+
+@media April {
+
+}
+
+@media January {
+
+}
+
+@media April {
+
+}
+
+@media June {
+
+}
+
+<div
+    className="c0"
+  />,
+  @media May {
+  .c0 {
+    quotes: July;
+  }
+}
+
+@media April {
+  .c0 {
+    quotes: August;
+  }
+}
+
+@media January {
+  .c0 {
+    quotes: September;
+  }
+}
+
+@media April {
+  .c0 {
+    quotes: November;
+  }
+}
+
+@media June {
+  .c0 {
+    quotes: August;
+  }
+}
+
+@media May {
+
+}
+
+@media April {
+
+}
+
+@media January {
+
+}
+
+@media April {
+
+}
+
+@media June {
+
+}
+
+<div
+    className="c0"
+  />,
+  @media May {
+
+}
+
+@media April {
+
+}
+
+@media January {
+
+}
+
+@media April {
+
+}
+
+@media June {
+
+}
+
+@media May {
+  .c0 {
+    quotes: January;
+  }
+}
+
+@media April {
+  .c0 {
+    quotes: December;
+  }
+}
+
+@media January {
+  .c0 {
+    quotes: April;
+  }
+}
+
+@media April {
+  .c0 {
+    quotes: May;
+  }
+}
+
+@media June {
+  .c0 {
+    quotes: June;
+  }
+}
+
+<div
+    className="c0"
+  />,
+  @media May {
+
+}
+
+@media April {
+
+}
+
+@media January {
+
+}
+
+@media April {
+
+}
+
+@media June {
+
+}
+
+@media May {
+  .c0 {
+    quotes: January;
+  }
+}
+
+@media April {
+  .c0 {
+    quotes: December;
+  }
+}
+
+@media January {
+  .c0 {
+    quotes: April;
+  }
+}
+
+@media April {
+  .c0 {
+    quotes: May;
+  }
+}
+
+@media June {
+  .c0 {
+    quotes: June;
+  }
+}
+
+<div
+    className="c0"
+  />,
+]
+`;
+
+exports[`quotes renders postitive number 1`] = `
+Array [
+  .c0 {
+  quotes: 54881;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  quotes: 54881;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  quotes: 42365;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  quotes: 42365;
+}
+
+<div
+    className="c0"
+  />,
+]
+`;
+
+exports[`quotes renders string 1`] = `
+Array [
+  .c0 {
+  quotes: July;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  quotes: July;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  quotes: June;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  quotes: June;
+}
+
+<div
+    className="c0"
+  />,
+]
+`;
+
+exports[`quotes renders valid theme path 1`] = `
+Array [
+  .c0 {
+  quotes: DarkSlateBlue;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  quotes: DarkSlateBlue;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  quotes: DarkSlateBlue;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  quotes: DarkSlateBlue;
+}
+
+<div
+    className="c0"
+  />,
+]
+`;

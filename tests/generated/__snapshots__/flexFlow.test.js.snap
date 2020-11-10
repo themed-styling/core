@@ -1,0 +1,754 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`flexFlow renders 0 1`] = `
+Array [
+  .c0 {
+  -webkit-flex-flow: 0;
+  -ms-flex-flow: 0;
+  flex-flow: 0;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-flex-flow: 0;
+  -ms-flex-flow: 0;
+  flex-flow: 0;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-flex-flow: 0;
+  -ms-flex-flow: 0;
+  flex-flow: 0;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-flex-flow: 0;
+  -ms-flex-flow: 0;
+  flex-flow: 0;
+}
+
+<div
+    className="c0"
+  />,
+]
+`;
+
+exports[`flexFlow renders function 1`] = `
+Array [
+  .c0 {
+  -webkit-flex-flow: hasnot;
+  -ms-flex-flow: hasnot;
+  flex-flow: hasnot;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-flex-flow: has;
+  -ms-flex-flow: has;
+  flex-flow: has;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-flex-flow: hasnot;
+  -ms-flex-flow: hasnot;
+  flex-flow: hasnot;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-flex-flow: has;
+  -ms-flex-flow: has;
+  flex-flow: has;
+}
+
+<div
+    className="c0"
+  />,
+]
+`;
+
+exports[`flexFlow renders invalid theme path 1`] = `
+Array [
+  .c0 {
+  -webkit-flex-flow: invalid.path.1;
+  -ms-flex-flow: invalid.path.1;
+  flex-flow: invalid.path.1;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-flex-flow: invalid.path.1;
+  -ms-flex-flow: invalid.path.1;
+  flex-flow: invalid.path.1;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-flex-flow: invalid.path.1;
+  -ms-flex-flow: invalid.path.1;
+  flex-flow: invalid.path.1;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-flex-flow: invalid.path.1;
+  -ms-flex-flow: invalid.path.1;
+  flex-flow: invalid.path.1;
+}
+
+<div
+    className="c0"
+  />,
+]
+`;
+
+exports[`flexFlow renders negative number 1`] = `
+Array [
+  .c0 {
+  -webkit-flex-flow: -54881;
+  -ms-flex-flow: -54881;
+  flex-flow: -54881;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-flex-flow: -54881;
+  -ms-flex-flow: -54881;
+  flex-flow: -54881;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-flex-flow: -42365;
+  -ms-flex-flow: -42365;
+  flex-flow: -42365;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-flex-flow: -42365;
+  -ms-flex-flow: -42365;
+  flex-flow: -42365;
+}
+
+<div
+    className="c0"
+  />,
+]
+`;
+
+exports[`flexFlow renders object [breakpoints] 1`] = `
+Array [
+  @media screen and (min-width:November) {
+  .c0 {
+    -webkit-flex-flow: July;
+    -ms-flex-flow: July;
+    flex-flow: July;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    -webkit-flex-flow: August;
+    -ms-flex-flow: August;
+    flex-flow: August;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    -webkit-flex-flow: September;
+    -ms-flex-flow: September;
+    flex-flow: September;
+  }
+}
+
+@media screen and (min-width:August) {
+  .c0 {
+    -webkit-flex-flow: November;
+    -ms-flex-flow: November;
+    flex-flow: November;
+  }
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:August) {
+
+}
+
+<div
+    className="c0"
+  />,
+  @media screen and (min-width:November) {
+  .c0 {
+    -webkit-flex-flow: July;
+    -ms-flex-flow: July;
+    flex-flow: July;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    -webkit-flex-flow: August;
+    -ms-flex-flow: August;
+    flex-flow: August;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    -webkit-flex-flow: September;
+    -ms-flex-flow: September;
+    flex-flow: September;
+  }
+}
+
+@media screen and (min-width:August) {
+  .c0 {
+    -webkit-flex-flow: November;
+    -ms-flex-flow: November;
+    flex-flow: November;
+  }
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:August) {
+
+}
+
+<div
+    className="c0"
+  />,
+  @media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:August) {
+
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    -webkit-flex-flow: May;
+    -ms-flex-flow: May;
+    flex-flow: May;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    -webkit-flex-flow: June;
+    -ms-flex-flow: June;
+    flex-flow: June;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    -webkit-flex-flow: April;
+    -ms-flex-flow: April;
+    flex-flow: April;
+  }
+}
+
+@media screen and (min-width:August) {
+  .c0 {
+    -webkit-flex-flow: November;
+    -ms-flex-flow: November;
+    flex-flow: November;
+  }
+}
+
+<div
+    className="c0"
+  />,
+  @media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:August) {
+
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    -webkit-flex-flow: May;
+    -ms-flex-flow: May;
+    flex-flow: May;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    -webkit-flex-flow: June;
+    -ms-flex-flow: June;
+    flex-flow: June;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    -webkit-flex-flow: April;
+    -ms-flex-flow: April;
+    flex-flow: April;
+  }
+}
+
+@media screen and (min-width:August) {
+  .c0 {
+    -webkit-flex-flow: November;
+    -ms-flex-flow: November;
+    flex-flow: November;
+  }
+}
+
+<div
+    className="c0"
+  />,
+]
+`;
+
+exports[`flexFlow renders object [breakpoints] 2`] = `
+Array [
+  @media May {
+  .c0 {
+    -webkit-flex-flow: July;
+    -ms-flex-flow: July;
+    flex-flow: July;
+  }
+}
+
+@media April {
+  .c0 {
+    -webkit-flex-flow: August;
+    -ms-flex-flow: August;
+    flex-flow: August;
+  }
+}
+
+@media January {
+  .c0 {
+    -webkit-flex-flow: September;
+    -ms-flex-flow: September;
+    flex-flow: September;
+  }
+}
+
+@media April {
+  .c0 {
+    -webkit-flex-flow: November;
+    -ms-flex-flow: November;
+    flex-flow: November;
+  }
+}
+
+@media June {
+  .c0 {
+    -webkit-flex-flow: August;
+    -ms-flex-flow: August;
+    flex-flow: August;
+  }
+}
+
+@media May {
+
+}
+
+@media April {
+
+}
+
+@media January {
+
+}
+
+@media April {
+
+}
+
+@media June {
+
+}
+
+<div
+    className="c0"
+  />,
+  @media May {
+  .c0 {
+    -webkit-flex-flow: July;
+    -ms-flex-flow: July;
+    flex-flow: July;
+  }
+}
+
+@media April {
+  .c0 {
+    -webkit-flex-flow: August;
+    -ms-flex-flow: August;
+    flex-flow: August;
+  }
+}
+
+@media January {
+  .c0 {
+    -webkit-flex-flow: September;
+    -ms-flex-flow: September;
+    flex-flow: September;
+  }
+}
+
+@media April {
+  .c0 {
+    -webkit-flex-flow: November;
+    -ms-flex-flow: November;
+    flex-flow: November;
+  }
+}
+
+@media June {
+  .c0 {
+    -webkit-flex-flow: August;
+    -ms-flex-flow: August;
+    flex-flow: August;
+  }
+}
+
+@media May {
+
+}
+
+@media April {
+
+}
+
+@media January {
+
+}
+
+@media April {
+
+}
+
+@media June {
+
+}
+
+<div
+    className="c0"
+  />,
+  @media May {
+
+}
+
+@media April {
+
+}
+
+@media January {
+
+}
+
+@media April {
+
+}
+
+@media June {
+
+}
+
+@media May {
+  .c0 {
+    -webkit-flex-flow: January;
+    -ms-flex-flow: January;
+    flex-flow: January;
+  }
+}
+
+@media April {
+  .c0 {
+    -webkit-flex-flow: December;
+    -ms-flex-flow: December;
+    flex-flow: December;
+  }
+}
+
+@media January {
+  .c0 {
+    -webkit-flex-flow: April;
+    -ms-flex-flow: April;
+    flex-flow: April;
+  }
+}
+
+@media April {
+  .c0 {
+    -webkit-flex-flow: May;
+    -ms-flex-flow: May;
+    flex-flow: May;
+  }
+}
+
+@media June {
+  .c0 {
+    -webkit-flex-flow: June;
+    -ms-flex-flow: June;
+    flex-flow: June;
+  }
+}
+
+<div
+    className="c0"
+  />,
+  @media May {
+
+}
+
+@media April {
+
+}
+
+@media January {
+
+}
+
+@media April {
+
+}
+
+@media June {
+
+}
+
+@media May {
+  .c0 {
+    -webkit-flex-flow: January;
+    -ms-flex-flow: January;
+    flex-flow: January;
+  }
+}
+
+@media April {
+  .c0 {
+    -webkit-flex-flow: December;
+    -ms-flex-flow: December;
+    flex-flow: December;
+  }
+}
+
+@media January {
+  .c0 {
+    -webkit-flex-flow: April;
+    -ms-flex-flow: April;
+    flex-flow: April;
+  }
+}
+
+@media April {
+  .c0 {
+    -webkit-flex-flow: May;
+    -ms-flex-flow: May;
+    flex-flow: May;
+  }
+}
+
+@media June {
+  .c0 {
+    -webkit-flex-flow: June;
+    -ms-flex-flow: June;
+    flex-flow: June;
+  }
+}
+
+<div
+    className="c0"
+  />,
+]
+`;
+
+exports[`flexFlow renders postitive number 1`] = `
+Array [
+  .c0 {
+  -webkit-flex-flow: 54881;
+  -ms-flex-flow: 54881;
+  flex-flow: 54881;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-flex-flow: 54881;
+  -ms-flex-flow: 54881;
+  flex-flow: 54881;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-flex-flow: 42365;
+  -ms-flex-flow: 42365;
+  flex-flow: 42365;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-flex-flow: 42365;
+  -ms-flex-flow: 42365;
+  flex-flow: 42365;
+}
+
+<div
+    className="c0"
+  />,
+]
+`;
+
+exports[`flexFlow renders string 1`] = `
+Array [
+  .c0 {
+  -webkit-flex-flow: July;
+  -ms-flex-flow: July;
+  flex-flow: July;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-flex-flow: July;
+  -ms-flex-flow: July;
+  flex-flow: July;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-flex-flow: June;
+  -ms-flex-flow: June;
+  flex-flow: June;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-flex-flow: June;
+  -ms-flex-flow: June;
+  flex-flow: June;
+}
+
+<div
+    className="c0"
+  />,
+]
+`;
+
+exports[`flexFlow renders valid theme path 1`] = `
+Array [
+  .c0 {
+  -webkit-flex-flow: DarkSlateBlue;
+  -ms-flex-flow: DarkSlateBlue;
+  flex-flow: DarkSlateBlue;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-flex-flow: DarkSlateBlue;
+  -ms-flex-flow: DarkSlateBlue;
+  flex-flow: DarkSlateBlue;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-flex-flow: DarkSlateBlue;
+  -ms-flex-flow: DarkSlateBlue;
+  flex-flow: DarkSlateBlue;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-flex-flow: DarkSlateBlue;
+  -ms-flex-flow: DarkSlateBlue;
+  flex-flow: DarkSlateBlue;
+}
+
+<div
+    className="c0"
+  />,
+]
+`;

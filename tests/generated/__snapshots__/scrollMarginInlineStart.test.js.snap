@@ -1,0 +1,818 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`scrollMarginInlineStart renders 0 1`] = `
+Array [
+  .c0 {
+  -webkit-scroll-margin-inline-start: 0;
+  -moz-scroll-margin-inline-start: 0;
+  -ms-scroll-margin-inline-start: 0;
+  scroll-margin-inline-start: 0;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-scroll-margin-inline-start: 0;
+  -moz-scroll-margin-inline-start: 0;
+  -ms-scroll-margin-inline-start: 0;
+  scroll-margin-inline-start: 0;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-scroll-margin-inline-start: 0;
+  -moz-scroll-margin-inline-start: 0;
+  -ms-scroll-margin-inline-start: 0;
+  scroll-margin-inline-start: 0;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-scroll-margin-inline-start: 0;
+  -moz-scroll-margin-inline-start: 0;
+  -ms-scroll-margin-inline-start: 0;
+  scroll-margin-inline-start: 0;
+}
+
+<div
+    className="c0"
+  />,
+]
+`;
+
+exports[`scrollMarginInlineStart renders function 1`] = `
+Array [
+  .c0 {
+  -webkit-scroll-margin-inline-start: hasnot;
+  -moz-scroll-margin-inline-start: hasnot;
+  -ms-scroll-margin-inline-start: hasnot;
+  scroll-margin-inline-start: hasnot;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-scroll-margin-inline-start: has;
+  -moz-scroll-margin-inline-start: has;
+  -ms-scroll-margin-inline-start: has;
+  scroll-margin-inline-start: has;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-scroll-margin-inline-start: hasnot;
+  -moz-scroll-margin-inline-start: hasnot;
+  -ms-scroll-margin-inline-start: hasnot;
+  scroll-margin-inline-start: hasnot;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-scroll-margin-inline-start: has;
+  -moz-scroll-margin-inline-start: has;
+  -ms-scroll-margin-inline-start: has;
+  scroll-margin-inline-start: has;
+}
+
+<div
+    className="c0"
+  />,
+]
+`;
+
+exports[`scrollMarginInlineStart renders invalid theme path 1`] = `
+Array [
+  .c0 {
+  -webkit-scroll-margin-inline-start: invalid.path.1;
+  -moz-scroll-margin-inline-start: invalid.path.1;
+  -ms-scroll-margin-inline-start: invalid.path.1;
+  scroll-margin-inline-start: invalid.path.1;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-scroll-margin-inline-start: invalid.path.1;
+  -moz-scroll-margin-inline-start: invalid.path.1;
+  -ms-scroll-margin-inline-start: invalid.path.1;
+  scroll-margin-inline-start: invalid.path.1;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-scroll-margin-inline-start: invalid.path.1;
+  -moz-scroll-margin-inline-start: invalid.path.1;
+  -ms-scroll-margin-inline-start: invalid.path.1;
+  scroll-margin-inline-start: invalid.path.1;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-scroll-margin-inline-start: invalid.path.1;
+  -moz-scroll-margin-inline-start: invalid.path.1;
+  -ms-scroll-margin-inline-start: invalid.path.1;
+  scroll-margin-inline-start: invalid.path.1;
+}
+
+<div
+    className="c0"
+  />,
+]
+`;
+
+exports[`scrollMarginInlineStart renders negative number 1`] = `
+Array [
+  .c0 {
+  -webkit-scroll-margin-inline-start: -54881px;
+  -moz-scroll-margin-inline-start: -54881px;
+  -ms-scroll-margin-inline-start: -54881px;
+  scroll-margin-inline-start: -54881px;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-scroll-margin-inline-start: -54881px;
+  -moz-scroll-margin-inline-start: -54881px;
+  -ms-scroll-margin-inline-start: -54881px;
+  scroll-margin-inline-start: -54881px;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-scroll-margin-inline-start: -42365px;
+  -moz-scroll-margin-inline-start: -42365px;
+  -ms-scroll-margin-inline-start: -42365px;
+  scroll-margin-inline-start: -42365px;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-scroll-margin-inline-start: -42365px;
+  -moz-scroll-margin-inline-start: -42365px;
+  -ms-scroll-margin-inline-start: -42365px;
+  scroll-margin-inline-start: -42365px;
+}
+
+<div
+    className="c0"
+  />,
+]
+`;
+
+exports[`scrollMarginInlineStart renders object [breakpoints] 1`] = `
+Array [
+  @media screen and (min-width:November) {
+  .c0 {
+    -webkit-scroll-margin-inline-start: July;
+    -moz-scroll-margin-inline-start: July;
+    -ms-scroll-margin-inline-start: July;
+    scroll-margin-inline-start: July;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    -webkit-scroll-margin-inline-start: August;
+    -moz-scroll-margin-inline-start: August;
+    -ms-scroll-margin-inline-start: August;
+    scroll-margin-inline-start: August;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    -webkit-scroll-margin-inline-start: September;
+    -moz-scroll-margin-inline-start: September;
+    -ms-scroll-margin-inline-start: September;
+    scroll-margin-inline-start: September;
+  }
+}
+
+@media screen and (min-width:August) {
+  .c0 {
+    -webkit-scroll-margin-inline-start: November;
+    -moz-scroll-margin-inline-start: November;
+    -ms-scroll-margin-inline-start: November;
+    scroll-margin-inline-start: November;
+  }
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:August) {
+
+}
+
+<div
+    className="c0"
+  />,
+  @media screen and (min-width:November) {
+  .c0 {
+    -webkit-scroll-margin-inline-start: July;
+    -moz-scroll-margin-inline-start: July;
+    -ms-scroll-margin-inline-start: July;
+    scroll-margin-inline-start: July;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    -webkit-scroll-margin-inline-start: August;
+    -moz-scroll-margin-inline-start: August;
+    -ms-scroll-margin-inline-start: August;
+    scroll-margin-inline-start: August;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    -webkit-scroll-margin-inline-start: September;
+    -moz-scroll-margin-inline-start: September;
+    -ms-scroll-margin-inline-start: September;
+    scroll-margin-inline-start: September;
+  }
+}
+
+@media screen and (min-width:August) {
+  .c0 {
+    -webkit-scroll-margin-inline-start: November;
+    -moz-scroll-margin-inline-start: November;
+    -ms-scroll-margin-inline-start: November;
+    scroll-margin-inline-start: November;
+  }
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:August) {
+
+}
+
+<div
+    className="c0"
+  />,
+  @media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:August) {
+
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    -webkit-scroll-margin-inline-start: May;
+    -moz-scroll-margin-inline-start: May;
+    -ms-scroll-margin-inline-start: May;
+    scroll-margin-inline-start: May;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    -webkit-scroll-margin-inline-start: June;
+    -moz-scroll-margin-inline-start: June;
+    -ms-scroll-margin-inline-start: June;
+    scroll-margin-inline-start: June;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    -webkit-scroll-margin-inline-start: April;
+    -moz-scroll-margin-inline-start: April;
+    -ms-scroll-margin-inline-start: April;
+    scroll-margin-inline-start: April;
+  }
+}
+
+@media screen and (min-width:August) {
+  .c0 {
+    -webkit-scroll-margin-inline-start: November;
+    -moz-scroll-margin-inline-start: November;
+    -ms-scroll-margin-inline-start: November;
+    scroll-margin-inline-start: November;
+  }
+}
+
+<div
+    className="c0"
+  />,
+  @media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:August) {
+
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    -webkit-scroll-margin-inline-start: May;
+    -moz-scroll-margin-inline-start: May;
+    -ms-scroll-margin-inline-start: May;
+    scroll-margin-inline-start: May;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    -webkit-scroll-margin-inline-start: June;
+    -moz-scroll-margin-inline-start: June;
+    -ms-scroll-margin-inline-start: June;
+    scroll-margin-inline-start: June;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    -webkit-scroll-margin-inline-start: April;
+    -moz-scroll-margin-inline-start: April;
+    -ms-scroll-margin-inline-start: April;
+    scroll-margin-inline-start: April;
+  }
+}
+
+@media screen and (min-width:August) {
+  .c0 {
+    -webkit-scroll-margin-inline-start: November;
+    -moz-scroll-margin-inline-start: November;
+    -ms-scroll-margin-inline-start: November;
+    scroll-margin-inline-start: November;
+  }
+}
+
+<div
+    className="c0"
+  />,
+]
+`;
+
+exports[`scrollMarginInlineStart renders object [breakpoints] 2`] = `
+Array [
+  @media May {
+  .c0 {
+    -webkit-scroll-margin-inline-start: July;
+    -moz-scroll-margin-inline-start: July;
+    -ms-scroll-margin-inline-start: July;
+    scroll-margin-inline-start: July;
+  }
+}
+
+@media April {
+  .c0 {
+    -webkit-scroll-margin-inline-start: August;
+    -moz-scroll-margin-inline-start: August;
+    -ms-scroll-margin-inline-start: August;
+    scroll-margin-inline-start: August;
+  }
+}
+
+@media January {
+  .c0 {
+    -webkit-scroll-margin-inline-start: September;
+    -moz-scroll-margin-inline-start: September;
+    -ms-scroll-margin-inline-start: September;
+    scroll-margin-inline-start: September;
+  }
+}
+
+@media April {
+  .c0 {
+    -webkit-scroll-margin-inline-start: November;
+    -moz-scroll-margin-inline-start: November;
+    -ms-scroll-margin-inline-start: November;
+    scroll-margin-inline-start: November;
+  }
+}
+
+@media June {
+  .c0 {
+    -webkit-scroll-margin-inline-start: August;
+    -moz-scroll-margin-inline-start: August;
+    -ms-scroll-margin-inline-start: August;
+    scroll-margin-inline-start: August;
+  }
+}
+
+@media May {
+
+}
+
+@media April {
+
+}
+
+@media January {
+
+}
+
+@media April {
+
+}
+
+@media June {
+
+}
+
+<div
+    className="c0"
+  />,
+  @media May {
+  .c0 {
+    -webkit-scroll-margin-inline-start: July;
+    -moz-scroll-margin-inline-start: July;
+    -ms-scroll-margin-inline-start: July;
+    scroll-margin-inline-start: July;
+  }
+}
+
+@media April {
+  .c0 {
+    -webkit-scroll-margin-inline-start: August;
+    -moz-scroll-margin-inline-start: August;
+    -ms-scroll-margin-inline-start: August;
+    scroll-margin-inline-start: August;
+  }
+}
+
+@media January {
+  .c0 {
+    -webkit-scroll-margin-inline-start: September;
+    -moz-scroll-margin-inline-start: September;
+    -ms-scroll-margin-inline-start: September;
+    scroll-margin-inline-start: September;
+  }
+}
+
+@media April {
+  .c0 {
+    -webkit-scroll-margin-inline-start: November;
+    -moz-scroll-margin-inline-start: November;
+    -ms-scroll-margin-inline-start: November;
+    scroll-margin-inline-start: November;
+  }
+}
+
+@media June {
+  .c0 {
+    -webkit-scroll-margin-inline-start: August;
+    -moz-scroll-margin-inline-start: August;
+    -ms-scroll-margin-inline-start: August;
+    scroll-margin-inline-start: August;
+  }
+}
+
+@media May {
+
+}
+
+@media April {
+
+}
+
+@media January {
+
+}
+
+@media April {
+
+}
+
+@media June {
+
+}
+
+<div
+    className="c0"
+  />,
+  @media May {
+
+}
+
+@media April {
+
+}
+
+@media January {
+
+}
+
+@media April {
+
+}
+
+@media June {
+
+}
+
+@media May {
+  .c0 {
+    -webkit-scroll-margin-inline-start: January;
+    -moz-scroll-margin-inline-start: January;
+    -ms-scroll-margin-inline-start: January;
+    scroll-margin-inline-start: January;
+  }
+}
+
+@media April {
+  .c0 {
+    -webkit-scroll-margin-inline-start: December;
+    -moz-scroll-margin-inline-start: December;
+    -ms-scroll-margin-inline-start: December;
+    scroll-margin-inline-start: December;
+  }
+}
+
+@media January {
+  .c0 {
+    -webkit-scroll-margin-inline-start: April;
+    -moz-scroll-margin-inline-start: April;
+    -ms-scroll-margin-inline-start: April;
+    scroll-margin-inline-start: April;
+  }
+}
+
+@media April {
+  .c0 {
+    -webkit-scroll-margin-inline-start: May;
+    -moz-scroll-margin-inline-start: May;
+    -ms-scroll-margin-inline-start: May;
+    scroll-margin-inline-start: May;
+  }
+}
+
+@media June {
+  .c0 {
+    -webkit-scroll-margin-inline-start: June;
+    -moz-scroll-margin-inline-start: June;
+    -ms-scroll-margin-inline-start: June;
+    scroll-margin-inline-start: June;
+  }
+}
+
+<div
+    className="c0"
+  />,
+  @media May {
+
+}
+
+@media April {
+
+}
+
+@media January {
+
+}
+
+@media April {
+
+}
+
+@media June {
+
+}
+
+@media May {
+  .c0 {
+    -webkit-scroll-margin-inline-start: January;
+    -moz-scroll-margin-inline-start: January;
+    -ms-scroll-margin-inline-start: January;
+    scroll-margin-inline-start: January;
+  }
+}
+
+@media April {
+  .c0 {
+    -webkit-scroll-margin-inline-start: December;
+    -moz-scroll-margin-inline-start: December;
+    -ms-scroll-margin-inline-start: December;
+    scroll-margin-inline-start: December;
+  }
+}
+
+@media January {
+  .c0 {
+    -webkit-scroll-margin-inline-start: April;
+    -moz-scroll-margin-inline-start: April;
+    -ms-scroll-margin-inline-start: April;
+    scroll-margin-inline-start: April;
+  }
+}
+
+@media April {
+  .c0 {
+    -webkit-scroll-margin-inline-start: May;
+    -moz-scroll-margin-inline-start: May;
+    -ms-scroll-margin-inline-start: May;
+    scroll-margin-inline-start: May;
+  }
+}
+
+@media June {
+  .c0 {
+    -webkit-scroll-margin-inline-start: June;
+    -moz-scroll-margin-inline-start: June;
+    -ms-scroll-margin-inline-start: June;
+    scroll-margin-inline-start: June;
+  }
+}
+
+<div
+    className="c0"
+  />,
+]
+`;
+
+exports[`scrollMarginInlineStart renders postitive number 1`] = `
+Array [
+  .c0 {
+  -webkit-scroll-margin-inline-start: 54881px;
+  -moz-scroll-margin-inline-start: 54881px;
+  -ms-scroll-margin-inline-start: 54881px;
+  scroll-margin-inline-start: 54881px;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-scroll-margin-inline-start: 54881px;
+  -moz-scroll-margin-inline-start: 54881px;
+  -ms-scroll-margin-inline-start: 54881px;
+  scroll-margin-inline-start: 54881px;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-scroll-margin-inline-start: 42365px;
+  -moz-scroll-margin-inline-start: 42365px;
+  -ms-scroll-margin-inline-start: 42365px;
+  scroll-margin-inline-start: 42365px;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-scroll-margin-inline-start: 42365px;
+  -moz-scroll-margin-inline-start: 42365px;
+  -ms-scroll-margin-inline-start: 42365px;
+  scroll-margin-inline-start: 42365px;
+}
+
+<div
+    className="c0"
+  />,
+]
+`;
+
+exports[`scrollMarginInlineStart renders string 1`] = `
+Array [
+  .c0 {
+  -webkit-scroll-margin-inline-start: July;
+  -moz-scroll-margin-inline-start: July;
+  -ms-scroll-margin-inline-start: July;
+  scroll-margin-inline-start: July;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-scroll-margin-inline-start: July;
+  -moz-scroll-margin-inline-start: July;
+  -ms-scroll-margin-inline-start: July;
+  scroll-margin-inline-start: July;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-scroll-margin-inline-start: June;
+  -moz-scroll-margin-inline-start: June;
+  -ms-scroll-margin-inline-start: June;
+  scroll-margin-inline-start: June;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-scroll-margin-inline-start: June;
+  -moz-scroll-margin-inline-start: June;
+  -ms-scroll-margin-inline-start: June;
+  scroll-margin-inline-start: June;
+}
+
+<div
+    className="c0"
+  />,
+]
+`;
+
+exports[`scrollMarginInlineStart renders valid theme path 1`] = `
+Array [
+  .c0 {
+  -webkit-scroll-margin-inline-start: DarkSlateBlue;
+  -moz-scroll-margin-inline-start: DarkSlateBlue;
+  -ms-scroll-margin-inline-start: DarkSlateBlue;
+  scroll-margin-inline-start: DarkSlateBlue;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-scroll-margin-inline-start: DarkSlateBlue;
+  -moz-scroll-margin-inline-start: DarkSlateBlue;
+  -ms-scroll-margin-inline-start: DarkSlateBlue;
+  scroll-margin-inline-start: DarkSlateBlue;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-scroll-margin-inline-start: DarkSlateBlue;
+  -moz-scroll-margin-inline-start: DarkSlateBlue;
+  -ms-scroll-margin-inline-start: DarkSlateBlue;
+  scroll-margin-inline-start: DarkSlateBlue;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-scroll-margin-inline-start: DarkSlateBlue;
+  -moz-scroll-margin-inline-start: DarkSlateBlue;
+  -ms-scroll-margin-inline-start: DarkSlateBlue;
+  scroll-margin-inline-start: DarkSlateBlue;
+}
+
+<div
+    className="c0"
+  />,
+]
+`;

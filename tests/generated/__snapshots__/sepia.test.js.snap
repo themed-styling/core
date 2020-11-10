@@ -1,0 +1,690 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`sepia renders 0 1`] = `
+Array [
+  .c0 {
+  -webkit-filter: sepia(0%);
+  filter: sepia(0%);
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-filter: sepia(0%);
+  filter: sepia(0%);
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-filter: sepia(0%);
+  filter: sepia(0%);
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-filter: sepia(0%);
+  filter: sepia(0%);
+}
+
+<div
+    className="c0"
+  />,
+]
+`;
+
+exports[`sepia renders function 1`] = `
+Array [
+  .c0 {
+  -webkit-filter: sepia(hasnot);
+  filter: sepia(hasnot);
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-filter: sepia(has);
+  filter: sepia(has);
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-filter: sepia(hasnot);
+  filter: sepia(hasnot);
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-filter: sepia(has);
+  filter: sepia(has);
+}
+
+<div
+    className="c0"
+  />,
+]
+`;
+
+exports[`sepia renders invalid theme path 1`] = `
+Array [
+  .c0 {
+  -webkit-filter: sepia(invalid.path.1);
+  filter: sepia(invalid.path.1);
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-filter: sepia(invalid.path.1);
+  filter: sepia(invalid.path.1);
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-filter: sepia(invalid.path.1);
+  filter: sepia(invalid.path.1);
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-filter: sepia(invalid.path.1);
+  filter: sepia(invalid.path.1);
+}
+
+<div
+    className="c0"
+  />,
+]
+`;
+
+exports[`sepia renders negative number 1`] = `
+Array [
+  .c0 {
+  -webkit-filter: sepia(-5488100%);
+  filter: sepia(-5488100%);
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-filter: sepia(-5488100%);
+  filter: sepia(-5488100%);
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-filter: sepia(-4236500%);
+  filter: sepia(-4236500%);
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-filter: sepia(-4236500%);
+  filter: sepia(-4236500%);
+}
+
+<div
+    className="c0"
+  />,
+]
+`;
+
+exports[`sepia renders object [breakpoints] 1`] = `
+Array [
+  @media screen and (min-width:November) {
+  .c0 {
+    -webkit-filter: sepia(July);
+    filter: sepia(July);
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    -webkit-filter: sepia(August);
+    filter: sepia(August);
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    -webkit-filter: sepia(September);
+    filter: sepia(September);
+  }
+}
+
+@media screen and (min-width:August) {
+  .c0 {
+    -webkit-filter: sepia(November);
+    filter: sepia(November);
+  }
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:August) {
+
+}
+
+<div
+    className="c0"
+  />,
+  @media screen and (min-width:November) {
+  .c0 {
+    -webkit-filter: sepia(July);
+    filter: sepia(July);
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    -webkit-filter: sepia(August);
+    filter: sepia(August);
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    -webkit-filter: sepia(September);
+    filter: sepia(September);
+  }
+}
+
+@media screen and (min-width:August) {
+  .c0 {
+    -webkit-filter: sepia(November);
+    filter: sepia(November);
+  }
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:August) {
+
+}
+
+<div
+    className="c0"
+  />,
+  @media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:August) {
+
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    -webkit-filter: sepia(May);
+    filter: sepia(May);
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    -webkit-filter: sepia(June);
+    filter: sepia(June);
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    -webkit-filter: sepia(April);
+    filter: sepia(April);
+  }
+}
+
+@media screen and (min-width:August) {
+  .c0 {
+    -webkit-filter: sepia(November);
+    filter: sepia(November);
+  }
+}
+
+<div
+    className="c0"
+  />,
+  @media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:August) {
+
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    -webkit-filter: sepia(May);
+    filter: sepia(May);
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    -webkit-filter: sepia(June);
+    filter: sepia(June);
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    -webkit-filter: sepia(April);
+    filter: sepia(April);
+  }
+}
+
+@media screen and (min-width:August) {
+  .c0 {
+    -webkit-filter: sepia(November);
+    filter: sepia(November);
+  }
+}
+
+<div
+    className="c0"
+  />,
+]
+`;
+
+exports[`sepia renders object [breakpoints] 2`] = `
+Array [
+  @media May {
+  .c0 {
+    -webkit-filter: sepia(July);
+    filter: sepia(July);
+  }
+}
+
+@media April {
+  .c0 {
+    -webkit-filter: sepia(August);
+    filter: sepia(August);
+  }
+}
+
+@media January {
+  .c0 {
+    -webkit-filter: sepia(September);
+    filter: sepia(September);
+  }
+}
+
+@media April {
+  .c0 {
+    -webkit-filter: sepia(November);
+    filter: sepia(November);
+  }
+}
+
+@media June {
+  .c0 {
+    -webkit-filter: sepia(August);
+    filter: sepia(August);
+  }
+}
+
+@media May {
+
+}
+
+@media April {
+
+}
+
+@media January {
+
+}
+
+@media April {
+
+}
+
+@media June {
+
+}
+
+<div
+    className="c0"
+  />,
+  @media May {
+  .c0 {
+    -webkit-filter: sepia(July);
+    filter: sepia(July);
+  }
+}
+
+@media April {
+  .c0 {
+    -webkit-filter: sepia(August);
+    filter: sepia(August);
+  }
+}
+
+@media January {
+  .c0 {
+    -webkit-filter: sepia(September);
+    filter: sepia(September);
+  }
+}
+
+@media April {
+  .c0 {
+    -webkit-filter: sepia(November);
+    filter: sepia(November);
+  }
+}
+
+@media June {
+  .c0 {
+    -webkit-filter: sepia(August);
+    filter: sepia(August);
+  }
+}
+
+@media May {
+
+}
+
+@media April {
+
+}
+
+@media January {
+
+}
+
+@media April {
+
+}
+
+@media June {
+
+}
+
+<div
+    className="c0"
+  />,
+  @media May {
+
+}
+
+@media April {
+
+}
+
+@media January {
+
+}
+
+@media April {
+
+}
+
+@media June {
+
+}
+
+@media May {
+  .c0 {
+    -webkit-filter: sepia(January);
+    filter: sepia(January);
+  }
+}
+
+@media April {
+  .c0 {
+    -webkit-filter: sepia(December);
+    filter: sepia(December);
+  }
+}
+
+@media January {
+  .c0 {
+    -webkit-filter: sepia(April);
+    filter: sepia(April);
+  }
+}
+
+@media April {
+  .c0 {
+    -webkit-filter: sepia(May);
+    filter: sepia(May);
+  }
+}
+
+@media June {
+  .c0 {
+    -webkit-filter: sepia(June);
+    filter: sepia(June);
+  }
+}
+
+<div
+    className="c0"
+  />,
+  @media May {
+
+}
+
+@media April {
+
+}
+
+@media January {
+
+}
+
+@media April {
+
+}
+
+@media June {
+
+}
+
+@media May {
+  .c0 {
+    -webkit-filter: sepia(January);
+    filter: sepia(January);
+  }
+}
+
+@media April {
+  .c0 {
+    -webkit-filter: sepia(December);
+    filter: sepia(December);
+  }
+}
+
+@media January {
+  .c0 {
+    -webkit-filter: sepia(April);
+    filter: sepia(April);
+  }
+}
+
+@media April {
+  .c0 {
+    -webkit-filter: sepia(May);
+    filter: sepia(May);
+  }
+}
+
+@media June {
+  .c0 {
+    -webkit-filter: sepia(June);
+    filter: sepia(June);
+  }
+}
+
+<div
+    className="c0"
+  />,
+]
+`;
+
+exports[`sepia renders postitive number 1`] = `
+Array [
+  .c0 {
+  -webkit-filter: sepia(54881%);
+  filter: sepia(54881%);
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-filter: sepia(54881%);
+  filter: sepia(54881%);
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-filter: sepia(42365%);
+  filter: sepia(42365%);
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-filter: sepia(42365%);
+  filter: sepia(42365%);
+}
+
+<div
+    className="c0"
+  />,
+]
+`;
+
+exports[`sepia renders string 1`] = `
+Array [
+  .c0 {
+  -webkit-filter: sepia(July);
+  filter: sepia(July);
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-filter: sepia(July);
+  filter: sepia(July);
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-filter: sepia(June);
+  filter: sepia(June);
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-filter: sepia(June);
+  filter: sepia(June);
+}
+
+<div
+    className="c0"
+  />,
+]
+`;
+
+exports[`sepia renders valid theme path 1`] = `
+Array [
+  .c0 {
+  -webkit-filter: sepia(DarkSlateBlue);
+  filter: sepia(DarkSlateBlue);
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-filter: sepia(DarkSlateBlue);
+  filter: sepia(DarkSlateBlue);
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-filter: sepia(DarkSlateBlue);
+  filter: sepia(DarkSlateBlue);
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-filter: sepia(DarkSlateBlue);
+  filter: sepia(DarkSlateBlue);
+}
+
+<div
+    className="c0"
+  />,
+]
+`;

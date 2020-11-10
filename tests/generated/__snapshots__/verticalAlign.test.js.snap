@@ -1,0 +1,626 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`verticalAlign renders 0 1`] = `
+Array [
+  .c0 {
+  vertical-align: 0;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  vertical-align: 0;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  vertical-align: 0;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  vertical-align: 0;
+}
+
+<div
+    className="c0"
+  />,
+]
+`;
+
+exports[`verticalAlign renders function 1`] = `
+Array [
+  .c0 {
+  vertical-align: hasnot;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  vertical-align: has;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  vertical-align: hasnot;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  vertical-align: has;
+}
+
+<div
+    className="c0"
+  />,
+]
+`;
+
+exports[`verticalAlign renders invalid theme path 1`] = `
+Array [
+  .c0 {
+  vertical-align: invalid.path.1;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  vertical-align: invalid.path.1;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  vertical-align: invalid.path.1;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  vertical-align: invalid.path.1;
+}
+
+<div
+    className="c0"
+  />,
+]
+`;
+
+exports[`verticalAlign renders negative number 1`] = `
+Array [
+  .c0 {
+  vertical-align: -54881px;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  vertical-align: -54881px;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  vertical-align: -42365px;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  vertical-align: -42365px;
+}
+
+<div
+    className="c0"
+  />,
+]
+`;
+
+exports[`verticalAlign renders object [breakpoints] 1`] = `
+Array [
+  @media screen and (min-width:November) {
+  .c0 {
+    vertical-align: July;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    vertical-align: August;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    vertical-align: September;
+  }
+}
+
+@media screen and (min-width:August) {
+  .c0 {
+    vertical-align: November;
+  }
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:August) {
+
+}
+
+<div
+    className="c0"
+  />,
+  @media screen and (min-width:November) {
+  .c0 {
+    vertical-align: July;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    vertical-align: August;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    vertical-align: September;
+  }
+}
+
+@media screen and (min-width:August) {
+  .c0 {
+    vertical-align: November;
+  }
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:August) {
+
+}
+
+<div
+    className="c0"
+  />,
+  @media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:August) {
+
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    vertical-align: May;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    vertical-align: June;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    vertical-align: April;
+  }
+}
+
+@media screen and (min-width:August) {
+  .c0 {
+    vertical-align: November;
+  }
+}
+
+<div
+    className="c0"
+  />,
+  @media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:August) {
+
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    vertical-align: May;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    vertical-align: June;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    vertical-align: April;
+  }
+}
+
+@media screen and (min-width:August) {
+  .c0 {
+    vertical-align: November;
+  }
+}
+
+<div
+    className="c0"
+  />,
+]
+`;
+
+exports[`verticalAlign renders object [breakpoints] 2`] = `
+Array [
+  @media May {
+  .c0 {
+    vertical-align: July;
+  }
+}
+
+@media April {
+  .c0 {
+    vertical-align: August;
+  }
+}
+
+@media January {
+  .c0 {
+    vertical-align: September;
+  }
+}
+
+@media April {
+  .c0 {
+    vertical-align: November;
+  }
+}
+
+@media June {
+  .c0 {
+    vertical-align: August;
+  }
+}
+
+@media May {
+
+}
+
+@media April {
+
+}
+
+@media January {
+
+}
+
+@media April {
+
+}
+
+@media June {
+
+}
+
+<div
+    className="c0"
+  />,
+  @media May {
+  .c0 {
+    vertical-align: July;
+  }
+}
+
+@media April {
+  .c0 {
+    vertical-align: August;
+  }
+}
+
+@media January {
+  .c0 {
+    vertical-align: September;
+  }
+}
+
+@media April {
+  .c0 {
+    vertical-align: November;
+  }
+}
+
+@media June {
+  .c0 {
+    vertical-align: August;
+  }
+}
+
+@media May {
+
+}
+
+@media April {
+
+}
+
+@media January {
+
+}
+
+@media April {
+
+}
+
+@media June {
+
+}
+
+<div
+    className="c0"
+  />,
+  @media May {
+
+}
+
+@media April {
+
+}
+
+@media January {
+
+}
+
+@media April {
+
+}
+
+@media June {
+
+}
+
+@media May {
+  .c0 {
+    vertical-align: January;
+  }
+}
+
+@media April {
+  .c0 {
+    vertical-align: December;
+  }
+}
+
+@media January {
+  .c0 {
+    vertical-align: April;
+  }
+}
+
+@media April {
+  .c0 {
+    vertical-align: May;
+  }
+}
+
+@media June {
+  .c0 {
+    vertical-align: June;
+  }
+}
+
+<div
+    className="c0"
+  />,
+  @media May {
+
+}
+
+@media April {
+
+}
+
+@media January {
+
+}
+
+@media April {
+
+}
+
+@media June {
+
+}
+
+@media May {
+  .c0 {
+    vertical-align: January;
+  }
+}
+
+@media April {
+  .c0 {
+    vertical-align: December;
+  }
+}
+
+@media January {
+  .c0 {
+    vertical-align: April;
+  }
+}
+
+@media April {
+  .c0 {
+    vertical-align: May;
+  }
+}
+
+@media June {
+  .c0 {
+    vertical-align: June;
+  }
+}
+
+<div
+    className="c0"
+  />,
+]
+`;
+
+exports[`verticalAlign renders postitive number 1`] = `
+Array [
+  .c0 {
+  vertical-align: 54881px;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  vertical-align: 54881px;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  vertical-align: 42365px;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  vertical-align: 42365px;
+}
+
+<div
+    className="c0"
+  />,
+]
+`;
+
+exports[`verticalAlign renders string 1`] = `
+Array [
+  .c0 {
+  vertical-align: July;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  vertical-align: July;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  vertical-align: June;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  vertical-align: June;
+}
+
+<div
+    className="c0"
+  />,
+]
+`;
+
+exports[`verticalAlign renders valid theme path 1`] = `
+Array [
+  .c0 {
+  vertical-align: DarkSlateBlue;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  vertical-align: DarkSlateBlue;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  vertical-align: DarkSlateBlue;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  vertical-align: DarkSlateBlue;
+}
+
+<div
+    className="c0"
+  />,
+]
+`;

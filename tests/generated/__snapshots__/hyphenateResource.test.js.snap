@@ -1,0 +1,818 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`hyphenateResource renders 0 1`] = `
+Array [
+  .c0 {
+  -webkit-hyphenate-resource: 0;
+  -moz-hyphenate-resource: 0;
+  -ms-hyphenate-resource: 0;
+  hyphenate-resource: 0;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-hyphenate-resource: 0;
+  -moz-hyphenate-resource: 0;
+  -ms-hyphenate-resource: 0;
+  hyphenate-resource: 0;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-hyphenate-resource: 0;
+  -moz-hyphenate-resource: 0;
+  -ms-hyphenate-resource: 0;
+  hyphenate-resource: 0;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-hyphenate-resource: 0;
+  -moz-hyphenate-resource: 0;
+  -ms-hyphenate-resource: 0;
+  hyphenate-resource: 0;
+}
+
+<div
+    className="c0"
+  />,
+]
+`;
+
+exports[`hyphenateResource renders function 1`] = `
+Array [
+  .c0 {
+  -webkit-hyphenate-resource: hasnot;
+  -moz-hyphenate-resource: hasnot;
+  -ms-hyphenate-resource: hasnot;
+  hyphenate-resource: hasnot;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-hyphenate-resource: has;
+  -moz-hyphenate-resource: has;
+  -ms-hyphenate-resource: has;
+  hyphenate-resource: has;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-hyphenate-resource: hasnot;
+  -moz-hyphenate-resource: hasnot;
+  -ms-hyphenate-resource: hasnot;
+  hyphenate-resource: hasnot;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-hyphenate-resource: has;
+  -moz-hyphenate-resource: has;
+  -ms-hyphenate-resource: has;
+  hyphenate-resource: has;
+}
+
+<div
+    className="c0"
+  />,
+]
+`;
+
+exports[`hyphenateResource renders invalid theme path 1`] = `
+Array [
+  .c0 {
+  -webkit-hyphenate-resource: invalid.path.1;
+  -moz-hyphenate-resource: invalid.path.1;
+  -ms-hyphenate-resource: invalid.path.1;
+  hyphenate-resource: invalid.path.1;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-hyphenate-resource: invalid.path.1;
+  -moz-hyphenate-resource: invalid.path.1;
+  -ms-hyphenate-resource: invalid.path.1;
+  hyphenate-resource: invalid.path.1;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-hyphenate-resource: invalid.path.1;
+  -moz-hyphenate-resource: invalid.path.1;
+  -ms-hyphenate-resource: invalid.path.1;
+  hyphenate-resource: invalid.path.1;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-hyphenate-resource: invalid.path.1;
+  -moz-hyphenate-resource: invalid.path.1;
+  -ms-hyphenate-resource: invalid.path.1;
+  hyphenate-resource: invalid.path.1;
+}
+
+<div
+    className="c0"
+  />,
+]
+`;
+
+exports[`hyphenateResource renders negative number 1`] = `
+Array [
+  .c0 {
+  -webkit-hyphenate-resource: -54881;
+  -moz-hyphenate-resource: -54881;
+  -ms-hyphenate-resource: -54881;
+  hyphenate-resource: -54881;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-hyphenate-resource: -54881;
+  -moz-hyphenate-resource: -54881;
+  -ms-hyphenate-resource: -54881;
+  hyphenate-resource: -54881;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-hyphenate-resource: -42365;
+  -moz-hyphenate-resource: -42365;
+  -ms-hyphenate-resource: -42365;
+  hyphenate-resource: -42365;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-hyphenate-resource: -42365;
+  -moz-hyphenate-resource: -42365;
+  -ms-hyphenate-resource: -42365;
+  hyphenate-resource: -42365;
+}
+
+<div
+    className="c0"
+  />,
+]
+`;
+
+exports[`hyphenateResource renders object [breakpoints] 1`] = `
+Array [
+  @media screen and (min-width:November) {
+  .c0 {
+    -webkit-hyphenate-resource: July;
+    -moz-hyphenate-resource: July;
+    -ms-hyphenate-resource: July;
+    hyphenate-resource: July;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    -webkit-hyphenate-resource: August;
+    -moz-hyphenate-resource: August;
+    -ms-hyphenate-resource: August;
+    hyphenate-resource: August;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    -webkit-hyphenate-resource: September;
+    -moz-hyphenate-resource: September;
+    -ms-hyphenate-resource: September;
+    hyphenate-resource: September;
+  }
+}
+
+@media screen and (min-width:August) {
+  .c0 {
+    -webkit-hyphenate-resource: November;
+    -moz-hyphenate-resource: November;
+    -ms-hyphenate-resource: November;
+    hyphenate-resource: November;
+  }
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:August) {
+
+}
+
+<div
+    className="c0"
+  />,
+  @media screen and (min-width:November) {
+  .c0 {
+    -webkit-hyphenate-resource: July;
+    -moz-hyphenate-resource: July;
+    -ms-hyphenate-resource: July;
+    hyphenate-resource: July;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    -webkit-hyphenate-resource: August;
+    -moz-hyphenate-resource: August;
+    -ms-hyphenate-resource: August;
+    hyphenate-resource: August;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    -webkit-hyphenate-resource: September;
+    -moz-hyphenate-resource: September;
+    -ms-hyphenate-resource: September;
+    hyphenate-resource: September;
+  }
+}
+
+@media screen and (min-width:August) {
+  .c0 {
+    -webkit-hyphenate-resource: November;
+    -moz-hyphenate-resource: November;
+    -ms-hyphenate-resource: November;
+    hyphenate-resource: November;
+  }
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:August) {
+
+}
+
+<div
+    className="c0"
+  />,
+  @media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:August) {
+
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    -webkit-hyphenate-resource: May;
+    -moz-hyphenate-resource: May;
+    -ms-hyphenate-resource: May;
+    hyphenate-resource: May;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    -webkit-hyphenate-resource: June;
+    -moz-hyphenate-resource: June;
+    -ms-hyphenate-resource: June;
+    hyphenate-resource: June;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    -webkit-hyphenate-resource: April;
+    -moz-hyphenate-resource: April;
+    -ms-hyphenate-resource: April;
+    hyphenate-resource: April;
+  }
+}
+
+@media screen and (min-width:August) {
+  .c0 {
+    -webkit-hyphenate-resource: November;
+    -moz-hyphenate-resource: November;
+    -ms-hyphenate-resource: November;
+    hyphenate-resource: November;
+  }
+}
+
+<div
+    className="c0"
+  />,
+  @media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:August) {
+
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    -webkit-hyphenate-resource: May;
+    -moz-hyphenate-resource: May;
+    -ms-hyphenate-resource: May;
+    hyphenate-resource: May;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    -webkit-hyphenate-resource: June;
+    -moz-hyphenate-resource: June;
+    -ms-hyphenate-resource: June;
+    hyphenate-resource: June;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    -webkit-hyphenate-resource: April;
+    -moz-hyphenate-resource: April;
+    -ms-hyphenate-resource: April;
+    hyphenate-resource: April;
+  }
+}
+
+@media screen and (min-width:August) {
+  .c0 {
+    -webkit-hyphenate-resource: November;
+    -moz-hyphenate-resource: November;
+    -ms-hyphenate-resource: November;
+    hyphenate-resource: November;
+  }
+}
+
+<div
+    className="c0"
+  />,
+]
+`;
+
+exports[`hyphenateResource renders object [breakpoints] 2`] = `
+Array [
+  @media May {
+  .c0 {
+    -webkit-hyphenate-resource: July;
+    -moz-hyphenate-resource: July;
+    -ms-hyphenate-resource: July;
+    hyphenate-resource: July;
+  }
+}
+
+@media April {
+  .c0 {
+    -webkit-hyphenate-resource: August;
+    -moz-hyphenate-resource: August;
+    -ms-hyphenate-resource: August;
+    hyphenate-resource: August;
+  }
+}
+
+@media January {
+  .c0 {
+    -webkit-hyphenate-resource: September;
+    -moz-hyphenate-resource: September;
+    -ms-hyphenate-resource: September;
+    hyphenate-resource: September;
+  }
+}
+
+@media April {
+  .c0 {
+    -webkit-hyphenate-resource: November;
+    -moz-hyphenate-resource: November;
+    -ms-hyphenate-resource: November;
+    hyphenate-resource: November;
+  }
+}
+
+@media June {
+  .c0 {
+    -webkit-hyphenate-resource: August;
+    -moz-hyphenate-resource: August;
+    -ms-hyphenate-resource: August;
+    hyphenate-resource: August;
+  }
+}
+
+@media May {
+
+}
+
+@media April {
+
+}
+
+@media January {
+
+}
+
+@media April {
+
+}
+
+@media June {
+
+}
+
+<div
+    className="c0"
+  />,
+  @media May {
+  .c0 {
+    -webkit-hyphenate-resource: July;
+    -moz-hyphenate-resource: July;
+    -ms-hyphenate-resource: July;
+    hyphenate-resource: July;
+  }
+}
+
+@media April {
+  .c0 {
+    -webkit-hyphenate-resource: August;
+    -moz-hyphenate-resource: August;
+    -ms-hyphenate-resource: August;
+    hyphenate-resource: August;
+  }
+}
+
+@media January {
+  .c0 {
+    -webkit-hyphenate-resource: September;
+    -moz-hyphenate-resource: September;
+    -ms-hyphenate-resource: September;
+    hyphenate-resource: September;
+  }
+}
+
+@media April {
+  .c0 {
+    -webkit-hyphenate-resource: November;
+    -moz-hyphenate-resource: November;
+    -ms-hyphenate-resource: November;
+    hyphenate-resource: November;
+  }
+}
+
+@media June {
+  .c0 {
+    -webkit-hyphenate-resource: August;
+    -moz-hyphenate-resource: August;
+    -ms-hyphenate-resource: August;
+    hyphenate-resource: August;
+  }
+}
+
+@media May {
+
+}
+
+@media April {
+
+}
+
+@media January {
+
+}
+
+@media April {
+
+}
+
+@media June {
+
+}
+
+<div
+    className="c0"
+  />,
+  @media May {
+
+}
+
+@media April {
+
+}
+
+@media January {
+
+}
+
+@media April {
+
+}
+
+@media June {
+
+}
+
+@media May {
+  .c0 {
+    -webkit-hyphenate-resource: January;
+    -moz-hyphenate-resource: January;
+    -ms-hyphenate-resource: January;
+    hyphenate-resource: January;
+  }
+}
+
+@media April {
+  .c0 {
+    -webkit-hyphenate-resource: December;
+    -moz-hyphenate-resource: December;
+    -ms-hyphenate-resource: December;
+    hyphenate-resource: December;
+  }
+}
+
+@media January {
+  .c0 {
+    -webkit-hyphenate-resource: April;
+    -moz-hyphenate-resource: April;
+    -ms-hyphenate-resource: April;
+    hyphenate-resource: April;
+  }
+}
+
+@media April {
+  .c0 {
+    -webkit-hyphenate-resource: May;
+    -moz-hyphenate-resource: May;
+    -ms-hyphenate-resource: May;
+    hyphenate-resource: May;
+  }
+}
+
+@media June {
+  .c0 {
+    -webkit-hyphenate-resource: June;
+    -moz-hyphenate-resource: June;
+    -ms-hyphenate-resource: June;
+    hyphenate-resource: June;
+  }
+}
+
+<div
+    className="c0"
+  />,
+  @media May {
+
+}
+
+@media April {
+
+}
+
+@media January {
+
+}
+
+@media April {
+
+}
+
+@media June {
+
+}
+
+@media May {
+  .c0 {
+    -webkit-hyphenate-resource: January;
+    -moz-hyphenate-resource: January;
+    -ms-hyphenate-resource: January;
+    hyphenate-resource: January;
+  }
+}
+
+@media April {
+  .c0 {
+    -webkit-hyphenate-resource: December;
+    -moz-hyphenate-resource: December;
+    -ms-hyphenate-resource: December;
+    hyphenate-resource: December;
+  }
+}
+
+@media January {
+  .c0 {
+    -webkit-hyphenate-resource: April;
+    -moz-hyphenate-resource: April;
+    -ms-hyphenate-resource: April;
+    hyphenate-resource: April;
+  }
+}
+
+@media April {
+  .c0 {
+    -webkit-hyphenate-resource: May;
+    -moz-hyphenate-resource: May;
+    -ms-hyphenate-resource: May;
+    hyphenate-resource: May;
+  }
+}
+
+@media June {
+  .c0 {
+    -webkit-hyphenate-resource: June;
+    -moz-hyphenate-resource: June;
+    -ms-hyphenate-resource: June;
+    hyphenate-resource: June;
+  }
+}
+
+<div
+    className="c0"
+  />,
+]
+`;
+
+exports[`hyphenateResource renders postitive number 1`] = `
+Array [
+  .c0 {
+  -webkit-hyphenate-resource: 54881;
+  -moz-hyphenate-resource: 54881;
+  -ms-hyphenate-resource: 54881;
+  hyphenate-resource: 54881;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-hyphenate-resource: 54881;
+  -moz-hyphenate-resource: 54881;
+  -ms-hyphenate-resource: 54881;
+  hyphenate-resource: 54881;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-hyphenate-resource: 42365;
+  -moz-hyphenate-resource: 42365;
+  -ms-hyphenate-resource: 42365;
+  hyphenate-resource: 42365;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-hyphenate-resource: 42365;
+  -moz-hyphenate-resource: 42365;
+  -ms-hyphenate-resource: 42365;
+  hyphenate-resource: 42365;
+}
+
+<div
+    className="c0"
+  />,
+]
+`;
+
+exports[`hyphenateResource renders string 1`] = `
+Array [
+  .c0 {
+  -webkit-hyphenate-resource: July;
+  -moz-hyphenate-resource: July;
+  -ms-hyphenate-resource: July;
+  hyphenate-resource: July;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-hyphenate-resource: July;
+  -moz-hyphenate-resource: July;
+  -ms-hyphenate-resource: July;
+  hyphenate-resource: July;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-hyphenate-resource: June;
+  -moz-hyphenate-resource: June;
+  -ms-hyphenate-resource: June;
+  hyphenate-resource: June;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-hyphenate-resource: June;
+  -moz-hyphenate-resource: June;
+  -ms-hyphenate-resource: June;
+  hyphenate-resource: June;
+}
+
+<div
+    className="c0"
+  />,
+]
+`;
+
+exports[`hyphenateResource renders valid theme path 1`] = `
+Array [
+  .c0 {
+  -webkit-hyphenate-resource: DarkSlateBlue;
+  -moz-hyphenate-resource: DarkSlateBlue;
+  -ms-hyphenate-resource: DarkSlateBlue;
+  hyphenate-resource: DarkSlateBlue;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-hyphenate-resource: DarkSlateBlue;
+  -moz-hyphenate-resource: DarkSlateBlue;
+  -ms-hyphenate-resource: DarkSlateBlue;
+  hyphenate-resource: DarkSlateBlue;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-hyphenate-resource: DarkSlateBlue;
+  -moz-hyphenate-resource: DarkSlateBlue;
+  -ms-hyphenate-resource: DarkSlateBlue;
+  hyphenate-resource: DarkSlateBlue;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-hyphenate-resource: DarkSlateBlue;
+  -moz-hyphenate-resource: DarkSlateBlue;
+  -ms-hyphenate-resource: DarkSlateBlue;
+  hyphenate-resource: DarkSlateBlue;
+}
+
+<div
+    className="c0"
+  />,
+]
+`;

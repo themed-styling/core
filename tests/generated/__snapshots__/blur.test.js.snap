@@ -1,0 +1,690 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`blur renders 0 1`] = `
+Array [
+  .c0 {
+  -webkit-filter: blur(0);
+  filter: blur(0);
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-filter: blur(0);
+  filter: blur(0);
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-filter: blur(0);
+  filter: blur(0);
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-filter: blur(0);
+  filter: blur(0);
+}
+
+<div
+    className="c0"
+  />,
+]
+`;
+
+exports[`blur renders function 1`] = `
+Array [
+  .c0 {
+  -webkit-filter: blur(hasnot);
+  filter: blur(hasnot);
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-filter: blur(has);
+  filter: blur(has);
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-filter: blur(hasnot);
+  filter: blur(hasnot);
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-filter: blur(has);
+  filter: blur(has);
+}
+
+<div
+    className="c0"
+  />,
+]
+`;
+
+exports[`blur renders invalid theme path 1`] = `
+Array [
+  .c0 {
+  -webkit-filter: blur(invalid.path.1);
+  filter: blur(invalid.path.1);
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-filter: blur(invalid.path.1);
+  filter: blur(invalid.path.1);
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-filter: blur(invalid.path.1);
+  filter: blur(invalid.path.1);
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-filter: blur(invalid.path.1);
+  filter: blur(invalid.path.1);
+}
+
+<div
+    className="c0"
+  />,
+]
+`;
+
+exports[`blur renders negative number 1`] = `
+Array [
+  .c0 {
+  -webkit-filter: blur(-54881px);
+  filter: blur(-54881px);
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-filter: blur(-54881px);
+  filter: blur(-54881px);
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-filter: blur(-42365px);
+  filter: blur(-42365px);
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-filter: blur(-42365px);
+  filter: blur(-42365px);
+}
+
+<div
+    className="c0"
+  />,
+]
+`;
+
+exports[`blur renders object [breakpoints] 1`] = `
+Array [
+  @media screen and (min-width:November) {
+  .c0 {
+    -webkit-filter: blur(July);
+    filter: blur(July);
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    -webkit-filter: blur(August);
+    filter: blur(August);
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    -webkit-filter: blur(September);
+    filter: blur(September);
+  }
+}
+
+@media screen and (min-width:August) {
+  .c0 {
+    -webkit-filter: blur(November);
+    filter: blur(November);
+  }
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:August) {
+
+}
+
+<div
+    className="c0"
+  />,
+  @media screen and (min-width:November) {
+  .c0 {
+    -webkit-filter: blur(July);
+    filter: blur(July);
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    -webkit-filter: blur(August);
+    filter: blur(August);
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    -webkit-filter: blur(September);
+    filter: blur(September);
+  }
+}
+
+@media screen and (min-width:August) {
+  .c0 {
+    -webkit-filter: blur(November);
+    filter: blur(November);
+  }
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:August) {
+
+}
+
+<div
+    className="c0"
+  />,
+  @media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:August) {
+
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    -webkit-filter: blur(May);
+    filter: blur(May);
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    -webkit-filter: blur(June);
+    filter: blur(June);
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    -webkit-filter: blur(April);
+    filter: blur(April);
+  }
+}
+
+@media screen and (min-width:August) {
+  .c0 {
+    -webkit-filter: blur(November);
+    filter: blur(November);
+  }
+}
+
+<div
+    className="c0"
+  />,
+  @media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:August) {
+
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    -webkit-filter: blur(May);
+    filter: blur(May);
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    -webkit-filter: blur(June);
+    filter: blur(June);
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    -webkit-filter: blur(April);
+    filter: blur(April);
+  }
+}
+
+@media screen and (min-width:August) {
+  .c0 {
+    -webkit-filter: blur(November);
+    filter: blur(November);
+  }
+}
+
+<div
+    className="c0"
+  />,
+]
+`;
+
+exports[`blur renders object [breakpoints] 2`] = `
+Array [
+  @media May {
+  .c0 {
+    -webkit-filter: blur(July);
+    filter: blur(July);
+  }
+}
+
+@media April {
+  .c0 {
+    -webkit-filter: blur(August);
+    filter: blur(August);
+  }
+}
+
+@media January {
+  .c0 {
+    -webkit-filter: blur(September);
+    filter: blur(September);
+  }
+}
+
+@media April {
+  .c0 {
+    -webkit-filter: blur(November);
+    filter: blur(November);
+  }
+}
+
+@media June {
+  .c0 {
+    -webkit-filter: blur(August);
+    filter: blur(August);
+  }
+}
+
+@media May {
+
+}
+
+@media April {
+
+}
+
+@media January {
+
+}
+
+@media April {
+
+}
+
+@media June {
+
+}
+
+<div
+    className="c0"
+  />,
+  @media May {
+  .c0 {
+    -webkit-filter: blur(July);
+    filter: blur(July);
+  }
+}
+
+@media April {
+  .c0 {
+    -webkit-filter: blur(August);
+    filter: blur(August);
+  }
+}
+
+@media January {
+  .c0 {
+    -webkit-filter: blur(September);
+    filter: blur(September);
+  }
+}
+
+@media April {
+  .c0 {
+    -webkit-filter: blur(November);
+    filter: blur(November);
+  }
+}
+
+@media June {
+  .c0 {
+    -webkit-filter: blur(August);
+    filter: blur(August);
+  }
+}
+
+@media May {
+
+}
+
+@media April {
+
+}
+
+@media January {
+
+}
+
+@media April {
+
+}
+
+@media June {
+
+}
+
+<div
+    className="c0"
+  />,
+  @media May {
+
+}
+
+@media April {
+
+}
+
+@media January {
+
+}
+
+@media April {
+
+}
+
+@media June {
+
+}
+
+@media May {
+  .c0 {
+    -webkit-filter: blur(January);
+    filter: blur(January);
+  }
+}
+
+@media April {
+  .c0 {
+    -webkit-filter: blur(December);
+    filter: blur(December);
+  }
+}
+
+@media January {
+  .c0 {
+    -webkit-filter: blur(April);
+    filter: blur(April);
+  }
+}
+
+@media April {
+  .c0 {
+    -webkit-filter: blur(May);
+    filter: blur(May);
+  }
+}
+
+@media June {
+  .c0 {
+    -webkit-filter: blur(June);
+    filter: blur(June);
+  }
+}
+
+<div
+    className="c0"
+  />,
+  @media May {
+
+}
+
+@media April {
+
+}
+
+@media January {
+
+}
+
+@media April {
+
+}
+
+@media June {
+
+}
+
+@media May {
+  .c0 {
+    -webkit-filter: blur(January);
+    filter: blur(January);
+  }
+}
+
+@media April {
+  .c0 {
+    -webkit-filter: blur(December);
+    filter: blur(December);
+  }
+}
+
+@media January {
+  .c0 {
+    -webkit-filter: blur(April);
+    filter: blur(April);
+  }
+}
+
+@media April {
+  .c0 {
+    -webkit-filter: blur(May);
+    filter: blur(May);
+  }
+}
+
+@media June {
+  .c0 {
+    -webkit-filter: blur(June);
+    filter: blur(June);
+  }
+}
+
+<div
+    className="c0"
+  />,
+]
+`;
+
+exports[`blur renders postitive number 1`] = `
+Array [
+  .c0 {
+  -webkit-filter: blur(54881px);
+  filter: blur(54881px);
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-filter: blur(54881px);
+  filter: blur(54881px);
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-filter: blur(42365px);
+  filter: blur(42365px);
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-filter: blur(42365px);
+  filter: blur(42365px);
+}
+
+<div
+    className="c0"
+  />,
+]
+`;
+
+exports[`blur renders string 1`] = `
+Array [
+  .c0 {
+  -webkit-filter: blur(July);
+  filter: blur(July);
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-filter: blur(July);
+  filter: blur(July);
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-filter: blur(June);
+  filter: blur(June);
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-filter: blur(June);
+  filter: blur(June);
+}
+
+<div
+    className="c0"
+  />,
+]
+`;
+
+exports[`blur renders valid theme path 1`] = `
+Array [
+  .c0 {
+  -webkit-filter: blur(DarkSlateBlue);
+  filter: blur(DarkSlateBlue);
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-filter: blur(DarkSlateBlue);
+  filter: blur(DarkSlateBlue);
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-filter: blur(DarkSlateBlue);
+  filter: blur(DarkSlateBlue);
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-filter: blur(DarkSlateBlue);
+  filter: blur(DarkSlateBlue);
+}
+
+<div
+    className="c0"
+  />,
+]
+`;

@@ -1,0 +1,690 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`animationDirection renders 0 1`] = `
+Array [
+  .c0 {
+  -webkit-animation-direction: 0;
+  animation-direction: 0;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-animation-direction: 0;
+  animation-direction: 0;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-animation-direction: 0;
+  animation-direction: 0;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-animation-direction: 0;
+  animation-direction: 0;
+}
+
+<div
+    className="c0"
+  />,
+]
+`;
+
+exports[`animationDirection renders function 1`] = `
+Array [
+  .c0 {
+  -webkit-animation-direction: hasnot;
+  animation-direction: hasnot;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-animation-direction: has;
+  animation-direction: has;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-animation-direction: hasnot;
+  animation-direction: hasnot;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-animation-direction: has;
+  animation-direction: has;
+}
+
+<div
+    className="c0"
+  />,
+]
+`;
+
+exports[`animationDirection renders invalid theme path 1`] = `
+Array [
+  .c0 {
+  -webkit-animation-direction: invalid.path.1;
+  animation-direction: invalid.path.1;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-animation-direction: invalid.path.1;
+  animation-direction: invalid.path.1;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-animation-direction: invalid.path.1;
+  animation-direction: invalid.path.1;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-animation-direction: invalid.path.1;
+  animation-direction: invalid.path.1;
+}
+
+<div
+    className="c0"
+  />,
+]
+`;
+
+exports[`animationDirection renders negative number 1`] = `
+Array [
+  .c0 {
+  -webkit-animation-direction: -54881;
+  animation-direction: -54881;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-animation-direction: -54881;
+  animation-direction: -54881;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-animation-direction: -42365;
+  animation-direction: -42365;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-animation-direction: -42365;
+  animation-direction: -42365;
+}
+
+<div
+    className="c0"
+  />,
+]
+`;
+
+exports[`animationDirection renders object [breakpoints] 1`] = `
+Array [
+  @media screen and (min-width:November) {
+  .c0 {
+    -webkit-animation-direction: July;
+    animation-direction: July;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    -webkit-animation-direction: August;
+    animation-direction: August;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    -webkit-animation-direction: September;
+    animation-direction: September;
+  }
+}
+
+@media screen and (min-width:August) {
+  .c0 {
+    -webkit-animation-direction: November;
+    animation-direction: November;
+  }
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:August) {
+
+}
+
+<div
+    className="c0"
+  />,
+  @media screen and (min-width:November) {
+  .c0 {
+    -webkit-animation-direction: July;
+    animation-direction: July;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    -webkit-animation-direction: August;
+    animation-direction: August;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    -webkit-animation-direction: September;
+    animation-direction: September;
+  }
+}
+
+@media screen and (min-width:August) {
+  .c0 {
+    -webkit-animation-direction: November;
+    animation-direction: November;
+  }
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:August) {
+
+}
+
+<div
+    className="c0"
+  />,
+  @media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:August) {
+
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    -webkit-animation-direction: May;
+    animation-direction: May;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    -webkit-animation-direction: June;
+    animation-direction: June;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    -webkit-animation-direction: April;
+    animation-direction: April;
+  }
+}
+
+@media screen and (min-width:August) {
+  .c0 {
+    -webkit-animation-direction: November;
+    animation-direction: November;
+  }
+}
+
+<div
+    className="c0"
+  />,
+  @media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:August) {
+
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    -webkit-animation-direction: May;
+    animation-direction: May;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    -webkit-animation-direction: June;
+    animation-direction: June;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    -webkit-animation-direction: April;
+    animation-direction: April;
+  }
+}
+
+@media screen and (min-width:August) {
+  .c0 {
+    -webkit-animation-direction: November;
+    animation-direction: November;
+  }
+}
+
+<div
+    className="c0"
+  />,
+]
+`;
+
+exports[`animationDirection renders object [breakpoints] 2`] = `
+Array [
+  @media May {
+  .c0 {
+    -webkit-animation-direction: July;
+    animation-direction: July;
+  }
+}
+
+@media April {
+  .c0 {
+    -webkit-animation-direction: August;
+    animation-direction: August;
+  }
+}
+
+@media January {
+  .c0 {
+    -webkit-animation-direction: September;
+    animation-direction: September;
+  }
+}
+
+@media April {
+  .c0 {
+    -webkit-animation-direction: November;
+    animation-direction: November;
+  }
+}
+
+@media June {
+  .c0 {
+    -webkit-animation-direction: August;
+    animation-direction: August;
+  }
+}
+
+@media May {
+
+}
+
+@media April {
+
+}
+
+@media January {
+
+}
+
+@media April {
+
+}
+
+@media June {
+
+}
+
+<div
+    className="c0"
+  />,
+  @media May {
+  .c0 {
+    -webkit-animation-direction: July;
+    animation-direction: July;
+  }
+}
+
+@media April {
+  .c0 {
+    -webkit-animation-direction: August;
+    animation-direction: August;
+  }
+}
+
+@media January {
+  .c0 {
+    -webkit-animation-direction: September;
+    animation-direction: September;
+  }
+}
+
+@media April {
+  .c0 {
+    -webkit-animation-direction: November;
+    animation-direction: November;
+  }
+}
+
+@media June {
+  .c0 {
+    -webkit-animation-direction: August;
+    animation-direction: August;
+  }
+}
+
+@media May {
+
+}
+
+@media April {
+
+}
+
+@media January {
+
+}
+
+@media April {
+
+}
+
+@media June {
+
+}
+
+<div
+    className="c0"
+  />,
+  @media May {
+
+}
+
+@media April {
+
+}
+
+@media January {
+
+}
+
+@media April {
+
+}
+
+@media June {
+
+}
+
+@media May {
+  .c0 {
+    -webkit-animation-direction: January;
+    animation-direction: January;
+  }
+}
+
+@media April {
+  .c0 {
+    -webkit-animation-direction: December;
+    animation-direction: December;
+  }
+}
+
+@media January {
+  .c0 {
+    -webkit-animation-direction: April;
+    animation-direction: April;
+  }
+}
+
+@media April {
+  .c0 {
+    -webkit-animation-direction: May;
+    animation-direction: May;
+  }
+}
+
+@media June {
+  .c0 {
+    -webkit-animation-direction: June;
+    animation-direction: June;
+  }
+}
+
+<div
+    className="c0"
+  />,
+  @media May {
+
+}
+
+@media April {
+
+}
+
+@media January {
+
+}
+
+@media April {
+
+}
+
+@media June {
+
+}
+
+@media May {
+  .c0 {
+    -webkit-animation-direction: January;
+    animation-direction: January;
+  }
+}
+
+@media April {
+  .c0 {
+    -webkit-animation-direction: December;
+    animation-direction: December;
+  }
+}
+
+@media January {
+  .c0 {
+    -webkit-animation-direction: April;
+    animation-direction: April;
+  }
+}
+
+@media April {
+  .c0 {
+    -webkit-animation-direction: May;
+    animation-direction: May;
+  }
+}
+
+@media June {
+  .c0 {
+    -webkit-animation-direction: June;
+    animation-direction: June;
+  }
+}
+
+<div
+    className="c0"
+  />,
+]
+`;
+
+exports[`animationDirection renders postitive number 1`] = `
+Array [
+  .c0 {
+  -webkit-animation-direction: 54881;
+  animation-direction: 54881;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-animation-direction: 54881;
+  animation-direction: 54881;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-animation-direction: 42365;
+  animation-direction: 42365;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-animation-direction: 42365;
+  animation-direction: 42365;
+}
+
+<div
+    className="c0"
+  />,
+]
+`;
+
+exports[`animationDirection renders string 1`] = `
+Array [
+  .c0 {
+  -webkit-animation-direction: July;
+  animation-direction: July;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-animation-direction: July;
+  animation-direction: July;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-animation-direction: June;
+  animation-direction: June;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-animation-direction: June;
+  animation-direction: June;
+}
+
+<div
+    className="c0"
+  />,
+]
+`;
+
+exports[`animationDirection renders valid theme path 1`] = `
+Array [
+  .c0 {
+  -webkit-animation-direction: DarkSlateBlue;
+  animation-direction: DarkSlateBlue;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-animation-direction: DarkSlateBlue;
+  animation-direction: DarkSlateBlue;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-animation-direction: DarkSlateBlue;
+  animation-direction: DarkSlateBlue;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-animation-direction: DarkSlateBlue;
+  animation-direction: DarkSlateBlue;
+}
+
+<div
+    className="c0"
+  />,
+]
+`;

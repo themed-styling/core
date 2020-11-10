@@ -1,0 +1,626 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`leadingTrimOver renders 0 1`] = `
+Array [
+  .c0 {
+  leading-trim-over: 0;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  leading-trim-over: 0;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  leading-trim-over: 0;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  leading-trim-over: 0;
+}
+
+<div
+    className="c0"
+  />,
+]
+`;
+
+exports[`leadingTrimOver renders function 1`] = `
+Array [
+  .c0 {
+  leading-trim-over: hasnot;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  leading-trim-over: has;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  leading-trim-over: hasnot;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  leading-trim-over: has;
+}
+
+<div
+    className="c0"
+  />,
+]
+`;
+
+exports[`leadingTrimOver renders invalid theme path 1`] = `
+Array [
+  .c0 {
+  leading-trim-over: invalid.path.1;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  leading-trim-over: invalid.path.1;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  leading-trim-over: invalid.path.1;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  leading-trim-over: invalid.path.1;
+}
+
+<div
+    className="c0"
+  />,
+]
+`;
+
+exports[`leadingTrimOver renders negative number 1`] = `
+Array [
+  .c0 {
+  leading-trim-over: -54881;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  leading-trim-over: -54881;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  leading-trim-over: -42365;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  leading-trim-over: -42365;
+}
+
+<div
+    className="c0"
+  />,
+]
+`;
+
+exports[`leadingTrimOver renders object [breakpoints] 1`] = `
+Array [
+  @media screen and (min-width:November) {
+  .c0 {
+    leading-trim-over: July;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    leading-trim-over: August;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    leading-trim-over: September;
+  }
+}
+
+@media screen and (min-width:August) {
+  .c0 {
+    leading-trim-over: November;
+  }
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:August) {
+
+}
+
+<div
+    className="c0"
+  />,
+  @media screen and (min-width:November) {
+  .c0 {
+    leading-trim-over: July;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    leading-trim-over: August;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    leading-trim-over: September;
+  }
+}
+
+@media screen and (min-width:August) {
+  .c0 {
+    leading-trim-over: November;
+  }
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:August) {
+
+}
+
+<div
+    className="c0"
+  />,
+  @media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:August) {
+
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    leading-trim-over: May;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    leading-trim-over: June;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    leading-trim-over: April;
+  }
+}
+
+@media screen and (min-width:August) {
+  .c0 {
+    leading-trim-over: November;
+  }
+}
+
+<div
+    className="c0"
+  />,
+  @media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:August) {
+
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    leading-trim-over: May;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    leading-trim-over: June;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    leading-trim-over: April;
+  }
+}
+
+@media screen and (min-width:August) {
+  .c0 {
+    leading-trim-over: November;
+  }
+}
+
+<div
+    className="c0"
+  />,
+]
+`;
+
+exports[`leadingTrimOver renders object [breakpoints] 2`] = `
+Array [
+  @media May {
+  .c0 {
+    leading-trim-over: July;
+  }
+}
+
+@media April {
+  .c0 {
+    leading-trim-over: August;
+  }
+}
+
+@media January {
+  .c0 {
+    leading-trim-over: September;
+  }
+}
+
+@media April {
+  .c0 {
+    leading-trim-over: November;
+  }
+}
+
+@media June {
+  .c0 {
+    leading-trim-over: August;
+  }
+}
+
+@media May {
+
+}
+
+@media April {
+
+}
+
+@media January {
+
+}
+
+@media April {
+
+}
+
+@media June {
+
+}
+
+<div
+    className="c0"
+  />,
+  @media May {
+  .c0 {
+    leading-trim-over: July;
+  }
+}
+
+@media April {
+  .c0 {
+    leading-trim-over: August;
+  }
+}
+
+@media January {
+  .c0 {
+    leading-trim-over: September;
+  }
+}
+
+@media April {
+  .c0 {
+    leading-trim-over: November;
+  }
+}
+
+@media June {
+  .c0 {
+    leading-trim-over: August;
+  }
+}
+
+@media May {
+
+}
+
+@media April {
+
+}
+
+@media January {
+
+}
+
+@media April {
+
+}
+
+@media June {
+
+}
+
+<div
+    className="c0"
+  />,
+  @media May {
+
+}
+
+@media April {
+
+}
+
+@media January {
+
+}
+
+@media April {
+
+}
+
+@media June {
+
+}
+
+@media May {
+  .c0 {
+    leading-trim-over: January;
+  }
+}
+
+@media April {
+  .c0 {
+    leading-trim-over: December;
+  }
+}
+
+@media January {
+  .c0 {
+    leading-trim-over: April;
+  }
+}
+
+@media April {
+  .c0 {
+    leading-trim-over: May;
+  }
+}
+
+@media June {
+  .c0 {
+    leading-trim-over: June;
+  }
+}
+
+<div
+    className="c0"
+  />,
+  @media May {
+
+}
+
+@media April {
+
+}
+
+@media January {
+
+}
+
+@media April {
+
+}
+
+@media June {
+
+}
+
+@media May {
+  .c0 {
+    leading-trim-over: January;
+  }
+}
+
+@media April {
+  .c0 {
+    leading-trim-over: December;
+  }
+}
+
+@media January {
+  .c0 {
+    leading-trim-over: April;
+  }
+}
+
+@media April {
+  .c0 {
+    leading-trim-over: May;
+  }
+}
+
+@media June {
+  .c0 {
+    leading-trim-over: June;
+  }
+}
+
+<div
+    className="c0"
+  />,
+]
+`;
+
+exports[`leadingTrimOver renders postitive number 1`] = `
+Array [
+  .c0 {
+  leading-trim-over: 54881;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  leading-trim-over: 54881;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  leading-trim-over: 42365;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  leading-trim-over: 42365;
+}
+
+<div
+    className="c0"
+  />,
+]
+`;
+
+exports[`leadingTrimOver renders string 1`] = `
+Array [
+  .c0 {
+  leading-trim-over: July;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  leading-trim-over: July;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  leading-trim-over: June;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  leading-trim-over: June;
+}
+
+<div
+    className="c0"
+  />,
+]
+`;
+
+exports[`leadingTrimOver renders valid theme path 1`] = `
+Array [
+  .c0 {
+  leading-trim-over: DarkSlateBlue;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  leading-trim-over: DarkSlateBlue;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  leading-trim-over: DarkSlateBlue;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  leading-trim-over: DarkSlateBlue;
+}
+
+<div
+    className="c0"
+  />,
+]
+`;

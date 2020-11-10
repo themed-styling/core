@@ -1,0 +1,690 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`textDecorationSkipSelf renders 0 1`] = `
+Array [
+  .c0 {
+  -webkit-text-decoration-skip-self: 0;
+  text-decoration-skip-self: 0;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-text-decoration-skip-self: 0;
+  text-decoration-skip-self: 0;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-text-decoration-skip-self: 0;
+  text-decoration-skip-self: 0;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-text-decoration-skip-self: 0;
+  text-decoration-skip-self: 0;
+}
+
+<div
+    className="c0"
+  />,
+]
+`;
+
+exports[`textDecorationSkipSelf renders function 1`] = `
+Array [
+  .c0 {
+  -webkit-text-decoration-skip-self: hasnot;
+  text-decoration-skip-self: hasnot;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-text-decoration-skip-self: has;
+  text-decoration-skip-self: has;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-text-decoration-skip-self: hasnot;
+  text-decoration-skip-self: hasnot;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-text-decoration-skip-self: has;
+  text-decoration-skip-self: has;
+}
+
+<div
+    className="c0"
+  />,
+]
+`;
+
+exports[`textDecorationSkipSelf renders invalid theme path 1`] = `
+Array [
+  .c0 {
+  -webkit-text-decoration-skip-self: invalid.path.1;
+  text-decoration-skip-self: invalid.path.1;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-text-decoration-skip-self: invalid.path.1;
+  text-decoration-skip-self: invalid.path.1;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-text-decoration-skip-self: invalid.path.1;
+  text-decoration-skip-self: invalid.path.1;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-text-decoration-skip-self: invalid.path.1;
+  text-decoration-skip-self: invalid.path.1;
+}
+
+<div
+    className="c0"
+  />,
+]
+`;
+
+exports[`textDecorationSkipSelf renders negative number 1`] = `
+Array [
+  .c0 {
+  -webkit-text-decoration-skip-self: -54881;
+  text-decoration-skip-self: -54881;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-text-decoration-skip-self: -54881;
+  text-decoration-skip-self: -54881;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-text-decoration-skip-self: -42365;
+  text-decoration-skip-self: -42365;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-text-decoration-skip-self: -42365;
+  text-decoration-skip-self: -42365;
+}
+
+<div
+    className="c0"
+  />,
+]
+`;
+
+exports[`textDecorationSkipSelf renders object [breakpoints] 1`] = `
+Array [
+  @media screen and (min-width:November) {
+  .c0 {
+    -webkit-text-decoration-skip-self: July;
+    text-decoration-skip-self: July;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    -webkit-text-decoration-skip-self: August;
+    text-decoration-skip-self: August;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    -webkit-text-decoration-skip-self: September;
+    text-decoration-skip-self: September;
+  }
+}
+
+@media screen and (min-width:August) {
+  .c0 {
+    -webkit-text-decoration-skip-self: November;
+    text-decoration-skip-self: November;
+  }
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:August) {
+
+}
+
+<div
+    className="c0"
+  />,
+  @media screen and (min-width:November) {
+  .c0 {
+    -webkit-text-decoration-skip-self: July;
+    text-decoration-skip-self: July;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    -webkit-text-decoration-skip-self: August;
+    text-decoration-skip-self: August;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    -webkit-text-decoration-skip-self: September;
+    text-decoration-skip-self: September;
+  }
+}
+
+@media screen and (min-width:August) {
+  .c0 {
+    -webkit-text-decoration-skip-self: November;
+    text-decoration-skip-self: November;
+  }
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:August) {
+
+}
+
+<div
+    className="c0"
+  />,
+  @media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:August) {
+
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    -webkit-text-decoration-skip-self: May;
+    text-decoration-skip-self: May;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    -webkit-text-decoration-skip-self: June;
+    text-decoration-skip-self: June;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    -webkit-text-decoration-skip-self: April;
+    text-decoration-skip-self: April;
+  }
+}
+
+@media screen and (min-width:August) {
+  .c0 {
+    -webkit-text-decoration-skip-self: November;
+    text-decoration-skip-self: November;
+  }
+}
+
+<div
+    className="c0"
+  />,
+  @media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:August) {
+
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    -webkit-text-decoration-skip-self: May;
+    text-decoration-skip-self: May;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    -webkit-text-decoration-skip-self: June;
+    text-decoration-skip-self: June;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    -webkit-text-decoration-skip-self: April;
+    text-decoration-skip-self: April;
+  }
+}
+
+@media screen and (min-width:August) {
+  .c0 {
+    -webkit-text-decoration-skip-self: November;
+    text-decoration-skip-self: November;
+  }
+}
+
+<div
+    className="c0"
+  />,
+]
+`;
+
+exports[`textDecorationSkipSelf renders object [breakpoints] 2`] = `
+Array [
+  @media May {
+  .c0 {
+    -webkit-text-decoration-skip-self: July;
+    text-decoration-skip-self: July;
+  }
+}
+
+@media April {
+  .c0 {
+    -webkit-text-decoration-skip-self: August;
+    text-decoration-skip-self: August;
+  }
+}
+
+@media January {
+  .c0 {
+    -webkit-text-decoration-skip-self: September;
+    text-decoration-skip-self: September;
+  }
+}
+
+@media April {
+  .c0 {
+    -webkit-text-decoration-skip-self: November;
+    text-decoration-skip-self: November;
+  }
+}
+
+@media June {
+  .c0 {
+    -webkit-text-decoration-skip-self: August;
+    text-decoration-skip-self: August;
+  }
+}
+
+@media May {
+
+}
+
+@media April {
+
+}
+
+@media January {
+
+}
+
+@media April {
+
+}
+
+@media June {
+
+}
+
+<div
+    className="c0"
+  />,
+  @media May {
+  .c0 {
+    -webkit-text-decoration-skip-self: July;
+    text-decoration-skip-self: July;
+  }
+}
+
+@media April {
+  .c0 {
+    -webkit-text-decoration-skip-self: August;
+    text-decoration-skip-self: August;
+  }
+}
+
+@media January {
+  .c0 {
+    -webkit-text-decoration-skip-self: September;
+    text-decoration-skip-self: September;
+  }
+}
+
+@media April {
+  .c0 {
+    -webkit-text-decoration-skip-self: November;
+    text-decoration-skip-self: November;
+  }
+}
+
+@media June {
+  .c0 {
+    -webkit-text-decoration-skip-self: August;
+    text-decoration-skip-self: August;
+  }
+}
+
+@media May {
+
+}
+
+@media April {
+
+}
+
+@media January {
+
+}
+
+@media April {
+
+}
+
+@media June {
+
+}
+
+<div
+    className="c0"
+  />,
+  @media May {
+
+}
+
+@media April {
+
+}
+
+@media January {
+
+}
+
+@media April {
+
+}
+
+@media June {
+
+}
+
+@media May {
+  .c0 {
+    -webkit-text-decoration-skip-self: January;
+    text-decoration-skip-self: January;
+  }
+}
+
+@media April {
+  .c0 {
+    -webkit-text-decoration-skip-self: December;
+    text-decoration-skip-self: December;
+  }
+}
+
+@media January {
+  .c0 {
+    -webkit-text-decoration-skip-self: April;
+    text-decoration-skip-self: April;
+  }
+}
+
+@media April {
+  .c0 {
+    -webkit-text-decoration-skip-self: May;
+    text-decoration-skip-self: May;
+  }
+}
+
+@media June {
+  .c0 {
+    -webkit-text-decoration-skip-self: June;
+    text-decoration-skip-self: June;
+  }
+}
+
+<div
+    className="c0"
+  />,
+  @media May {
+
+}
+
+@media April {
+
+}
+
+@media January {
+
+}
+
+@media April {
+
+}
+
+@media June {
+
+}
+
+@media May {
+  .c0 {
+    -webkit-text-decoration-skip-self: January;
+    text-decoration-skip-self: January;
+  }
+}
+
+@media April {
+  .c0 {
+    -webkit-text-decoration-skip-self: December;
+    text-decoration-skip-self: December;
+  }
+}
+
+@media January {
+  .c0 {
+    -webkit-text-decoration-skip-self: April;
+    text-decoration-skip-self: April;
+  }
+}
+
+@media April {
+  .c0 {
+    -webkit-text-decoration-skip-self: May;
+    text-decoration-skip-self: May;
+  }
+}
+
+@media June {
+  .c0 {
+    -webkit-text-decoration-skip-self: June;
+    text-decoration-skip-self: June;
+  }
+}
+
+<div
+    className="c0"
+  />,
+]
+`;
+
+exports[`textDecorationSkipSelf renders postitive number 1`] = `
+Array [
+  .c0 {
+  -webkit-text-decoration-skip-self: 54881;
+  text-decoration-skip-self: 54881;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-text-decoration-skip-self: 54881;
+  text-decoration-skip-self: 54881;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-text-decoration-skip-self: 42365;
+  text-decoration-skip-self: 42365;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-text-decoration-skip-self: 42365;
+  text-decoration-skip-self: 42365;
+}
+
+<div
+    className="c0"
+  />,
+]
+`;
+
+exports[`textDecorationSkipSelf renders string 1`] = `
+Array [
+  .c0 {
+  -webkit-text-decoration-skip-self: July;
+  text-decoration-skip-self: July;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-text-decoration-skip-self: July;
+  text-decoration-skip-self: July;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-text-decoration-skip-self: June;
+  text-decoration-skip-self: June;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-text-decoration-skip-self: June;
+  text-decoration-skip-self: June;
+}
+
+<div
+    className="c0"
+  />,
+]
+`;
+
+exports[`textDecorationSkipSelf renders valid theme path 1`] = `
+Array [
+  .c0 {
+  -webkit-text-decoration-skip-self: DarkSlateBlue;
+  text-decoration-skip-self: DarkSlateBlue;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-text-decoration-skip-self: DarkSlateBlue;
+  text-decoration-skip-self: DarkSlateBlue;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-text-decoration-skip-self: DarkSlateBlue;
+  text-decoration-skip-self: DarkSlateBlue;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-text-decoration-skip-self: DarkSlateBlue;
+  text-decoration-skip-self: DarkSlateBlue;
+}
+
+<div
+    className="c0"
+  />,
+]
+`;

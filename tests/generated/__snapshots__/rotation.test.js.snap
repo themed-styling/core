@@ -1,0 +1,626 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`rotation renders 0 1`] = `
+Array [
+  .c0 {
+  rotation: 0;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  rotation: 0;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  rotation: 0;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  rotation: 0;
+}
+
+<div
+    className="c0"
+  />,
+]
+`;
+
+exports[`rotation renders function 1`] = `
+Array [
+  .c0 {
+  rotation: hasnot;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  rotation: has;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  rotation: hasnot;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  rotation: has;
+}
+
+<div
+    className="c0"
+  />,
+]
+`;
+
+exports[`rotation renders invalid theme path 1`] = `
+Array [
+  .c0 {
+  rotation: invalid.path.1;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  rotation: invalid.path.1;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  rotation: invalid.path.1;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  rotation: invalid.path.1;
+}
+
+<div
+    className="c0"
+  />,
+]
+`;
+
+exports[`rotation renders negative number 1`] = `
+Array [
+  .c0 {
+  rotation: -54881;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  rotation: -54881;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  rotation: -42365;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  rotation: -42365;
+}
+
+<div
+    className="c0"
+  />,
+]
+`;
+
+exports[`rotation renders object [breakpoints] 1`] = `
+Array [
+  @media screen and (min-width:November) {
+  .c0 {
+    rotation: July;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    rotation: August;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    rotation: September;
+  }
+}
+
+@media screen and (min-width:August) {
+  .c0 {
+    rotation: November;
+  }
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:August) {
+
+}
+
+<div
+    className="c0"
+  />,
+  @media screen and (min-width:November) {
+  .c0 {
+    rotation: July;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    rotation: August;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    rotation: September;
+  }
+}
+
+@media screen and (min-width:August) {
+  .c0 {
+    rotation: November;
+  }
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:August) {
+
+}
+
+<div
+    className="c0"
+  />,
+  @media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:August) {
+
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    rotation: May;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    rotation: June;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    rotation: April;
+  }
+}
+
+@media screen and (min-width:August) {
+  .c0 {
+    rotation: November;
+  }
+}
+
+<div
+    className="c0"
+  />,
+  @media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:August) {
+
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    rotation: May;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    rotation: June;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    rotation: April;
+  }
+}
+
+@media screen and (min-width:August) {
+  .c0 {
+    rotation: November;
+  }
+}
+
+<div
+    className="c0"
+  />,
+]
+`;
+
+exports[`rotation renders object [breakpoints] 2`] = `
+Array [
+  @media May {
+  .c0 {
+    rotation: July;
+  }
+}
+
+@media April {
+  .c0 {
+    rotation: August;
+  }
+}
+
+@media January {
+  .c0 {
+    rotation: September;
+  }
+}
+
+@media April {
+  .c0 {
+    rotation: November;
+  }
+}
+
+@media June {
+  .c0 {
+    rotation: August;
+  }
+}
+
+@media May {
+
+}
+
+@media April {
+
+}
+
+@media January {
+
+}
+
+@media April {
+
+}
+
+@media June {
+
+}
+
+<div
+    className="c0"
+  />,
+  @media May {
+  .c0 {
+    rotation: July;
+  }
+}
+
+@media April {
+  .c0 {
+    rotation: August;
+  }
+}
+
+@media January {
+  .c0 {
+    rotation: September;
+  }
+}
+
+@media April {
+  .c0 {
+    rotation: November;
+  }
+}
+
+@media June {
+  .c0 {
+    rotation: August;
+  }
+}
+
+@media May {
+
+}
+
+@media April {
+
+}
+
+@media January {
+
+}
+
+@media April {
+
+}
+
+@media June {
+
+}
+
+<div
+    className="c0"
+  />,
+  @media May {
+
+}
+
+@media April {
+
+}
+
+@media January {
+
+}
+
+@media April {
+
+}
+
+@media June {
+
+}
+
+@media May {
+  .c0 {
+    rotation: January;
+  }
+}
+
+@media April {
+  .c0 {
+    rotation: December;
+  }
+}
+
+@media January {
+  .c0 {
+    rotation: April;
+  }
+}
+
+@media April {
+  .c0 {
+    rotation: May;
+  }
+}
+
+@media June {
+  .c0 {
+    rotation: June;
+  }
+}
+
+<div
+    className="c0"
+  />,
+  @media May {
+
+}
+
+@media April {
+
+}
+
+@media January {
+
+}
+
+@media April {
+
+}
+
+@media June {
+
+}
+
+@media May {
+  .c0 {
+    rotation: January;
+  }
+}
+
+@media April {
+  .c0 {
+    rotation: December;
+  }
+}
+
+@media January {
+  .c0 {
+    rotation: April;
+  }
+}
+
+@media April {
+  .c0 {
+    rotation: May;
+  }
+}
+
+@media June {
+  .c0 {
+    rotation: June;
+  }
+}
+
+<div
+    className="c0"
+  />,
+]
+`;
+
+exports[`rotation renders postitive number 1`] = `
+Array [
+  .c0 {
+  rotation: 54881;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  rotation: 54881;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  rotation: 42365;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  rotation: 42365;
+}
+
+<div
+    className="c0"
+  />,
+]
+`;
+
+exports[`rotation renders string 1`] = `
+Array [
+  .c0 {
+  rotation: July;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  rotation: July;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  rotation: June;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  rotation: June;
+}
+
+<div
+    className="c0"
+  />,
+]
+`;
+
+exports[`rotation renders valid theme path 1`] = `
+Array [
+  .c0 {
+  rotation: DarkSlateBlue;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  rotation: DarkSlateBlue;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  rotation: DarkSlateBlue;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  rotation: DarkSlateBlue;
+}
+
+<div
+    className="c0"
+  />,
+]
+`;

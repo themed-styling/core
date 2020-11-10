@@ -1,0 +1,818 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`scrollSnapPaddingTop renders 0 1`] = `
+Array [
+  .c0 {
+  -webkit-scroll-snap-padding-top: 0;
+  -moz-scroll-snap-padding-top: 0;
+  -ms-scroll-snap-padding-top: 0;
+  scroll-snap-padding-top: 0;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-scroll-snap-padding-top: 0;
+  -moz-scroll-snap-padding-top: 0;
+  -ms-scroll-snap-padding-top: 0;
+  scroll-snap-padding-top: 0;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-scroll-snap-padding-top: 0;
+  -moz-scroll-snap-padding-top: 0;
+  -ms-scroll-snap-padding-top: 0;
+  scroll-snap-padding-top: 0;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-scroll-snap-padding-top: 0;
+  -moz-scroll-snap-padding-top: 0;
+  -ms-scroll-snap-padding-top: 0;
+  scroll-snap-padding-top: 0;
+}
+
+<div
+    className="c0"
+  />,
+]
+`;
+
+exports[`scrollSnapPaddingTop renders function 1`] = `
+Array [
+  .c0 {
+  -webkit-scroll-snap-padding-top: hasnot;
+  -moz-scroll-snap-padding-top: hasnot;
+  -ms-scroll-snap-padding-top: hasnot;
+  scroll-snap-padding-top: hasnot;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-scroll-snap-padding-top: has;
+  -moz-scroll-snap-padding-top: has;
+  -ms-scroll-snap-padding-top: has;
+  scroll-snap-padding-top: has;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-scroll-snap-padding-top: hasnot;
+  -moz-scroll-snap-padding-top: hasnot;
+  -ms-scroll-snap-padding-top: hasnot;
+  scroll-snap-padding-top: hasnot;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-scroll-snap-padding-top: has;
+  -moz-scroll-snap-padding-top: has;
+  -ms-scroll-snap-padding-top: has;
+  scroll-snap-padding-top: has;
+}
+
+<div
+    className="c0"
+  />,
+]
+`;
+
+exports[`scrollSnapPaddingTop renders invalid theme path 1`] = `
+Array [
+  .c0 {
+  -webkit-scroll-snap-padding-top: invalid.path.1;
+  -moz-scroll-snap-padding-top: invalid.path.1;
+  -ms-scroll-snap-padding-top: invalid.path.1;
+  scroll-snap-padding-top: invalid.path.1;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-scroll-snap-padding-top: invalid.path.1;
+  -moz-scroll-snap-padding-top: invalid.path.1;
+  -ms-scroll-snap-padding-top: invalid.path.1;
+  scroll-snap-padding-top: invalid.path.1;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-scroll-snap-padding-top: invalid.path.1;
+  -moz-scroll-snap-padding-top: invalid.path.1;
+  -ms-scroll-snap-padding-top: invalid.path.1;
+  scroll-snap-padding-top: invalid.path.1;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-scroll-snap-padding-top: invalid.path.1;
+  -moz-scroll-snap-padding-top: invalid.path.1;
+  -ms-scroll-snap-padding-top: invalid.path.1;
+  scroll-snap-padding-top: invalid.path.1;
+}
+
+<div
+    className="c0"
+  />,
+]
+`;
+
+exports[`scrollSnapPaddingTop renders negative number 1`] = `
+Array [
+  .c0 {
+  -webkit-scroll-snap-padding-top: -54881;
+  -moz-scroll-snap-padding-top: -54881;
+  -ms-scroll-snap-padding-top: -54881;
+  scroll-snap-padding-top: -54881;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-scroll-snap-padding-top: -54881;
+  -moz-scroll-snap-padding-top: -54881;
+  -ms-scroll-snap-padding-top: -54881;
+  scroll-snap-padding-top: -54881;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-scroll-snap-padding-top: -42365;
+  -moz-scroll-snap-padding-top: -42365;
+  -ms-scroll-snap-padding-top: -42365;
+  scroll-snap-padding-top: -42365;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-scroll-snap-padding-top: -42365;
+  -moz-scroll-snap-padding-top: -42365;
+  -ms-scroll-snap-padding-top: -42365;
+  scroll-snap-padding-top: -42365;
+}
+
+<div
+    className="c0"
+  />,
+]
+`;
+
+exports[`scrollSnapPaddingTop renders object [breakpoints] 1`] = `
+Array [
+  @media screen and (min-width:November) {
+  .c0 {
+    -webkit-scroll-snap-padding-top: July;
+    -moz-scroll-snap-padding-top: July;
+    -ms-scroll-snap-padding-top: July;
+    scroll-snap-padding-top: July;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    -webkit-scroll-snap-padding-top: August;
+    -moz-scroll-snap-padding-top: August;
+    -ms-scroll-snap-padding-top: August;
+    scroll-snap-padding-top: August;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    -webkit-scroll-snap-padding-top: September;
+    -moz-scroll-snap-padding-top: September;
+    -ms-scroll-snap-padding-top: September;
+    scroll-snap-padding-top: September;
+  }
+}
+
+@media screen and (min-width:August) {
+  .c0 {
+    -webkit-scroll-snap-padding-top: November;
+    -moz-scroll-snap-padding-top: November;
+    -ms-scroll-snap-padding-top: November;
+    scroll-snap-padding-top: November;
+  }
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:August) {
+
+}
+
+<div
+    className="c0"
+  />,
+  @media screen and (min-width:November) {
+  .c0 {
+    -webkit-scroll-snap-padding-top: July;
+    -moz-scroll-snap-padding-top: July;
+    -ms-scroll-snap-padding-top: July;
+    scroll-snap-padding-top: July;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    -webkit-scroll-snap-padding-top: August;
+    -moz-scroll-snap-padding-top: August;
+    -ms-scroll-snap-padding-top: August;
+    scroll-snap-padding-top: August;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    -webkit-scroll-snap-padding-top: September;
+    -moz-scroll-snap-padding-top: September;
+    -ms-scroll-snap-padding-top: September;
+    scroll-snap-padding-top: September;
+  }
+}
+
+@media screen and (min-width:August) {
+  .c0 {
+    -webkit-scroll-snap-padding-top: November;
+    -moz-scroll-snap-padding-top: November;
+    -ms-scroll-snap-padding-top: November;
+    scroll-snap-padding-top: November;
+  }
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:August) {
+
+}
+
+<div
+    className="c0"
+  />,
+  @media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:August) {
+
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    -webkit-scroll-snap-padding-top: May;
+    -moz-scroll-snap-padding-top: May;
+    -ms-scroll-snap-padding-top: May;
+    scroll-snap-padding-top: May;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    -webkit-scroll-snap-padding-top: June;
+    -moz-scroll-snap-padding-top: June;
+    -ms-scroll-snap-padding-top: June;
+    scroll-snap-padding-top: June;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    -webkit-scroll-snap-padding-top: April;
+    -moz-scroll-snap-padding-top: April;
+    -ms-scroll-snap-padding-top: April;
+    scroll-snap-padding-top: April;
+  }
+}
+
+@media screen and (min-width:August) {
+  .c0 {
+    -webkit-scroll-snap-padding-top: November;
+    -moz-scroll-snap-padding-top: November;
+    -ms-scroll-snap-padding-top: November;
+    scroll-snap-padding-top: November;
+  }
+}
+
+<div
+    className="c0"
+  />,
+  @media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:August) {
+
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    -webkit-scroll-snap-padding-top: May;
+    -moz-scroll-snap-padding-top: May;
+    -ms-scroll-snap-padding-top: May;
+    scroll-snap-padding-top: May;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    -webkit-scroll-snap-padding-top: June;
+    -moz-scroll-snap-padding-top: June;
+    -ms-scroll-snap-padding-top: June;
+    scroll-snap-padding-top: June;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    -webkit-scroll-snap-padding-top: April;
+    -moz-scroll-snap-padding-top: April;
+    -ms-scroll-snap-padding-top: April;
+    scroll-snap-padding-top: April;
+  }
+}
+
+@media screen and (min-width:August) {
+  .c0 {
+    -webkit-scroll-snap-padding-top: November;
+    -moz-scroll-snap-padding-top: November;
+    -ms-scroll-snap-padding-top: November;
+    scroll-snap-padding-top: November;
+  }
+}
+
+<div
+    className="c0"
+  />,
+]
+`;
+
+exports[`scrollSnapPaddingTop renders object [breakpoints] 2`] = `
+Array [
+  @media May {
+  .c0 {
+    -webkit-scroll-snap-padding-top: July;
+    -moz-scroll-snap-padding-top: July;
+    -ms-scroll-snap-padding-top: July;
+    scroll-snap-padding-top: July;
+  }
+}
+
+@media April {
+  .c0 {
+    -webkit-scroll-snap-padding-top: August;
+    -moz-scroll-snap-padding-top: August;
+    -ms-scroll-snap-padding-top: August;
+    scroll-snap-padding-top: August;
+  }
+}
+
+@media January {
+  .c0 {
+    -webkit-scroll-snap-padding-top: September;
+    -moz-scroll-snap-padding-top: September;
+    -ms-scroll-snap-padding-top: September;
+    scroll-snap-padding-top: September;
+  }
+}
+
+@media April {
+  .c0 {
+    -webkit-scroll-snap-padding-top: November;
+    -moz-scroll-snap-padding-top: November;
+    -ms-scroll-snap-padding-top: November;
+    scroll-snap-padding-top: November;
+  }
+}
+
+@media June {
+  .c0 {
+    -webkit-scroll-snap-padding-top: August;
+    -moz-scroll-snap-padding-top: August;
+    -ms-scroll-snap-padding-top: August;
+    scroll-snap-padding-top: August;
+  }
+}
+
+@media May {
+
+}
+
+@media April {
+
+}
+
+@media January {
+
+}
+
+@media April {
+
+}
+
+@media June {
+
+}
+
+<div
+    className="c0"
+  />,
+  @media May {
+  .c0 {
+    -webkit-scroll-snap-padding-top: July;
+    -moz-scroll-snap-padding-top: July;
+    -ms-scroll-snap-padding-top: July;
+    scroll-snap-padding-top: July;
+  }
+}
+
+@media April {
+  .c0 {
+    -webkit-scroll-snap-padding-top: August;
+    -moz-scroll-snap-padding-top: August;
+    -ms-scroll-snap-padding-top: August;
+    scroll-snap-padding-top: August;
+  }
+}
+
+@media January {
+  .c0 {
+    -webkit-scroll-snap-padding-top: September;
+    -moz-scroll-snap-padding-top: September;
+    -ms-scroll-snap-padding-top: September;
+    scroll-snap-padding-top: September;
+  }
+}
+
+@media April {
+  .c0 {
+    -webkit-scroll-snap-padding-top: November;
+    -moz-scroll-snap-padding-top: November;
+    -ms-scroll-snap-padding-top: November;
+    scroll-snap-padding-top: November;
+  }
+}
+
+@media June {
+  .c0 {
+    -webkit-scroll-snap-padding-top: August;
+    -moz-scroll-snap-padding-top: August;
+    -ms-scroll-snap-padding-top: August;
+    scroll-snap-padding-top: August;
+  }
+}
+
+@media May {
+
+}
+
+@media April {
+
+}
+
+@media January {
+
+}
+
+@media April {
+
+}
+
+@media June {
+
+}
+
+<div
+    className="c0"
+  />,
+  @media May {
+
+}
+
+@media April {
+
+}
+
+@media January {
+
+}
+
+@media April {
+
+}
+
+@media June {
+
+}
+
+@media May {
+  .c0 {
+    -webkit-scroll-snap-padding-top: January;
+    -moz-scroll-snap-padding-top: January;
+    -ms-scroll-snap-padding-top: January;
+    scroll-snap-padding-top: January;
+  }
+}
+
+@media April {
+  .c0 {
+    -webkit-scroll-snap-padding-top: December;
+    -moz-scroll-snap-padding-top: December;
+    -ms-scroll-snap-padding-top: December;
+    scroll-snap-padding-top: December;
+  }
+}
+
+@media January {
+  .c0 {
+    -webkit-scroll-snap-padding-top: April;
+    -moz-scroll-snap-padding-top: April;
+    -ms-scroll-snap-padding-top: April;
+    scroll-snap-padding-top: April;
+  }
+}
+
+@media April {
+  .c0 {
+    -webkit-scroll-snap-padding-top: May;
+    -moz-scroll-snap-padding-top: May;
+    -ms-scroll-snap-padding-top: May;
+    scroll-snap-padding-top: May;
+  }
+}
+
+@media June {
+  .c0 {
+    -webkit-scroll-snap-padding-top: June;
+    -moz-scroll-snap-padding-top: June;
+    -ms-scroll-snap-padding-top: June;
+    scroll-snap-padding-top: June;
+  }
+}
+
+<div
+    className="c0"
+  />,
+  @media May {
+
+}
+
+@media April {
+
+}
+
+@media January {
+
+}
+
+@media April {
+
+}
+
+@media June {
+
+}
+
+@media May {
+  .c0 {
+    -webkit-scroll-snap-padding-top: January;
+    -moz-scroll-snap-padding-top: January;
+    -ms-scroll-snap-padding-top: January;
+    scroll-snap-padding-top: January;
+  }
+}
+
+@media April {
+  .c0 {
+    -webkit-scroll-snap-padding-top: December;
+    -moz-scroll-snap-padding-top: December;
+    -ms-scroll-snap-padding-top: December;
+    scroll-snap-padding-top: December;
+  }
+}
+
+@media January {
+  .c0 {
+    -webkit-scroll-snap-padding-top: April;
+    -moz-scroll-snap-padding-top: April;
+    -ms-scroll-snap-padding-top: April;
+    scroll-snap-padding-top: April;
+  }
+}
+
+@media April {
+  .c0 {
+    -webkit-scroll-snap-padding-top: May;
+    -moz-scroll-snap-padding-top: May;
+    -ms-scroll-snap-padding-top: May;
+    scroll-snap-padding-top: May;
+  }
+}
+
+@media June {
+  .c0 {
+    -webkit-scroll-snap-padding-top: June;
+    -moz-scroll-snap-padding-top: June;
+    -ms-scroll-snap-padding-top: June;
+    scroll-snap-padding-top: June;
+  }
+}
+
+<div
+    className="c0"
+  />,
+]
+`;
+
+exports[`scrollSnapPaddingTop renders postitive number 1`] = `
+Array [
+  .c0 {
+  -webkit-scroll-snap-padding-top: 54881;
+  -moz-scroll-snap-padding-top: 54881;
+  -ms-scroll-snap-padding-top: 54881;
+  scroll-snap-padding-top: 54881;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-scroll-snap-padding-top: 54881;
+  -moz-scroll-snap-padding-top: 54881;
+  -ms-scroll-snap-padding-top: 54881;
+  scroll-snap-padding-top: 54881;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-scroll-snap-padding-top: 42365;
+  -moz-scroll-snap-padding-top: 42365;
+  -ms-scroll-snap-padding-top: 42365;
+  scroll-snap-padding-top: 42365;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-scroll-snap-padding-top: 42365;
+  -moz-scroll-snap-padding-top: 42365;
+  -ms-scroll-snap-padding-top: 42365;
+  scroll-snap-padding-top: 42365;
+}
+
+<div
+    className="c0"
+  />,
+]
+`;
+
+exports[`scrollSnapPaddingTop renders string 1`] = `
+Array [
+  .c0 {
+  -webkit-scroll-snap-padding-top: July;
+  -moz-scroll-snap-padding-top: July;
+  -ms-scroll-snap-padding-top: July;
+  scroll-snap-padding-top: July;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-scroll-snap-padding-top: July;
+  -moz-scroll-snap-padding-top: July;
+  -ms-scroll-snap-padding-top: July;
+  scroll-snap-padding-top: July;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-scroll-snap-padding-top: June;
+  -moz-scroll-snap-padding-top: June;
+  -ms-scroll-snap-padding-top: June;
+  scroll-snap-padding-top: June;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-scroll-snap-padding-top: June;
+  -moz-scroll-snap-padding-top: June;
+  -ms-scroll-snap-padding-top: June;
+  scroll-snap-padding-top: June;
+}
+
+<div
+    className="c0"
+  />,
+]
+`;
+
+exports[`scrollSnapPaddingTop renders valid theme path 1`] = `
+Array [
+  .c0 {
+  -webkit-scroll-snap-padding-top: DarkSlateBlue;
+  -moz-scroll-snap-padding-top: DarkSlateBlue;
+  -ms-scroll-snap-padding-top: DarkSlateBlue;
+  scroll-snap-padding-top: DarkSlateBlue;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-scroll-snap-padding-top: DarkSlateBlue;
+  -moz-scroll-snap-padding-top: DarkSlateBlue;
+  -ms-scroll-snap-padding-top: DarkSlateBlue;
+  scroll-snap-padding-top: DarkSlateBlue;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-scroll-snap-padding-top: DarkSlateBlue;
+  -moz-scroll-snap-padding-top: DarkSlateBlue;
+  -ms-scroll-snap-padding-top: DarkSlateBlue;
+  scroll-snap-padding-top: DarkSlateBlue;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-scroll-snap-padding-top: DarkSlateBlue;
+  -moz-scroll-snap-padding-top: DarkSlateBlue;
+  -ms-scroll-snap-padding-top: DarkSlateBlue;
+  scroll-snap-padding-top: DarkSlateBlue;
+}
+
+<div
+    className="c0"
+  />,
+]
+`;

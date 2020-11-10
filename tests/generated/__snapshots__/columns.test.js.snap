@@ -1,0 +1,690 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`columns renders 0 1`] = `
+Array [
+  .c0 {
+  -webkit-columns: 0;
+  columns: 0;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-columns: 0;
+  columns: 0;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-columns: 0;
+  columns: 0;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-columns: 0;
+  columns: 0;
+}
+
+<div
+    className="c0"
+  />,
+]
+`;
+
+exports[`columns renders function 1`] = `
+Array [
+  .c0 {
+  -webkit-columns: hasnot;
+  columns: hasnot;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-columns: has;
+  columns: has;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-columns: hasnot;
+  columns: hasnot;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-columns: has;
+  columns: has;
+}
+
+<div
+    className="c0"
+  />,
+]
+`;
+
+exports[`columns renders invalid theme path 1`] = `
+Array [
+  .c0 {
+  -webkit-columns: invalid.path.1;
+  columns: invalid.path.1;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-columns: invalid.path.1;
+  columns: invalid.path.1;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-columns: invalid.path.1;
+  columns: invalid.path.1;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-columns: invalid.path.1;
+  columns: invalid.path.1;
+}
+
+<div
+    className="c0"
+  />,
+]
+`;
+
+exports[`columns renders negative number 1`] = `
+Array [
+  .c0 {
+  -webkit-columns: -54881;
+  columns: -54881;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-columns: -54881;
+  columns: -54881;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-columns: -42365;
+  columns: -42365;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-columns: -42365;
+  columns: -42365;
+}
+
+<div
+    className="c0"
+  />,
+]
+`;
+
+exports[`columns renders object [breakpoints] 1`] = `
+Array [
+  @media screen and (min-width:November) {
+  .c0 {
+    -webkit-columns: July;
+    columns: July;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    -webkit-columns: August;
+    columns: August;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    -webkit-columns: September;
+    columns: September;
+  }
+}
+
+@media screen and (min-width:August) {
+  .c0 {
+    -webkit-columns: November;
+    columns: November;
+  }
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:August) {
+
+}
+
+<div
+    className="c0"
+  />,
+  @media screen and (min-width:November) {
+  .c0 {
+    -webkit-columns: July;
+    columns: July;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    -webkit-columns: August;
+    columns: August;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    -webkit-columns: September;
+    columns: September;
+  }
+}
+
+@media screen and (min-width:August) {
+  .c0 {
+    -webkit-columns: November;
+    columns: November;
+  }
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:August) {
+
+}
+
+<div
+    className="c0"
+  />,
+  @media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:August) {
+
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    -webkit-columns: May;
+    columns: May;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    -webkit-columns: June;
+    columns: June;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    -webkit-columns: April;
+    columns: April;
+  }
+}
+
+@media screen and (min-width:August) {
+  .c0 {
+    -webkit-columns: November;
+    columns: November;
+  }
+}
+
+<div
+    className="c0"
+  />,
+  @media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:August) {
+
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    -webkit-columns: May;
+    columns: May;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    -webkit-columns: June;
+    columns: June;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    -webkit-columns: April;
+    columns: April;
+  }
+}
+
+@media screen and (min-width:August) {
+  .c0 {
+    -webkit-columns: November;
+    columns: November;
+  }
+}
+
+<div
+    className="c0"
+  />,
+]
+`;
+
+exports[`columns renders object [breakpoints] 2`] = `
+Array [
+  @media May {
+  .c0 {
+    -webkit-columns: July;
+    columns: July;
+  }
+}
+
+@media April {
+  .c0 {
+    -webkit-columns: August;
+    columns: August;
+  }
+}
+
+@media January {
+  .c0 {
+    -webkit-columns: September;
+    columns: September;
+  }
+}
+
+@media April {
+  .c0 {
+    -webkit-columns: November;
+    columns: November;
+  }
+}
+
+@media June {
+  .c0 {
+    -webkit-columns: August;
+    columns: August;
+  }
+}
+
+@media May {
+
+}
+
+@media April {
+
+}
+
+@media January {
+
+}
+
+@media April {
+
+}
+
+@media June {
+
+}
+
+<div
+    className="c0"
+  />,
+  @media May {
+  .c0 {
+    -webkit-columns: July;
+    columns: July;
+  }
+}
+
+@media April {
+  .c0 {
+    -webkit-columns: August;
+    columns: August;
+  }
+}
+
+@media January {
+  .c0 {
+    -webkit-columns: September;
+    columns: September;
+  }
+}
+
+@media April {
+  .c0 {
+    -webkit-columns: November;
+    columns: November;
+  }
+}
+
+@media June {
+  .c0 {
+    -webkit-columns: August;
+    columns: August;
+  }
+}
+
+@media May {
+
+}
+
+@media April {
+
+}
+
+@media January {
+
+}
+
+@media April {
+
+}
+
+@media June {
+
+}
+
+<div
+    className="c0"
+  />,
+  @media May {
+
+}
+
+@media April {
+
+}
+
+@media January {
+
+}
+
+@media April {
+
+}
+
+@media June {
+
+}
+
+@media May {
+  .c0 {
+    -webkit-columns: January;
+    columns: January;
+  }
+}
+
+@media April {
+  .c0 {
+    -webkit-columns: December;
+    columns: December;
+  }
+}
+
+@media January {
+  .c0 {
+    -webkit-columns: April;
+    columns: April;
+  }
+}
+
+@media April {
+  .c0 {
+    -webkit-columns: May;
+    columns: May;
+  }
+}
+
+@media June {
+  .c0 {
+    -webkit-columns: June;
+    columns: June;
+  }
+}
+
+<div
+    className="c0"
+  />,
+  @media May {
+
+}
+
+@media April {
+
+}
+
+@media January {
+
+}
+
+@media April {
+
+}
+
+@media June {
+
+}
+
+@media May {
+  .c0 {
+    -webkit-columns: January;
+    columns: January;
+  }
+}
+
+@media April {
+  .c0 {
+    -webkit-columns: December;
+    columns: December;
+  }
+}
+
+@media January {
+  .c0 {
+    -webkit-columns: April;
+    columns: April;
+  }
+}
+
+@media April {
+  .c0 {
+    -webkit-columns: May;
+    columns: May;
+  }
+}
+
+@media June {
+  .c0 {
+    -webkit-columns: June;
+    columns: June;
+  }
+}
+
+<div
+    className="c0"
+  />,
+]
+`;
+
+exports[`columns renders postitive number 1`] = `
+Array [
+  .c0 {
+  -webkit-columns: 54881;
+  columns: 54881;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-columns: 54881;
+  columns: 54881;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-columns: 42365;
+  columns: 42365;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-columns: 42365;
+  columns: 42365;
+}
+
+<div
+    className="c0"
+  />,
+]
+`;
+
+exports[`columns renders string 1`] = `
+Array [
+  .c0 {
+  -webkit-columns: July;
+  columns: July;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-columns: July;
+  columns: July;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-columns: June;
+  columns: June;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-columns: June;
+  columns: June;
+}
+
+<div
+    className="c0"
+  />,
+]
+`;
+
+exports[`columns renders valid theme path 1`] = `
+Array [
+  .c0 {
+  -webkit-columns: DarkSlateBlue;
+  columns: DarkSlateBlue;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-columns: DarkSlateBlue;
+  columns: DarkSlateBlue;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-columns: DarkSlateBlue;
+  columns: DarkSlateBlue;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-columns: DarkSlateBlue;
+  columns: DarkSlateBlue;
+}
+
+<div
+    className="c0"
+  />,
+]
+`;

@@ -1,0 +1,626 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`azimuth renders 0 1`] = `
+Array [
+  .c0 {
+  azimuth: 0;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  azimuth: 0;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  azimuth: 0;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  azimuth: 0;
+}
+
+<div
+    className="c0"
+  />,
+]
+`;
+
+exports[`azimuth renders function 1`] = `
+Array [
+  .c0 {
+  azimuth: hasnot;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  azimuth: has;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  azimuth: hasnot;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  azimuth: has;
+}
+
+<div
+    className="c0"
+  />,
+]
+`;
+
+exports[`azimuth renders invalid theme path 1`] = `
+Array [
+  .c0 {
+  azimuth: invalid.path.1;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  azimuth: invalid.path.1;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  azimuth: invalid.path.1;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  azimuth: invalid.path.1;
+}
+
+<div
+    className="c0"
+  />,
+]
+`;
+
+exports[`azimuth renders negative number 1`] = `
+Array [
+  .c0 {
+  azimuth: -54881;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  azimuth: -54881;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  azimuth: -42365;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  azimuth: -42365;
+}
+
+<div
+    className="c0"
+  />,
+]
+`;
+
+exports[`azimuth renders object [breakpoints] 1`] = `
+Array [
+  @media screen and (min-width:November) {
+  .c0 {
+    azimuth: July;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    azimuth: August;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    azimuth: September;
+  }
+}
+
+@media screen and (min-width:August) {
+  .c0 {
+    azimuth: November;
+  }
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:August) {
+
+}
+
+<div
+    className="c0"
+  />,
+  @media screen and (min-width:November) {
+  .c0 {
+    azimuth: July;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    azimuth: August;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    azimuth: September;
+  }
+}
+
+@media screen and (min-width:August) {
+  .c0 {
+    azimuth: November;
+  }
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:August) {
+
+}
+
+<div
+    className="c0"
+  />,
+  @media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:August) {
+
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    azimuth: May;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    azimuth: June;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    azimuth: April;
+  }
+}
+
+@media screen and (min-width:August) {
+  .c0 {
+    azimuth: November;
+  }
+}
+
+<div
+    className="c0"
+  />,
+  @media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:August) {
+
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    azimuth: May;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    azimuth: June;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    azimuth: April;
+  }
+}
+
+@media screen and (min-width:August) {
+  .c0 {
+    azimuth: November;
+  }
+}
+
+<div
+    className="c0"
+  />,
+]
+`;
+
+exports[`azimuth renders object [breakpoints] 2`] = `
+Array [
+  @media May {
+  .c0 {
+    azimuth: July;
+  }
+}
+
+@media April {
+  .c0 {
+    azimuth: August;
+  }
+}
+
+@media January {
+  .c0 {
+    azimuth: September;
+  }
+}
+
+@media April {
+  .c0 {
+    azimuth: November;
+  }
+}
+
+@media June {
+  .c0 {
+    azimuth: August;
+  }
+}
+
+@media May {
+
+}
+
+@media April {
+
+}
+
+@media January {
+
+}
+
+@media April {
+
+}
+
+@media June {
+
+}
+
+<div
+    className="c0"
+  />,
+  @media May {
+  .c0 {
+    azimuth: July;
+  }
+}
+
+@media April {
+  .c0 {
+    azimuth: August;
+  }
+}
+
+@media January {
+  .c0 {
+    azimuth: September;
+  }
+}
+
+@media April {
+  .c0 {
+    azimuth: November;
+  }
+}
+
+@media June {
+  .c0 {
+    azimuth: August;
+  }
+}
+
+@media May {
+
+}
+
+@media April {
+
+}
+
+@media January {
+
+}
+
+@media April {
+
+}
+
+@media June {
+
+}
+
+<div
+    className="c0"
+  />,
+  @media May {
+
+}
+
+@media April {
+
+}
+
+@media January {
+
+}
+
+@media April {
+
+}
+
+@media June {
+
+}
+
+@media May {
+  .c0 {
+    azimuth: January;
+  }
+}
+
+@media April {
+  .c0 {
+    azimuth: December;
+  }
+}
+
+@media January {
+  .c0 {
+    azimuth: April;
+  }
+}
+
+@media April {
+  .c0 {
+    azimuth: May;
+  }
+}
+
+@media June {
+  .c0 {
+    azimuth: June;
+  }
+}
+
+<div
+    className="c0"
+  />,
+  @media May {
+
+}
+
+@media April {
+
+}
+
+@media January {
+
+}
+
+@media April {
+
+}
+
+@media June {
+
+}
+
+@media May {
+  .c0 {
+    azimuth: January;
+  }
+}
+
+@media April {
+  .c0 {
+    azimuth: December;
+  }
+}
+
+@media January {
+  .c0 {
+    azimuth: April;
+  }
+}
+
+@media April {
+  .c0 {
+    azimuth: May;
+  }
+}
+
+@media June {
+  .c0 {
+    azimuth: June;
+  }
+}
+
+<div
+    className="c0"
+  />,
+]
+`;
+
+exports[`azimuth renders postitive number 1`] = `
+Array [
+  .c0 {
+  azimuth: 54881;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  azimuth: 54881;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  azimuth: 42365;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  azimuth: 42365;
+}
+
+<div
+    className="c0"
+  />,
+]
+`;
+
+exports[`azimuth renders string 1`] = `
+Array [
+  .c0 {
+  azimuth: July;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  azimuth: July;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  azimuth: June;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  azimuth: June;
+}
+
+<div
+    className="c0"
+  />,
+]
+`;
+
+exports[`azimuth renders valid theme path 1`] = `
+Array [
+  .c0 {
+  azimuth: DarkSlateBlue;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  azimuth: DarkSlateBlue;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  azimuth: DarkSlateBlue;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  azimuth: DarkSlateBlue;
+}
+
+<div
+    className="c0"
+  />,
+]
+`;

@@ -1,0 +1,626 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`voiceRate renders 0 1`] = `
+Array [
+  .c0 {
+  voice-rate: 0;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  voice-rate: 0;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  voice-rate: 0;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  voice-rate: 0;
+}
+
+<div
+    className="c0"
+  />,
+]
+`;
+
+exports[`voiceRate renders function 1`] = `
+Array [
+  .c0 {
+  voice-rate: hasnot;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  voice-rate: has;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  voice-rate: hasnot;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  voice-rate: has;
+}
+
+<div
+    className="c0"
+  />,
+]
+`;
+
+exports[`voiceRate renders invalid theme path 1`] = `
+Array [
+  .c0 {
+  voice-rate: invalid.path.1;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  voice-rate: invalid.path.1;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  voice-rate: invalid.path.1;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  voice-rate: invalid.path.1;
+}
+
+<div
+    className="c0"
+  />,
+]
+`;
+
+exports[`voiceRate renders negative number 1`] = `
+Array [
+  .c0 {
+  voice-rate: -54881;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  voice-rate: -54881;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  voice-rate: -42365;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  voice-rate: -42365;
+}
+
+<div
+    className="c0"
+  />,
+]
+`;
+
+exports[`voiceRate renders object [breakpoints] 1`] = `
+Array [
+  @media screen and (min-width:November) {
+  .c0 {
+    voice-rate: July;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    voice-rate: August;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    voice-rate: September;
+  }
+}
+
+@media screen and (min-width:August) {
+  .c0 {
+    voice-rate: November;
+  }
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:August) {
+
+}
+
+<div
+    className="c0"
+  />,
+  @media screen and (min-width:November) {
+  .c0 {
+    voice-rate: July;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    voice-rate: August;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    voice-rate: September;
+  }
+}
+
+@media screen and (min-width:August) {
+  .c0 {
+    voice-rate: November;
+  }
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:August) {
+
+}
+
+<div
+    className="c0"
+  />,
+  @media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:August) {
+
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    voice-rate: May;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    voice-rate: June;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    voice-rate: April;
+  }
+}
+
+@media screen and (min-width:August) {
+  .c0 {
+    voice-rate: November;
+  }
+}
+
+<div
+    className="c0"
+  />,
+  @media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:August) {
+
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    voice-rate: May;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    voice-rate: June;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    voice-rate: April;
+  }
+}
+
+@media screen and (min-width:August) {
+  .c0 {
+    voice-rate: November;
+  }
+}
+
+<div
+    className="c0"
+  />,
+]
+`;
+
+exports[`voiceRate renders object [breakpoints] 2`] = `
+Array [
+  @media May {
+  .c0 {
+    voice-rate: July;
+  }
+}
+
+@media April {
+  .c0 {
+    voice-rate: August;
+  }
+}
+
+@media January {
+  .c0 {
+    voice-rate: September;
+  }
+}
+
+@media April {
+  .c0 {
+    voice-rate: November;
+  }
+}
+
+@media June {
+  .c0 {
+    voice-rate: August;
+  }
+}
+
+@media May {
+
+}
+
+@media April {
+
+}
+
+@media January {
+
+}
+
+@media April {
+
+}
+
+@media June {
+
+}
+
+<div
+    className="c0"
+  />,
+  @media May {
+  .c0 {
+    voice-rate: July;
+  }
+}
+
+@media April {
+  .c0 {
+    voice-rate: August;
+  }
+}
+
+@media January {
+  .c0 {
+    voice-rate: September;
+  }
+}
+
+@media April {
+  .c0 {
+    voice-rate: November;
+  }
+}
+
+@media June {
+  .c0 {
+    voice-rate: August;
+  }
+}
+
+@media May {
+
+}
+
+@media April {
+
+}
+
+@media January {
+
+}
+
+@media April {
+
+}
+
+@media June {
+
+}
+
+<div
+    className="c0"
+  />,
+  @media May {
+
+}
+
+@media April {
+
+}
+
+@media January {
+
+}
+
+@media April {
+
+}
+
+@media June {
+
+}
+
+@media May {
+  .c0 {
+    voice-rate: January;
+  }
+}
+
+@media April {
+  .c0 {
+    voice-rate: December;
+  }
+}
+
+@media January {
+  .c0 {
+    voice-rate: April;
+  }
+}
+
+@media April {
+  .c0 {
+    voice-rate: May;
+  }
+}
+
+@media June {
+  .c0 {
+    voice-rate: June;
+  }
+}
+
+<div
+    className="c0"
+  />,
+  @media May {
+
+}
+
+@media April {
+
+}
+
+@media January {
+
+}
+
+@media April {
+
+}
+
+@media June {
+
+}
+
+@media May {
+  .c0 {
+    voice-rate: January;
+  }
+}
+
+@media April {
+  .c0 {
+    voice-rate: December;
+  }
+}
+
+@media January {
+  .c0 {
+    voice-rate: April;
+  }
+}
+
+@media April {
+  .c0 {
+    voice-rate: May;
+  }
+}
+
+@media June {
+  .c0 {
+    voice-rate: June;
+  }
+}
+
+<div
+    className="c0"
+  />,
+]
+`;
+
+exports[`voiceRate renders postitive number 1`] = `
+Array [
+  .c0 {
+  voice-rate: 54881;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  voice-rate: 54881;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  voice-rate: 42365;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  voice-rate: 42365;
+}
+
+<div
+    className="c0"
+  />,
+]
+`;
+
+exports[`voiceRate renders string 1`] = `
+Array [
+  .c0 {
+  voice-rate: July;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  voice-rate: July;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  voice-rate: June;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  voice-rate: June;
+}
+
+<div
+    className="c0"
+  />,
+]
+`;
+
+exports[`voiceRate renders valid theme path 1`] = `
+Array [
+  .c0 {
+  voice-rate: DarkSlateBlue;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  voice-rate: DarkSlateBlue;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  voice-rate: DarkSlateBlue;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  voice-rate: DarkSlateBlue;
+}
+
+<div
+    className="c0"
+  />,
+]
+`;

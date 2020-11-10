@@ -1,0 +1,690 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`maskSourceType renders 0 1`] = `
+Array [
+  .c0 {
+  -webkit-mask-source-type: 0;
+  mask-source-type: 0;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-mask-source-type: 0;
+  mask-source-type: 0;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-mask-source-type: 0;
+  mask-source-type: 0;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-mask-source-type: 0;
+  mask-source-type: 0;
+}
+
+<div
+    className="c0"
+  />,
+]
+`;
+
+exports[`maskSourceType renders function 1`] = `
+Array [
+  .c0 {
+  -webkit-mask-source-type: hasnot;
+  mask-source-type: hasnot;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-mask-source-type: has;
+  mask-source-type: has;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-mask-source-type: hasnot;
+  mask-source-type: hasnot;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-mask-source-type: has;
+  mask-source-type: has;
+}
+
+<div
+    className="c0"
+  />,
+]
+`;
+
+exports[`maskSourceType renders invalid theme path 1`] = `
+Array [
+  .c0 {
+  -webkit-mask-source-type: invalid.path.1;
+  mask-source-type: invalid.path.1;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-mask-source-type: invalid.path.1;
+  mask-source-type: invalid.path.1;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-mask-source-type: invalid.path.1;
+  mask-source-type: invalid.path.1;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-mask-source-type: invalid.path.1;
+  mask-source-type: invalid.path.1;
+}
+
+<div
+    className="c0"
+  />,
+]
+`;
+
+exports[`maskSourceType renders negative number 1`] = `
+Array [
+  .c0 {
+  -webkit-mask-source-type: -54881;
+  mask-source-type: -54881;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-mask-source-type: -54881;
+  mask-source-type: -54881;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-mask-source-type: -42365;
+  mask-source-type: -42365;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-mask-source-type: -42365;
+  mask-source-type: -42365;
+}
+
+<div
+    className="c0"
+  />,
+]
+`;
+
+exports[`maskSourceType renders object [breakpoints] 1`] = `
+Array [
+  @media screen and (min-width:November) {
+  .c0 {
+    -webkit-mask-source-type: July;
+    mask-source-type: July;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    -webkit-mask-source-type: August;
+    mask-source-type: August;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    -webkit-mask-source-type: September;
+    mask-source-type: September;
+  }
+}
+
+@media screen and (min-width:August) {
+  .c0 {
+    -webkit-mask-source-type: November;
+    mask-source-type: November;
+  }
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:August) {
+
+}
+
+<div
+    className="c0"
+  />,
+  @media screen and (min-width:November) {
+  .c0 {
+    -webkit-mask-source-type: July;
+    mask-source-type: July;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    -webkit-mask-source-type: August;
+    mask-source-type: August;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    -webkit-mask-source-type: September;
+    mask-source-type: September;
+  }
+}
+
+@media screen and (min-width:August) {
+  .c0 {
+    -webkit-mask-source-type: November;
+    mask-source-type: November;
+  }
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:August) {
+
+}
+
+<div
+    className="c0"
+  />,
+  @media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:August) {
+
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    -webkit-mask-source-type: May;
+    mask-source-type: May;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    -webkit-mask-source-type: June;
+    mask-source-type: June;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    -webkit-mask-source-type: April;
+    mask-source-type: April;
+  }
+}
+
+@media screen and (min-width:August) {
+  .c0 {
+    -webkit-mask-source-type: November;
+    mask-source-type: November;
+  }
+}
+
+<div
+    className="c0"
+  />,
+  @media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:August) {
+
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    -webkit-mask-source-type: May;
+    mask-source-type: May;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    -webkit-mask-source-type: June;
+    mask-source-type: June;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    -webkit-mask-source-type: April;
+    mask-source-type: April;
+  }
+}
+
+@media screen and (min-width:August) {
+  .c0 {
+    -webkit-mask-source-type: November;
+    mask-source-type: November;
+  }
+}
+
+<div
+    className="c0"
+  />,
+]
+`;
+
+exports[`maskSourceType renders object [breakpoints] 2`] = `
+Array [
+  @media May {
+  .c0 {
+    -webkit-mask-source-type: July;
+    mask-source-type: July;
+  }
+}
+
+@media April {
+  .c0 {
+    -webkit-mask-source-type: August;
+    mask-source-type: August;
+  }
+}
+
+@media January {
+  .c0 {
+    -webkit-mask-source-type: September;
+    mask-source-type: September;
+  }
+}
+
+@media April {
+  .c0 {
+    -webkit-mask-source-type: November;
+    mask-source-type: November;
+  }
+}
+
+@media June {
+  .c0 {
+    -webkit-mask-source-type: August;
+    mask-source-type: August;
+  }
+}
+
+@media May {
+
+}
+
+@media April {
+
+}
+
+@media January {
+
+}
+
+@media April {
+
+}
+
+@media June {
+
+}
+
+<div
+    className="c0"
+  />,
+  @media May {
+  .c0 {
+    -webkit-mask-source-type: July;
+    mask-source-type: July;
+  }
+}
+
+@media April {
+  .c0 {
+    -webkit-mask-source-type: August;
+    mask-source-type: August;
+  }
+}
+
+@media January {
+  .c0 {
+    -webkit-mask-source-type: September;
+    mask-source-type: September;
+  }
+}
+
+@media April {
+  .c0 {
+    -webkit-mask-source-type: November;
+    mask-source-type: November;
+  }
+}
+
+@media June {
+  .c0 {
+    -webkit-mask-source-type: August;
+    mask-source-type: August;
+  }
+}
+
+@media May {
+
+}
+
+@media April {
+
+}
+
+@media January {
+
+}
+
+@media April {
+
+}
+
+@media June {
+
+}
+
+<div
+    className="c0"
+  />,
+  @media May {
+
+}
+
+@media April {
+
+}
+
+@media January {
+
+}
+
+@media April {
+
+}
+
+@media June {
+
+}
+
+@media May {
+  .c0 {
+    -webkit-mask-source-type: January;
+    mask-source-type: January;
+  }
+}
+
+@media April {
+  .c0 {
+    -webkit-mask-source-type: December;
+    mask-source-type: December;
+  }
+}
+
+@media January {
+  .c0 {
+    -webkit-mask-source-type: April;
+    mask-source-type: April;
+  }
+}
+
+@media April {
+  .c0 {
+    -webkit-mask-source-type: May;
+    mask-source-type: May;
+  }
+}
+
+@media June {
+  .c0 {
+    -webkit-mask-source-type: June;
+    mask-source-type: June;
+  }
+}
+
+<div
+    className="c0"
+  />,
+  @media May {
+
+}
+
+@media April {
+
+}
+
+@media January {
+
+}
+
+@media April {
+
+}
+
+@media June {
+
+}
+
+@media May {
+  .c0 {
+    -webkit-mask-source-type: January;
+    mask-source-type: January;
+  }
+}
+
+@media April {
+  .c0 {
+    -webkit-mask-source-type: December;
+    mask-source-type: December;
+  }
+}
+
+@media January {
+  .c0 {
+    -webkit-mask-source-type: April;
+    mask-source-type: April;
+  }
+}
+
+@media April {
+  .c0 {
+    -webkit-mask-source-type: May;
+    mask-source-type: May;
+  }
+}
+
+@media June {
+  .c0 {
+    -webkit-mask-source-type: June;
+    mask-source-type: June;
+  }
+}
+
+<div
+    className="c0"
+  />,
+]
+`;
+
+exports[`maskSourceType renders postitive number 1`] = `
+Array [
+  .c0 {
+  -webkit-mask-source-type: 54881;
+  mask-source-type: 54881;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-mask-source-type: 54881;
+  mask-source-type: 54881;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-mask-source-type: 42365;
+  mask-source-type: 42365;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-mask-source-type: 42365;
+  mask-source-type: 42365;
+}
+
+<div
+    className="c0"
+  />,
+]
+`;
+
+exports[`maskSourceType renders string 1`] = `
+Array [
+  .c0 {
+  -webkit-mask-source-type: July;
+  mask-source-type: July;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-mask-source-type: July;
+  mask-source-type: July;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-mask-source-type: June;
+  mask-source-type: June;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-mask-source-type: June;
+  mask-source-type: June;
+}
+
+<div
+    className="c0"
+  />,
+]
+`;
+
+exports[`maskSourceType renders valid theme path 1`] = `
+Array [
+  .c0 {
+  -webkit-mask-source-type: DarkSlateBlue;
+  mask-source-type: DarkSlateBlue;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-mask-source-type: DarkSlateBlue;
+  mask-source-type: DarkSlateBlue;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-mask-source-type: DarkSlateBlue;
+  mask-source-type: DarkSlateBlue;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-mask-source-type: DarkSlateBlue;
+  mask-source-type: DarkSlateBlue;
+}
+
+<div
+    className="c0"
+  />,
+]
+`;

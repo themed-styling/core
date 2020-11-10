@@ -1,0 +1,626 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`boxOrient renders 0 1`] = `
+Array [
+  .c0 {
+  box-orient: 0;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  box-orient: 0;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  box-orient: 0;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  box-orient: 0;
+}
+
+<div
+    className="c0"
+  />,
+]
+`;
+
+exports[`boxOrient renders function 1`] = `
+Array [
+  .c0 {
+  box-orient: hasnot;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  box-orient: has;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  box-orient: hasnot;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  box-orient: has;
+}
+
+<div
+    className="c0"
+  />,
+]
+`;
+
+exports[`boxOrient renders invalid theme path 1`] = `
+Array [
+  .c0 {
+  box-orient: invalid.path.1;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  box-orient: invalid.path.1;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  box-orient: invalid.path.1;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  box-orient: invalid.path.1;
+}
+
+<div
+    className="c0"
+  />,
+]
+`;
+
+exports[`boxOrient renders negative number 1`] = `
+Array [
+  .c0 {
+  box-orient: -54881;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  box-orient: -54881;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  box-orient: -42365;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  box-orient: -42365;
+}
+
+<div
+    className="c0"
+  />,
+]
+`;
+
+exports[`boxOrient renders object [breakpoints] 1`] = `
+Array [
+  @media screen and (min-width:November) {
+  .c0 {
+    box-orient: July;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    box-orient: August;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    box-orient: September;
+  }
+}
+
+@media screen and (min-width:August) {
+  .c0 {
+    box-orient: November;
+  }
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:August) {
+
+}
+
+<div
+    className="c0"
+  />,
+  @media screen and (min-width:November) {
+  .c0 {
+    box-orient: July;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    box-orient: August;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    box-orient: September;
+  }
+}
+
+@media screen and (min-width:August) {
+  .c0 {
+    box-orient: November;
+  }
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:August) {
+
+}
+
+<div
+    className="c0"
+  />,
+  @media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:August) {
+
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    box-orient: May;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    box-orient: June;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    box-orient: April;
+  }
+}
+
+@media screen and (min-width:August) {
+  .c0 {
+    box-orient: November;
+  }
+}
+
+<div
+    className="c0"
+  />,
+  @media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:August) {
+
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    box-orient: May;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    box-orient: June;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    box-orient: April;
+  }
+}
+
+@media screen and (min-width:August) {
+  .c0 {
+    box-orient: November;
+  }
+}
+
+<div
+    className="c0"
+  />,
+]
+`;
+
+exports[`boxOrient renders object [breakpoints] 2`] = `
+Array [
+  @media May {
+  .c0 {
+    box-orient: July;
+  }
+}
+
+@media April {
+  .c0 {
+    box-orient: August;
+  }
+}
+
+@media January {
+  .c0 {
+    box-orient: September;
+  }
+}
+
+@media April {
+  .c0 {
+    box-orient: November;
+  }
+}
+
+@media June {
+  .c0 {
+    box-orient: August;
+  }
+}
+
+@media May {
+
+}
+
+@media April {
+
+}
+
+@media January {
+
+}
+
+@media April {
+
+}
+
+@media June {
+
+}
+
+<div
+    className="c0"
+  />,
+  @media May {
+  .c0 {
+    box-orient: July;
+  }
+}
+
+@media April {
+  .c0 {
+    box-orient: August;
+  }
+}
+
+@media January {
+  .c0 {
+    box-orient: September;
+  }
+}
+
+@media April {
+  .c0 {
+    box-orient: November;
+  }
+}
+
+@media June {
+  .c0 {
+    box-orient: August;
+  }
+}
+
+@media May {
+
+}
+
+@media April {
+
+}
+
+@media January {
+
+}
+
+@media April {
+
+}
+
+@media June {
+
+}
+
+<div
+    className="c0"
+  />,
+  @media May {
+
+}
+
+@media April {
+
+}
+
+@media January {
+
+}
+
+@media April {
+
+}
+
+@media June {
+
+}
+
+@media May {
+  .c0 {
+    box-orient: January;
+  }
+}
+
+@media April {
+  .c0 {
+    box-orient: December;
+  }
+}
+
+@media January {
+  .c0 {
+    box-orient: April;
+  }
+}
+
+@media April {
+  .c0 {
+    box-orient: May;
+  }
+}
+
+@media June {
+  .c0 {
+    box-orient: June;
+  }
+}
+
+<div
+    className="c0"
+  />,
+  @media May {
+
+}
+
+@media April {
+
+}
+
+@media January {
+
+}
+
+@media April {
+
+}
+
+@media June {
+
+}
+
+@media May {
+  .c0 {
+    box-orient: January;
+  }
+}
+
+@media April {
+  .c0 {
+    box-orient: December;
+  }
+}
+
+@media January {
+  .c0 {
+    box-orient: April;
+  }
+}
+
+@media April {
+  .c0 {
+    box-orient: May;
+  }
+}
+
+@media June {
+  .c0 {
+    box-orient: June;
+  }
+}
+
+<div
+    className="c0"
+  />,
+]
+`;
+
+exports[`boxOrient renders postitive number 1`] = `
+Array [
+  .c0 {
+  box-orient: 54881;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  box-orient: 54881;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  box-orient: 42365;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  box-orient: 42365;
+}
+
+<div
+    className="c0"
+  />,
+]
+`;
+
+exports[`boxOrient renders string 1`] = `
+Array [
+  .c0 {
+  box-orient: July;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  box-orient: July;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  box-orient: June;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  box-orient: June;
+}
+
+<div
+    className="c0"
+  />,
+]
+`;
+
+exports[`boxOrient renders valid theme path 1`] = `
+Array [
+  .c0 {
+  box-orient: DarkSlateBlue;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  box-orient: DarkSlateBlue;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  box-orient: DarkSlateBlue;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  box-orient: DarkSlateBlue;
+}
+
+<div
+    className="c0"
+  />,
+]
+`;

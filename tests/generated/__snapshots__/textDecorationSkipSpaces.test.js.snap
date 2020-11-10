@@ -1,0 +1,690 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`textDecorationSkipSpaces renders 0 1`] = `
+Array [
+  .c0 {
+  -webkit-text-decoration-skip-spaces: 0;
+  text-decoration-skip-spaces: 0;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-text-decoration-skip-spaces: 0;
+  text-decoration-skip-spaces: 0;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-text-decoration-skip-spaces: 0;
+  text-decoration-skip-spaces: 0;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-text-decoration-skip-spaces: 0;
+  text-decoration-skip-spaces: 0;
+}
+
+<div
+    className="c0"
+  />,
+]
+`;
+
+exports[`textDecorationSkipSpaces renders function 1`] = `
+Array [
+  .c0 {
+  -webkit-text-decoration-skip-spaces: hasnot;
+  text-decoration-skip-spaces: hasnot;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-text-decoration-skip-spaces: has;
+  text-decoration-skip-spaces: has;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-text-decoration-skip-spaces: hasnot;
+  text-decoration-skip-spaces: hasnot;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-text-decoration-skip-spaces: has;
+  text-decoration-skip-spaces: has;
+}
+
+<div
+    className="c0"
+  />,
+]
+`;
+
+exports[`textDecorationSkipSpaces renders invalid theme path 1`] = `
+Array [
+  .c0 {
+  -webkit-text-decoration-skip-spaces: invalid.path.1;
+  text-decoration-skip-spaces: invalid.path.1;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-text-decoration-skip-spaces: invalid.path.1;
+  text-decoration-skip-spaces: invalid.path.1;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-text-decoration-skip-spaces: invalid.path.1;
+  text-decoration-skip-spaces: invalid.path.1;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-text-decoration-skip-spaces: invalid.path.1;
+  text-decoration-skip-spaces: invalid.path.1;
+}
+
+<div
+    className="c0"
+  />,
+]
+`;
+
+exports[`textDecorationSkipSpaces renders negative number 1`] = `
+Array [
+  .c0 {
+  -webkit-text-decoration-skip-spaces: -54881;
+  text-decoration-skip-spaces: -54881;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-text-decoration-skip-spaces: -54881;
+  text-decoration-skip-spaces: -54881;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-text-decoration-skip-spaces: -42365;
+  text-decoration-skip-spaces: -42365;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-text-decoration-skip-spaces: -42365;
+  text-decoration-skip-spaces: -42365;
+}
+
+<div
+    className="c0"
+  />,
+]
+`;
+
+exports[`textDecorationSkipSpaces renders object [breakpoints] 1`] = `
+Array [
+  @media screen and (min-width:November) {
+  .c0 {
+    -webkit-text-decoration-skip-spaces: July;
+    text-decoration-skip-spaces: July;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    -webkit-text-decoration-skip-spaces: August;
+    text-decoration-skip-spaces: August;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    -webkit-text-decoration-skip-spaces: September;
+    text-decoration-skip-spaces: September;
+  }
+}
+
+@media screen and (min-width:August) {
+  .c0 {
+    -webkit-text-decoration-skip-spaces: November;
+    text-decoration-skip-spaces: November;
+  }
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:August) {
+
+}
+
+<div
+    className="c0"
+  />,
+  @media screen and (min-width:November) {
+  .c0 {
+    -webkit-text-decoration-skip-spaces: July;
+    text-decoration-skip-spaces: July;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    -webkit-text-decoration-skip-spaces: August;
+    text-decoration-skip-spaces: August;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    -webkit-text-decoration-skip-spaces: September;
+    text-decoration-skip-spaces: September;
+  }
+}
+
+@media screen and (min-width:August) {
+  .c0 {
+    -webkit-text-decoration-skip-spaces: November;
+    text-decoration-skip-spaces: November;
+  }
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:August) {
+
+}
+
+<div
+    className="c0"
+  />,
+  @media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:August) {
+
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    -webkit-text-decoration-skip-spaces: May;
+    text-decoration-skip-spaces: May;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    -webkit-text-decoration-skip-spaces: June;
+    text-decoration-skip-spaces: June;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    -webkit-text-decoration-skip-spaces: April;
+    text-decoration-skip-spaces: April;
+  }
+}
+
+@media screen and (min-width:August) {
+  .c0 {
+    -webkit-text-decoration-skip-spaces: November;
+    text-decoration-skip-spaces: November;
+  }
+}
+
+<div
+    className="c0"
+  />,
+  @media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:August) {
+
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    -webkit-text-decoration-skip-spaces: May;
+    text-decoration-skip-spaces: May;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    -webkit-text-decoration-skip-spaces: June;
+    text-decoration-skip-spaces: June;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    -webkit-text-decoration-skip-spaces: April;
+    text-decoration-skip-spaces: April;
+  }
+}
+
+@media screen and (min-width:August) {
+  .c0 {
+    -webkit-text-decoration-skip-spaces: November;
+    text-decoration-skip-spaces: November;
+  }
+}
+
+<div
+    className="c0"
+  />,
+]
+`;
+
+exports[`textDecorationSkipSpaces renders object [breakpoints] 2`] = `
+Array [
+  @media May {
+  .c0 {
+    -webkit-text-decoration-skip-spaces: July;
+    text-decoration-skip-spaces: July;
+  }
+}
+
+@media April {
+  .c0 {
+    -webkit-text-decoration-skip-spaces: August;
+    text-decoration-skip-spaces: August;
+  }
+}
+
+@media January {
+  .c0 {
+    -webkit-text-decoration-skip-spaces: September;
+    text-decoration-skip-spaces: September;
+  }
+}
+
+@media April {
+  .c0 {
+    -webkit-text-decoration-skip-spaces: November;
+    text-decoration-skip-spaces: November;
+  }
+}
+
+@media June {
+  .c0 {
+    -webkit-text-decoration-skip-spaces: August;
+    text-decoration-skip-spaces: August;
+  }
+}
+
+@media May {
+
+}
+
+@media April {
+
+}
+
+@media January {
+
+}
+
+@media April {
+
+}
+
+@media June {
+
+}
+
+<div
+    className="c0"
+  />,
+  @media May {
+  .c0 {
+    -webkit-text-decoration-skip-spaces: July;
+    text-decoration-skip-spaces: July;
+  }
+}
+
+@media April {
+  .c0 {
+    -webkit-text-decoration-skip-spaces: August;
+    text-decoration-skip-spaces: August;
+  }
+}
+
+@media January {
+  .c0 {
+    -webkit-text-decoration-skip-spaces: September;
+    text-decoration-skip-spaces: September;
+  }
+}
+
+@media April {
+  .c0 {
+    -webkit-text-decoration-skip-spaces: November;
+    text-decoration-skip-spaces: November;
+  }
+}
+
+@media June {
+  .c0 {
+    -webkit-text-decoration-skip-spaces: August;
+    text-decoration-skip-spaces: August;
+  }
+}
+
+@media May {
+
+}
+
+@media April {
+
+}
+
+@media January {
+
+}
+
+@media April {
+
+}
+
+@media June {
+
+}
+
+<div
+    className="c0"
+  />,
+  @media May {
+
+}
+
+@media April {
+
+}
+
+@media January {
+
+}
+
+@media April {
+
+}
+
+@media June {
+
+}
+
+@media May {
+  .c0 {
+    -webkit-text-decoration-skip-spaces: January;
+    text-decoration-skip-spaces: January;
+  }
+}
+
+@media April {
+  .c0 {
+    -webkit-text-decoration-skip-spaces: December;
+    text-decoration-skip-spaces: December;
+  }
+}
+
+@media January {
+  .c0 {
+    -webkit-text-decoration-skip-spaces: April;
+    text-decoration-skip-spaces: April;
+  }
+}
+
+@media April {
+  .c0 {
+    -webkit-text-decoration-skip-spaces: May;
+    text-decoration-skip-spaces: May;
+  }
+}
+
+@media June {
+  .c0 {
+    -webkit-text-decoration-skip-spaces: June;
+    text-decoration-skip-spaces: June;
+  }
+}
+
+<div
+    className="c0"
+  />,
+  @media May {
+
+}
+
+@media April {
+
+}
+
+@media January {
+
+}
+
+@media April {
+
+}
+
+@media June {
+
+}
+
+@media May {
+  .c0 {
+    -webkit-text-decoration-skip-spaces: January;
+    text-decoration-skip-spaces: January;
+  }
+}
+
+@media April {
+  .c0 {
+    -webkit-text-decoration-skip-spaces: December;
+    text-decoration-skip-spaces: December;
+  }
+}
+
+@media January {
+  .c0 {
+    -webkit-text-decoration-skip-spaces: April;
+    text-decoration-skip-spaces: April;
+  }
+}
+
+@media April {
+  .c0 {
+    -webkit-text-decoration-skip-spaces: May;
+    text-decoration-skip-spaces: May;
+  }
+}
+
+@media June {
+  .c0 {
+    -webkit-text-decoration-skip-spaces: June;
+    text-decoration-skip-spaces: June;
+  }
+}
+
+<div
+    className="c0"
+  />,
+]
+`;
+
+exports[`textDecorationSkipSpaces renders postitive number 1`] = `
+Array [
+  .c0 {
+  -webkit-text-decoration-skip-spaces: 54881;
+  text-decoration-skip-spaces: 54881;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-text-decoration-skip-spaces: 54881;
+  text-decoration-skip-spaces: 54881;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-text-decoration-skip-spaces: 42365;
+  text-decoration-skip-spaces: 42365;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-text-decoration-skip-spaces: 42365;
+  text-decoration-skip-spaces: 42365;
+}
+
+<div
+    className="c0"
+  />,
+]
+`;
+
+exports[`textDecorationSkipSpaces renders string 1`] = `
+Array [
+  .c0 {
+  -webkit-text-decoration-skip-spaces: July;
+  text-decoration-skip-spaces: July;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-text-decoration-skip-spaces: July;
+  text-decoration-skip-spaces: July;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-text-decoration-skip-spaces: June;
+  text-decoration-skip-spaces: June;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-text-decoration-skip-spaces: June;
+  text-decoration-skip-spaces: June;
+}
+
+<div
+    className="c0"
+  />,
+]
+`;
+
+exports[`textDecorationSkipSpaces renders valid theme path 1`] = `
+Array [
+  .c0 {
+  -webkit-text-decoration-skip-spaces: DarkSlateBlue;
+  text-decoration-skip-spaces: DarkSlateBlue;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-text-decoration-skip-spaces: DarkSlateBlue;
+  text-decoration-skip-spaces: DarkSlateBlue;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-text-decoration-skip-spaces: DarkSlateBlue;
+  text-decoration-skip-spaces: DarkSlateBlue;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-text-decoration-skip-spaces: DarkSlateBlue;
+  text-decoration-skip-spaces: DarkSlateBlue;
+}
+
+<div
+    className="c0"
+  />,
+]
+`;

@@ -1,0 +1,754 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`translateX renders 0 1`] = `
+Array [
+  .c0 {
+  -webkit-transform: translateX(0);
+  -ms-transform: translateX(0);
+  transform: translateX(0);
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-transform: translateX(0);
+  -ms-transform: translateX(0);
+  transform: translateX(0);
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-transform: translateX(0);
+  -ms-transform: translateX(0);
+  transform: translateX(0);
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-transform: translateX(0);
+  -ms-transform: translateX(0);
+  transform: translateX(0);
+}
+
+<div
+    className="c0"
+  />,
+]
+`;
+
+exports[`translateX renders function 1`] = `
+Array [
+  .c0 {
+  -webkit-transform: translateX(hasnot);
+  -ms-transform: translateX(hasnot);
+  transform: translateX(hasnot);
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-transform: translateX(has);
+  -ms-transform: translateX(has);
+  transform: translateX(has);
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-transform: translateX(hasnot);
+  -ms-transform: translateX(hasnot);
+  transform: translateX(hasnot);
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-transform: translateX(has);
+  -ms-transform: translateX(has);
+  transform: translateX(has);
+}
+
+<div
+    className="c0"
+  />,
+]
+`;
+
+exports[`translateX renders invalid theme path 1`] = `
+Array [
+  .c0 {
+  -webkit-transform: translateX(invalid.path.1);
+  -ms-transform: translateX(invalid.path.1);
+  transform: translateX(invalid.path.1);
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-transform: translateX(invalid.path.1);
+  -ms-transform: translateX(invalid.path.1);
+  transform: translateX(invalid.path.1);
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-transform: translateX(invalid.path.1);
+  -ms-transform: translateX(invalid.path.1);
+  transform: translateX(invalid.path.1);
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-transform: translateX(invalid.path.1);
+  -ms-transform: translateX(invalid.path.1);
+  transform: translateX(invalid.path.1);
+}
+
+<div
+    className="c0"
+  />,
+]
+`;
+
+exports[`translateX renders negative number 1`] = `
+Array [
+  .c0 {
+  -webkit-transform: translateX(-54881px);
+  -ms-transform: translateX(-54881px);
+  transform: translateX(-54881px);
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-transform: translateX(-54881px);
+  -ms-transform: translateX(-54881px);
+  transform: translateX(-54881px);
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-transform: translateX(-42365px);
+  -ms-transform: translateX(-42365px);
+  transform: translateX(-42365px);
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-transform: translateX(-42365px);
+  -ms-transform: translateX(-42365px);
+  transform: translateX(-42365px);
+}
+
+<div
+    className="c0"
+  />,
+]
+`;
+
+exports[`translateX renders object [breakpoints] 1`] = `
+Array [
+  @media screen and (min-width:November) {
+  .c0 {
+    -webkit-transform: translateX(July);
+    -ms-transform: translateX(July);
+    transform: translateX(July);
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    -webkit-transform: translateX(August);
+    -ms-transform: translateX(August);
+    transform: translateX(August);
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    -webkit-transform: translateX(September);
+    -ms-transform: translateX(September);
+    transform: translateX(September);
+  }
+}
+
+@media screen and (min-width:August) {
+  .c0 {
+    -webkit-transform: translateX(November);
+    -ms-transform: translateX(November);
+    transform: translateX(November);
+  }
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:August) {
+
+}
+
+<div
+    className="c0"
+  />,
+  @media screen and (min-width:November) {
+  .c0 {
+    -webkit-transform: translateX(July);
+    -ms-transform: translateX(July);
+    transform: translateX(July);
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    -webkit-transform: translateX(August);
+    -ms-transform: translateX(August);
+    transform: translateX(August);
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    -webkit-transform: translateX(September);
+    -ms-transform: translateX(September);
+    transform: translateX(September);
+  }
+}
+
+@media screen and (min-width:August) {
+  .c0 {
+    -webkit-transform: translateX(November);
+    -ms-transform: translateX(November);
+    transform: translateX(November);
+  }
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:August) {
+
+}
+
+<div
+    className="c0"
+  />,
+  @media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:August) {
+
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    -webkit-transform: translateX(May);
+    -ms-transform: translateX(May);
+    transform: translateX(May);
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    -webkit-transform: translateX(June);
+    -ms-transform: translateX(June);
+    transform: translateX(June);
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    -webkit-transform: translateX(April);
+    -ms-transform: translateX(April);
+    transform: translateX(April);
+  }
+}
+
+@media screen and (min-width:August) {
+  .c0 {
+    -webkit-transform: translateX(November);
+    -ms-transform: translateX(November);
+    transform: translateX(November);
+  }
+}
+
+<div
+    className="c0"
+  />,
+  @media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:August) {
+
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    -webkit-transform: translateX(May);
+    -ms-transform: translateX(May);
+    transform: translateX(May);
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    -webkit-transform: translateX(June);
+    -ms-transform: translateX(June);
+    transform: translateX(June);
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    -webkit-transform: translateX(April);
+    -ms-transform: translateX(April);
+    transform: translateX(April);
+  }
+}
+
+@media screen and (min-width:August) {
+  .c0 {
+    -webkit-transform: translateX(November);
+    -ms-transform: translateX(November);
+    transform: translateX(November);
+  }
+}
+
+<div
+    className="c0"
+  />,
+]
+`;
+
+exports[`translateX renders object [breakpoints] 2`] = `
+Array [
+  @media May {
+  .c0 {
+    -webkit-transform: translateX(July);
+    -ms-transform: translateX(July);
+    transform: translateX(July);
+  }
+}
+
+@media April {
+  .c0 {
+    -webkit-transform: translateX(August);
+    -ms-transform: translateX(August);
+    transform: translateX(August);
+  }
+}
+
+@media January {
+  .c0 {
+    -webkit-transform: translateX(September);
+    -ms-transform: translateX(September);
+    transform: translateX(September);
+  }
+}
+
+@media April {
+  .c0 {
+    -webkit-transform: translateX(November);
+    -ms-transform: translateX(November);
+    transform: translateX(November);
+  }
+}
+
+@media June {
+  .c0 {
+    -webkit-transform: translateX(August);
+    -ms-transform: translateX(August);
+    transform: translateX(August);
+  }
+}
+
+@media May {
+
+}
+
+@media April {
+
+}
+
+@media January {
+
+}
+
+@media April {
+
+}
+
+@media June {
+
+}
+
+<div
+    className="c0"
+  />,
+  @media May {
+  .c0 {
+    -webkit-transform: translateX(July);
+    -ms-transform: translateX(July);
+    transform: translateX(July);
+  }
+}
+
+@media April {
+  .c0 {
+    -webkit-transform: translateX(August);
+    -ms-transform: translateX(August);
+    transform: translateX(August);
+  }
+}
+
+@media January {
+  .c0 {
+    -webkit-transform: translateX(September);
+    -ms-transform: translateX(September);
+    transform: translateX(September);
+  }
+}
+
+@media April {
+  .c0 {
+    -webkit-transform: translateX(November);
+    -ms-transform: translateX(November);
+    transform: translateX(November);
+  }
+}
+
+@media June {
+  .c0 {
+    -webkit-transform: translateX(August);
+    -ms-transform: translateX(August);
+    transform: translateX(August);
+  }
+}
+
+@media May {
+
+}
+
+@media April {
+
+}
+
+@media January {
+
+}
+
+@media April {
+
+}
+
+@media June {
+
+}
+
+<div
+    className="c0"
+  />,
+  @media May {
+
+}
+
+@media April {
+
+}
+
+@media January {
+
+}
+
+@media April {
+
+}
+
+@media June {
+
+}
+
+@media May {
+  .c0 {
+    -webkit-transform: translateX(January);
+    -ms-transform: translateX(January);
+    transform: translateX(January);
+  }
+}
+
+@media April {
+  .c0 {
+    -webkit-transform: translateX(December);
+    -ms-transform: translateX(December);
+    transform: translateX(December);
+  }
+}
+
+@media January {
+  .c0 {
+    -webkit-transform: translateX(April);
+    -ms-transform: translateX(April);
+    transform: translateX(April);
+  }
+}
+
+@media April {
+  .c0 {
+    -webkit-transform: translateX(May);
+    -ms-transform: translateX(May);
+    transform: translateX(May);
+  }
+}
+
+@media June {
+  .c0 {
+    -webkit-transform: translateX(June);
+    -ms-transform: translateX(June);
+    transform: translateX(June);
+  }
+}
+
+<div
+    className="c0"
+  />,
+  @media May {
+
+}
+
+@media April {
+
+}
+
+@media January {
+
+}
+
+@media April {
+
+}
+
+@media June {
+
+}
+
+@media May {
+  .c0 {
+    -webkit-transform: translateX(January);
+    -ms-transform: translateX(January);
+    transform: translateX(January);
+  }
+}
+
+@media April {
+  .c0 {
+    -webkit-transform: translateX(December);
+    -ms-transform: translateX(December);
+    transform: translateX(December);
+  }
+}
+
+@media January {
+  .c0 {
+    -webkit-transform: translateX(April);
+    -ms-transform: translateX(April);
+    transform: translateX(April);
+  }
+}
+
+@media April {
+  .c0 {
+    -webkit-transform: translateX(May);
+    -ms-transform: translateX(May);
+    transform: translateX(May);
+  }
+}
+
+@media June {
+  .c0 {
+    -webkit-transform: translateX(June);
+    -ms-transform: translateX(June);
+    transform: translateX(June);
+  }
+}
+
+<div
+    className="c0"
+  />,
+]
+`;
+
+exports[`translateX renders postitive number 1`] = `
+Array [
+  .c0 {
+  -webkit-transform: translateX(54881px);
+  -ms-transform: translateX(54881px);
+  transform: translateX(54881px);
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-transform: translateX(54881px);
+  -ms-transform: translateX(54881px);
+  transform: translateX(54881px);
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-transform: translateX(42365px);
+  -ms-transform: translateX(42365px);
+  transform: translateX(42365px);
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-transform: translateX(42365px);
+  -ms-transform: translateX(42365px);
+  transform: translateX(42365px);
+}
+
+<div
+    className="c0"
+  />,
+]
+`;
+
+exports[`translateX renders string 1`] = `
+Array [
+  .c0 {
+  -webkit-transform: translateX(July);
+  -ms-transform: translateX(July);
+  transform: translateX(July);
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-transform: translateX(July);
+  -ms-transform: translateX(July);
+  transform: translateX(July);
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-transform: translateX(June);
+  -ms-transform: translateX(June);
+  transform: translateX(June);
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-transform: translateX(June);
+  -ms-transform: translateX(June);
+  transform: translateX(June);
+}
+
+<div
+    className="c0"
+  />,
+]
+`;
+
+exports[`translateX renders valid theme path 1`] = `
+Array [
+  .c0 {
+  -webkit-transform: translateX(DarkSlateBlue);
+  -ms-transform: translateX(DarkSlateBlue);
+  transform: translateX(DarkSlateBlue);
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-transform: translateX(DarkSlateBlue);
+  -ms-transform: translateX(DarkSlateBlue);
+  transform: translateX(DarkSlateBlue);
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-transform: translateX(DarkSlateBlue);
+  -ms-transform: translateX(DarkSlateBlue);
+  transform: translateX(DarkSlateBlue);
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-transform: translateX(DarkSlateBlue);
+  -ms-transform: translateX(DarkSlateBlue);
+  transform: translateX(DarkSlateBlue);
+}
+
+<div
+    className="c0"
+  />,
+]
+`;

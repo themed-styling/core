@@ -1,0 +1,626 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`imageRendering renders 0 1`] = `
+Array [
+  .c0 {
+  image-rendering: 0;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  image-rendering: 0;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  image-rendering: 0;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  image-rendering: 0;
+}
+
+<div
+    className="c0"
+  />,
+]
+`;
+
+exports[`imageRendering renders function 1`] = `
+Array [
+  .c0 {
+  image-rendering: hasnot;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  image-rendering: has;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  image-rendering: hasnot;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  image-rendering: has;
+}
+
+<div
+    className="c0"
+  />,
+]
+`;
+
+exports[`imageRendering renders invalid theme path 1`] = `
+Array [
+  .c0 {
+  image-rendering: invalid.path.1;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  image-rendering: invalid.path.1;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  image-rendering: invalid.path.1;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  image-rendering: invalid.path.1;
+}
+
+<div
+    className="c0"
+  />,
+]
+`;
+
+exports[`imageRendering renders negative number 1`] = `
+Array [
+  .c0 {
+  image-rendering: -54881;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  image-rendering: -54881;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  image-rendering: -42365;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  image-rendering: -42365;
+}
+
+<div
+    className="c0"
+  />,
+]
+`;
+
+exports[`imageRendering renders object [breakpoints] 1`] = `
+Array [
+  @media screen and (min-width:November) {
+  .c0 {
+    image-rendering: July;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    image-rendering: August;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    image-rendering: September;
+  }
+}
+
+@media screen and (min-width:August) {
+  .c0 {
+    image-rendering: November;
+  }
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:August) {
+
+}
+
+<div
+    className="c0"
+  />,
+  @media screen and (min-width:November) {
+  .c0 {
+    image-rendering: July;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    image-rendering: August;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    image-rendering: September;
+  }
+}
+
+@media screen and (min-width:August) {
+  .c0 {
+    image-rendering: November;
+  }
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:August) {
+
+}
+
+<div
+    className="c0"
+  />,
+  @media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:August) {
+
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    image-rendering: May;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    image-rendering: June;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    image-rendering: April;
+  }
+}
+
+@media screen and (min-width:August) {
+  .c0 {
+    image-rendering: November;
+  }
+}
+
+<div
+    className="c0"
+  />,
+  @media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:August) {
+
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    image-rendering: May;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    image-rendering: June;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    image-rendering: April;
+  }
+}
+
+@media screen and (min-width:August) {
+  .c0 {
+    image-rendering: November;
+  }
+}
+
+<div
+    className="c0"
+  />,
+]
+`;
+
+exports[`imageRendering renders object [breakpoints] 2`] = `
+Array [
+  @media May {
+  .c0 {
+    image-rendering: July;
+  }
+}
+
+@media April {
+  .c0 {
+    image-rendering: August;
+  }
+}
+
+@media January {
+  .c0 {
+    image-rendering: September;
+  }
+}
+
+@media April {
+  .c0 {
+    image-rendering: November;
+  }
+}
+
+@media June {
+  .c0 {
+    image-rendering: August;
+  }
+}
+
+@media May {
+
+}
+
+@media April {
+
+}
+
+@media January {
+
+}
+
+@media April {
+
+}
+
+@media June {
+
+}
+
+<div
+    className="c0"
+  />,
+  @media May {
+  .c0 {
+    image-rendering: July;
+  }
+}
+
+@media April {
+  .c0 {
+    image-rendering: August;
+  }
+}
+
+@media January {
+  .c0 {
+    image-rendering: September;
+  }
+}
+
+@media April {
+  .c0 {
+    image-rendering: November;
+  }
+}
+
+@media June {
+  .c0 {
+    image-rendering: August;
+  }
+}
+
+@media May {
+
+}
+
+@media April {
+
+}
+
+@media January {
+
+}
+
+@media April {
+
+}
+
+@media June {
+
+}
+
+<div
+    className="c0"
+  />,
+  @media May {
+
+}
+
+@media April {
+
+}
+
+@media January {
+
+}
+
+@media April {
+
+}
+
+@media June {
+
+}
+
+@media May {
+  .c0 {
+    image-rendering: January;
+  }
+}
+
+@media April {
+  .c0 {
+    image-rendering: December;
+  }
+}
+
+@media January {
+  .c0 {
+    image-rendering: April;
+  }
+}
+
+@media April {
+  .c0 {
+    image-rendering: May;
+  }
+}
+
+@media June {
+  .c0 {
+    image-rendering: June;
+  }
+}
+
+<div
+    className="c0"
+  />,
+  @media May {
+
+}
+
+@media April {
+
+}
+
+@media January {
+
+}
+
+@media April {
+
+}
+
+@media June {
+
+}
+
+@media May {
+  .c0 {
+    image-rendering: January;
+  }
+}
+
+@media April {
+  .c0 {
+    image-rendering: December;
+  }
+}
+
+@media January {
+  .c0 {
+    image-rendering: April;
+  }
+}
+
+@media April {
+  .c0 {
+    image-rendering: May;
+  }
+}
+
+@media June {
+  .c0 {
+    image-rendering: June;
+  }
+}
+
+<div
+    className="c0"
+  />,
+]
+`;
+
+exports[`imageRendering renders postitive number 1`] = `
+Array [
+  .c0 {
+  image-rendering: 54881;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  image-rendering: 54881;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  image-rendering: 42365;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  image-rendering: 42365;
+}
+
+<div
+    className="c0"
+  />,
+]
+`;
+
+exports[`imageRendering renders string 1`] = `
+Array [
+  .c0 {
+  image-rendering: July;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  image-rendering: July;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  image-rendering: June;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  image-rendering: June;
+}
+
+<div
+    className="c0"
+  />,
+]
+`;
+
+exports[`imageRendering renders valid theme path 1`] = `
+Array [
+  .c0 {
+  image-rendering: DarkSlateBlue;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  image-rendering: DarkSlateBlue;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  image-rendering: DarkSlateBlue;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  image-rendering: DarkSlateBlue;
+}
+
+<div
+    className="c0"
+  />,
+]
+`;

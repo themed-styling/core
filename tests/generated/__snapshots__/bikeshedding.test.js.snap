@@ -1,0 +1,626 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`bikeshedding renders 0 1`] = `
+Array [
+  .c0 {
+  bikeshedding: 0;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  bikeshedding: 0;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  bikeshedding: 0;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  bikeshedding: 0;
+}
+
+<div
+    className="c0"
+  />,
+]
+`;
+
+exports[`bikeshedding renders function 1`] = `
+Array [
+  .c0 {
+  bikeshedding: hasnot;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  bikeshedding: has;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  bikeshedding: hasnot;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  bikeshedding: has;
+}
+
+<div
+    className="c0"
+  />,
+]
+`;
+
+exports[`bikeshedding renders invalid theme path 1`] = `
+Array [
+  .c0 {
+  bikeshedding: invalid.path.1;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  bikeshedding: invalid.path.1;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  bikeshedding: invalid.path.1;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  bikeshedding: invalid.path.1;
+}
+
+<div
+    className="c0"
+  />,
+]
+`;
+
+exports[`bikeshedding renders negative number 1`] = `
+Array [
+  .c0 {
+  bikeshedding: -54881;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  bikeshedding: -54881;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  bikeshedding: -42365;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  bikeshedding: -42365;
+}
+
+<div
+    className="c0"
+  />,
+]
+`;
+
+exports[`bikeshedding renders object [breakpoints] 1`] = `
+Array [
+  @media screen and (min-width:November) {
+  .c0 {
+    bikeshedding: July;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    bikeshedding: August;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    bikeshedding: September;
+  }
+}
+
+@media screen and (min-width:August) {
+  .c0 {
+    bikeshedding: November;
+  }
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:August) {
+
+}
+
+<div
+    className="c0"
+  />,
+  @media screen and (min-width:November) {
+  .c0 {
+    bikeshedding: July;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    bikeshedding: August;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    bikeshedding: September;
+  }
+}
+
+@media screen and (min-width:August) {
+  .c0 {
+    bikeshedding: November;
+  }
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:August) {
+
+}
+
+<div
+    className="c0"
+  />,
+  @media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:August) {
+
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    bikeshedding: May;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    bikeshedding: June;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    bikeshedding: April;
+  }
+}
+
+@media screen and (min-width:August) {
+  .c0 {
+    bikeshedding: November;
+  }
+}
+
+<div
+    className="c0"
+  />,
+  @media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:August) {
+
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    bikeshedding: May;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    bikeshedding: June;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    bikeshedding: April;
+  }
+}
+
+@media screen and (min-width:August) {
+  .c0 {
+    bikeshedding: November;
+  }
+}
+
+<div
+    className="c0"
+  />,
+]
+`;
+
+exports[`bikeshedding renders object [breakpoints] 2`] = `
+Array [
+  @media May {
+  .c0 {
+    bikeshedding: July;
+  }
+}
+
+@media April {
+  .c0 {
+    bikeshedding: August;
+  }
+}
+
+@media January {
+  .c0 {
+    bikeshedding: September;
+  }
+}
+
+@media April {
+  .c0 {
+    bikeshedding: November;
+  }
+}
+
+@media June {
+  .c0 {
+    bikeshedding: August;
+  }
+}
+
+@media May {
+
+}
+
+@media April {
+
+}
+
+@media January {
+
+}
+
+@media April {
+
+}
+
+@media June {
+
+}
+
+<div
+    className="c0"
+  />,
+  @media May {
+  .c0 {
+    bikeshedding: July;
+  }
+}
+
+@media April {
+  .c0 {
+    bikeshedding: August;
+  }
+}
+
+@media January {
+  .c0 {
+    bikeshedding: September;
+  }
+}
+
+@media April {
+  .c0 {
+    bikeshedding: November;
+  }
+}
+
+@media June {
+  .c0 {
+    bikeshedding: August;
+  }
+}
+
+@media May {
+
+}
+
+@media April {
+
+}
+
+@media January {
+
+}
+
+@media April {
+
+}
+
+@media June {
+
+}
+
+<div
+    className="c0"
+  />,
+  @media May {
+
+}
+
+@media April {
+
+}
+
+@media January {
+
+}
+
+@media April {
+
+}
+
+@media June {
+
+}
+
+@media May {
+  .c0 {
+    bikeshedding: January;
+  }
+}
+
+@media April {
+  .c0 {
+    bikeshedding: December;
+  }
+}
+
+@media January {
+  .c0 {
+    bikeshedding: April;
+  }
+}
+
+@media April {
+  .c0 {
+    bikeshedding: May;
+  }
+}
+
+@media June {
+  .c0 {
+    bikeshedding: June;
+  }
+}
+
+<div
+    className="c0"
+  />,
+  @media May {
+
+}
+
+@media April {
+
+}
+
+@media January {
+
+}
+
+@media April {
+
+}
+
+@media June {
+
+}
+
+@media May {
+  .c0 {
+    bikeshedding: January;
+  }
+}
+
+@media April {
+  .c0 {
+    bikeshedding: December;
+  }
+}
+
+@media January {
+  .c0 {
+    bikeshedding: April;
+  }
+}
+
+@media April {
+  .c0 {
+    bikeshedding: May;
+  }
+}
+
+@media June {
+  .c0 {
+    bikeshedding: June;
+  }
+}
+
+<div
+    className="c0"
+  />,
+]
+`;
+
+exports[`bikeshedding renders postitive number 1`] = `
+Array [
+  .c0 {
+  bikeshedding: 54881;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  bikeshedding: 54881;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  bikeshedding: 42365;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  bikeshedding: 42365;
+}
+
+<div
+    className="c0"
+  />,
+]
+`;
+
+exports[`bikeshedding renders string 1`] = `
+Array [
+  .c0 {
+  bikeshedding: July;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  bikeshedding: July;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  bikeshedding: June;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  bikeshedding: June;
+}
+
+<div
+    className="c0"
+  />,
+]
+`;
+
+exports[`bikeshedding renders valid theme path 1`] = `
+Array [
+  .c0 {
+  bikeshedding: DarkSlateBlue;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  bikeshedding: DarkSlateBlue;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  bikeshedding: DarkSlateBlue;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  bikeshedding: DarkSlateBlue;
+}
+
+<div
+    className="c0"
+  />,
+]
+`;

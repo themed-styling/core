@@ -1,0 +1,626 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`backgroundRepeat renders 0 1`] = `
+Array [
+  .c0 {
+  background-repeat: 0;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  background-repeat: 0;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  background-repeat: 0;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  background-repeat: 0;
+}
+
+<div
+    className="c0"
+  />,
+]
+`;
+
+exports[`backgroundRepeat renders function 1`] = `
+Array [
+  .c0 {
+  background-repeat: hasnot;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  background-repeat: has;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  background-repeat: hasnot;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  background-repeat: has;
+}
+
+<div
+    className="c0"
+  />,
+]
+`;
+
+exports[`backgroundRepeat renders invalid theme path 1`] = `
+Array [
+  .c0 {
+  background-repeat: invalid.path.1;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  background-repeat: invalid.path.1;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  background-repeat: invalid.path.1;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  background-repeat: invalid.path.1;
+}
+
+<div
+    className="c0"
+  />,
+]
+`;
+
+exports[`backgroundRepeat renders negative number 1`] = `
+Array [
+  .c0 {
+  background-repeat: -54881;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  background-repeat: -54881;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  background-repeat: -42365;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  background-repeat: -42365;
+}
+
+<div
+    className="c0"
+  />,
+]
+`;
+
+exports[`backgroundRepeat renders object [breakpoints] 1`] = `
+Array [
+  @media screen and (min-width:November) {
+  .c0 {
+    background-repeat: July;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    background-repeat: August;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    background-repeat: September;
+  }
+}
+
+@media screen and (min-width:August) {
+  .c0 {
+    background-repeat: November;
+  }
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:August) {
+
+}
+
+<div
+    className="c0"
+  />,
+  @media screen and (min-width:November) {
+  .c0 {
+    background-repeat: July;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    background-repeat: August;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    background-repeat: September;
+  }
+}
+
+@media screen and (min-width:August) {
+  .c0 {
+    background-repeat: November;
+  }
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:August) {
+
+}
+
+<div
+    className="c0"
+  />,
+  @media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:August) {
+
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    background-repeat: May;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    background-repeat: June;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    background-repeat: April;
+  }
+}
+
+@media screen and (min-width:August) {
+  .c0 {
+    background-repeat: November;
+  }
+}
+
+<div
+    className="c0"
+  />,
+  @media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:August) {
+
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    background-repeat: May;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    background-repeat: June;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    background-repeat: April;
+  }
+}
+
+@media screen and (min-width:August) {
+  .c0 {
+    background-repeat: November;
+  }
+}
+
+<div
+    className="c0"
+  />,
+]
+`;
+
+exports[`backgroundRepeat renders object [breakpoints] 2`] = `
+Array [
+  @media May {
+  .c0 {
+    background-repeat: July;
+  }
+}
+
+@media April {
+  .c0 {
+    background-repeat: August;
+  }
+}
+
+@media January {
+  .c0 {
+    background-repeat: September;
+  }
+}
+
+@media April {
+  .c0 {
+    background-repeat: November;
+  }
+}
+
+@media June {
+  .c0 {
+    background-repeat: August;
+  }
+}
+
+@media May {
+
+}
+
+@media April {
+
+}
+
+@media January {
+
+}
+
+@media April {
+
+}
+
+@media June {
+
+}
+
+<div
+    className="c0"
+  />,
+  @media May {
+  .c0 {
+    background-repeat: July;
+  }
+}
+
+@media April {
+  .c0 {
+    background-repeat: August;
+  }
+}
+
+@media January {
+  .c0 {
+    background-repeat: September;
+  }
+}
+
+@media April {
+  .c0 {
+    background-repeat: November;
+  }
+}
+
+@media June {
+  .c0 {
+    background-repeat: August;
+  }
+}
+
+@media May {
+
+}
+
+@media April {
+
+}
+
+@media January {
+
+}
+
+@media April {
+
+}
+
+@media June {
+
+}
+
+<div
+    className="c0"
+  />,
+  @media May {
+
+}
+
+@media April {
+
+}
+
+@media January {
+
+}
+
+@media April {
+
+}
+
+@media June {
+
+}
+
+@media May {
+  .c0 {
+    background-repeat: January;
+  }
+}
+
+@media April {
+  .c0 {
+    background-repeat: December;
+  }
+}
+
+@media January {
+  .c0 {
+    background-repeat: April;
+  }
+}
+
+@media April {
+  .c0 {
+    background-repeat: May;
+  }
+}
+
+@media June {
+  .c0 {
+    background-repeat: June;
+  }
+}
+
+<div
+    className="c0"
+  />,
+  @media May {
+
+}
+
+@media April {
+
+}
+
+@media January {
+
+}
+
+@media April {
+
+}
+
+@media June {
+
+}
+
+@media May {
+  .c0 {
+    background-repeat: January;
+  }
+}
+
+@media April {
+  .c0 {
+    background-repeat: December;
+  }
+}
+
+@media January {
+  .c0 {
+    background-repeat: April;
+  }
+}
+
+@media April {
+  .c0 {
+    background-repeat: May;
+  }
+}
+
+@media June {
+  .c0 {
+    background-repeat: June;
+  }
+}
+
+<div
+    className="c0"
+  />,
+]
+`;
+
+exports[`backgroundRepeat renders postitive number 1`] = `
+Array [
+  .c0 {
+  background-repeat: 54881;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  background-repeat: 54881;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  background-repeat: 42365;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  background-repeat: 42365;
+}
+
+<div
+    className="c0"
+  />,
+]
+`;
+
+exports[`backgroundRepeat renders string 1`] = `
+Array [
+  .c0 {
+  background-repeat: July;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  background-repeat: July;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  background-repeat: June;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  background-repeat: June;
+}
+
+<div
+    className="c0"
+  />,
+]
+`;
+
+exports[`backgroundRepeat renders valid theme path 1`] = `
+Array [
+  .c0 {
+  background-repeat: DarkSlateBlue;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  background-repeat: DarkSlateBlue;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  background-repeat: DarkSlateBlue;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  background-repeat: DarkSlateBlue;
+}
+
+<div
+    className="c0"
+  />,
+]
+`;
