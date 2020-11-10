@@ -136,6 +136,15 @@ const testAllOn = (fn, name, faker = faker_) => {
     () => getKeyedObject(Object.keys(breakpoints), faker.date.month),
     faker.random.words
   )
+  testFn(fn, name, themeWrapper({ ...theme, breakpoints })).renders(
+    'object [breakpoints + standard]',
+    () =>
+      getKeyedObject(
+        ['standard', ...Object.keys(breakpoints)],
+        faker.date.month
+      ),
+    faker.random.words
+  )
 
   test(`${name} creates breakpoints`, () => {
     const breakpoints = getObject(faker.date.month)
@@ -160,6 +169,15 @@ const testAllOn = (fn, name, faker = faker_) => {
   testFn(fn, name, themeWrapper({ ...theme, mediaQueries })).renders(
     'object [mediaQueries]',
     () => getKeyedObject(Object.keys(mediaQueries), faker.date.month),
+    faker.random.words
+  )
+  testFn(fn, name, themeWrapper({ ...theme, mediaQueries })).renders(
+    'object [mediaQueries + standart]',
+    () =>
+      getKeyedObject(
+        ['standard', ...Object.keys(mediaQueries)],
+        faker.date.month
+      ),
     faker.random.words
   )
 
