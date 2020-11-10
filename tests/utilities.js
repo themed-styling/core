@@ -158,7 +158,7 @@ const testAllOn = (fn, name, faker = faker_) => {
     () => `@media ${faker.date.month()}`
   )
   testFn(fn, name, themeWrapper({ ...theme, mediaQueries })).renders(
-    'object [breakpoints]',
+    'object [mediaQueries]',
     () => getKeyedObject(Object.keys(mediaQueries), faker.date.month),
     faker.random.words
   )
