@@ -1,0 +1,818 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`letterSpacing renders 0 1`] = `
+Array [
+  .c0 {
+  -webkit-letter-spacing: 0;
+  -moz-letter-spacing: 0;
+  -ms-letter-spacing: 0;
+  letter-spacing: 0;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-letter-spacing: 0;
+  -moz-letter-spacing: 0;
+  -ms-letter-spacing: 0;
+  letter-spacing: 0;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-letter-spacing: 0;
+  -moz-letter-spacing: 0;
+  -ms-letter-spacing: 0;
+  letter-spacing: 0;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-letter-spacing: 0;
+  -moz-letter-spacing: 0;
+  -ms-letter-spacing: 0;
+  letter-spacing: 0;
+}
+
+<div
+    className="c0"
+  />,
+]
+`;
+
+exports[`letterSpacing renders function 1`] = `
+Array [
+  .c0 {
+  -webkit-letter-spacing: hasnot;
+  -moz-letter-spacing: hasnot;
+  -ms-letter-spacing: hasnot;
+  letter-spacing: hasnot;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-letter-spacing: has;
+  -moz-letter-spacing: has;
+  -ms-letter-spacing: has;
+  letter-spacing: has;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-letter-spacing: hasnot;
+  -moz-letter-spacing: hasnot;
+  -ms-letter-spacing: hasnot;
+  letter-spacing: hasnot;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-letter-spacing: has;
+  -moz-letter-spacing: has;
+  -ms-letter-spacing: has;
+  letter-spacing: has;
+}
+
+<div
+    className="c0"
+  />,
+]
+`;
+
+exports[`letterSpacing renders invalid theme path 1`] = `
+Array [
+  .c0 {
+  -webkit-letter-spacing: invalid.path.1;
+  -moz-letter-spacing: invalid.path.1;
+  -ms-letter-spacing: invalid.path.1;
+  letter-spacing: invalid.path.1;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-letter-spacing: invalid.path.1;
+  -moz-letter-spacing: invalid.path.1;
+  -ms-letter-spacing: invalid.path.1;
+  letter-spacing: invalid.path.1;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-letter-spacing: invalid.path.1;
+  -moz-letter-spacing: invalid.path.1;
+  -ms-letter-spacing: invalid.path.1;
+  letter-spacing: invalid.path.1;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-letter-spacing: invalid.path.1;
+  -moz-letter-spacing: invalid.path.1;
+  -ms-letter-spacing: invalid.path.1;
+  letter-spacing: invalid.path.1;
+}
+
+<div
+    className="c0"
+  />,
+]
+`;
+
+exports[`letterSpacing renders negative number 1`] = `
+Array [
+  .c0 {
+  -webkit-letter-spacing: -54881px;
+  -moz-letter-spacing: -54881px;
+  -ms-letter-spacing: -54881px;
+  letter-spacing: -54881px;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-letter-spacing: -54881px;
+  -moz-letter-spacing: -54881px;
+  -ms-letter-spacing: -54881px;
+  letter-spacing: -54881px;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-letter-spacing: -42365px;
+  -moz-letter-spacing: -42365px;
+  -ms-letter-spacing: -42365px;
+  letter-spacing: -42365px;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-letter-spacing: -42365px;
+  -moz-letter-spacing: -42365px;
+  -ms-letter-spacing: -42365px;
+  letter-spacing: -42365px;
+}
+
+<div
+    className="c0"
+  />,
+]
+`;
+
+exports[`letterSpacing renders object [breakpoints] 1`] = `
+Array [
+  @media screen and (min-width:November) {
+  .c0 {
+    -webkit-letter-spacing: July;
+    -moz-letter-spacing: July;
+    -ms-letter-spacing: July;
+    letter-spacing: July;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    -webkit-letter-spacing: August;
+    -moz-letter-spacing: August;
+    -ms-letter-spacing: August;
+    letter-spacing: August;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    -webkit-letter-spacing: September;
+    -moz-letter-spacing: September;
+    -ms-letter-spacing: September;
+    letter-spacing: September;
+  }
+}
+
+@media screen and (min-width:August) {
+  .c0 {
+    -webkit-letter-spacing: November;
+    -moz-letter-spacing: November;
+    -ms-letter-spacing: November;
+    letter-spacing: November;
+  }
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:August) {
+
+}
+
+<div
+    className="c0"
+  />,
+  @media screen and (min-width:November) {
+  .c0 {
+    -webkit-letter-spacing: July;
+    -moz-letter-spacing: July;
+    -ms-letter-spacing: July;
+    letter-spacing: July;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    -webkit-letter-spacing: August;
+    -moz-letter-spacing: August;
+    -ms-letter-spacing: August;
+    letter-spacing: August;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    -webkit-letter-spacing: September;
+    -moz-letter-spacing: September;
+    -ms-letter-spacing: September;
+    letter-spacing: September;
+  }
+}
+
+@media screen and (min-width:August) {
+  .c0 {
+    -webkit-letter-spacing: November;
+    -moz-letter-spacing: November;
+    -ms-letter-spacing: November;
+    letter-spacing: November;
+  }
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:August) {
+
+}
+
+<div
+    className="c0"
+  />,
+  @media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:August) {
+
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    -webkit-letter-spacing: May;
+    -moz-letter-spacing: May;
+    -ms-letter-spacing: May;
+    letter-spacing: May;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    -webkit-letter-spacing: June;
+    -moz-letter-spacing: June;
+    -ms-letter-spacing: June;
+    letter-spacing: June;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    -webkit-letter-spacing: April;
+    -moz-letter-spacing: April;
+    -ms-letter-spacing: April;
+    letter-spacing: April;
+  }
+}
+
+@media screen and (min-width:August) {
+  .c0 {
+    -webkit-letter-spacing: November;
+    -moz-letter-spacing: November;
+    -ms-letter-spacing: November;
+    letter-spacing: November;
+  }
+}
+
+<div
+    className="c0"
+  />,
+  @media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:August) {
+
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    -webkit-letter-spacing: May;
+    -moz-letter-spacing: May;
+    -ms-letter-spacing: May;
+    letter-spacing: May;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    -webkit-letter-spacing: June;
+    -moz-letter-spacing: June;
+    -ms-letter-spacing: June;
+    letter-spacing: June;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    -webkit-letter-spacing: April;
+    -moz-letter-spacing: April;
+    -ms-letter-spacing: April;
+    letter-spacing: April;
+  }
+}
+
+@media screen and (min-width:August) {
+  .c0 {
+    -webkit-letter-spacing: November;
+    -moz-letter-spacing: November;
+    -ms-letter-spacing: November;
+    letter-spacing: November;
+  }
+}
+
+<div
+    className="c0"
+  />,
+]
+`;
+
+exports[`letterSpacing renders object [breakpoints] 2`] = `
+Array [
+  @media May {
+  .c0 {
+    -webkit-letter-spacing: July;
+    -moz-letter-spacing: July;
+    -ms-letter-spacing: July;
+    letter-spacing: July;
+  }
+}
+
+@media April {
+  .c0 {
+    -webkit-letter-spacing: August;
+    -moz-letter-spacing: August;
+    -ms-letter-spacing: August;
+    letter-spacing: August;
+  }
+}
+
+@media January {
+  .c0 {
+    -webkit-letter-spacing: September;
+    -moz-letter-spacing: September;
+    -ms-letter-spacing: September;
+    letter-spacing: September;
+  }
+}
+
+@media April {
+  .c0 {
+    -webkit-letter-spacing: November;
+    -moz-letter-spacing: November;
+    -ms-letter-spacing: November;
+    letter-spacing: November;
+  }
+}
+
+@media June {
+  .c0 {
+    -webkit-letter-spacing: August;
+    -moz-letter-spacing: August;
+    -ms-letter-spacing: August;
+    letter-spacing: August;
+  }
+}
+
+@media May {
+
+}
+
+@media April {
+
+}
+
+@media January {
+
+}
+
+@media April {
+
+}
+
+@media June {
+
+}
+
+<div
+    className="c0"
+  />,
+  @media May {
+  .c0 {
+    -webkit-letter-spacing: July;
+    -moz-letter-spacing: July;
+    -ms-letter-spacing: July;
+    letter-spacing: July;
+  }
+}
+
+@media April {
+  .c0 {
+    -webkit-letter-spacing: August;
+    -moz-letter-spacing: August;
+    -ms-letter-spacing: August;
+    letter-spacing: August;
+  }
+}
+
+@media January {
+  .c0 {
+    -webkit-letter-spacing: September;
+    -moz-letter-spacing: September;
+    -ms-letter-spacing: September;
+    letter-spacing: September;
+  }
+}
+
+@media April {
+  .c0 {
+    -webkit-letter-spacing: November;
+    -moz-letter-spacing: November;
+    -ms-letter-spacing: November;
+    letter-spacing: November;
+  }
+}
+
+@media June {
+  .c0 {
+    -webkit-letter-spacing: August;
+    -moz-letter-spacing: August;
+    -ms-letter-spacing: August;
+    letter-spacing: August;
+  }
+}
+
+@media May {
+
+}
+
+@media April {
+
+}
+
+@media January {
+
+}
+
+@media April {
+
+}
+
+@media June {
+
+}
+
+<div
+    className="c0"
+  />,
+  @media May {
+
+}
+
+@media April {
+
+}
+
+@media January {
+
+}
+
+@media April {
+
+}
+
+@media June {
+
+}
+
+@media May {
+  .c0 {
+    -webkit-letter-spacing: January;
+    -moz-letter-spacing: January;
+    -ms-letter-spacing: January;
+    letter-spacing: January;
+  }
+}
+
+@media April {
+  .c0 {
+    -webkit-letter-spacing: December;
+    -moz-letter-spacing: December;
+    -ms-letter-spacing: December;
+    letter-spacing: December;
+  }
+}
+
+@media January {
+  .c0 {
+    -webkit-letter-spacing: April;
+    -moz-letter-spacing: April;
+    -ms-letter-spacing: April;
+    letter-spacing: April;
+  }
+}
+
+@media April {
+  .c0 {
+    -webkit-letter-spacing: May;
+    -moz-letter-spacing: May;
+    -ms-letter-spacing: May;
+    letter-spacing: May;
+  }
+}
+
+@media June {
+  .c0 {
+    -webkit-letter-spacing: June;
+    -moz-letter-spacing: June;
+    -ms-letter-spacing: June;
+    letter-spacing: June;
+  }
+}
+
+<div
+    className="c0"
+  />,
+  @media May {
+
+}
+
+@media April {
+
+}
+
+@media January {
+
+}
+
+@media April {
+
+}
+
+@media June {
+
+}
+
+@media May {
+  .c0 {
+    -webkit-letter-spacing: January;
+    -moz-letter-spacing: January;
+    -ms-letter-spacing: January;
+    letter-spacing: January;
+  }
+}
+
+@media April {
+  .c0 {
+    -webkit-letter-spacing: December;
+    -moz-letter-spacing: December;
+    -ms-letter-spacing: December;
+    letter-spacing: December;
+  }
+}
+
+@media January {
+  .c0 {
+    -webkit-letter-spacing: April;
+    -moz-letter-spacing: April;
+    -ms-letter-spacing: April;
+    letter-spacing: April;
+  }
+}
+
+@media April {
+  .c0 {
+    -webkit-letter-spacing: May;
+    -moz-letter-spacing: May;
+    -ms-letter-spacing: May;
+    letter-spacing: May;
+  }
+}
+
+@media June {
+  .c0 {
+    -webkit-letter-spacing: June;
+    -moz-letter-spacing: June;
+    -ms-letter-spacing: June;
+    letter-spacing: June;
+  }
+}
+
+<div
+    className="c0"
+  />,
+]
+`;
+
+exports[`letterSpacing renders postitive number 1`] = `
+Array [
+  .c0 {
+  -webkit-letter-spacing: 54881px;
+  -moz-letter-spacing: 54881px;
+  -ms-letter-spacing: 54881px;
+  letter-spacing: 54881px;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-letter-spacing: 54881px;
+  -moz-letter-spacing: 54881px;
+  -ms-letter-spacing: 54881px;
+  letter-spacing: 54881px;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-letter-spacing: 42365px;
+  -moz-letter-spacing: 42365px;
+  -ms-letter-spacing: 42365px;
+  letter-spacing: 42365px;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-letter-spacing: 42365px;
+  -moz-letter-spacing: 42365px;
+  -ms-letter-spacing: 42365px;
+  letter-spacing: 42365px;
+}
+
+<div
+    className="c0"
+  />,
+]
+`;
+
+exports[`letterSpacing renders string 1`] = `
+Array [
+  .c0 {
+  -webkit-letter-spacing: July;
+  -moz-letter-spacing: July;
+  -ms-letter-spacing: July;
+  letter-spacing: July;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-letter-spacing: July;
+  -moz-letter-spacing: July;
+  -ms-letter-spacing: July;
+  letter-spacing: July;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-letter-spacing: June;
+  -moz-letter-spacing: June;
+  -ms-letter-spacing: June;
+  letter-spacing: June;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-letter-spacing: June;
+  -moz-letter-spacing: June;
+  -ms-letter-spacing: June;
+  letter-spacing: June;
+}
+
+<div
+    className="c0"
+  />,
+]
+`;
+
+exports[`letterSpacing renders valid theme path 1`] = `
+Array [
+  .c0 {
+  -webkit-letter-spacing: DarkSlateBlue;
+  -moz-letter-spacing: DarkSlateBlue;
+  -ms-letter-spacing: DarkSlateBlue;
+  letter-spacing: DarkSlateBlue;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-letter-spacing: DarkSlateBlue;
+  -moz-letter-spacing: DarkSlateBlue;
+  -ms-letter-spacing: DarkSlateBlue;
+  letter-spacing: DarkSlateBlue;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-letter-spacing: DarkSlateBlue;
+  -moz-letter-spacing: DarkSlateBlue;
+  -ms-letter-spacing: DarkSlateBlue;
+  letter-spacing: DarkSlateBlue;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-letter-spacing: DarkSlateBlue;
+  -moz-letter-spacing: DarkSlateBlue;
+  -ms-letter-spacing: DarkSlateBlue;
+  letter-spacing: DarkSlateBlue;
+}
+
+<div
+    className="c0"
+  />,
+]
+`;

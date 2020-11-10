@@ -1,0 +1,626 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`textOverline renders 0 1`] = `
+Array [
+  .c0 {
+  text-overline: 0;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  text-overline: 0;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  text-overline: 0;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  text-overline: 0;
+}
+
+<div
+    className="c0"
+  />,
+]
+`;
+
+exports[`textOverline renders function 1`] = `
+Array [
+  .c0 {
+  text-overline: hasnot;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  text-overline: has;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  text-overline: hasnot;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  text-overline: has;
+}
+
+<div
+    className="c0"
+  />,
+]
+`;
+
+exports[`textOverline renders invalid theme path 1`] = `
+Array [
+  .c0 {
+  text-overline: invalid.path.1;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  text-overline: invalid.path.1;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  text-overline: invalid.path.1;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  text-overline: invalid.path.1;
+}
+
+<div
+    className="c0"
+  />,
+]
+`;
+
+exports[`textOverline renders negative number 1`] = `
+Array [
+  .c0 {
+  text-overline: -54881;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  text-overline: -54881;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  text-overline: -42365;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  text-overline: -42365;
+}
+
+<div
+    className="c0"
+  />,
+]
+`;
+
+exports[`textOverline renders object [breakpoints] 1`] = `
+Array [
+  @media screen and (min-width:November) {
+  .c0 {
+    text-overline: July;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    text-overline: August;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    text-overline: September;
+  }
+}
+
+@media screen and (min-width:August) {
+  .c0 {
+    text-overline: November;
+  }
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:August) {
+
+}
+
+<div
+    className="c0"
+  />,
+  @media screen and (min-width:November) {
+  .c0 {
+    text-overline: July;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    text-overline: August;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    text-overline: September;
+  }
+}
+
+@media screen and (min-width:August) {
+  .c0 {
+    text-overline: November;
+  }
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:August) {
+
+}
+
+<div
+    className="c0"
+  />,
+  @media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:August) {
+
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    text-overline: May;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    text-overline: June;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    text-overline: April;
+  }
+}
+
+@media screen and (min-width:August) {
+  .c0 {
+    text-overline: November;
+  }
+}
+
+<div
+    className="c0"
+  />,
+  @media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:August) {
+
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    text-overline: May;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    text-overline: June;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    text-overline: April;
+  }
+}
+
+@media screen and (min-width:August) {
+  .c0 {
+    text-overline: November;
+  }
+}
+
+<div
+    className="c0"
+  />,
+]
+`;
+
+exports[`textOverline renders object [breakpoints] 2`] = `
+Array [
+  @media May {
+  .c0 {
+    text-overline: July;
+  }
+}
+
+@media April {
+  .c0 {
+    text-overline: August;
+  }
+}
+
+@media January {
+  .c0 {
+    text-overline: September;
+  }
+}
+
+@media April {
+  .c0 {
+    text-overline: November;
+  }
+}
+
+@media June {
+  .c0 {
+    text-overline: August;
+  }
+}
+
+@media May {
+
+}
+
+@media April {
+
+}
+
+@media January {
+
+}
+
+@media April {
+
+}
+
+@media June {
+
+}
+
+<div
+    className="c0"
+  />,
+  @media May {
+  .c0 {
+    text-overline: July;
+  }
+}
+
+@media April {
+  .c0 {
+    text-overline: August;
+  }
+}
+
+@media January {
+  .c0 {
+    text-overline: September;
+  }
+}
+
+@media April {
+  .c0 {
+    text-overline: November;
+  }
+}
+
+@media June {
+  .c0 {
+    text-overline: August;
+  }
+}
+
+@media May {
+
+}
+
+@media April {
+
+}
+
+@media January {
+
+}
+
+@media April {
+
+}
+
+@media June {
+
+}
+
+<div
+    className="c0"
+  />,
+  @media May {
+
+}
+
+@media April {
+
+}
+
+@media January {
+
+}
+
+@media April {
+
+}
+
+@media June {
+
+}
+
+@media May {
+  .c0 {
+    text-overline: January;
+  }
+}
+
+@media April {
+  .c0 {
+    text-overline: December;
+  }
+}
+
+@media January {
+  .c0 {
+    text-overline: April;
+  }
+}
+
+@media April {
+  .c0 {
+    text-overline: May;
+  }
+}
+
+@media June {
+  .c0 {
+    text-overline: June;
+  }
+}
+
+<div
+    className="c0"
+  />,
+  @media May {
+
+}
+
+@media April {
+
+}
+
+@media January {
+
+}
+
+@media April {
+
+}
+
+@media June {
+
+}
+
+@media May {
+  .c0 {
+    text-overline: January;
+  }
+}
+
+@media April {
+  .c0 {
+    text-overline: December;
+  }
+}
+
+@media January {
+  .c0 {
+    text-overline: April;
+  }
+}
+
+@media April {
+  .c0 {
+    text-overline: May;
+  }
+}
+
+@media June {
+  .c0 {
+    text-overline: June;
+  }
+}
+
+<div
+    className="c0"
+  />,
+]
+`;
+
+exports[`textOverline renders postitive number 1`] = `
+Array [
+  .c0 {
+  text-overline: 54881;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  text-overline: 54881;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  text-overline: 42365;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  text-overline: 42365;
+}
+
+<div
+    className="c0"
+  />,
+]
+`;
+
+exports[`textOverline renders string 1`] = `
+Array [
+  .c0 {
+  text-overline: July;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  text-overline: July;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  text-overline: June;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  text-overline: June;
+}
+
+<div
+    className="c0"
+  />,
+]
+`;
+
+exports[`textOverline renders valid theme path 1`] = `
+Array [
+  .c0 {
+  text-overline: DarkSlateBlue;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  text-overline: DarkSlateBlue;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  text-overline: DarkSlateBlue;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  text-overline: DarkSlateBlue;
+}
+
+<div
+    className="c0"
+  />,
+]
+`;

@@ -1,0 +1,626 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`borderCollapse renders 0 1`] = `
+Array [
+  .c0 {
+  border-collapse: 0;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  border-collapse: 0;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  border-collapse: 0;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  border-collapse: 0;
+}
+
+<div
+    className="c0"
+  />,
+]
+`;
+
+exports[`borderCollapse renders function 1`] = `
+Array [
+  .c0 {
+  border-collapse: hasnot;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  border-collapse: has;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  border-collapse: hasnot;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  border-collapse: has;
+}
+
+<div
+    className="c0"
+  />,
+]
+`;
+
+exports[`borderCollapse renders invalid theme path 1`] = `
+Array [
+  .c0 {
+  border-collapse: invalid.path.1;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  border-collapse: invalid.path.1;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  border-collapse: invalid.path.1;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  border-collapse: invalid.path.1;
+}
+
+<div
+    className="c0"
+  />,
+]
+`;
+
+exports[`borderCollapse renders negative number 1`] = `
+Array [
+  .c0 {
+  border-collapse: -54881;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  border-collapse: -54881;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  border-collapse: -42365;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  border-collapse: -42365;
+}
+
+<div
+    className="c0"
+  />,
+]
+`;
+
+exports[`borderCollapse renders object [breakpoints] 1`] = `
+Array [
+  @media screen and (min-width:November) {
+  .c0 {
+    border-collapse: July;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    border-collapse: August;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    border-collapse: September;
+  }
+}
+
+@media screen and (min-width:August) {
+  .c0 {
+    border-collapse: November;
+  }
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:August) {
+
+}
+
+<div
+    className="c0"
+  />,
+  @media screen and (min-width:November) {
+  .c0 {
+    border-collapse: July;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    border-collapse: August;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    border-collapse: September;
+  }
+}
+
+@media screen and (min-width:August) {
+  .c0 {
+    border-collapse: November;
+  }
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:August) {
+
+}
+
+<div
+    className="c0"
+  />,
+  @media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:August) {
+
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    border-collapse: May;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    border-collapse: June;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    border-collapse: April;
+  }
+}
+
+@media screen and (min-width:August) {
+  .c0 {
+    border-collapse: November;
+  }
+}
+
+<div
+    className="c0"
+  />,
+  @media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:August) {
+
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    border-collapse: May;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    border-collapse: June;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    border-collapse: April;
+  }
+}
+
+@media screen and (min-width:August) {
+  .c0 {
+    border-collapse: November;
+  }
+}
+
+<div
+    className="c0"
+  />,
+]
+`;
+
+exports[`borderCollapse renders object [breakpoints] 2`] = `
+Array [
+  @media May {
+  .c0 {
+    border-collapse: July;
+  }
+}
+
+@media April {
+  .c0 {
+    border-collapse: August;
+  }
+}
+
+@media January {
+  .c0 {
+    border-collapse: September;
+  }
+}
+
+@media April {
+  .c0 {
+    border-collapse: November;
+  }
+}
+
+@media June {
+  .c0 {
+    border-collapse: August;
+  }
+}
+
+@media May {
+
+}
+
+@media April {
+
+}
+
+@media January {
+
+}
+
+@media April {
+
+}
+
+@media June {
+
+}
+
+<div
+    className="c0"
+  />,
+  @media May {
+  .c0 {
+    border-collapse: July;
+  }
+}
+
+@media April {
+  .c0 {
+    border-collapse: August;
+  }
+}
+
+@media January {
+  .c0 {
+    border-collapse: September;
+  }
+}
+
+@media April {
+  .c0 {
+    border-collapse: November;
+  }
+}
+
+@media June {
+  .c0 {
+    border-collapse: August;
+  }
+}
+
+@media May {
+
+}
+
+@media April {
+
+}
+
+@media January {
+
+}
+
+@media April {
+
+}
+
+@media June {
+
+}
+
+<div
+    className="c0"
+  />,
+  @media May {
+
+}
+
+@media April {
+
+}
+
+@media January {
+
+}
+
+@media April {
+
+}
+
+@media June {
+
+}
+
+@media May {
+  .c0 {
+    border-collapse: January;
+  }
+}
+
+@media April {
+  .c0 {
+    border-collapse: December;
+  }
+}
+
+@media January {
+  .c0 {
+    border-collapse: April;
+  }
+}
+
+@media April {
+  .c0 {
+    border-collapse: May;
+  }
+}
+
+@media June {
+  .c0 {
+    border-collapse: June;
+  }
+}
+
+<div
+    className="c0"
+  />,
+  @media May {
+
+}
+
+@media April {
+
+}
+
+@media January {
+
+}
+
+@media April {
+
+}
+
+@media June {
+
+}
+
+@media May {
+  .c0 {
+    border-collapse: January;
+  }
+}
+
+@media April {
+  .c0 {
+    border-collapse: December;
+  }
+}
+
+@media January {
+  .c0 {
+    border-collapse: April;
+  }
+}
+
+@media April {
+  .c0 {
+    border-collapse: May;
+  }
+}
+
+@media June {
+  .c0 {
+    border-collapse: June;
+  }
+}
+
+<div
+    className="c0"
+  />,
+]
+`;
+
+exports[`borderCollapse renders postitive number 1`] = `
+Array [
+  .c0 {
+  border-collapse: 54881;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  border-collapse: 54881;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  border-collapse: 42365;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  border-collapse: 42365;
+}
+
+<div
+    className="c0"
+  />,
+]
+`;
+
+exports[`borderCollapse renders string 1`] = `
+Array [
+  .c0 {
+  border-collapse: July;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  border-collapse: July;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  border-collapse: June;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  border-collapse: June;
+}
+
+<div
+    className="c0"
+  />,
+]
+`;
+
+exports[`borderCollapse renders valid theme path 1`] = `
+Array [
+  .c0 {
+  border-collapse: DarkSlateBlue;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  border-collapse: DarkSlateBlue;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  border-collapse: DarkSlateBlue;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  border-collapse: DarkSlateBlue;
+}
+
+<div
+    className="c0"
+  />,
+]
+`;

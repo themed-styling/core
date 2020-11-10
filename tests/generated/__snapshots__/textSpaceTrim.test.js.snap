@@ -1,0 +1,626 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`textSpaceTrim renders 0 1`] = `
+Array [
+  .c0 {
+  text-space-trim: 0;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  text-space-trim: 0;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  text-space-trim: 0;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  text-space-trim: 0;
+}
+
+<div
+    className="c0"
+  />,
+]
+`;
+
+exports[`textSpaceTrim renders function 1`] = `
+Array [
+  .c0 {
+  text-space-trim: hasnot;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  text-space-trim: has;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  text-space-trim: hasnot;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  text-space-trim: has;
+}
+
+<div
+    className="c0"
+  />,
+]
+`;
+
+exports[`textSpaceTrim renders invalid theme path 1`] = `
+Array [
+  .c0 {
+  text-space-trim: invalid.path.1;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  text-space-trim: invalid.path.1;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  text-space-trim: invalid.path.1;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  text-space-trim: invalid.path.1;
+}
+
+<div
+    className="c0"
+  />,
+]
+`;
+
+exports[`textSpaceTrim renders negative number 1`] = `
+Array [
+  .c0 {
+  text-space-trim: -54881;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  text-space-trim: -54881;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  text-space-trim: -42365;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  text-space-trim: -42365;
+}
+
+<div
+    className="c0"
+  />,
+]
+`;
+
+exports[`textSpaceTrim renders object [breakpoints] 1`] = `
+Array [
+  @media screen and (min-width:November) {
+  .c0 {
+    text-space-trim: July;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    text-space-trim: August;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    text-space-trim: September;
+  }
+}
+
+@media screen and (min-width:August) {
+  .c0 {
+    text-space-trim: November;
+  }
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:August) {
+
+}
+
+<div
+    className="c0"
+  />,
+  @media screen and (min-width:November) {
+  .c0 {
+    text-space-trim: July;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    text-space-trim: August;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    text-space-trim: September;
+  }
+}
+
+@media screen and (min-width:August) {
+  .c0 {
+    text-space-trim: November;
+  }
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:August) {
+
+}
+
+<div
+    className="c0"
+  />,
+  @media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:August) {
+
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    text-space-trim: May;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    text-space-trim: June;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    text-space-trim: April;
+  }
+}
+
+@media screen and (min-width:August) {
+  .c0 {
+    text-space-trim: November;
+  }
+}
+
+<div
+    className="c0"
+  />,
+  @media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:August) {
+
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    text-space-trim: May;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    text-space-trim: June;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    text-space-trim: April;
+  }
+}
+
+@media screen and (min-width:August) {
+  .c0 {
+    text-space-trim: November;
+  }
+}
+
+<div
+    className="c0"
+  />,
+]
+`;
+
+exports[`textSpaceTrim renders object [breakpoints] 2`] = `
+Array [
+  @media May {
+  .c0 {
+    text-space-trim: July;
+  }
+}
+
+@media April {
+  .c0 {
+    text-space-trim: August;
+  }
+}
+
+@media January {
+  .c0 {
+    text-space-trim: September;
+  }
+}
+
+@media April {
+  .c0 {
+    text-space-trim: November;
+  }
+}
+
+@media June {
+  .c0 {
+    text-space-trim: August;
+  }
+}
+
+@media May {
+
+}
+
+@media April {
+
+}
+
+@media January {
+
+}
+
+@media April {
+
+}
+
+@media June {
+
+}
+
+<div
+    className="c0"
+  />,
+  @media May {
+  .c0 {
+    text-space-trim: July;
+  }
+}
+
+@media April {
+  .c0 {
+    text-space-trim: August;
+  }
+}
+
+@media January {
+  .c0 {
+    text-space-trim: September;
+  }
+}
+
+@media April {
+  .c0 {
+    text-space-trim: November;
+  }
+}
+
+@media June {
+  .c0 {
+    text-space-trim: August;
+  }
+}
+
+@media May {
+
+}
+
+@media April {
+
+}
+
+@media January {
+
+}
+
+@media April {
+
+}
+
+@media June {
+
+}
+
+<div
+    className="c0"
+  />,
+  @media May {
+
+}
+
+@media April {
+
+}
+
+@media January {
+
+}
+
+@media April {
+
+}
+
+@media June {
+
+}
+
+@media May {
+  .c0 {
+    text-space-trim: January;
+  }
+}
+
+@media April {
+  .c0 {
+    text-space-trim: December;
+  }
+}
+
+@media January {
+  .c0 {
+    text-space-trim: April;
+  }
+}
+
+@media April {
+  .c0 {
+    text-space-trim: May;
+  }
+}
+
+@media June {
+  .c0 {
+    text-space-trim: June;
+  }
+}
+
+<div
+    className="c0"
+  />,
+  @media May {
+
+}
+
+@media April {
+
+}
+
+@media January {
+
+}
+
+@media April {
+
+}
+
+@media June {
+
+}
+
+@media May {
+  .c0 {
+    text-space-trim: January;
+  }
+}
+
+@media April {
+  .c0 {
+    text-space-trim: December;
+  }
+}
+
+@media January {
+  .c0 {
+    text-space-trim: April;
+  }
+}
+
+@media April {
+  .c0 {
+    text-space-trim: May;
+  }
+}
+
+@media June {
+  .c0 {
+    text-space-trim: June;
+  }
+}
+
+<div
+    className="c0"
+  />,
+]
+`;
+
+exports[`textSpaceTrim renders postitive number 1`] = `
+Array [
+  .c0 {
+  text-space-trim: 54881;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  text-space-trim: 54881;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  text-space-trim: 42365;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  text-space-trim: 42365;
+}
+
+<div
+    className="c0"
+  />,
+]
+`;
+
+exports[`textSpaceTrim renders string 1`] = `
+Array [
+  .c0 {
+  text-space-trim: July;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  text-space-trim: July;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  text-space-trim: June;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  text-space-trim: June;
+}
+
+<div
+    className="c0"
+  />,
+]
+`;
+
+exports[`textSpaceTrim renders valid theme path 1`] = `
+Array [
+  .c0 {
+  text-space-trim: DarkSlateBlue;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  text-space-trim: DarkSlateBlue;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  text-space-trim: DarkSlateBlue;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  text-space-trim: DarkSlateBlue;
+}
+
+<div
+    className="c0"
+  />,
+]
+`;

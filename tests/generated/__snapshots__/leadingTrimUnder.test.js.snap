@@ -1,0 +1,626 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`leadingTrimUnder renders 0 1`] = `
+Array [
+  .c0 {
+  leading-trim-under: 0;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  leading-trim-under: 0;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  leading-trim-under: 0;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  leading-trim-under: 0;
+}
+
+<div
+    className="c0"
+  />,
+]
+`;
+
+exports[`leadingTrimUnder renders function 1`] = `
+Array [
+  .c0 {
+  leading-trim-under: hasnot;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  leading-trim-under: has;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  leading-trim-under: hasnot;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  leading-trim-under: has;
+}
+
+<div
+    className="c0"
+  />,
+]
+`;
+
+exports[`leadingTrimUnder renders invalid theme path 1`] = `
+Array [
+  .c0 {
+  leading-trim-under: invalid.path.1;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  leading-trim-under: invalid.path.1;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  leading-trim-under: invalid.path.1;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  leading-trim-under: invalid.path.1;
+}
+
+<div
+    className="c0"
+  />,
+]
+`;
+
+exports[`leadingTrimUnder renders negative number 1`] = `
+Array [
+  .c0 {
+  leading-trim-under: -54881;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  leading-trim-under: -54881;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  leading-trim-under: -42365;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  leading-trim-under: -42365;
+}
+
+<div
+    className="c0"
+  />,
+]
+`;
+
+exports[`leadingTrimUnder renders object [breakpoints] 1`] = `
+Array [
+  @media screen and (min-width:November) {
+  .c0 {
+    leading-trim-under: July;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    leading-trim-under: August;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    leading-trim-under: September;
+  }
+}
+
+@media screen and (min-width:August) {
+  .c0 {
+    leading-trim-under: November;
+  }
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:August) {
+
+}
+
+<div
+    className="c0"
+  />,
+  @media screen and (min-width:November) {
+  .c0 {
+    leading-trim-under: July;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    leading-trim-under: August;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    leading-trim-under: September;
+  }
+}
+
+@media screen and (min-width:August) {
+  .c0 {
+    leading-trim-under: November;
+  }
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:August) {
+
+}
+
+<div
+    className="c0"
+  />,
+  @media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:August) {
+
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    leading-trim-under: May;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    leading-trim-under: June;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    leading-trim-under: April;
+  }
+}
+
+@media screen and (min-width:August) {
+  .c0 {
+    leading-trim-under: November;
+  }
+}
+
+<div
+    className="c0"
+  />,
+  @media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:August) {
+
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    leading-trim-under: May;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    leading-trim-under: June;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    leading-trim-under: April;
+  }
+}
+
+@media screen and (min-width:August) {
+  .c0 {
+    leading-trim-under: November;
+  }
+}
+
+<div
+    className="c0"
+  />,
+]
+`;
+
+exports[`leadingTrimUnder renders object [breakpoints] 2`] = `
+Array [
+  @media May {
+  .c0 {
+    leading-trim-under: July;
+  }
+}
+
+@media April {
+  .c0 {
+    leading-trim-under: August;
+  }
+}
+
+@media January {
+  .c0 {
+    leading-trim-under: September;
+  }
+}
+
+@media April {
+  .c0 {
+    leading-trim-under: November;
+  }
+}
+
+@media June {
+  .c0 {
+    leading-trim-under: August;
+  }
+}
+
+@media May {
+
+}
+
+@media April {
+
+}
+
+@media January {
+
+}
+
+@media April {
+
+}
+
+@media June {
+
+}
+
+<div
+    className="c0"
+  />,
+  @media May {
+  .c0 {
+    leading-trim-under: July;
+  }
+}
+
+@media April {
+  .c0 {
+    leading-trim-under: August;
+  }
+}
+
+@media January {
+  .c0 {
+    leading-trim-under: September;
+  }
+}
+
+@media April {
+  .c0 {
+    leading-trim-under: November;
+  }
+}
+
+@media June {
+  .c0 {
+    leading-trim-under: August;
+  }
+}
+
+@media May {
+
+}
+
+@media April {
+
+}
+
+@media January {
+
+}
+
+@media April {
+
+}
+
+@media June {
+
+}
+
+<div
+    className="c0"
+  />,
+  @media May {
+
+}
+
+@media April {
+
+}
+
+@media January {
+
+}
+
+@media April {
+
+}
+
+@media June {
+
+}
+
+@media May {
+  .c0 {
+    leading-trim-under: January;
+  }
+}
+
+@media April {
+  .c0 {
+    leading-trim-under: December;
+  }
+}
+
+@media January {
+  .c0 {
+    leading-trim-under: April;
+  }
+}
+
+@media April {
+  .c0 {
+    leading-trim-under: May;
+  }
+}
+
+@media June {
+  .c0 {
+    leading-trim-under: June;
+  }
+}
+
+<div
+    className="c0"
+  />,
+  @media May {
+
+}
+
+@media April {
+
+}
+
+@media January {
+
+}
+
+@media April {
+
+}
+
+@media June {
+
+}
+
+@media May {
+  .c0 {
+    leading-trim-under: January;
+  }
+}
+
+@media April {
+  .c0 {
+    leading-trim-under: December;
+  }
+}
+
+@media January {
+  .c0 {
+    leading-trim-under: April;
+  }
+}
+
+@media April {
+  .c0 {
+    leading-trim-under: May;
+  }
+}
+
+@media June {
+  .c0 {
+    leading-trim-under: June;
+  }
+}
+
+<div
+    className="c0"
+  />,
+]
+`;
+
+exports[`leadingTrimUnder renders postitive number 1`] = `
+Array [
+  .c0 {
+  leading-trim-under: 54881;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  leading-trim-under: 54881;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  leading-trim-under: 42365;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  leading-trim-under: 42365;
+}
+
+<div
+    className="c0"
+  />,
+]
+`;
+
+exports[`leadingTrimUnder renders string 1`] = `
+Array [
+  .c0 {
+  leading-trim-under: July;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  leading-trim-under: July;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  leading-trim-under: June;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  leading-trim-under: June;
+}
+
+<div
+    className="c0"
+  />,
+]
+`;
+
+exports[`leadingTrimUnder renders valid theme path 1`] = `
+Array [
+  .c0 {
+  leading-trim-under: DarkSlateBlue;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  leading-trim-under: DarkSlateBlue;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  leading-trim-under: DarkSlateBlue;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  leading-trim-under: DarkSlateBlue;
+}
+
+<div
+    className="c0"
+  />,
+]
+`;

@@ -1,0 +1,818 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`alignItems renders 0 1`] = `
+Array [
+  .c0 {
+  -webkit-align-items: 0;
+  -webkit-box-align: 0;
+  -ms-flex-align: 0;
+  align-items: 0;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-align-items: 0;
+  -webkit-box-align: 0;
+  -ms-flex-align: 0;
+  align-items: 0;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-align-items: 0;
+  -webkit-box-align: 0;
+  -ms-flex-align: 0;
+  align-items: 0;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-align-items: 0;
+  -webkit-box-align: 0;
+  -ms-flex-align: 0;
+  align-items: 0;
+}
+
+<div
+    className="c0"
+  />,
+]
+`;
+
+exports[`alignItems renders function 1`] = `
+Array [
+  .c0 {
+  -webkit-align-items: hasnot;
+  -webkit-box-align: hasnot;
+  -ms-flex-align: hasnot;
+  align-items: hasnot;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-align-items: has;
+  -webkit-box-align: has;
+  -ms-flex-align: has;
+  align-items: has;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-align-items: hasnot;
+  -webkit-box-align: hasnot;
+  -ms-flex-align: hasnot;
+  align-items: hasnot;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-align-items: has;
+  -webkit-box-align: has;
+  -ms-flex-align: has;
+  align-items: has;
+}
+
+<div
+    className="c0"
+  />,
+]
+`;
+
+exports[`alignItems renders invalid theme path 1`] = `
+Array [
+  .c0 {
+  -webkit-align-items: invalid.path.1;
+  -webkit-box-align: invalid.path.1;
+  -ms-flex-align: invalid.path.1;
+  align-items: invalid.path.1;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-align-items: invalid.path.1;
+  -webkit-box-align: invalid.path.1;
+  -ms-flex-align: invalid.path.1;
+  align-items: invalid.path.1;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-align-items: invalid.path.1;
+  -webkit-box-align: invalid.path.1;
+  -ms-flex-align: invalid.path.1;
+  align-items: invalid.path.1;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-align-items: invalid.path.1;
+  -webkit-box-align: invalid.path.1;
+  -ms-flex-align: invalid.path.1;
+  align-items: invalid.path.1;
+}
+
+<div
+    className="c0"
+  />,
+]
+`;
+
+exports[`alignItems renders negative number 1`] = `
+Array [
+  .c0 {
+  -webkit-align-items: -54881;
+  -webkit-box-align: -54881;
+  -ms-flex-align: -54881;
+  align-items: -54881;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-align-items: -54881;
+  -webkit-box-align: -54881;
+  -ms-flex-align: -54881;
+  align-items: -54881;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-align-items: -42365;
+  -webkit-box-align: -42365;
+  -ms-flex-align: -42365;
+  align-items: -42365;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-align-items: -42365;
+  -webkit-box-align: -42365;
+  -ms-flex-align: -42365;
+  align-items: -42365;
+}
+
+<div
+    className="c0"
+  />,
+]
+`;
+
+exports[`alignItems renders object [breakpoints] 1`] = `
+Array [
+  @media screen and (min-width:November) {
+  .c0 {
+    -webkit-align-items: July;
+    -webkit-box-align: July;
+    -ms-flex-align: July;
+    align-items: July;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    -webkit-align-items: August;
+    -webkit-box-align: August;
+    -ms-flex-align: August;
+    align-items: August;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    -webkit-align-items: September;
+    -webkit-box-align: September;
+    -ms-flex-align: September;
+    align-items: September;
+  }
+}
+
+@media screen and (min-width:August) {
+  .c0 {
+    -webkit-align-items: November;
+    -webkit-box-align: November;
+    -ms-flex-align: November;
+    align-items: November;
+  }
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:August) {
+
+}
+
+<div
+    className="c0"
+  />,
+  @media screen and (min-width:November) {
+  .c0 {
+    -webkit-align-items: July;
+    -webkit-box-align: July;
+    -ms-flex-align: July;
+    align-items: July;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    -webkit-align-items: August;
+    -webkit-box-align: August;
+    -ms-flex-align: August;
+    align-items: August;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    -webkit-align-items: September;
+    -webkit-box-align: September;
+    -ms-flex-align: September;
+    align-items: September;
+  }
+}
+
+@media screen and (min-width:August) {
+  .c0 {
+    -webkit-align-items: November;
+    -webkit-box-align: November;
+    -ms-flex-align: November;
+    align-items: November;
+  }
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:August) {
+
+}
+
+<div
+    className="c0"
+  />,
+  @media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:August) {
+
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    -webkit-align-items: May;
+    -webkit-box-align: May;
+    -ms-flex-align: May;
+    align-items: May;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    -webkit-align-items: June;
+    -webkit-box-align: June;
+    -ms-flex-align: June;
+    align-items: June;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    -webkit-align-items: April;
+    -webkit-box-align: April;
+    -ms-flex-align: April;
+    align-items: April;
+  }
+}
+
+@media screen and (min-width:August) {
+  .c0 {
+    -webkit-align-items: November;
+    -webkit-box-align: November;
+    -ms-flex-align: November;
+    align-items: November;
+  }
+}
+
+<div
+    className="c0"
+  />,
+  @media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:August) {
+
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    -webkit-align-items: May;
+    -webkit-box-align: May;
+    -ms-flex-align: May;
+    align-items: May;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    -webkit-align-items: June;
+    -webkit-box-align: June;
+    -ms-flex-align: June;
+    align-items: June;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    -webkit-align-items: April;
+    -webkit-box-align: April;
+    -ms-flex-align: April;
+    align-items: April;
+  }
+}
+
+@media screen and (min-width:August) {
+  .c0 {
+    -webkit-align-items: November;
+    -webkit-box-align: November;
+    -ms-flex-align: November;
+    align-items: November;
+  }
+}
+
+<div
+    className="c0"
+  />,
+]
+`;
+
+exports[`alignItems renders object [breakpoints] 2`] = `
+Array [
+  @media May {
+  .c0 {
+    -webkit-align-items: July;
+    -webkit-box-align: July;
+    -ms-flex-align: July;
+    align-items: July;
+  }
+}
+
+@media April {
+  .c0 {
+    -webkit-align-items: August;
+    -webkit-box-align: August;
+    -ms-flex-align: August;
+    align-items: August;
+  }
+}
+
+@media January {
+  .c0 {
+    -webkit-align-items: September;
+    -webkit-box-align: September;
+    -ms-flex-align: September;
+    align-items: September;
+  }
+}
+
+@media April {
+  .c0 {
+    -webkit-align-items: November;
+    -webkit-box-align: November;
+    -ms-flex-align: November;
+    align-items: November;
+  }
+}
+
+@media June {
+  .c0 {
+    -webkit-align-items: August;
+    -webkit-box-align: August;
+    -ms-flex-align: August;
+    align-items: August;
+  }
+}
+
+@media May {
+
+}
+
+@media April {
+
+}
+
+@media January {
+
+}
+
+@media April {
+
+}
+
+@media June {
+
+}
+
+<div
+    className="c0"
+  />,
+  @media May {
+  .c0 {
+    -webkit-align-items: July;
+    -webkit-box-align: July;
+    -ms-flex-align: July;
+    align-items: July;
+  }
+}
+
+@media April {
+  .c0 {
+    -webkit-align-items: August;
+    -webkit-box-align: August;
+    -ms-flex-align: August;
+    align-items: August;
+  }
+}
+
+@media January {
+  .c0 {
+    -webkit-align-items: September;
+    -webkit-box-align: September;
+    -ms-flex-align: September;
+    align-items: September;
+  }
+}
+
+@media April {
+  .c0 {
+    -webkit-align-items: November;
+    -webkit-box-align: November;
+    -ms-flex-align: November;
+    align-items: November;
+  }
+}
+
+@media June {
+  .c0 {
+    -webkit-align-items: August;
+    -webkit-box-align: August;
+    -ms-flex-align: August;
+    align-items: August;
+  }
+}
+
+@media May {
+
+}
+
+@media April {
+
+}
+
+@media January {
+
+}
+
+@media April {
+
+}
+
+@media June {
+
+}
+
+<div
+    className="c0"
+  />,
+  @media May {
+
+}
+
+@media April {
+
+}
+
+@media January {
+
+}
+
+@media April {
+
+}
+
+@media June {
+
+}
+
+@media May {
+  .c0 {
+    -webkit-align-items: January;
+    -webkit-box-align: January;
+    -ms-flex-align: January;
+    align-items: January;
+  }
+}
+
+@media April {
+  .c0 {
+    -webkit-align-items: December;
+    -webkit-box-align: December;
+    -ms-flex-align: December;
+    align-items: December;
+  }
+}
+
+@media January {
+  .c0 {
+    -webkit-align-items: April;
+    -webkit-box-align: April;
+    -ms-flex-align: April;
+    align-items: April;
+  }
+}
+
+@media April {
+  .c0 {
+    -webkit-align-items: May;
+    -webkit-box-align: May;
+    -ms-flex-align: May;
+    align-items: May;
+  }
+}
+
+@media June {
+  .c0 {
+    -webkit-align-items: June;
+    -webkit-box-align: June;
+    -ms-flex-align: June;
+    align-items: June;
+  }
+}
+
+<div
+    className="c0"
+  />,
+  @media May {
+
+}
+
+@media April {
+
+}
+
+@media January {
+
+}
+
+@media April {
+
+}
+
+@media June {
+
+}
+
+@media May {
+  .c0 {
+    -webkit-align-items: January;
+    -webkit-box-align: January;
+    -ms-flex-align: January;
+    align-items: January;
+  }
+}
+
+@media April {
+  .c0 {
+    -webkit-align-items: December;
+    -webkit-box-align: December;
+    -ms-flex-align: December;
+    align-items: December;
+  }
+}
+
+@media January {
+  .c0 {
+    -webkit-align-items: April;
+    -webkit-box-align: April;
+    -ms-flex-align: April;
+    align-items: April;
+  }
+}
+
+@media April {
+  .c0 {
+    -webkit-align-items: May;
+    -webkit-box-align: May;
+    -ms-flex-align: May;
+    align-items: May;
+  }
+}
+
+@media June {
+  .c0 {
+    -webkit-align-items: June;
+    -webkit-box-align: June;
+    -ms-flex-align: June;
+    align-items: June;
+  }
+}
+
+<div
+    className="c0"
+  />,
+]
+`;
+
+exports[`alignItems renders postitive number 1`] = `
+Array [
+  .c0 {
+  -webkit-align-items: 54881;
+  -webkit-box-align: 54881;
+  -ms-flex-align: 54881;
+  align-items: 54881;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-align-items: 54881;
+  -webkit-box-align: 54881;
+  -ms-flex-align: 54881;
+  align-items: 54881;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-align-items: 42365;
+  -webkit-box-align: 42365;
+  -ms-flex-align: 42365;
+  align-items: 42365;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-align-items: 42365;
+  -webkit-box-align: 42365;
+  -ms-flex-align: 42365;
+  align-items: 42365;
+}
+
+<div
+    className="c0"
+  />,
+]
+`;
+
+exports[`alignItems renders string 1`] = `
+Array [
+  .c0 {
+  -webkit-align-items: July;
+  -webkit-box-align: July;
+  -ms-flex-align: July;
+  align-items: July;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-align-items: July;
+  -webkit-box-align: July;
+  -ms-flex-align: July;
+  align-items: July;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-align-items: June;
+  -webkit-box-align: June;
+  -ms-flex-align: June;
+  align-items: June;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-align-items: June;
+  -webkit-box-align: June;
+  -ms-flex-align: June;
+  align-items: June;
+}
+
+<div
+    className="c0"
+  />,
+]
+`;
+
+exports[`alignItems renders valid theme path 1`] = `
+Array [
+  .c0 {
+  -webkit-align-items: DarkSlateBlue;
+  -webkit-box-align: DarkSlateBlue;
+  -ms-flex-align: DarkSlateBlue;
+  align-items: DarkSlateBlue;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-align-items: DarkSlateBlue;
+  -webkit-box-align: DarkSlateBlue;
+  -ms-flex-align: DarkSlateBlue;
+  align-items: DarkSlateBlue;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-align-items: DarkSlateBlue;
+  -webkit-box-align: DarkSlateBlue;
+  -ms-flex-align: DarkSlateBlue;
+  align-items: DarkSlateBlue;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-align-items: DarkSlateBlue;
+  -webkit-box-align: DarkSlateBlue;
+  -ms-flex-align: DarkSlateBlue;
+  align-items: DarkSlateBlue;
+}
+
+<div
+    className="c0"
+  />,
+]
+`;

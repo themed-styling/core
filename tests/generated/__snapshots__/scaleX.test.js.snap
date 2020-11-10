@@ -1,0 +1,754 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`scaleX renders 0 1`] = `
+Array [
+  .c0 {
+  -webkit-transform: scaleX(0);
+  -ms-transform: scaleX(0);
+  transform: scaleX(0);
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-transform: scaleX(0);
+  -ms-transform: scaleX(0);
+  transform: scaleX(0);
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-transform: scaleX(0);
+  -ms-transform: scaleX(0);
+  transform: scaleX(0);
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-transform: scaleX(0);
+  -ms-transform: scaleX(0);
+  transform: scaleX(0);
+}
+
+<div
+    className="c0"
+  />,
+]
+`;
+
+exports[`scaleX renders function 1`] = `
+Array [
+  .c0 {
+  -webkit-transform: scaleX(hasnot);
+  -ms-transform: scaleX(hasnot);
+  transform: scaleX(hasnot);
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-transform: scaleX(has);
+  -ms-transform: scaleX(has);
+  transform: scaleX(has);
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-transform: scaleX(hasnot);
+  -ms-transform: scaleX(hasnot);
+  transform: scaleX(hasnot);
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-transform: scaleX(has);
+  -ms-transform: scaleX(has);
+  transform: scaleX(has);
+}
+
+<div
+    className="c0"
+  />,
+]
+`;
+
+exports[`scaleX renders invalid theme path 1`] = `
+Array [
+  .c0 {
+  -webkit-transform: scaleX(invalid.path.1);
+  -ms-transform: scaleX(invalid.path.1);
+  transform: scaleX(invalid.path.1);
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-transform: scaleX(invalid.path.1);
+  -ms-transform: scaleX(invalid.path.1);
+  transform: scaleX(invalid.path.1);
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-transform: scaleX(invalid.path.1);
+  -ms-transform: scaleX(invalid.path.1);
+  transform: scaleX(invalid.path.1);
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-transform: scaleX(invalid.path.1);
+  -ms-transform: scaleX(invalid.path.1);
+  transform: scaleX(invalid.path.1);
+}
+
+<div
+    className="c0"
+  />,
+]
+`;
+
+exports[`scaleX renders negative number 1`] = `
+Array [
+  .c0 {
+  -webkit-transform: scaleX(-54881);
+  -ms-transform: scaleX(-54881);
+  transform: scaleX(-54881);
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-transform: scaleX(-54881);
+  -ms-transform: scaleX(-54881);
+  transform: scaleX(-54881);
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-transform: scaleX(-42365);
+  -ms-transform: scaleX(-42365);
+  transform: scaleX(-42365);
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-transform: scaleX(-42365);
+  -ms-transform: scaleX(-42365);
+  transform: scaleX(-42365);
+}
+
+<div
+    className="c0"
+  />,
+]
+`;
+
+exports[`scaleX renders object [breakpoints] 1`] = `
+Array [
+  @media screen and (min-width:November) {
+  .c0 {
+    -webkit-transform: scaleX(July);
+    -ms-transform: scaleX(July);
+    transform: scaleX(July);
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    -webkit-transform: scaleX(August);
+    -ms-transform: scaleX(August);
+    transform: scaleX(August);
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    -webkit-transform: scaleX(September);
+    -ms-transform: scaleX(September);
+    transform: scaleX(September);
+  }
+}
+
+@media screen and (min-width:August) {
+  .c0 {
+    -webkit-transform: scaleX(November);
+    -ms-transform: scaleX(November);
+    transform: scaleX(November);
+  }
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:August) {
+
+}
+
+<div
+    className="c0"
+  />,
+  @media screen and (min-width:November) {
+  .c0 {
+    -webkit-transform: scaleX(July);
+    -ms-transform: scaleX(July);
+    transform: scaleX(July);
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    -webkit-transform: scaleX(August);
+    -ms-transform: scaleX(August);
+    transform: scaleX(August);
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    -webkit-transform: scaleX(September);
+    -ms-transform: scaleX(September);
+    transform: scaleX(September);
+  }
+}
+
+@media screen and (min-width:August) {
+  .c0 {
+    -webkit-transform: scaleX(November);
+    -ms-transform: scaleX(November);
+    transform: scaleX(November);
+  }
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:August) {
+
+}
+
+<div
+    className="c0"
+  />,
+  @media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:August) {
+
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    -webkit-transform: scaleX(May);
+    -ms-transform: scaleX(May);
+    transform: scaleX(May);
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    -webkit-transform: scaleX(June);
+    -ms-transform: scaleX(June);
+    transform: scaleX(June);
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    -webkit-transform: scaleX(April);
+    -ms-transform: scaleX(April);
+    transform: scaleX(April);
+  }
+}
+
+@media screen and (min-width:August) {
+  .c0 {
+    -webkit-transform: scaleX(November);
+    -ms-transform: scaleX(November);
+    transform: scaleX(November);
+  }
+}
+
+<div
+    className="c0"
+  />,
+  @media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:August) {
+
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    -webkit-transform: scaleX(May);
+    -ms-transform: scaleX(May);
+    transform: scaleX(May);
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    -webkit-transform: scaleX(June);
+    -ms-transform: scaleX(June);
+    transform: scaleX(June);
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    -webkit-transform: scaleX(April);
+    -ms-transform: scaleX(April);
+    transform: scaleX(April);
+  }
+}
+
+@media screen and (min-width:August) {
+  .c0 {
+    -webkit-transform: scaleX(November);
+    -ms-transform: scaleX(November);
+    transform: scaleX(November);
+  }
+}
+
+<div
+    className="c0"
+  />,
+]
+`;
+
+exports[`scaleX renders object [breakpoints] 2`] = `
+Array [
+  @media May {
+  .c0 {
+    -webkit-transform: scaleX(July);
+    -ms-transform: scaleX(July);
+    transform: scaleX(July);
+  }
+}
+
+@media April {
+  .c0 {
+    -webkit-transform: scaleX(August);
+    -ms-transform: scaleX(August);
+    transform: scaleX(August);
+  }
+}
+
+@media January {
+  .c0 {
+    -webkit-transform: scaleX(September);
+    -ms-transform: scaleX(September);
+    transform: scaleX(September);
+  }
+}
+
+@media April {
+  .c0 {
+    -webkit-transform: scaleX(November);
+    -ms-transform: scaleX(November);
+    transform: scaleX(November);
+  }
+}
+
+@media June {
+  .c0 {
+    -webkit-transform: scaleX(August);
+    -ms-transform: scaleX(August);
+    transform: scaleX(August);
+  }
+}
+
+@media May {
+
+}
+
+@media April {
+
+}
+
+@media January {
+
+}
+
+@media April {
+
+}
+
+@media June {
+
+}
+
+<div
+    className="c0"
+  />,
+  @media May {
+  .c0 {
+    -webkit-transform: scaleX(July);
+    -ms-transform: scaleX(July);
+    transform: scaleX(July);
+  }
+}
+
+@media April {
+  .c0 {
+    -webkit-transform: scaleX(August);
+    -ms-transform: scaleX(August);
+    transform: scaleX(August);
+  }
+}
+
+@media January {
+  .c0 {
+    -webkit-transform: scaleX(September);
+    -ms-transform: scaleX(September);
+    transform: scaleX(September);
+  }
+}
+
+@media April {
+  .c0 {
+    -webkit-transform: scaleX(November);
+    -ms-transform: scaleX(November);
+    transform: scaleX(November);
+  }
+}
+
+@media June {
+  .c0 {
+    -webkit-transform: scaleX(August);
+    -ms-transform: scaleX(August);
+    transform: scaleX(August);
+  }
+}
+
+@media May {
+
+}
+
+@media April {
+
+}
+
+@media January {
+
+}
+
+@media April {
+
+}
+
+@media June {
+
+}
+
+<div
+    className="c0"
+  />,
+  @media May {
+
+}
+
+@media April {
+
+}
+
+@media January {
+
+}
+
+@media April {
+
+}
+
+@media June {
+
+}
+
+@media May {
+  .c0 {
+    -webkit-transform: scaleX(January);
+    -ms-transform: scaleX(January);
+    transform: scaleX(January);
+  }
+}
+
+@media April {
+  .c0 {
+    -webkit-transform: scaleX(December);
+    -ms-transform: scaleX(December);
+    transform: scaleX(December);
+  }
+}
+
+@media January {
+  .c0 {
+    -webkit-transform: scaleX(April);
+    -ms-transform: scaleX(April);
+    transform: scaleX(April);
+  }
+}
+
+@media April {
+  .c0 {
+    -webkit-transform: scaleX(May);
+    -ms-transform: scaleX(May);
+    transform: scaleX(May);
+  }
+}
+
+@media June {
+  .c0 {
+    -webkit-transform: scaleX(June);
+    -ms-transform: scaleX(June);
+    transform: scaleX(June);
+  }
+}
+
+<div
+    className="c0"
+  />,
+  @media May {
+
+}
+
+@media April {
+
+}
+
+@media January {
+
+}
+
+@media April {
+
+}
+
+@media June {
+
+}
+
+@media May {
+  .c0 {
+    -webkit-transform: scaleX(January);
+    -ms-transform: scaleX(January);
+    transform: scaleX(January);
+  }
+}
+
+@media April {
+  .c0 {
+    -webkit-transform: scaleX(December);
+    -ms-transform: scaleX(December);
+    transform: scaleX(December);
+  }
+}
+
+@media January {
+  .c0 {
+    -webkit-transform: scaleX(April);
+    -ms-transform: scaleX(April);
+    transform: scaleX(April);
+  }
+}
+
+@media April {
+  .c0 {
+    -webkit-transform: scaleX(May);
+    -ms-transform: scaleX(May);
+    transform: scaleX(May);
+  }
+}
+
+@media June {
+  .c0 {
+    -webkit-transform: scaleX(June);
+    -ms-transform: scaleX(June);
+    transform: scaleX(June);
+  }
+}
+
+<div
+    className="c0"
+  />,
+]
+`;
+
+exports[`scaleX renders postitive number 1`] = `
+Array [
+  .c0 {
+  -webkit-transform: scaleX(54881);
+  -ms-transform: scaleX(54881);
+  transform: scaleX(54881);
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-transform: scaleX(54881);
+  -ms-transform: scaleX(54881);
+  transform: scaleX(54881);
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-transform: scaleX(42365);
+  -ms-transform: scaleX(42365);
+  transform: scaleX(42365);
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-transform: scaleX(42365);
+  -ms-transform: scaleX(42365);
+  transform: scaleX(42365);
+}
+
+<div
+    className="c0"
+  />,
+]
+`;
+
+exports[`scaleX renders string 1`] = `
+Array [
+  .c0 {
+  -webkit-transform: scaleX(July);
+  -ms-transform: scaleX(July);
+  transform: scaleX(July);
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-transform: scaleX(July);
+  -ms-transform: scaleX(July);
+  transform: scaleX(July);
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-transform: scaleX(June);
+  -ms-transform: scaleX(June);
+  transform: scaleX(June);
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-transform: scaleX(June);
+  -ms-transform: scaleX(June);
+  transform: scaleX(June);
+}
+
+<div
+    className="c0"
+  />,
+]
+`;
+
+exports[`scaleX renders valid theme path 1`] = `
+Array [
+  .c0 {
+  -webkit-transform: scaleX(DarkSlateBlue);
+  -ms-transform: scaleX(DarkSlateBlue);
+  transform: scaleX(DarkSlateBlue);
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-transform: scaleX(DarkSlateBlue);
+  -ms-transform: scaleX(DarkSlateBlue);
+  transform: scaleX(DarkSlateBlue);
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-transform: scaleX(DarkSlateBlue);
+  -ms-transform: scaleX(DarkSlateBlue);
+  transform: scaleX(DarkSlateBlue);
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-transform: scaleX(DarkSlateBlue);
+  -ms-transform: scaleX(DarkSlateBlue);
+  transform: scaleX(DarkSlateBlue);
+}
+
+<div
+    className="c0"
+  />,
+]
+`;

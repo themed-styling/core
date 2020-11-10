@@ -1,0 +1,690 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`columnSpan renders 0 1`] = `
+Array [
+  .c0 {
+  -webkit-column-span: 0;
+  column-span: 0;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-column-span: 0;
+  column-span: 0;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-column-span: 0;
+  column-span: 0;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-column-span: 0;
+  column-span: 0;
+}
+
+<div
+    className="c0"
+  />,
+]
+`;
+
+exports[`columnSpan renders function 1`] = `
+Array [
+  .c0 {
+  -webkit-column-span: hasnot;
+  column-span: hasnot;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-column-span: has;
+  column-span: has;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-column-span: hasnot;
+  column-span: hasnot;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-column-span: has;
+  column-span: has;
+}
+
+<div
+    className="c0"
+  />,
+]
+`;
+
+exports[`columnSpan renders invalid theme path 1`] = `
+Array [
+  .c0 {
+  -webkit-column-span: invalid.path.1;
+  column-span: invalid.path.1;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-column-span: invalid.path.1;
+  column-span: invalid.path.1;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-column-span: invalid.path.1;
+  column-span: invalid.path.1;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-column-span: invalid.path.1;
+  column-span: invalid.path.1;
+}
+
+<div
+    className="c0"
+  />,
+]
+`;
+
+exports[`columnSpan renders negative number 1`] = `
+Array [
+  .c0 {
+  -webkit-column-span: -54881;
+  column-span: -54881;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-column-span: -54881;
+  column-span: -54881;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-column-span: -42365;
+  column-span: -42365;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-column-span: -42365;
+  column-span: -42365;
+}
+
+<div
+    className="c0"
+  />,
+]
+`;
+
+exports[`columnSpan renders object [breakpoints] 1`] = `
+Array [
+  @media screen and (min-width:November) {
+  .c0 {
+    -webkit-column-span: July;
+    column-span: July;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    -webkit-column-span: August;
+    column-span: August;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    -webkit-column-span: September;
+    column-span: September;
+  }
+}
+
+@media screen and (min-width:August) {
+  .c0 {
+    -webkit-column-span: November;
+    column-span: November;
+  }
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:August) {
+
+}
+
+<div
+    className="c0"
+  />,
+  @media screen and (min-width:November) {
+  .c0 {
+    -webkit-column-span: July;
+    column-span: July;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    -webkit-column-span: August;
+    column-span: August;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    -webkit-column-span: September;
+    column-span: September;
+  }
+}
+
+@media screen and (min-width:August) {
+  .c0 {
+    -webkit-column-span: November;
+    column-span: November;
+  }
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:August) {
+
+}
+
+<div
+    className="c0"
+  />,
+  @media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:August) {
+
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    -webkit-column-span: May;
+    column-span: May;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    -webkit-column-span: June;
+    column-span: June;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    -webkit-column-span: April;
+    column-span: April;
+  }
+}
+
+@media screen and (min-width:August) {
+  .c0 {
+    -webkit-column-span: November;
+    column-span: November;
+  }
+}
+
+<div
+    className="c0"
+  />,
+  @media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:August) {
+
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    -webkit-column-span: May;
+    column-span: May;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    -webkit-column-span: June;
+    column-span: June;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    -webkit-column-span: April;
+    column-span: April;
+  }
+}
+
+@media screen and (min-width:August) {
+  .c0 {
+    -webkit-column-span: November;
+    column-span: November;
+  }
+}
+
+<div
+    className="c0"
+  />,
+]
+`;
+
+exports[`columnSpan renders object [breakpoints] 2`] = `
+Array [
+  @media May {
+  .c0 {
+    -webkit-column-span: July;
+    column-span: July;
+  }
+}
+
+@media April {
+  .c0 {
+    -webkit-column-span: August;
+    column-span: August;
+  }
+}
+
+@media January {
+  .c0 {
+    -webkit-column-span: September;
+    column-span: September;
+  }
+}
+
+@media April {
+  .c0 {
+    -webkit-column-span: November;
+    column-span: November;
+  }
+}
+
+@media June {
+  .c0 {
+    -webkit-column-span: August;
+    column-span: August;
+  }
+}
+
+@media May {
+
+}
+
+@media April {
+
+}
+
+@media January {
+
+}
+
+@media April {
+
+}
+
+@media June {
+
+}
+
+<div
+    className="c0"
+  />,
+  @media May {
+  .c0 {
+    -webkit-column-span: July;
+    column-span: July;
+  }
+}
+
+@media April {
+  .c0 {
+    -webkit-column-span: August;
+    column-span: August;
+  }
+}
+
+@media January {
+  .c0 {
+    -webkit-column-span: September;
+    column-span: September;
+  }
+}
+
+@media April {
+  .c0 {
+    -webkit-column-span: November;
+    column-span: November;
+  }
+}
+
+@media June {
+  .c0 {
+    -webkit-column-span: August;
+    column-span: August;
+  }
+}
+
+@media May {
+
+}
+
+@media April {
+
+}
+
+@media January {
+
+}
+
+@media April {
+
+}
+
+@media June {
+
+}
+
+<div
+    className="c0"
+  />,
+  @media May {
+
+}
+
+@media April {
+
+}
+
+@media January {
+
+}
+
+@media April {
+
+}
+
+@media June {
+
+}
+
+@media May {
+  .c0 {
+    -webkit-column-span: January;
+    column-span: January;
+  }
+}
+
+@media April {
+  .c0 {
+    -webkit-column-span: December;
+    column-span: December;
+  }
+}
+
+@media January {
+  .c0 {
+    -webkit-column-span: April;
+    column-span: April;
+  }
+}
+
+@media April {
+  .c0 {
+    -webkit-column-span: May;
+    column-span: May;
+  }
+}
+
+@media June {
+  .c0 {
+    -webkit-column-span: June;
+    column-span: June;
+  }
+}
+
+<div
+    className="c0"
+  />,
+  @media May {
+
+}
+
+@media April {
+
+}
+
+@media January {
+
+}
+
+@media April {
+
+}
+
+@media June {
+
+}
+
+@media May {
+  .c0 {
+    -webkit-column-span: January;
+    column-span: January;
+  }
+}
+
+@media April {
+  .c0 {
+    -webkit-column-span: December;
+    column-span: December;
+  }
+}
+
+@media January {
+  .c0 {
+    -webkit-column-span: April;
+    column-span: April;
+  }
+}
+
+@media April {
+  .c0 {
+    -webkit-column-span: May;
+    column-span: May;
+  }
+}
+
+@media June {
+  .c0 {
+    -webkit-column-span: June;
+    column-span: June;
+  }
+}
+
+<div
+    className="c0"
+  />,
+]
+`;
+
+exports[`columnSpan renders postitive number 1`] = `
+Array [
+  .c0 {
+  -webkit-column-span: 54881;
+  column-span: 54881;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-column-span: 54881;
+  column-span: 54881;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-column-span: 42365;
+  column-span: 42365;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-column-span: 42365;
+  column-span: 42365;
+}
+
+<div
+    className="c0"
+  />,
+]
+`;
+
+exports[`columnSpan renders string 1`] = `
+Array [
+  .c0 {
+  -webkit-column-span: July;
+  column-span: July;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-column-span: July;
+  column-span: July;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-column-span: June;
+  column-span: June;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-column-span: June;
+  column-span: June;
+}
+
+<div
+    className="c0"
+  />,
+]
+`;
+
+exports[`columnSpan renders valid theme path 1`] = `
+Array [
+  .c0 {
+  -webkit-column-span: DarkSlateBlue;
+  column-span: DarkSlateBlue;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-column-span: DarkSlateBlue;
+  column-span: DarkSlateBlue;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-column-span: DarkSlateBlue;
+  column-span: DarkSlateBlue;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-column-span: DarkSlateBlue;
+  column-span: DarkSlateBlue;
+}
+
+<div
+    className="c0"
+  />,
+]
+`;

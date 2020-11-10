@@ -1,0 +1,626 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`shapeInside renders 0 1`] = `
+Array [
+  .c0 {
+  shape-inside: 0;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  shape-inside: 0;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  shape-inside: 0;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  shape-inside: 0;
+}
+
+<div
+    className="c0"
+  />,
+]
+`;
+
+exports[`shapeInside renders function 1`] = `
+Array [
+  .c0 {
+  shape-inside: hasnot;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  shape-inside: has;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  shape-inside: hasnot;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  shape-inside: has;
+}
+
+<div
+    className="c0"
+  />,
+]
+`;
+
+exports[`shapeInside renders invalid theme path 1`] = `
+Array [
+  .c0 {
+  shape-inside: invalid.path.1;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  shape-inside: invalid.path.1;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  shape-inside: invalid.path.1;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  shape-inside: invalid.path.1;
+}
+
+<div
+    className="c0"
+  />,
+]
+`;
+
+exports[`shapeInside renders negative number 1`] = `
+Array [
+  .c0 {
+  shape-inside: -54881;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  shape-inside: -54881;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  shape-inside: -42365;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  shape-inside: -42365;
+}
+
+<div
+    className="c0"
+  />,
+]
+`;
+
+exports[`shapeInside renders object [breakpoints] 1`] = `
+Array [
+  @media screen and (min-width:November) {
+  .c0 {
+    shape-inside: July;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    shape-inside: August;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    shape-inside: September;
+  }
+}
+
+@media screen and (min-width:August) {
+  .c0 {
+    shape-inside: November;
+  }
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:August) {
+
+}
+
+<div
+    className="c0"
+  />,
+  @media screen and (min-width:November) {
+  .c0 {
+    shape-inside: July;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    shape-inside: August;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    shape-inside: September;
+  }
+}
+
+@media screen and (min-width:August) {
+  .c0 {
+    shape-inside: November;
+  }
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:August) {
+
+}
+
+<div
+    className="c0"
+  />,
+  @media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:August) {
+
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    shape-inside: May;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    shape-inside: June;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    shape-inside: April;
+  }
+}
+
+@media screen and (min-width:August) {
+  .c0 {
+    shape-inside: November;
+  }
+}
+
+<div
+    className="c0"
+  />,
+  @media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:August) {
+
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    shape-inside: May;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    shape-inside: June;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    shape-inside: April;
+  }
+}
+
+@media screen and (min-width:August) {
+  .c0 {
+    shape-inside: November;
+  }
+}
+
+<div
+    className="c0"
+  />,
+]
+`;
+
+exports[`shapeInside renders object [breakpoints] 2`] = `
+Array [
+  @media May {
+  .c0 {
+    shape-inside: July;
+  }
+}
+
+@media April {
+  .c0 {
+    shape-inside: August;
+  }
+}
+
+@media January {
+  .c0 {
+    shape-inside: September;
+  }
+}
+
+@media April {
+  .c0 {
+    shape-inside: November;
+  }
+}
+
+@media June {
+  .c0 {
+    shape-inside: August;
+  }
+}
+
+@media May {
+
+}
+
+@media April {
+
+}
+
+@media January {
+
+}
+
+@media April {
+
+}
+
+@media June {
+
+}
+
+<div
+    className="c0"
+  />,
+  @media May {
+  .c0 {
+    shape-inside: July;
+  }
+}
+
+@media April {
+  .c0 {
+    shape-inside: August;
+  }
+}
+
+@media January {
+  .c0 {
+    shape-inside: September;
+  }
+}
+
+@media April {
+  .c0 {
+    shape-inside: November;
+  }
+}
+
+@media June {
+  .c0 {
+    shape-inside: August;
+  }
+}
+
+@media May {
+
+}
+
+@media April {
+
+}
+
+@media January {
+
+}
+
+@media April {
+
+}
+
+@media June {
+
+}
+
+<div
+    className="c0"
+  />,
+  @media May {
+
+}
+
+@media April {
+
+}
+
+@media January {
+
+}
+
+@media April {
+
+}
+
+@media June {
+
+}
+
+@media May {
+  .c0 {
+    shape-inside: January;
+  }
+}
+
+@media April {
+  .c0 {
+    shape-inside: December;
+  }
+}
+
+@media January {
+  .c0 {
+    shape-inside: April;
+  }
+}
+
+@media April {
+  .c0 {
+    shape-inside: May;
+  }
+}
+
+@media June {
+  .c0 {
+    shape-inside: June;
+  }
+}
+
+<div
+    className="c0"
+  />,
+  @media May {
+
+}
+
+@media April {
+
+}
+
+@media January {
+
+}
+
+@media April {
+
+}
+
+@media June {
+
+}
+
+@media May {
+  .c0 {
+    shape-inside: January;
+  }
+}
+
+@media April {
+  .c0 {
+    shape-inside: December;
+  }
+}
+
+@media January {
+  .c0 {
+    shape-inside: April;
+  }
+}
+
+@media April {
+  .c0 {
+    shape-inside: May;
+  }
+}
+
+@media June {
+  .c0 {
+    shape-inside: June;
+  }
+}
+
+<div
+    className="c0"
+  />,
+]
+`;
+
+exports[`shapeInside renders postitive number 1`] = `
+Array [
+  .c0 {
+  shape-inside: 54881;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  shape-inside: 54881;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  shape-inside: 42365;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  shape-inside: 42365;
+}
+
+<div
+    className="c0"
+  />,
+]
+`;
+
+exports[`shapeInside renders string 1`] = `
+Array [
+  .c0 {
+  shape-inside: July;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  shape-inside: July;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  shape-inside: June;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  shape-inside: June;
+}
+
+<div
+    className="c0"
+  />,
+]
+`;
+
+exports[`shapeInside renders valid theme path 1`] = `
+Array [
+  .c0 {
+  shape-inside: DarkSlateBlue;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  shape-inside: DarkSlateBlue;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  shape-inside: DarkSlateBlue;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  shape-inside: DarkSlateBlue;
+}
+
+<div
+    className="c0"
+  />,
+]
+`;

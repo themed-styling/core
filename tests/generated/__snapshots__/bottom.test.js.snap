@@ -1,0 +1,626 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`bottom renders 0 1`] = `
+Array [
+  .c0 {
+  bottom: 0;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  bottom: 0;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  bottom: 0;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  bottom: 0;
+}
+
+<div
+    className="c0"
+  />,
+]
+`;
+
+exports[`bottom renders function 1`] = `
+Array [
+  .c0 {
+  bottom: hasnot;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  bottom: has;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  bottom: hasnot;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  bottom: has;
+}
+
+<div
+    className="c0"
+  />,
+]
+`;
+
+exports[`bottom renders invalid theme path 1`] = `
+Array [
+  .c0 {
+  bottom: invalid.path.1;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  bottom: invalid.path.1;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  bottom: invalid.path.1;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  bottom: invalid.path.1;
+}
+
+<div
+    className="c0"
+  />,
+]
+`;
+
+exports[`bottom renders negative number 1`] = `
+Array [
+  .c0 {
+  bottom: -54881px;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  bottom: -54881px;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  bottom: -42365px;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  bottom: -42365px;
+}
+
+<div
+    className="c0"
+  />,
+]
+`;
+
+exports[`bottom renders object [breakpoints] 1`] = `
+Array [
+  @media screen and (min-width:November) {
+  .c0 {
+    bottom: July;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    bottom: August;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    bottom: September;
+  }
+}
+
+@media screen and (min-width:August) {
+  .c0 {
+    bottom: November;
+  }
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:August) {
+
+}
+
+<div
+    className="c0"
+  />,
+  @media screen and (min-width:November) {
+  .c0 {
+    bottom: July;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    bottom: August;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    bottom: September;
+  }
+}
+
+@media screen and (min-width:August) {
+  .c0 {
+    bottom: November;
+  }
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:August) {
+
+}
+
+<div
+    className="c0"
+  />,
+  @media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:August) {
+
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    bottom: May;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    bottom: June;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    bottom: April;
+  }
+}
+
+@media screen and (min-width:August) {
+  .c0 {
+    bottom: November;
+  }
+}
+
+<div
+    className="c0"
+  />,
+  @media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:August) {
+
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    bottom: May;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    bottom: June;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    bottom: April;
+  }
+}
+
+@media screen and (min-width:August) {
+  .c0 {
+    bottom: November;
+  }
+}
+
+<div
+    className="c0"
+  />,
+]
+`;
+
+exports[`bottom renders object [breakpoints] 2`] = `
+Array [
+  @media May {
+  .c0 {
+    bottom: July;
+  }
+}
+
+@media April {
+  .c0 {
+    bottom: August;
+  }
+}
+
+@media January {
+  .c0 {
+    bottom: September;
+  }
+}
+
+@media April {
+  .c0 {
+    bottom: November;
+  }
+}
+
+@media June {
+  .c0 {
+    bottom: August;
+  }
+}
+
+@media May {
+
+}
+
+@media April {
+
+}
+
+@media January {
+
+}
+
+@media April {
+
+}
+
+@media June {
+
+}
+
+<div
+    className="c0"
+  />,
+  @media May {
+  .c0 {
+    bottom: July;
+  }
+}
+
+@media April {
+  .c0 {
+    bottom: August;
+  }
+}
+
+@media January {
+  .c0 {
+    bottom: September;
+  }
+}
+
+@media April {
+  .c0 {
+    bottom: November;
+  }
+}
+
+@media June {
+  .c0 {
+    bottom: August;
+  }
+}
+
+@media May {
+
+}
+
+@media April {
+
+}
+
+@media January {
+
+}
+
+@media April {
+
+}
+
+@media June {
+
+}
+
+<div
+    className="c0"
+  />,
+  @media May {
+
+}
+
+@media April {
+
+}
+
+@media January {
+
+}
+
+@media April {
+
+}
+
+@media June {
+
+}
+
+@media May {
+  .c0 {
+    bottom: January;
+  }
+}
+
+@media April {
+  .c0 {
+    bottom: December;
+  }
+}
+
+@media January {
+  .c0 {
+    bottom: April;
+  }
+}
+
+@media April {
+  .c0 {
+    bottom: May;
+  }
+}
+
+@media June {
+  .c0 {
+    bottom: June;
+  }
+}
+
+<div
+    className="c0"
+  />,
+  @media May {
+
+}
+
+@media April {
+
+}
+
+@media January {
+
+}
+
+@media April {
+
+}
+
+@media June {
+
+}
+
+@media May {
+  .c0 {
+    bottom: January;
+  }
+}
+
+@media April {
+  .c0 {
+    bottom: December;
+  }
+}
+
+@media January {
+  .c0 {
+    bottom: April;
+  }
+}
+
+@media April {
+  .c0 {
+    bottom: May;
+  }
+}
+
+@media June {
+  .c0 {
+    bottom: June;
+  }
+}
+
+<div
+    className="c0"
+  />,
+]
+`;
+
+exports[`bottom renders postitive number 1`] = `
+Array [
+  .c0 {
+  bottom: 54881px;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  bottom: 54881px;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  bottom: 42365px;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  bottom: 42365px;
+}
+
+<div
+    className="c0"
+  />,
+]
+`;
+
+exports[`bottom renders string 1`] = `
+Array [
+  .c0 {
+  bottom: July;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  bottom: July;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  bottom: June;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  bottom: June;
+}
+
+<div
+    className="c0"
+  />,
+]
+`;
+
+exports[`bottom renders valid theme path 1`] = `
+Array [
+  .c0 {
+  bottom: DarkSlateBlue;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  bottom: DarkSlateBlue;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  bottom: DarkSlateBlue;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  bottom: DarkSlateBlue;
+}
+
+<div
+    className="c0"
+  />,
+]
+`;

@@ -1,0 +1,690 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`animationIterationCount renders 0 1`] = `
+Array [
+  .c0 {
+  -webkit-animation-iteration-count: 0;
+  animation-iteration-count: 0;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-animation-iteration-count: 0;
+  animation-iteration-count: 0;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-animation-iteration-count: 0;
+  animation-iteration-count: 0;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-animation-iteration-count: 0;
+  animation-iteration-count: 0;
+}
+
+<div
+    className="c0"
+  />,
+]
+`;
+
+exports[`animationIterationCount renders function 1`] = `
+Array [
+  .c0 {
+  -webkit-animation-iteration-count: hasnot;
+  animation-iteration-count: hasnot;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-animation-iteration-count: has;
+  animation-iteration-count: has;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-animation-iteration-count: hasnot;
+  animation-iteration-count: hasnot;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-animation-iteration-count: has;
+  animation-iteration-count: has;
+}
+
+<div
+    className="c0"
+  />,
+]
+`;
+
+exports[`animationIterationCount renders invalid theme path 1`] = `
+Array [
+  .c0 {
+  -webkit-animation-iteration-count: invalid.path.1;
+  animation-iteration-count: invalid.path.1;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-animation-iteration-count: invalid.path.1;
+  animation-iteration-count: invalid.path.1;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-animation-iteration-count: invalid.path.1;
+  animation-iteration-count: invalid.path.1;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-animation-iteration-count: invalid.path.1;
+  animation-iteration-count: invalid.path.1;
+}
+
+<div
+    className="c0"
+  />,
+]
+`;
+
+exports[`animationIterationCount renders negative number 1`] = `
+Array [
+  .c0 {
+  -webkit-animation-iteration-count: -54881;
+  animation-iteration-count: -54881;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-animation-iteration-count: -54881;
+  animation-iteration-count: -54881;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-animation-iteration-count: -42365;
+  animation-iteration-count: -42365;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-animation-iteration-count: -42365;
+  animation-iteration-count: -42365;
+}
+
+<div
+    className="c0"
+  />,
+]
+`;
+
+exports[`animationIterationCount renders object [breakpoints] 1`] = `
+Array [
+  @media screen and (min-width:November) {
+  .c0 {
+    -webkit-animation-iteration-count: July;
+    animation-iteration-count: July;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    -webkit-animation-iteration-count: August;
+    animation-iteration-count: August;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    -webkit-animation-iteration-count: September;
+    animation-iteration-count: September;
+  }
+}
+
+@media screen and (min-width:August) {
+  .c0 {
+    -webkit-animation-iteration-count: November;
+    animation-iteration-count: November;
+  }
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:August) {
+
+}
+
+<div
+    className="c0"
+  />,
+  @media screen and (min-width:November) {
+  .c0 {
+    -webkit-animation-iteration-count: July;
+    animation-iteration-count: July;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    -webkit-animation-iteration-count: August;
+    animation-iteration-count: August;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    -webkit-animation-iteration-count: September;
+    animation-iteration-count: September;
+  }
+}
+
+@media screen and (min-width:August) {
+  .c0 {
+    -webkit-animation-iteration-count: November;
+    animation-iteration-count: November;
+  }
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:August) {
+
+}
+
+<div
+    className="c0"
+  />,
+  @media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:August) {
+
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    -webkit-animation-iteration-count: May;
+    animation-iteration-count: May;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    -webkit-animation-iteration-count: June;
+    animation-iteration-count: June;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    -webkit-animation-iteration-count: April;
+    animation-iteration-count: April;
+  }
+}
+
+@media screen and (min-width:August) {
+  .c0 {
+    -webkit-animation-iteration-count: November;
+    animation-iteration-count: November;
+  }
+}
+
+<div
+    className="c0"
+  />,
+  @media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:August) {
+
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    -webkit-animation-iteration-count: May;
+    animation-iteration-count: May;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    -webkit-animation-iteration-count: June;
+    animation-iteration-count: June;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    -webkit-animation-iteration-count: April;
+    animation-iteration-count: April;
+  }
+}
+
+@media screen and (min-width:August) {
+  .c0 {
+    -webkit-animation-iteration-count: November;
+    animation-iteration-count: November;
+  }
+}
+
+<div
+    className="c0"
+  />,
+]
+`;
+
+exports[`animationIterationCount renders object [breakpoints] 2`] = `
+Array [
+  @media May {
+  .c0 {
+    -webkit-animation-iteration-count: July;
+    animation-iteration-count: July;
+  }
+}
+
+@media April {
+  .c0 {
+    -webkit-animation-iteration-count: August;
+    animation-iteration-count: August;
+  }
+}
+
+@media January {
+  .c0 {
+    -webkit-animation-iteration-count: September;
+    animation-iteration-count: September;
+  }
+}
+
+@media April {
+  .c0 {
+    -webkit-animation-iteration-count: November;
+    animation-iteration-count: November;
+  }
+}
+
+@media June {
+  .c0 {
+    -webkit-animation-iteration-count: August;
+    animation-iteration-count: August;
+  }
+}
+
+@media May {
+
+}
+
+@media April {
+
+}
+
+@media January {
+
+}
+
+@media April {
+
+}
+
+@media June {
+
+}
+
+<div
+    className="c0"
+  />,
+  @media May {
+  .c0 {
+    -webkit-animation-iteration-count: July;
+    animation-iteration-count: July;
+  }
+}
+
+@media April {
+  .c0 {
+    -webkit-animation-iteration-count: August;
+    animation-iteration-count: August;
+  }
+}
+
+@media January {
+  .c0 {
+    -webkit-animation-iteration-count: September;
+    animation-iteration-count: September;
+  }
+}
+
+@media April {
+  .c0 {
+    -webkit-animation-iteration-count: November;
+    animation-iteration-count: November;
+  }
+}
+
+@media June {
+  .c0 {
+    -webkit-animation-iteration-count: August;
+    animation-iteration-count: August;
+  }
+}
+
+@media May {
+
+}
+
+@media April {
+
+}
+
+@media January {
+
+}
+
+@media April {
+
+}
+
+@media June {
+
+}
+
+<div
+    className="c0"
+  />,
+  @media May {
+
+}
+
+@media April {
+
+}
+
+@media January {
+
+}
+
+@media April {
+
+}
+
+@media June {
+
+}
+
+@media May {
+  .c0 {
+    -webkit-animation-iteration-count: January;
+    animation-iteration-count: January;
+  }
+}
+
+@media April {
+  .c0 {
+    -webkit-animation-iteration-count: December;
+    animation-iteration-count: December;
+  }
+}
+
+@media January {
+  .c0 {
+    -webkit-animation-iteration-count: April;
+    animation-iteration-count: April;
+  }
+}
+
+@media April {
+  .c0 {
+    -webkit-animation-iteration-count: May;
+    animation-iteration-count: May;
+  }
+}
+
+@media June {
+  .c0 {
+    -webkit-animation-iteration-count: June;
+    animation-iteration-count: June;
+  }
+}
+
+<div
+    className="c0"
+  />,
+  @media May {
+
+}
+
+@media April {
+
+}
+
+@media January {
+
+}
+
+@media April {
+
+}
+
+@media June {
+
+}
+
+@media May {
+  .c0 {
+    -webkit-animation-iteration-count: January;
+    animation-iteration-count: January;
+  }
+}
+
+@media April {
+  .c0 {
+    -webkit-animation-iteration-count: December;
+    animation-iteration-count: December;
+  }
+}
+
+@media January {
+  .c0 {
+    -webkit-animation-iteration-count: April;
+    animation-iteration-count: April;
+  }
+}
+
+@media April {
+  .c0 {
+    -webkit-animation-iteration-count: May;
+    animation-iteration-count: May;
+  }
+}
+
+@media June {
+  .c0 {
+    -webkit-animation-iteration-count: June;
+    animation-iteration-count: June;
+  }
+}
+
+<div
+    className="c0"
+  />,
+]
+`;
+
+exports[`animationIterationCount renders postitive number 1`] = `
+Array [
+  .c0 {
+  -webkit-animation-iteration-count: 54881;
+  animation-iteration-count: 54881;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-animation-iteration-count: 54881;
+  animation-iteration-count: 54881;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-animation-iteration-count: 42365;
+  animation-iteration-count: 42365;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-animation-iteration-count: 42365;
+  animation-iteration-count: 42365;
+}
+
+<div
+    className="c0"
+  />,
+]
+`;
+
+exports[`animationIterationCount renders string 1`] = `
+Array [
+  .c0 {
+  -webkit-animation-iteration-count: July;
+  animation-iteration-count: July;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-animation-iteration-count: July;
+  animation-iteration-count: July;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-animation-iteration-count: June;
+  animation-iteration-count: June;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-animation-iteration-count: June;
+  animation-iteration-count: June;
+}
+
+<div
+    className="c0"
+  />,
+]
+`;
+
+exports[`animationIterationCount renders valid theme path 1`] = `
+Array [
+  .c0 {
+  -webkit-animation-iteration-count: DarkSlateBlue;
+  animation-iteration-count: DarkSlateBlue;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-animation-iteration-count: DarkSlateBlue;
+  animation-iteration-count: DarkSlateBlue;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-animation-iteration-count: DarkSlateBlue;
+  animation-iteration-count: DarkSlateBlue;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-animation-iteration-count: DarkSlateBlue;
+  animation-iteration-count: DarkSlateBlue;
+}
+
+<div
+    className="c0"
+  />,
+]
+`;

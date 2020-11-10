@@ -1,0 +1,626 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`borderInlineStartStyle renders 0 1`] = `
+Array [
+  .c0 {
+  border-inline-start-style: 0;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  border-inline-start-style: 0;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  border-inline-start-style: 0;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  border-inline-start-style: 0;
+}
+
+<div
+    className="c0"
+  />,
+]
+`;
+
+exports[`borderInlineStartStyle renders function 1`] = `
+Array [
+  .c0 {
+  border-inline-start-style: hasnot;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  border-inline-start-style: has;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  border-inline-start-style: hasnot;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  border-inline-start-style: has;
+}
+
+<div
+    className="c0"
+  />,
+]
+`;
+
+exports[`borderInlineStartStyle renders invalid theme path 1`] = `
+Array [
+  .c0 {
+  border-inline-start-style: invalid.path.1;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  border-inline-start-style: invalid.path.1;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  border-inline-start-style: invalid.path.1;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  border-inline-start-style: invalid.path.1;
+}
+
+<div
+    className="c0"
+  />,
+]
+`;
+
+exports[`borderInlineStartStyle renders negative number 1`] = `
+Array [
+  .c0 {
+  border-inline-start-style: -54881;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  border-inline-start-style: -54881;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  border-inline-start-style: -42365;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  border-inline-start-style: -42365;
+}
+
+<div
+    className="c0"
+  />,
+]
+`;
+
+exports[`borderInlineStartStyle renders object [breakpoints] 1`] = `
+Array [
+  @media screen and (min-width:November) {
+  .c0 {
+    border-inline-start-style: July;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    border-inline-start-style: August;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    border-inline-start-style: September;
+  }
+}
+
+@media screen and (min-width:August) {
+  .c0 {
+    border-inline-start-style: November;
+  }
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:August) {
+
+}
+
+<div
+    className="c0"
+  />,
+  @media screen and (min-width:November) {
+  .c0 {
+    border-inline-start-style: July;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    border-inline-start-style: August;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    border-inline-start-style: September;
+  }
+}
+
+@media screen and (min-width:August) {
+  .c0 {
+    border-inline-start-style: November;
+  }
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:August) {
+
+}
+
+<div
+    className="c0"
+  />,
+  @media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:August) {
+
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    border-inline-start-style: May;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    border-inline-start-style: June;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    border-inline-start-style: April;
+  }
+}
+
+@media screen and (min-width:August) {
+  .c0 {
+    border-inline-start-style: November;
+  }
+}
+
+<div
+    className="c0"
+  />,
+  @media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:August) {
+
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    border-inline-start-style: May;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    border-inline-start-style: June;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    border-inline-start-style: April;
+  }
+}
+
+@media screen and (min-width:August) {
+  .c0 {
+    border-inline-start-style: November;
+  }
+}
+
+<div
+    className="c0"
+  />,
+]
+`;
+
+exports[`borderInlineStartStyle renders object [breakpoints] 2`] = `
+Array [
+  @media May {
+  .c0 {
+    border-inline-start-style: July;
+  }
+}
+
+@media April {
+  .c0 {
+    border-inline-start-style: August;
+  }
+}
+
+@media January {
+  .c0 {
+    border-inline-start-style: September;
+  }
+}
+
+@media April {
+  .c0 {
+    border-inline-start-style: November;
+  }
+}
+
+@media June {
+  .c0 {
+    border-inline-start-style: August;
+  }
+}
+
+@media May {
+
+}
+
+@media April {
+
+}
+
+@media January {
+
+}
+
+@media April {
+
+}
+
+@media June {
+
+}
+
+<div
+    className="c0"
+  />,
+  @media May {
+  .c0 {
+    border-inline-start-style: July;
+  }
+}
+
+@media April {
+  .c0 {
+    border-inline-start-style: August;
+  }
+}
+
+@media January {
+  .c0 {
+    border-inline-start-style: September;
+  }
+}
+
+@media April {
+  .c0 {
+    border-inline-start-style: November;
+  }
+}
+
+@media June {
+  .c0 {
+    border-inline-start-style: August;
+  }
+}
+
+@media May {
+
+}
+
+@media April {
+
+}
+
+@media January {
+
+}
+
+@media April {
+
+}
+
+@media June {
+
+}
+
+<div
+    className="c0"
+  />,
+  @media May {
+
+}
+
+@media April {
+
+}
+
+@media January {
+
+}
+
+@media April {
+
+}
+
+@media June {
+
+}
+
+@media May {
+  .c0 {
+    border-inline-start-style: January;
+  }
+}
+
+@media April {
+  .c0 {
+    border-inline-start-style: December;
+  }
+}
+
+@media January {
+  .c0 {
+    border-inline-start-style: April;
+  }
+}
+
+@media April {
+  .c0 {
+    border-inline-start-style: May;
+  }
+}
+
+@media June {
+  .c0 {
+    border-inline-start-style: June;
+  }
+}
+
+<div
+    className="c0"
+  />,
+  @media May {
+
+}
+
+@media April {
+
+}
+
+@media January {
+
+}
+
+@media April {
+
+}
+
+@media June {
+
+}
+
+@media May {
+  .c0 {
+    border-inline-start-style: January;
+  }
+}
+
+@media April {
+  .c0 {
+    border-inline-start-style: December;
+  }
+}
+
+@media January {
+  .c0 {
+    border-inline-start-style: April;
+  }
+}
+
+@media April {
+  .c0 {
+    border-inline-start-style: May;
+  }
+}
+
+@media June {
+  .c0 {
+    border-inline-start-style: June;
+  }
+}
+
+<div
+    className="c0"
+  />,
+]
+`;
+
+exports[`borderInlineStartStyle renders postitive number 1`] = `
+Array [
+  .c0 {
+  border-inline-start-style: 54881;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  border-inline-start-style: 54881;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  border-inline-start-style: 42365;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  border-inline-start-style: 42365;
+}
+
+<div
+    className="c0"
+  />,
+]
+`;
+
+exports[`borderInlineStartStyle renders string 1`] = `
+Array [
+  .c0 {
+  border-inline-start-style: July;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  border-inline-start-style: July;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  border-inline-start-style: June;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  border-inline-start-style: June;
+}
+
+<div
+    className="c0"
+  />,
+]
+`;
+
+exports[`borderInlineStartStyle renders valid theme path 1`] = `
+Array [
+  .c0 {
+  border-inline-start-style: DarkSlateBlue;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  border-inline-start-style: DarkSlateBlue;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  border-inline-start-style: DarkSlateBlue;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  border-inline-start-style: DarkSlateBlue;
+}
+
+<div
+    className="c0"
+  />,
+]
+`;

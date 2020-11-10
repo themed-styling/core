@@ -1,0 +1,626 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`objectFit renders 0 1`] = `
+Array [
+  .c0 {
+  object-fit: 0;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  object-fit: 0;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  object-fit: 0;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  object-fit: 0;
+}
+
+<div
+    className="c0"
+  />,
+]
+`;
+
+exports[`objectFit renders function 1`] = `
+Array [
+  .c0 {
+  object-fit: hasnot;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  object-fit: has;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  object-fit: hasnot;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  object-fit: has;
+}
+
+<div
+    className="c0"
+  />,
+]
+`;
+
+exports[`objectFit renders invalid theme path 1`] = `
+Array [
+  .c0 {
+  object-fit: invalid.path.1;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  object-fit: invalid.path.1;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  object-fit: invalid.path.1;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  object-fit: invalid.path.1;
+}
+
+<div
+    className="c0"
+  />,
+]
+`;
+
+exports[`objectFit renders negative number 1`] = `
+Array [
+  .c0 {
+  object-fit: -54881;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  object-fit: -54881;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  object-fit: -42365;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  object-fit: -42365;
+}
+
+<div
+    className="c0"
+  />,
+]
+`;
+
+exports[`objectFit renders object [breakpoints] 1`] = `
+Array [
+  @media screen and (min-width:November) {
+  .c0 {
+    object-fit: July;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    object-fit: August;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    object-fit: September;
+  }
+}
+
+@media screen and (min-width:August) {
+  .c0 {
+    object-fit: November;
+  }
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:August) {
+
+}
+
+<div
+    className="c0"
+  />,
+  @media screen and (min-width:November) {
+  .c0 {
+    object-fit: July;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    object-fit: August;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    object-fit: September;
+  }
+}
+
+@media screen and (min-width:August) {
+  .c0 {
+    object-fit: November;
+  }
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:August) {
+
+}
+
+<div
+    className="c0"
+  />,
+  @media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:August) {
+
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    object-fit: May;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    object-fit: June;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    object-fit: April;
+  }
+}
+
+@media screen and (min-width:August) {
+  .c0 {
+    object-fit: November;
+  }
+}
+
+<div
+    className="c0"
+  />,
+  @media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:August) {
+
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    object-fit: May;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    object-fit: June;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    object-fit: April;
+  }
+}
+
+@media screen and (min-width:August) {
+  .c0 {
+    object-fit: November;
+  }
+}
+
+<div
+    className="c0"
+  />,
+]
+`;
+
+exports[`objectFit renders object [breakpoints] 2`] = `
+Array [
+  @media May {
+  .c0 {
+    object-fit: July;
+  }
+}
+
+@media April {
+  .c0 {
+    object-fit: August;
+  }
+}
+
+@media January {
+  .c0 {
+    object-fit: September;
+  }
+}
+
+@media April {
+  .c0 {
+    object-fit: November;
+  }
+}
+
+@media June {
+  .c0 {
+    object-fit: August;
+  }
+}
+
+@media May {
+
+}
+
+@media April {
+
+}
+
+@media January {
+
+}
+
+@media April {
+
+}
+
+@media June {
+
+}
+
+<div
+    className="c0"
+  />,
+  @media May {
+  .c0 {
+    object-fit: July;
+  }
+}
+
+@media April {
+  .c0 {
+    object-fit: August;
+  }
+}
+
+@media January {
+  .c0 {
+    object-fit: September;
+  }
+}
+
+@media April {
+  .c0 {
+    object-fit: November;
+  }
+}
+
+@media June {
+  .c0 {
+    object-fit: August;
+  }
+}
+
+@media May {
+
+}
+
+@media April {
+
+}
+
+@media January {
+
+}
+
+@media April {
+
+}
+
+@media June {
+
+}
+
+<div
+    className="c0"
+  />,
+  @media May {
+
+}
+
+@media April {
+
+}
+
+@media January {
+
+}
+
+@media April {
+
+}
+
+@media June {
+
+}
+
+@media May {
+  .c0 {
+    object-fit: January;
+  }
+}
+
+@media April {
+  .c0 {
+    object-fit: December;
+  }
+}
+
+@media January {
+  .c0 {
+    object-fit: April;
+  }
+}
+
+@media April {
+  .c0 {
+    object-fit: May;
+  }
+}
+
+@media June {
+  .c0 {
+    object-fit: June;
+  }
+}
+
+<div
+    className="c0"
+  />,
+  @media May {
+
+}
+
+@media April {
+
+}
+
+@media January {
+
+}
+
+@media April {
+
+}
+
+@media June {
+
+}
+
+@media May {
+  .c0 {
+    object-fit: January;
+  }
+}
+
+@media April {
+  .c0 {
+    object-fit: December;
+  }
+}
+
+@media January {
+  .c0 {
+    object-fit: April;
+  }
+}
+
+@media April {
+  .c0 {
+    object-fit: May;
+  }
+}
+
+@media June {
+  .c0 {
+    object-fit: June;
+  }
+}
+
+<div
+    className="c0"
+  />,
+]
+`;
+
+exports[`objectFit renders postitive number 1`] = `
+Array [
+  .c0 {
+  object-fit: 54881;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  object-fit: 54881;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  object-fit: 42365;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  object-fit: 42365;
+}
+
+<div
+    className="c0"
+  />,
+]
+`;
+
+exports[`objectFit renders string 1`] = `
+Array [
+  .c0 {
+  object-fit: July;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  object-fit: July;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  object-fit: June;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  object-fit: June;
+}
+
+<div
+    className="c0"
+  />,
+]
+`;
+
+exports[`objectFit renders valid theme path 1`] = `
+Array [
+  .c0 {
+  object-fit: DarkSlateBlue;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  object-fit: DarkSlateBlue;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  object-fit: DarkSlateBlue;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  object-fit: DarkSlateBlue;
+}
+
+<div
+    className="c0"
+  />,
+]
+`;

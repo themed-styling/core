@@ -1,0 +1,626 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`polarAngle renders 0 1`] = `
+Array [
+  .c0 {
+  polar-angle: 0;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  polar-angle: 0;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  polar-angle: 0;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  polar-angle: 0;
+}
+
+<div
+    className="c0"
+  />,
+]
+`;
+
+exports[`polarAngle renders function 1`] = `
+Array [
+  .c0 {
+  polar-angle: hasnot;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  polar-angle: has;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  polar-angle: hasnot;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  polar-angle: has;
+}
+
+<div
+    className="c0"
+  />,
+]
+`;
+
+exports[`polarAngle renders invalid theme path 1`] = `
+Array [
+  .c0 {
+  polar-angle: invalid.path.1;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  polar-angle: invalid.path.1;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  polar-angle: invalid.path.1;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  polar-angle: invalid.path.1;
+}
+
+<div
+    className="c0"
+  />,
+]
+`;
+
+exports[`polarAngle renders negative number 1`] = `
+Array [
+  .c0 {
+  polar-angle: -54881;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  polar-angle: -54881;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  polar-angle: -42365;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  polar-angle: -42365;
+}
+
+<div
+    className="c0"
+  />,
+]
+`;
+
+exports[`polarAngle renders object [breakpoints] 1`] = `
+Array [
+  @media screen and (min-width:November) {
+  .c0 {
+    polar-angle: July;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    polar-angle: August;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    polar-angle: September;
+  }
+}
+
+@media screen and (min-width:August) {
+  .c0 {
+    polar-angle: November;
+  }
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:August) {
+
+}
+
+<div
+    className="c0"
+  />,
+  @media screen and (min-width:November) {
+  .c0 {
+    polar-angle: July;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    polar-angle: August;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    polar-angle: September;
+  }
+}
+
+@media screen and (min-width:August) {
+  .c0 {
+    polar-angle: November;
+  }
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:August) {
+
+}
+
+<div
+    className="c0"
+  />,
+  @media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:August) {
+
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    polar-angle: May;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    polar-angle: June;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    polar-angle: April;
+  }
+}
+
+@media screen and (min-width:August) {
+  .c0 {
+    polar-angle: November;
+  }
+}
+
+<div
+    className="c0"
+  />,
+  @media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:August) {
+
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    polar-angle: May;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    polar-angle: June;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    polar-angle: April;
+  }
+}
+
+@media screen and (min-width:August) {
+  .c0 {
+    polar-angle: November;
+  }
+}
+
+<div
+    className="c0"
+  />,
+]
+`;
+
+exports[`polarAngle renders object [breakpoints] 2`] = `
+Array [
+  @media May {
+  .c0 {
+    polar-angle: July;
+  }
+}
+
+@media April {
+  .c0 {
+    polar-angle: August;
+  }
+}
+
+@media January {
+  .c0 {
+    polar-angle: September;
+  }
+}
+
+@media April {
+  .c0 {
+    polar-angle: November;
+  }
+}
+
+@media June {
+  .c0 {
+    polar-angle: August;
+  }
+}
+
+@media May {
+
+}
+
+@media April {
+
+}
+
+@media January {
+
+}
+
+@media April {
+
+}
+
+@media June {
+
+}
+
+<div
+    className="c0"
+  />,
+  @media May {
+  .c0 {
+    polar-angle: July;
+  }
+}
+
+@media April {
+  .c0 {
+    polar-angle: August;
+  }
+}
+
+@media January {
+  .c0 {
+    polar-angle: September;
+  }
+}
+
+@media April {
+  .c0 {
+    polar-angle: November;
+  }
+}
+
+@media June {
+  .c0 {
+    polar-angle: August;
+  }
+}
+
+@media May {
+
+}
+
+@media April {
+
+}
+
+@media January {
+
+}
+
+@media April {
+
+}
+
+@media June {
+
+}
+
+<div
+    className="c0"
+  />,
+  @media May {
+
+}
+
+@media April {
+
+}
+
+@media January {
+
+}
+
+@media April {
+
+}
+
+@media June {
+
+}
+
+@media May {
+  .c0 {
+    polar-angle: January;
+  }
+}
+
+@media April {
+  .c0 {
+    polar-angle: December;
+  }
+}
+
+@media January {
+  .c0 {
+    polar-angle: April;
+  }
+}
+
+@media April {
+  .c0 {
+    polar-angle: May;
+  }
+}
+
+@media June {
+  .c0 {
+    polar-angle: June;
+  }
+}
+
+<div
+    className="c0"
+  />,
+  @media May {
+
+}
+
+@media April {
+
+}
+
+@media January {
+
+}
+
+@media April {
+
+}
+
+@media June {
+
+}
+
+@media May {
+  .c0 {
+    polar-angle: January;
+  }
+}
+
+@media April {
+  .c0 {
+    polar-angle: December;
+  }
+}
+
+@media January {
+  .c0 {
+    polar-angle: April;
+  }
+}
+
+@media April {
+  .c0 {
+    polar-angle: May;
+  }
+}
+
+@media June {
+  .c0 {
+    polar-angle: June;
+  }
+}
+
+<div
+    className="c0"
+  />,
+]
+`;
+
+exports[`polarAngle renders postitive number 1`] = `
+Array [
+  .c0 {
+  polar-angle: 54881;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  polar-angle: 54881;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  polar-angle: 42365;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  polar-angle: 42365;
+}
+
+<div
+    className="c0"
+  />,
+]
+`;
+
+exports[`polarAngle renders string 1`] = `
+Array [
+  .c0 {
+  polar-angle: July;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  polar-angle: July;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  polar-angle: June;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  polar-angle: June;
+}
+
+<div
+    className="c0"
+  />,
+]
+`;
+
+exports[`polarAngle renders valid theme path 1`] = `
+Array [
+  .c0 {
+  polar-angle: DarkSlateBlue;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  polar-angle: DarkSlateBlue;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  polar-angle: DarkSlateBlue;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  polar-angle: DarkSlateBlue;
+}
+
+<div
+    className="c0"
+  />,
+]
+`;

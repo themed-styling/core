@@ -1,0 +1,626 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`textLineThroughStyle renders 0 1`] = `
+Array [
+  .c0 {
+  text-line-through-style: 0;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  text-line-through-style: 0;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  text-line-through-style: 0;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  text-line-through-style: 0;
+}
+
+<div
+    className="c0"
+  />,
+]
+`;
+
+exports[`textLineThroughStyle renders function 1`] = `
+Array [
+  .c0 {
+  text-line-through-style: hasnot;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  text-line-through-style: has;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  text-line-through-style: hasnot;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  text-line-through-style: has;
+}
+
+<div
+    className="c0"
+  />,
+]
+`;
+
+exports[`textLineThroughStyle renders invalid theme path 1`] = `
+Array [
+  .c0 {
+  text-line-through-style: invalid.path.1;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  text-line-through-style: invalid.path.1;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  text-line-through-style: invalid.path.1;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  text-line-through-style: invalid.path.1;
+}
+
+<div
+    className="c0"
+  />,
+]
+`;
+
+exports[`textLineThroughStyle renders negative number 1`] = `
+Array [
+  .c0 {
+  text-line-through-style: -54881;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  text-line-through-style: -54881;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  text-line-through-style: -42365;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  text-line-through-style: -42365;
+}
+
+<div
+    className="c0"
+  />,
+]
+`;
+
+exports[`textLineThroughStyle renders object [breakpoints] 1`] = `
+Array [
+  @media screen and (min-width:November) {
+  .c0 {
+    text-line-through-style: July;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    text-line-through-style: August;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    text-line-through-style: September;
+  }
+}
+
+@media screen and (min-width:August) {
+  .c0 {
+    text-line-through-style: November;
+  }
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:August) {
+
+}
+
+<div
+    className="c0"
+  />,
+  @media screen and (min-width:November) {
+  .c0 {
+    text-line-through-style: July;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    text-line-through-style: August;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    text-line-through-style: September;
+  }
+}
+
+@media screen and (min-width:August) {
+  .c0 {
+    text-line-through-style: November;
+  }
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:August) {
+
+}
+
+<div
+    className="c0"
+  />,
+  @media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:August) {
+
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    text-line-through-style: May;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    text-line-through-style: June;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    text-line-through-style: April;
+  }
+}
+
+@media screen and (min-width:August) {
+  .c0 {
+    text-line-through-style: November;
+  }
+}
+
+<div
+    className="c0"
+  />,
+  @media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:August) {
+
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    text-line-through-style: May;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    text-line-through-style: June;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    text-line-through-style: April;
+  }
+}
+
+@media screen and (min-width:August) {
+  .c0 {
+    text-line-through-style: November;
+  }
+}
+
+<div
+    className="c0"
+  />,
+]
+`;
+
+exports[`textLineThroughStyle renders object [breakpoints] 2`] = `
+Array [
+  @media May {
+  .c0 {
+    text-line-through-style: July;
+  }
+}
+
+@media April {
+  .c0 {
+    text-line-through-style: August;
+  }
+}
+
+@media January {
+  .c0 {
+    text-line-through-style: September;
+  }
+}
+
+@media April {
+  .c0 {
+    text-line-through-style: November;
+  }
+}
+
+@media June {
+  .c0 {
+    text-line-through-style: August;
+  }
+}
+
+@media May {
+
+}
+
+@media April {
+
+}
+
+@media January {
+
+}
+
+@media April {
+
+}
+
+@media June {
+
+}
+
+<div
+    className="c0"
+  />,
+  @media May {
+  .c0 {
+    text-line-through-style: July;
+  }
+}
+
+@media April {
+  .c0 {
+    text-line-through-style: August;
+  }
+}
+
+@media January {
+  .c0 {
+    text-line-through-style: September;
+  }
+}
+
+@media April {
+  .c0 {
+    text-line-through-style: November;
+  }
+}
+
+@media June {
+  .c0 {
+    text-line-through-style: August;
+  }
+}
+
+@media May {
+
+}
+
+@media April {
+
+}
+
+@media January {
+
+}
+
+@media April {
+
+}
+
+@media June {
+
+}
+
+<div
+    className="c0"
+  />,
+  @media May {
+
+}
+
+@media April {
+
+}
+
+@media January {
+
+}
+
+@media April {
+
+}
+
+@media June {
+
+}
+
+@media May {
+  .c0 {
+    text-line-through-style: January;
+  }
+}
+
+@media April {
+  .c0 {
+    text-line-through-style: December;
+  }
+}
+
+@media January {
+  .c0 {
+    text-line-through-style: April;
+  }
+}
+
+@media April {
+  .c0 {
+    text-line-through-style: May;
+  }
+}
+
+@media June {
+  .c0 {
+    text-line-through-style: June;
+  }
+}
+
+<div
+    className="c0"
+  />,
+  @media May {
+
+}
+
+@media April {
+
+}
+
+@media January {
+
+}
+
+@media April {
+
+}
+
+@media June {
+
+}
+
+@media May {
+  .c0 {
+    text-line-through-style: January;
+  }
+}
+
+@media April {
+  .c0 {
+    text-line-through-style: December;
+  }
+}
+
+@media January {
+  .c0 {
+    text-line-through-style: April;
+  }
+}
+
+@media April {
+  .c0 {
+    text-line-through-style: May;
+  }
+}
+
+@media June {
+  .c0 {
+    text-line-through-style: June;
+  }
+}
+
+<div
+    className="c0"
+  />,
+]
+`;
+
+exports[`textLineThroughStyle renders postitive number 1`] = `
+Array [
+  .c0 {
+  text-line-through-style: 54881;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  text-line-through-style: 54881;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  text-line-through-style: 42365;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  text-line-through-style: 42365;
+}
+
+<div
+    className="c0"
+  />,
+]
+`;
+
+exports[`textLineThroughStyle renders string 1`] = `
+Array [
+  .c0 {
+  text-line-through-style: July;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  text-line-through-style: July;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  text-line-through-style: June;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  text-line-through-style: June;
+}
+
+<div
+    className="c0"
+  />,
+]
+`;
+
+exports[`textLineThroughStyle renders valid theme path 1`] = `
+Array [
+  .c0 {
+  text-line-through-style: DarkSlateBlue;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  text-line-through-style: DarkSlateBlue;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  text-line-through-style: DarkSlateBlue;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  text-line-through-style: DarkSlateBlue;
+}
+
+<div
+    className="c0"
+  />,
+]
+`;

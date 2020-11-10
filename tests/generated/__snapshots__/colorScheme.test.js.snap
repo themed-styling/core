@@ -1,0 +1,626 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`colorScheme renders 0 1`] = `
+Array [
+  .c0 {
+  color-scheme: 0;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  color-scheme: 0;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  color-scheme: 0;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  color-scheme: 0;
+}
+
+<div
+    className="c0"
+  />,
+]
+`;
+
+exports[`colorScheme renders function 1`] = `
+Array [
+  .c0 {
+  color-scheme: hasnot;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  color-scheme: has;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  color-scheme: hasnot;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  color-scheme: has;
+}
+
+<div
+    className="c0"
+  />,
+]
+`;
+
+exports[`colorScheme renders invalid theme path 1`] = `
+Array [
+  .c0 {
+  color-scheme: invalid.path.1;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  color-scheme: invalid.path.1;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  color-scheme: invalid.path.1;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  color-scheme: invalid.path.1;
+}
+
+<div
+    className="c0"
+  />,
+]
+`;
+
+exports[`colorScheme renders negative number 1`] = `
+Array [
+  .c0 {
+  color-scheme: -54881;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  color-scheme: -54881;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  color-scheme: -42365;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  color-scheme: -42365;
+}
+
+<div
+    className="c0"
+  />,
+]
+`;
+
+exports[`colorScheme renders object [breakpoints] 1`] = `
+Array [
+  @media screen and (min-width:November) {
+  .c0 {
+    color-scheme: July;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    color-scheme: August;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    color-scheme: September;
+  }
+}
+
+@media screen and (min-width:August) {
+  .c0 {
+    color-scheme: November;
+  }
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:August) {
+
+}
+
+<div
+    className="c0"
+  />,
+  @media screen and (min-width:November) {
+  .c0 {
+    color-scheme: July;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    color-scheme: August;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    color-scheme: September;
+  }
+}
+
+@media screen and (min-width:August) {
+  .c0 {
+    color-scheme: November;
+  }
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:August) {
+
+}
+
+<div
+    className="c0"
+  />,
+  @media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:August) {
+
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    color-scheme: May;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    color-scheme: June;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    color-scheme: April;
+  }
+}
+
+@media screen and (min-width:August) {
+  .c0 {
+    color-scheme: November;
+  }
+}
+
+<div
+    className="c0"
+  />,
+  @media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:August) {
+
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    color-scheme: May;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    color-scheme: June;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    color-scheme: April;
+  }
+}
+
+@media screen and (min-width:August) {
+  .c0 {
+    color-scheme: November;
+  }
+}
+
+<div
+    className="c0"
+  />,
+]
+`;
+
+exports[`colorScheme renders object [breakpoints] 2`] = `
+Array [
+  @media May {
+  .c0 {
+    color-scheme: July;
+  }
+}
+
+@media April {
+  .c0 {
+    color-scheme: August;
+  }
+}
+
+@media January {
+  .c0 {
+    color-scheme: September;
+  }
+}
+
+@media April {
+  .c0 {
+    color-scheme: November;
+  }
+}
+
+@media June {
+  .c0 {
+    color-scheme: August;
+  }
+}
+
+@media May {
+
+}
+
+@media April {
+
+}
+
+@media January {
+
+}
+
+@media April {
+
+}
+
+@media June {
+
+}
+
+<div
+    className="c0"
+  />,
+  @media May {
+  .c0 {
+    color-scheme: July;
+  }
+}
+
+@media April {
+  .c0 {
+    color-scheme: August;
+  }
+}
+
+@media January {
+  .c0 {
+    color-scheme: September;
+  }
+}
+
+@media April {
+  .c0 {
+    color-scheme: November;
+  }
+}
+
+@media June {
+  .c0 {
+    color-scheme: August;
+  }
+}
+
+@media May {
+
+}
+
+@media April {
+
+}
+
+@media January {
+
+}
+
+@media April {
+
+}
+
+@media June {
+
+}
+
+<div
+    className="c0"
+  />,
+  @media May {
+
+}
+
+@media April {
+
+}
+
+@media January {
+
+}
+
+@media April {
+
+}
+
+@media June {
+
+}
+
+@media May {
+  .c0 {
+    color-scheme: January;
+  }
+}
+
+@media April {
+  .c0 {
+    color-scheme: December;
+  }
+}
+
+@media January {
+  .c0 {
+    color-scheme: April;
+  }
+}
+
+@media April {
+  .c0 {
+    color-scheme: May;
+  }
+}
+
+@media June {
+  .c0 {
+    color-scheme: June;
+  }
+}
+
+<div
+    className="c0"
+  />,
+  @media May {
+
+}
+
+@media April {
+
+}
+
+@media January {
+
+}
+
+@media April {
+
+}
+
+@media June {
+
+}
+
+@media May {
+  .c0 {
+    color-scheme: January;
+  }
+}
+
+@media April {
+  .c0 {
+    color-scheme: December;
+  }
+}
+
+@media January {
+  .c0 {
+    color-scheme: April;
+  }
+}
+
+@media April {
+  .c0 {
+    color-scheme: May;
+  }
+}
+
+@media June {
+  .c0 {
+    color-scheme: June;
+  }
+}
+
+<div
+    className="c0"
+  />,
+]
+`;
+
+exports[`colorScheme renders postitive number 1`] = `
+Array [
+  .c0 {
+  color-scheme: 54881;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  color-scheme: 54881;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  color-scheme: 42365;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  color-scheme: 42365;
+}
+
+<div
+    className="c0"
+  />,
+]
+`;
+
+exports[`colorScheme renders string 1`] = `
+Array [
+  .c0 {
+  color-scheme: July;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  color-scheme: July;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  color-scheme: June;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  color-scheme: June;
+}
+
+<div
+    className="c0"
+  />,
+]
+`;
+
+exports[`colorScheme renders valid theme path 1`] = `
+Array [
+  .c0 {
+  color-scheme: DarkSlateBlue;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  color-scheme: DarkSlateBlue;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  color-scheme: DarkSlateBlue;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  color-scheme: DarkSlateBlue;
+}
+
+<div
+    className="c0"
+  />,
+]
+`;

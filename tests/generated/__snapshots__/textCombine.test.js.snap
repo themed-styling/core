@@ -1,0 +1,626 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`textCombine renders 0 1`] = `
+Array [
+  .c0 {
+  text-combine: 0;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  text-combine: 0;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  text-combine: 0;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  text-combine: 0;
+}
+
+<div
+    className="c0"
+  />,
+]
+`;
+
+exports[`textCombine renders function 1`] = `
+Array [
+  .c0 {
+  text-combine: hasnot;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  text-combine: has;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  text-combine: hasnot;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  text-combine: has;
+}
+
+<div
+    className="c0"
+  />,
+]
+`;
+
+exports[`textCombine renders invalid theme path 1`] = `
+Array [
+  .c0 {
+  text-combine: invalid.path.1;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  text-combine: invalid.path.1;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  text-combine: invalid.path.1;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  text-combine: invalid.path.1;
+}
+
+<div
+    className="c0"
+  />,
+]
+`;
+
+exports[`textCombine renders negative number 1`] = `
+Array [
+  .c0 {
+  text-combine: -54881;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  text-combine: -54881;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  text-combine: -42365;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  text-combine: -42365;
+}
+
+<div
+    className="c0"
+  />,
+]
+`;
+
+exports[`textCombine renders object [breakpoints] 1`] = `
+Array [
+  @media screen and (min-width:November) {
+  .c0 {
+    text-combine: July;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    text-combine: August;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    text-combine: September;
+  }
+}
+
+@media screen and (min-width:August) {
+  .c0 {
+    text-combine: November;
+  }
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:August) {
+
+}
+
+<div
+    className="c0"
+  />,
+  @media screen and (min-width:November) {
+  .c0 {
+    text-combine: July;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    text-combine: August;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    text-combine: September;
+  }
+}
+
+@media screen and (min-width:August) {
+  .c0 {
+    text-combine: November;
+  }
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:August) {
+
+}
+
+<div
+    className="c0"
+  />,
+  @media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:August) {
+
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    text-combine: May;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    text-combine: June;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    text-combine: April;
+  }
+}
+
+@media screen and (min-width:August) {
+  .c0 {
+    text-combine: November;
+  }
+}
+
+<div
+    className="c0"
+  />,
+  @media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:August) {
+
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    text-combine: May;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    text-combine: June;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    text-combine: April;
+  }
+}
+
+@media screen and (min-width:August) {
+  .c0 {
+    text-combine: November;
+  }
+}
+
+<div
+    className="c0"
+  />,
+]
+`;
+
+exports[`textCombine renders object [breakpoints] 2`] = `
+Array [
+  @media May {
+  .c0 {
+    text-combine: July;
+  }
+}
+
+@media April {
+  .c0 {
+    text-combine: August;
+  }
+}
+
+@media January {
+  .c0 {
+    text-combine: September;
+  }
+}
+
+@media April {
+  .c0 {
+    text-combine: November;
+  }
+}
+
+@media June {
+  .c0 {
+    text-combine: August;
+  }
+}
+
+@media May {
+
+}
+
+@media April {
+
+}
+
+@media January {
+
+}
+
+@media April {
+
+}
+
+@media June {
+
+}
+
+<div
+    className="c0"
+  />,
+  @media May {
+  .c0 {
+    text-combine: July;
+  }
+}
+
+@media April {
+  .c0 {
+    text-combine: August;
+  }
+}
+
+@media January {
+  .c0 {
+    text-combine: September;
+  }
+}
+
+@media April {
+  .c0 {
+    text-combine: November;
+  }
+}
+
+@media June {
+  .c0 {
+    text-combine: August;
+  }
+}
+
+@media May {
+
+}
+
+@media April {
+
+}
+
+@media January {
+
+}
+
+@media April {
+
+}
+
+@media June {
+
+}
+
+<div
+    className="c0"
+  />,
+  @media May {
+
+}
+
+@media April {
+
+}
+
+@media January {
+
+}
+
+@media April {
+
+}
+
+@media June {
+
+}
+
+@media May {
+  .c0 {
+    text-combine: January;
+  }
+}
+
+@media April {
+  .c0 {
+    text-combine: December;
+  }
+}
+
+@media January {
+  .c0 {
+    text-combine: April;
+  }
+}
+
+@media April {
+  .c0 {
+    text-combine: May;
+  }
+}
+
+@media June {
+  .c0 {
+    text-combine: June;
+  }
+}
+
+<div
+    className="c0"
+  />,
+  @media May {
+
+}
+
+@media April {
+
+}
+
+@media January {
+
+}
+
+@media April {
+
+}
+
+@media June {
+
+}
+
+@media May {
+  .c0 {
+    text-combine: January;
+  }
+}
+
+@media April {
+  .c0 {
+    text-combine: December;
+  }
+}
+
+@media January {
+  .c0 {
+    text-combine: April;
+  }
+}
+
+@media April {
+  .c0 {
+    text-combine: May;
+  }
+}
+
+@media June {
+  .c0 {
+    text-combine: June;
+  }
+}
+
+<div
+    className="c0"
+  />,
+]
+`;
+
+exports[`textCombine renders postitive number 1`] = `
+Array [
+  .c0 {
+  text-combine: 54881;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  text-combine: 54881;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  text-combine: 42365;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  text-combine: 42365;
+}
+
+<div
+    className="c0"
+  />,
+]
+`;
+
+exports[`textCombine renders string 1`] = `
+Array [
+  .c0 {
+  text-combine: July;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  text-combine: July;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  text-combine: June;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  text-combine: June;
+}
+
+<div
+    className="c0"
+  />,
+]
+`;
+
+exports[`textCombine renders valid theme path 1`] = `
+Array [
+  .c0 {
+  text-combine: DarkSlateBlue;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  text-combine: DarkSlateBlue;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  text-combine: DarkSlateBlue;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  text-combine: DarkSlateBlue;
+}
+
+<div
+    className="c0"
+  />,
+]
+`;

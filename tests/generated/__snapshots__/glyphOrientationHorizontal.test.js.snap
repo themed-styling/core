@@ -1,0 +1,626 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`glyphOrientationHorizontal renders 0 1`] = `
+Array [
+  .c0 {
+  glyph-orientation-horizontal: 0;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  glyph-orientation-horizontal: 0;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  glyph-orientation-horizontal: 0;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  glyph-orientation-horizontal: 0;
+}
+
+<div
+    className="c0"
+  />,
+]
+`;
+
+exports[`glyphOrientationHorizontal renders function 1`] = `
+Array [
+  .c0 {
+  glyph-orientation-horizontal: hasnot;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  glyph-orientation-horizontal: has;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  glyph-orientation-horizontal: hasnot;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  glyph-orientation-horizontal: has;
+}
+
+<div
+    className="c0"
+  />,
+]
+`;
+
+exports[`glyphOrientationHorizontal renders invalid theme path 1`] = `
+Array [
+  .c0 {
+  glyph-orientation-horizontal: invalid.path.1;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  glyph-orientation-horizontal: invalid.path.1;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  glyph-orientation-horizontal: invalid.path.1;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  glyph-orientation-horizontal: invalid.path.1;
+}
+
+<div
+    className="c0"
+  />,
+]
+`;
+
+exports[`glyphOrientationHorizontal renders negative number 1`] = `
+Array [
+  .c0 {
+  glyph-orientation-horizontal: -54881;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  glyph-orientation-horizontal: -54881;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  glyph-orientation-horizontal: -42365;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  glyph-orientation-horizontal: -42365;
+}
+
+<div
+    className="c0"
+  />,
+]
+`;
+
+exports[`glyphOrientationHorizontal renders object [breakpoints] 1`] = `
+Array [
+  @media screen and (min-width:November) {
+  .c0 {
+    glyph-orientation-horizontal: July;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    glyph-orientation-horizontal: August;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    glyph-orientation-horizontal: September;
+  }
+}
+
+@media screen and (min-width:August) {
+  .c0 {
+    glyph-orientation-horizontal: November;
+  }
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:August) {
+
+}
+
+<div
+    className="c0"
+  />,
+  @media screen and (min-width:November) {
+  .c0 {
+    glyph-orientation-horizontal: July;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    glyph-orientation-horizontal: August;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    glyph-orientation-horizontal: September;
+  }
+}
+
+@media screen and (min-width:August) {
+  .c0 {
+    glyph-orientation-horizontal: November;
+  }
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:August) {
+
+}
+
+<div
+    className="c0"
+  />,
+  @media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:August) {
+
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    glyph-orientation-horizontal: May;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    glyph-orientation-horizontal: June;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    glyph-orientation-horizontal: April;
+  }
+}
+
+@media screen and (min-width:August) {
+  .c0 {
+    glyph-orientation-horizontal: November;
+  }
+}
+
+<div
+    className="c0"
+  />,
+  @media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:August) {
+
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    glyph-orientation-horizontal: May;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    glyph-orientation-horizontal: June;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    glyph-orientation-horizontal: April;
+  }
+}
+
+@media screen and (min-width:August) {
+  .c0 {
+    glyph-orientation-horizontal: November;
+  }
+}
+
+<div
+    className="c0"
+  />,
+]
+`;
+
+exports[`glyphOrientationHorizontal renders object [breakpoints] 2`] = `
+Array [
+  @media May {
+  .c0 {
+    glyph-orientation-horizontal: July;
+  }
+}
+
+@media April {
+  .c0 {
+    glyph-orientation-horizontal: August;
+  }
+}
+
+@media January {
+  .c0 {
+    glyph-orientation-horizontal: September;
+  }
+}
+
+@media April {
+  .c0 {
+    glyph-orientation-horizontal: November;
+  }
+}
+
+@media June {
+  .c0 {
+    glyph-orientation-horizontal: August;
+  }
+}
+
+@media May {
+
+}
+
+@media April {
+
+}
+
+@media January {
+
+}
+
+@media April {
+
+}
+
+@media June {
+
+}
+
+<div
+    className="c0"
+  />,
+  @media May {
+  .c0 {
+    glyph-orientation-horizontal: July;
+  }
+}
+
+@media April {
+  .c0 {
+    glyph-orientation-horizontal: August;
+  }
+}
+
+@media January {
+  .c0 {
+    glyph-orientation-horizontal: September;
+  }
+}
+
+@media April {
+  .c0 {
+    glyph-orientation-horizontal: November;
+  }
+}
+
+@media June {
+  .c0 {
+    glyph-orientation-horizontal: August;
+  }
+}
+
+@media May {
+
+}
+
+@media April {
+
+}
+
+@media January {
+
+}
+
+@media April {
+
+}
+
+@media June {
+
+}
+
+<div
+    className="c0"
+  />,
+  @media May {
+
+}
+
+@media April {
+
+}
+
+@media January {
+
+}
+
+@media April {
+
+}
+
+@media June {
+
+}
+
+@media May {
+  .c0 {
+    glyph-orientation-horizontal: January;
+  }
+}
+
+@media April {
+  .c0 {
+    glyph-orientation-horizontal: December;
+  }
+}
+
+@media January {
+  .c0 {
+    glyph-orientation-horizontal: April;
+  }
+}
+
+@media April {
+  .c0 {
+    glyph-orientation-horizontal: May;
+  }
+}
+
+@media June {
+  .c0 {
+    glyph-orientation-horizontal: June;
+  }
+}
+
+<div
+    className="c0"
+  />,
+  @media May {
+
+}
+
+@media April {
+
+}
+
+@media January {
+
+}
+
+@media April {
+
+}
+
+@media June {
+
+}
+
+@media May {
+  .c0 {
+    glyph-orientation-horizontal: January;
+  }
+}
+
+@media April {
+  .c0 {
+    glyph-orientation-horizontal: December;
+  }
+}
+
+@media January {
+  .c0 {
+    glyph-orientation-horizontal: April;
+  }
+}
+
+@media April {
+  .c0 {
+    glyph-orientation-horizontal: May;
+  }
+}
+
+@media June {
+  .c0 {
+    glyph-orientation-horizontal: June;
+  }
+}
+
+<div
+    className="c0"
+  />,
+]
+`;
+
+exports[`glyphOrientationHorizontal renders postitive number 1`] = `
+Array [
+  .c0 {
+  glyph-orientation-horizontal: 54881;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  glyph-orientation-horizontal: 54881;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  glyph-orientation-horizontal: 42365;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  glyph-orientation-horizontal: 42365;
+}
+
+<div
+    className="c0"
+  />,
+]
+`;
+
+exports[`glyphOrientationHorizontal renders string 1`] = `
+Array [
+  .c0 {
+  glyph-orientation-horizontal: July;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  glyph-orientation-horizontal: July;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  glyph-orientation-horizontal: June;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  glyph-orientation-horizontal: June;
+}
+
+<div
+    className="c0"
+  />,
+]
+`;
+
+exports[`glyphOrientationHorizontal renders valid theme path 1`] = `
+Array [
+  .c0 {
+  glyph-orientation-horizontal: DarkSlateBlue;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  glyph-orientation-horizontal: DarkSlateBlue;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  glyph-orientation-horizontal: DarkSlateBlue;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  glyph-orientation-horizontal: DarkSlateBlue;
+}
+
+<div
+    className="c0"
+  />,
+]
+`;

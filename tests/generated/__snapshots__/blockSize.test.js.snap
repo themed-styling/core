@@ -1,0 +1,754 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`blockSize renders 0 1`] = `
+Array [
+  .c0 {
+  -webkit-block-size: 0;
+  -ms-flex-block-size: 0;
+  block-size: 0;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-block-size: 0;
+  -ms-flex-block-size: 0;
+  block-size: 0;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-block-size: 0;
+  -ms-flex-block-size: 0;
+  block-size: 0;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-block-size: 0;
+  -ms-flex-block-size: 0;
+  block-size: 0;
+}
+
+<div
+    className="c0"
+  />,
+]
+`;
+
+exports[`blockSize renders function 1`] = `
+Array [
+  .c0 {
+  -webkit-block-size: hasnot;
+  -ms-flex-block-size: hasnot;
+  block-size: hasnot;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-block-size: has;
+  -ms-flex-block-size: has;
+  block-size: has;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-block-size: hasnot;
+  -ms-flex-block-size: hasnot;
+  block-size: hasnot;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-block-size: has;
+  -ms-flex-block-size: has;
+  block-size: has;
+}
+
+<div
+    className="c0"
+  />,
+]
+`;
+
+exports[`blockSize renders invalid theme path 1`] = `
+Array [
+  .c0 {
+  -webkit-block-size: invalid.path.1;
+  -ms-flex-block-size: invalid.path.1;
+  block-size: invalid.path.1;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-block-size: invalid.path.1;
+  -ms-flex-block-size: invalid.path.1;
+  block-size: invalid.path.1;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-block-size: invalid.path.1;
+  -ms-flex-block-size: invalid.path.1;
+  block-size: invalid.path.1;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-block-size: invalid.path.1;
+  -ms-flex-block-size: invalid.path.1;
+  block-size: invalid.path.1;
+}
+
+<div
+    className="c0"
+  />,
+]
+`;
+
+exports[`blockSize renders negative number 1`] = `
+Array [
+  .c0 {
+  -webkit-block-size: -54881;
+  -ms-flex-block-size: -54881;
+  block-size: -54881;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-block-size: -54881;
+  -ms-flex-block-size: -54881;
+  block-size: -54881;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-block-size: -42365;
+  -ms-flex-block-size: -42365;
+  block-size: -42365;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-block-size: -42365;
+  -ms-flex-block-size: -42365;
+  block-size: -42365;
+}
+
+<div
+    className="c0"
+  />,
+]
+`;
+
+exports[`blockSize renders object [breakpoints] 1`] = `
+Array [
+  @media screen and (min-width:November) {
+  .c0 {
+    -webkit-block-size: July;
+    -ms-flex-block-size: July;
+    block-size: July;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    -webkit-block-size: August;
+    -ms-flex-block-size: August;
+    block-size: August;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    -webkit-block-size: September;
+    -ms-flex-block-size: September;
+    block-size: September;
+  }
+}
+
+@media screen and (min-width:August) {
+  .c0 {
+    -webkit-block-size: November;
+    -ms-flex-block-size: November;
+    block-size: November;
+  }
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:August) {
+
+}
+
+<div
+    className="c0"
+  />,
+  @media screen and (min-width:November) {
+  .c0 {
+    -webkit-block-size: July;
+    -ms-flex-block-size: July;
+    block-size: July;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    -webkit-block-size: August;
+    -ms-flex-block-size: August;
+    block-size: August;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    -webkit-block-size: September;
+    -ms-flex-block-size: September;
+    block-size: September;
+  }
+}
+
+@media screen and (min-width:August) {
+  .c0 {
+    -webkit-block-size: November;
+    -ms-flex-block-size: November;
+    block-size: November;
+  }
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:August) {
+
+}
+
+<div
+    className="c0"
+  />,
+  @media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:August) {
+
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    -webkit-block-size: May;
+    -ms-flex-block-size: May;
+    block-size: May;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    -webkit-block-size: June;
+    -ms-flex-block-size: June;
+    block-size: June;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    -webkit-block-size: April;
+    -ms-flex-block-size: April;
+    block-size: April;
+  }
+}
+
+@media screen and (min-width:August) {
+  .c0 {
+    -webkit-block-size: November;
+    -ms-flex-block-size: November;
+    block-size: November;
+  }
+}
+
+<div
+    className="c0"
+  />,
+  @media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:August) {
+
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    -webkit-block-size: May;
+    -ms-flex-block-size: May;
+    block-size: May;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    -webkit-block-size: June;
+    -ms-flex-block-size: June;
+    block-size: June;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    -webkit-block-size: April;
+    -ms-flex-block-size: April;
+    block-size: April;
+  }
+}
+
+@media screen and (min-width:August) {
+  .c0 {
+    -webkit-block-size: November;
+    -ms-flex-block-size: November;
+    block-size: November;
+  }
+}
+
+<div
+    className="c0"
+  />,
+]
+`;
+
+exports[`blockSize renders object [breakpoints] 2`] = `
+Array [
+  @media May {
+  .c0 {
+    -webkit-block-size: July;
+    -ms-flex-block-size: July;
+    block-size: July;
+  }
+}
+
+@media April {
+  .c0 {
+    -webkit-block-size: August;
+    -ms-flex-block-size: August;
+    block-size: August;
+  }
+}
+
+@media January {
+  .c0 {
+    -webkit-block-size: September;
+    -ms-flex-block-size: September;
+    block-size: September;
+  }
+}
+
+@media April {
+  .c0 {
+    -webkit-block-size: November;
+    -ms-flex-block-size: November;
+    block-size: November;
+  }
+}
+
+@media June {
+  .c0 {
+    -webkit-block-size: August;
+    -ms-flex-block-size: August;
+    block-size: August;
+  }
+}
+
+@media May {
+
+}
+
+@media April {
+
+}
+
+@media January {
+
+}
+
+@media April {
+
+}
+
+@media June {
+
+}
+
+<div
+    className="c0"
+  />,
+  @media May {
+  .c0 {
+    -webkit-block-size: July;
+    -ms-flex-block-size: July;
+    block-size: July;
+  }
+}
+
+@media April {
+  .c0 {
+    -webkit-block-size: August;
+    -ms-flex-block-size: August;
+    block-size: August;
+  }
+}
+
+@media January {
+  .c0 {
+    -webkit-block-size: September;
+    -ms-flex-block-size: September;
+    block-size: September;
+  }
+}
+
+@media April {
+  .c0 {
+    -webkit-block-size: November;
+    -ms-flex-block-size: November;
+    block-size: November;
+  }
+}
+
+@media June {
+  .c0 {
+    -webkit-block-size: August;
+    -ms-flex-block-size: August;
+    block-size: August;
+  }
+}
+
+@media May {
+
+}
+
+@media April {
+
+}
+
+@media January {
+
+}
+
+@media April {
+
+}
+
+@media June {
+
+}
+
+<div
+    className="c0"
+  />,
+  @media May {
+
+}
+
+@media April {
+
+}
+
+@media January {
+
+}
+
+@media April {
+
+}
+
+@media June {
+
+}
+
+@media May {
+  .c0 {
+    -webkit-block-size: January;
+    -ms-flex-block-size: January;
+    block-size: January;
+  }
+}
+
+@media April {
+  .c0 {
+    -webkit-block-size: December;
+    -ms-flex-block-size: December;
+    block-size: December;
+  }
+}
+
+@media January {
+  .c0 {
+    -webkit-block-size: April;
+    -ms-flex-block-size: April;
+    block-size: April;
+  }
+}
+
+@media April {
+  .c0 {
+    -webkit-block-size: May;
+    -ms-flex-block-size: May;
+    block-size: May;
+  }
+}
+
+@media June {
+  .c0 {
+    -webkit-block-size: June;
+    -ms-flex-block-size: June;
+    block-size: June;
+  }
+}
+
+<div
+    className="c0"
+  />,
+  @media May {
+
+}
+
+@media April {
+
+}
+
+@media January {
+
+}
+
+@media April {
+
+}
+
+@media June {
+
+}
+
+@media May {
+  .c0 {
+    -webkit-block-size: January;
+    -ms-flex-block-size: January;
+    block-size: January;
+  }
+}
+
+@media April {
+  .c0 {
+    -webkit-block-size: December;
+    -ms-flex-block-size: December;
+    block-size: December;
+  }
+}
+
+@media January {
+  .c0 {
+    -webkit-block-size: April;
+    -ms-flex-block-size: April;
+    block-size: April;
+  }
+}
+
+@media April {
+  .c0 {
+    -webkit-block-size: May;
+    -ms-flex-block-size: May;
+    block-size: May;
+  }
+}
+
+@media June {
+  .c0 {
+    -webkit-block-size: June;
+    -ms-flex-block-size: June;
+    block-size: June;
+  }
+}
+
+<div
+    className="c0"
+  />,
+]
+`;
+
+exports[`blockSize renders postitive number 1`] = `
+Array [
+  .c0 {
+  -webkit-block-size: 54881;
+  -ms-flex-block-size: 54881;
+  block-size: 54881;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-block-size: 54881;
+  -ms-flex-block-size: 54881;
+  block-size: 54881;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-block-size: 42365;
+  -ms-flex-block-size: 42365;
+  block-size: 42365;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-block-size: 42365;
+  -ms-flex-block-size: 42365;
+  block-size: 42365;
+}
+
+<div
+    className="c0"
+  />,
+]
+`;
+
+exports[`blockSize renders string 1`] = `
+Array [
+  .c0 {
+  -webkit-block-size: July;
+  -ms-flex-block-size: July;
+  block-size: July;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-block-size: July;
+  -ms-flex-block-size: July;
+  block-size: July;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-block-size: June;
+  -ms-flex-block-size: June;
+  block-size: June;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-block-size: June;
+  -ms-flex-block-size: June;
+  block-size: June;
+}
+
+<div
+    className="c0"
+  />,
+]
+`;
+
+exports[`blockSize renders valid theme path 1`] = `
+Array [
+  .c0 {
+  -webkit-block-size: DarkSlateBlue;
+  -ms-flex-block-size: DarkSlateBlue;
+  block-size: DarkSlateBlue;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-block-size: DarkSlateBlue;
+  -ms-flex-block-size: DarkSlateBlue;
+  block-size: DarkSlateBlue;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-block-size: DarkSlateBlue;
+  -ms-flex-block-size: DarkSlateBlue;
+  block-size: DarkSlateBlue;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-block-size: DarkSlateBlue;
+  -ms-flex-block-size: DarkSlateBlue;
+  block-size: DarkSlateBlue;
+}
+
+<div
+    className="c0"
+  />,
+]
+`;

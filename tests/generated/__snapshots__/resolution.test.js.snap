@@ -1,0 +1,626 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`resolution renders 0 1`] = `
+Array [
+  .c0 {
+  resolution: 0;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  resolution: 0;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  resolution: 0;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  resolution: 0;
+}
+
+<div
+    className="c0"
+  />,
+]
+`;
+
+exports[`resolution renders function 1`] = `
+Array [
+  .c0 {
+  resolution: hasnot;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  resolution: has;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  resolution: hasnot;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  resolution: has;
+}
+
+<div
+    className="c0"
+  />,
+]
+`;
+
+exports[`resolution renders invalid theme path 1`] = `
+Array [
+  .c0 {
+  resolution: invalid.path.1;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  resolution: invalid.path.1;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  resolution: invalid.path.1;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  resolution: invalid.path.1;
+}
+
+<div
+    className="c0"
+  />,
+]
+`;
+
+exports[`resolution renders negative number 1`] = `
+Array [
+  .c0 {
+  resolution: -54881;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  resolution: -54881;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  resolution: -42365;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  resolution: -42365;
+}
+
+<div
+    className="c0"
+  />,
+]
+`;
+
+exports[`resolution renders object [breakpoints] 1`] = `
+Array [
+  @media screen and (min-width:November) {
+  .c0 {
+    resolution: July;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    resolution: August;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    resolution: September;
+  }
+}
+
+@media screen and (min-width:August) {
+  .c0 {
+    resolution: November;
+  }
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:August) {
+
+}
+
+<div
+    className="c0"
+  />,
+  @media screen and (min-width:November) {
+  .c0 {
+    resolution: July;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    resolution: August;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    resolution: September;
+  }
+}
+
+@media screen and (min-width:August) {
+  .c0 {
+    resolution: November;
+  }
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:August) {
+
+}
+
+<div
+    className="c0"
+  />,
+  @media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:August) {
+
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    resolution: May;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    resolution: June;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    resolution: April;
+  }
+}
+
+@media screen and (min-width:August) {
+  .c0 {
+    resolution: November;
+  }
+}
+
+<div
+    className="c0"
+  />,
+  @media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:August) {
+
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    resolution: May;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    resolution: June;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    resolution: April;
+  }
+}
+
+@media screen and (min-width:August) {
+  .c0 {
+    resolution: November;
+  }
+}
+
+<div
+    className="c0"
+  />,
+]
+`;
+
+exports[`resolution renders object [breakpoints] 2`] = `
+Array [
+  @media May {
+  .c0 {
+    resolution: July;
+  }
+}
+
+@media April {
+  .c0 {
+    resolution: August;
+  }
+}
+
+@media January {
+  .c0 {
+    resolution: September;
+  }
+}
+
+@media April {
+  .c0 {
+    resolution: November;
+  }
+}
+
+@media June {
+  .c0 {
+    resolution: August;
+  }
+}
+
+@media May {
+
+}
+
+@media April {
+
+}
+
+@media January {
+
+}
+
+@media April {
+
+}
+
+@media June {
+
+}
+
+<div
+    className="c0"
+  />,
+  @media May {
+  .c0 {
+    resolution: July;
+  }
+}
+
+@media April {
+  .c0 {
+    resolution: August;
+  }
+}
+
+@media January {
+  .c0 {
+    resolution: September;
+  }
+}
+
+@media April {
+  .c0 {
+    resolution: November;
+  }
+}
+
+@media June {
+  .c0 {
+    resolution: August;
+  }
+}
+
+@media May {
+
+}
+
+@media April {
+
+}
+
+@media January {
+
+}
+
+@media April {
+
+}
+
+@media June {
+
+}
+
+<div
+    className="c0"
+  />,
+  @media May {
+
+}
+
+@media April {
+
+}
+
+@media January {
+
+}
+
+@media April {
+
+}
+
+@media June {
+
+}
+
+@media May {
+  .c0 {
+    resolution: January;
+  }
+}
+
+@media April {
+  .c0 {
+    resolution: December;
+  }
+}
+
+@media January {
+  .c0 {
+    resolution: April;
+  }
+}
+
+@media April {
+  .c0 {
+    resolution: May;
+  }
+}
+
+@media June {
+  .c0 {
+    resolution: June;
+  }
+}
+
+<div
+    className="c0"
+  />,
+  @media May {
+
+}
+
+@media April {
+
+}
+
+@media January {
+
+}
+
+@media April {
+
+}
+
+@media June {
+
+}
+
+@media May {
+  .c0 {
+    resolution: January;
+  }
+}
+
+@media April {
+  .c0 {
+    resolution: December;
+  }
+}
+
+@media January {
+  .c0 {
+    resolution: April;
+  }
+}
+
+@media April {
+  .c0 {
+    resolution: May;
+  }
+}
+
+@media June {
+  .c0 {
+    resolution: June;
+  }
+}
+
+<div
+    className="c0"
+  />,
+]
+`;
+
+exports[`resolution renders postitive number 1`] = `
+Array [
+  .c0 {
+  resolution: 54881;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  resolution: 54881;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  resolution: 42365;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  resolution: 42365;
+}
+
+<div
+    className="c0"
+  />,
+]
+`;
+
+exports[`resolution renders string 1`] = `
+Array [
+  .c0 {
+  resolution: July;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  resolution: July;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  resolution: June;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  resolution: June;
+}
+
+<div
+    className="c0"
+  />,
+]
+`;
+
+exports[`resolution renders valid theme path 1`] = `
+Array [
+  .c0 {
+  resolution: DarkSlateBlue;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  resolution: DarkSlateBlue;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  resolution: DarkSlateBlue;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  resolution: DarkSlateBlue;
+}
+
+<div
+    className="c0"
+  />,
+]
+`;

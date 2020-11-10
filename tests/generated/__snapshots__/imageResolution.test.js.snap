@@ -1,0 +1,626 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`imageResolution renders 0 1`] = `
+Array [
+  .c0 {
+  image-resolution: 0;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  image-resolution: 0;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  image-resolution: 0;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  image-resolution: 0;
+}
+
+<div
+    className="c0"
+  />,
+]
+`;
+
+exports[`imageResolution renders function 1`] = `
+Array [
+  .c0 {
+  image-resolution: hasnot;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  image-resolution: has;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  image-resolution: hasnot;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  image-resolution: has;
+}
+
+<div
+    className="c0"
+  />,
+]
+`;
+
+exports[`imageResolution renders invalid theme path 1`] = `
+Array [
+  .c0 {
+  image-resolution: invalid.path.1;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  image-resolution: invalid.path.1;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  image-resolution: invalid.path.1;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  image-resolution: invalid.path.1;
+}
+
+<div
+    className="c0"
+  />,
+]
+`;
+
+exports[`imageResolution renders negative number 1`] = `
+Array [
+  .c0 {
+  image-resolution: -54881;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  image-resolution: -54881;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  image-resolution: -42365;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  image-resolution: -42365;
+}
+
+<div
+    className="c0"
+  />,
+]
+`;
+
+exports[`imageResolution renders object [breakpoints] 1`] = `
+Array [
+  @media screen and (min-width:November) {
+  .c0 {
+    image-resolution: July;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    image-resolution: August;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    image-resolution: September;
+  }
+}
+
+@media screen and (min-width:August) {
+  .c0 {
+    image-resolution: November;
+  }
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:August) {
+
+}
+
+<div
+    className="c0"
+  />,
+  @media screen and (min-width:November) {
+  .c0 {
+    image-resolution: July;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    image-resolution: August;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    image-resolution: September;
+  }
+}
+
+@media screen and (min-width:August) {
+  .c0 {
+    image-resolution: November;
+  }
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:August) {
+
+}
+
+<div
+    className="c0"
+  />,
+  @media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:August) {
+
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    image-resolution: May;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    image-resolution: June;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    image-resolution: April;
+  }
+}
+
+@media screen and (min-width:August) {
+  .c0 {
+    image-resolution: November;
+  }
+}
+
+<div
+    className="c0"
+  />,
+  @media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:August) {
+
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    image-resolution: May;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    image-resolution: June;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    image-resolution: April;
+  }
+}
+
+@media screen and (min-width:August) {
+  .c0 {
+    image-resolution: November;
+  }
+}
+
+<div
+    className="c0"
+  />,
+]
+`;
+
+exports[`imageResolution renders object [breakpoints] 2`] = `
+Array [
+  @media May {
+  .c0 {
+    image-resolution: July;
+  }
+}
+
+@media April {
+  .c0 {
+    image-resolution: August;
+  }
+}
+
+@media January {
+  .c0 {
+    image-resolution: September;
+  }
+}
+
+@media April {
+  .c0 {
+    image-resolution: November;
+  }
+}
+
+@media June {
+  .c0 {
+    image-resolution: August;
+  }
+}
+
+@media May {
+
+}
+
+@media April {
+
+}
+
+@media January {
+
+}
+
+@media April {
+
+}
+
+@media June {
+
+}
+
+<div
+    className="c0"
+  />,
+  @media May {
+  .c0 {
+    image-resolution: July;
+  }
+}
+
+@media April {
+  .c0 {
+    image-resolution: August;
+  }
+}
+
+@media January {
+  .c0 {
+    image-resolution: September;
+  }
+}
+
+@media April {
+  .c0 {
+    image-resolution: November;
+  }
+}
+
+@media June {
+  .c0 {
+    image-resolution: August;
+  }
+}
+
+@media May {
+
+}
+
+@media April {
+
+}
+
+@media January {
+
+}
+
+@media April {
+
+}
+
+@media June {
+
+}
+
+<div
+    className="c0"
+  />,
+  @media May {
+
+}
+
+@media April {
+
+}
+
+@media January {
+
+}
+
+@media April {
+
+}
+
+@media June {
+
+}
+
+@media May {
+  .c0 {
+    image-resolution: January;
+  }
+}
+
+@media April {
+  .c0 {
+    image-resolution: December;
+  }
+}
+
+@media January {
+  .c0 {
+    image-resolution: April;
+  }
+}
+
+@media April {
+  .c0 {
+    image-resolution: May;
+  }
+}
+
+@media June {
+  .c0 {
+    image-resolution: June;
+  }
+}
+
+<div
+    className="c0"
+  />,
+  @media May {
+
+}
+
+@media April {
+
+}
+
+@media January {
+
+}
+
+@media April {
+
+}
+
+@media June {
+
+}
+
+@media May {
+  .c0 {
+    image-resolution: January;
+  }
+}
+
+@media April {
+  .c0 {
+    image-resolution: December;
+  }
+}
+
+@media January {
+  .c0 {
+    image-resolution: April;
+  }
+}
+
+@media April {
+  .c0 {
+    image-resolution: May;
+  }
+}
+
+@media June {
+  .c0 {
+    image-resolution: June;
+  }
+}
+
+<div
+    className="c0"
+  />,
+]
+`;
+
+exports[`imageResolution renders postitive number 1`] = `
+Array [
+  .c0 {
+  image-resolution: 54881;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  image-resolution: 54881;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  image-resolution: 42365;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  image-resolution: 42365;
+}
+
+<div
+    className="c0"
+  />,
+]
+`;
+
+exports[`imageResolution renders string 1`] = `
+Array [
+  .c0 {
+  image-resolution: July;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  image-resolution: July;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  image-resolution: June;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  image-resolution: June;
+}
+
+<div
+    className="c0"
+  />,
+]
+`;
+
+exports[`imageResolution renders valid theme path 1`] = `
+Array [
+  .c0 {
+  image-resolution: DarkSlateBlue;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  image-resolution: DarkSlateBlue;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  image-resolution: DarkSlateBlue;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  image-resolution: DarkSlateBlue;
+}
+
+<div
+    className="c0"
+  />,
+]
+`;

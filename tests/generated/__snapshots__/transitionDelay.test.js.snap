@@ -1,0 +1,690 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`transitionDelay renders 0 1`] = `
+Array [
+  .c0 {
+  -webkit-transition-delay: 0;
+  transition-delay: 0;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-transition-delay: 0;
+  transition-delay: 0;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-transition-delay: 0;
+  transition-delay: 0;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-transition-delay: 0;
+  transition-delay: 0;
+}
+
+<div
+    className="c0"
+  />,
+]
+`;
+
+exports[`transitionDelay renders function 1`] = `
+Array [
+  .c0 {
+  -webkit-transition-delay: hasnot;
+  transition-delay: hasnot;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-transition-delay: has;
+  transition-delay: has;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-transition-delay: hasnot;
+  transition-delay: hasnot;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-transition-delay: has;
+  transition-delay: has;
+}
+
+<div
+    className="c0"
+  />,
+]
+`;
+
+exports[`transitionDelay renders invalid theme path 1`] = `
+Array [
+  .c0 {
+  -webkit-transition-delay: invalid.path.1;
+  transition-delay: invalid.path.1;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-transition-delay: invalid.path.1;
+  transition-delay: invalid.path.1;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-transition-delay: invalid.path.1;
+  transition-delay: invalid.path.1;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-transition-delay: invalid.path.1;
+  transition-delay: invalid.path.1;
+}
+
+<div
+    className="c0"
+  />,
+]
+`;
+
+exports[`transitionDelay renders negative number 1`] = `
+Array [
+  .c0 {
+  -webkit-transition-delay: -54881;
+  transition-delay: -54881;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-transition-delay: -54881;
+  transition-delay: -54881;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-transition-delay: -42365;
+  transition-delay: -42365;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-transition-delay: -42365;
+  transition-delay: -42365;
+}
+
+<div
+    className="c0"
+  />,
+]
+`;
+
+exports[`transitionDelay renders object [breakpoints] 1`] = `
+Array [
+  @media screen and (min-width:November) {
+  .c0 {
+    -webkit-transition-delay: July;
+    transition-delay: July;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    -webkit-transition-delay: August;
+    transition-delay: August;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    -webkit-transition-delay: September;
+    transition-delay: September;
+  }
+}
+
+@media screen and (min-width:August) {
+  .c0 {
+    -webkit-transition-delay: November;
+    transition-delay: November;
+  }
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:August) {
+
+}
+
+<div
+    className="c0"
+  />,
+  @media screen and (min-width:November) {
+  .c0 {
+    -webkit-transition-delay: July;
+    transition-delay: July;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    -webkit-transition-delay: August;
+    transition-delay: August;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    -webkit-transition-delay: September;
+    transition-delay: September;
+  }
+}
+
+@media screen and (min-width:August) {
+  .c0 {
+    -webkit-transition-delay: November;
+    transition-delay: November;
+  }
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:August) {
+
+}
+
+<div
+    className="c0"
+  />,
+  @media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:August) {
+
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    -webkit-transition-delay: May;
+    transition-delay: May;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    -webkit-transition-delay: June;
+    transition-delay: June;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    -webkit-transition-delay: April;
+    transition-delay: April;
+  }
+}
+
+@media screen and (min-width:August) {
+  .c0 {
+    -webkit-transition-delay: November;
+    transition-delay: November;
+  }
+}
+
+<div
+    className="c0"
+  />,
+  @media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:August) {
+
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    -webkit-transition-delay: May;
+    transition-delay: May;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    -webkit-transition-delay: June;
+    transition-delay: June;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    -webkit-transition-delay: April;
+    transition-delay: April;
+  }
+}
+
+@media screen and (min-width:August) {
+  .c0 {
+    -webkit-transition-delay: November;
+    transition-delay: November;
+  }
+}
+
+<div
+    className="c0"
+  />,
+]
+`;
+
+exports[`transitionDelay renders object [breakpoints] 2`] = `
+Array [
+  @media May {
+  .c0 {
+    -webkit-transition-delay: July;
+    transition-delay: July;
+  }
+}
+
+@media April {
+  .c0 {
+    -webkit-transition-delay: August;
+    transition-delay: August;
+  }
+}
+
+@media January {
+  .c0 {
+    -webkit-transition-delay: September;
+    transition-delay: September;
+  }
+}
+
+@media April {
+  .c0 {
+    -webkit-transition-delay: November;
+    transition-delay: November;
+  }
+}
+
+@media June {
+  .c0 {
+    -webkit-transition-delay: August;
+    transition-delay: August;
+  }
+}
+
+@media May {
+
+}
+
+@media April {
+
+}
+
+@media January {
+
+}
+
+@media April {
+
+}
+
+@media June {
+
+}
+
+<div
+    className="c0"
+  />,
+  @media May {
+  .c0 {
+    -webkit-transition-delay: July;
+    transition-delay: July;
+  }
+}
+
+@media April {
+  .c0 {
+    -webkit-transition-delay: August;
+    transition-delay: August;
+  }
+}
+
+@media January {
+  .c0 {
+    -webkit-transition-delay: September;
+    transition-delay: September;
+  }
+}
+
+@media April {
+  .c0 {
+    -webkit-transition-delay: November;
+    transition-delay: November;
+  }
+}
+
+@media June {
+  .c0 {
+    -webkit-transition-delay: August;
+    transition-delay: August;
+  }
+}
+
+@media May {
+
+}
+
+@media April {
+
+}
+
+@media January {
+
+}
+
+@media April {
+
+}
+
+@media June {
+
+}
+
+<div
+    className="c0"
+  />,
+  @media May {
+
+}
+
+@media April {
+
+}
+
+@media January {
+
+}
+
+@media April {
+
+}
+
+@media June {
+
+}
+
+@media May {
+  .c0 {
+    -webkit-transition-delay: January;
+    transition-delay: January;
+  }
+}
+
+@media April {
+  .c0 {
+    -webkit-transition-delay: December;
+    transition-delay: December;
+  }
+}
+
+@media January {
+  .c0 {
+    -webkit-transition-delay: April;
+    transition-delay: April;
+  }
+}
+
+@media April {
+  .c0 {
+    -webkit-transition-delay: May;
+    transition-delay: May;
+  }
+}
+
+@media June {
+  .c0 {
+    -webkit-transition-delay: June;
+    transition-delay: June;
+  }
+}
+
+<div
+    className="c0"
+  />,
+  @media May {
+
+}
+
+@media April {
+
+}
+
+@media January {
+
+}
+
+@media April {
+
+}
+
+@media June {
+
+}
+
+@media May {
+  .c0 {
+    -webkit-transition-delay: January;
+    transition-delay: January;
+  }
+}
+
+@media April {
+  .c0 {
+    -webkit-transition-delay: December;
+    transition-delay: December;
+  }
+}
+
+@media January {
+  .c0 {
+    -webkit-transition-delay: April;
+    transition-delay: April;
+  }
+}
+
+@media April {
+  .c0 {
+    -webkit-transition-delay: May;
+    transition-delay: May;
+  }
+}
+
+@media June {
+  .c0 {
+    -webkit-transition-delay: June;
+    transition-delay: June;
+  }
+}
+
+<div
+    className="c0"
+  />,
+]
+`;
+
+exports[`transitionDelay renders postitive number 1`] = `
+Array [
+  .c0 {
+  -webkit-transition-delay: 54881;
+  transition-delay: 54881;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-transition-delay: 54881;
+  transition-delay: 54881;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-transition-delay: 42365;
+  transition-delay: 42365;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-transition-delay: 42365;
+  transition-delay: 42365;
+}
+
+<div
+    className="c0"
+  />,
+]
+`;
+
+exports[`transitionDelay renders string 1`] = `
+Array [
+  .c0 {
+  -webkit-transition-delay: July;
+  transition-delay: July;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-transition-delay: July;
+  transition-delay: July;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-transition-delay: June;
+  transition-delay: June;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-transition-delay: June;
+  transition-delay: June;
+}
+
+<div
+    className="c0"
+  />,
+]
+`;
+
+exports[`transitionDelay renders valid theme path 1`] = `
+Array [
+  .c0 {
+  -webkit-transition-delay: DarkSlateBlue;
+  transition-delay: DarkSlateBlue;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-transition-delay: DarkSlateBlue;
+  transition-delay: DarkSlateBlue;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-transition-delay: DarkSlateBlue;
+  transition-delay: DarkSlateBlue;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-transition-delay: DarkSlateBlue;
+  transition-delay: DarkSlateBlue;
+}
+
+<div
+    className="c0"
+  />,
+]
+`;

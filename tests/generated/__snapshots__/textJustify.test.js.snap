@@ -1,0 +1,626 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`textJustify renders 0 1`] = `
+Array [
+  .c0 {
+  text-justify: 0;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  text-justify: 0;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  text-justify: 0;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  text-justify: 0;
+}
+
+<div
+    className="c0"
+  />,
+]
+`;
+
+exports[`textJustify renders function 1`] = `
+Array [
+  .c0 {
+  text-justify: hasnot;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  text-justify: has;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  text-justify: hasnot;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  text-justify: has;
+}
+
+<div
+    className="c0"
+  />,
+]
+`;
+
+exports[`textJustify renders invalid theme path 1`] = `
+Array [
+  .c0 {
+  text-justify: invalid.path.1;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  text-justify: invalid.path.1;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  text-justify: invalid.path.1;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  text-justify: invalid.path.1;
+}
+
+<div
+    className="c0"
+  />,
+]
+`;
+
+exports[`textJustify renders negative number 1`] = `
+Array [
+  .c0 {
+  text-justify: -54881;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  text-justify: -54881;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  text-justify: -42365;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  text-justify: -42365;
+}
+
+<div
+    className="c0"
+  />,
+]
+`;
+
+exports[`textJustify renders object [breakpoints] 1`] = `
+Array [
+  @media screen and (min-width:November) {
+  .c0 {
+    text-justify: July;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    text-justify: August;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    text-justify: September;
+  }
+}
+
+@media screen and (min-width:August) {
+  .c0 {
+    text-justify: November;
+  }
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:August) {
+
+}
+
+<div
+    className="c0"
+  />,
+  @media screen and (min-width:November) {
+  .c0 {
+    text-justify: July;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    text-justify: August;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    text-justify: September;
+  }
+}
+
+@media screen and (min-width:August) {
+  .c0 {
+    text-justify: November;
+  }
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:August) {
+
+}
+
+<div
+    className="c0"
+  />,
+  @media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:August) {
+
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    text-justify: May;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    text-justify: June;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    text-justify: April;
+  }
+}
+
+@media screen and (min-width:August) {
+  .c0 {
+    text-justify: November;
+  }
+}
+
+<div
+    className="c0"
+  />,
+  @media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:August) {
+
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    text-justify: May;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    text-justify: June;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    text-justify: April;
+  }
+}
+
+@media screen and (min-width:August) {
+  .c0 {
+    text-justify: November;
+  }
+}
+
+<div
+    className="c0"
+  />,
+]
+`;
+
+exports[`textJustify renders object [breakpoints] 2`] = `
+Array [
+  @media May {
+  .c0 {
+    text-justify: July;
+  }
+}
+
+@media April {
+  .c0 {
+    text-justify: August;
+  }
+}
+
+@media January {
+  .c0 {
+    text-justify: September;
+  }
+}
+
+@media April {
+  .c0 {
+    text-justify: November;
+  }
+}
+
+@media June {
+  .c0 {
+    text-justify: August;
+  }
+}
+
+@media May {
+
+}
+
+@media April {
+
+}
+
+@media January {
+
+}
+
+@media April {
+
+}
+
+@media June {
+
+}
+
+<div
+    className="c0"
+  />,
+  @media May {
+  .c0 {
+    text-justify: July;
+  }
+}
+
+@media April {
+  .c0 {
+    text-justify: August;
+  }
+}
+
+@media January {
+  .c0 {
+    text-justify: September;
+  }
+}
+
+@media April {
+  .c0 {
+    text-justify: November;
+  }
+}
+
+@media June {
+  .c0 {
+    text-justify: August;
+  }
+}
+
+@media May {
+
+}
+
+@media April {
+
+}
+
+@media January {
+
+}
+
+@media April {
+
+}
+
+@media June {
+
+}
+
+<div
+    className="c0"
+  />,
+  @media May {
+
+}
+
+@media April {
+
+}
+
+@media January {
+
+}
+
+@media April {
+
+}
+
+@media June {
+
+}
+
+@media May {
+  .c0 {
+    text-justify: January;
+  }
+}
+
+@media April {
+  .c0 {
+    text-justify: December;
+  }
+}
+
+@media January {
+  .c0 {
+    text-justify: April;
+  }
+}
+
+@media April {
+  .c0 {
+    text-justify: May;
+  }
+}
+
+@media June {
+  .c0 {
+    text-justify: June;
+  }
+}
+
+<div
+    className="c0"
+  />,
+  @media May {
+
+}
+
+@media April {
+
+}
+
+@media January {
+
+}
+
+@media April {
+
+}
+
+@media June {
+
+}
+
+@media May {
+  .c0 {
+    text-justify: January;
+  }
+}
+
+@media April {
+  .c0 {
+    text-justify: December;
+  }
+}
+
+@media January {
+  .c0 {
+    text-justify: April;
+  }
+}
+
+@media April {
+  .c0 {
+    text-justify: May;
+  }
+}
+
+@media June {
+  .c0 {
+    text-justify: June;
+  }
+}
+
+<div
+    className="c0"
+  />,
+]
+`;
+
+exports[`textJustify renders postitive number 1`] = `
+Array [
+  .c0 {
+  text-justify: 54881;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  text-justify: 54881;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  text-justify: 42365;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  text-justify: 42365;
+}
+
+<div
+    className="c0"
+  />,
+]
+`;
+
+exports[`textJustify renders string 1`] = `
+Array [
+  .c0 {
+  text-justify: July;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  text-justify: July;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  text-justify: June;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  text-justify: June;
+}
+
+<div
+    className="c0"
+  />,
+]
+`;
+
+exports[`textJustify renders valid theme path 1`] = `
+Array [
+  .c0 {
+  text-justify: DarkSlateBlue;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  text-justify: DarkSlateBlue;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  text-justify: DarkSlateBlue;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  text-justify: DarkSlateBlue;
+}
+
+<div
+    className="c0"
+  />,
+]
+`;

@@ -1,0 +1,690 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`filterMarginTop renders 0 1`] = `
+Array [
+  .c0 {
+  -webkit-filter-margin-top: 0;
+  filter-margin-top: 0;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-filter-margin-top: 0;
+  filter-margin-top: 0;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-filter-margin-top: 0;
+  filter-margin-top: 0;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-filter-margin-top: 0;
+  filter-margin-top: 0;
+}
+
+<div
+    className="c0"
+  />,
+]
+`;
+
+exports[`filterMarginTop renders function 1`] = `
+Array [
+  .c0 {
+  -webkit-filter-margin-top: hasnot;
+  filter-margin-top: hasnot;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-filter-margin-top: has;
+  filter-margin-top: has;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-filter-margin-top: hasnot;
+  filter-margin-top: hasnot;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-filter-margin-top: has;
+  filter-margin-top: has;
+}
+
+<div
+    className="c0"
+  />,
+]
+`;
+
+exports[`filterMarginTop renders invalid theme path 1`] = `
+Array [
+  .c0 {
+  -webkit-filter-margin-top: invalid.path.1;
+  filter-margin-top: invalid.path.1;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-filter-margin-top: invalid.path.1;
+  filter-margin-top: invalid.path.1;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-filter-margin-top: invalid.path.1;
+  filter-margin-top: invalid.path.1;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-filter-margin-top: invalid.path.1;
+  filter-margin-top: invalid.path.1;
+}
+
+<div
+    className="c0"
+  />,
+]
+`;
+
+exports[`filterMarginTop renders negative number 1`] = `
+Array [
+  .c0 {
+  -webkit-filter-margin-top: -54881;
+  filter-margin-top: -54881;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-filter-margin-top: -54881;
+  filter-margin-top: -54881;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-filter-margin-top: -42365;
+  filter-margin-top: -42365;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-filter-margin-top: -42365;
+  filter-margin-top: -42365;
+}
+
+<div
+    className="c0"
+  />,
+]
+`;
+
+exports[`filterMarginTop renders object [breakpoints] 1`] = `
+Array [
+  @media screen and (min-width:November) {
+  .c0 {
+    -webkit-filter-margin-top: July;
+    filter-margin-top: July;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    -webkit-filter-margin-top: August;
+    filter-margin-top: August;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    -webkit-filter-margin-top: September;
+    filter-margin-top: September;
+  }
+}
+
+@media screen and (min-width:August) {
+  .c0 {
+    -webkit-filter-margin-top: November;
+    filter-margin-top: November;
+  }
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:August) {
+
+}
+
+<div
+    className="c0"
+  />,
+  @media screen and (min-width:November) {
+  .c0 {
+    -webkit-filter-margin-top: July;
+    filter-margin-top: July;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    -webkit-filter-margin-top: August;
+    filter-margin-top: August;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    -webkit-filter-margin-top: September;
+    filter-margin-top: September;
+  }
+}
+
+@media screen and (min-width:August) {
+  .c0 {
+    -webkit-filter-margin-top: November;
+    filter-margin-top: November;
+  }
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:August) {
+
+}
+
+<div
+    className="c0"
+  />,
+  @media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:August) {
+
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    -webkit-filter-margin-top: May;
+    filter-margin-top: May;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    -webkit-filter-margin-top: June;
+    filter-margin-top: June;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    -webkit-filter-margin-top: April;
+    filter-margin-top: April;
+  }
+}
+
+@media screen and (min-width:August) {
+  .c0 {
+    -webkit-filter-margin-top: November;
+    filter-margin-top: November;
+  }
+}
+
+<div
+    className="c0"
+  />,
+  @media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:August) {
+
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    -webkit-filter-margin-top: May;
+    filter-margin-top: May;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    -webkit-filter-margin-top: June;
+    filter-margin-top: June;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    -webkit-filter-margin-top: April;
+    filter-margin-top: April;
+  }
+}
+
+@media screen and (min-width:August) {
+  .c0 {
+    -webkit-filter-margin-top: November;
+    filter-margin-top: November;
+  }
+}
+
+<div
+    className="c0"
+  />,
+]
+`;
+
+exports[`filterMarginTop renders object [breakpoints] 2`] = `
+Array [
+  @media May {
+  .c0 {
+    -webkit-filter-margin-top: July;
+    filter-margin-top: July;
+  }
+}
+
+@media April {
+  .c0 {
+    -webkit-filter-margin-top: August;
+    filter-margin-top: August;
+  }
+}
+
+@media January {
+  .c0 {
+    -webkit-filter-margin-top: September;
+    filter-margin-top: September;
+  }
+}
+
+@media April {
+  .c0 {
+    -webkit-filter-margin-top: November;
+    filter-margin-top: November;
+  }
+}
+
+@media June {
+  .c0 {
+    -webkit-filter-margin-top: August;
+    filter-margin-top: August;
+  }
+}
+
+@media May {
+
+}
+
+@media April {
+
+}
+
+@media January {
+
+}
+
+@media April {
+
+}
+
+@media June {
+
+}
+
+<div
+    className="c0"
+  />,
+  @media May {
+  .c0 {
+    -webkit-filter-margin-top: July;
+    filter-margin-top: July;
+  }
+}
+
+@media April {
+  .c0 {
+    -webkit-filter-margin-top: August;
+    filter-margin-top: August;
+  }
+}
+
+@media January {
+  .c0 {
+    -webkit-filter-margin-top: September;
+    filter-margin-top: September;
+  }
+}
+
+@media April {
+  .c0 {
+    -webkit-filter-margin-top: November;
+    filter-margin-top: November;
+  }
+}
+
+@media June {
+  .c0 {
+    -webkit-filter-margin-top: August;
+    filter-margin-top: August;
+  }
+}
+
+@media May {
+
+}
+
+@media April {
+
+}
+
+@media January {
+
+}
+
+@media April {
+
+}
+
+@media June {
+
+}
+
+<div
+    className="c0"
+  />,
+  @media May {
+
+}
+
+@media April {
+
+}
+
+@media January {
+
+}
+
+@media April {
+
+}
+
+@media June {
+
+}
+
+@media May {
+  .c0 {
+    -webkit-filter-margin-top: January;
+    filter-margin-top: January;
+  }
+}
+
+@media April {
+  .c0 {
+    -webkit-filter-margin-top: December;
+    filter-margin-top: December;
+  }
+}
+
+@media January {
+  .c0 {
+    -webkit-filter-margin-top: April;
+    filter-margin-top: April;
+  }
+}
+
+@media April {
+  .c0 {
+    -webkit-filter-margin-top: May;
+    filter-margin-top: May;
+  }
+}
+
+@media June {
+  .c0 {
+    -webkit-filter-margin-top: June;
+    filter-margin-top: June;
+  }
+}
+
+<div
+    className="c0"
+  />,
+  @media May {
+
+}
+
+@media April {
+
+}
+
+@media January {
+
+}
+
+@media April {
+
+}
+
+@media June {
+
+}
+
+@media May {
+  .c0 {
+    -webkit-filter-margin-top: January;
+    filter-margin-top: January;
+  }
+}
+
+@media April {
+  .c0 {
+    -webkit-filter-margin-top: December;
+    filter-margin-top: December;
+  }
+}
+
+@media January {
+  .c0 {
+    -webkit-filter-margin-top: April;
+    filter-margin-top: April;
+  }
+}
+
+@media April {
+  .c0 {
+    -webkit-filter-margin-top: May;
+    filter-margin-top: May;
+  }
+}
+
+@media June {
+  .c0 {
+    -webkit-filter-margin-top: June;
+    filter-margin-top: June;
+  }
+}
+
+<div
+    className="c0"
+  />,
+]
+`;
+
+exports[`filterMarginTop renders postitive number 1`] = `
+Array [
+  .c0 {
+  -webkit-filter-margin-top: 54881;
+  filter-margin-top: 54881;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-filter-margin-top: 54881;
+  filter-margin-top: 54881;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-filter-margin-top: 42365;
+  filter-margin-top: 42365;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-filter-margin-top: 42365;
+  filter-margin-top: 42365;
+}
+
+<div
+    className="c0"
+  />,
+]
+`;
+
+exports[`filterMarginTop renders string 1`] = `
+Array [
+  .c0 {
+  -webkit-filter-margin-top: July;
+  filter-margin-top: July;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-filter-margin-top: July;
+  filter-margin-top: July;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-filter-margin-top: June;
+  filter-margin-top: June;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-filter-margin-top: June;
+  filter-margin-top: June;
+}
+
+<div
+    className="c0"
+  />,
+]
+`;
+
+exports[`filterMarginTop renders valid theme path 1`] = `
+Array [
+  .c0 {
+  -webkit-filter-margin-top: DarkSlateBlue;
+  filter-margin-top: DarkSlateBlue;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-filter-margin-top: DarkSlateBlue;
+  filter-margin-top: DarkSlateBlue;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-filter-margin-top: DarkSlateBlue;
+  filter-margin-top: DarkSlateBlue;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-filter-margin-top: DarkSlateBlue;
+  filter-margin-top: DarkSlateBlue;
+}
+
+<div
+    className="c0"
+  />,
+]
+`;

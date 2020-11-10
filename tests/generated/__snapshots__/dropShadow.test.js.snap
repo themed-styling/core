@@ -1,0 +1,690 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`dropShadow renders 0 1`] = `
+Array [
+  .c0 {
+  -webkit-filter: drop-shadow(0);
+  filter: drop-shadow(0);
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-filter: drop-shadow(0);
+  filter: drop-shadow(0);
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-filter: drop-shadow(0);
+  filter: drop-shadow(0);
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-filter: drop-shadow(0);
+  filter: drop-shadow(0);
+}
+
+<div
+    className="c0"
+  />,
+]
+`;
+
+exports[`dropShadow renders function 1`] = `
+Array [
+  .c0 {
+  -webkit-filter: drop-shadow(hasnot);
+  filter: drop-shadow(hasnot);
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-filter: drop-shadow(has);
+  filter: drop-shadow(has);
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-filter: drop-shadow(hasnot);
+  filter: drop-shadow(hasnot);
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-filter: drop-shadow(has);
+  filter: drop-shadow(has);
+}
+
+<div
+    className="c0"
+  />,
+]
+`;
+
+exports[`dropShadow renders invalid theme path 1`] = `
+Array [
+  .c0 {
+  -webkit-filter: drop-shadow(invalid.path.1);
+  filter: drop-shadow(invalid.path.1);
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-filter: drop-shadow(invalid.path.1);
+  filter: drop-shadow(invalid.path.1);
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-filter: drop-shadow(invalid.path.1);
+  filter: drop-shadow(invalid.path.1);
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-filter: drop-shadow(invalid.path.1);
+  filter: drop-shadow(invalid.path.1);
+}
+
+<div
+    className="c0"
+  />,
+]
+`;
+
+exports[`dropShadow renders negative number 1`] = `
+Array [
+  .c0 {
+  -webkit-filter: drop-shadow(-54881);
+  filter: drop-shadow(-54881);
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-filter: drop-shadow(-54881);
+  filter: drop-shadow(-54881);
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-filter: drop-shadow(-42365);
+  filter: drop-shadow(-42365);
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-filter: drop-shadow(-42365);
+  filter: drop-shadow(-42365);
+}
+
+<div
+    className="c0"
+  />,
+]
+`;
+
+exports[`dropShadow renders object [breakpoints] 1`] = `
+Array [
+  @media screen and (min-width:November) {
+  .c0 {
+    -webkit-filter: drop-shadow(July);
+    filter: drop-shadow(July);
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    -webkit-filter: drop-shadow(August);
+    filter: drop-shadow(August);
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    -webkit-filter: drop-shadow(September);
+    filter: drop-shadow(September);
+  }
+}
+
+@media screen and (min-width:August) {
+  .c0 {
+    -webkit-filter: drop-shadow(November);
+    filter: drop-shadow(November);
+  }
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:August) {
+
+}
+
+<div
+    className="c0"
+  />,
+  @media screen and (min-width:November) {
+  .c0 {
+    -webkit-filter: drop-shadow(July);
+    filter: drop-shadow(July);
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    -webkit-filter: drop-shadow(August);
+    filter: drop-shadow(August);
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    -webkit-filter: drop-shadow(September);
+    filter: drop-shadow(September);
+  }
+}
+
+@media screen and (min-width:August) {
+  .c0 {
+    -webkit-filter: drop-shadow(November);
+    filter: drop-shadow(November);
+  }
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:August) {
+
+}
+
+<div
+    className="c0"
+  />,
+  @media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:August) {
+
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    -webkit-filter: drop-shadow(May);
+    filter: drop-shadow(May);
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    -webkit-filter: drop-shadow(June);
+    filter: drop-shadow(June);
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    -webkit-filter: drop-shadow(April);
+    filter: drop-shadow(April);
+  }
+}
+
+@media screen and (min-width:August) {
+  .c0 {
+    -webkit-filter: drop-shadow(November);
+    filter: drop-shadow(November);
+  }
+}
+
+<div
+    className="c0"
+  />,
+  @media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:August) {
+
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    -webkit-filter: drop-shadow(May);
+    filter: drop-shadow(May);
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    -webkit-filter: drop-shadow(June);
+    filter: drop-shadow(June);
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    -webkit-filter: drop-shadow(April);
+    filter: drop-shadow(April);
+  }
+}
+
+@media screen and (min-width:August) {
+  .c0 {
+    -webkit-filter: drop-shadow(November);
+    filter: drop-shadow(November);
+  }
+}
+
+<div
+    className="c0"
+  />,
+]
+`;
+
+exports[`dropShadow renders object [breakpoints] 2`] = `
+Array [
+  @media May {
+  .c0 {
+    -webkit-filter: drop-shadow(July);
+    filter: drop-shadow(July);
+  }
+}
+
+@media April {
+  .c0 {
+    -webkit-filter: drop-shadow(August);
+    filter: drop-shadow(August);
+  }
+}
+
+@media January {
+  .c0 {
+    -webkit-filter: drop-shadow(September);
+    filter: drop-shadow(September);
+  }
+}
+
+@media April {
+  .c0 {
+    -webkit-filter: drop-shadow(November);
+    filter: drop-shadow(November);
+  }
+}
+
+@media June {
+  .c0 {
+    -webkit-filter: drop-shadow(August);
+    filter: drop-shadow(August);
+  }
+}
+
+@media May {
+
+}
+
+@media April {
+
+}
+
+@media January {
+
+}
+
+@media April {
+
+}
+
+@media June {
+
+}
+
+<div
+    className="c0"
+  />,
+  @media May {
+  .c0 {
+    -webkit-filter: drop-shadow(July);
+    filter: drop-shadow(July);
+  }
+}
+
+@media April {
+  .c0 {
+    -webkit-filter: drop-shadow(August);
+    filter: drop-shadow(August);
+  }
+}
+
+@media January {
+  .c0 {
+    -webkit-filter: drop-shadow(September);
+    filter: drop-shadow(September);
+  }
+}
+
+@media April {
+  .c0 {
+    -webkit-filter: drop-shadow(November);
+    filter: drop-shadow(November);
+  }
+}
+
+@media June {
+  .c0 {
+    -webkit-filter: drop-shadow(August);
+    filter: drop-shadow(August);
+  }
+}
+
+@media May {
+
+}
+
+@media April {
+
+}
+
+@media January {
+
+}
+
+@media April {
+
+}
+
+@media June {
+
+}
+
+<div
+    className="c0"
+  />,
+  @media May {
+
+}
+
+@media April {
+
+}
+
+@media January {
+
+}
+
+@media April {
+
+}
+
+@media June {
+
+}
+
+@media May {
+  .c0 {
+    -webkit-filter: drop-shadow(January);
+    filter: drop-shadow(January);
+  }
+}
+
+@media April {
+  .c0 {
+    -webkit-filter: drop-shadow(December);
+    filter: drop-shadow(December);
+  }
+}
+
+@media January {
+  .c0 {
+    -webkit-filter: drop-shadow(April);
+    filter: drop-shadow(April);
+  }
+}
+
+@media April {
+  .c0 {
+    -webkit-filter: drop-shadow(May);
+    filter: drop-shadow(May);
+  }
+}
+
+@media June {
+  .c0 {
+    -webkit-filter: drop-shadow(June);
+    filter: drop-shadow(June);
+  }
+}
+
+<div
+    className="c0"
+  />,
+  @media May {
+
+}
+
+@media April {
+
+}
+
+@media January {
+
+}
+
+@media April {
+
+}
+
+@media June {
+
+}
+
+@media May {
+  .c0 {
+    -webkit-filter: drop-shadow(January);
+    filter: drop-shadow(January);
+  }
+}
+
+@media April {
+  .c0 {
+    -webkit-filter: drop-shadow(December);
+    filter: drop-shadow(December);
+  }
+}
+
+@media January {
+  .c0 {
+    -webkit-filter: drop-shadow(April);
+    filter: drop-shadow(April);
+  }
+}
+
+@media April {
+  .c0 {
+    -webkit-filter: drop-shadow(May);
+    filter: drop-shadow(May);
+  }
+}
+
+@media June {
+  .c0 {
+    -webkit-filter: drop-shadow(June);
+    filter: drop-shadow(June);
+  }
+}
+
+<div
+    className="c0"
+  />,
+]
+`;
+
+exports[`dropShadow renders postitive number 1`] = `
+Array [
+  .c0 {
+  -webkit-filter: drop-shadow(54881);
+  filter: drop-shadow(54881);
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-filter: drop-shadow(54881);
+  filter: drop-shadow(54881);
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-filter: drop-shadow(42365);
+  filter: drop-shadow(42365);
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-filter: drop-shadow(42365);
+  filter: drop-shadow(42365);
+}
+
+<div
+    className="c0"
+  />,
+]
+`;
+
+exports[`dropShadow renders string 1`] = `
+Array [
+  .c0 {
+  -webkit-filter: drop-shadow(July);
+  filter: drop-shadow(July);
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-filter: drop-shadow(July);
+  filter: drop-shadow(July);
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-filter: drop-shadow(June);
+  filter: drop-shadow(June);
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-filter: drop-shadow(June);
+  filter: drop-shadow(June);
+}
+
+<div
+    className="c0"
+  />,
+]
+`;
+
+exports[`dropShadow renders valid theme path 1`] = `
+Array [
+  .c0 {
+  -webkit-filter: drop-shadow(DarkSlateBlue);
+  filter: drop-shadow(DarkSlateBlue);
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-filter: drop-shadow(DarkSlateBlue);
+  filter: drop-shadow(DarkSlateBlue);
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-filter: drop-shadow(DarkSlateBlue);
+  filter: drop-shadow(DarkSlateBlue);
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-filter: drop-shadow(DarkSlateBlue);
+  filter: drop-shadow(DarkSlateBlue);
+}
+
+<div
+    className="c0"
+  />,
+]
+`;

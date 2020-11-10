@@ -1,0 +1,690 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`hueRotate renders 0 1`] = `
+Array [
+  .c0 {
+  -webkit-filter: hue-rotate(0deg);
+  filter: hue-rotate(0deg);
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-filter: hue-rotate(0deg);
+  filter: hue-rotate(0deg);
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-filter: hue-rotate(0deg);
+  filter: hue-rotate(0deg);
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-filter: hue-rotate(0deg);
+  filter: hue-rotate(0deg);
+}
+
+<div
+    className="c0"
+  />,
+]
+`;
+
+exports[`hueRotate renders function 1`] = `
+Array [
+  .c0 {
+  -webkit-filter: hue-rotate(hasnot);
+  filter: hue-rotate(hasnot);
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-filter: hue-rotate(has);
+  filter: hue-rotate(has);
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-filter: hue-rotate(hasnot);
+  filter: hue-rotate(hasnot);
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-filter: hue-rotate(has);
+  filter: hue-rotate(has);
+}
+
+<div
+    className="c0"
+  />,
+]
+`;
+
+exports[`hueRotate renders invalid theme path 1`] = `
+Array [
+  .c0 {
+  -webkit-filter: hue-rotate(invalid.path.1);
+  filter: hue-rotate(invalid.path.1);
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-filter: hue-rotate(invalid.path.1);
+  filter: hue-rotate(invalid.path.1);
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-filter: hue-rotate(invalid.path.1);
+  filter: hue-rotate(invalid.path.1);
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-filter: hue-rotate(invalid.path.1);
+  filter: hue-rotate(invalid.path.1);
+}
+
+<div
+    className="c0"
+  />,
+]
+`;
+
+exports[`hueRotate renders negative number 1`] = `
+Array [
+  .c0 {
+  -webkit-filter: hue-rotate(-54881deg);
+  filter: hue-rotate(-54881deg);
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-filter: hue-rotate(-54881deg);
+  filter: hue-rotate(-54881deg);
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-filter: hue-rotate(-42365deg);
+  filter: hue-rotate(-42365deg);
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-filter: hue-rotate(-42365deg);
+  filter: hue-rotate(-42365deg);
+}
+
+<div
+    className="c0"
+  />,
+]
+`;
+
+exports[`hueRotate renders object [breakpoints] 1`] = `
+Array [
+  @media screen and (min-width:November) {
+  .c0 {
+    -webkit-filter: hue-rotate(July);
+    filter: hue-rotate(July);
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    -webkit-filter: hue-rotate(August);
+    filter: hue-rotate(August);
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    -webkit-filter: hue-rotate(September);
+    filter: hue-rotate(September);
+  }
+}
+
+@media screen and (min-width:August) {
+  .c0 {
+    -webkit-filter: hue-rotate(November);
+    filter: hue-rotate(November);
+  }
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:August) {
+
+}
+
+<div
+    className="c0"
+  />,
+  @media screen and (min-width:November) {
+  .c0 {
+    -webkit-filter: hue-rotate(July);
+    filter: hue-rotate(July);
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    -webkit-filter: hue-rotate(August);
+    filter: hue-rotate(August);
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    -webkit-filter: hue-rotate(September);
+    filter: hue-rotate(September);
+  }
+}
+
+@media screen and (min-width:August) {
+  .c0 {
+    -webkit-filter: hue-rotate(November);
+    filter: hue-rotate(November);
+  }
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:August) {
+
+}
+
+<div
+    className="c0"
+  />,
+  @media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:August) {
+
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    -webkit-filter: hue-rotate(May);
+    filter: hue-rotate(May);
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    -webkit-filter: hue-rotate(June);
+    filter: hue-rotate(June);
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    -webkit-filter: hue-rotate(April);
+    filter: hue-rotate(April);
+  }
+}
+
+@media screen and (min-width:August) {
+  .c0 {
+    -webkit-filter: hue-rotate(November);
+    filter: hue-rotate(November);
+  }
+}
+
+<div
+    className="c0"
+  />,
+  @media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:August) {
+
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    -webkit-filter: hue-rotate(May);
+    filter: hue-rotate(May);
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    -webkit-filter: hue-rotate(June);
+    filter: hue-rotate(June);
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    -webkit-filter: hue-rotate(April);
+    filter: hue-rotate(April);
+  }
+}
+
+@media screen and (min-width:August) {
+  .c0 {
+    -webkit-filter: hue-rotate(November);
+    filter: hue-rotate(November);
+  }
+}
+
+<div
+    className="c0"
+  />,
+]
+`;
+
+exports[`hueRotate renders object [breakpoints] 2`] = `
+Array [
+  @media May {
+  .c0 {
+    -webkit-filter: hue-rotate(July);
+    filter: hue-rotate(July);
+  }
+}
+
+@media April {
+  .c0 {
+    -webkit-filter: hue-rotate(August);
+    filter: hue-rotate(August);
+  }
+}
+
+@media January {
+  .c0 {
+    -webkit-filter: hue-rotate(September);
+    filter: hue-rotate(September);
+  }
+}
+
+@media April {
+  .c0 {
+    -webkit-filter: hue-rotate(November);
+    filter: hue-rotate(November);
+  }
+}
+
+@media June {
+  .c0 {
+    -webkit-filter: hue-rotate(August);
+    filter: hue-rotate(August);
+  }
+}
+
+@media May {
+
+}
+
+@media April {
+
+}
+
+@media January {
+
+}
+
+@media April {
+
+}
+
+@media June {
+
+}
+
+<div
+    className="c0"
+  />,
+  @media May {
+  .c0 {
+    -webkit-filter: hue-rotate(July);
+    filter: hue-rotate(July);
+  }
+}
+
+@media April {
+  .c0 {
+    -webkit-filter: hue-rotate(August);
+    filter: hue-rotate(August);
+  }
+}
+
+@media January {
+  .c0 {
+    -webkit-filter: hue-rotate(September);
+    filter: hue-rotate(September);
+  }
+}
+
+@media April {
+  .c0 {
+    -webkit-filter: hue-rotate(November);
+    filter: hue-rotate(November);
+  }
+}
+
+@media June {
+  .c0 {
+    -webkit-filter: hue-rotate(August);
+    filter: hue-rotate(August);
+  }
+}
+
+@media May {
+
+}
+
+@media April {
+
+}
+
+@media January {
+
+}
+
+@media April {
+
+}
+
+@media June {
+
+}
+
+<div
+    className="c0"
+  />,
+  @media May {
+
+}
+
+@media April {
+
+}
+
+@media January {
+
+}
+
+@media April {
+
+}
+
+@media June {
+
+}
+
+@media May {
+  .c0 {
+    -webkit-filter: hue-rotate(January);
+    filter: hue-rotate(January);
+  }
+}
+
+@media April {
+  .c0 {
+    -webkit-filter: hue-rotate(December);
+    filter: hue-rotate(December);
+  }
+}
+
+@media January {
+  .c0 {
+    -webkit-filter: hue-rotate(April);
+    filter: hue-rotate(April);
+  }
+}
+
+@media April {
+  .c0 {
+    -webkit-filter: hue-rotate(May);
+    filter: hue-rotate(May);
+  }
+}
+
+@media June {
+  .c0 {
+    -webkit-filter: hue-rotate(June);
+    filter: hue-rotate(June);
+  }
+}
+
+<div
+    className="c0"
+  />,
+  @media May {
+
+}
+
+@media April {
+
+}
+
+@media January {
+
+}
+
+@media April {
+
+}
+
+@media June {
+
+}
+
+@media May {
+  .c0 {
+    -webkit-filter: hue-rotate(January);
+    filter: hue-rotate(January);
+  }
+}
+
+@media April {
+  .c0 {
+    -webkit-filter: hue-rotate(December);
+    filter: hue-rotate(December);
+  }
+}
+
+@media January {
+  .c0 {
+    -webkit-filter: hue-rotate(April);
+    filter: hue-rotate(April);
+  }
+}
+
+@media April {
+  .c0 {
+    -webkit-filter: hue-rotate(May);
+    filter: hue-rotate(May);
+  }
+}
+
+@media June {
+  .c0 {
+    -webkit-filter: hue-rotate(June);
+    filter: hue-rotate(June);
+  }
+}
+
+<div
+    className="c0"
+  />,
+]
+`;
+
+exports[`hueRotate renders postitive number 1`] = `
+Array [
+  .c0 {
+  -webkit-filter: hue-rotate(54881deg);
+  filter: hue-rotate(54881deg);
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-filter: hue-rotate(54881deg);
+  filter: hue-rotate(54881deg);
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-filter: hue-rotate(42365deg);
+  filter: hue-rotate(42365deg);
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-filter: hue-rotate(42365deg);
+  filter: hue-rotate(42365deg);
+}
+
+<div
+    className="c0"
+  />,
+]
+`;
+
+exports[`hueRotate renders string 1`] = `
+Array [
+  .c0 {
+  -webkit-filter: hue-rotate(July);
+  filter: hue-rotate(July);
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-filter: hue-rotate(July);
+  filter: hue-rotate(July);
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-filter: hue-rotate(June);
+  filter: hue-rotate(June);
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-filter: hue-rotate(June);
+  filter: hue-rotate(June);
+}
+
+<div
+    className="c0"
+  />,
+]
+`;
+
+exports[`hueRotate renders valid theme path 1`] = `
+Array [
+  .c0 {
+  -webkit-filter: hue-rotate(DarkSlateBlue);
+  filter: hue-rotate(DarkSlateBlue);
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-filter: hue-rotate(DarkSlateBlue);
+  filter: hue-rotate(DarkSlateBlue);
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-filter: hue-rotate(DarkSlateBlue);
+  filter: hue-rotate(DarkSlateBlue);
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-filter: hue-rotate(DarkSlateBlue);
+  filter: hue-rotate(DarkSlateBlue);
+}
+
+<div
+    className="c0"
+  />,
+]
+`;

@@ -1,0 +1,626 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`verticalPosition renders 0 1`] = `
+Array [
+  .c0 {
+  vertical-position: 0;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  vertical-position: 0;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  vertical-position: 0;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  vertical-position: 0;
+}
+
+<div
+    className="c0"
+  />,
+]
+`;
+
+exports[`verticalPosition renders function 1`] = `
+Array [
+  .c0 {
+  vertical-position: hasnot;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  vertical-position: has;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  vertical-position: hasnot;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  vertical-position: has;
+}
+
+<div
+    className="c0"
+  />,
+]
+`;
+
+exports[`verticalPosition renders invalid theme path 1`] = `
+Array [
+  .c0 {
+  vertical-position: invalid.path.1;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  vertical-position: invalid.path.1;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  vertical-position: invalid.path.1;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  vertical-position: invalid.path.1;
+}
+
+<div
+    className="c0"
+  />,
+]
+`;
+
+exports[`verticalPosition renders negative number 1`] = `
+Array [
+  .c0 {
+  vertical-position: -54881;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  vertical-position: -54881;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  vertical-position: -42365;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  vertical-position: -42365;
+}
+
+<div
+    className="c0"
+  />,
+]
+`;
+
+exports[`verticalPosition renders object [breakpoints] 1`] = `
+Array [
+  @media screen and (min-width:November) {
+  .c0 {
+    vertical-position: July;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    vertical-position: August;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    vertical-position: September;
+  }
+}
+
+@media screen and (min-width:August) {
+  .c0 {
+    vertical-position: November;
+  }
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:August) {
+
+}
+
+<div
+    className="c0"
+  />,
+  @media screen and (min-width:November) {
+  .c0 {
+    vertical-position: July;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    vertical-position: August;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    vertical-position: September;
+  }
+}
+
+@media screen and (min-width:August) {
+  .c0 {
+    vertical-position: November;
+  }
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:August) {
+
+}
+
+<div
+    className="c0"
+  />,
+  @media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:August) {
+
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    vertical-position: May;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    vertical-position: June;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    vertical-position: April;
+  }
+}
+
+@media screen and (min-width:August) {
+  .c0 {
+    vertical-position: November;
+  }
+}
+
+<div
+    className="c0"
+  />,
+  @media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:August) {
+
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    vertical-position: May;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    vertical-position: June;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    vertical-position: April;
+  }
+}
+
+@media screen and (min-width:August) {
+  .c0 {
+    vertical-position: November;
+  }
+}
+
+<div
+    className="c0"
+  />,
+]
+`;
+
+exports[`verticalPosition renders object [breakpoints] 2`] = `
+Array [
+  @media May {
+  .c0 {
+    vertical-position: July;
+  }
+}
+
+@media April {
+  .c0 {
+    vertical-position: August;
+  }
+}
+
+@media January {
+  .c0 {
+    vertical-position: September;
+  }
+}
+
+@media April {
+  .c0 {
+    vertical-position: November;
+  }
+}
+
+@media June {
+  .c0 {
+    vertical-position: August;
+  }
+}
+
+@media May {
+
+}
+
+@media April {
+
+}
+
+@media January {
+
+}
+
+@media April {
+
+}
+
+@media June {
+
+}
+
+<div
+    className="c0"
+  />,
+  @media May {
+  .c0 {
+    vertical-position: July;
+  }
+}
+
+@media April {
+  .c0 {
+    vertical-position: August;
+  }
+}
+
+@media January {
+  .c0 {
+    vertical-position: September;
+  }
+}
+
+@media April {
+  .c0 {
+    vertical-position: November;
+  }
+}
+
+@media June {
+  .c0 {
+    vertical-position: August;
+  }
+}
+
+@media May {
+
+}
+
+@media April {
+
+}
+
+@media January {
+
+}
+
+@media April {
+
+}
+
+@media June {
+
+}
+
+<div
+    className="c0"
+  />,
+  @media May {
+
+}
+
+@media April {
+
+}
+
+@media January {
+
+}
+
+@media April {
+
+}
+
+@media June {
+
+}
+
+@media May {
+  .c0 {
+    vertical-position: January;
+  }
+}
+
+@media April {
+  .c0 {
+    vertical-position: December;
+  }
+}
+
+@media January {
+  .c0 {
+    vertical-position: April;
+  }
+}
+
+@media April {
+  .c0 {
+    vertical-position: May;
+  }
+}
+
+@media June {
+  .c0 {
+    vertical-position: June;
+  }
+}
+
+<div
+    className="c0"
+  />,
+  @media May {
+
+}
+
+@media April {
+
+}
+
+@media January {
+
+}
+
+@media April {
+
+}
+
+@media June {
+
+}
+
+@media May {
+  .c0 {
+    vertical-position: January;
+  }
+}
+
+@media April {
+  .c0 {
+    vertical-position: December;
+  }
+}
+
+@media January {
+  .c0 {
+    vertical-position: April;
+  }
+}
+
+@media April {
+  .c0 {
+    vertical-position: May;
+  }
+}
+
+@media June {
+  .c0 {
+    vertical-position: June;
+  }
+}
+
+<div
+    className="c0"
+  />,
+]
+`;
+
+exports[`verticalPosition renders postitive number 1`] = `
+Array [
+  .c0 {
+  vertical-position: 54881;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  vertical-position: 54881;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  vertical-position: 42365;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  vertical-position: 42365;
+}
+
+<div
+    className="c0"
+  />,
+]
+`;
+
+exports[`verticalPosition renders string 1`] = `
+Array [
+  .c0 {
+  vertical-position: July;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  vertical-position: July;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  vertical-position: June;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  vertical-position: June;
+}
+
+<div
+    className="c0"
+  />,
+]
+`;
+
+exports[`verticalPosition renders valid theme path 1`] = `
+Array [
+  .c0 {
+  vertical-position: DarkSlateBlue;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  vertical-position: DarkSlateBlue;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  vertical-position: DarkSlateBlue;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  vertical-position: DarkSlateBlue;
+}
+
+<div
+    className="c0"
+  />,
+]
+`;

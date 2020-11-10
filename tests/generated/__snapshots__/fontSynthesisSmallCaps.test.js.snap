@@ -1,0 +1,626 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`fontSynthesisSmallCaps renders 0 1`] = `
+Array [
+  .c0 {
+  font-synthesis-small-caps: 0;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  font-synthesis-small-caps: 0;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  font-synthesis-small-caps: 0;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  font-synthesis-small-caps: 0;
+}
+
+<div
+    className="c0"
+  />,
+]
+`;
+
+exports[`fontSynthesisSmallCaps renders function 1`] = `
+Array [
+  .c0 {
+  font-synthesis-small-caps: hasnot;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  font-synthesis-small-caps: has;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  font-synthesis-small-caps: hasnot;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  font-synthesis-small-caps: has;
+}
+
+<div
+    className="c0"
+  />,
+]
+`;
+
+exports[`fontSynthesisSmallCaps renders invalid theme path 1`] = `
+Array [
+  .c0 {
+  font-synthesis-small-caps: invalid.path.1;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  font-synthesis-small-caps: invalid.path.1;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  font-synthesis-small-caps: invalid.path.1;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  font-synthesis-small-caps: invalid.path.1;
+}
+
+<div
+    className="c0"
+  />,
+]
+`;
+
+exports[`fontSynthesisSmallCaps renders negative number 1`] = `
+Array [
+  .c0 {
+  font-synthesis-small-caps: -54881;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  font-synthesis-small-caps: -54881;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  font-synthesis-small-caps: -42365;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  font-synthesis-small-caps: -42365;
+}
+
+<div
+    className="c0"
+  />,
+]
+`;
+
+exports[`fontSynthesisSmallCaps renders object [breakpoints] 1`] = `
+Array [
+  @media screen and (min-width:November) {
+  .c0 {
+    font-synthesis-small-caps: July;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    font-synthesis-small-caps: August;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    font-synthesis-small-caps: September;
+  }
+}
+
+@media screen and (min-width:August) {
+  .c0 {
+    font-synthesis-small-caps: November;
+  }
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:August) {
+
+}
+
+<div
+    className="c0"
+  />,
+  @media screen and (min-width:November) {
+  .c0 {
+    font-synthesis-small-caps: July;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    font-synthesis-small-caps: August;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    font-synthesis-small-caps: September;
+  }
+}
+
+@media screen and (min-width:August) {
+  .c0 {
+    font-synthesis-small-caps: November;
+  }
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:August) {
+
+}
+
+<div
+    className="c0"
+  />,
+  @media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:August) {
+
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    font-synthesis-small-caps: May;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    font-synthesis-small-caps: June;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    font-synthesis-small-caps: April;
+  }
+}
+
+@media screen and (min-width:August) {
+  .c0 {
+    font-synthesis-small-caps: November;
+  }
+}
+
+<div
+    className="c0"
+  />,
+  @media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:August) {
+
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    font-synthesis-small-caps: May;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    font-synthesis-small-caps: June;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    font-synthesis-small-caps: April;
+  }
+}
+
+@media screen and (min-width:August) {
+  .c0 {
+    font-synthesis-small-caps: November;
+  }
+}
+
+<div
+    className="c0"
+  />,
+]
+`;
+
+exports[`fontSynthesisSmallCaps renders object [breakpoints] 2`] = `
+Array [
+  @media May {
+  .c0 {
+    font-synthesis-small-caps: July;
+  }
+}
+
+@media April {
+  .c0 {
+    font-synthesis-small-caps: August;
+  }
+}
+
+@media January {
+  .c0 {
+    font-synthesis-small-caps: September;
+  }
+}
+
+@media April {
+  .c0 {
+    font-synthesis-small-caps: November;
+  }
+}
+
+@media June {
+  .c0 {
+    font-synthesis-small-caps: August;
+  }
+}
+
+@media May {
+
+}
+
+@media April {
+
+}
+
+@media January {
+
+}
+
+@media April {
+
+}
+
+@media June {
+
+}
+
+<div
+    className="c0"
+  />,
+  @media May {
+  .c0 {
+    font-synthesis-small-caps: July;
+  }
+}
+
+@media April {
+  .c0 {
+    font-synthesis-small-caps: August;
+  }
+}
+
+@media January {
+  .c0 {
+    font-synthesis-small-caps: September;
+  }
+}
+
+@media April {
+  .c0 {
+    font-synthesis-small-caps: November;
+  }
+}
+
+@media June {
+  .c0 {
+    font-synthesis-small-caps: August;
+  }
+}
+
+@media May {
+
+}
+
+@media April {
+
+}
+
+@media January {
+
+}
+
+@media April {
+
+}
+
+@media June {
+
+}
+
+<div
+    className="c0"
+  />,
+  @media May {
+
+}
+
+@media April {
+
+}
+
+@media January {
+
+}
+
+@media April {
+
+}
+
+@media June {
+
+}
+
+@media May {
+  .c0 {
+    font-synthesis-small-caps: January;
+  }
+}
+
+@media April {
+  .c0 {
+    font-synthesis-small-caps: December;
+  }
+}
+
+@media January {
+  .c0 {
+    font-synthesis-small-caps: April;
+  }
+}
+
+@media April {
+  .c0 {
+    font-synthesis-small-caps: May;
+  }
+}
+
+@media June {
+  .c0 {
+    font-synthesis-small-caps: June;
+  }
+}
+
+<div
+    className="c0"
+  />,
+  @media May {
+
+}
+
+@media April {
+
+}
+
+@media January {
+
+}
+
+@media April {
+
+}
+
+@media June {
+
+}
+
+@media May {
+  .c0 {
+    font-synthesis-small-caps: January;
+  }
+}
+
+@media April {
+  .c0 {
+    font-synthesis-small-caps: December;
+  }
+}
+
+@media January {
+  .c0 {
+    font-synthesis-small-caps: April;
+  }
+}
+
+@media April {
+  .c0 {
+    font-synthesis-small-caps: May;
+  }
+}
+
+@media June {
+  .c0 {
+    font-synthesis-small-caps: June;
+  }
+}
+
+<div
+    className="c0"
+  />,
+]
+`;
+
+exports[`fontSynthesisSmallCaps renders postitive number 1`] = `
+Array [
+  .c0 {
+  font-synthesis-small-caps: 54881;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  font-synthesis-small-caps: 54881;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  font-synthesis-small-caps: 42365;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  font-synthesis-small-caps: 42365;
+}
+
+<div
+    className="c0"
+  />,
+]
+`;
+
+exports[`fontSynthesisSmallCaps renders string 1`] = `
+Array [
+  .c0 {
+  font-synthesis-small-caps: July;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  font-synthesis-small-caps: July;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  font-synthesis-small-caps: June;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  font-synthesis-small-caps: June;
+}
+
+<div
+    className="c0"
+  />,
+]
+`;
+
+exports[`fontSynthesisSmallCaps renders valid theme path 1`] = `
+Array [
+  .c0 {
+  font-synthesis-small-caps: DarkSlateBlue;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  font-synthesis-small-caps: DarkSlateBlue;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  font-synthesis-small-caps: DarkSlateBlue;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  font-synthesis-small-caps: DarkSlateBlue;
+}
+
+<div
+    className="c0"
+  />,
+]
+`;

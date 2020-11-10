@@ -1,0 +1,626 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`fontVariantEmoji renders 0 1`] = `
+Array [
+  .c0 {
+  font-variant-emoji: 0;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  font-variant-emoji: 0;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  font-variant-emoji: 0;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  font-variant-emoji: 0;
+}
+
+<div
+    className="c0"
+  />,
+]
+`;
+
+exports[`fontVariantEmoji renders function 1`] = `
+Array [
+  .c0 {
+  font-variant-emoji: hasnot;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  font-variant-emoji: has;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  font-variant-emoji: hasnot;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  font-variant-emoji: has;
+}
+
+<div
+    className="c0"
+  />,
+]
+`;
+
+exports[`fontVariantEmoji renders invalid theme path 1`] = `
+Array [
+  .c0 {
+  font-variant-emoji: invalid.path.1;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  font-variant-emoji: invalid.path.1;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  font-variant-emoji: invalid.path.1;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  font-variant-emoji: invalid.path.1;
+}
+
+<div
+    className="c0"
+  />,
+]
+`;
+
+exports[`fontVariantEmoji renders negative number 1`] = `
+Array [
+  .c0 {
+  font-variant-emoji: -54881;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  font-variant-emoji: -54881;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  font-variant-emoji: -42365;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  font-variant-emoji: -42365;
+}
+
+<div
+    className="c0"
+  />,
+]
+`;
+
+exports[`fontVariantEmoji renders object [breakpoints] 1`] = `
+Array [
+  @media screen and (min-width:November) {
+  .c0 {
+    font-variant-emoji: July;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    font-variant-emoji: August;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    font-variant-emoji: September;
+  }
+}
+
+@media screen and (min-width:August) {
+  .c0 {
+    font-variant-emoji: November;
+  }
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:August) {
+
+}
+
+<div
+    className="c0"
+  />,
+  @media screen and (min-width:November) {
+  .c0 {
+    font-variant-emoji: July;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    font-variant-emoji: August;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    font-variant-emoji: September;
+  }
+}
+
+@media screen and (min-width:August) {
+  .c0 {
+    font-variant-emoji: November;
+  }
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:August) {
+
+}
+
+<div
+    className="c0"
+  />,
+  @media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:August) {
+
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    font-variant-emoji: May;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    font-variant-emoji: June;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    font-variant-emoji: April;
+  }
+}
+
+@media screen and (min-width:August) {
+  .c0 {
+    font-variant-emoji: November;
+  }
+}
+
+<div
+    className="c0"
+  />,
+  @media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:August) {
+
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    font-variant-emoji: May;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    font-variant-emoji: June;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    font-variant-emoji: April;
+  }
+}
+
+@media screen and (min-width:August) {
+  .c0 {
+    font-variant-emoji: November;
+  }
+}
+
+<div
+    className="c0"
+  />,
+]
+`;
+
+exports[`fontVariantEmoji renders object [breakpoints] 2`] = `
+Array [
+  @media May {
+  .c0 {
+    font-variant-emoji: July;
+  }
+}
+
+@media April {
+  .c0 {
+    font-variant-emoji: August;
+  }
+}
+
+@media January {
+  .c0 {
+    font-variant-emoji: September;
+  }
+}
+
+@media April {
+  .c0 {
+    font-variant-emoji: November;
+  }
+}
+
+@media June {
+  .c0 {
+    font-variant-emoji: August;
+  }
+}
+
+@media May {
+
+}
+
+@media April {
+
+}
+
+@media January {
+
+}
+
+@media April {
+
+}
+
+@media June {
+
+}
+
+<div
+    className="c0"
+  />,
+  @media May {
+  .c0 {
+    font-variant-emoji: July;
+  }
+}
+
+@media April {
+  .c0 {
+    font-variant-emoji: August;
+  }
+}
+
+@media January {
+  .c0 {
+    font-variant-emoji: September;
+  }
+}
+
+@media April {
+  .c0 {
+    font-variant-emoji: November;
+  }
+}
+
+@media June {
+  .c0 {
+    font-variant-emoji: August;
+  }
+}
+
+@media May {
+
+}
+
+@media April {
+
+}
+
+@media January {
+
+}
+
+@media April {
+
+}
+
+@media June {
+
+}
+
+<div
+    className="c0"
+  />,
+  @media May {
+
+}
+
+@media April {
+
+}
+
+@media January {
+
+}
+
+@media April {
+
+}
+
+@media June {
+
+}
+
+@media May {
+  .c0 {
+    font-variant-emoji: January;
+  }
+}
+
+@media April {
+  .c0 {
+    font-variant-emoji: December;
+  }
+}
+
+@media January {
+  .c0 {
+    font-variant-emoji: April;
+  }
+}
+
+@media April {
+  .c0 {
+    font-variant-emoji: May;
+  }
+}
+
+@media June {
+  .c0 {
+    font-variant-emoji: June;
+  }
+}
+
+<div
+    className="c0"
+  />,
+  @media May {
+
+}
+
+@media April {
+
+}
+
+@media January {
+
+}
+
+@media April {
+
+}
+
+@media June {
+
+}
+
+@media May {
+  .c0 {
+    font-variant-emoji: January;
+  }
+}
+
+@media April {
+  .c0 {
+    font-variant-emoji: December;
+  }
+}
+
+@media January {
+  .c0 {
+    font-variant-emoji: April;
+  }
+}
+
+@media April {
+  .c0 {
+    font-variant-emoji: May;
+  }
+}
+
+@media June {
+  .c0 {
+    font-variant-emoji: June;
+  }
+}
+
+<div
+    className="c0"
+  />,
+]
+`;
+
+exports[`fontVariantEmoji renders postitive number 1`] = `
+Array [
+  .c0 {
+  font-variant-emoji: 54881;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  font-variant-emoji: 54881;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  font-variant-emoji: 42365;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  font-variant-emoji: 42365;
+}
+
+<div
+    className="c0"
+  />,
+]
+`;
+
+exports[`fontVariantEmoji renders string 1`] = `
+Array [
+  .c0 {
+  font-variant-emoji: July;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  font-variant-emoji: July;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  font-variant-emoji: June;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  font-variant-emoji: June;
+}
+
+<div
+    className="c0"
+  />,
+]
+`;
+
+exports[`fontVariantEmoji renders valid theme path 1`] = `
+Array [
+  .c0 {
+  font-variant-emoji: DarkSlateBlue;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  font-variant-emoji: DarkSlateBlue;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  font-variant-emoji: DarkSlateBlue;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  font-variant-emoji: DarkSlateBlue;
+}
+
+<div
+    className="c0"
+  />,
+]
+`;

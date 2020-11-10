@@ -1,0 +1,754 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`alignContent renders 0 1`] = `
+Array [
+  .c0 {
+  -webkit-align-content: 0;
+  -ms-flex-line-pack: 0;
+  align-content: 0;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-align-content: 0;
+  -ms-flex-line-pack: 0;
+  align-content: 0;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-align-content: 0;
+  -ms-flex-line-pack: 0;
+  align-content: 0;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-align-content: 0;
+  -ms-flex-line-pack: 0;
+  align-content: 0;
+}
+
+<div
+    className="c0"
+  />,
+]
+`;
+
+exports[`alignContent renders function 1`] = `
+Array [
+  .c0 {
+  -webkit-align-content: hasnot;
+  -ms-flex-line-pack: hasnot;
+  align-content: hasnot;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-align-content: has;
+  -ms-flex-line-pack: has;
+  align-content: has;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-align-content: hasnot;
+  -ms-flex-line-pack: hasnot;
+  align-content: hasnot;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-align-content: has;
+  -ms-flex-line-pack: has;
+  align-content: has;
+}
+
+<div
+    className="c0"
+  />,
+]
+`;
+
+exports[`alignContent renders invalid theme path 1`] = `
+Array [
+  .c0 {
+  -webkit-align-content: invalid.path.1;
+  -ms-flex-line-pack: invalid.path.1;
+  align-content: invalid.path.1;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-align-content: invalid.path.1;
+  -ms-flex-line-pack: invalid.path.1;
+  align-content: invalid.path.1;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-align-content: invalid.path.1;
+  -ms-flex-line-pack: invalid.path.1;
+  align-content: invalid.path.1;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-align-content: invalid.path.1;
+  -ms-flex-line-pack: invalid.path.1;
+  align-content: invalid.path.1;
+}
+
+<div
+    className="c0"
+  />,
+]
+`;
+
+exports[`alignContent renders negative number 1`] = `
+Array [
+  .c0 {
+  -webkit-align-content: -54881;
+  -ms-flex-line-pack: -54881;
+  align-content: -54881;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-align-content: -54881;
+  -ms-flex-line-pack: -54881;
+  align-content: -54881;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-align-content: -42365;
+  -ms-flex-line-pack: -42365;
+  align-content: -42365;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-align-content: -42365;
+  -ms-flex-line-pack: -42365;
+  align-content: -42365;
+}
+
+<div
+    className="c0"
+  />,
+]
+`;
+
+exports[`alignContent renders object [breakpoints] 1`] = `
+Array [
+  @media screen and (min-width:November) {
+  .c0 {
+    -webkit-align-content: July;
+    -ms-flex-line-pack: July;
+    align-content: July;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    -webkit-align-content: August;
+    -ms-flex-line-pack: August;
+    align-content: August;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    -webkit-align-content: September;
+    -ms-flex-line-pack: September;
+    align-content: September;
+  }
+}
+
+@media screen and (min-width:August) {
+  .c0 {
+    -webkit-align-content: November;
+    -ms-flex-line-pack: November;
+    align-content: November;
+  }
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:August) {
+
+}
+
+<div
+    className="c0"
+  />,
+  @media screen and (min-width:November) {
+  .c0 {
+    -webkit-align-content: July;
+    -ms-flex-line-pack: July;
+    align-content: July;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    -webkit-align-content: August;
+    -ms-flex-line-pack: August;
+    align-content: August;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    -webkit-align-content: September;
+    -ms-flex-line-pack: September;
+    align-content: September;
+  }
+}
+
+@media screen and (min-width:August) {
+  .c0 {
+    -webkit-align-content: November;
+    -ms-flex-line-pack: November;
+    align-content: November;
+  }
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:August) {
+
+}
+
+<div
+    className="c0"
+  />,
+  @media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:August) {
+
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    -webkit-align-content: May;
+    -ms-flex-line-pack: May;
+    align-content: May;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    -webkit-align-content: June;
+    -ms-flex-line-pack: June;
+    align-content: June;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    -webkit-align-content: April;
+    -ms-flex-line-pack: April;
+    align-content: April;
+  }
+}
+
+@media screen and (min-width:August) {
+  .c0 {
+    -webkit-align-content: November;
+    -ms-flex-line-pack: November;
+    align-content: November;
+  }
+}
+
+<div
+    className="c0"
+  />,
+  @media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:August) {
+
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    -webkit-align-content: May;
+    -ms-flex-line-pack: May;
+    align-content: May;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    -webkit-align-content: June;
+    -ms-flex-line-pack: June;
+    align-content: June;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    -webkit-align-content: April;
+    -ms-flex-line-pack: April;
+    align-content: April;
+  }
+}
+
+@media screen and (min-width:August) {
+  .c0 {
+    -webkit-align-content: November;
+    -ms-flex-line-pack: November;
+    align-content: November;
+  }
+}
+
+<div
+    className="c0"
+  />,
+]
+`;
+
+exports[`alignContent renders object [breakpoints] 2`] = `
+Array [
+  @media May {
+  .c0 {
+    -webkit-align-content: July;
+    -ms-flex-line-pack: July;
+    align-content: July;
+  }
+}
+
+@media April {
+  .c0 {
+    -webkit-align-content: August;
+    -ms-flex-line-pack: August;
+    align-content: August;
+  }
+}
+
+@media January {
+  .c0 {
+    -webkit-align-content: September;
+    -ms-flex-line-pack: September;
+    align-content: September;
+  }
+}
+
+@media April {
+  .c0 {
+    -webkit-align-content: November;
+    -ms-flex-line-pack: November;
+    align-content: November;
+  }
+}
+
+@media June {
+  .c0 {
+    -webkit-align-content: August;
+    -ms-flex-line-pack: August;
+    align-content: August;
+  }
+}
+
+@media May {
+
+}
+
+@media April {
+
+}
+
+@media January {
+
+}
+
+@media April {
+
+}
+
+@media June {
+
+}
+
+<div
+    className="c0"
+  />,
+  @media May {
+  .c0 {
+    -webkit-align-content: July;
+    -ms-flex-line-pack: July;
+    align-content: July;
+  }
+}
+
+@media April {
+  .c0 {
+    -webkit-align-content: August;
+    -ms-flex-line-pack: August;
+    align-content: August;
+  }
+}
+
+@media January {
+  .c0 {
+    -webkit-align-content: September;
+    -ms-flex-line-pack: September;
+    align-content: September;
+  }
+}
+
+@media April {
+  .c0 {
+    -webkit-align-content: November;
+    -ms-flex-line-pack: November;
+    align-content: November;
+  }
+}
+
+@media June {
+  .c0 {
+    -webkit-align-content: August;
+    -ms-flex-line-pack: August;
+    align-content: August;
+  }
+}
+
+@media May {
+
+}
+
+@media April {
+
+}
+
+@media January {
+
+}
+
+@media April {
+
+}
+
+@media June {
+
+}
+
+<div
+    className="c0"
+  />,
+  @media May {
+
+}
+
+@media April {
+
+}
+
+@media January {
+
+}
+
+@media April {
+
+}
+
+@media June {
+
+}
+
+@media May {
+  .c0 {
+    -webkit-align-content: January;
+    -ms-flex-line-pack: January;
+    align-content: January;
+  }
+}
+
+@media April {
+  .c0 {
+    -webkit-align-content: December;
+    -ms-flex-line-pack: December;
+    align-content: December;
+  }
+}
+
+@media January {
+  .c0 {
+    -webkit-align-content: April;
+    -ms-flex-line-pack: April;
+    align-content: April;
+  }
+}
+
+@media April {
+  .c0 {
+    -webkit-align-content: May;
+    -ms-flex-line-pack: May;
+    align-content: May;
+  }
+}
+
+@media June {
+  .c0 {
+    -webkit-align-content: June;
+    -ms-flex-line-pack: June;
+    align-content: June;
+  }
+}
+
+<div
+    className="c0"
+  />,
+  @media May {
+
+}
+
+@media April {
+
+}
+
+@media January {
+
+}
+
+@media April {
+
+}
+
+@media June {
+
+}
+
+@media May {
+  .c0 {
+    -webkit-align-content: January;
+    -ms-flex-line-pack: January;
+    align-content: January;
+  }
+}
+
+@media April {
+  .c0 {
+    -webkit-align-content: December;
+    -ms-flex-line-pack: December;
+    align-content: December;
+  }
+}
+
+@media January {
+  .c0 {
+    -webkit-align-content: April;
+    -ms-flex-line-pack: April;
+    align-content: April;
+  }
+}
+
+@media April {
+  .c0 {
+    -webkit-align-content: May;
+    -ms-flex-line-pack: May;
+    align-content: May;
+  }
+}
+
+@media June {
+  .c0 {
+    -webkit-align-content: June;
+    -ms-flex-line-pack: June;
+    align-content: June;
+  }
+}
+
+<div
+    className="c0"
+  />,
+]
+`;
+
+exports[`alignContent renders postitive number 1`] = `
+Array [
+  .c0 {
+  -webkit-align-content: 54881;
+  -ms-flex-line-pack: 54881;
+  align-content: 54881;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-align-content: 54881;
+  -ms-flex-line-pack: 54881;
+  align-content: 54881;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-align-content: 42365;
+  -ms-flex-line-pack: 42365;
+  align-content: 42365;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-align-content: 42365;
+  -ms-flex-line-pack: 42365;
+  align-content: 42365;
+}
+
+<div
+    className="c0"
+  />,
+]
+`;
+
+exports[`alignContent renders string 1`] = `
+Array [
+  .c0 {
+  -webkit-align-content: July;
+  -ms-flex-line-pack: July;
+  align-content: July;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-align-content: July;
+  -ms-flex-line-pack: July;
+  align-content: July;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-align-content: June;
+  -ms-flex-line-pack: June;
+  align-content: June;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-align-content: June;
+  -ms-flex-line-pack: June;
+  align-content: June;
+}
+
+<div
+    className="c0"
+  />,
+]
+`;
+
+exports[`alignContent renders valid theme path 1`] = `
+Array [
+  .c0 {
+  -webkit-align-content: DarkSlateBlue;
+  -ms-flex-line-pack: DarkSlateBlue;
+  align-content: DarkSlateBlue;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-align-content: DarkSlateBlue;
+  -ms-flex-line-pack: DarkSlateBlue;
+  align-content: DarkSlateBlue;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-align-content: DarkSlateBlue;
+  -ms-flex-line-pack: DarkSlateBlue;
+  align-content: DarkSlateBlue;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-align-content: DarkSlateBlue;
+  -ms-flex-line-pack: DarkSlateBlue;
+  align-content: DarkSlateBlue;
+}
+
+<div
+    className="c0"
+  />,
+]
+`;

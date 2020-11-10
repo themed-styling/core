@@ -1,0 +1,626 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`displayList renders 0 1`] = `
+Array [
+  .c0 {
+  display-list: 0;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  display-list: 0;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  display-list: 0;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  display-list: 0;
+}
+
+<div
+    className="c0"
+  />,
+]
+`;
+
+exports[`displayList renders function 1`] = `
+Array [
+  .c0 {
+  display-list: hasnot;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  display-list: has;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  display-list: hasnot;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  display-list: has;
+}
+
+<div
+    className="c0"
+  />,
+]
+`;
+
+exports[`displayList renders invalid theme path 1`] = `
+Array [
+  .c0 {
+  display-list: invalid.path.1;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  display-list: invalid.path.1;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  display-list: invalid.path.1;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  display-list: invalid.path.1;
+}
+
+<div
+    className="c0"
+  />,
+]
+`;
+
+exports[`displayList renders negative number 1`] = `
+Array [
+  .c0 {
+  display-list: -54881;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  display-list: -54881;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  display-list: -42365;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  display-list: -42365;
+}
+
+<div
+    className="c0"
+  />,
+]
+`;
+
+exports[`displayList renders object [breakpoints] 1`] = `
+Array [
+  @media screen and (min-width:November) {
+  .c0 {
+    display-list: July;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    display-list: August;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    display-list: September;
+  }
+}
+
+@media screen and (min-width:August) {
+  .c0 {
+    display-list: November;
+  }
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:August) {
+
+}
+
+<div
+    className="c0"
+  />,
+  @media screen and (min-width:November) {
+  .c0 {
+    display-list: July;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    display-list: August;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    display-list: September;
+  }
+}
+
+@media screen and (min-width:August) {
+  .c0 {
+    display-list: November;
+  }
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:August) {
+
+}
+
+<div
+    className="c0"
+  />,
+  @media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:August) {
+
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    display-list: May;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    display-list: June;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    display-list: April;
+  }
+}
+
+@media screen and (min-width:August) {
+  .c0 {
+    display-list: November;
+  }
+}
+
+<div
+    className="c0"
+  />,
+  @media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:August) {
+
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    display-list: May;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    display-list: June;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    display-list: April;
+  }
+}
+
+@media screen and (min-width:August) {
+  .c0 {
+    display-list: November;
+  }
+}
+
+<div
+    className="c0"
+  />,
+]
+`;
+
+exports[`displayList renders object [breakpoints] 2`] = `
+Array [
+  @media May {
+  .c0 {
+    display-list: July;
+  }
+}
+
+@media April {
+  .c0 {
+    display-list: August;
+  }
+}
+
+@media January {
+  .c0 {
+    display-list: September;
+  }
+}
+
+@media April {
+  .c0 {
+    display-list: November;
+  }
+}
+
+@media June {
+  .c0 {
+    display-list: August;
+  }
+}
+
+@media May {
+
+}
+
+@media April {
+
+}
+
+@media January {
+
+}
+
+@media April {
+
+}
+
+@media June {
+
+}
+
+<div
+    className="c0"
+  />,
+  @media May {
+  .c0 {
+    display-list: July;
+  }
+}
+
+@media April {
+  .c0 {
+    display-list: August;
+  }
+}
+
+@media January {
+  .c0 {
+    display-list: September;
+  }
+}
+
+@media April {
+  .c0 {
+    display-list: November;
+  }
+}
+
+@media June {
+  .c0 {
+    display-list: August;
+  }
+}
+
+@media May {
+
+}
+
+@media April {
+
+}
+
+@media January {
+
+}
+
+@media April {
+
+}
+
+@media June {
+
+}
+
+<div
+    className="c0"
+  />,
+  @media May {
+
+}
+
+@media April {
+
+}
+
+@media January {
+
+}
+
+@media April {
+
+}
+
+@media June {
+
+}
+
+@media May {
+  .c0 {
+    display-list: January;
+  }
+}
+
+@media April {
+  .c0 {
+    display-list: December;
+  }
+}
+
+@media January {
+  .c0 {
+    display-list: April;
+  }
+}
+
+@media April {
+  .c0 {
+    display-list: May;
+  }
+}
+
+@media June {
+  .c0 {
+    display-list: June;
+  }
+}
+
+<div
+    className="c0"
+  />,
+  @media May {
+
+}
+
+@media April {
+
+}
+
+@media January {
+
+}
+
+@media April {
+
+}
+
+@media June {
+
+}
+
+@media May {
+  .c0 {
+    display-list: January;
+  }
+}
+
+@media April {
+  .c0 {
+    display-list: December;
+  }
+}
+
+@media January {
+  .c0 {
+    display-list: April;
+  }
+}
+
+@media April {
+  .c0 {
+    display-list: May;
+  }
+}
+
+@media June {
+  .c0 {
+    display-list: June;
+  }
+}
+
+<div
+    className="c0"
+  />,
+]
+`;
+
+exports[`displayList renders postitive number 1`] = `
+Array [
+  .c0 {
+  display-list: 54881;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  display-list: 54881;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  display-list: 42365;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  display-list: 42365;
+}
+
+<div
+    className="c0"
+  />,
+]
+`;
+
+exports[`displayList renders string 1`] = `
+Array [
+  .c0 {
+  display-list: July;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  display-list: July;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  display-list: June;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  display-list: June;
+}
+
+<div
+    className="c0"
+  />,
+]
+`;
+
+exports[`displayList renders valid theme path 1`] = `
+Array [
+  .c0 {
+  display-list: DarkSlateBlue;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  display-list: DarkSlateBlue;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  display-list: DarkSlateBlue;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  display-list: DarkSlateBlue;
+}
+
+<div
+    className="c0"
+  />,
+]
+`;

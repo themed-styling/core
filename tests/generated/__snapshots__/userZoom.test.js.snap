@@ -1,0 +1,818 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`userZoom renders 0 1`] = `
+Array [
+  .c0 {
+  -webkit-user-zoom: 0;
+  -moz-user-zoom: 0;
+  -ms-user-zoom: 0;
+  user-zoom: 0;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-user-zoom: 0;
+  -moz-user-zoom: 0;
+  -ms-user-zoom: 0;
+  user-zoom: 0;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-user-zoom: 0;
+  -moz-user-zoom: 0;
+  -ms-user-zoom: 0;
+  user-zoom: 0;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-user-zoom: 0;
+  -moz-user-zoom: 0;
+  -ms-user-zoom: 0;
+  user-zoom: 0;
+}
+
+<div
+    className="c0"
+  />,
+]
+`;
+
+exports[`userZoom renders function 1`] = `
+Array [
+  .c0 {
+  -webkit-user-zoom: hasnot;
+  -moz-user-zoom: hasnot;
+  -ms-user-zoom: hasnot;
+  user-zoom: hasnot;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-user-zoom: has;
+  -moz-user-zoom: has;
+  -ms-user-zoom: has;
+  user-zoom: has;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-user-zoom: hasnot;
+  -moz-user-zoom: hasnot;
+  -ms-user-zoom: hasnot;
+  user-zoom: hasnot;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-user-zoom: has;
+  -moz-user-zoom: has;
+  -ms-user-zoom: has;
+  user-zoom: has;
+}
+
+<div
+    className="c0"
+  />,
+]
+`;
+
+exports[`userZoom renders invalid theme path 1`] = `
+Array [
+  .c0 {
+  -webkit-user-zoom: invalid.path.1;
+  -moz-user-zoom: invalid.path.1;
+  -ms-user-zoom: invalid.path.1;
+  user-zoom: invalid.path.1;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-user-zoom: invalid.path.1;
+  -moz-user-zoom: invalid.path.1;
+  -ms-user-zoom: invalid.path.1;
+  user-zoom: invalid.path.1;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-user-zoom: invalid.path.1;
+  -moz-user-zoom: invalid.path.1;
+  -ms-user-zoom: invalid.path.1;
+  user-zoom: invalid.path.1;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-user-zoom: invalid.path.1;
+  -moz-user-zoom: invalid.path.1;
+  -ms-user-zoom: invalid.path.1;
+  user-zoom: invalid.path.1;
+}
+
+<div
+    className="c0"
+  />,
+]
+`;
+
+exports[`userZoom renders negative number 1`] = `
+Array [
+  .c0 {
+  -webkit-user-zoom: -54881;
+  -moz-user-zoom: -54881;
+  -ms-user-zoom: -54881;
+  user-zoom: -54881;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-user-zoom: -54881;
+  -moz-user-zoom: -54881;
+  -ms-user-zoom: -54881;
+  user-zoom: -54881;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-user-zoom: -42365;
+  -moz-user-zoom: -42365;
+  -ms-user-zoom: -42365;
+  user-zoom: -42365;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-user-zoom: -42365;
+  -moz-user-zoom: -42365;
+  -ms-user-zoom: -42365;
+  user-zoom: -42365;
+}
+
+<div
+    className="c0"
+  />,
+]
+`;
+
+exports[`userZoom renders object [breakpoints] 1`] = `
+Array [
+  @media screen and (min-width:November) {
+  .c0 {
+    -webkit-user-zoom: July;
+    -moz-user-zoom: July;
+    -ms-user-zoom: July;
+    user-zoom: July;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    -webkit-user-zoom: August;
+    -moz-user-zoom: August;
+    -ms-user-zoom: August;
+    user-zoom: August;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    -webkit-user-zoom: September;
+    -moz-user-zoom: September;
+    -ms-user-zoom: September;
+    user-zoom: September;
+  }
+}
+
+@media screen and (min-width:August) {
+  .c0 {
+    -webkit-user-zoom: November;
+    -moz-user-zoom: November;
+    -ms-user-zoom: November;
+    user-zoom: November;
+  }
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:August) {
+
+}
+
+<div
+    className="c0"
+  />,
+  @media screen and (min-width:November) {
+  .c0 {
+    -webkit-user-zoom: July;
+    -moz-user-zoom: July;
+    -ms-user-zoom: July;
+    user-zoom: July;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    -webkit-user-zoom: August;
+    -moz-user-zoom: August;
+    -ms-user-zoom: August;
+    user-zoom: August;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    -webkit-user-zoom: September;
+    -moz-user-zoom: September;
+    -ms-user-zoom: September;
+    user-zoom: September;
+  }
+}
+
+@media screen and (min-width:August) {
+  .c0 {
+    -webkit-user-zoom: November;
+    -moz-user-zoom: November;
+    -ms-user-zoom: November;
+    user-zoom: November;
+  }
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:August) {
+
+}
+
+<div
+    className="c0"
+  />,
+  @media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:August) {
+
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    -webkit-user-zoom: May;
+    -moz-user-zoom: May;
+    -ms-user-zoom: May;
+    user-zoom: May;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    -webkit-user-zoom: June;
+    -moz-user-zoom: June;
+    -ms-user-zoom: June;
+    user-zoom: June;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    -webkit-user-zoom: April;
+    -moz-user-zoom: April;
+    -ms-user-zoom: April;
+    user-zoom: April;
+  }
+}
+
+@media screen and (min-width:August) {
+  .c0 {
+    -webkit-user-zoom: November;
+    -moz-user-zoom: November;
+    -ms-user-zoom: November;
+    user-zoom: November;
+  }
+}
+
+<div
+    className="c0"
+  />,
+  @media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:August) {
+
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    -webkit-user-zoom: May;
+    -moz-user-zoom: May;
+    -ms-user-zoom: May;
+    user-zoom: May;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    -webkit-user-zoom: June;
+    -moz-user-zoom: June;
+    -ms-user-zoom: June;
+    user-zoom: June;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    -webkit-user-zoom: April;
+    -moz-user-zoom: April;
+    -ms-user-zoom: April;
+    user-zoom: April;
+  }
+}
+
+@media screen and (min-width:August) {
+  .c0 {
+    -webkit-user-zoom: November;
+    -moz-user-zoom: November;
+    -ms-user-zoom: November;
+    user-zoom: November;
+  }
+}
+
+<div
+    className="c0"
+  />,
+]
+`;
+
+exports[`userZoom renders object [breakpoints] 2`] = `
+Array [
+  @media May {
+  .c0 {
+    -webkit-user-zoom: July;
+    -moz-user-zoom: July;
+    -ms-user-zoom: July;
+    user-zoom: July;
+  }
+}
+
+@media April {
+  .c0 {
+    -webkit-user-zoom: August;
+    -moz-user-zoom: August;
+    -ms-user-zoom: August;
+    user-zoom: August;
+  }
+}
+
+@media January {
+  .c0 {
+    -webkit-user-zoom: September;
+    -moz-user-zoom: September;
+    -ms-user-zoom: September;
+    user-zoom: September;
+  }
+}
+
+@media April {
+  .c0 {
+    -webkit-user-zoom: November;
+    -moz-user-zoom: November;
+    -ms-user-zoom: November;
+    user-zoom: November;
+  }
+}
+
+@media June {
+  .c0 {
+    -webkit-user-zoom: August;
+    -moz-user-zoom: August;
+    -ms-user-zoom: August;
+    user-zoom: August;
+  }
+}
+
+@media May {
+
+}
+
+@media April {
+
+}
+
+@media January {
+
+}
+
+@media April {
+
+}
+
+@media June {
+
+}
+
+<div
+    className="c0"
+  />,
+  @media May {
+  .c0 {
+    -webkit-user-zoom: July;
+    -moz-user-zoom: July;
+    -ms-user-zoom: July;
+    user-zoom: July;
+  }
+}
+
+@media April {
+  .c0 {
+    -webkit-user-zoom: August;
+    -moz-user-zoom: August;
+    -ms-user-zoom: August;
+    user-zoom: August;
+  }
+}
+
+@media January {
+  .c0 {
+    -webkit-user-zoom: September;
+    -moz-user-zoom: September;
+    -ms-user-zoom: September;
+    user-zoom: September;
+  }
+}
+
+@media April {
+  .c0 {
+    -webkit-user-zoom: November;
+    -moz-user-zoom: November;
+    -ms-user-zoom: November;
+    user-zoom: November;
+  }
+}
+
+@media June {
+  .c0 {
+    -webkit-user-zoom: August;
+    -moz-user-zoom: August;
+    -ms-user-zoom: August;
+    user-zoom: August;
+  }
+}
+
+@media May {
+
+}
+
+@media April {
+
+}
+
+@media January {
+
+}
+
+@media April {
+
+}
+
+@media June {
+
+}
+
+<div
+    className="c0"
+  />,
+  @media May {
+
+}
+
+@media April {
+
+}
+
+@media January {
+
+}
+
+@media April {
+
+}
+
+@media June {
+
+}
+
+@media May {
+  .c0 {
+    -webkit-user-zoom: January;
+    -moz-user-zoom: January;
+    -ms-user-zoom: January;
+    user-zoom: January;
+  }
+}
+
+@media April {
+  .c0 {
+    -webkit-user-zoom: December;
+    -moz-user-zoom: December;
+    -ms-user-zoom: December;
+    user-zoom: December;
+  }
+}
+
+@media January {
+  .c0 {
+    -webkit-user-zoom: April;
+    -moz-user-zoom: April;
+    -ms-user-zoom: April;
+    user-zoom: April;
+  }
+}
+
+@media April {
+  .c0 {
+    -webkit-user-zoom: May;
+    -moz-user-zoom: May;
+    -ms-user-zoom: May;
+    user-zoom: May;
+  }
+}
+
+@media June {
+  .c0 {
+    -webkit-user-zoom: June;
+    -moz-user-zoom: June;
+    -ms-user-zoom: June;
+    user-zoom: June;
+  }
+}
+
+<div
+    className="c0"
+  />,
+  @media May {
+
+}
+
+@media April {
+
+}
+
+@media January {
+
+}
+
+@media April {
+
+}
+
+@media June {
+
+}
+
+@media May {
+  .c0 {
+    -webkit-user-zoom: January;
+    -moz-user-zoom: January;
+    -ms-user-zoom: January;
+    user-zoom: January;
+  }
+}
+
+@media April {
+  .c0 {
+    -webkit-user-zoom: December;
+    -moz-user-zoom: December;
+    -ms-user-zoom: December;
+    user-zoom: December;
+  }
+}
+
+@media January {
+  .c0 {
+    -webkit-user-zoom: April;
+    -moz-user-zoom: April;
+    -ms-user-zoom: April;
+    user-zoom: April;
+  }
+}
+
+@media April {
+  .c0 {
+    -webkit-user-zoom: May;
+    -moz-user-zoom: May;
+    -ms-user-zoom: May;
+    user-zoom: May;
+  }
+}
+
+@media June {
+  .c0 {
+    -webkit-user-zoom: June;
+    -moz-user-zoom: June;
+    -ms-user-zoom: June;
+    user-zoom: June;
+  }
+}
+
+<div
+    className="c0"
+  />,
+]
+`;
+
+exports[`userZoom renders postitive number 1`] = `
+Array [
+  .c0 {
+  -webkit-user-zoom: 54881;
+  -moz-user-zoom: 54881;
+  -ms-user-zoom: 54881;
+  user-zoom: 54881;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-user-zoom: 54881;
+  -moz-user-zoom: 54881;
+  -ms-user-zoom: 54881;
+  user-zoom: 54881;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-user-zoom: 42365;
+  -moz-user-zoom: 42365;
+  -ms-user-zoom: 42365;
+  user-zoom: 42365;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-user-zoom: 42365;
+  -moz-user-zoom: 42365;
+  -ms-user-zoom: 42365;
+  user-zoom: 42365;
+}
+
+<div
+    className="c0"
+  />,
+]
+`;
+
+exports[`userZoom renders string 1`] = `
+Array [
+  .c0 {
+  -webkit-user-zoom: July;
+  -moz-user-zoom: July;
+  -ms-user-zoom: July;
+  user-zoom: July;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-user-zoom: July;
+  -moz-user-zoom: July;
+  -ms-user-zoom: July;
+  user-zoom: July;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-user-zoom: June;
+  -moz-user-zoom: June;
+  -ms-user-zoom: June;
+  user-zoom: June;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-user-zoom: June;
+  -moz-user-zoom: June;
+  -ms-user-zoom: June;
+  user-zoom: June;
+}
+
+<div
+    className="c0"
+  />,
+]
+`;
+
+exports[`userZoom renders valid theme path 1`] = `
+Array [
+  .c0 {
+  -webkit-user-zoom: DarkSlateBlue;
+  -moz-user-zoom: DarkSlateBlue;
+  -ms-user-zoom: DarkSlateBlue;
+  user-zoom: DarkSlateBlue;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-user-zoom: DarkSlateBlue;
+  -moz-user-zoom: DarkSlateBlue;
+  -ms-user-zoom: DarkSlateBlue;
+  user-zoom: DarkSlateBlue;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-user-zoom: DarkSlateBlue;
+  -moz-user-zoom: DarkSlateBlue;
+  -ms-user-zoom: DarkSlateBlue;
+  user-zoom: DarkSlateBlue;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-user-zoom: DarkSlateBlue;
+  -moz-user-zoom: DarkSlateBlue;
+  -ms-user-zoom: DarkSlateBlue;
+  user-zoom: DarkSlateBlue;
+}
+
+<div
+    className="c0"
+  />,
+]
+`;

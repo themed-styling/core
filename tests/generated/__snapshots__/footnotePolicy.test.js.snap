@@ -1,0 +1,626 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`footnotePolicy renders 0 1`] = `
+Array [
+  .c0 {
+  footnote-policy: 0;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  footnote-policy: 0;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  footnote-policy: 0;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  footnote-policy: 0;
+}
+
+<div
+    className="c0"
+  />,
+]
+`;
+
+exports[`footnotePolicy renders function 1`] = `
+Array [
+  .c0 {
+  footnote-policy: hasnot;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  footnote-policy: has;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  footnote-policy: hasnot;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  footnote-policy: has;
+}
+
+<div
+    className="c0"
+  />,
+]
+`;
+
+exports[`footnotePolicy renders invalid theme path 1`] = `
+Array [
+  .c0 {
+  footnote-policy: invalid.path.1;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  footnote-policy: invalid.path.1;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  footnote-policy: invalid.path.1;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  footnote-policy: invalid.path.1;
+}
+
+<div
+    className="c0"
+  />,
+]
+`;
+
+exports[`footnotePolicy renders negative number 1`] = `
+Array [
+  .c0 {
+  footnote-policy: -54881;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  footnote-policy: -54881;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  footnote-policy: -42365;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  footnote-policy: -42365;
+}
+
+<div
+    className="c0"
+  />,
+]
+`;
+
+exports[`footnotePolicy renders object [breakpoints] 1`] = `
+Array [
+  @media screen and (min-width:November) {
+  .c0 {
+    footnote-policy: July;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    footnote-policy: August;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    footnote-policy: September;
+  }
+}
+
+@media screen and (min-width:August) {
+  .c0 {
+    footnote-policy: November;
+  }
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:August) {
+
+}
+
+<div
+    className="c0"
+  />,
+  @media screen and (min-width:November) {
+  .c0 {
+    footnote-policy: July;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    footnote-policy: August;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    footnote-policy: September;
+  }
+}
+
+@media screen and (min-width:August) {
+  .c0 {
+    footnote-policy: November;
+  }
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:August) {
+
+}
+
+<div
+    className="c0"
+  />,
+  @media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:August) {
+
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    footnote-policy: May;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    footnote-policy: June;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    footnote-policy: April;
+  }
+}
+
+@media screen and (min-width:August) {
+  .c0 {
+    footnote-policy: November;
+  }
+}
+
+<div
+    className="c0"
+  />,
+  @media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:August) {
+
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    footnote-policy: May;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    footnote-policy: June;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    footnote-policy: April;
+  }
+}
+
+@media screen and (min-width:August) {
+  .c0 {
+    footnote-policy: November;
+  }
+}
+
+<div
+    className="c0"
+  />,
+]
+`;
+
+exports[`footnotePolicy renders object [breakpoints] 2`] = `
+Array [
+  @media May {
+  .c0 {
+    footnote-policy: July;
+  }
+}
+
+@media April {
+  .c0 {
+    footnote-policy: August;
+  }
+}
+
+@media January {
+  .c0 {
+    footnote-policy: September;
+  }
+}
+
+@media April {
+  .c0 {
+    footnote-policy: November;
+  }
+}
+
+@media June {
+  .c0 {
+    footnote-policy: August;
+  }
+}
+
+@media May {
+
+}
+
+@media April {
+
+}
+
+@media January {
+
+}
+
+@media April {
+
+}
+
+@media June {
+
+}
+
+<div
+    className="c0"
+  />,
+  @media May {
+  .c0 {
+    footnote-policy: July;
+  }
+}
+
+@media April {
+  .c0 {
+    footnote-policy: August;
+  }
+}
+
+@media January {
+  .c0 {
+    footnote-policy: September;
+  }
+}
+
+@media April {
+  .c0 {
+    footnote-policy: November;
+  }
+}
+
+@media June {
+  .c0 {
+    footnote-policy: August;
+  }
+}
+
+@media May {
+
+}
+
+@media April {
+
+}
+
+@media January {
+
+}
+
+@media April {
+
+}
+
+@media June {
+
+}
+
+<div
+    className="c0"
+  />,
+  @media May {
+
+}
+
+@media April {
+
+}
+
+@media January {
+
+}
+
+@media April {
+
+}
+
+@media June {
+
+}
+
+@media May {
+  .c0 {
+    footnote-policy: January;
+  }
+}
+
+@media April {
+  .c0 {
+    footnote-policy: December;
+  }
+}
+
+@media January {
+  .c0 {
+    footnote-policy: April;
+  }
+}
+
+@media April {
+  .c0 {
+    footnote-policy: May;
+  }
+}
+
+@media June {
+  .c0 {
+    footnote-policy: June;
+  }
+}
+
+<div
+    className="c0"
+  />,
+  @media May {
+
+}
+
+@media April {
+
+}
+
+@media January {
+
+}
+
+@media April {
+
+}
+
+@media June {
+
+}
+
+@media May {
+  .c0 {
+    footnote-policy: January;
+  }
+}
+
+@media April {
+  .c0 {
+    footnote-policy: December;
+  }
+}
+
+@media January {
+  .c0 {
+    footnote-policy: April;
+  }
+}
+
+@media April {
+  .c0 {
+    footnote-policy: May;
+  }
+}
+
+@media June {
+  .c0 {
+    footnote-policy: June;
+  }
+}
+
+<div
+    className="c0"
+  />,
+]
+`;
+
+exports[`footnotePolicy renders postitive number 1`] = `
+Array [
+  .c0 {
+  footnote-policy: 54881;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  footnote-policy: 54881;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  footnote-policy: 42365;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  footnote-policy: 42365;
+}
+
+<div
+    className="c0"
+  />,
+]
+`;
+
+exports[`footnotePolicy renders string 1`] = `
+Array [
+  .c0 {
+  footnote-policy: July;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  footnote-policy: July;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  footnote-policy: June;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  footnote-policy: June;
+}
+
+<div
+    className="c0"
+  />,
+]
+`;
+
+exports[`footnotePolicy renders valid theme path 1`] = `
+Array [
+  .c0 {
+  footnote-policy: DarkSlateBlue;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  footnote-policy: DarkSlateBlue;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  footnote-policy: DarkSlateBlue;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  footnote-policy: DarkSlateBlue;
+}
+
+<div
+    className="c0"
+  />,
+]
+`;

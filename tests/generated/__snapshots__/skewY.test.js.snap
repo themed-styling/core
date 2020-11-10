@@ -1,0 +1,754 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`skewY renders 0 1`] = `
+Array [
+  .c0 {
+  -webkit-transform: skewY(0deg);
+  -ms-transform: skewY(0deg);
+  transform: skewY(0deg);
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-transform: skewY(0deg);
+  -ms-transform: skewY(0deg);
+  transform: skewY(0deg);
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-transform: skewY(0deg);
+  -ms-transform: skewY(0deg);
+  transform: skewY(0deg);
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-transform: skewY(0deg);
+  -ms-transform: skewY(0deg);
+  transform: skewY(0deg);
+}
+
+<div
+    className="c0"
+  />,
+]
+`;
+
+exports[`skewY renders function 1`] = `
+Array [
+  .c0 {
+  -webkit-transform: skewY(hasnot);
+  -ms-transform: skewY(hasnot);
+  transform: skewY(hasnot);
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-transform: skewY(has);
+  -ms-transform: skewY(has);
+  transform: skewY(has);
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-transform: skewY(hasnot);
+  -ms-transform: skewY(hasnot);
+  transform: skewY(hasnot);
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-transform: skewY(has);
+  -ms-transform: skewY(has);
+  transform: skewY(has);
+}
+
+<div
+    className="c0"
+  />,
+]
+`;
+
+exports[`skewY renders invalid theme path 1`] = `
+Array [
+  .c0 {
+  -webkit-transform: skewY(invalid.path.1);
+  -ms-transform: skewY(invalid.path.1);
+  transform: skewY(invalid.path.1);
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-transform: skewY(invalid.path.1);
+  -ms-transform: skewY(invalid.path.1);
+  transform: skewY(invalid.path.1);
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-transform: skewY(invalid.path.1);
+  -ms-transform: skewY(invalid.path.1);
+  transform: skewY(invalid.path.1);
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-transform: skewY(invalid.path.1);
+  -ms-transform: skewY(invalid.path.1);
+  transform: skewY(invalid.path.1);
+}
+
+<div
+    className="c0"
+  />,
+]
+`;
+
+exports[`skewY renders negative number 1`] = `
+Array [
+  .c0 {
+  -webkit-transform: skewY(-54881deg);
+  -ms-transform: skewY(-54881deg);
+  transform: skewY(-54881deg);
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-transform: skewY(-54881deg);
+  -ms-transform: skewY(-54881deg);
+  transform: skewY(-54881deg);
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-transform: skewY(-42365deg);
+  -ms-transform: skewY(-42365deg);
+  transform: skewY(-42365deg);
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-transform: skewY(-42365deg);
+  -ms-transform: skewY(-42365deg);
+  transform: skewY(-42365deg);
+}
+
+<div
+    className="c0"
+  />,
+]
+`;
+
+exports[`skewY renders object [breakpoints] 1`] = `
+Array [
+  @media screen and (min-width:November) {
+  .c0 {
+    -webkit-transform: skewY(July);
+    -ms-transform: skewY(July);
+    transform: skewY(July);
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    -webkit-transform: skewY(August);
+    -ms-transform: skewY(August);
+    transform: skewY(August);
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    -webkit-transform: skewY(September);
+    -ms-transform: skewY(September);
+    transform: skewY(September);
+  }
+}
+
+@media screen and (min-width:August) {
+  .c0 {
+    -webkit-transform: skewY(November);
+    -ms-transform: skewY(November);
+    transform: skewY(November);
+  }
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:August) {
+
+}
+
+<div
+    className="c0"
+  />,
+  @media screen and (min-width:November) {
+  .c0 {
+    -webkit-transform: skewY(July);
+    -ms-transform: skewY(July);
+    transform: skewY(July);
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    -webkit-transform: skewY(August);
+    -ms-transform: skewY(August);
+    transform: skewY(August);
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    -webkit-transform: skewY(September);
+    -ms-transform: skewY(September);
+    transform: skewY(September);
+  }
+}
+
+@media screen and (min-width:August) {
+  .c0 {
+    -webkit-transform: skewY(November);
+    -ms-transform: skewY(November);
+    transform: skewY(November);
+  }
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:August) {
+
+}
+
+<div
+    className="c0"
+  />,
+  @media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:August) {
+
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    -webkit-transform: skewY(May);
+    -ms-transform: skewY(May);
+    transform: skewY(May);
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    -webkit-transform: skewY(June);
+    -ms-transform: skewY(June);
+    transform: skewY(June);
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    -webkit-transform: skewY(April);
+    -ms-transform: skewY(April);
+    transform: skewY(April);
+  }
+}
+
+@media screen and (min-width:August) {
+  .c0 {
+    -webkit-transform: skewY(November);
+    -ms-transform: skewY(November);
+    transform: skewY(November);
+  }
+}
+
+<div
+    className="c0"
+  />,
+  @media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:August) {
+
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    -webkit-transform: skewY(May);
+    -ms-transform: skewY(May);
+    transform: skewY(May);
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    -webkit-transform: skewY(June);
+    -ms-transform: skewY(June);
+    transform: skewY(June);
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    -webkit-transform: skewY(April);
+    -ms-transform: skewY(April);
+    transform: skewY(April);
+  }
+}
+
+@media screen and (min-width:August) {
+  .c0 {
+    -webkit-transform: skewY(November);
+    -ms-transform: skewY(November);
+    transform: skewY(November);
+  }
+}
+
+<div
+    className="c0"
+  />,
+]
+`;
+
+exports[`skewY renders object [breakpoints] 2`] = `
+Array [
+  @media May {
+  .c0 {
+    -webkit-transform: skewY(July);
+    -ms-transform: skewY(July);
+    transform: skewY(July);
+  }
+}
+
+@media April {
+  .c0 {
+    -webkit-transform: skewY(August);
+    -ms-transform: skewY(August);
+    transform: skewY(August);
+  }
+}
+
+@media January {
+  .c0 {
+    -webkit-transform: skewY(September);
+    -ms-transform: skewY(September);
+    transform: skewY(September);
+  }
+}
+
+@media April {
+  .c0 {
+    -webkit-transform: skewY(November);
+    -ms-transform: skewY(November);
+    transform: skewY(November);
+  }
+}
+
+@media June {
+  .c0 {
+    -webkit-transform: skewY(August);
+    -ms-transform: skewY(August);
+    transform: skewY(August);
+  }
+}
+
+@media May {
+
+}
+
+@media April {
+
+}
+
+@media January {
+
+}
+
+@media April {
+
+}
+
+@media June {
+
+}
+
+<div
+    className="c0"
+  />,
+  @media May {
+  .c0 {
+    -webkit-transform: skewY(July);
+    -ms-transform: skewY(July);
+    transform: skewY(July);
+  }
+}
+
+@media April {
+  .c0 {
+    -webkit-transform: skewY(August);
+    -ms-transform: skewY(August);
+    transform: skewY(August);
+  }
+}
+
+@media January {
+  .c0 {
+    -webkit-transform: skewY(September);
+    -ms-transform: skewY(September);
+    transform: skewY(September);
+  }
+}
+
+@media April {
+  .c0 {
+    -webkit-transform: skewY(November);
+    -ms-transform: skewY(November);
+    transform: skewY(November);
+  }
+}
+
+@media June {
+  .c0 {
+    -webkit-transform: skewY(August);
+    -ms-transform: skewY(August);
+    transform: skewY(August);
+  }
+}
+
+@media May {
+
+}
+
+@media April {
+
+}
+
+@media January {
+
+}
+
+@media April {
+
+}
+
+@media June {
+
+}
+
+<div
+    className="c0"
+  />,
+  @media May {
+
+}
+
+@media April {
+
+}
+
+@media January {
+
+}
+
+@media April {
+
+}
+
+@media June {
+
+}
+
+@media May {
+  .c0 {
+    -webkit-transform: skewY(January);
+    -ms-transform: skewY(January);
+    transform: skewY(January);
+  }
+}
+
+@media April {
+  .c0 {
+    -webkit-transform: skewY(December);
+    -ms-transform: skewY(December);
+    transform: skewY(December);
+  }
+}
+
+@media January {
+  .c0 {
+    -webkit-transform: skewY(April);
+    -ms-transform: skewY(April);
+    transform: skewY(April);
+  }
+}
+
+@media April {
+  .c0 {
+    -webkit-transform: skewY(May);
+    -ms-transform: skewY(May);
+    transform: skewY(May);
+  }
+}
+
+@media June {
+  .c0 {
+    -webkit-transform: skewY(June);
+    -ms-transform: skewY(June);
+    transform: skewY(June);
+  }
+}
+
+<div
+    className="c0"
+  />,
+  @media May {
+
+}
+
+@media April {
+
+}
+
+@media January {
+
+}
+
+@media April {
+
+}
+
+@media June {
+
+}
+
+@media May {
+  .c0 {
+    -webkit-transform: skewY(January);
+    -ms-transform: skewY(January);
+    transform: skewY(January);
+  }
+}
+
+@media April {
+  .c0 {
+    -webkit-transform: skewY(December);
+    -ms-transform: skewY(December);
+    transform: skewY(December);
+  }
+}
+
+@media January {
+  .c0 {
+    -webkit-transform: skewY(April);
+    -ms-transform: skewY(April);
+    transform: skewY(April);
+  }
+}
+
+@media April {
+  .c0 {
+    -webkit-transform: skewY(May);
+    -ms-transform: skewY(May);
+    transform: skewY(May);
+  }
+}
+
+@media June {
+  .c0 {
+    -webkit-transform: skewY(June);
+    -ms-transform: skewY(June);
+    transform: skewY(June);
+  }
+}
+
+<div
+    className="c0"
+  />,
+]
+`;
+
+exports[`skewY renders postitive number 1`] = `
+Array [
+  .c0 {
+  -webkit-transform: skewY(54881deg);
+  -ms-transform: skewY(54881deg);
+  transform: skewY(54881deg);
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-transform: skewY(54881deg);
+  -ms-transform: skewY(54881deg);
+  transform: skewY(54881deg);
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-transform: skewY(42365deg);
+  -ms-transform: skewY(42365deg);
+  transform: skewY(42365deg);
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-transform: skewY(42365deg);
+  -ms-transform: skewY(42365deg);
+  transform: skewY(42365deg);
+}
+
+<div
+    className="c0"
+  />,
+]
+`;
+
+exports[`skewY renders string 1`] = `
+Array [
+  .c0 {
+  -webkit-transform: skewY(July);
+  -ms-transform: skewY(July);
+  transform: skewY(July);
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-transform: skewY(July);
+  -ms-transform: skewY(July);
+  transform: skewY(July);
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-transform: skewY(June);
+  -ms-transform: skewY(June);
+  transform: skewY(June);
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-transform: skewY(June);
+  -ms-transform: skewY(June);
+  transform: skewY(June);
+}
+
+<div
+    className="c0"
+  />,
+]
+`;
+
+exports[`skewY renders valid theme path 1`] = `
+Array [
+  .c0 {
+  -webkit-transform: skewY(DarkSlateBlue);
+  -ms-transform: skewY(DarkSlateBlue);
+  transform: skewY(DarkSlateBlue);
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-transform: skewY(DarkSlateBlue);
+  -ms-transform: skewY(DarkSlateBlue);
+  transform: skewY(DarkSlateBlue);
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-transform: skewY(DarkSlateBlue);
+  -ms-transform: skewY(DarkSlateBlue);
+  transform: skewY(DarkSlateBlue);
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-transform: skewY(DarkSlateBlue);
+  -ms-transform: skewY(DarkSlateBlue);
+  transform: skewY(DarkSlateBlue);
+}
+
+<div
+    className="c0"
+  />,
+]
+`;

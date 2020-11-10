@@ -1,0 +1,626 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`gridCellStacking renders 0 1`] = `
+Array [
+  .c0 {
+  grid-cell-stacking: 0;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  grid-cell-stacking: 0;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  grid-cell-stacking: 0;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  grid-cell-stacking: 0;
+}
+
+<div
+    className="c0"
+  />,
+]
+`;
+
+exports[`gridCellStacking renders function 1`] = `
+Array [
+  .c0 {
+  grid-cell-stacking: hasnot;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  grid-cell-stacking: has;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  grid-cell-stacking: hasnot;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  grid-cell-stacking: has;
+}
+
+<div
+    className="c0"
+  />,
+]
+`;
+
+exports[`gridCellStacking renders invalid theme path 1`] = `
+Array [
+  .c0 {
+  grid-cell-stacking: invalid.path.1;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  grid-cell-stacking: invalid.path.1;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  grid-cell-stacking: invalid.path.1;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  grid-cell-stacking: invalid.path.1;
+}
+
+<div
+    className="c0"
+  />,
+]
+`;
+
+exports[`gridCellStacking renders negative number 1`] = `
+Array [
+  .c0 {
+  grid-cell-stacking: -54881;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  grid-cell-stacking: -54881;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  grid-cell-stacking: -42365;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  grid-cell-stacking: -42365;
+}
+
+<div
+    className="c0"
+  />,
+]
+`;
+
+exports[`gridCellStacking renders object [breakpoints] 1`] = `
+Array [
+  @media screen and (min-width:November) {
+  .c0 {
+    grid-cell-stacking: July;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    grid-cell-stacking: August;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    grid-cell-stacking: September;
+  }
+}
+
+@media screen and (min-width:August) {
+  .c0 {
+    grid-cell-stacking: November;
+  }
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:August) {
+
+}
+
+<div
+    className="c0"
+  />,
+  @media screen and (min-width:November) {
+  .c0 {
+    grid-cell-stacking: July;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    grid-cell-stacking: August;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    grid-cell-stacking: September;
+  }
+}
+
+@media screen and (min-width:August) {
+  .c0 {
+    grid-cell-stacking: November;
+  }
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:August) {
+
+}
+
+<div
+    className="c0"
+  />,
+  @media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:August) {
+
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    grid-cell-stacking: May;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    grid-cell-stacking: June;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    grid-cell-stacking: April;
+  }
+}
+
+@media screen and (min-width:August) {
+  .c0 {
+    grid-cell-stacking: November;
+  }
+}
+
+<div
+    className="c0"
+  />,
+  @media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:August) {
+
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    grid-cell-stacking: May;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    grid-cell-stacking: June;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    grid-cell-stacking: April;
+  }
+}
+
+@media screen and (min-width:August) {
+  .c0 {
+    grid-cell-stacking: November;
+  }
+}
+
+<div
+    className="c0"
+  />,
+]
+`;
+
+exports[`gridCellStacking renders object [breakpoints] 2`] = `
+Array [
+  @media May {
+  .c0 {
+    grid-cell-stacking: July;
+  }
+}
+
+@media April {
+  .c0 {
+    grid-cell-stacking: August;
+  }
+}
+
+@media January {
+  .c0 {
+    grid-cell-stacking: September;
+  }
+}
+
+@media April {
+  .c0 {
+    grid-cell-stacking: November;
+  }
+}
+
+@media June {
+  .c0 {
+    grid-cell-stacking: August;
+  }
+}
+
+@media May {
+
+}
+
+@media April {
+
+}
+
+@media January {
+
+}
+
+@media April {
+
+}
+
+@media June {
+
+}
+
+<div
+    className="c0"
+  />,
+  @media May {
+  .c0 {
+    grid-cell-stacking: July;
+  }
+}
+
+@media April {
+  .c0 {
+    grid-cell-stacking: August;
+  }
+}
+
+@media January {
+  .c0 {
+    grid-cell-stacking: September;
+  }
+}
+
+@media April {
+  .c0 {
+    grid-cell-stacking: November;
+  }
+}
+
+@media June {
+  .c0 {
+    grid-cell-stacking: August;
+  }
+}
+
+@media May {
+
+}
+
+@media April {
+
+}
+
+@media January {
+
+}
+
+@media April {
+
+}
+
+@media June {
+
+}
+
+<div
+    className="c0"
+  />,
+  @media May {
+
+}
+
+@media April {
+
+}
+
+@media January {
+
+}
+
+@media April {
+
+}
+
+@media June {
+
+}
+
+@media May {
+  .c0 {
+    grid-cell-stacking: January;
+  }
+}
+
+@media April {
+  .c0 {
+    grid-cell-stacking: December;
+  }
+}
+
+@media January {
+  .c0 {
+    grid-cell-stacking: April;
+  }
+}
+
+@media April {
+  .c0 {
+    grid-cell-stacking: May;
+  }
+}
+
+@media June {
+  .c0 {
+    grid-cell-stacking: June;
+  }
+}
+
+<div
+    className="c0"
+  />,
+  @media May {
+
+}
+
+@media April {
+
+}
+
+@media January {
+
+}
+
+@media April {
+
+}
+
+@media June {
+
+}
+
+@media May {
+  .c0 {
+    grid-cell-stacking: January;
+  }
+}
+
+@media April {
+  .c0 {
+    grid-cell-stacking: December;
+  }
+}
+
+@media January {
+  .c0 {
+    grid-cell-stacking: April;
+  }
+}
+
+@media April {
+  .c0 {
+    grid-cell-stacking: May;
+  }
+}
+
+@media June {
+  .c0 {
+    grid-cell-stacking: June;
+  }
+}
+
+<div
+    className="c0"
+  />,
+]
+`;
+
+exports[`gridCellStacking renders postitive number 1`] = `
+Array [
+  .c0 {
+  grid-cell-stacking: 54881;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  grid-cell-stacking: 54881;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  grid-cell-stacking: 42365;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  grid-cell-stacking: 42365;
+}
+
+<div
+    className="c0"
+  />,
+]
+`;
+
+exports[`gridCellStacking renders string 1`] = `
+Array [
+  .c0 {
+  grid-cell-stacking: July;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  grid-cell-stacking: July;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  grid-cell-stacking: June;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  grid-cell-stacking: June;
+}
+
+<div
+    className="c0"
+  />,
+]
+`;
+
+exports[`gridCellStacking renders valid theme path 1`] = `
+Array [
+  .c0 {
+  grid-cell-stacking: DarkSlateBlue;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  grid-cell-stacking: DarkSlateBlue;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  grid-cell-stacking: DarkSlateBlue;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  grid-cell-stacking: DarkSlateBlue;
+}
+
+<div
+    className="c0"
+  />,
+]
+`;

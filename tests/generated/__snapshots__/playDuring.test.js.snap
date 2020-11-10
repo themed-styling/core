@@ -1,0 +1,626 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`playDuring renders 0 1`] = `
+Array [
+  .c0 {
+  play-during: 0;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  play-during: 0;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  play-during: 0;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  play-during: 0;
+}
+
+<div
+    className="c0"
+  />,
+]
+`;
+
+exports[`playDuring renders function 1`] = `
+Array [
+  .c0 {
+  play-during: hasnot;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  play-during: has;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  play-during: hasnot;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  play-during: has;
+}
+
+<div
+    className="c0"
+  />,
+]
+`;
+
+exports[`playDuring renders invalid theme path 1`] = `
+Array [
+  .c0 {
+  play-during: invalid.path.1;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  play-during: invalid.path.1;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  play-during: invalid.path.1;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  play-during: invalid.path.1;
+}
+
+<div
+    className="c0"
+  />,
+]
+`;
+
+exports[`playDuring renders negative number 1`] = `
+Array [
+  .c0 {
+  play-during: -54881;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  play-during: -54881;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  play-during: -42365;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  play-during: -42365;
+}
+
+<div
+    className="c0"
+  />,
+]
+`;
+
+exports[`playDuring renders object [breakpoints] 1`] = `
+Array [
+  @media screen and (min-width:November) {
+  .c0 {
+    play-during: July;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    play-during: August;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    play-during: September;
+  }
+}
+
+@media screen and (min-width:August) {
+  .c0 {
+    play-during: November;
+  }
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:August) {
+
+}
+
+<div
+    className="c0"
+  />,
+  @media screen and (min-width:November) {
+  .c0 {
+    play-during: July;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    play-during: August;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    play-during: September;
+  }
+}
+
+@media screen and (min-width:August) {
+  .c0 {
+    play-during: November;
+  }
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:August) {
+
+}
+
+<div
+    className="c0"
+  />,
+  @media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:August) {
+
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    play-during: May;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    play-during: June;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    play-during: April;
+  }
+}
+
+@media screen and (min-width:August) {
+  .c0 {
+    play-during: November;
+  }
+}
+
+<div
+    className="c0"
+  />,
+  @media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:August) {
+
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    play-during: May;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    play-during: June;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    play-during: April;
+  }
+}
+
+@media screen and (min-width:August) {
+  .c0 {
+    play-during: November;
+  }
+}
+
+<div
+    className="c0"
+  />,
+]
+`;
+
+exports[`playDuring renders object [breakpoints] 2`] = `
+Array [
+  @media May {
+  .c0 {
+    play-during: July;
+  }
+}
+
+@media April {
+  .c0 {
+    play-during: August;
+  }
+}
+
+@media January {
+  .c0 {
+    play-during: September;
+  }
+}
+
+@media April {
+  .c0 {
+    play-during: November;
+  }
+}
+
+@media June {
+  .c0 {
+    play-during: August;
+  }
+}
+
+@media May {
+
+}
+
+@media April {
+
+}
+
+@media January {
+
+}
+
+@media April {
+
+}
+
+@media June {
+
+}
+
+<div
+    className="c0"
+  />,
+  @media May {
+  .c0 {
+    play-during: July;
+  }
+}
+
+@media April {
+  .c0 {
+    play-during: August;
+  }
+}
+
+@media January {
+  .c0 {
+    play-during: September;
+  }
+}
+
+@media April {
+  .c0 {
+    play-during: November;
+  }
+}
+
+@media June {
+  .c0 {
+    play-during: August;
+  }
+}
+
+@media May {
+
+}
+
+@media April {
+
+}
+
+@media January {
+
+}
+
+@media April {
+
+}
+
+@media June {
+
+}
+
+<div
+    className="c0"
+  />,
+  @media May {
+
+}
+
+@media April {
+
+}
+
+@media January {
+
+}
+
+@media April {
+
+}
+
+@media June {
+
+}
+
+@media May {
+  .c0 {
+    play-during: January;
+  }
+}
+
+@media April {
+  .c0 {
+    play-during: December;
+  }
+}
+
+@media January {
+  .c0 {
+    play-during: April;
+  }
+}
+
+@media April {
+  .c0 {
+    play-during: May;
+  }
+}
+
+@media June {
+  .c0 {
+    play-during: June;
+  }
+}
+
+<div
+    className="c0"
+  />,
+  @media May {
+
+}
+
+@media April {
+
+}
+
+@media January {
+
+}
+
+@media April {
+
+}
+
+@media June {
+
+}
+
+@media May {
+  .c0 {
+    play-during: January;
+  }
+}
+
+@media April {
+  .c0 {
+    play-during: December;
+  }
+}
+
+@media January {
+  .c0 {
+    play-during: April;
+  }
+}
+
+@media April {
+  .c0 {
+    play-during: May;
+  }
+}
+
+@media June {
+  .c0 {
+    play-during: June;
+  }
+}
+
+<div
+    className="c0"
+  />,
+]
+`;
+
+exports[`playDuring renders postitive number 1`] = `
+Array [
+  .c0 {
+  play-during: 54881;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  play-during: 54881;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  play-during: 42365;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  play-during: 42365;
+}
+
+<div
+    className="c0"
+  />,
+]
+`;
+
+exports[`playDuring renders string 1`] = `
+Array [
+  .c0 {
+  play-during: July;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  play-during: July;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  play-during: June;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  play-during: June;
+}
+
+<div
+    className="c0"
+  />,
+]
+`;
+
+exports[`playDuring renders valid theme path 1`] = `
+Array [
+  .c0 {
+  play-during: DarkSlateBlue;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  play-during: DarkSlateBlue;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  play-during: DarkSlateBlue;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  play-during: DarkSlateBlue;
+}
+
+<div
+    className="c0"
+  />,
+]
+`;

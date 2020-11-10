@@ -1,0 +1,690 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`maskPosition renders 0 1`] = `
+Array [
+  .c0 {
+  -webkit-mask-position: 0;
+  mask-position: 0;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-mask-position: 0;
+  mask-position: 0;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-mask-position: 0;
+  mask-position: 0;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-mask-position: 0;
+  mask-position: 0;
+}
+
+<div
+    className="c0"
+  />,
+]
+`;
+
+exports[`maskPosition renders function 1`] = `
+Array [
+  .c0 {
+  -webkit-mask-position: hasnot;
+  mask-position: hasnot;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-mask-position: has;
+  mask-position: has;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-mask-position: hasnot;
+  mask-position: hasnot;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-mask-position: has;
+  mask-position: has;
+}
+
+<div
+    className="c0"
+  />,
+]
+`;
+
+exports[`maskPosition renders invalid theme path 1`] = `
+Array [
+  .c0 {
+  -webkit-mask-position: invalid.path.1;
+  mask-position: invalid.path.1;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-mask-position: invalid.path.1;
+  mask-position: invalid.path.1;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-mask-position: invalid.path.1;
+  mask-position: invalid.path.1;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-mask-position: invalid.path.1;
+  mask-position: invalid.path.1;
+}
+
+<div
+    className="c0"
+  />,
+]
+`;
+
+exports[`maskPosition renders negative number 1`] = `
+Array [
+  .c0 {
+  -webkit-mask-position: -54881;
+  mask-position: -54881;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-mask-position: -54881;
+  mask-position: -54881;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-mask-position: -42365;
+  mask-position: -42365;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-mask-position: -42365;
+  mask-position: -42365;
+}
+
+<div
+    className="c0"
+  />,
+]
+`;
+
+exports[`maskPosition renders object [breakpoints] 1`] = `
+Array [
+  @media screen and (min-width:November) {
+  .c0 {
+    -webkit-mask-position: July;
+    mask-position: July;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    -webkit-mask-position: August;
+    mask-position: August;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    -webkit-mask-position: September;
+    mask-position: September;
+  }
+}
+
+@media screen and (min-width:August) {
+  .c0 {
+    -webkit-mask-position: November;
+    mask-position: November;
+  }
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:August) {
+
+}
+
+<div
+    className="c0"
+  />,
+  @media screen and (min-width:November) {
+  .c0 {
+    -webkit-mask-position: July;
+    mask-position: July;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    -webkit-mask-position: August;
+    mask-position: August;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    -webkit-mask-position: September;
+    mask-position: September;
+  }
+}
+
+@media screen and (min-width:August) {
+  .c0 {
+    -webkit-mask-position: November;
+    mask-position: November;
+  }
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:August) {
+
+}
+
+<div
+    className="c0"
+  />,
+  @media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:August) {
+
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    -webkit-mask-position: May;
+    mask-position: May;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    -webkit-mask-position: June;
+    mask-position: June;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    -webkit-mask-position: April;
+    mask-position: April;
+  }
+}
+
+@media screen and (min-width:August) {
+  .c0 {
+    -webkit-mask-position: November;
+    mask-position: November;
+  }
+}
+
+<div
+    className="c0"
+  />,
+  @media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:August) {
+
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    -webkit-mask-position: May;
+    mask-position: May;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    -webkit-mask-position: June;
+    mask-position: June;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    -webkit-mask-position: April;
+    mask-position: April;
+  }
+}
+
+@media screen and (min-width:August) {
+  .c0 {
+    -webkit-mask-position: November;
+    mask-position: November;
+  }
+}
+
+<div
+    className="c0"
+  />,
+]
+`;
+
+exports[`maskPosition renders object [breakpoints] 2`] = `
+Array [
+  @media May {
+  .c0 {
+    -webkit-mask-position: July;
+    mask-position: July;
+  }
+}
+
+@media April {
+  .c0 {
+    -webkit-mask-position: August;
+    mask-position: August;
+  }
+}
+
+@media January {
+  .c0 {
+    -webkit-mask-position: September;
+    mask-position: September;
+  }
+}
+
+@media April {
+  .c0 {
+    -webkit-mask-position: November;
+    mask-position: November;
+  }
+}
+
+@media June {
+  .c0 {
+    -webkit-mask-position: August;
+    mask-position: August;
+  }
+}
+
+@media May {
+
+}
+
+@media April {
+
+}
+
+@media January {
+
+}
+
+@media April {
+
+}
+
+@media June {
+
+}
+
+<div
+    className="c0"
+  />,
+  @media May {
+  .c0 {
+    -webkit-mask-position: July;
+    mask-position: July;
+  }
+}
+
+@media April {
+  .c0 {
+    -webkit-mask-position: August;
+    mask-position: August;
+  }
+}
+
+@media January {
+  .c0 {
+    -webkit-mask-position: September;
+    mask-position: September;
+  }
+}
+
+@media April {
+  .c0 {
+    -webkit-mask-position: November;
+    mask-position: November;
+  }
+}
+
+@media June {
+  .c0 {
+    -webkit-mask-position: August;
+    mask-position: August;
+  }
+}
+
+@media May {
+
+}
+
+@media April {
+
+}
+
+@media January {
+
+}
+
+@media April {
+
+}
+
+@media June {
+
+}
+
+<div
+    className="c0"
+  />,
+  @media May {
+
+}
+
+@media April {
+
+}
+
+@media January {
+
+}
+
+@media April {
+
+}
+
+@media June {
+
+}
+
+@media May {
+  .c0 {
+    -webkit-mask-position: January;
+    mask-position: January;
+  }
+}
+
+@media April {
+  .c0 {
+    -webkit-mask-position: December;
+    mask-position: December;
+  }
+}
+
+@media January {
+  .c0 {
+    -webkit-mask-position: April;
+    mask-position: April;
+  }
+}
+
+@media April {
+  .c0 {
+    -webkit-mask-position: May;
+    mask-position: May;
+  }
+}
+
+@media June {
+  .c0 {
+    -webkit-mask-position: June;
+    mask-position: June;
+  }
+}
+
+<div
+    className="c0"
+  />,
+  @media May {
+
+}
+
+@media April {
+
+}
+
+@media January {
+
+}
+
+@media April {
+
+}
+
+@media June {
+
+}
+
+@media May {
+  .c0 {
+    -webkit-mask-position: January;
+    mask-position: January;
+  }
+}
+
+@media April {
+  .c0 {
+    -webkit-mask-position: December;
+    mask-position: December;
+  }
+}
+
+@media January {
+  .c0 {
+    -webkit-mask-position: April;
+    mask-position: April;
+  }
+}
+
+@media April {
+  .c0 {
+    -webkit-mask-position: May;
+    mask-position: May;
+  }
+}
+
+@media June {
+  .c0 {
+    -webkit-mask-position: June;
+    mask-position: June;
+  }
+}
+
+<div
+    className="c0"
+  />,
+]
+`;
+
+exports[`maskPosition renders postitive number 1`] = `
+Array [
+  .c0 {
+  -webkit-mask-position: 54881;
+  mask-position: 54881;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-mask-position: 54881;
+  mask-position: 54881;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-mask-position: 42365;
+  mask-position: 42365;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-mask-position: 42365;
+  mask-position: 42365;
+}
+
+<div
+    className="c0"
+  />,
+]
+`;
+
+exports[`maskPosition renders string 1`] = `
+Array [
+  .c0 {
+  -webkit-mask-position: July;
+  mask-position: July;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-mask-position: July;
+  mask-position: July;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-mask-position: June;
+  mask-position: June;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-mask-position: June;
+  mask-position: June;
+}
+
+<div
+    className="c0"
+  />,
+]
+`;
+
+exports[`maskPosition renders valid theme path 1`] = `
+Array [
+  .c0 {
+  -webkit-mask-position: DarkSlateBlue;
+  mask-position: DarkSlateBlue;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-mask-position: DarkSlateBlue;
+  mask-position: DarkSlateBlue;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-mask-position: DarkSlateBlue;
+  mask-position: DarkSlateBlue;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-mask-position: DarkSlateBlue;
+  mask-position: DarkSlateBlue;
+}
+
+<div
+    className="c0"
+  />,
+]
+`;

@@ -1,0 +1,626 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`containIntrinsicSize renders 0 1`] = `
+Array [
+  .c0 {
+  contain-intrinsic-size: 0;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  contain-intrinsic-size: 0;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  contain-intrinsic-size: 0;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  contain-intrinsic-size: 0;
+}
+
+<div
+    className="c0"
+  />,
+]
+`;
+
+exports[`containIntrinsicSize renders function 1`] = `
+Array [
+  .c0 {
+  contain-intrinsic-size: hasnot;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  contain-intrinsic-size: has;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  contain-intrinsic-size: hasnot;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  contain-intrinsic-size: has;
+}
+
+<div
+    className="c0"
+  />,
+]
+`;
+
+exports[`containIntrinsicSize renders invalid theme path 1`] = `
+Array [
+  .c0 {
+  contain-intrinsic-size: invalid.path.1;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  contain-intrinsic-size: invalid.path.1;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  contain-intrinsic-size: invalid.path.1;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  contain-intrinsic-size: invalid.path.1;
+}
+
+<div
+    className="c0"
+  />,
+]
+`;
+
+exports[`containIntrinsicSize renders negative number 1`] = `
+Array [
+  .c0 {
+  contain-intrinsic-size: -54881;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  contain-intrinsic-size: -54881;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  contain-intrinsic-size: -42365;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  contain-intrinsic-size: -42365;
+}
+
+<div
+    className="c0"
+  />,
+]
+`;
+
+exports[`containIntrinsicSize renders object [breakpoints] 1`] = `
+Array [
+  @media screen and (min-width:November) {
+  .c0 {
+    contain-intrinsic-size: July;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    contain-intrinsic-size: August;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    contain-intrinsic-size: September;
+  }
+}
+
+@media screen and (min-width:August) {
+  .c0 {
+    contain-intrinsic-size: November;
+  }
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:August) {
+
+}
+
+<div
+    className="c0"
+  />,
+  @media screen and (min-width:November) {
+  .c0 {
+    contain-intrinsic-size: July;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    contain-intrinsic-size: August;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    contain-intrinsic-size: September;
+  }
+}
+
+@media screen and (min-width:August) {
+  .c0 {
+    contain-intrinsic-size: November;
+  }
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:August) {
+
+}
+
+<div
+    className="c0"
+  />,
+  @media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:August) {
+
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    contain-intrinsic-size: May;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    contain-intrinsic-size: June;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    contain-intrinsic-size: April;
+  }
+}
+
+@media screen and (min-width:August) {
+  .c0 {
+    contain-intrinsic-size: November;
+  }
+}
+
+<div
+    className="c0"
+  />,
+  @media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:August) {
+
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    contain-intrinsic-size: May;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    contain-intrinsic-size: June;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    contain-intrinsic-size: April;
+  }
+}
+
+@media screen and (min-width:August) {
+  .c0 {
+    contain-intrinsic-size: November;
+  }
+}
+
+<div
+    className="c0"
+  />,
+]
+`;
+
+exports[`containIntrinsicSize renders object [breakpoints] 2`] = `
+Array [
+  @media May {
+  .c0 {
+    contain-intrinsic-size: July;
+  }
+}
+
+@media April {
+  .c0 {
+    contain-intrinsic-size: August;
+  }
+}
+
+@media January {
+  .c0 {
+    contain-intrinsic-size: September;
+  }
+}
+
+@media April {
+  .c0 {
+    contain-intrinsic-size: November;
+  }
+}
+
+@media June {
+  .c0 {
+    contain-intrinsic-size: August;
+  }
+}
+
+@media May {
+
+}
+
+@media April {
+
+}
+
+@media January {
+
+}
+
+@media April {
+
+}
+
+@media June {
+
+}
+
+<div
+    className="c0"
+  />,
+  @media May {
+  .c0 {
+    contain-intrinsic-size: July;
+  }
+}
+
+@media April {
+  .c0 {
+    contain-intrinsic-size: August;
+  }
+}
+
+@media January {
+  .c0 {
+    contain-intrinsic-size: September;
+  }
+}
+
+@media April {
+  .c0 {
+    contain-intrinsic-size: November;
+  }
+}
+
+@media June {
+  .c0 {
+    contain-intrinsic-size: August;
+  }
+}
+
+@media May {
+
+}
+
+@media April {
+
+}
+
+@media January {
+
+}
+
+@media April {
+
+}
+
+@media June {
+
+}
+
+<div
+    className="c0"
+  />,
+  @media May {
+
+}
+
+@media April {
+
+}
+
+@media January {
+
+}
+
+@media April {
+
+}
+
+@media June {
+
+}
+
+@media May {
+  .c0 {
+    contain-intrinsic-size: January;
+  }
+}
+
+@media April {
+  .c0 {
+    contain-intrinsic-size: December;
+  }
+}
+
+@media January {
+  .c0 {
+    contain-intrinsic-size: April;
+  }
+}
+
+@media April {
+  .c0 {
+    contain-intrinsic-size: May;
+  }
+}
+
+@media June {
+  .c0 {
+    contain-intrinsic-size: June;
+  }
+}
+
+<div
+    className="c0"
+  />,
+  @media May {
+
+}
+
+@media April {
+
+}
+
+@media January {
+
+}
+
+@media April {
+
+}
+
+@media June {
+
+}
+
+@media May {
+  .c0 {
+    contain-intrinsic-size: January;
+  }
+}
+
+@media April {
+  .c0 {
+    contain-intrinsic-size: December;
+  }
+}
+
+@media January {
+  .c0 {
+    contain-intrinsic-size: April;
+  }
+}
+
+@media April {
+  .c0 {
+    contain-intrinsic-size: May;
+  }
+}
+
+@media June {
+  .c0 {
+    contain-intrinsic-size: June;
+  }
+}
+
+<div
+    className="c0"
+  />,
+]
+`;
+
+exports[`containIntrinsicSize renders postitive number 1`] = `
+Array [
+  .c0 {
+  contain-intrinsic-size: 54881;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  contain-intrinsic-size: 54881;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  contain-intrinsic-size: 42365;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  contain-intrinsic-size: 42365;
+}
+
+<div
+    className="c0"
+  />,
+]
+`;
+
+exports[`containIntrinsicSize renders string 1`] = `
+Array [
+  .c0 {
+  contain-intrinsic-size: July;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  contain-intrinsic-size: July;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  contain-intrinsic-size: June;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  contain-intrinsic-size: June;
+}
+
+<div
+    className="c0"
+  />,
+]
+`;
+
+exports[`containIntrinsicSize renders valid theme path 1`] = `
+Array [
+  .c0 {
+  contain-intrinsic-size: DarkSlateBlue;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  contain-intrinsic-size: DarkSlateBlue;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  contain-intrinsic-size: DarkSlateBlue;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  contain-intrinsic-size: DarkSlateBlue;
+}
+
+<div
+    className="c0"
+  />,
+]
+`;

@@ -1,0 +1,626 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`marginLeft renders 0 1`] = `
+Array [
+  .c0 {
+  margin-left: 0;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  margin-left: 0;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  margin-left: 0;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  margin-left: 0;
+}
+
+<div
+    className="c0"
+  />,
+]
+`;
+
+exports[`marginLeft renders function 1`] = `
+Array [
+  .c0 {
+  margin-left: hasnot;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  margin-left: has;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  margin-left: hasnot;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  margin-left: has;
+}
+
+<div
+    className="c0"
+  />,
+]
+`;
+
+exports[`marginLeft renders invalid theme path 1`] = `
+Array [
+  .c0 {
+  margin-left: invalid.path.1;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  margin-left: invalid.path.1;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  margin-left: invalid.path.1;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  margin-left: invalid.path.1;
+}
+
+<div
+    className="c0"
+  />,
+]
+`;
+
+exports[`marginLeft renders negative number 1`] = `
+Array [
+  .c0 {
+  margin-left: -54881px;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  margin-left: -54881px;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  margin-left: -42365px;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  margin-left: -42365px;
+}
+
+<div
+    className="c0"
+  />,
+]
+`;
+
+exports[`marginLeft renders object [breakpoints] 1`] = `
+Array [
+  @media screen and (min-width:November) {
+  .c0 {
+    margin-left: July;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    margin-left: August;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    margin-left: September;
+  }
+}
+
+@media screen and (min-width:August) {
+  .c0 {
+    margin-left: November;
+  }
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:August) {
+
+}
+
+<div
+    className="c0"
+  />,
+  @media screen and (min-width:November) {
+  .c0 {
+    margin-left: July;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    margin-left: August;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    margin-left: September;
+  }
+}
+
+@media screen and (min-width:August) {
+  .c0 {
+    margin-left: November;
+  }
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:August) {
+
+}
+
+<div
+    className="c0"
+  />,
+  @media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:August) {
+
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    margin-left: May;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    margin-left: June;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    margin-left: April;
+  }
+}
+
+@media screen and (min-width:August) {
+  .c0 {
+    margin-left: November;
+  }
+}
+
+<div
+    className="c0"
+  />,
+  @media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:August) {
+
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    margin-left: May;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    margin-left: June;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    margin-left: April;
+  }
+}
+
+@media screen and (min-width:August) {
+  .c0 {
+    margin-left: November;
+  }
+}
+
+<div
+    className="c0"
+  />,
+]
+`;
+
+exports[`marginLeft renders object [breakpoints] 2`] = `
+Array [
+  @media May {
+  .c0 {
+    margin-left: July;
+  }
+}
+
+@media April {
+  .c0 {
+    margin-left: August;
+  }
+}
+
+@media January {
+  .c0 {
+    margin-left: September;
+  }
+}
+
+@media April {
+  .c0 {
+    margin-left: November;
+  }
+}
+
+@media June {
+  .c0 {
+    margin-left: August;
+  }
+}
+
+@media May {
+
+}
+
+@media April {
+
+}
+
+@media January {
+
+}
+
+@media April {
+
+}
+
+@media June {
+
+}
+
+<div
+    className="c0"
+  />,
+  @media May {
+  .c0 {
+    margin-left: July;
+  }
+}
+
+@media April {
+  .c0 {
+    margin-left: August;
+  }
+}
+
+@media January {
+  .c0 {
+    margin-left: September;
+  }
+}
+
+@media April {
+  .c0 {
+    margin-left: November;
+  }
+}
+
+@media June {
+  .c0 {
+    margin-left: August;
+  }
+}
+
+@media May {
+
+}
+
+@media April {
+
+}
+
+@media January {
+
+}
+
+@media April {
+
+}
+
+@media June {
+
+}
+
+<div
+    className="c0"
+  />,
+  @media May {
+
+}
+
+@media April {
+
+}
+
+@media January {
+
+}
+
+@media April {
+
+}
+
+@media June {
+
+}
+
+@media May {
+  .c0 {
+    margin-left: January;
+  }
+}
+
+@media April {
+  .c0 {
+    margin-left: December;
+  }
+}
+
+@media January {
+  .c0 {
+    margin-left: April;
+  }
+}
+
+@media April {
+  .c0 {
+    margin-left: May;
+  }
+}
+
+@media June {
+  .c0 {
+    margin-left: June;
+  }
+}
+
+<div
+    className="c0"
+  />,
+  @media May {
+
+}
+
+@media April {
+
+}
+
+@media January {
+
+}
+
+@media April {
+
+}
+
+@media June {
+
+}
+
+@media May {
+  .c0 {
+    margin-left: January;
+  }
+}
+
+@media April {
+  .c0 {
+    margin-left: December;
+  }
+}
+
+@media January {
+  .c0 {
+    margin-left: April;
+  }
+}
+
+@media April {
+  .c0 {
+    margin-left: May;
+  }
+}
+
+@media June {
+  .c0 {
+    margin-left: June;
+  }
+}
+
+<div
+    className="c0"
+  />,
+]
+`;
+
+exports[`marginLeft renders postitive number 1`] = `
+Array [
+  .c0 {
+  margin-left: 54881px;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  margin-left: 54881px;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  margin-left: 42365px;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  margin-left: 42365px;
+}
+
+<div
+    className="c0"
+  />,
+]
+`;
+
+exports[`marginLeft renders string 1`] = `
+Array [
+  .c0 {
+  margin-left: July;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  margin-left: July;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  margin-left: June;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  margin-left: June;
+}
+
+<div
+    className="c0"
+  />,
+]
+`;
+
+exports[`marginLeft renders valid theme path 1`] = `
+Array [
+  .c0 {
+  margin-left: DarkSlateBlue;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  margin-left: DarkSlateBlue;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  margin-left: DarkSlateBlue;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  margin-left: DarkSlateBlue;
+}
+
+<div
+    className="c0"
+  />,
+]
+`;

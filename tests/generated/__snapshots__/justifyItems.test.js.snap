@@ -1,0 +1,626 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`justifyItems renders 0 1`] = `
+Array [
+  .c0 {
+  justify-items: 0;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  justify-items: 0;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  justify-items: 0;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  justify-items: 0;
+}
+
+<div
+    className="c0"
+  />,
+]
+`;
+
+exports[`justifyItems renders function 1`] = `
+Array [
+  .c0 {
+  justify-items: hasnot;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  justify-items: has;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  justify-items: hasnot;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  justify-items: has;
+}
+
+<div
+    className="c0"
+  />,
+]
+`;
+
+exports[`justifyItems renders invalid theme path 1`] = `
+Array [
+  .c0 {
+  justify-items: invalid.path.1;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  justify-items: invalid.path.1;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  justify-items: invalid.path.1;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  justify-items: invalid.path.1;
+}
+
+<div
+    className="c0"
+  />,
+]
+`;
+
+exports[`justifyItems renders negative number 1`] = `
+Array [
+  .c0 {
+  justify-items: -54881;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  justify-items: -54881;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  justify-items: -42365;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  justify-items: -42365;
+}
+
+<div
+    className="c0"
+  />,
+]
+`;
+
+exports[`justifyItems renders object [breakpoints] 1`] = `
+Array [
+  @media screen and (min-width:November) {
+  .c0 {
+    justify-items: July;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    justify-items: August;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    justify-items: September;
+  }
+}
+
+@media screen and (min-width:August) {
+  .c0 {
+    justify-items: November;
+  }
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:August) {
+
+}
+
+<div
+    className="c0"
+  />,
+  @media screen and (min-width:November) {
+  .c0 {
+    justify-items: July;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    justify-items: August;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    justify-items: September;
+  }
+}
+
+@media screen and (min-width:August) {
+  .c0 {
+    justify-items: November;
+  }
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:August) {
+
+}
+
+<div
+    className="c0"
+  />,
+  @media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:August) {
+
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    justify-items: May;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    justify-items: June;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    justify-items: April;
+  }
+}
+
+@media screen and (min-width:August) {
+  .c0 {
+    justify-items: November;
+  }
+}
+
+<div
+    className="c0"
+  />,
+  @media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:August) {
+
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    justify-items: May;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    justify-items: June;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    justify-items: April;
+  }
+}
+
+@media screen and (min-width:August) {
+  .c0 {
+    justify-items: November;
+  }
+}
+
+<div
+    className="c0"
+  />,
+]
+`;
+
+exports[`justifyItems renders object [breakpoints] 2`] = `
+Array [
+  @media May {
+  .c0 {
+    justify-items: July;
+  }
+}
+
+@media April {
+  .c0 {
+    justify-items: August;
+  }
+}
+
+@media January {
+  .c0 {
+    justify-items: September;
+  }
+}
+
+@media April {
+  .c0 {
+    justify-items: November;
+  }
+}
+
+@media June {
+  .c0 {
+    justify-items: August;
+  }
+}
+
+@media May {
+
+}
+
+@media April {
+
+}
+
+@media January {
+
+}
+
+@media April {
+
+}
+
+@media June {
+
+}
+
+<div
+    className="c0"
+  />,
+  @media May {
+  .c0 {
+    justify-items: July;
+  }
+}
+
+@media April {
+  .c0 {
+    justify-items: August;
+  }
+}
+
+@media January {
+  .c0 {
+    justify-items: September;
+  }
+}
+
+@media April {
+  .c0 {
+    justify-items: November;
+  }
+}
+
+@media June {
+  .c0 {
+    justify-items: August;
+  }
+}
+
+@media May {
+
+}
+
+@media April {
+
+}
+
+@media January {
+
+}
+
+@media April {
+
+}
+
+@media June {
+
+}
+
+<div
+    className="c0"
+  />,
+  @media May {
+
+}
+
+@media April {
+
+}
+
+@media January {
+
+}
+
+@media April {
+
+}
+
+@media June {
+
+}
+
+@media May {
+  .c0 {
+    justify-items: January;
+  }
+}
+
+@media April {
+  .c0 {
+    justify-items: December;
+  }
+}
+
+@media January {
+  .c0 {
+    justify-items: April;
+  }
+}
+
+@media April {
+  .c0 {
+    justify-items: May;
+  }
+}
+
+@media June {
+  .c0 {
+    justify-items: June;
+  }
+}
+
+<div
+    className="c0"
+  />,
+  @media May {
+
+}
+
+@media April {
+
+}
+
+@media January {
+
+}
+
+@media April {
+
+}
+
+@media June {
+
+}
+
+@media May {
+  .c0 {
+    justify-items: January;
+  }
+}
+
+@media April {
+  .c0 {
+    justify-items: December;
+  }
+}
+
+@media January {
+  .c0 {
+    justify-items: April;
+  }
+}
+
+@media April {
+  .c0 {
+    justify-items: May;
+  }
+}
+
+@media June {
+  .c0 {
+    justify-items: June;
+  }
+}
+
+<div
+    className="c0"
+  />,
+]
+`;
+
+exports[`justifyItems renders postitive number 1`] = `
+Array [
+  .c0 {
+  justify-items: 54881;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  justify-items: 54881;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  justify-items: 42365;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  justify-items: 42365;
+}
+
+<div
+    className="c0"
+  />,
+]
+`;
+
+exports[`justifyItems renders string 1`] = `
+Array [
+  .c0 {
+  justify-items: July;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  justify-items: July;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  justify-items: June;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  justify-items: June;
+}
+
+<div
+    className="c0"
+  />,
+]
+`;
+
+exports[`justifyItems renders valid theme path 1`] = `
+Array [
+  .c0 {
+  justify-items: DarkSlateBlue;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  justify-items: DarkSlateBlue;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  justify-items: DarkSlateBlue;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  justify-items: DarkSlateBlue;
+}
+
+<div
+    className="c0"
+  />,
+]
+`;

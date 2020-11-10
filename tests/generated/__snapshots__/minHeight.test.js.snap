@@ -1,0 +1,626 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`minHeight renders 0 1`] = `
+Array [
+  .c0 {
+  min-height: 0;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  min-height: 0;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  min-height: 0;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  min-height: 0;
+}
+
+<div
+    className="c0"
+  />,
+]
+`;
+
+exports[`minHeight renders function 1`] = `
+Array [
+  .c0 {
+  min-height: hasnot;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  min-height: has;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  min-height: hasnot;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  min-height: has;
+}
+
+<div
+    className="c0"
+  />,
+]
+`;
+
+exports[`minHeight renders invalid theme path 1`] = `
+Array [
+  .c0 {
+  min-height: invalid.path.1;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  min-height: invalid.path.1;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  min-height: invalid.path.1;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  min-height: invalid.path.1;
+}
+
+<div
+    className="c0"
+  />,
+]
+`;
+
+exports[`minHeight renders negative number 1`] = `
+Array [
+  .c0 {
+  min-height: -54881px;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  min-height: -54881px;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  min-height: -42365px;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  min-height: -42365px;
+}
+
+<div
+    className="c0"
+  />,
+]
+`;
+
+exports[`minHeight renders object [breakpoints] 1`] = `
+Array [
+  @media screen and (min-width:November) {
+  .c0 {
+    min-height: July;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    min-height: August;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    min-height: September;
+  }
+}
+
+@media screen and (min-width:August) {
+  .c0 {
+    min-height: November;
+  }
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:August) {
+
+}
+
+<div
+    className="c0"
+  />,
+  @media screen and (min-width:November) {
+  .c0 {
+    min-height: July;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    min-height: August;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    min-height: September;
+  }
+}
+
+@media screen and (min-width:August) {
+  .c0 {
+    min-height: November;
+  }
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:August) {
+
+}
+
+<div
+    className="c0"
+  />,
+  @media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:August) {
+
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    min-height: May;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    min-height: June;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    min-height: April;
+  }
+}
+
+@media screen and (min-width:August) {
+  .c0 {
+    min-height: November;
+  }
+}
+
+<div
+    className="c0"
+  />,
+  @media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:August) {
+
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    min-height: May;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    min-height: June;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    min-height: April;
+  }
+}
+
+@media screen and (min-width:August) {
+  .c0 {
+    min-height: November;
+  }
+}
+
+<div
+    className="c0"
+  />,
+]
+`;
+
+exports[`minHeight renders object [breakpoints] 2`] = `
+Array [
+  @media May {
+  .c0 {
+    min-height: July;
+  }
+}
+
+@media April {
+  .c0 {
+    min-height: August;
+  }
+}
+
+@media January {
+  .c0 {
+    min-height: September;
+  }
+}
+
+@media April {
+  .c0 {
+    min-height: November;
+  }
+}
+
+@media June {
+  .c0 {
+    min-height: August;
+  }
+}
+
+@media May {
+
+}
+
+@media April {
+
+}
+
+@media January {
+
+}
+
+@media April {
+
+}
+
+@media June {
+
+}
+
+<div
+    className="c0"
+  />,
+  @media May {
+  .c0 {
+    min-height: July;
+  }
+}
+
+@media April {
+  .c0 {
+    min-height: August;
+  }
+}
+
+@media January {
+  .c0 {
+    min-height: September;
+  }
+}
+
+@media April {
+  .c0 {
+    min-height: November;
+  }
+}
+
+@media June {
+  .c0 {
+    min-height: August;
+  }
+}
+
+@media May {
+
+}
+
+@media April {
+
+}
+
+@media January {
+
+}
+
+@media April {
+
+}
+
+@media June {
+
+}
+
+<div
+    className="c0"
+  />,
+  @media May {
+
+}
+
+@media April {
+
+}
+
+@media January {
+
+}
+
+@media April {
+
+}
+
+@media June {
+
+}
+
+@media May {
+  .c0 {
+    min-height: January;
+  }
+}
+
+@media April {
+  .c0 {
+    min-height: December;
+  }
+}
+
+@media January {
+  .c0 {
+    min-height: April;
+  }
+}
+
+@media April {
+  .c0 {
+    min-height: May;
+  }
+}
+
+@media June {
+  .c0 {
+    min-height: June;
+  }
+}
+
+<div
+    className="c0"
+  />,
+  @media May {
+
+}
+
+@media April {
+
+}
+
+@media January {
+
+}
+
+@media April {
+
+}
+
+@media June {
+
+}
+
+@media May {
+  .c0 {
+    min-height: January;
+  }
+}
+
+@media April {
+  .c0 {
+    min-height: December;
+  }
+}
+
+@media January {
+  .c0 {
+    min-height: April;
+  }
+}
+
+@media April {
+  .c0 {
+    min-height: May;
+  }
+}
+
+@media June {
+  .c0 {
+    min-height: June;
+  }
+}
+
+<div
+    className="c0"
+  />,
+]
+`;
+
+exports[`minHeight renders postitive number 1`] = `
+Array [
+  .c0 {
+  min-height: 54881px;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  min-height: 54881px;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  min-height: 42365px;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  min-height: 42365px;
+}
+
+<div
+    className="c0"
+  />,
+]
+`;
+
+exports[`minHeight renders string 1`] = `
+Array [
+  .c0 {
+  min-height: July;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  min-height: July;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  min-height: June;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  min-height: June;
+}
+
+<div
+    className="c0"
+  />,
+]
+`;
+
+exports[`minHeight renders valid theme path 1`] = `
+Array [
+  .c0 {
+  min-height: DarkSlateBlue;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  min-height: DarkSlateBlue;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  min-height: DarkSlateBlue;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  min-height: DarkSlateBlue;
+}
+
+<div
+    className="c0"
+  />,
+]
+`;

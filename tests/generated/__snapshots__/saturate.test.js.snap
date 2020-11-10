@@ -1,0 +1,690 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`saturate renders 0 1`] = `
+Array [
+  .c0 {
+  -webkit-filter: saturate(0%);
+  filter: saturate(0%);
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-filter: saturate(0%);
+  filter: saturate(0%);
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-filter: saturate(0%);
+  filter: saturate(0%);
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-filter: saturate(0%);
+  filter: saturate(0%);
+}
+
+<div
+    className="c0"
+  />,
+]
+`;
+
+exports[`saturate renders function 1`] = `
+Array [
+  .c0 {
+  -webkit-filter: saturate(hasnot);
+  filter: saturate(hasnot);
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-filter: saturate(has);
+  filter: saturate(has);
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-filter: saturate(hasnot);
+  filter: saturate(hasnot);
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-filter: saturate(has);
+  filter: saturate(has);
+}
+
+<div
+    className="c0"
+  />,
+]
+`;
+
+exports[`saturate renders invalid theme path 1`] = `
+Array [
+  .c0 {
+  -webkit-filter: saturate(invalid.path.1);
+  filter: saturate(invalid.path.1);
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-filter: saturate(invalid.path.1);
+  filter: saturate(invalid.path.1);
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-filter: saturate(invalid.path.1);
+  filter: saturate(invalid.path.1);
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-filter: saturate(invalid.path.1);
+  filter: saturate(invalid.path.1);
+}
+
+<div
+    className="c0"
+  />,
+]
+`;
+
+exports[`saturate renders negative number 1`] = `
+Array [
+  .c0 {
+  -webkit-filter: saturate(-5488100%);
+  filter: saturate(-5488100%);
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-filter: saturate(-5488100%);
+  filter: saturate(-5488100%);
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-filter: saturate(-4236500%);
+  filter: saturate(-4236500%);
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-filter: saturate(-4236500%);
+  filter: saturate(-4236500%);
+}
+
+<div
+    className="c0"
+  />,
+]
+`;
+
+exports[`saturate renders object [breakpoints] 1`] = `
+Array [
+  @media screen and (min-width:November) {
+  .c0 {
+    -webkit-filter: saturate(July);
+    filter: saturate(July);
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    -webkit-filter: saturate(August);
+    filter: saturate(August);
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    -webkit-filter: saturate(September);
+    filter: saturate(September);
+  }
+}
+
+@media screen and (min-width:August) {
+  .c0 {
+    -webkit-filter: saturate(November);
+    filter: saturate(November);
+  }
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:August) {
+
+}
+
+<div
+    className="c0"
+  />,
+  @media screen and (min-width:November) {
+  .c0 {
+    -webkit-filter: saturate(July);
+    filter: saturate(July);
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    -webkit-filter: saturate(August);
+    filter: saturate(August);
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    -webkit-filter: saturate(September);
+    filter: saturate(September);
+  }
+}
+
+@media screen and (min-width:August) {
+  .c0 {
+    -webkit-filter: saturate(November);
+    filter: saturate(November);
+  }
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:August) {
+
+}
+
+<div
+    className="c0"
+  />,
+  @media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:August) {
+
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    -webkit-filter: saturate(May);
+    filter: saturate(May);
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    -webkit-filter: saturate(June);
+    filter: saturate(June);
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    -webkit-filter: saturate(April);
+    filter: saturate(April);
+  }
+}
+
+@media screen and (min-width:August) {
+  .c0 {
+    -webkit-filter: saturate(November);
+    filter: saturate(November);
+  }
+}
+
+<div
+    className="c0"
+  />,
+  @media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:August) {
+
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    -webkit-filter: saturate(May);
+    filter: saturate(May);
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    -webkit-filter: saturate(June);
+    filter: saturate(June);
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    -webkit-filter: saturate(April);
+    filter: saturate(April);
+  }
+}
+
+@media screen and (min-width:August) {
+  .c0 {
+    -webkit-filter: saturate(November);
+    filter: saturate(November);
+  }
+}
+
+<div
+    className="c0"
+  />,
+]
+`;
+
+exports[`saturate renders object [breakpoints] 2`] = `
+Array [
+  @media May {
+  .c0 {
+    -webkit-filter: saturate(July);
+    filter: saturate(July);
+  }
+}
+
+@media April {
+  .c0 {
+    -webkit-filter: saturate(August);
+    filter: saturate(August);
+  }
+}
+
+@media January {
+  .c0 {
+    -webkit-filter: saturate(September);
+    filter: saturate(September);
+  }
+}
+
+@media April {
+  .c0 {
+    -webkit-filter: saturate(November);
+    filter: saturate(November);
+  }
+}
+
+@media June {
+  .c0 {
+    -webkit-filter: saturate(August);
+    filter: saturate(August);
+  }
+}
+
+@media May {
+
+}
+
+@media April {
+
+}
+
+@media January {
+
+}
+
+@media April {
+
+}
+
+@media June {
+
+}
+
+<div
+    className="c0"
+  />,
+  @media May {
+  .c0 {
+    -webkit-filter: saturate(July);
+    filter: saturate(July);
+  }
+}
+
+@media April {
+  .c0 {
+    -webkit-filter: saturate(August);
+    filter: saturate(August);
+  }
+}
+
+@media January {
+  .c0 {
+    -webkit-filter: saturate(September);
+    filter: saturate(September);
+  }
+}
+
+@media April {
+  .c0 {
+    -webkit-filter: saturate(November);
+    filter: saturate(November);
+  }
+}
+
+@media June {
+  .c0 {
+    -webkit-filter: saturate(August);
+    filter: saturate(August);
+  }
+}
+
+@media May {
+
+}
+
+@media April {
+
+}
+
+@media January {
+
+}
+
+@media April {
+
+}
+
+@media June {
+
+}
+
+<div
+    className="c0"
+  />,
+  @media May {
+
+}
+
+@media April {
+
+}
+
+@media January {
+
+}
+
+@media April {
+
+}
+
+@media June {
+
+}
+
+@media May {
+  .c0 {
+    -webkit-filter: saturate(January);
+    filter: saturate(January);
+  }
+}
+
+@media April {
+  .c0 {
+    -webkit-filter: saturate(December);
+    filter: saturate(December);
+  }
+}
+
+@media January {
+  .c0 {
+    -webkit-filter: saturate(April);
+    filter: saturate(April);
+  }
+}
+
+@media April {
+  .c0 {
+    -webkit-filter: saturate(May);
+    filter: saturate(May);
+  }
+}
+
+@media June {
+  .c0 {
+    -webkit-filter: saturate(June);
+    filter: saturate(June);
+  }
+}
+
+<div
+    className="c0"
+  />,
+  @media May {
+
+}
+
+@media April {
+
+}
+
+@media January {
+
+}
+
+@media April {
+
+}
+
+@media June {
+
+}
+
+@media May {
+  .c0 {
+    -webkit-filter: saturate(January);
+    filter: saturate(January);
+  }
+}
+
+@media April {
+  .c0 {
+    -webkit-filter: saturate(December);
+    filter: saturate(December);
+  }
+}
+
+@media January {
+  .c0 {
+    -webkit-filter: saturate(April);
+    filter: saturate(April);
+  }
+}
+
+@media April {
+  .c0 {
+    -webkit-filter: saturate(May);
+    filter: saturate(May);
+  }
+}
+
+@media June {
+  .c0 {
+    -webkit-filter: saturate(June);
+    filter: saturate(June);
+  }
+}
+
+<div
+    className="c0"
+  />,
+]
+`;
+
+exports[`saturate renders postitive number 1`] = `
+Array [
+  .c0 {
+  -webkit-filter: saturate(54881%);
+  filter: saturate(54881%);
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-filter: saturate(54881%);
+  filter: saturate(54881%);
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-filter: saturate(42365%);
+  filter: saturate(42365%);
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-filter: saturate(42365%);
+  filter: saturate(42365%);
+}
+
+<div
+    className="c0"
+  />,
+]
+`;
+
+exports[`saturate renders string 1`] = `
+Array [
+  .c0 {
+  -webkit-filter: saturate(July);
+  filter: saturate(July);
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-filter: saturate(July);
+  filter: saturate(July);
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-filter: saturate(June);
+  filter: saturate(June);
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-filter: saturate(June);
+  filter: saturate(June);
+}
+
+<div
+    className="c0"
+  />,
+]
+`;
+
+exports[`saturate renders valid theme path 1`] = `
+Array [
+  .c0 {
+  -webkit-filter: saturate(DarkSlateBlue);
+  filter: saturate(DarkSlateBlue);
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-filter: saturate(DarkSlateBlue);
+  filter: saturate(DarkSlateBlue);
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-filter: saturate(DarkSlateBlue);
+  filter: saturate(DarkSlateBlue);
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-filter: saturate(DarkSlateBlue);
+  filter: saturate(DarkSlateBlue);
+}
+
+<div
+    className="c0"
+  />,
+]
+`;

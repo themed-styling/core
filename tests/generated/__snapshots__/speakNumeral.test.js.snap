@@ -1,0 +1,626 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`speakNumeral renders 0 1`] = `
+Array [
+  .c0 {
+  speak-numeral: 0;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  speak-numeral: 0;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  speak-numeral: 0;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  speak-numeral: 0;
+}
+
+<div
+    className="c0"
+  />,
+]
+`;
+
+exports[`speakNumeral renders function 1`] = `
+Array [
+  .c0 {
+  speak-numeral: hasnot;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  speak-numeral: has;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  speak-numeral: hasnot;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  speak-numeral: has;
+}
+
+<div
+    className="c0"
+  />,
+]
+`;
+
+exports[`speakNumeral renders invalid theme path 1`] = `
+Array [
+  .c0 {
+  speak-numeral: invalid.path.1;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  speak-numeral: invalid.path.1;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  speak-numeral: invalid.path.1;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  speak-numeral: invalid.path.1;
+}
+
+<div
+    className="c0"
+  />,
+]
+`;
+
+exports[`speakNumeral renders negative number 1`] = `
+Array [
+  .c0 {
+  speak-numeral: -54881;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  speak-numeral: -54881;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  speak-numeral: -42365;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  speak-numeral: -42365;
+}
+
+<div
+    className="c0"
+  />,
+]
+`;
+
+exports[`speakNumeral renders object [breakpoints] 1`] = `
+Array [
+  @media screen and (min-width:November) {
+  .c0 {
+    speak-numeral: July;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    speak-numeral: August;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    speak-numeral: September;
+  }
+}
+
+@media screen and (min-width:August) {
+  .c0 {
+    speak-numeral: November;
+  }
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:August) {
+
+}
+
+<div
+    className="c0"
+  />,
+  @media screen and (min-width:November) {
+  .c0 {
+    speak-numeral: July;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    speak-numeral: August;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    speak-numeral: September;
+  }
+}
+
+@media screen and (min-width:August) {
+  .c0 {
+    speak-numeral: November;
+  }
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:August) {
+
+}
+
+<div
+    className="c0"
+  />,
+  @media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:August) {
+
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    speak-numeral: May;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    speak-numeral: June;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    speak-numeral: April;
+  }
+}
+
+@media screen and (min-width:August) {
+  .c0 {
+    speak-numeral: November;
+  }
+}
+
+<div
+    className="c0"
+  />,
+  @media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:August) {
+
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    speak-numeral: May;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    speak-numeral: June;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    speak-numeral: April;
+  }
+}
+
+@media screen and (min-width:August) {
+  .c0 {
+    speak-numeral: November;
+  }
+}
+
+<div
+    className="c0"
+  />,
+]
+`;
+
+exports[`speakNumeral renders object [breakpoints] 2`] = `
+Array [
+  @media May {
+  .c0 {
+    speak-numeral: July;
+  }
+}
+
+@media April {
+  .c0 {
+    speak-numeral: August;
+  }
+}
+
+@media January {
+  .c0 {
+    speak-numeral: September;
+  }
+}
+
+@media April {
+  .c0 {
+    speak-numeral: November;
+  }
+}
+
+@media June {
+  .c0 {
+    speak-numeral: August;
+  }
+}
+
+@media May {
+
+}
+
+@media April {
+
+}
+
+@media January {
+
+}
+
+@media April {
+
+}
+
+@media June {
+
+}
+
+<div
+    className="c0"
+  />,
+  @media May {
+  .c0 {
+    speak-numeral: July;
+  }
+}
+
+@media April {
+  .c0 {
+    speak-numeral: August;
+  }
+}
+
+@media January {
+  .c0 {
+    speak-numeral: September;
+  }
+}
+
+@media April {
+  .c0 {
+    speak-numeral: November;
+  }
+}
+
+@media June {
+  .c0 {
+    speak-numeral: August;
+  }
+}
+
+@media May {
+
+}
+
+@media April {
+
+}
+
+@media January {
+
+}
+
+@media April {
+
+}
+
+@media June {
+
+}
+
+<div
+    className="c0"
+  />,
+  @media May {
+
+}
+
+@media April {
+
+}
+
+@media January {
+
+}
+
+@media April {
+
+}
+
+@media June {
+
+}
+
+@media May {
+  .c0 {
+    speak-numeral: January;
+  }
+}
+
+@media April {
+  .c0 {
+    speak-numeral: December;
+  }
+}
+
+@media January {
+  .c0 {
+    speak-numeral: April;
+  }
+}
+
+@media April {
+  .c0 {
+    speak-numeral: May;
+  }
+}
+
+@media June {
+  .c0 {
+    speak-numeral: June;
+  }
+}
+
+<div
+    className="c0"
+  />,
+  @media May {
+
+}
+
+@media April {
+
+}
+
+@media January {
+
+}
+
+@media April {
+
+}
+
+@media June {
+
+}
+
+@media May {
+  .c0 {
+    speak-numeral: January;
+  }
+}
+
+@media April {
+  .c0 {
+    speak-numeral: December;
+  }
+}
+
+@media January {
+  .c0 {
+    speak-numeral: April;
+  }
+}
+
+@media April {
+  .c0 {
+    speak-numeral: May;
+  }
+}
+
+@media June {
+  .c0 {
+    speak-numeral: June;
+  }
+}
+
+<div
+    className="c0"
+  />,
+]
+`;
+
+exports[`speakNumeral renders postitive number 1`] = `
+Array [
+  .c0 {
+  speak-numeral: 54881;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  speak-numeral: 54881;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  speak-numeral: 42365;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  speak-numeral: 42365;
+}
+
+<div
+    className="c0"
+  />,
+]
+`;
+
+exports[`speakNumeral renders string 1`] = `
+Array [
+  .c0 {
+  speak-numeral: July;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  speak-numeral: July;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  speak-numeral: June;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  speak-numeral: June;
+}
+
+<div
+    className="c0"
+  />,
+]
+`;
+
+exports[`speakNumeral renders valid theme path 1`] = `
+Array [
+  .c0 {
+  speak-numeral: DarkSlateBlue;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  speak-numeral: DarkSlateBlue;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  speak-numeral: DarkSlateBlue;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  speak-numeral: DarkSlateBlue;
+}
+
+<div
+    className="c0"
+  />,
+]
+`;

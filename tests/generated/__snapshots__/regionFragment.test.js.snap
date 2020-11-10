@@ -1,0 +1,626 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`regionFragment renders 0 1`] = `
+Array [
+  .c0 {
+  region-fragment: 0;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  region-fragment: 0;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  region-fragment: 0;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  region-fragment: 0;
+}
+
+<div
+    className="c0"
+  />,
+]
+`;
+
+exports[`regionFragment renders function 1`] = `
+Array [
+  .c0 {
+  region-fragment: hasnot;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  region-fragment: has;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  region-fragment: hasnot;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  region-fragment: has;
+}
+
+<div
+    className="c0"
+  />,
+]
+`;
+
+exports[`regionFragment renders invalid theme path 1`] = `
+Array [
+  .c0 {
+  region-fragment: invalid.path.1;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  region-fragment: invalid.path.1;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  region-fragment: invalid.path.1;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  region-fragment: invalid.path.1;
+}
+
+<div
+    className="c0"
+  />,
+]
+`;
+
+exports[`regionFragment renders negative number 1`] = `
+Array [
+  .c0 {
+  region-fragment: -54881;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  region-fragment: -54881;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  region-fragment: -42365;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  region-fragment: -42365;
+}
+
+<div
+    className="c0"
+  />,
+]
+`;
+
+exports[`regionFragment renders object [breakpoints] 1`] = `
+Array [
+  @media screen and (min-width:November) {
+  .c0 {
+    region-fragment: July;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    region-fragment: August;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    region-fragment: September;
+  }
+}
+
+@media screen and (min-width:August) {
+  .c0 {
+    region-fragment: November;
+  }
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:August) {
+
+}
+
+<div
+    className="c0"
+  />,
+  @media screen and (min-width:November) {
+  .c0 {
+    region-fragment: July;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    region-fragment: August;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    region-fragment: September;
+  }
+}
+
+@media screen and (min-width:August) {
+  .c0 {
+    region-fragment: November;
+  }
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:August) {
+
+}
+
+<div
+    className="c0"
+  />,
+  @media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:August) {
+
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    region-fragment: May;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    region-fragment: June;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    region-fragment: April;
+  }
+}
+
+@media screen and (min-width:August) {
+  .c0 {
+    region-fragment: November;
+  }
+}
+
+<div
+    className="c0"
+  />,
+  @media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:August) {
+
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    region-fragment: May;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    region-fragment: June;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    region-fragment: April;
+  }
+}
+
+@media screen and (min-width:August) {
+  .c0 {
+    region-fragment: November;
+  }
+}
+
+<div
+    className="c0"
+  />,
+]
+`;
+
+exports[`regionFragment renders object [breakpoints] 2`] = `
+Array [
+  @media May {
+  .c0 {
+    region-fragment: July;
+  }
+}
+
+@media April {
+  .c0 {
+    region-fragment: August;
+  }
+}
+
+@media January {
+  .c0 {
+    region-fragment: September;
+  }
+}
+
+@media April {
+  .c0 {
+    region-fragment: November;
+  }
+}
+
+@media June {
+  .c0 {
+    region-fragment: August;
+  }
+}
+
+@media May {
+
+}
+
+@media April {
+
+}
+
+@media January {
+
+}
+
+@media April {
+
+}
+
+@media June {
+
+}
+
+<div
+    className="c0"
+  />,
+  @media May {
+  .c0 {
+    region-fragment: July;
+  }
+}
+
+@media April {
+  .c0 {
+    region-fragment: August;
+  }
+}
+
+@media January {
+  .c0 {
+    region-fragment: September;
+  }
+}
+
+@media April {
+  .c0 {
+    region-fragment: November;
+  }
+}
+
+@media June {
+  .c0 {
+    region-fragment: August;
+  }
+}
+
+@media May {
+
+}
+
+@media April {
+
+}
+
+@media January {
+
+}
+
+@media April {
+
+}
+
+@media June {
+
+}
+
+<div
+    className="c0"
+  />,
+  @media May {
+
+}
+
+@media April {
+
+}
+
+@media January {
+
+}
+
+@media April {
+
+}
+
+@media June {
+
+}
+
+@media May {
+  .c0 {
+    region-fragment: January;
+  }
+}
+
+@media April {
+  .c0 {
+    region-fragment: December;
+  }
+}
+
+@media January {
+  .c0 {
+    region-fragment: April;
+  }
+}
+
+@media April {
+  .c0 {
+    region-fragment: May;
+  }
+}
+
+@media June {
+  .c0 {
+    region-fragment: June;
+  }
+}
+
+<div
+    className="c0"
+  />,
+  @media May {
+
+}
+
+@media April {
+
+}
+
+@media January {
+
+}
+
+@media April {
+
+}
+
+@media June {
+
+}
+
+@media May {
+  .c0 {
+    region-fragment: January;
+  }
+}
+
+@media April {
+  .c0 {
+    region-fragment: December;
+  }
+}
+
+@media January {
+  .c0 {
+    region-fragment: April;
+  }
+}
+
+@media April {
+  .c0 {
+    region-fragment: May;
+  }
+}
+
+@media June {
+  .c0 {
+    region-fragment: June;
+  }
+}
+
+<div
+    className="c0"
+  />,
+]
+`;
+
+exports[`regionFragment renders postitive number 1`] = `
+Array [
+  .c0 {
+  region-fragment: 54881;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  region-fragment: 54881;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  region-fragment: 42365;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  region-fragment: 42365;
+}
+
+<div
+    className="c0"
+  />,
+]
+`;
+
+exports[`regionFragment renders string 1`] = `
+Array [
+  .c0 {
+  region-fragment: July;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  region-fragment: July;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  region-fragment: June;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  region-fragment: June;
+}
+
+<div
+    className="c0"
+  />,
+]
+`;
+
+exports[`regionFragment renders valid theme path 1`] = `
+Array [
+  .c0 {
+  region-fragment: DarkSlateBlue;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  region-fragment: DarkSlateBlue;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  region-fragment: DarkSlateBlue;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  region-fragment: DarkSlateBlue;
+}
+
+<div
+    className="c0"
+  />,
+]
+`;

@@ -1,0 +1,626 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`overflowStyle renders 0 1`] = `
+Array [
+  .c0 {
+  overflow-style: 0;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  overflow-style: 0;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  overflow-style: 0;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  overflow-style: 0;
+}
+
+<div
+    className="c0"
+  />,
+]
+`;
+
+exports[`overflowStyle renders function 1`] = `
+Array [
+  .c0 {
+  overflow-style: hasnot;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  overflow-style: has;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  overflow-style: hasnot;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  overflow-style: has;
+}
+
+<div
+    className="c0"
+  />,
+]
+`;
+
+exports[`overflowStyle renders invalid theme path 1`] = `
+Array [
+  .c0 {
+  overflow-style: invalid.path.1;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  overflow-style: invalid.path.1;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  overflow-style: invalid.path.1;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  overflow-style: invalid.path.1;
+}
+
+<div
+    className="c0"
+  />,
+]
+`;
+
+exports[`overflowStyle renders negative number 1`] = `
+Array [
+  .c0 {
+  overflow-style: -54881;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  overflow-style: -54881;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  overflow-style: -42365;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  overflow-style: -42365;
+}
+
+<div
+    className="c0"
+  />,
+]
+`;
+
+exports[`overflowStyle renders object [breakpoints] 1`] = `
+Array [
+  @media screen and (min-width:November) {
+  .c0 {
+    overflow-style: July;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    overflow-style: August;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    overflow-style: September;
+  }
+}
+
+@media screen and (min-width:August) {
+  .c0 {
+    overflow-style: November;
+  }
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:August) {
+
+}
+
+<div
+    className="c0"
+  />,
+  @media screen and (min-width:November) {
+  .c0 {
+    overflow-style: July;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    overflow-style: August;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    overflow-style: September;
+  }
+}
+
+@media screen and (min-width:August) {
+  .c0 {
+    overflow-style: November;
+  }
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:August) {
+
+}
+
+<div
+    className="c0"
+  />,
+  @media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:August) {
+
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    overflow-style: May;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    overflow-style: June;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    overflow-style: April;
+  }
+}
+
+@media screen and (min-width:August) {
+  .c0 {
+    overflow-style: November;
+  }
+}
+
+<div
+    className="c0"
+  />,
+  @media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:August) {
+
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    overflow-style: May;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    overflow-style: June;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    overflow-style: April;
+  }
+}
+
+@media screen and (min-width:August) {
+  .c0 {
+    overflow-style: November;
+  }
+}
+
+<div
+    className="c0"
+  />,
+]
+`;
+
+exports[`overflowStyle renders object [breakpoints] 2`] = `
+Array [
+  @media May {
+  .c0 {
+    overflow-style: July;
+  }
+}
+
+@media April {
+  .c0 {
+    overflow-style: August;
+  }
+}
+
+@media January {
+  .c0 {
+    overflow-style: September;
+  }
+}
+
+@media April {
+  .c0 {
+    overflow-style: November;
+  }
+}
+
+@media June {
+  .c0 {
+    overflow-style: August;
+  }
+}
+
+@media May {
+
+}
+
+@media April {
+
+}
+
+@media January {
+
+}
+
+@media April {
+
+}
+
+@media June {
+
+}
+
+<div
+    className="c0"
+  />,
+  @media May {
+  .c0 {
+    overflow-style: July;
+  }
+}
+
+@media April {
+  .c0 {
+    overflow-style: August;
+  }
+}
+
+@media January {
+  .c0 {
+    overflow-style: September;
+  }
+}
+
+@media April {
+  .c0 {
+    overflow-style: November;
+  }
+}
+
+@media June {
+  .c0 {
+    overflow-style: August;
+  }
+}
+
+@media May {
+
+}
+
+@media April {
+
+}
+
+@media January {
+
+}
+
+@media April {
+
+}
+
+@media June {
+
+}
+
+<div
+    className="c0"
+  />,
+  @media May {
+
+}
+
+@media April {
+
+}
+
+@media January {
+
+}
+
+@media April {
+
+}
+
+@media June {
+
+}
+
+@media May {
+  .c0 {
+    overflow-style: January;
+  }
+}
+
+@media April {
+  .c0 {
+    overflow-style: December;
+  }
+}
+
+@media January {
+  .c0 {
+    overflow-style: April;
+  }
+}
+
+@media April {
+  .c0 {
+    overflow-style: May;
+  }
+}
+
+@media June {
+  .c0 {
+    overflow-style: June;
+  }
+}
+
+<div
+    className="c0"
+  />,
+  @media May {
+
+}
+
+@media April {
+
+}
+
+@media January {
+
+}
+
+@media April {
+
+}
+
+@media June {
+
+}
+
+@media May {
+  .c0 {
+    overflow-style: January;
+  }
+}
+
+@media April {
+  .c0 {
+    overflow-style: December;
+  }
+}
+
+@media January {
+  .c0 {
+    overflow-style: April;
+  }
+}
+
+@media April {
+  .c0 {
+    overflow-style: May;
+  }
+}
+
+@media June {
+  .c0 {
+    overflow-style: June;
+  }
+}
+
+<div
+    className="c0"
+  />,
+]
+`;
+
+exports[`overflowStyle renders postitive number 1`] = `
+Array [
+  .c0 {
+  overflow-style: 54881;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  overflow-style: 54881;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  overflow-style: 42365;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  overflow-style: 42365;
+}
+
+<div
+    className="c0"
+  />,
+]
+`;
+
+exports[`overflowStyle renders string 1`] = `
+Array [
+  .c0 {
+  overflow-style: July;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  overflow-style: July;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  overflow-style: June;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  overflow-style: June;
+}
+
+<div
+    className="c0"
+  />,
+]
+`;
+
+exports[`overflowStyle renders valid theme path 1`] = `
+Array [
+  .c0 {
+  overflow-style: DarkSlateBlue;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  overflow-style: DarkSlateBlue;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  overflow-style: DarkSlateBlue;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  overflow-style: DarkSlateBlue;
+}
+
+<div
+    className="c0"
+  />,
+]
+`;

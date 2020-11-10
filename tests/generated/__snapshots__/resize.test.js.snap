@@ -1,0 +1,626 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`resize renders 0 1`] = `
+Array [
+  .c0 {
+  resize: 0;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  resize: 0;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  resize: 0;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  resize: 0;
+}
+
+<div
+    className="c0"
+  />,
+]
+`;
+
+exports[`resize renders function 1`] = `
+Array [
+  .c0 {
+  resize: hasnot;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  resize: has;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  resize: hasnot;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  resize: has;
+}
+
+<div
+    className="c0"
+  />,
+]
+`;
+
+exports[`resize renders invalid theme path 1`] = `
+Array [
+  .c0 {
+  resize: invalid.path.1;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  resize: invalid.path.1;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  resize: invalid.path.1;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  resize: invalid.path.1;
+}
+
+<div
+    className="c0"
+  />,
+]
+`;
+
+exports[`resize renders negative number 1`] = `
+Array [
+  .c0 {
+  resize: -54881;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  resize: -54881;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  resize: -42365;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  resize: -42365;
+}
+
+<div
+    className="c0"
+  />,
+]
+`;
+
+exports[`resize renders object [breakpoints] 1`] = `
+Array [
+  @media screen and (min-width:November) {
+  .c0 {
+    resize: July;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    resize: August;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    resize: September;
+  }
+}
+
+@media screen and (min-width:August) {
+  .c0 {
+    resize: November;
+  }
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:August) {
+
+}
+
+<div
+    className="c0"
+  />,
+  @media screen and (min-width:November) {
+  .c0 {
+    resize: July;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    resize: August;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    resize: September;
+  }
+}
+
+@media screen and (min-width:August) {
+  .c0 {
+    resize: November;
+  }
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:August) {
+
+}
+
+<div
+    className="c0"
+  />,
+  @media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:August) {
+
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    resize: May;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    resize: June;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    resize: April;
+  }
+}
+
+@media screen and (min-width:August) {
+  .c0 {
+    resize: November;
+  }
+}
+
+<div
+    className="c0"
+  />,
+  @media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:August) {
+
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    resize: May;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    resize: June;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    resize: April;
+  }
+}
+
+@media screen and (min-width:August) {
+  .c0 {
+    resize: November;
+  }
+}
+
+<div
+    className="c0"
+  />,
+]
+`;
+
+exports[`resize renders object [breakpoints] 2`] = `
+Array [
+  @media May {
+  .c0 {
+    resize: July;
+  }
+}
+
+@media April {
+  .c0 {
+    resize: August;
+  }
+}
+
+@media January {
+  .c0 {
+    resize: September;
+  }
+}
+
+@media April {
+  .c0 {
+    resize: November;
+  }
+}
+
+@media June {
+  .c0 {
+    resize: August;
+  }
+}
+
+@media May {
+
+}
+
+@media April {
+
+}
+
+@media January {
+
+}
+
+@media April {
+
+}
+
+@media June {
+
+}
+
+<div
+    className="c0"
+  />,
+  @media May {
+  .c0 {
+    resize: July;
+  }
+}
+
+@media April {
+  .c0 {
+    resize: August;
+  }
+}
+
+@media January {
+  .c0 {
+    resize: September;
+  }
+}
+
+@media April {
+  .c0 {
+    resize: November;
+  }
+}
+
+@media June {
+  .c0 {
+    resize: August;
+  }
+}
+
+@media May {
+
+}
+
+@media April {
+
+}
+
+@media January {
+
+}
+
+@media April {
+
+}
+
+@media June {
+
+}
+
+<div
+    className="c0"
+  />,
+  @media May {
+
+}
+
+@media April {
+
+}
+
+@media January {
+
+}
+
+@media April {
+
+}
+
+@media June {
+
+}
+
+@media May {
+  .c0 {
+    resize: January;
+  }
+}
+
+@media April {
+  .c0 {
+    resize: December;
+  }
+}
+
+@media January {
+  .c0 {
+    resize: April;
+  }
+}
+
+@media April {
+  .c0 {
+    resize: May;
+  }
+}
+
+@media June {
+  .c0 {
+    resize: June;
+  }
+}
+
+<div
+    className="c0"
+  />,
+  @media May {
+
+}
+
+@media April {
+
+}
+
+@media January {
+
+}
+
+@media April {
+
+}
+
+@media June {
+
+}
+
+@media May {
+  .c0 {
+    resize: January;
+  }
+}
+
+@media April {
+  .c0 {
+    resize: December;
+  }
+}
+
+@media January {
+  .c0 {
+    resize: April;
+  }
+}
+
+@media April {
+  .c0 {
+    resize: May;
+  }
+}
+
+@media June {
+  .c0 {
+    resize: June;
+  }
+}
+
+<div
+    className="c0"
+  />,
+]
+`;
+
+exports[`resize renders postitive number 1`] = `
+Array [
+  .c0 {
+  resize: 54881;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  resize: 54881;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  resize: 42365;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  resize: 42365;
+}
+
+<div
+    className="c0"
+  />,
+]
+`;
+
+exports[`resize renders string 1`] = `
+Array [
+  .c0 {
+  resize: July;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  resize: July;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  resize: June;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  resize: June;
+}
+
+<div
+    className="c0"
+  />,
+]
+`;
+
+exports[`resize renders valid theme path 1`] = `
+Array [
+  .c0 {
+  resize: DarkSlateBlue;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  resize: DarkSlateBlue;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  resize: DarkSlateBlue;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  resize: DarkSlateBlue;
+}
+
+<div
+    className="c0"
+  />,
+]
+`;

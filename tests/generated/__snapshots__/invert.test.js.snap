@@ -1,0 +1,690 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`invert renders 0 1`] = `
+Array [
+  .c0 {
+  -webkit-filter: invert(0%);
+  filter: invert(0%);
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-filter: invert(0%);
+  filter: invert(0%);
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-filter: invert(0%);
+  filter: invert(0%);
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-filter: invert(0%);
+  filter: invert(0%);
+}
+
+<div
+    className="c0"
+  />,
+]
+`;
+
+exports[`invert renders function 1`] = `
+Array [
+  .c0 {
+  -webkit-filter: invert(hasnot);
+  filter: invert(hasnot);
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-filter: invert(has);
+  filter: invert(has);
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-filter: invert(hasnot);
+  filter: invert(hasnot);
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-filter: invert(has);
+  filter: invert(has);
+}
+
+<div
+    className="c0"
+  />,
+]
+`;
+
+exports[`invert renders invalid theme path 1`] = `
+Array [
+  .c0 {
+  -webkit-filter: invert(invalid.path.1);
+  filter: invert(invalid.path.1);
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-filter: invert(invalid.path.1);
+  filter: invert(invalid.path.1);
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-filter: invert(invalid.path.1);
+  filter: invert(invalid.path.1);
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-filter: invert(invalid.path.1);
+  filter: invert(invalid.path.1);
+}
+
+<div
+    className="c0"
+  />,
+]
+`;
+
+exports[`invert renders negative number 1`] = `
+Array [
+  .c0 {
+  -webkit-filter: invert(-5488100%);
+  filter: invert(-5488100%);
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-filter: invert(-5488100%);
+  filter: invert(-5488100%);
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-filter: invert(-4236500%);
+  filter: invert(-4236500%);
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-filter: invert(-4236500%);
+  filter: invert(-4236500%);
+}
+
+<div
+    className="c0"
+  />,
+]
+`;
+
+exports[`invert renders object [breakpoints] 1`] = `
+Array [
+  @media screen and (min-width:November) {
+  .c0 {
+    -webkit-filter: invert(July);
+    filter: invert(July);
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    -webkit-filter: invert(August);
+    filter: invert(August);
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    -webkit-filter: invert(September);
+    filter: invert(September);
+  }
+}
+
+@media screen and (min-width:August) {
+  .c0 {
+    -webkit-filter: invert(November);
+    filter: invert(November);
+  }
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:August) {
+
+}
+
+<div
+    className="c0"
+  />,
+  @media screen and (min-width:November) {
+  .c0 {
+    -webkit-filter: invert(July);
+    filter: invert(July);
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    -webkit-filter: invert(August);
+    filter: invert(August);
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    -webkit-filter: invert(September);
+    filter: invert(September);
+  }
+}
+
+@media screen and (min-width:August) {
+  .c0 {
+    -webkit-filter: invert(November);
+    filter: invert(November);
+  }
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:August) {
+
+}
+
+<div
+    className="c0"
+  />,
+  @media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:August) {
+
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    -webkit-filter: invert(May);
+    filter: invert(May);
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    -webkit-filter: invert(June);
+    filter: invert(June);
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    -webkit-filter: invert(April);
+    filter: invert(April);
+  }
+}
+
+@media screen and (min-width:August) {
+  .c0 {
+    -webkit-filter: invert(November);
+    filter: invert(November);
+  }
+}
+
+<div
+    className="c0"
+  />,
+  @media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:August) {
+
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    -webkit-filter: invert(May);
+    filter: invert(May);
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    -webkit-filter: invert(June);
+    filter: invert(June);
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    -webkit-filter: invert(April);
+    filter: invert(April);
+  }
+}
+
+@media screen and (min-width:August) {
+  .c0 {
+    -webkit-filter: invert(November);
+    filter: invert(November);
+  }
+}
+
+<div
+    className="c0"
+  />,
+]
+`;
+
+exports[`invert renders object [breakpoints] 2`] = `
+Array [
+  @media May {
+  .c0 {
+    -webkit-filter: invert(July);
+    filter: invert(July);
+  }
+}
+
+@media April {
+  .c0 {
+    -webkit-filter: invert(August);
+    filter: invert(August);
+  }
+}
+
+@media January {
+  .c0 {
+    -webkit-filter: invert(September);
+    filter: invert(September);
+  }
+}
+
+@media April {
+  .c0 {
+    -webkit-filter: invert(November);
+    filter: invert(November);
+  }
+}
+
+@media June {
+  .c0 {
+    -webkit-filter: invert(August);
+    filter: invert(August);
+  }
+}
+
+@media May {
+
+}
+
+@media April {
+
+}
+
+@media January {
+
+}
+
+@media April {
+
+}
+
+@media June {
+
+}
+
+<div
+    className="c0"
+  />,
+  @media May {
+  .c0 {
+    -webkit-filter: invert(July);
+    filter: invert(July);
+  }
+}
+
+@media April {
+  .c0 {
+    -webkit-filter: invert(August);
+    filter: invert(August);
+  }
+}
+
+@media January {
+  .c0 {
+    -webkit-filter: invert(September);
+    filter: invert(September);
+  }
+}
+
+@media April {
+  .c0 {
+    -webkit-filter: invert(November);
+    filter: invert(November);
+  }
+}
+
+@media June {
+  .c0 {
+    -webkit-filter: invert(August);
+    filter: invert(August);
+  }
+}
+
+@media May {
+
+}
+
+@media April {
+
+}
+
+@media January {
+
+}
+
+@media April {
+
+}
+
+@media June {
+
+}
+
+<div
+    className="c0"
+  />,
+  @media May {
+
+}
+
+@media April {
+
+}
+
+@media January {
+
+}
+
+@media April {
+
+}
+
+@media June {
+
+}
+
+@media May {
+  .c0 {
+    -webkit-filter: invert(January);
+    filter: invert(January);
+  }
+}
+
+@media April {
+  .c0 {
+    -webkit-filter: invert(December);
+    filter: invert(December);
+  }
+}
+
+@media January {
+  .c0 {
+    -webkit-filter: invert(April);
+    filter: invert(April);
+  }
+}
+
+@media April {
+  .c0 {
+    -webkit-filter: invert(May);
+    filter: invert(May);
+  }
+}
+
+@media June {
+  .c0 {
+    -webkit-filter: invert(June);
+    filter: invert(June);
+  }
+}
+
+<div
+    className="c0"
+  />,
+  @media May {
+
+}
+
+@media April {
+
+}
+
+@media January {
+
+}
+
+@media April {
+
+}
+
+@media June {
+
+}
+
+@media May {
+  .c0 {
+    -webkit-filter: invert(January);
+    filter: invert(January);
+  }
+}
+
+@media April {
+  .c0 {
+    -webkit-filter: invert(December);
+    filter: invert(December);
+  }
+}
+
+@media January {
+  .c0 {
+    -webkit-filter: invert(April);
+    filter: invert(April);
+  }
+}
+
+@media April {
+  .c0 {
+    -webkit-filter: invert(May);
+    filter: invert(May);
+  }
+}
+
+@media June {
+  .c0 {
+    -webkit-filter: invert(June);
+    filter: invert(June);
+  }
+}
+
+<div
+    className="c0"
+  />,
+]
+`;
+
+exports[`invert renders postitive number 1`] = `
+Array [
+  .c0 {
+  -webkit-filter: invert(54881%);
+  filter: invert(54881%);
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-filter: invert(54881%);
+  filter: invert(54881%);
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-filter: invert(42365%);
+  filter: invert(42365%);
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-filter: invert(42365%);
+  filter: invert(42365%);
+}
+
+<div
+    className="c0"
+  />,
+]
+`;
+
+exports[`invert renders string 1`] = `
+Array [
+  .c0 {
+  -webkit-filter: invert(July);
+  filter: invert(July);
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-filter: invert(July);
+  filter: invert(July);
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-filter: invert(June);
+  filter: invert(June);
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-filter: invert(June);
+  filter: invert(June);
+}
+
+<div
+    className="c0"
+  />,
+]
+`;
+
+exports[`invert renders valid theme path 1`] = `
+Array [
+  .c0 {
+  -webkit-filter: invert(DarkSlateBlue);
+  filter: invert(DarkSlateBlue);
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-filter: invert(DarkSlateBlue);
+  filter: invert(DarkSlateBlue);
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-filter: invert(DarkSlateBlue);
+  filter: invert(DarkSlateBlue);
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-filter: invert(DarkSlateBlue);
+  filter: invert(DarkSlateBlue);
+}
+
+<div
+    className="c0"
+  />,
+]
+`;

@@ -1,0 +1,626 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`gridAutoPosition renders 0 1`] = `
+Array [
+  .c0 {
+  grid-auto-position: 0;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  grid-auto-position: 0;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  grid-auto-position: 0;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  grid-auto-position: 0;
+}
+
+<div
+    className="c0"
+  />,
+]
+`;
+
+exports[`gridAutoPosition renders function 1`] = `
+Array [
+  .c0 {
+  grid-auto-position: hasnot;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  grid-auto-position: has;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  grid-auto-position: hasnot;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  grid-auto-position: has;
+}
+
+<div
+    className="c0"
+  />,
+]
+`;
+
+exports[`gridAutoPosition renders invalid theme path 1`] = `
+Array [
+  .c0 {
+  grid-auto-position: invalid.path.1;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  grid-auto-position: invalid.path.1;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  grid-auto-position: invalid.path.1;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  grid-auto-position: invalid.path.1;
+}
+
+<div
+    className="c0"
+  />,
+]
+`;
+
+exports[`gridAutoPosition renders negative number 1`] = `
+Array [
+  .c0 {
+  grid-auto-position: -54881;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  grid-auto-position: -54881;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  grid-auto-position: -42365;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  grid-auto-position: -42365;
+}
+
+<div
+    className="c0"
+  />,
+]
+`;
+
+exports[`gridAutoPosition renders object [breakpoints] 1`] = `
+Array [
+  @media screen and (min-width:November) {
+  .c0 {
+    grid-auto-position: July;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    grid-auto-position: August;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    grid-auto-position: September;
+  }
+}
+
+@media screen and (min-width:August) {
+  .c0 {
+    grid-auto-position: November;
+  }
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:August) {
+
+}
+
+<div
+    className="c0"
+  />,
+  @media screen and (min-width:November) {
+  .c0 {
+    grid-auto-position: July;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    grid-auto-position: August;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    grid-auto-position: September;
+  }
+}
+
+@media screen and (min-width:August) {
+  .c0 {
+    grid-auto-position: November;
+  }
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:August) {
+
+}
+
+<div
+    className="c0"
+  />,
+  @media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:August) {
+
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    grid-auto-position: May;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    grid-auto-position: June;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    grid-auto-position: April;
+  }
+}
+
+@media screen and (min-width:August) {
+  .c0 {
+    grid-auto-position: November;
+  }
+}
+
+<div
+    className="c0"
+  />,
+  @media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:August) {
+
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    grid-auto-position: May;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    grid-auto-position: June;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    grid-auto-position: April;
+  }
+}
+
+@media screen and (min-width:August) {
+  .c0 {
+    grid-auto-position: November;
+  }
+}
+
+<div
+    className="c0"
+  />,
+]
+`;
+
+exports[`gridAutoPosition renders object [breakpoints] 2`] = `
+Array [
+  @media May {
+  .c0 {
+    grid-auto-position: July;
+  }
+}
+
+@media April {
+  .c0 {
+    grid-auto-position: August;
+  }
+}
+
+@media January {
+  .c0 {
+    grid-auto-position: September;
+  }
+}
+
+@media April {
+  .c0 {
+    grid-auto-position: November;
+  }
+}
+
+@media June {
+  .c0 {
+    grid-auto-position: August;
+  }
+}
+
+@media May {
+
+}
+
+@media April {
+
+}
+
+@media January {
+
+}
+
+@media April {
+
+}
+
+@media June {
+
+}
+
+<div
+    className="c0"
+  />,
+  @media May {
+  .c0 {
+    grid-auto-position: July;
+  }
+}
+
+@media April {
+  .c0 {
+    grid-auto-position: August;
+  }
+}
+
+@media January {
+  .c0 {
+    grid-auto-position: September;
+  }
+}
+
+@media April {
+  .c0 {
+    grid-auto-position: November;
+  }
+}
+
+@media June {
+  .c0 {
+    grid-auto-position: August;
+  }
+}
+
+@media May {
+
+}
+
+@media April {
+
+}
+
+@media January {
+
+}
+
+@media April {
+
+}
+
+@media June {
+
+}
+
+<div
+    className="c0"
+  />,
+  @media May {
+
+}
+
+@media April {
+
+}
+
+@media January {
+
+}
+
+@media April {
+
+}
+
+@media June {
+
+}
+
+@media May {
+  .c0 {
+    grid-auto-position: January;
+  }
+}
+
+@media April {
+  .c0 {
+    grid-auto-position: December;
+  }
+}
+
+@media January {
+  .c0 {
+    grid-auto-position: April;
+  }
+}
+
+@media April {
+  .c0 {
+    grid-auto-position: May;
+  }
+}
+
+@media June {
+  .c0 {
+    grid-auto-position: June;
+  }
+}
+
+<div
+    className="c0"
+  />,
+  @media May {
+
+}
+
+@media April {
+
+}
+
+@media January {
+
+}
+
+@media April {
+
+}
+
+@media June {
+
+}
+
+@media May {
+  .c0 {
+    grid-auto-position: January;
+  }
+}
+
+@media April {
+  .c0 {
+    grid-auto-position: December;
+  }
+}
+
+@media January {
+  .c0 {
+    grid-auto-position: April;
+  }
+}
+
+@media April {
+  .c0 {
+    grid-auto-position: May;
+  }
+}
+
+@media June {
+  .c0 {
+    grid-auto-position: June;
+  }
+}
+
+<div
+    className="c0"
+  />,
+]
+`;
+
+exports[`gridAutoPosition renders postitive number 1`] = `
+Array [
+  .c0 {
+  grid-auto-position: 54881;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  grid-auto-position: 54881;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  grid-auto-position: 42365;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  grid-auto-position: 42365;
+}
+
+<div
+    className="c0"
+  />,
+]
+`;
+
+exports[`gridAutoPosition renders string 1`] = `
+Array [
+  .c0 {
+  grid-auto-position: July;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  grid-auto-position: July;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  grid-auto-position: June;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  grid-auto-position: June;
+}
+
+<div
+    className="c0"
+  />,
+]
+`;
+
+exports[`gridAutoPosition renders valid theme path 1`] = `
+Array [
+  .c0 {
+  grid-auto-position: DarkSlateBlue;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  grid-auto-position: DarkSlateBlue;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  grid-auto-position: DarkSlateBlue;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  grid-auto-position: DarkSlateBlue;
+}
+
+<div
+    className="c0"
+  />,
+]
+`;

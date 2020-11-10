@@ -1,0 +1,626 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`wordBreak renders 0 1`] = `
+Array [
+  .c0 {
+  word-break: 0;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  word-break: 0;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  word-break: 0;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  word-break: 0;
+}
+
+<div
+    className="c0"
+  />,
+]
+`;
+
+exports[`wordBreak renders function 1`] = `
+Array [
+  .c0 {
+  word-break: hasnot;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  word-break: has;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  word-break: hasnot;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  word-break: has;
+}
+
+<div
+    className="c0"
+  />,
+]
+`;
+
+exports[`wordBreak renders invalid theme path 1`] = `
+Array [
+  .c0 {
+  word-break: invalid.path.1;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  word-break: invalid.path.1;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  word-break: invalid.path.1;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  word-break: invalid.path.1;
+}
+
+<div
+    className="c0"
+  />,
+]
+`;
+
+exports[`wordBreak renders negative number 1`] = `
+Array [
+  .c0 {
+  word-break: -54881;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  word-break: -54881;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  word-break: -42365;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  word-break: -42365;
+}
+
+<div
+    className="c0"
+  />,
+]
+`;
+
+exports[`wordBreak renders object [breakpoints] 1`] = `
+Array [
+  @media screen and (min-width:November) {
+  .c0 {
+    word-break: July;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    word-break: August;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    word-break: September;
+  }
+}
+
+@media screen and (min-width:August) {
+  .c0 {
+    word-break: November;
+  }
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:August) {
+
+}
+
+<div
+    className="c0"
+  />,
+  @media screen and (min-width:November) {
+  .c0 {
+    word-break: July;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    word-break: August;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    word-break: September;
+  }
+}
+
+@media screen and (min-width:August) {
+  .c0 {
+    word-break: November;
+  }
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:August) {
+
+}
+
+<div
+    className="c0"
+  />,
+  @media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:August) {
+
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    word-break: May;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    word-break: June;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    word-break: April;
+  }
+}
+
+@media screen and (min-width:August) {
+  .c0 {
+    word-break: November;
+  }
+}
+
+<div
+    className="c0"
+  />,
+  @media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:August) {
+
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    word-break: May;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    word-break: June;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    word-break: April;
+  }
+}
+
+@media screen and (min-width:August) {
+  .c0 {
+    word-break: November;
+  }
+}
+
+<div
+    className="c0"
+  />,
+]
+`;
+
+exports[`wordBreak renders object [breakpoints] 2`] = `
+Array [
+  @media May {
+  .c0 {
+    word-break: July;
+  }
+}
+
+@media April {
+  .c0 {
+    word-break: August;
+  }
+}
+
+@media January {
+  .c0 {
+    word-break: September;
+  }
+}
+
+@media April {
+  .c0 {
+    word-break: November;
+  }
+}
+
+@media June {
+  .c0 {
+    word-break: August;
+  }
+}
+
+@media May {
+
+}
+
+@media April {
+
+}
+
+@media January {
+
+}
+
+@media April {
+
+}
+
+@media June {
+
+}
+
+<div
+    className="c0"
+  />,
+  @media May {
+  .c0 {
+    word-break: July;
+  }
+}
+
+@media April {
+  .c0 {
+    word-break: August;
+  }
+}
+
+@media January {
+  .c0 {
+    word-break: September;
+  }
+}
+
+@media April {
+  .c0 {
+    word-break: November;
+  }
+}
+
+@media June {
+  .c0 {
+    word-break: August;
+  }
+}
+
+@media May {
+
+}
+
+@media April {
+
+}
+
+@media January {
+
+}
+
+@media April {
+
+}
+
+@media June {
+
+}
+
+<div
+    className="c0"
+  />,
+  @media May {
+
+}
+
+@media April {
+
+}
+
+@media January {
+
+}
+
+@media April {
+
+}
+
+@media June {
+
+}
+
+@media May {
+  .c0 {
+    word-break: January;
+  }
+}
+
+@media April {
+  .c0 {
+    word-break: December;
+  }
+}
+
+@media January {
+  .c0 {
+    word-break: April;
+  }
+}
+
+@media April {
+  .c0 {
+    word-break: May;
+  }
+}
+
+@media June {
+  .c0 {
+    word-break: June;
+  }
+}
+
+<div
+    className="c0"
+  />,
+  @media May {
+
+}
+
+@media April {
+
+}
+
+@media January {
+
+}
+
+@media April {
+
+}
+
+@media June {
+
+}
+
+@media May {
+  .c0 {
+    word-break: January;
+  }
+}
+
+@media April {
+  .c0 {
+    word-break: December;
+  }
+}
+
+@media January {
+  .c0 {
+    word-break: April;
+  }
+}
+
+@media April {
+  .c0 {
+    word-break: May;
+  }
+}
+
+@media June {
+  .c0 {
+    word-break: June;
+  }
+}
+
+<div
+    className="c0"
+  />,
+]
+`;
+
+exports[`wordBreak renders postitive number 1`] = `
+Array [
+  .c0 {
+  word-break: 54881;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  word-break: 54881;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  word-break: 42365;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  word-break: 42365;
+}
+
+<div
+    className="c0"
+  />,
+]
+`;
+
+exports[`wordBreak renders string 1`] = `
+Array [
+  .c0 {
+  word-break: July;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  word-break: July;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  word-break: June;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  word-break: June;
+}
+
+<div
+    className="c0"
+  />,
+]
+`;
+
+exports[`wordBreak renders valid theme path 1`] = `
+Array [
+  .c0 {
+  word-break: DarkSlateBlue;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  word-break: DarkSlateBlue;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  word-break: DarkSlateBlue;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  word-break: DarkSlateBlue;
+}
+
+<div
+    className="c0"
+  />,
+]
+`;

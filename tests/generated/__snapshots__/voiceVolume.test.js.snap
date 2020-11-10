@@ -1,0 +1,626 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`voiceVolume renders 0 1`] = `
+Array [
+  .c0 {
+  voice-volume: 0;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  voice-volume: 0;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  voice-volume: 0;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  voice-volume: 0;
+}
+
+<div
+    className="c0"
+  />,
+]
+`;
+
+exports[`voiceVolume renders function 1`] = `
+Array [
+  .c0 {
+  voice-volume: hasnot;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  voice-volume: has;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  voice-volume: hasnot;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  voice-volume: has;
+}
+
+<div
+    className="c0"
+  />,
+]
+`;
+
+exports[`voiceVolume renders invalid theme path 1`] = `
+Array [
+  .c0 {
+  voice-volume: invalid.path.1;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  voice-volume: invalid.path.1;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  voice-volume: invalid.path.1;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  voice-volume: invalid.path.1;
+}
+
+<div
+    className="c0"
+  />,
+]
+`;
+
+exports[`voiceVolume renders negative number 1`] = `
+Array [
+  .c0 {
+  voice-volume: -54881;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  voice-volume: -54881;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  voice-volume: -42365;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  voice-volume: -42365;
+}
+
+<div
+    className="c0"
+  />,
+]
+`;
+
+exports[`voiceVolume renders object [breakpoints] 1`] = `
+Array [
+  @media screen and (min-width:November) {
+  .c0 {
+    voice-volume: July;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    voice-volume: August;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    voice-volume: September;
+  }
+}
+
+@media screen and (min-width:August) {
+  .c0 {
+    voice-volume: November;
+  }
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:August) {
+
+}
+
+<div
+    className="c0"
+  />,
+  @media screen and (min-width:November) {
+  .c0 {
+    voice-volume: July;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    voice-volume: August;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    voice-volume: September;
+  }
+}
+
+@media screen and (min-width:August) {
+  .c0 {
+    voice-volume: November;
+  }
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:August) {
+
+}
+
+<div
+    className="c0"
+  />,
+  @media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:August) {
+
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    voice-volume: May;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    voice-volume: June;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    voice-volume: April;
+  }
+}
+
+@media screen and (min-width:August) {
+  .c0 {
+    voice-volume: November;
+  }
+}
+
+<div
+    className="c0"
+  />,
+  @media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:August) {
+
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    voice-volume: May;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    voice-volume: June;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    voice-volume: April;
+  }
+}
+
+@media screen and (min-width:August) {
+  .c0 {
+    voice-volume: November;
+  }
+}
+
+<div
+    className="c0"
+  />,
+]
+`;
+
+exports[`voiceVolume renders object [breakpoints] 2`] = `
+Array [
+  @media May {
+  .c0 {
+    voice-volume: July;
+  }
+}
+
+@media April {
+  .c0 {
+    voice-volume: August;
+  }
+}
+
+@media January {
+  .c0 {
+    voice-volume: September;
+  }
+}
+
+@media April {
+  .c0 {
+    voice-volume: November;
+  }
+}
+
+@media June {
+  .c0 {
+    voice-volume: August;
+  }
+}
+
+@media May {
+
+}
+
+@media April {
+
+}
+
+@media January {
+
+}
+
+@media April {
+
+}
+
+@media June {
+
+}
+
+<div
+    className="c0"
+  />,
+  @media May {
+  .c0 {
+    voice-volume: July;
+  }
+}
+
+@media April {
+  .c0 {
+    voice-volume: August;
+  }
+}
+
+@media January {
+  .c0 {
+    voice-volume: September;
+  }
+}
+
+@media April {
+  .c0 {
+    voice-volume: November;
+  }
+}
+
+@media June {
+  .c0 {
+    voice-volume: August;
+  }
+}
+
+@media May {
+
+}
+
+@media April {
+
+}
+
+@media January {
+
+}
+
+@media April {
+
+}
+
+@media June {
+
+}
+
+<div
+    className="c0"
+  />,
+  @media May {
+
+}
+
+@media April {
+
+}
+
+@media January {
+
+}
+
+@media April {
+
+}
+
+@media June {
+
+}
+
+@media May {
+  .c0 {
+    voice-volume: January;
+  }
+}
+
+@media April {
+  .c0 {
+    voice-volume: December;
+  }
+}
+
+@media January {
+  .c0 {
+    voice-volume: April;
+  }
+}
+
+@media April {
+  .c0 {
+    voice-volume: May;
+  }
+}
+
+@media June {
+  .c0 {
+    voice-volume: June;
+  }
+}
+
+<div
+    className="c0"
+  />,
+  @media May {
+
+}
+
+@media April {
+
+}
+
+@media January {
+
+}
+
+@media April {
+
+}
+
+@media June {
+
+}
+
+@media May {
+  .c0 {
+    voice-volume: January;
+  }
+}
+
+@media April {
+  .c0 {
+    voice-volume: December;
+  }
+}
+
+@media January {
+  .c0 {
+    voice-volume: April;
+  }
+}
+
+@media April {
+  .c0 {
+    voice-volume: May;
+  }
+}
+
+@media June {
+  .c0 {
+    voice-volume: June;
+  }
+}
+
+<div
+    className="c0"
+  />,
+]
+`;
+
+exports[`voiceVolume renders postitive number 1`] = `
+Array [
+  .c0 {
+  voice-volume: 54881;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  voice-volume: 54881;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  voice-volume: 42365;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  voice-volume: 42365;
+}
+
+<div
+    className="c0"
+  />,
+]
+`;
+
+exports[`voiceVolume renders string 1`] = `
+Array [
+  .c0 {
+  voice-volume: July;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  voice-volume: July;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  voice-volume: June;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  voice-volume: June;
+}
+
+<div
+    className="c0"
+  />,
+]
+`;
+
+exports[`voiceVolume renders valid theme path 1`] = `
+Array [
+  .c0 {
+  voice-volume: DarkSlateBlue;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  voice-volume: DarkSlateBlue;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  voice-volume: DarkSlateBlue;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  voice-volume: DarkSlateBlue;
+}
+
+<div
+    className="c0"
+  />,
+]
+`;

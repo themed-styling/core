@@ -1,0 +1,626 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`fontVariantNumeric renders 0 1`] = `
+Array [
+  .c0 {
+  font-variant-numeric: 0;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  font-variant-numeric: 0;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  font-variant-numeric: 0;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  font-variant-numeric: 0;
+}
+
+<div
+    className="c0"
+  />,
+]
+`;
+
+exports[`fontVariantNumeric renders function 1`] = `
+Array [
+  .c0 {
+  font-variant-numeric: hasnot;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  font-variant-numeric: has;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  font-variant-numeric: hasnot;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  font-variant-numeric: has;
+}
+
+<div
+    className="c0"
+  />,
+]
+`;
+
+exports[`fontVariantNumeric renders invalid theme path 1`] = `
+Array [
+  .c0 {
+  font-variant-numeric: invalid.path.1;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  font-variant-numeric: invalid.path.1;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  font-variant-numeric: invalid.path.1;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  font-variant-numeric: invalid.path.1;
+}
+
+<div
+    className="c0"
+  />,
+]
+`;
+
+exports[`fontVariantNumeric renders negative number 1`] = `
+Array [
+  .c0 {
+  font-variant-numeric: -54881;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  font-variant-numeric: -54881;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  font-variant-numeric: -42365;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  font-variant-numeric: -42365;
+}
+
+<div
+    className="c0"
+  />,
+]
+`;
+
+exports[`fontVariantNumeric renders object [breakpoints] 1`] = `
+Array [
+  @media screen and (min-width:November) {
+  .c0 {
+    font-variant-numeric: July;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    font-variant-numeric: August;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    font-variant-numeric: September;
+  }
+}
+
+@media screen and (min-width:August) {
+  .c0 {
+    font-variant-numeric: November;
+  }
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:August) {
+
+}
+
+<div
+    className="c0"
+  />,
+  @media screen and (min-width:November) {
+  .c0 {
+    font-variant-numeric: July;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    font-variant-numeric: August;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    font-variant-numeric: September;
+  }
+}
+
+@media screen and (min-width:August) {
+  .c0 {
+    font-variant-numeric: November;
+  }
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:August) {
+
+}
+
+<div
+    className="c0"
+  />,
+  @media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:August) {
+
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    font-variant-numeric: May;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    font-variant-numeric: June;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    font-variant-numeric: April;
+  }
+}
+
+@media screen and (min-width:August) {
+  .c0 {
+    font-variant-numeric: November;
+  }
+}
+
+<div
+    className="c0"
+  />,
+  @media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:August) {
+
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    font-variant-numeric: May;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    font-variant-numeric: June;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    font-variant-numeric: April;
+  }
+}
+
+@media screen and (min-width:August) {
+  .c0 {
+    font-variant-numeric: November;
+  }
+}
+
+<div
+    className="c0"
+  />,
+]
+`;
+
+exports[`fontVariantNumeric renders object [breakpoints] 2`] = `
+Array [
+  @media May {
+  .c0 {
+    font-variant-numeric: July;
+  }
+}
+
+@media April {
+  .c0 {
+    font-variant-numeric: August;
+  }
+}
+
+@media January {
+  .c0 {
+    font-variant-numeric: September;
+  }
+}
+
+@media April {
+  .c0 {
+    font-variant-numeric: November;
+  }
+}
+
+@media June {
+  .c0 {
+    font-variant-numeric: August;
+  }
+}
+
+@media May {
+
+}
+
+@media April {
+
+}
+
+@media January {
+
+}
+
+@media April {
+
+}
+
+@media June {
+
+}
+
+<div
+    className="c0"
+  />,
+  @media May {
+  .c0 {
+    font-variant-numeric: July;
+  }
+}
+
+@media April {
+  .c0 {
+    font-variant-numeric: August;
+  }
+}
+
+@media January {
+  .c0 {
+    font-variant-numeric: September;
+  }
+}
+
+@media April {
+  .c0 {
+    font-variant-numeric: November;
+  }
+}
+
+@media June {
+  .c0 {
+    font-variant-numeric: August;
+  }
+}
+
+@media May {
+
+}
+
+@media April {
+
+}
+
+@media January {
+
+}
+
+@media April {
+
+}
+
+@media June {
+
+}
+
+<div
+    className="c0"
+  />,
+  @media May {
+
+}
+
+@media April {
+
+}
+
+@media January {
+
+}
+
+@media April {
+
+}
+
+@media June {
+
+}
+
+@media May {
+  .c0 {
+    font-variant-numeric: January;
+  }
+}
+
+@media April {
+  .c0 {
+    font-variant-numeric: December;
+  }
+}
+
+@media January {
+  .c0 {
+    font-variant-numeric: April;
+  }
+}
+
+@media April {
+  .c0 {
+    font-variant-numeric: May;
+  }
+}
+
+@media June {
+  .c0 {
+    font-variant-numeric: June;
+  }
+}
+
+<div
+    className="c0"
+  />,
+  @media May {
+
+}
+
+@media April {
+
+}
+
+@media January {
+
+}
+
+@media April {
+
+}
+
+@media June {
+
+}
+
+@media May {
+  .c0 {
+    font-variant-numeric: January;
+  }
+}
+
+@media April {
+  .c0 {
+    font-variant-numeric: December;
+  }
+}
+
+@media January {
+  .c0 {
+    font-variant-numeric: April;
+  }
+}
+
+@media April {
+  .c0 {
+    font-variant-numeric: May;
+  }
+}
+
+@media June {
+  .c0 {
+    font-variant-numeric: June;
+  }
+}
+
+<div
+    className="c0"
+  />,
+]
+`;
+
+exports[`fontVariantNumeric renders postitive number 1`] = `
+Array [
+  .c0 {
+  font-variant-numeric: 54881;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  font-variant-numeric: 54881;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  font-variant-numeric: 42365;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  font-variant-numeric: 42365;
+}
+
+<div
+    className="c0"
+  />,
+]
+`;
+
+exports[`fontVariantNumeric renders string 1`] = `
+Array [
+  .c0 {
+  font-variant-numeric: July;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  font-variant-numeric: July;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  font-variant-numeric: June;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  font-variant-numeric: June;
+}
+
+<div
+    className="c0"
+  />,
+]
+`;
+
+exports[`fontVariantNumeric renders valid theme path 1`] = `
+Array [
+  .c0 {
+  font-variant-numeric: DarkSlateBlue;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  font-variant-numeric: DarkSlateBlue;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  font-variant-numeric: DarkSlateBlue;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  font-variant-numeric: DarkSlateBlue;
+}
+
+<div
+    className="c0"
+  />,
+]
+`;

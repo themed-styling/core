@@ -1,0 +1,754 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`rotateZ renders 0 1`] = `
+Array [
+  .c0 {
+  -webkit-transform: rotateZ(0deg);
+  -ms-transform: rotateZ(0deg);
+  transform: rotateZ(0deg);
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-transform: rotateZ(0deg);
+  -ms-transform: rotateZ(0deg);
+  transform: rotateZ(0deg);
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-transform: rotateZ(0deg);
+  -ms-transform: rotateZ(0deg);
+  transform: rotateZ(0deg);
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-transform: rotateZ(0deg);
+  -ms-transform: rotateZ(0deg);
+  transform: rotateZ(0deg);
+}
+
+<div
+    className="c0"
+  />,
+]
+`;
+
+exports[`rotateZ renders function 1`] = `
+Array [
+  .c0 {
+  -webkit-transform: rotateZ(hasnot);
+  -ms-transform: rotateZ(hasnot);
+  transform: rotateZ(hasnot);
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-transform: rotateZ(has);
+  -ms-transform: rotateZ(has);
+  transform: rotateZ(has);
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-transform: rotateZ(hasnot);
+  -ms-transform: rotateZ(hasnot);
+  transform: rotateZ(hasnot);
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-transform: rotateZ(has);
+  -ms-transform: rotateZ(has);
+  transform: rotateZ(has);
+}
+
+<div
+    className="c0"
+  />,
+]
+`;
+
+exports[`rotateZ renders invalid theme path 1`] = `
+Array [
+  .c0 {
+  -webkit-transform: rotateZ(invalid.path.1);
+  -ms-transform: rotateZ(invalid.path.1);
+  transform: rotateZ(invalid.path.1);
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-transform: rotateZ(invalid.path.1);
+  -ms-transform: rotateZ(invalid.path.1);
+  transform: rotateZ(invalid.path.1);
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-transform: rotateZ(invalid.path.1);
+  -ms-transform: rotateZ(invalid.path.1);
+  transform: rotateZ(invalid.path.1);
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-transform: rotateZ(invalid.path.1);
+  -ms-transform: rotateZ(invalid.path.1);
+  transform: rotateZ(invalid.path.1);
+}
+
+<div
+    className="c0"
+  />,
+]
+`;
+
+exports[`rotateZ renders negative number 1`] = `
+Array [
+  .c0 {
+  -webkit-transform: rotateZ(-54881deg);
+  -ms-transform: rotateZ(-54881deg);
+  transform: rotateZ(-54881deg);
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-transform: rotateZ(-54881deg);
+  -ms-transform: rotateZ(-54881deg);
+  transform: rotateZ(-54881deg);
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-transform: rotateZ(-42365deg);
+  -ms-transform: rotateZ(-42365deg);
+  transform: rotateZ(-42365deg);
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-transform: rotateZ(-42365deg);
+  -ms-transform: rotateZ(-42365deg);
+  transform: rotateZ(-42365deg);
+}
+
+<div
+    className="c0"
+  />,
+]
+`;
+
+exports[`rotateZ renders object [breakpoints] 1`] = `
+Array [
+  @media screen and (min-width:November) {
+  .c0 {
+    -webkit-transform: rotateZ(July);
+    -ms-transform: rotateZ(July);
+    transform: rotateZ(July);
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    -webkit-transform: rotateZ(August);
+    -ms-transform: rotateZ(August);
+    transform: rotateZ(August);
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    -webkit-transform: rotateZ(September);
+    -ms-transform: rotateZ(September);
+    transform: rotateZ(September);
+  }
+}
+
+@media screen and (min-width:August) {
+  .c0 {
+    -webkit-transform: rotateZ(November);
+    -ms-transform: rotateZ(November);
+    transform: rotateZ(November);
+  }
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:August) {
+
+}
+
+<div
+    className="c0"
+  />,
+  @media screen and (min-width:November) {
+  .c0 {
+    -webkit-transform: rotateZ(July);
+    -ms-transform: rotateZ(July);
+    transform: rotateZ(July);
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    -webkit-transform: rotateZ(August);
+    -ms-transform: rotateZ(August);
+    transform: rotateZ(August);
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    -webkit-transform: rotateZ(September);
+    -ms-transform: rotateZ(September);
+    transform: rotateZ(September);
+  }
+}
+
+@media screen and (min-width:August) {
+  .c0 {
+    -webkit-transform: rotateZ(November);
+    -ms-transform: rotateZ(November);
+    transform: rotateZ(November);
+  }
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:August) {
+
+}
+
+<div
+    className="c0"
+  />,
+  @media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:August) {
+
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    -webkit-transform: rotateZ(May);
+    -ms-transform: rotateZ(May);
+    transform: rotateZ(May);
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    -webkit-transform: rotateZ(June);
+    -ms-transform: rotateZ(June);
+    transform: rotateZ(June);
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    -webkit-transform: rotateZ(April);
+    -ms-transform: rotateZ(April);
+    transform: rotateZ(April);
+  }
+}
+
+@media screen and (min-width:August) {
+  .c0 {
+    -webkit-transform: rotateZ(November);
+    -ms-transform: rotateZ(November);
+    transform: rotateZ(November);
+  }
+}
+
+<div
+    className="c0"
+  />,
+  @media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:August) {
+
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    -webkit-transform: rotateZ(May);
+    -ms-transform: rotateZ(May);
+    transform: rotateZ(May);
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    -webkit-transform: rotateZ(June);
+    -ms-transform: rotateZ(June);
+    transform: rotateZ(June);
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    -webkit-transform: rotateZ(April);
+    -ms-transform: rotateZ(April);
+    transform: rotateZ(April);
+  }
+}
+
+@media screen and (min-width:August) {
+  .c0 {
+    -webkit-transform: rotateZ(November);
+    -ms-transform: rotateZ(November);
+    transform: rotateZ(November);
+  }
+}
+
+<div
+    className="c0"
+  />,
+]
+`;
+
+exports[`rotateZ renders object [breakpoints] 2`] = `
+Array [
+  @media May {
+  .c0 {
+    -webkit-transform: rotateZ(July);
+    -ms-transform: rotateZ(July);
+    transform: rotateZ(July);
+  }
+}
+
+@media April {
+  .c0 {
+    -webkit-transform: rotateZ(August);
+    -ms-transform: rotateZ(August);
+    transform: rotateZ(August);
+  }
+}
+
+@media January {
+  .c0 {
+    -webkit-transform: rotateZ(September);
+    -ms-transform: rotateZ(September);
+    transform: rotateZ(September);
+  }
+}
+
+@media April {
+  .c0 {
+    -webkit-transform: rotateZ(November);
+    -ms-transform: rotateZ(November);
+    transform: rotateZ(November);
+  }
+}
+
+@media June {
+  .c0 {
+    -webkit-transform: rotateZ(August);
+    -ms-transform: rotateZ(August);
+    transform: rotateZ(August);
+  }
+}
+
+@media May {
+
+}
+
+@media April {
+
+}
+
+@media January {
+
+}
+
+@media April {
+
+}
+
+@media June {
+
+}
+
+<div
+    className="c0"
+  />,
+  @media May {
+  .c0 {
+    -webkit-transform: rotateZ(July);
+    -ms-transform: rotateZ(July);
+    transform: rotateZ(July);
+  }
+}
+
+@media April {
+  .c0 {
+    -webkit-transform: rotateZ(August);
+    -ms-transform: rotateZ(August);
+    transform: rotateZ(August);
+  }
+}
+
+@media January {
+  .c0 {
+    -webkit-transform: rotateZ(September);
+    -ms-transform: rotateZ(September);
+    transform: rotateZ(September);
+  }
+}
+
+@media April {
+  .c0 {
+    -webkit-transform: rotateZ(November);
+    -ms-transform: rotateZ(November);
+    transform: rotateZ(November);
+  }
+}
+
+@media June {
+  .c0 {
+    -webkit-transform: rotateZ(August);
+    -ms-transform: rotateZ(August);
+    transform: rotateZ(August);
+  }
+}
+
+@media May {
+
+}
+
+@media April {
+
+}
+
+@media January {
+
+}
+
+@media April {
+
+}
+
+@media June {
+
+}
+
+<div
+    className="c0"
+  />,
+  @media May {
+
+}
+
+@media April {
+
+}
+
+@media January {
+
+}
+
+@media April {
+
+}
+
+@media June {
+
+}
+
+@media May {
+  .c0 {
+    -webkit-transform: rotateZ(January);
+    -ms-transform: rotateZ(January);
+    transform: rotateZ(January);
+  }
+}
+
+@media April {
+  .c0 {
+    -webkit-transform: rotateZ(December);
+    -ms-transform: rotateZ(December);
+    transform: rotateZ(December);
+  }
+}
+
+@media January {
+  .c0 {
+    -webkit-transform: rotateZ(April);
+    -ms-transform: rotateZ(April);
+    transform: rotateZ(April);
+  }
+}
+
+@media April {
+  .c0 {
+    -webkit-transform: rotateZ(May);
+    -ms-transform: rotateZ(May);
+    transform: rotateZ(May);
+  }
+}
+
+@media June {
+  .c0 {
+    -webkit-transform: rotateZ(June);
+    -ms-transform: rotateZ(June);
+    transform: rotateZ(June);
+  }
+}
+
+<div
+    className="c0"
+  />,
+  @media May {
+
+}
+
+@media April {
+
+}
+
+@media January {
+
+}
+
+@media April {
+
+}
+
+@media June {
+
+}
+
+@media May {
+  .c0 {
+    -webkit-transform: rotateZ(January);
+    -ms-transform: rotateZ(January);
+    transform: rotateZ(January);
+  }
+}
+
+@media April {
+  .c0 {
+    -webkit-transform: rotateZ(December);
+    -ms-transform: rotateZ(December);
+    transform: rotateZ(December);
+  }
+}
+
+@media January {
+  .c0 {
+    -webkit-transform: rotateZ(April);
+    -ms-transform: rotateZ(April);
+    transform: rotateZ(April);
+  }
+}
+
+@media April {
+  .c0 {
+    -webkit-transform: rotateZ(May);
+    -ms-transform: rotateZ(May);
+    transform: rotateZ(May);
+  }
+}
+
+@media June {
+  .c0 {
+    -webkit-transform: rotateZ(June);
+    -ms-transform: rotateZ(June);
+    transform: rotateZ(June);
+  }
+}
+
+<div
+    className="c0"
+  />,
+]
+`;
+
+exports[`rotateZ renders postitive number 1`] = `
+Array [
+  .c0 {
+  -webkit-transform: rotateZ(54881deg);
+  -ms-transform: rotateZ(54881deg);
+  transform: rotateZ(54881deg);
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-transform: rotateZ(54881deg);
+  -ms-transform: rotateZ(54881deg);
+  transform: rotateZ(54881deg);
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-transform: rotateZ(42365deg);
+  -ms-transform: rotateZ(42365deg);
+  transform: rotateZ(42365deg);
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-transform: rotateZ(42365deg);
+  -ms-transform: rotateZ(42365deg);
+  transform: rotateZ(42365deg);
+}
+
+<div
+    className="c0"
+  />,
+]
+`;
+
+exports[`rotateZ renders string 1`] = `
+Array [
+  .c0 {
+  -webkit-transform: rotateZ(July);
+  -ms-transform: rotateZ(July);
+  transform: rotateZ(July);
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-transform: rotateZ(July);
+  -ms-transform: rotateZ(July);
+  transform: rotateZ(July);
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-transform: rotateZ(June);
+  -ms-transform: rotateZ(June);
+  transform: rotateZ(June);
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-transform: rotateZ(June);
+  -ms-transform: rotateZ(June);
+  transform: rotateZ(June);
+}
+
+<div
+    className="c0"
+  />,
+]
+`;
+
+exports[`rotateZ renders valid theme path 1`] = `
+Array [
+  .c0 {
+  -webkit-transform: rotateZ(DarkSlateBlue);
+  -ms-transform: rotateZ(DarkSlateBlue);
+  transform: rotateZ(DarkSlateBlue);
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-transform: rotateZ(DarkSlateBlue);
+  -ms-transform: rotateZ(DarkSlateBlue);
+  transform: rotateZ(DarkSlateBlue);
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-transform: rotateZ(DarkSlateBlue);
+  -ms-transform: rotateZ(DarkSlateBlue);
+  transform: rotateZ(DarkSlateBlue);
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-transform: rotateZ(DarkSlateBlue);
+  -ms-transform: rotateZ(DarkSlateBlue);
+  transform: rotateZ(DarkSlateBlue);
+}
+
+<div
+    className="c0"
+  />,
+]
+`;

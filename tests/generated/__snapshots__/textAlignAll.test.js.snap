@@ -1,0 +1,626 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`textAlignAll renders 0 1`] = `
+Array [
+  .c0 {
+  text-align-all: 0;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  text-align-all: 0;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  text-align-all: 0;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  text-align-all: 0;
+}
+
+<div
+    className="c0"
+  />,
+]
+`;
+
+exports[`textAlignAll renders function 1`] = `
+Array [
+  .c0 {
+  text-align-all: hasnot;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  text-align-all: has;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  text-align-all: hasnot;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  text-align-all: has;
+}
+
+<div
+    className="c0"
+  />,
+]
+`;
+
+exports[`textAlignAll renders invalid theme path 1`] = `
+Array [
+  .c0 {
+  text-align-all: invalid.path.1;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  text-align-all: invalid.path.1;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  text-align-all: invalid.path.1;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  text-align-all: invalid.path.1;
+}
+
+<div
+    className="c0"
+  />,
+]
+`;
+
+exports[`textAlignAll renders negative number 1`] = `
+Array [
+  .c0 {
+  text-align-all: -54881;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  text-align-all: -54881;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  text-align-all: -42365;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  text-align-all: -42365;
+}
+
+<div
+    className="c0"
+  />,
+]
+`;
+
+exports[`textAlignAll renders object [breakpoints] 1`] = `
+Array [
+  @media screen and (min-width:November) {
+  .c0 {
+    text-align-all: July;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    text-align-all: August;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    text-align-all: September;
+  }
+}
+
+@media screen and (min-width:August) {
+  .c0 {
+    text-align-all: November;
+  }
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:August) {
+
+}
+
+<div
+    className="c0"
+  />,
+  @media screen and (min-width:November) {
+  .c0 {
+    text-align-all: July;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    text-align-all: August;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    text-align-all: September;
+  }
+}
+
+@media screen and (min-width:August) {
+  .c0 {
+    text-align-all: November;
+  }
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:August) {
+
+}
+
+<div
+    className="c0"
+  />,
+  @media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:August) {
+
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    text-align-all: May;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    text-align-all: June;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    text-align-all: April;
+  }
+}
+
+@media screen and (min-width:August) {
+  .c0 {
+    text-align-all: November;
+  }
+}
+
+<div
+    className="c0"
+  />,
+  @media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:August) {
+
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    text-align-all: May;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    text-align-all: June;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    text-align-all: April;
+  }
+}
+
+@media screen and (min-width:August) {
+  .c0 {
+    text-align-all: November;
+  }
+}
+
+<div
+    className="c0"
+  />,
+]
+`;
+
+exports[`textAlignAll renders object [breakpoints] 2`] = `
+Array [
+  @media May {
+  .c0 {
+    text-align-all: July;
+  }
+}
+
+@media April {
+  .c0 {
+    text-align-all: August;
+  }
+}
+
+@media January {
+  .c0 {
+    text-align-all: September;
+  }
+}
+
+@media April {
+  .c0 {
+    text-align-all: November;
+  }
+}
+
+@media June {
+  .c0 {
+    text-align-all: August;
+  }
+}
+
+@media May {
+
+}
+
+@media April {
+
+}
+
+@media January {
+
+}
+
+@media April {
+
+}
+
+@media June {
+
+}
+
+<div
+    className="c0"
+  />,
+  @media May {
+  .c0 {
+    text-align-all: July;
+  }
+}
+
+@media April {
+  .c0 {
+    text-align-all: August;
+  }
+}
+
+@media January {
+  .c0 {
+    text-align-all: September;
+  }
+}
+
+@media April {
+  .c0 {
+    text-align-all: November;
+  }
+}
+
+@media June {
+  .c0 {
+    text-align-all: August;
+  }
+}
+
+@media May {
+
+}
+
+@media April {
+
+}
+
+@media January {
+
+}
+
+@media April {
+
+}
+
+@media June {
+
+}
+
+<div
+    className="c0"
+  />,
+  @media May {
+
+}
+
+@media April {
+
+}
+
+@media January {
+
+}
+
+@media April {
+
+}
+
+@media June {
+
+}
+
+@media May {
+  .c0 {
+    text-align-all: January;
+  }
+}
+
+@media April {
+  .c0 {
+    text-align-all: December;
+  }
+}
+
+@media January {
+  .c0 {
+    text-align-all: April;
+  }
+}
+
+@media April {
+  .c0 {
+    text-align-all: May;
+  }
+}
+
+@media June {
+  .c0 {
+    text-align-all: June;
+  }
+}
+
+<div
+    className="c0"
+  />,
+  @media May {
+
+}
+
+@media April {
+
+}
+
+@media January {
+
+}
+
+@media April {
+
+}
+
+@media June {
+
+}
+
+@media May {
+  .c0 {
+    text-align-all: January;
+  }
+}
+
+@media April {
+  .c0 {
+    text-align-all: December;
+  }
+}
+
+@media January {
+  .c0 {
+    text-align-all: April;
+  }
+}
+
+@media April {
+  .c0 {
+    text-align-all: May;
+  }
+}
+
+@media June {
+  .c0 {
+    text-align-all: June;
+  }
+}
+
+<div
+    className="c0"
+  />,
+]
+`;
+
+exports[`textAlignAll renders postitive number 1`] = `
+Array [
+  .c0 {
+  text-align-all: 54881;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  text-align-all: 54881;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  text-align-all: 42365;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  text-align-all: 42365;
+}
+
+<div
+    className="c0"
+  />,
+]
+`;
+
+exports[`textAlignAll renders string 1`] = `
+Array [
+  .c0 {
+  text-align-all: July;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  text-align-all: July;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  text-align-all: June;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  text-align-all: June;
+}
+
+<div
+    className="c0"
+  />,
+]
+`;
+
+exports[`textAlignAll renders valid theme path 1`] = `
+Array [
+  .c0 {
+  text-align-all: DarkSlateBlue;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  text-align-all: DarkSlateBlue;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  text-align-all: DarkSlateBlue;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  text-align-all: DarkSlateBlue;
+}
+
+<div
+    className="c0"
+  />,
+]
+`;

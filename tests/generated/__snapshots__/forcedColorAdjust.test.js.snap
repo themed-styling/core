@@ -1,0 +1,626 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`forcedColorAdjust renders 0 1`] = `
+Array [
+  .c0 {
+  forced-color-adjust: 0;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  forced-color-adjust: 0;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  forced-color-adjust: 0;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  forced-color-adjust: 0;
+}
+
+<div
+    className="c0"
+  />,
+]
+`;
+
+exports[`forcedColorAdjust renders function 1`] = `
+Array [
+  .c0 {
+  forced-color-adjust: hasnot;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  forced-color-adjust: has;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  forced-color-adjust: hasnot;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  forced-color-adjust: has;
+}
+
+<div
+    className="c0"
+  />,
+]
+`;
+
+exports[`forcedColorAdjust renders invalid theme path 1`] = `
+Array [
+  .c0 {
+  forced-color-adjust: invalid.path.1;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  forced-color-adjust: invalid.path.1;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  forced-color-adjust: invalid.path.1;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  forced-color-adjust: invalid.path.1;
+}
+
+<div
+    className="c0"
+  />,
+]
+`;
+
+exports[`forcedColorAdjust renders negative number 1`] = `
+Array [
+  .c0 {
+  forced-color-adjust: -54881;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  forced-color-adjust: -54881;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  forced-color-adjust: -42365;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  forced-color-adjust: -42365;
+}
+
+<div
+    className="c0"
+  />,
+]
+`;
+
+exports[`forcedColorAdjust renders object [breakpoints] 1`] = `
+Array [
+  @media screen and (min-width:November) {
+  .c0 {
+    forced-color-adjust: July;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    forced-color-adjust: August;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    forced-color-adjust: September;
+  }
+}
+
+@media screen and (min-width:August) {
+  .c0 {
+    forced-color-adjust: November;
+  }
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:August) {
+
+}
+
+<div
+    className="c0"
+  />,
+  @media screen and (min-width:November) {
+  .c0 {
+    forced-color-adjust: July;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    forced-color-adjust: August;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    forced-color-adjust: September;
+  }
+}
+
+@media screen and (min-width:August) {
+  .c0 {
+    forced-color-adjust: November;
+  }
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:August) {
+
+}
+
+<div
+    className="c0"
+  />,
+  @media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:August) {
+
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    forced-color-adjust: May;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    forced-color-adjust: June;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    forced-color-adjust: April;
+  }
+}
+
+@media screen and (min-width:August) {
+  .c0 {
+    forced-color-adjust: November;
+  }
+}
+
+<div
+    className="c0"
+  />,
+  @media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:August) {
+
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    forced-color-adjust: May;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    forced-color-adjust: June;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    forced-color-adjust: April;
+  }
+}
+
+@media screen and (min-width:August) {
+  .c0 {
+    forced-color-adjust: November;
+  }
+}
+
+<div
+    className="c0"
+  />,
+]
+`;
+
+exports[`forcedColorAdjust renders object [breakpoints] 2`] = `
+Array [
+  @media May {
+  .c0 {
+    forced-color-adjust: July;
+  }
+}
+
+@media April {
+  .c0 {
+    forced-color-adjust: August;
+  }
+}
+
+@media January {
+  .c0 {
+    forced-color-adjust: September;
+  }
+}
+
+@media April {
+  .c0 {
+    forced-color-adjust: November;
+  }
+}
+
+@media June {
+  .c0 {
+    forced-color-adjust: August;
+  }
+}
+
+@media May {
+
+}
+
+@media April {
+
+}
+
+@media January {
+
+}
+
+@media April {
+
+}
+
+@media June {
+
+}
+
+<div
+    className="c0"
+  />,
+  @media May {
+  .c0 {
+    forced-color-adjust: July;
+  }
+}
+
+@media April {
+  .c0 {
+    forced-color-adjust: August;
+  }
+}
+
+@media January {
+  .c0 {
+    forced-color-adjust: September;
+  }
+}
+
+@media April {
+  .c0 {
+    forced-color-adjust: November;
+  }
+}
+
+@media June {
+  .c0 {
+    forced-color-adjust: August;
+  }
+}
+
+@media May {
+
+}
+
+@media April {
+
+}
+
+@media January {
+
+}
+
+@media April {
+
+}
+
+@media June {
+
+}
+
+<div
+    className="c0"
+  />,
+  @media May {
+
+}
+
+@media April {
+
+}
+
+@media January {
+
+}
+
+@media April {
+
+}
+
+@media June {
+
+}
+
+@media May {
+  .c0 {
+    forced-color-adjust: January;
+  }
+}
+
+@media April {
+  .c0 {
+    forced-color-adjust: December;
+  }
+}
+
+@media January {
+  .c0 {
+    forced-color-adjust: April;
+  }
+}
+
+@media April {
+  .c0 {
+    forced-color-adjust: May;
+  }
+}
+
+@media June {
+  .c0 {
+    forced-color-adjust: June;
+  }
+}
+
+<div
+    className="c0"
+  />,
+  @media May {
+
+}
+
+@media April {
+
+}
+
+@media January {
+
+}
+
+@media April {
+
+}
+
+@media June {
+
+}
+
+@media May {
+  .c0 {
+    forced-color-adjust: January;
+  }
+}
+
+@media April {
+  .c0 {
+    forced-color-adjust: December;
+  }
+}
+
+@media January {
+  .c0 {
+    forced-color-adjust: April;
+  }
+}
+
+@media April {
+  .c0 {
+    forced-color-adjust: May;
+  }
+}
+
+@media June {
+  .c0 {
+    forced-color-adjust: June;
+  }
+}
+
+<div
+    className="c0"
+  />,
+]
+`;
+
+exports[`forcedColorAdjust renders postitive number 1`] = `
+Array [
+  .c0 {
+  forced-color-adjust: 54881;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  forced-color-adjust: 54881;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  forced-color-adjust: 42365;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  forced-color-adjust: 42365;
+}
+
+<div
+    className="c0"
+  />,
+]
+`;
+
+exports[`forcedColorAdjust renders string 1`] = `
+Array [
+  .c0 {
+  forced-color-adjust: July;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  forced-color-adjust: July;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  forced-color-adjust: June;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  forced-color-adjust: June;
+}
+
+<div
+    className="c0"
+  />,
+]
+`;
+
+exports[`forcedColorAdjust renders valid theme path 1`] = `
+Array [
+  .c0 {
+  forced-color-adjust: DarkSlateBlue;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  forced-color-adjust: DarkSlateBlue;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  forced-color-adjust: DarkSlateBlue;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  forced-color-adjust: DarkSlateBlue;
+}
+
+<div
+    className="c0"
+  />,
+]
+`;

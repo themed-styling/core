@@ -1,0 +1,626 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`borderRight renders 0 1`] = `
+Array [
+  .c0 {
+  border-right: 0;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  border-right: 0;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  border-right: 0;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  border-right: 0;
+}
+
+<div
+    className="c0"
+  />,
+]
+`;
+
+exports[`borderRight renders function 1`] = `
+Array [
+  .c0 {
+  border-right: hasnot;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  border-right: has;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  border-right: hasnot;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  border-right: has;
+}
+
+<div
+    className="c0"
+  />,
+]
+`;
+
+exports[`borderRight renders invalid theme path 1`] = `
+Array [
+  .c0 {
+  border-right: invalid.path.1;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  border-right: invalid.path.1;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  border-right: invalid.path.1;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  border-right: invalid.path.1;
+}
+
+<div
+    className="c0"
+  />,
+]
+`;
+
+exports[`borderRight renders negative number 1`] = `
+Array [
+  .c0 {
+  border-right: -54881;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  border-right: -54881;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  border-right: -42365;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  border-right: -42365;
+}
+
+<div
+    className="c0"
+  />,
+]
+`;
+
+exports[`borderRight renders object [breakpoints] 1`] = `
+Array [
+  @media screen and (min-width:November) {
+  .c0 {
+    border-right: July;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    border-right: August;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    border-right: September;
+  }
+}
+
+@media screen and (min-width:August) {
+  .c0 {
+    border-right: November;
+  }
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:August) {
+
+}
+
+<div
+    className="c0"
+  />,
+  @media screen and (min-width:November) {
+  .c0 {
+    border-right: July;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    border-right: August;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    border-right: September;
+  }
+}
+
+@media screen and (min-width:August) {
+  .c0 {
+    border-right: November;
+  }
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:August) {
+
+}
+
+<div
+    className="c0"
+  />,
+  @media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:August) {
+
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    border-right: May;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    border-right: June;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    border-right: April;
+  }
+}
+
+@media screen and (min-width:August) {
+  .c0 {
+    border-right: November;
+  }
+}
+
+<div
+    className="c0"
+  />,
+  @media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:August) {
+
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    border-right: May;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    border-right: June;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    border-right: April;
+  }
+}
+
+@media screen and (min-width:August) {
+  .c0 {
+    border-right: November;
+  }
+}
+
+<div
+    className="c0"
+  />,
+]
+`;
+
+exports[`borderRight renders object [breakpoints] 2`] = `
+Array [
+  @media May {
+  .c0 {
+    border-right: July;
+  }
+}
+
+@media April {
+  .c0 {
+    border-right: August;
+  }
+}
+
+@media January {
+  .c0 {
+    border-right: September;
+  }
+}
+
+@media April {
+  .c0 {
+    border-right: November;
+  }
+}
+
+@media June {
+  .c0 {
+    border-right: August;
+  }
+}
+
+@media May {
+
+}
+
+@media April {
+
+}
+
+@media January {
+
+}
+
+@media April {
+
+}
+
+@media June {
+
+}
+
+<div
+    className="c0"
+  />,
+  @media May {
+  .c0 {
+    border-right: July;
+  }
+}
+
+@media April {
+  .c0 {
+    border-right: August;
+  }
+}
+
+@media January {
+  .c0 {
+    border-right: September;
+  }
+}
+
+@media April {
+  .c0 {
+    border-right: November;
+  }
+}
+
+@media June {
+  .c0 {
+    border-right: August;
+  }
+}
+
+@media May {
+
+}
+
+@media April {
+
+}
+
+@media January {
+
+}
+
+@media April {
+
+}
+
+@media June {
+
+}
+
+<div
+    className="c0"
+  />,
+  @media May {
+
+}
+
+@media April {
+
+}
+
+@media January {
+
+}
+
+@media April {
+
+}
+
+@media June {
+
+}
+
+@media May {
+  .c0 {
+    border-right: January;
+  }
+}
+
+@media April {
+  .c0 {
+    border-right: December;
+  }
+}
+
+@media January {
+  .c0 {
+    border-right: April;
+  }
+}
+
+@media April {
+  .c0 {
+    border-right: May;
+  }
+}
+
+@media June {
+  .c0 {
+    border-right: June;
+  }
+}
+
+<div
+    className="c0"
+  />,
+  @media May {
+
+}
+
+@media April {
+
+}
+
+@media January {
+
+}
+
+@media April {
+
+}
+
+@media June {
+
+}
+
+@media May {
+  .c0 {
+    border-right: January;
+  }
+}
+
+@media April {
+  .c0 {
+    border-right: December;
+  }
+}
+
+@media January {
+  .c0 {
+    border-right: April;
+  }
+}
+
+@media April {
+  .c0 {
+    border-right: May;
+  }
+}
+
+@media June {
+  .c0 {
+    border-right: June;
+  }
+}
+
+<div
+    className="c0"
+  />,
+]
+`;
+
+exports[`borderRight renders postitive number 1`] = `
+Array [
+  .c0 {
+  border-right: 54881;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  border-right: 54881;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  border-right: 42365;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  border-right: 42365;
+}
+
+<div
+    className="c0"
+  />,
+]
+`;
+
+exports[`borderRight renders string 1`] = `
+Array [
+  .c0 {
+  border-right: July;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  border-right: July;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  border-right: June;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  border-right: June;
+}
+
+<div
+    className="c0"
+  />,
+]
+`;
+
+exports[`borderRight renders valid theme path 1`] = `
+Array [
+  .c0 {
+  border-right: DarkSlateBlue;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  border-right: DarkSlateBlue;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  border-right: DarkSlateBlue;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  border-right: DarkSlateBlue;
+}
+
+<div
+    className="c0"
+  />,
+]
+`;

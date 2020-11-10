@@ -1,0 +1,818 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`scrollSnapAlign renders 0 1`] = `
+Array [
+  .c0 {
+  -webkit-scroll-snap-align: 0;
+  -moz-scroll-snap-align: 0;
+  -ms-scroll-snap-align: 0;
+  scroll-snap-align: 0;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-scroll-snap-align: 0;
+  -moz-scroll-snap-align: 0;
+  -ms-scroll-snap-align: 0;
+  scroll-snap-align: 0;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-scroll-snap-align: 0;
+  -moz-scroll-snap-align: 0;
+  -ms-scroll-snap-align: 0;
+  scroll-snap-align: 0;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-scroll-snap-align: 0;
+  -moz-scroll-snap-align: 0;
+  -ms-scroll-snap-align: 0;
+  scroll-snap-align: 0;
+}
+
+<div
+    className="c0"
+  />,
+]
+`;
+
+exports[`scrollSnapAlign renders function 1`] = `
+Array [
+  .c0 {
+  -webkit-scroll-snap-align: hasnot;
+  -moz-scroll-snap-align: hasnot;
+  -ms-scroll-snap-align: hasnot;
+  scroll-snap-align: hasnot;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-scroll-snap-align: has;
+  -moz-scroll-snap-align: has;
+  -ms-scroll-snap-align: has;
+  scroll-snap-align: has;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-scroll-snap-align: hasnot;
+  -moz-scroll-snap-align: hasnot;
+  -ms-scroll-snap-align: hasnot;
+  scroll-snap-align: hasnot;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-scroll-snap-align: has;
+  -moz-scroll-snap-align: has;
+  -ms-scroll-snap-align: has;
+  scroll-snap-align: has;
+}
+
+<div
+    className="c0"
+  />,
+]
+`;
+
+exports[`scrollSnapAlign renders invalid theme path 1`] = `
+Array [
+  .c0 {
+  -webkit-scroll-snap-align: invalid.path.1;
+  -moz-scroll-snap-align: invalid.path.1;
+  -ms-scroll-snap-align: invalid.path.1;
+  scroll-snap-align: invalid.path.1;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-scroll-snap-align: invalid.path.1;
+  -moz-scroll-snap-align: invalid.path.1;
+  -ms-scroll-snap-align: invalid.path.1;
+  scroll-snap-align: invalid.path.1;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-scroll-snap-align: invalid.path.1;
+  -moz-scroll-snap-align: invalid.path.1;
+  -ms-scroll-snap-align: invalid.path.1;
+  scroll-snap-align: invalid.path.1;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-scroll-snap-align: invalid.path.1;
+  -moz-scroll-snap-align: invalid.path.1;
+  -ms-scroll-snap-align: invalid.path.1;
+  scroll-snap-align: invalid.path.1;
+}
+
+<div
+    className="c0"
+  />,
+]
+`;
+
+exports[`scrollSnapAlign renders negative number 1`] = `
+Array [
+  .c0 {
+  -webkit-scroll-snap-align: -54881;
+  -moz-scroll-snap-align: -54881;
+  -ms-scroll-snap-align: -54881;
+  scroll-snap-align: -54881;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-scroll-snap-align: -54881;
+  -moz-scroll-snap-align: -54881;
+  -ms-scroll-snap-align: -54881;
+  scroll-snap-align: -54881;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-scroll-snap-align: -42365;
+  -moz-scroll-snap-align: -42365;
+  -ms-scroll-snap-align: -42365;
+  scroll-snap-align: -42365;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-scroll-snap-align: -42365;
+  -moz-scroll-snap-align: -42365;
+  -ms-scroll-snap-align: -42365;
+  scroll-snap-align: -42365;
+}
+
+<div
+    className="c0"
+  />,
+]
+`;
+
+exports[`scrollSnapAlign renders object [breakpoints] 1`] = `
+Array [
+  @media screen and (min-width:November) {
+  .c0 {
+    -webkit-scroll-snap-align: July;
+    -moz-scroll-snap-align: July;
+    -ms-scroll-snap-align: July;
+    scroll-snap-align: July;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    -webkit-scroll-snap-align: August;
+    -moz-scroll-snap-align: August;
+    -ms-scroll-snap-align: August;
+    scroll-snap-align: August;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    -webkit-scroll-snap-align: September;
+    -moz-scroll-snap-align: September;
+    -ms-scroll-snap-align: September;
+    scroll-snap-align: September;
+  }
+}
+
+@media screen and (min-width:August) {
+  .c0 {
+    -webkit-scroll-snap-align: November;
+    -moz-scroll-snap-align: November;
+    -ms-scroll-snap-align: November;
+    scroll-snap-align: November;
+  }
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:August) {
+
+}
+
+<div
+    className="c0"
+  />,
+  @media screen and (min-width:November) {
+  .c0 {
+    -webkit-scroll-snap-align: July;
+    -moz-scroll-snap-align: July;
+    -ms-scroll-snap-align: July;
+    scroll-snap-align: July;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    -webkit-scroll-snap-align: August;
+    -moz-scroll-snap-align: August;
+    -ms-scroll-snap-align: August;
+    scroll-snap-align: August;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    -webkit-scroll-snap-align: September;
+    -moz-scroll-snap-align: September;
+    -ms-scroll-snap-align: September;
+    scroll-snap-align: September;
+  }
+}
+
+@media screen and (min-width:August) {
+  .c0 {
+    -webkit-scroll-snap-align: November;
+    -moz-scroll-snap-align: November;
+    -ms-scroll-snap-align: November;
+    scroll-snap-align: November;
+  }
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:August) {
+
+}
+
+<div
+    className="c0"
+  />,
+  @media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:August) {
+
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    -webkit-scroll-snap-align: May;
+    -moz-scroll-snap-align: May;
+    -ms-scroll-snap-align: May;
+    scroll-snap-align: May;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    -webkit-scroll-snap-align: June;
+    -moz-scroll-snap-align: June;
+    -ms-scroll-snap-align: June;
+    scroll-snap-align: June;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    -webkit-scroll-snap-align: April;
+    -moz-scroll-snap-align: April;
+    -ms-scroll-snap-align: April;
+    scroll-snap-align: April;
+  }
+}
+
+@media screen and (min-width:August) {
+  .c0 {
+    -webkit-scroll-snap-align: November;
+    -moz-scroll-snap-align: November;
+    -ms-scroll-snap-align: November;
+    scroll-snap-align: November;
+  }
+}
+
+<div
+    className="c0"
+  />,
+  @media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:August) {
+
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    -webkit-scroll-snap-align: May;
+    -moz-scroll-snap-align: May;
+    -ms-scroll-snap-align: May;
+    scroll-snap-align: May;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    -webkit-scroll-snap-align: June;
+    -moz-scroll-snap-align: June;
+    -ms-scroll-snap-align: June;
+    scroll-snap-align: June;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    -webkit-scroll-snap-align: April;
+    -moz-scroll-snap-align: April;
+    -ms-scroll-snap-align: April;
+    scroll-snap-align: April;
+  }
+}
+
+@media screen and (min-width:August) {
+  .c0 {
+    -webkit-scroll-snap-align: November;
+    -moz-scroll-snap-align: November;
+    -ms-scroll-snap-align: November;
+    scroll-snap-align: November;
+  }
+}
+
+<div
+    className="c0"
+  />,
+]
+`;
+
+exports[`scrollSnapAlign renders object [breakpoints] 2`] = `
+Array [
+  @media May {
+  .c0 {
+    -webkit-scroll-snap-align: July;
+    -moz-scroll-snap-align: July;
+    -ms-scroll-snap-align: July;
+    scroll-snap-align: July;
+  }
+}
+
+@media April {
+  .c0 {
+    -webkit-scroll-snap-align: August;
+    -moz-scroll-snap-align: August;
+    -ms-scroll-snap-align: August;
+    scroll-snap-align: August;
+  }
+}
+
+@media January {
+  .c0 {
+    -webkit-scroll-snap-align: September;
+    -moz-scroll-snap-align: September;
+    -ms-scroll-snap-align: September;
+    scroll-snap-align: September;
+  }
+}
+
+@media April {
+  .c0 {
+    -webkit-scroll-snap-align: November;
+    -moz-scroll-snap-align: November;
+    -ms-scroll-snap-align: November;
+    scroll-snap-align: November;
+  }
+}
+
+@media June {
+  .c0 {
+    -webkit-scroll-snap-align: August;
+    -moz-scroll-snap-align: August;
+    -ms-scroll-snap-align: August;
+    scroll-snap-align: August;
+  }
+}
+
+@media May {
+
+}
+
+@media April {
+
+}
+
+@media January {
+
+}
+
+@media April {
+
+}
+
+@media June {
+
+}
+
+<div
+    className="c0"
+  />,
+  @media May {
+  .c0 {
+    -webkit-scroll-snap-align: July;
+    -moz-scroll-snap-align: July;
+    -ms-scroll-snap-align: July;
+    scroll-snap-align: July;
+  }
+}
+
+@media April {
+  .c0 {
+    -webkit-scroll-snap-align: August;
+    -moz-scroll-snap-align: August;
+    -ms-scroll-snap-align: August;
+    scroll-snap-align: August;
+  }
+}
+
+@media January {
+  .c0 {
+    -webkit-scroll-snap-align: September;
+    -moz-scroll-snap-align: September;
+    -ms-scroll-snap-align: September;
+    scroll-snap-align: September;
+  }
+}
+
+@media April {
+  .c0 {
+    -webkit-scroll-snap-align: November;
+    -moz-scroll-snap-align: November;
+    -ms-scroll-snap-align: November;
+    scroll-snap-align: November;
+  }
+}
+
+@media June {
+  .c0 {
+    -webkit-scroll-snap-align: August;
+    -moz-scroll-snap-align: August;
+    -ms-scroll-snap-align: August;
+    scroll-snap-align: August;
+  }
+}
+
+@media May {
+
+}
+
+@media April {
+
+}
+
+@media January {
+
+}
+
+@media April {
+
+}
+
+@media June {
+
+}
+
+<div
+    className="c0"
+  />,
+  @media May {
+
+}
+
+@media April {
+
+}
+
+@media January {
+
+}
+
+@media April {
+
+}
+
+@media June {
+
+}
+
+@media May {
+  .c0 {
+    -webkit-scroll-snap-align: January;
+    -moz-scroll-snap-align: January;
+    -ms-scroll-snap-align: January;
+    scroll-snap-align: January;
+  }
+}
+
+@media April {
+  .c0 {
+    -webkit-scroll-snap-align: December;
+    -moz-scroll-snap-align: December;
+    -ms-scroll-snap-align: December;
+    scroll-snap-align: December;
+  }
+}
+
+@media January {
+  .c0 {
+    -webkit-scroll-snap-align: April;
+    -moz-scroll-snap-align: April;
+    -ms-scroll-snap-align: April;
+    scroll-snap-align: April;
+  }
+}
+
+@media April {
+  .c0 {
+    -webkit-scroll-snap-align: May;
+    -moz-scroll-snap-align: May;
+    -ms-scroll-snap-align: May;
+    scroll-snap-align: May;
+  }
+}
+
+@media June {
+  .c0 {
+    -webkit-scroll-snap-align: June;
+    -moz-scroll-snap-align: June;
+    -ms-scroll-snap-align: June;
+    scroll-snap-align: June;
+  }
+}
+
+<div
+    className="c0"
+  />,
+  @media May {
+
+}
+
+@media April {
+
+}
+
+@media January {
+
+}
+
+@media April {
+
+}
+
+@media June {
+
+}
+
+@media May {
+  .c0 {
+    -webkit-scroll-snap-align: January;
+    -moz-scroll-snap-align: January;
+    -ms-scroll-snap-align: January;
+    scroll-snap-align: January;
+  }
+}
+
+@media April {
+  .c0 {
+    -webkit-scroll-snap-align: December;
+    -moz-scroll-snap-align: December;
+    -ms-scroll-snap-align: December;
+    scroll-snap-align: December;
+  }
+}
+
+@media January {
+  .c0 {
+    -webkit-scroll-snap-align: April;
+    -moz-scroll-snap-align: April;
+    -ms-scroll-snap-align: April;
+    scroll-snap-align: April;
+  }
+}
+
+@media April {
+  .c0 {
+    -webkit-scroll-snap-align: May;
+    -moz-scroll-snap-align: May;
+    -ms-scroll-snap-align: May;
+    scroll-snap-align: May;
+  }
+}
+
+@media June {
+  .c0 {
+    -webkit-scroll-snap-align: June;
+    -moz-scroll-snap-align: June;
+    -ms-scroll-snap-align: June;
+    scroll-snap-align: June;
+  }
+}
+
+<div
+    className="c0"
+  />,
+]
+`;
+
+exports[`scrollSnapAlign renders postitive number 1`] = `
+Array [
+  .c0 {
+  -webkit-scroll-snap-align: 54881;
+  -moz-scroll-snap-align: 54881;
+  -ms-scroll-snap-align: 54881;
+  scroll-snap-align: 54881;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-scroll-snap-align: 54881;
+  -moz-scroll-snap-align: 54881;
+  -ms-scroll-snap-align: 54881;
+  scroll-snap-align: 54881;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-scroll-snap-align: 42365;
+  -moz-scroll-snap-align: 42365;
+  -ms-scroll-snap-align: 42365;
+  scroll-snap-align: 42365;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-scroll-snap-align: 42365;
+  -moz-scroll-snap-align: 42365;
+  -ms-scroll-snap-align: 42365;
+  scroll-snap-align: 42365;
+}
+
+<div
+    className="c0"
+  />,
+]
+`;
+
+exports[`scrollSnapAlign renders string 1`] = `
+Array [
+  .c0 {
+  -webkit-scroll-snap-align: July;
+  -moz-scroll-snap-align: July;
+  -ms-scroll-snap-align: July;
+  scroll-snap-align: July;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-scroll-snap-align: July;
+  -moz-scroll-snap-align: July;
+  -ms-scroll-snap-align: July;
+  scroll-snap-align: July;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-scroll-snap-align: June;
+  -moz-scroll-snap-align: June;
+  -ms-scroll-snap-align: June;
+  scroll-snap-align: June;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-scroll-snap-align: June;
+  -moz-scroll-snap-align: June;
+  -ms-scroll-snap-align: June;
+  scroll-snap-align: June;
+}
+
+<div
+    className="c0"
+  />,
+]
+`;
+
+exports[`scrollSnapAlign renders valid theme path 1`] = `
+Array [
+  .c0 {
+  -webkit-scroll-snap-align: DarkSlateBlue;
+  -moz-scroll-snap-align: DarkSlateBlue;
+  -ms-scroll-snap-align: DarkSlateBlue;
+  scroll-snap-align: DarkSlateBlue;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-scroll-snap-align: DarkSlateBlue;
+  -moz-scroll-snap-align: DarkSlateBlue;
+  -ms-scroll-snap-align: DarkSlateBlue;
+  scroll-snap-align: DarkSlateBlue;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-scroll-snap-align: DarkSlateBlue;
+  -moz-scroll-snap-align: DarkSlateBlue;
+  -ms-scroll-snap-align: DarkSlateBlue;
+  scroll-snap-align: DarkSlateBlue;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-scroll-snap-align: DarkSlateBlue;
+  -moz-scroll-snap-align: DarkSlateBlue;
+  -ms-scroll-snap-align: DarkSlateBlue;
+  scroll-snap-align: DarkSlateBlue;
+}
+
+<div
+    className="c0"
+  />,
+]
+`;

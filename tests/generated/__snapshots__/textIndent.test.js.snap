@@ -1,0 +1,626 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`textIndent renders 0 1`] = `
+Array [
+  .c0 {
+  text-indent: 0;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  text-indent: 0;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  text-indent: 0;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  text-indent: 0;
+}
+
+<div
+    className="c0"
+  />,
+]
+`;
+
+exports[`textIndent renders function 1`] = `
+Array [
+  .c0 {
+  text-indent: hasnot;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  text-indent: has;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  text-indent: hasnot;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  text-indent: has;
+}
+
+<div
+    className="c0"
+  />,
+]
+`;
+
+exports[`textIndent renders invalid theme path 1`] = `
+Array [
+  .c0 {
+  text-indent: invalid.path.1;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  text-indent: invalid.path.1;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  text-indent: invalid.path.1;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  text-indent: invalid.path.1;
+}
+
+<div
+    className="c0"
+  />,
+]
+`;
+
+exports[`textIndent renders negative number 1`] = `
+Array [
+  .c0 {
+  text-indent: -54881px;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  text-indent: -54881px;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  text-indent: -42365px;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  text-indent: -42365px;
+}
+
+<div
+    className="c0"
+  />,
+]
+`;
+
+exports[`textIndent renders object [breakpoints] 1`] = `
+Array [
+  @media screen and (min-width:November) {
+  .c0 {
+    text-indent: July;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    text-indent: August;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    text-indent: September;
+  }
+}
+
+@media screen and (min-width:August) {
+  .c0 {
+    text-indent: November;
+  }
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:August) {
+
+}
+
+<div
+    className="c0"
+  />,
+  @media screen and (min-width:November) {
+  .c0 {
+    text-indent: July;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    text-indent: August;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    text-indent: September;
+  }
+}
+
+@media screen and (min-width:August) {
+  .c0 {
+    text-indent: November;
+  }
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:August) {
+
+}
+
+<div
+    className="c0"
+  />,
+  @media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:August) {
+
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    text-indent: May;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    text-indent: June;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    text-indent: April;
+  }
+}
+
+@media screen and (min-width:August) {
+  .c0 {
+    text-indent: November;
+  }
+}
+
+<div
+    className="c0"
+  />,
+  @media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:August) {
+
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    text-indent: May;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    text-indent: June;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    text-indent: April;
+  }
+}
+
+@media screen and (min-width:August) {
+  .c0 {
+    text-indent: November;
+  }
+}
+
+<div
+    className="c0"
+  />,
+]
+`;
+
+exports[`textIndent renders object [breakpoints] 2`] = `
+Array [
+  @media May {
+  .c0 {
+    text-indent: July;
+  }
+}
+
+@media April {
+  .c0 {
+    text-indent: August;
+  }
+}
+
+@media January {
+  .c0 {
+    text-indent: September;
+  }
+}
+
+@media April {
+  .c0 {
+    text-indent: November;
+  }
+}
+
+@media June {
+  .c0 {
+    text-indent: August;
+  }
+}
+
+@media May {
+
+}
+
+@media April {
+
+}
+
+@media January {
+
+}
+
+@media April {
+
+}
+
+@media June {
+
+}
+
+<div
+    className="c0"
+  />,
+  @media May {
+  .c0 {
+    text-indent: July;
+  }
+}
+
+@media April {
+  .c0 {
+    text-indent: August;
+  }
+}
+
+@media January {
+  .c0 {
+    text-indent: September;
+  }
+}
+
+@media April {
+  .c0 {
+    text-indent: November;
+  }
+}
+
+@media June {
+  .c0 {
+    text-indent: August;
+  }
+}
+
+@media May {
+
+}
+
+@media April {
+
+}
+
+@media January {
+
+}
+
+@media April {
+
+}
+
+@media June {
+
+}
+
+<div
+    className="c0"
+  />,
+  @media May {
+
+}
+
+@media April {
+
+}
+
+@media January {
+
+}
+
+@media April {
+
+}
+
+@media June {
+
+}
+
+@media May {
+  .c0 {
+    text-indent: January;
+  }
+}
+
+@media April {
+  .c0 {
+    text-indent: December;
+  }
+}
+
+@media January {
+  .c0 {
+    text-indent: April;
+  }
+}
+
+@media April {
+  .c0 {
+    text-indent: May;
+  }
+}
+
+@media June {
+  .c0 {
+    text-indent: June;
+  }
+}
+
+<div
+    className="c0"
+  />,
+  @media May {
+
+}
+
+@media April {
+
+}
+
+@media January {
+
+}
+
+@media April {
+
+}
+
+@media June {
+
+}
+
+@media May {
+  .c0 {
+    text-indent: January;
+  }
+}
+
+@media April {
+  .c0 {
+    text-indent: December;
+  }
+}
+
+@media January {
+  .c0 {
+    text-indent: April;
+  }
+}
+
+@media April {
+  .c0 {
+    text-indent: May;
+  }
+}
+
+@media June {
+  .c0 {
+    text-indent: June;
+  }
+}
+
+<div
+    className="c0"
+  />,
+]
+`;
+
+exports[`textIndent renders postitive number 1`] = `
+Array [
+  .c0 {
+  text-indent: 54881px;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  text-indent: 54881px;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  text-indent: 42365px;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  text-indent: 42365px;
+}
+
+<div
+    className="c0"
+  />,
+]
+`;
+
+exports[`textIndent renders string 1`] = `
+Array [
+  .c0 {
+  text-indent: July;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  text-indent: July;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  text-indent: June;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  text-indent: June;
+}
+
+<div
+    className="c0"
+  />,
+]
+`;
+
+exports[`textIndent renders valid theme path 1`] = `
+Array [
+  .c0 {
+  text-indent: DarkSlateBlue;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  text-indent: DarkSlateBlue;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  text-indent: DarkSlateBlue;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  text-indent: DarkSlateBlue;
+}
+
+<div
+    className="c0"
+  />,
+]
+`;

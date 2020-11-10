@@ -1,0 +1,626 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`flowFrom renders 0 1`] = `
+Array [
+  .c0 {
+  flow-from: 0;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  flow-from: 0;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  flow-from: 0;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  flow-from: 0;
+}
+
+<div
+    className="c0"
+  />,
+]
+`;
+
+exports[`flowFrom renders function 1`] = `
+Array [
+  .c0 {
+  flow-from: hasnot;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  flow-from: has;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  flow-from: hasnot;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  flow-from: has;
+}
+
+<div
+    className="c0"
+  />,
+]
+`;
+
+exports[`flowFrom renders invalid theme path 1`] = `
+Array [
+  .c0 {
+  flow-from: invalid.path.1;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  flow-from: invalid.path.1;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  flow-from: invalid.path.1;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  flow-from: invalid.path.1;
+}
+
+<div
+    className="c0"
+  />,
+]
+`;
+
+exports[`flowFrom renders negative number 1`] = `
+Array [
+  .c0 {
+  flow-from: -54881;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  flow-from: -54881;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  flow-from: -42365;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  flow-from: -42365;
+}
+
+<div
+    className="c0"
+  />,
+]
+`;
+
+exports[`flowFrom renders object [breakpoints] 1`] = `
+Array [
+  @media screen and (min-width:November) {
+  .c0 {
+    flow-from: July;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    flow-from: August;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    flow-from: September;
+  }
+}
+
+@media screen and (min-width:August) {
+  .c0 {
+    flow-from: November;
+  }
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:August) {
+
+}
+
+<div
+    className="c0"
+  />,
+  @media screen and (min-width:November) {
+  .c0 {
+    flow-from: July;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    flow-from: August;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    flow-from: September;
+  }
+}
+
+@media screen and (min-width:August) {
+  .c0 {
+    flow-from: November;
+  }
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:August) {
+
+}
+
+<div
+    className="c0"
+  />,
+  @media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:August) {
+
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    flow-from: May;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    flow-from: June;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    flow-from: April;
+  }
+}
+
+@media screen and (min-width:August) {
+  .c0 {
+    flow-from: November;
+  }
+}
+
+<div
+    className="c0"
+  />,
+  @media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:August) {
+
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    flow-from: May;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    flow-from: June;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    flow-from: April;
+  }
+}
+
+@media screen and (min-width:August) {
+  .c0 {
+    flow-from: November;
+  }
+}
+
+<div
+    className="c0"
+  />,
+]
+`;
+
+exports[`flowFrom renders object [breakpoints] 2`] = `
+Array [
+  @media May {
+  .c0 {
+    flow-from: July;
+  }
+}
+
+@media April {
+  .c0 {
+    flow-from: August;
+  }
+}
+
+@media January {
+  .c0 {
+    flow-from: September;
+  }
+}
+
+@media April {
+  .c0 {
+    flow-from: November;
+  }
+}
+
+@media June {
+  .c0 {
+    flow-from: August;
+  }
+}
+
+@media May {
+
+}
+
+@media April {
+
+}
+
+@media January {
+
+}
+
+@media April {
+
+}
+
+@media June {
+
+}
+
+<div
+    className="c0"
+  />,
+  @media May {
+  .c0 {
+    flow-from: July;
+  }
+}
+
+@media April {
+  .c0 {
+    flow-from: August;
+  }
+}
+
+@media January {
+  .c0 {
+    flow-from: September;
+  }
+}
+
+@media April {
+  .c0 {
+    flow-from: November;
+  }
+}
+
+@media June {
+  .c0 {
+    flow-from: August;
+  }
+}
+
+@media May {
+
+}
+
+@media April {
+
+}
+
+@media January {
+
+}
+
+@media April {
+
+}
+
+@media June {
+
+}
+
+<div
+    className="c0"
+  />,
+  @media May {
+
+}
+
+@media April {
+
+}
+
+@media January {
+
+}
+
+@media April {
+
+}
+
+@media June {
+
+}
+
+@media May {
+  .c0 {
+    flow-from: January;
+  }
+}
+
+@media April {
+  .c0 {
+    flow-from: December;
+  }
+}
+
+@media January {
+  .c0 {
+    flow-from: April;
+  }
+}
+
+@media April {
+  .c0 {
+    flow-from: May;
+  }
+}
+
+@media June {
+  .c0 {
+    flow-from: June;
+  }
+}
+
+<div
+    className="c0"
+  />,
+  @media May {
+
+}
+
+@media April {
+
+}
+
+@media January {
+
+}
+
+@media April {
+
+}
+
+@media June {
+
+}
+
+@media May {
+  .c0 {
+    flow-from: January;
+  }
+}
+
+@media April {
+  .c0 {
+    flow-from: December;
+  }
+}
+
+@media January {
+  .c0 {
+    flow-from: April;
+  }
+}
+
+@media April {
+  .c0 {
+    flow-from: May;
+  }
+}
+
+@media June {
+  .c0 {
+    flow-from: June;
+  }
+}
+
+<div
+    className="c0"
+  />,
+]
+`;
+
+exports[`flowFrom renders postitive number 1`] = `
+Array [
+  .c0 {
+  flow-from: 54881;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  flow-from: 54881;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  flow-from: 42365;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  flow-from: 42365;
+}
+
+<div
+    className="c0"
+  />,
+]
+`;
+
+exports[`flowFrom renders string 1`] = `
+Array [
+  .c0 {
+  flow-from: July;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  flow-from: July;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  flow-from: June;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  flow-from: June;
+}
+
+<div
+    className="c0"
+  />,
+]
+`;
+
+exports[`flowFrom renders valid theme path 1`] = `
+Array [
+  .c0 {
+  flow-from: DarkSlateBlue;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  flow-from: DarkSlateBlue;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  flow-from: DarkSlateBlue;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  flow-from: DarkSlateBlue;
+}
+
+<div
+    className="c0"
+  />,
+]
+`;

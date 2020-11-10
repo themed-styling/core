@@ -1,0 +1,626 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`initialLettersWrap renders 0 1`] = `
+Array [
+  .c0 {
+  initial-letters-wrap: 0;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  initial-letters-wrap: 0;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  initial-letters-wrap: 0;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  initial-letters-wrap: 0;
+}
+
+<div
+    className="c0"
+  />,
+]
+`;
+
+exports[`initialLettersWrap renders function 1`] = `
+Array [
+  .c0 {
+  initial-letters-wrap: hasnot;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  initial-letters-wrap: has;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  initial-letters-wrap: hasnot;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  initial-letters-wrap: has;
+}
+
+<div
+    className="c0"
+  />,
+]
+`;
+
+exports[`initialLettersWrap renders invalid theme path 1`] = `
+Array [
+  .c0 {
+  initial-letters-wrap: invalid.path.1;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  initial-letters-wrap: invalid.path.1;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  initial-letters-wrap: invalid.path.1;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  initial-letters-wrap: invalid.path.1;
+}
+
+<div
+    className="c0"
+  />,
+]
+`;
+
+exports[`initialLettersWrap renders negative number 1`] = `
+Array [
+  .c0 {
+  initial-letters-wrap: -54881;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  initial-letters-wrap: -54881;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  initial-letters-wrap: -42365;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  initial-letters-wrap: -42365;
+}
+
+<div
+    className="c0"
+  />,
+]
+`;
+
+exports[`initialLettersWrap renders object [breakpoints] 1`] = `
+Array [
+  @media screen and (min-width:November) {
+  .c0 {
+    initial-letters-wrap: July;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    initial-letters-wrap: August;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    initial-letters-wrap: September;
+  }
+}
+
+@media screen and (min-width:August) {
+  .c0 {
+    initial-letters-wrap: November;
+  }
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:August) {
+
+}
+
+<div
+    className="c0"
+  />,
+  @media screen and (min-width:November) {
+  .c0 {
+    initial-letters-wrap: July;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    initial-letters-wrap: August;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    initial-letters-wrap: September;
+  }
+}
+
+@media screen and (min-width:August) {
+  .c0 {
+    initial-letters-wrap: November;
+  }
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:August) {
+
+}
+
+<div
+    className="c0"
+  />,
+  @media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:August) {
+
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    initial-letters-wrap: May;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    initial-letters-wrap: June;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    initial-letters-wrap: April;
+  }
+}
+
+@media screen and (min-width:August) {
+  .c0 {
+    initial-letters-wrap: November;
+  }
+}
+
+<div
+    className="c0"
+  />,
+  @media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:August) {
+
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    initial-letters-wrap: May;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    initial-letters-wrap: June;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    initial-letters-wrap: April;
+  }
+}
+
+@media screen and (min-width:August) {
+  .c0 {
+    initial-letters-wrap: November;
+  }
+}
+
+<div
+    className="c0"
+  />,
+]
+`;
+
+exports[`initialLettersWrap renders object [breakpoints] 2`] = `
+Array [
+  @media May {
+  .c0 {
+    initial-letters-wrap: July;
+  }
+}
+
+@media April {
+  .c0 {
+    initial-letters-wrap: August;
+  }
+}
+
+@media January {
+  .c0 {
+    initial-letters-wrap: September;
+  }
+}
+
+@media April {
+  .c0 {
+    initial-letters-wrap: November;
+  }
+}
+
+@media June {
+  .c0 {
+    initial-letters-wrap: August;
+  }
+}
+
+@media May {
+
+}
+
+@media April {
+
+}
+
+@media January {
+
+}
+
+@media April {
+
+}
+
+@media June {
+
+}
+
+<div
+    className="c0"
+  />,
+  @media May {
+  .c0 {
+    initial-letters-wrap: July;
+  }
+}
+
+@media April {
+  .c0 {
+    initial-letters-wrap: August;
+  }
+}
+
+@media January {
+  .c0 {
+    initial-letters-wrap: September;
+  }
+}
+
+@media April {
+  .c0 {
+    initial-letters-wrap: November;
+  }
+}
+
+@media June {
+  .c0 {
+    initial-letters-wrap: August;
+  }
+}
+
+@media May {
+
+}
+
+@media April {
+
+}
+
+@media January {
+
+}
+
+@media April {
+
+}
+
+@media June {
+
+}
+
+<div
+    className="c0"
+  />,
+  @media May {
+
+}
+
+@media April {
+
+}
+
+@media January {
+
+}
+
+@media April {
+
+}
+
+@media June {
+
+}
+
+@media May {
+  .c0 {
+    initial-letters-wrap: January;
+  }
+}
+
+@media April {
+  .c0 {
+    initial-letters-wrap: December;
+  }
+}
+
+@media January {
+  .c0 {
+    initial-letters-wrap: April;
+  }
+}
+
+@media April {
+  .c0 {
+    initial-letters-wrap: May;
+  }
+}
+
+@media June {
+  .c0 {
+    initial-letters-wrap: June;
+  }
+}
+
+<div
+    className="c0"
+  />,
+  @media May {
+
+}
+
+@media April {
+
+}
+
+@media January {
+
+}
+
+@media April {
+
+}
+
+@media June {
+
+}
+
+@media May {
+  .c0 {
+    initial-letters-wrap: January;
+  }
+}
+
+@media April {
+  .c0 {
+    initial-letters-wrap: December;
+  }
+}
+
+@media January {
+  .c0 {
+    initial-letters-wrap: April;
+  }
+}
+
+@media April {
+  .c0 {
+    initial-letters-wrap: May;
+  }
+}
+
+@media June {
+  .c0 {
+    initial-letters-wrap: June;
+  }
+}
+
+<div
+    className="c0"
+  />,
+]
+`;
+
+exports[`initialLettersWrap renders postitive number 1`] = `
+Array [
+  .c0 {
+  initial-letters-wrap: 54881;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  initial-letters-wrap: 54881;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  initial-letters-wrap: 42365;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  initial-letters-wrap: 42365;
+}
+
+<div
+    className="c0"
+  />,
+]
+`;
+
+exports[`initialLettersWrap renders string 1`] = `
+Array [
+  .c0 {
+  initial-letters-wrap: July;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  initial-letters-wrap: July;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  initial-letters-wrap: June;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  initial-letters-wrap: June;
+}
+
+<div
+    className="c0"
+  />,
+]
+`;
+
+exports[`initialLettersWrap renders valid theme path 1`] = `
+Array [
+  .c0 {
+  initial-letters-wrap: DarkSlateBlue;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  initial-letters-wrap: DarkSlateBlue;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  initial-letters-wrap: DarkSlateBlue;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  initial-letters-wrap: DarkSlateBlue;
+}
+
+<div
+    className="c0"
+  />,
+]
+`;

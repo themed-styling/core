@@ -1,0 +1,626 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`all renders 0 1`] = `
+Array [
+  .c0 {
+  all: 0;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  all: 0;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  all: 0;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  all: 0;
+}
+
+<div
+    className="c0"
+  />,
+]
+`;
+
+exports[`all renders function 1`] = `
+Array [
+  .c0 {
+  all: hasnot;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  all: has;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  all: hasnot;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  all: has;
+}
+
+<div
+    className="c0"
+  />,
+]
+`;
+
+exports[`all renders invalid theme path 1`] = `
+Array [
+  .c0 {
+  all: invalid.path.1;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  all: invalid.path.1;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  all: invalid.path.1;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  all: invalid.path.1;
+}
+
+<div
+    className="c0"
+  />,
+]
+`;
+
+exports[`all renders negative number 1`] = `
+Array [
+  .c0 {
+  all: -54881;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  all: -54881;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  all: -42365;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  all: -42365;
+}
+
+<div
+    className="c0"
+  />,
+]
+`;
+
+exports[`all renders object [breakpoints] 1`] = `
+Array [
+  @media screen and (min-width:November) {
+  .c0 {
+    all: July;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    all: August;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    all: September;
+  }
+}
+
+@media screen and (min-width:August) {
+  .c0 {
+    all: November;
+  }
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:August) {
+
+}
+
+<div
+    className="c0"
+  />,
+  @media screen and (min-width:November) {
+  .c0 {
+    all: July;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    all: August;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    all: September;
+  }
+}
+
+@media screen and (min-width:August) {
+  .c0 {
+    all: November;
+  }
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:August) {
+
+}
+
+<div
+    className="c0"
+  />,
+  @media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:August) {
+
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    all: May;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    all: June;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    all: April;
+  }
+}
+
+@media screen and (min-width:August) {
+  .c0 {
+    all: November;
+  }
+}
+
+<div
+    className="c0"
+  />,
+  @media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:August) {
+
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    all: May;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    all: June;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    all: April;
+  }
+}
+
+@media screen and (min-width:August) {
+  .c0 {
+    all: November;
+  }
+}
+
+<div
+    className="c0"
+  />,
+]
+`;
+
+exports[`all renders object [breakpoints] 2`] = `
+Array [
+  @media May {
+  .c0 {
+    all: July;
+  }
+}
+
+@media April {
+  .c0 {
+    all: August;
+  }
+}
+
+@media January {
+  .c0 {
+    all: September;
+  }
+}
+
+@media April {
+  .c0 {
+    all: November;
+  }
+}
+
+@media June {
+  .c0 {
+    all: August;
+  }
+}
+
+@media May {
+
+}
+
+@media April {
+
+}
+
+@media January {
+
+}
+
+@media April {
+
+}
+
+@media June {
+
+}
+
+<div
+    className="c0"
+  />,
+  @media May {
+  .c0 {
+    all: July;
+  }
+}
+
+@media April {
+  .c0 {
+    all: August;
+  }
+}
+
+@media January {
+  .c0 {
+    all: September;
+  }
+}
+
+@media April {
+  .c0 {
+    all: November;
+  }
+}
+
+@media June {
+  .c0 {
+    all: August;
+  }
+}
+
+@media May {
+
+}
+
+@media April {
+
+}
+
+@media January {
+
+}
+
+@media April {
+
+}
+
+@media June {
+
+}
+
+<div
+    className="c0"
+  />,
+  @media May {
+
+}
+
+@media April {
+
+}
+
+@media January {
+
+}
+
+@media April {
+
+}
+
+@media June {
+
+}
+
+@media May {
+  .c0 {
+    all: January;
+  }
+}
+
+@media April {
+  .c0 {
+    all: December;
+  }
+}
+
+@media January {
+  .c0 {
+    all: April;
+  }
+}
+
+@media April {
+  .c0 {
+    all: May;
+  }
+}
+
+@media June {
+  .c0 {
+    all: June;
+  }
+}
+
+<div
+    className="c0"
+  />,
+  @media May {
+
+}
+
+@media April {
+
+}
+
+@media January {
+
+}
+
+@media April {
+
+}
+
+@media June {
+
+}
+
+@media May {
+  .c0 {
+    all: January;
+  }
+}
+
+@media April {
+  .c0 {
+    all: December;
+  }
+}
+
+@media January {
+  .c0 {
+    all: April;
+  }
+}
+
+@media April {
+  .c0 {
+    all: May;
+  }
+}
+
+@media June {
+  .c0 {
+    all: June;
+  }
+}
+
+<div
+    className="c0"
+  />,
+]
+`;
+
+exports[`all renders postitive number 1`] = `
+Array [
+  .c0 {
+  all: 54881;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  all: 54881;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  all: 42365;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  all: 42365;
+}
+
+<div
+    className="c0"
+  />,
+]
+`;
+
+exports[`all renders string 1`] = `
+Array [
+  .c0 {
+  all: July;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  all: July;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  all: June;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  all: June;
+}
+
+<div
+    className="c0"
+  />,
+]
+`;
+
+exports[`all renders valid theme path 1`] = `
+Array [
+  .c0 {
+  all: DarkSlateBlue;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  all: DarkSlateBlue;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  all: DarkSlateBlue;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  all: DarkSlateBlue;
+}
+
+<div
+    className="c0"
+  />,
+]
+`;

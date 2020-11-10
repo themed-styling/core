@@ -1,0 +1,754 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`transformOrigin renders 0 1`] = `
+Array [
+  .c0 {
+  -webkit-transform-origin: 0;
+  -ms-transform-origin: 0;
+  transform-origin: 0;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-transform-origin: 0;
+  -ms-transform-origin: 0;
+  transform-origin: 0;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-transform-origin: 0;
+  -ms-transform-origin: 0;
+  transform-origin: 0;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-transform-origin: 0;
+  -ms-transform-origin: 0;
+  transform-origin: 0;
+}
+
+<div
+    className="c0"
+  />,
+]
+`;
+
+exports[`transformOrigin renders function 1`] = `
+Array [
+  .c0 {
+  -webkit-transform-origin: hasnot;
+  -ms-transform-origin: hasnot;
+  transform-origin: hasnot;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-transform-origin: has;
+  -ms-transform-origin: has;
+  transform-origin: has;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-transform-origin: hasnot;
+  -ms-transform-origin: hasnot;
+  transform-origin: hasnot;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-transform-origin: has;
+  -ms-transform-origin: has;
+  transform-origin: has;
+}
+
+<div
+    className="c0"
+  />,
+]
+`;
+
+exports[`transformOrigin renders invalid theme path 1`] = `
+Array [
+  .c0 {
+  -webkit-transform-origin: invalid.path.1;
+  -ms-transform-origin: invalid.path.1;
+  transform-origin: invalid.path.1;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-transform-origin: invalid.path.1;
+  -ms-transform-origin: invalid.path.1;
+  transform-origin: invalid.path.1;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-transform-origin: invalid.path.1;
+  -ms-transform-origin: invalid.path.1;
+  transform-origin: invalid.path.1;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-transform-origin: invalid.path.1;
+  -ms-transform-origin: invalid.path.1;
+  transform-origin: invalid.path.1;
+}
+
+<div
+    className="c0"
+  />,
+]
+`;
+
+exports[`transformOrigin renders negative number 1`] = `
+Array [
+  .c0 {
+  -webkit-transform-origin: -54881px;
+  -ms-transform-origin: -54881px;
+  transform-origin: -54881px;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-transform-origin: -54881px;
+  -ms-transform-origin: -54881px;
+  transform-origin: -54881px;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-transform-origin: -42365px;
+  -ms-transform-origin: -42365px;
+  transform-origin: -42365px;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-transform-origin: -42365px;
+  -ms-transform-origin: -42365px;
+  transform-origin: -42365px;
+}
+
+<div
+    className="c0"
+  />,
+]
+`;
+
+exports[`transformOrigin renders object [breakpoints] 1`] = `
+Array [
+  @media screen and (min-width:November) {
+  .c0 {
+    -webkit-transform-origin: July;
+    -ms-transform-origin: July;
+    transform-origin: July;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    -webkit-transform-origin: August;
+    -ms-transform-origin: August;
+    transform-origin: August;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    -webkit-transform-origin: September;
+    -ms-transform-origin: September;
+    transform-origin: September;
+  }
+}
+
+@media screen and (min-width:August) {
+  .c0 {
+    -webkit-transform-origin: November;
+    -ms-transform-origin: November;
+    transform-origin: November;
+  }
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:August) {
+
+}
+
+<div
+    className="c0"
+  />,
+  @media screen and (min-width:November) {
+  .c0 {
+    -webkit-transform-origin: July;
+    -ms-transform-origin: July;
+    transform-origin: July;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    -webkit-transform-origin: August;
+    -ms-transform-origin: August;
+    transform-origin: August;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    -webkit-transform-origin: September;
+    -ms-transform-origin: September;
+    transform-origin: September;
+  }
+}
+
+@media screen and (min-width:August) {
+  .c0 {
+    -webkit-transform-origin: November;
+    -ms-transform-origin: November;
+    transform-origin: November;
+  }
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:August) {
+
+}
+
+<div
+    className="c0"
+  />,
+  @media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:August) {
+
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    -webkit-transform-origin: May;
+    -ms-transform-origin: May;
+    transform-origin: May;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    -webkit-transform-origin: June;
+    -ms-transform-origin: June;
+    transform-origin: June;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    -webkit-transform-origin: April;
+    -ms-transform-origin: April;
+    transform-origin: April;
+  }
+}
+
+@media screen and (min-width:August) {
+  .c0 {
+    -webkit-transform-origin: November;
+    -ms-transform-origin: November;
+    transform-origin: November;
+  }
+}
+
+<div
+    className="c0"
+  />,
+  @media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:August) {
+
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    -webkit-transform-origin: May;
+    -ms-transform-origin: May;
+    transform-origin: May;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    -webkit-transform-origin: June;
+    -ms-transform-origin: June;
+    transform-origin: June;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    -webkit-transform-origin: April;
+    -ms-transform-origin: April;
+    transform-origin: April;
+  }
+}
+
+@media screen and (min-width:August) {
+  .c0 {
+    -webkit-transform-origin: November;
+    -ms-transform-origin: November;
+    transform-origin: November;
+  }
+}
+
+<div
+    className="c0"
+  />,
+]
+`;
+
+exports[`transformOrigin renders object [breakpoints] 2`] = `
+Array [
+  @media May {
+  .c0 {
+    -webkit-transform-origin: July;
+    -ms-transform-origin: July;
+    transform-origin: July;
+  }
+}
+
+@media April {
+  .c0 {
+    -webkit-transform-origin: August;
+    -ms-transform-origin: August;
+    transform-origin: August;
+  }
+}
+
+@media January {
+  .c0 {
+    -webkit-transform-origin: September;
+    -ms-transform-origin: September;
+    transform-origin: September;
+  }
+}
+
+@media April {
+  .c0 {
+    -webkit-transform-origin: November;
+    -ms-transform-origin: November;
+    transform-origin: November;
+  }
+}
+
+@media June {
+  .c0 {
+    -webkit-transform-origin: August;
+    -ms-transform-origin: August;
+    transform-origin: August;
+  }
+}
+
+@media May {
+
+}
+
+@media April {
+
+}
+
+@media January {
+
+}
+
+@media April {
+
+}
+
+@media June {
+
+}
+
+<div
+    className="c0"
+  />,
+  @media May {
+  .c0 {
+    -webkit-transform-origin: July;
+    -ms-transform-origin: July;
+    transform-origin: July;
+  }
+}
+
+@media April {
+  .c0 {
+    -webkit-transform-origin: August;
+    -ms-transform-origin: August;
+    transform-origin: August;
+  }
+}
+
+@media January {
+  .c0 {
+    -webkit-transform-origin: September;
+    -ms-transform-origin: September;
+    transform-origin: September;
+  }
+}
+
+@media April {
+  .c0 {
+    -webkit-transform-origin: November;
+    -ms-transform-origin: November;
+    transform-origin: November;
+  }
+}
+
+@media June {
+  .c0 {
+    -webkit-transform-origin: August;
+    -ms-transform-origin: August;
+    transform-origin: August;
+  }
+}
+
+@media May {
+
+}
+
+@media April {
+
+}
+
+@media January {
+
+}
+
+@media April {
+
+}
+
+@media June {
+
+}
+
+<div
+    className="c0"
+  />,
+  @media May {
+
+}
+
+@media April {
+
+}
+
+@media January {
+
+}
+
+@media April {
+
+}
+
+@media June {
+
+}
+
+@media May {
+  .c0 {
+    -webkit-transform-origin: January;
+    -ms-transform-origin: January;
+    transform-origin: January;
+  }
+}
+
+@media April {
+  .c0 {
+    -webkit-transform-origin: December;
+    -ms-transform-origin: December;
+    transform-origin: December;
+  }
+}
+
+@media January {
+  .c0 {
+    -webkit-transform-origin: April;
+    -ms-transform-origin: April;
+    transform-origin: April;
+  }
+}
+
+@media April {
+  .c0 {
+    -webkit-transform-origin: May;
+    -ms-transform-origin: May;
+    transform-origin: May;
+  }
+}
+
+@media June {
+  .c0 {
+    -webkit-transform-origin: June;
+    -ms-transform-origin: June;
+    transform-origin: June;
+  }
+}
+
+<div
+    className="c0"
+  />,
+  @media May {
+
+}
+
+@media April {
+
+}
+
+@media January {
+
+}
+
+@media April {
+
+}
+
+@media June {
+
+}
+
+@media May {
+  .c0 {
+    -webkit-transform-origin: January;
+    -ms-transform-origin: January;
+    transform-origin: January;
+  }
+}
+
+@media April {
+  .c0 {
+    -webkit-transform-origin: December;
+    -ms-transform-origin: December;
+    transform-origin: December;
+  }
+}
+
+@media January {
+  .c0 {
+    -webkit-transform-origin: April;
+    -ms-transform-origin: April;
+    transform-origin: April;
+  }
+}
+
+@media April {
+  .c0 {
+    -webkit-transform-origin: May;
+    -ms-transform-origin: May;
+    transform-origin: May;
+  }
+}
+
+@media June {
+  .c0 {
+    -webkit-transform-origin: June;
+    -ms-transform-origin: June;
+    transform-origin: June;
+  }
+}
+
+<div
+    className="c0"
+  />,
+]
+`;
+
+exports[`transformOrigin renders postitive number 1`] = `
+Array [
+  .c0 {
+  -webkit-transform-origin: 54881px;
+  -ms-transform-origin: 54881px;
+  transform-origin: 54881px;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-transform-origin: 54881px;
+  -ms-transform-origin: 54881px;
+  transform-origin: 54881px;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-transform-origin: 42365px;
+  -ms-transform-origin: 42365px;
+  transform-origin: 42365px;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-transform-origin: 42365px;
+  -ms-transform-origin: 42365px;
+  transform-origin: 42365px;
+}
+
+<div
+    className="c0"
+  />,
+]
+`;
+
+exports[`transformOrigin renders string 1`] = `
+Array [
+  .c0 {
+  -webkit-transform-origin: July;
+  -ms-transform-origin: July;
+  transform-origin: July;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-transform-origin: July;
+  -ms-transform-origin: July;
+  transform-origin: July;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-transform-origin: June;
+  -ms-transform-origin: June;
+  transform-origin: June;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-transform-origin: June;
+  -ms-transform-origin: June;
+  transform-origin: June;
+}
+
+<div
+    className="c0"
+  />,
+]
+`;
+
+exports[`transformOrigin renders valid theme path 1`] = `
+Array [
+  .c0 {
+  -webkit-transform-origin: DarkSlateBlue;
+  -ms-transform-origin: DarkSlateBlue;
+  transform-origin: DarkSlateBlue;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-transform-origin: DarkSlateBlue;
+  -ms-transform-origin: DarkSlateBlue;
+  transform-origin: DarkSlateBlue;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-transform-origin: DarkSlateBlue;
+  -ms-transform-origin: DarkSlateBlue;
+  transform-origin: DarkSlateBlue;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-transform-origin: DarkSlateBlue;
+  -ms-transform-origin: DarkSlateBlue;
+  transform-origin: DarkSlateBlue;
+}
+
+<div
+    className="c0"
+  />,
+]
+`;

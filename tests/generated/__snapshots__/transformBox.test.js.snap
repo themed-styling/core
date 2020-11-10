@@ -1,0 +1,754 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`transformBox renders 0 1`] = `
+Array [
+  .c0 {
+  -webkit-transform-box: 0;
+  -ms-transform-box: 0;
+  transform-box: 0;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-transform-box: 0;
+  -ms-transform-box: 0;
+  transform-box: 0;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-transform-box: 0;
+  -ms-transform-box: 0;
+  transform-box: 0;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-transform-box: 0;
+  -ms-transform-box: 0;
+  transform-box: 0;
+}
+
+<div
+    className="c0"
+  />,
+]
+`;
+
+exports[`transformBox renders function 1`] = `
+Array [
+  .c0 {
+  -webkit-transform-box: hasnot;
+  -ms-transform-box: hasnot;
+  transform-box: hasnot;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-transform-box: has;
+  -ms-transform-box: has;
+  transform-box: has;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-transform-box: hasnot;
+  -ms-transform-box: hasnot;
+  transform-box: hasnot;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-transform-box: has;
+  -ms-transform-box: has;
+  transform-box: has;
+}
+
+<div
+    className="c0"
+  />,
+]
+`;
+
+exports[`transformBox renders invalid theme path 1`] = `
+Array [
+  .c0 {
+  -webkit-transform-box: invalid.path.1;
+  -ms-transform-box: invalid.path.1;
+  transform-box: invalid.path.1;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-transform-box: invalid.path.1;
+  -ms-transform-box: invalid.path.1;
+  transform-box: invalid.path.1;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-transform-box: invalid.path.1;
+  -ms-transform-box: invalid.path.1;
+  transform-box: invalid.path.1;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-transform-box: invalid.path.1;
+  -ms-transform-box: invalid.path.1;
+  transform-box: invalid.path.1;
+}
+
+<div
+    className="c0"
+  />,
+]
+`;
+
+exports[`transformBox renders negative number 1`] = `
+Array [
+  .c0 {
+  -webkit-transform-box: -54881;
+  -ms-transform-box: -54881;
+  transform-box: -54881;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-transform-box: -54881;
+  -ms-transform-box: -54881;
+  transform-box: -54881;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-transform-box: -42365;
+  -ms-transform-box: -42365;
+  transform-box: -42365;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-transform-box: -42365;
+  -ms-transform-box: -42365;
+  transform-box: -42365;
+}
+
+<div
+    className="c0"
+  />,
+]
+`;
+
+exports[`transformBox renders object [breakpoints] 1`] = `
+Array [
+  @media screen and (min-width:November) {
+  .c0 {
+    -webkit-transform-box: July;
+    -ms-transform-box: July;
+    transform-box: July;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    -webkit-transform-box: August;
+    -ms-transform-box: August;
+    transform-box: August;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    -webkit-transform-box: September;
+    -ms-transform-box: September;
+    transform-box: September;
+  }
+}
+
+@media screen and (min-width:August) {
+  .c0 {
+    -webkit-transform-box: November;
+    -ms-transform-box: November;
+    transform-box: November;
+  }
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:August) {
+
+}
+
+<div
+    className="c0"
+  />,
+  @media screen and (min-width:November) {
+  .c0 {
+    -webkit-transform-box: July;
+    -ms-transform-box: July;
+    transform-box: July;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    -webkit-transform-box: August;
+    -ms-transform-box: August;
+    transform-box: August;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    -webkit-transform-box: September;
+    -ms-transform-box: September;
+    transform-box: September;
+  }
+}
+
+@media screen and (min-width:August) {
+  .c0 {
+    -webkit-transform-box: November;
+    -ms-transform-box: November;
+    transform-box: November;
+  }
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:August) {
+
+}
+
+<div
+    className="c0"
+  />,
+  @media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:August) {
+
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    -webkit-transform-box: May;
+    -ms-transform-box: May;
+    transform-box: May;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    -webkit-transform-box: June;
+    -ms-transform-box: June;
+    transform-box: June;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    -webkit-transform-box: April;
+    -ms-transform-box: April;
+    transform-box: April;
+  }
+}
+
+@media screen and (min-width:August) {
+  .c0 {
+    -webkit-transform-box: November;
+    -ms-transform-box: November;
+    transform-box: November;
+  }
+}
+
+<div
+    className="c0"
+  />,
+  @media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:August) {
+
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    -webkit-transform-box: May;
+    -ms-transform-box: May;
+    transform-box: May;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    -webkit-transform-box: June;
+    -ms-transform-box: June;
+    transform-box: June;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    -webkit-transform-box: April;
+    -ms-transform-box: April;
+    transform-box: April;
+  }
+}
+
+@media screen and (min-width:August) {
+  .c0 {
+    -webkit-transform-box: November;
+    -ms-transform-box: November;
+    transform-box: November;
+  }
+}
+
+<div
+    className="c0"
+  />,
+]
+`;
+
+exports[`transformBox renders object [breakpoints] 2`] = `
+Array [
+  @media May {
+  .c0 {
+    -webkit-transform-box: July;
+    -ms-transform-box: July;
+    transform-box: July;
+  }
+}
+
+@media April {
+  .c0 {
+    -webkit-transform-box: August;
+    -ms-transform-box: August;
+    transform-box: August;
+  }
+}
+
+@media January {
+  .c0 {
+    -webkit-transform-box: September;
+    -ms-transform-box: September;
+    transform-box: September;
+  }
+}
+
+@media April {
+  .c0 {
+    -webkit-transform-box: November;
+    -ms-transform-box: November;
+    transform-box: November;
+  }
+}
+
+@media June {
+  .c0 {
+    -webkit-transform-box: August;
+    -ms-transform-box: August;
+    transform-box: August;
+  }
+}
+
+@media May {
+
+}
+
+@media April {
+
+}
+
+@media January {
+
+}
+
+@media April {
+
+}
+
+@media June {
+
+}
+
+<div
+    className="c0"
+  />,
+  @media May {
+  .c0 {
+    -webkit-transform-box: July;
+    -ms-transform-box: July;
+    transform-box: July;
+  }
+}
+
+@media April {
+  .c0 {
+    -webkit-transform-box: August;
+    -ms-transform-box: August;
+    transform-box: August;
+  }
+}
+
+@media January {
+  .c0 {
+    -webkit-transform-box: September;
+    -ms-transform-box: September;
+    transform-box: September;
+  }
+}
+
+@media April {
+  .c0 {
+    -webkit-transform-box: November;
+    -ms-transform-box: November;
+    transform-box: November;
+  }
+}
+
+@media June {
+  .c0 {
+    -webkit-transform-box: August;
+    -ms-transform-box: August;
+    transform-box: August;
+  }
+}
+
+@media May {
+
+}
+
+@media April {
+
+}
+
+@media January {
+
+}
+
+@media April {
+
+}
+
+@media June {
+
+}
+
+<div
+    className="c0"
+  />,
+  @media May {
+
+}
+
+@media April {
+
+}
+
+@media January {
+
+}
+
+@media April {
+
+}
+
+@media June {
+
+}
+
+@media May {
+  .c0 {
+    -webkit-transform-box: January;
+    -ms-transform-box: January;
+    transform-box: January;
+  }
+}
+
+@media April {
+  .c0 {
+    -webkit-transform-box: December;
+    -ms-transform-box: December;
+    transform-box: December;
+  }
+}
+
+@media January {
+  .c0 {
+    -webkit-transform-box: April;
+    -ms-transform-box: April;
+    transform-box: April;
+  }
+}
+
+@media April {
+  .c0 {
+    -webkit-transform-box: May;
+    -ms-transform-box: May;
+    transform-box: May;
+  }
+}
+
+@media June {
+  .c0 {
+    -webkit-transform-box: June;
+    -ms-transform-box: June;
+    transform-box: June;
+  }
+}
+
+<div
+    className="c0"
+  />,
+  @media May {
+
+}
+
+@media April {
+
+}
+
+@media January {
+
+}
+
+@media April {
+
+}
+
+@media June {
+
+}
+
+@media May {
+  .c0 {
+    -webkit-transform-box: January;
+    -ms-transform-box: January;
+    transform-box: January;
+  }
+}
+
+@media April {
+  .c0 {
+    -webkit-transform-box: December;
+    -ms-transform-box: December;
+    transform-box: December;
+  }
+}
+
+@media January {
+  .c0 {
+    -webkit-transform-box: April;
+    -ms-transform-box: April;
+    transform-box: April;
+  }
+}
+
+@media April {
+  .c0 {
+    -webkit-transform-box: May;
+    -ms-transform-box: May;
+    transform-box: May;
+  }
+}
+
+@media June {
+  .c0 {
+    -webkit-transform-box: June;
+    -ms-transform-box: June;
+    transform-box: June;
+  }
+}
+
+<div
+    className="c0"
+  />,
+]
+`;
+
+exports[`transformBox renders postitive number 1`] = `
+Array [
+  .c0 {
+  -webkit-transform-box: 54881;
+  -ms-transform-box: 54881;
+  transform-box: 54881;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-transform-box: 54881;
+  -ms-transform-box: 54881;
+  transform-box: 54881;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-transform-box: 42365;
+  -ms-transform-box: 42365;
+  transform-box: 42365;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-transform-box: 42365;
+  -ms-transform-box: 42365;
+  transform-box: 42365;
+}
+
+<div
+    className="c0"
+  />,
+]
+`;
+
+exports[`transformBox renders string 1`] = `
+Array [
+  .c0 {
+  -webkit-transform-box: July;
+  -ms-transform-box: July;
+  transform-box: July;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-transform-box: July;
+  -ms-transform-box: July;
+  transform-box: July;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-transform-box: June;
+  -ms-transform-box: June;
+  transform-box: June;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-transform-box: June;
+  -ms-transform-box: June;
+  transform-box: June;
+}
+
+<div
+    className="c0"
+  />,
+]
+`;
+
+exports[`transformBox renders valid theme path 1`] = `
+Array [
+  .c0 {
+  -webkit-transform-box: DarkSlateBlue;
+  -ms-transform-box: DarkSlateBlue;
+  transform-box: DarkSlateBlue;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-transform-box: DarkSlateBlue;
+  -ms-transform-box: DarkSlateBlue;
+  transform-box: DarkSlateBlue;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-transform-box: DarkSlateBlue;
+  -ms-transform-box: DarkSlateBlue;
+  transform-box: DarkSlateBlue;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-transform-box: DarkSlateBlue;
+  -ms-transform-box: DarkSlateBlue;
+  transform-box: DarkSlateBlue;
+}
+
+<div
+    className="c0"
+  />,
+]
+`;

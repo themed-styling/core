@@ -1,0 +1,754 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`blockOverflow renders 0 1`] = `
+Array [
+  .c0 {
+  -webkit-block-overflow: 0;
+  -ms-flex-block-overflow: 0;
+  block-overflow: 0;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-block-overflow: 0;
+  -ms-flex-block-overflow: 0;
+  block-overflow: 0;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-block-overflow: 0;
+  -ms-flex-block-overflow: 0;
+  block-overflow: 0;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-block-overflow: 0;
+  -ms-flex-block-overflow: 0;
+  block-overflow: 0;
+}
+
+<div
+    className="c0"
+  />,
+]
+`;
+
+exports[`blockOverflow renders function 1`] = `
+Array [
+  .c0 {
+  -webkit-block-overflow: hasnot;
+  -ms-flex-block-overflow: hasnot;
+  block-overflow: hasnot;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-block-overflow: has;
+  -ms-flex-block-overflow: has;
+  block-overflow: has;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-block-overflow: hasnot;
+  -ms-flex-block-overflow: hasnot;
+  block-overflow: hasnot;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-block-overflow: has;
+  -ms-flex-block-overflow: has;
+  block-overflow: has;
+}
+
+<div
+    className="c0"
+  />,
+]
+`;
+
+exports[`blockOverflow renders invalid theme path 1`] = `
+Array [
+  .c0 {
+  -webkit-block-overflow: invalid.path.1;
+  -ms-flex-block-overflow: invalid.path.1;
+  block-overflow: invalid.path.1;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-block-overflow: invalid.path.1;
+  -ms-flex-block-overflow: invalid.path.1;
+  block-overflow: invalid.path.1;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-block-overflow: invalid.path.1;
+  -ms-flex-block-overflow: invalid.path.1;
+  block-overflow: invalid.path.1;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-block-overflow: invalid.path.1;
+  -ms-flex-block-overflow: invalid.path.1;
+  block-overflow: invalid.path.1;
+}
+
+<div
+    className="c0"
+  />,
+]
+`;
+
+exports[`blockOverflow renders negative number 1`] = `
+Array [
+  .c0 {
+  -webkit-block-overflow: -54881;
+  -ms-flex-block-overflow: -54881;
+  block-overflow: -54881;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-block-overflow: -54881;
+  -ms-flex-block-overflow: -54881;
+  block-overflow: -54881;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-block-overflow: -42365;
+  -ms-flex-block-overflow: -42365;
+  block-overflow: -42365;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-block-overflow: -42365;
+  -ms-flex-block-overflow: -42365;
+  block-overflow: -42365;
+}
+
+<div
+    className="c0"
+  />,
+]
+`;
+
+exports[`blockOverflow renders object [breakpoints] 1`] = `
+Array [
+  @media screen and (min-width:November) {
+  .c0 {
+    -webkit-block-overflow: July;
+    -ms-flex-block-overflow: July;
+    block-overflow: July;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    -webkit-block-overflow: August;
+    -ms-flex-block-overflow: August;
+    block-overflow: August;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    -webkit-block-overflow: September;
+    -ms-flex-block-overflow: September;
+    block-overflow: September;
+  }
+}
+
+@media screen and (min-width:August) {
+  .c0 {
+    -webkit-block-overflow: November;
+    -ms-flex-block-overflow: November;
+    block-overflow: November;
+  }
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:August) {
+
+}
+
+<div
+    className="c0"
+  />,
+  @media screen and (min-width:November) {
+  .c0 {
+    -webkit-block-overflow: July;
+    -ms-flex-block-overflow: July;
+    block-overflow: July;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    -webkit-block-overflow: August;
+    -ms-flex-block-overflow: August;
+    block-overflow: August;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    -webkit-block-overflow: September;
+    -ms-flex-block-overflow: September;
+    block-overflow: September;
+  }
+}
+
+@media screen and (min-width:August) {
+  .c0 {
+    -webkit-block-overflow: November;
+    -ms-flex-block-overflow: November;
+    block-overflow: November;
+  }
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:August) {
+
+}
+
+<div
+    className="c0"
+  />,
+  @media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:August) {
+
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    -webkit-block-overflow: May;
+    -ms-flex-block-overflow: May;
+    block-overflow: May;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    -webkit-block-overflow: June;
+    -ms-flex-block-overflow: June;
+    block-overflow: June;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    -webkit-block-overflow: April;
+    -ms-flex-block-overflow: April;
+    block-overflow: April;
+  }
+}
+
+@media screen and (min-width:August) {
+  .c0 {
+    -webkit-block-overflow: November;
+    -ms-flex-block-overflow: November;
+    block-overflow: November;
+  }
+}
+
+<div
+    className="c0"
+  />,
+  @media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:August) {
+
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    -webkit-block-overflow: May;
+    -ms-flex-block-overflow: May;
+    block-overflow: May;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    -webkit-block-overflow: June;
+    -ms-flex-block-overflow: June;
+    block-overflow: June;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    -webkit-block-overflow: April;
+    -ms-flex-block-overflow: April;
+    block-overflow: April;
+  }
+}
+
+@media screen and (min-width:August) {
+  .c0 {
+    -webkit-block-overflow: November;
+    -ms-flex-block-overflow: November;
+    block-overflow: November;
+  }
+}
+
+<div
+    className="c0"
+  />,
+]
+`;
+
+exports[`blockOverflow renders object [breakpoints] 2`] = `
+Array [
+  @media May {
+  .c0 {
+    -webkit-block-overflow: July;
+    -ms-flex-block-overflow: July;
+    block-overflow: July;
+  }
+}
+
+@media April {
+  .c0 {
+    -webkit-block-overflow: August;
+    -ms-flex-block-overflow: August;
+    block-overflow: August;
+  }
+}
+
+@media January {
+  .c0 {
+    -webkit-block-overflow: September;
+    -ms-flex-block-overflow: September;
+    block-overflow: September;
+  }
+}
+
+@media April {
+  .c0 {
+    -webkit-block-overflow: November;
+    -ms-flex-block-overflow: November;
+    block-overflow: November;
+  }
+}
+
+@media June {
+  .c0 {
+    -webkit-block-overflow: August;
+    -ms-flex-block-overflow: August;
+    block-overflow: August;
+  }
+}
+
+@media May {
+
+}
+
+@media April {
+
+}
+
+@media January {
+
+}
+
+@media April {
+
+}
+
+@media June {
+
+}
+
+<div
+    className="c0"
+  />,
+  @media May {
+  .c0 {
+    -webkit-block-overflow: July;
+    -ms-flex-block-overflow: July;
+    block-overflow: July;
+  }
+}
+
+@media April {
+  .c0 {
+    -webkit-block-overflow: August;
+    -ms-flex-block-overflow: August;
+    block-overflow: August;
+  }
+}
+
+@media January {
+  .c0 {
+    -webkit-block-overflow: September;
+    -ms-flex-block-overflow: September;
+    block-overflow: September;
+  }
+}
+
+@media April {
+  .c0 {
+    -webkit-block-overflow: November;
+    -ms-flex-block-overflow: November;
+    block-overflow: November;
+  }
+}
+
+@media June {
+  .c0 {
+    -webkit-block-overflow: August;
+    -ms-flex-block-overflow: August;
+    block-overflow: August;
+  }
+}
+
+@media May {
+
+}
+
+@media April {
+
+}
+
+@media January {
+
+}
+
+@media April {
+
+}
+
+@media June {
+
+}
+
+<div
+    className="c0"
+  />,
+  @media May {
+
+}
+
+@media April {
+
+}
+
+@media January {
+
+}
+
+@media April {
+
+}
+
+@media June {
+
+}
+
+@media May {
+  .c0 {
+    -webkit-block-overflow: January;
+    -ms-flex-block-overflow: January;
+    block-overflow: January;
+  }
+}
+
+@media April {
+  .c0 {
+    -webkit-block-overflow: December;
+    -ms-flex-block-overflow: December;
+    block-overflow: December;
+  }
+}
+
+@media January {
+  .c0 {
+    -webkit-block-overflow: April;
+    -ms-flex-block-overflow: April;
+    block-overflow: April;
+  }
+}
+
+@media April {
+  .c0 {
+    -webkit-block-overflow: May;
+    -ms-flex-block-overflow: May;
+    block-overflow: May;
+  }
+}
+
+@media June {
+  .c0 {
+    -webkit-block-overflow: June;
+    -ms-flex-block-overflow: June;
+    block-overflow: June;
+  }
+}
+
+<div
+    className="c0"
+  />,
+  @media May {
+
+}
+
+@media April {
+
+}
+
+@media January {
+
+}
+
+@media April {
+
+}
+
+@media June {
+
+}
+
+@media May {
+  .c0 {
+    -webkit-block-overflow: January;
+    -ms-flex-block-overflow: January;
+    block-overflow: January;
+  }
+}
+
+@media April {
+  .c0 {
+    -webkit-block-overflow: December;
+    -ms-flex-block-overflow: December;
+    block-overflow: December;
+  }
+}
+
+@media January {
+  .c0 {
+    -webkit-block-overflow: April;
+    -ms-flex-block-overflow: April;
+    block-overflow: April;
+  }
+}
+
+@media April {
+  .c0 {
+    -webkit-block-overflow: May;
+    -ms-flex-block-overflow: May;
+    block-overflow: May;
+  }
+}
+
+@media June {
+  .c0 {
+    -webkit-block-overflow: June;
+    -ms-flex-block-overflow: June;
+    block-overflow: June;
+  }
+}
+
+<div
+    className="c0"
+  />,
+]
+`;
+
+exports[`blockOverflow renders postitive number 1`] = `
+Array [
+  .c0 {
+  -webkit-block-overflow: 54881;
+  -ms-flex-block-overflow: 54881;
+  block-overflow: 54881;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-block-overflow: 54881;
+  -ms-flex-block-overflow: 54881;
+  block-overflow: 54881;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-block-overflow: 42365;
+  -ms-flex-block-overflow: 42365;
+  block-overflow: 42365;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-block-overflow: 42365;
+  -ms-flex-block-overflow: 42365;
+  block-overflow: 42365;
+}
+
+<div
+    className="c0"
+  />,
+]
+`;
+
+exports[`blockOverflow renders string 1`] = `
+Array [
+  .c0 {
+  -webkit-block-overflow: July;
+  -ms-flex-block-overflow: July;
+  block-overflow: July;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-block-overflow: July;
+  -ms-flex-block-overflow: July;
+  block-overflow: July;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-block-overflow: June;
+  -ms-flex-block-overflow: June;
+  block-overflow: June;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-block-overflow: June;
+  -ms-flex-block-overflow: June;
+  block-overflow: June;
+}
+
+<div
+    className="c0"
+  />,
+]
+`;
+
+exports[`blockOverflow renders valid theme path 1`] = `
+Array [
+  .c0 {
+  -webkit-block-overflow: DarkSlateBlue;
+  -ms-flex-block-overflow: DarkSlateBlue;
+  block-overflow: DarkSlateBlue;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-block-overflow: DarkSlateBlue;
+  -ms-flex-block-overflow: DarkSlateBlue;
+  block-overflow: DarkSlateBlue;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-block-overflow: DarkSlateBlue;
+  -ms-flex-block-overflow: DarkSlateBlue;
+  block-overflow: DarkSlateBlue;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-block-overflow: DarkSlateBlue;
+  -ms-flex-block-overflow: DarkSlateBlue;
+  block-overflow: DarkSlateBlue;
+}
+
+<div
+    className="c0"
+  />,
+]
+`;

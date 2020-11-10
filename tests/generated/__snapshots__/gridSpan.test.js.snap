@@ -1,0 +1,626 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`gridSpan renders 0 1`] = `
+Array [
+  .c0 {
+  grid-span: 0;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  grid-span: 0;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  grid-span: 0;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  grid-span: 0;
+}
+
+<div
+    className="c0"
+  />,
+]
+`;
+
+exports[`gridSpan renders function 1`] = `
+Array [
+  .c0 {
+  grid-span: hasnot;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  grid-span: has;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  grid-span: hasnot;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  grid-span: has;
+}
+
+<div
+    className="c0"
+  />,
+]
+`;
+
+exports[`gridSpan renders invalid theme path 1`] = `
+Array [
+  .c0 {
+  grid-span: invalid.path.1;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  grid-span: invalid.path.1;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  grid-span: invalid.path.1;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  grid-span: invalid.path.1;
+}
+
+<div
+    className="c0"
+  />,
+]
+`;
+
+exports[`gridSpan renders negative number 1`] = `
+Array [
+  .c0 {
+  grid-span: -54881;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  grid-span: -54881;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  grid-span: -42365;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  grid-span: -42365;
+}
+
+<div
+    className="c0"
+  />,
+]
+`;
+
+exports[`gridSpan renders object [breakpoints] 1`] = `
+Array [
+  @media screen and (min-width:November) {
+  .c0 {
+    grid-span: July;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    grid-span: August;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    grid-span: September;
+  }
+}
+
+@media screen and (min-width:August) {
+  .c0 {
+    grid-span: November;
+  }
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:August) {
+
+}
+
+<div
+    className="c0"
+  />,
+  @media screen and (min-width:November) {
+  .c0 {
+    grid-span: July;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    grid-span: August;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    grid-span: September;
+  }
+}
+
+@media screen and (min-width:August) {
+  .c0 {
+    grid-span: November;
+  }
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:August) {
+
+}
+
+<div
+    className="c0"
+  />,
+  @media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:August) {
+
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    grid-span: May;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    grid-span: June;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    grid-span: April;
+  }
+}
+
+@media screen and (min-width:August) {
+  .c0 {
+    grid-span: November;
+  }
+}
+
+<div
+    className="c0"
+  />,
+  @media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:August) {
+
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    grid-span: May;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    grid-span: June;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    grid-span: April;
+  }
+}
+
+@media screen and (min-width:August) {
+  .c0 {
+    grid-span: November;
+  }
+}
+
+<div
+    className="c0"
+  />,
+]
+`;
+
+exports[`gridSpan renders object [breakpoints] 2`] = `
+Array [
+  @media May {
+  .c0 {
+    grid-span: July;
+  }
+}
+
+@media April {
+  .c0 {
+    grid-span: August;
+  }
+}
+
+@media January {
+  .c0 {
+    grid-span: September;
+  }
+}
+
+@media April {
+  .c0 {
+    grid-span: November;
+  }
+}
+
+@media June {
+  .c0 {
+    grid-span: August;
+  }
+}
+
+@media May {
+
+}
+
+@media April {
+
+}
+
+@media January {
+
+}
+
+@media April {
+
+}
+
+@media June {
+
+}
+
+<div
+    className="c0"
+  />,
+  @media May {
+  .c0 {
+    grid-span: July;
+  }
+}
+
+@media April {
+  .c0 {
+    grid-span: August;
+  }
+}
+
+@media January {
+  .c0 {
+    grid-span: September;
+  }
+}
+
+@media April {
+  .c0 {
+    grid-span: November;
+  }
+}
+
+@media June {
+  .c0 {
+    grid-span: August;
+  }
+}
+
+@media May {
+
+}
+
+@media April {
+
+}
+
+@media January {
+
+}
+
+@media April {
+
+}
+
+@media June {
+
+}
+
+<div
+    className="c0"
+  />,
+  @media May {
+
+}
+
+@media April {
+
+}
+
+@media January {
+
+}
+
+@media April {
+
+}
+
+@media June {
+
+}
+
+@media May {
+  .c0 {
+    grid-span: January;
+  }
+}
+
+@media April {
+  .c0 {
+    grid-span: December;
+  }
+}
+
+@media January {
+  .c0 {
+    grid-span: April;
+  }
+}
+
+@media April {
+  .c0 {
+    grid-span: May;
+  }
+}
+
+@media June {
+  .c0 {
+    grid-span: June;
+  }
+}
+
+<div
+    className="c0"
+  />,
+  @media May {
+
+}
+
+@media April {
+
+}
+
+@media January {
+
+}
+
+@media April {
+
+}
+
+@media June {
+
+}
+
+@media May {
+  .c0 {
+    grid-span: January;
+  }
+}
+
+@media April {
+  .c0 {
+    grid-span: December;
+  }
+}
+
+@media January {
+  .c0 {
+    grid-span: April;
+  }
+}
+
+@media April {
+  .c0 {
+    grid-span: May;
+  }
+}
+
+@media June {
+  .c0 {
+    grid-span: June;
+  }
+}
+
+<div
+    className="c0"
+  />,
+]
+`;
+
+exports[`gridSpan renders postitive number 1`] = `
+Array [
+  .c0 {
+  grid-span: 54881;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  grid-span: 54881;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  grid-span: 42365;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  grid-span: 42365;
+}
+
+<div
+    className="c0"
+  />,
+]
+`;
+
+exports[`gridSpan renders string 1`] = `
+Array [
+  .c0 {
+  grid-span: July;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  grid-span: July;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  grid-span: June;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  grid-span: June;
+}
+
+<div
+    className="c0"
+  />,
+]
+`;
+
+exports[`gridSpan renders valid theme path 1`] = `
+Array [
+  .c0 {
+  grid-span: DarkSlateBlue;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  grid-span: DarkSlateBlue;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  grid-span: DarkSlateBlue;
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  grid-span: DarkSlateBlue;
+}
+
+<div
+    className="c0"
+  />,
+]
+`;
