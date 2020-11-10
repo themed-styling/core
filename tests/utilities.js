@@ -2,6 +2,7 @@ import React from 'react'
 import styled, { ThemeProvider } from 'styled-components'
 import faker_ from 'faker'
 import renderer from 'react-test-renderer'
+import MissingKeyError from '../src/lib/util/errors/MissingKeyError'
 
 const testFn = (fn, name, Wrapper = React.Fragment) => ({
   renders: (valueDescription, generator, contentGenerator = generator) => {
@@ -225,6 +226,14 @@ const testAllOn = (fn, name, faker = faker_) => {
     const value1 = faker.date.month()
     const render1 = fn(value1).c('*3')({}).flat(10).join('')
     expect(render1).toContain(`calc(${value1}*3)`)
+  })
+
+  test(`${name} throws error`, () => {
+    expect(() => fn({ test: 'test' })({})).toThrow(TypeError)
+    expect(() => fn({ test: 'test' })({ theme })).toThrow(TypeError)
+    expect(() => fn({ test: 'test' })({ theme: { breakpoints: {} } })).toThrow(
+      MissingKeyError
+    )
   })
 }
 
