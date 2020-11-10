@@ -132,6 +132,199 @@ Array [
 ]
 `;
 
+exports[`fontSizeAdjust renders object [breakpoints + standard] 1`] = `
+Array [
+  .c0 {
+  font-size-adjust: July;
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    font-size-adjust: August;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    font-size-adjust: September;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    font-size-adjust: November;
+  }
+}
+
+@media screen and (min-width:August) {
+  .c0 {
+    font-size-adjust: August;
+  }
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:August) {
+
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  font-size-adjust: July;
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    font-size-adjust: August;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    font-size-adjust: September;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    font-size-adjust: November;
+  }
+}
+
+@media screen and (min-width:August) {
+  .c0 {
+    font-size-adjust: August;
+  }
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:August) {
+
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  font-size-adjust: January;
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:August) {
+
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    font-size-adjust: December;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    font-size-adjust: April;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    font-size-adjust: May;
+  }
+}
+
+@media screen and (min-width:August) {
+  .c0 {
+    font-size-adjust: June;
+  }
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  font-size-adjust: January;
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:August) {
+
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    font-size-adjust: December;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    font-size-adjust: April;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    font-size-adjust: May;
+  }
+}
+
+@media screen and (min-width:August) {
+  .c0 {
+    font-size-adjust: June;
+  }
+}
+
+<div
+    className="c0"
+  />,
+]
+`;
+
 exports[`fontSizeAdjust renders object [breakpoints] 1`] = `
 Array [
   @media screen and (min-width:November) {
@@ -309,7 +502,240 @@ Array [
 ]
 `;
 
-exports[`fontSizeAdjust renders object [breakpoints] 2`] = `
+exports[`fontSizeAdjust renders object [mediaQueries + standart] 1`] = `
+Array [
+  .c0 {
+  font-size-adjust: July;
+}
+
+@media May {
+  .c0 {
+    font-size-adjust: August;
+  }
+}
+
+@media April {
+  .c0 {
+    font-size-adjust: September;
+  }
+}
+
+@media January {
+  .c0 {
+    font-size-adjust: November;
+  }
+}
+
+@media April {
+  .c0 {
+    font-size-adjust: August;
+  }
+}
+
+@media June {
+  .c0 {
+    font-size-adjust: November;
+  }
+}
+
+@media May {
+
+}
+
+@media April {
+
+}
+
+@media January {
+
+}
+
+@media April {
+
+}
+
+@media June {
+
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  font-size-adjust: July;
+}
+
+@media May {
+  .c0 {
+    font-size-adjust: August;
+  }
+}
+
+@media April {
+  .c0 {
+    font-size-adjust: September;
+  }
+}
+
+@media January {
+  .c0 {
+    font-size-adjust: November;
+  }
+}
+
+@media April {
+  .c0 {
+    font-size-adjust: August;
+  }
+}
+
+@media June {
+  .c0 {
+    font-size-adjust: November;
+  }
+}
+
+@media May {
+
+}
+
+@media April {
+
+}
+
+@media January {
+
+}
+
+@media April {
+
+}
+
+@media June {
+
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  font-size-adjust: April;
+}
+
+@media May {
+
+}
+
+@media April {
+
+}
+
+@media January {
+
+}
+
+@media April {
+
+}
+
+@media June {
+
+}
+
+@media May {
+  .c0 {
+    font-size-adjust: November;
+  }
+}
+
+@media April {
+  .c0 {
+    font-size-adjust: January;
+  }
+}
+
+@media January {
+  .c0 {
+    font-size-adjust: December;
+  }
+}
+
+@media April {
+  .c0 {
+    font-size-adjust: April;
+  }
+}
+
+@media June {
+  .c0 {
+    font-size-adjust: May;
+  }
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  font-size-adjust: April;
+}
+
+@media May {
+
+}
+
+@media April {
+
+}
+
+@media January {
+
+}
+
+@media April {
+
+}
+
+@media June {
+
+}
+
+@media May {
+  .c0 {
+    font-size-adjust: November;
+  }
+}
+
+@media April {
+  .c0 {
+    font-size-adjust: January;
+  }
+}
+
+@media January {
+  .c0 {
+    font-size-adjust: December;
+  }
+}
+
+@media April {
+  .c0 {
+    font-size-adjust: April;
+  }
+}
+
+@media June {
+  .c0 {
+    font-size-adjust: May;
+  }
+}
+
+<div
+    className="c0"
+  />,
+]
+`;
+
+exports[`fontSizeAdjust renders object [mediaQueries] 1`] = `
 Array [
   @media May {
   .c0 {
@@ -588,6 +1014,23 @@ Array [
 
 <div
     className="c0"
+  />,
+]
+`;
+
+exports[`fontSizeAdjust renders undefined 1`] = `
+Array [
+  <div
+    className=""
+  />,
+  <div
+    className=""
+  />,
+  <div
+    className=""
+  />,
+  <div
+    className=""
   />,
 ]
 `;

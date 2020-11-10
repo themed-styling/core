@@ -164,6 +164,239 @@ Array [
 ]
 `;
 
+exports[`alignSelf renders object [breakpoints + standard] 1`] = `
+Array [
+  .c0 {
+  -webkit-align-self: July;
+  -ms-flex-item-align: July;
+  align-self: July;
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    -webkit-align-self: August;
+    -ms-flex-item-align: August;
+    align-self: August;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    -webkit-align-self: September;
+    -ms-flex-item-align: September;
+    align-self: September;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    -webkit-align-self: November;
+    -ms-flex-item-align: November;
+    align-self: November;
+  }
+}
+
+@media screen and (min-width:August) {
+  .c0 {
+    -webkit-align-self: August;
+    -ms-flex-item-align: August;
+    align-self: August;
+  }
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:August) {
+
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-align-self: July;
+  -ms-flex-item-align: July;
+  align-self: July;
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    -webkit-align-self: August;
+    -ms-flex-item-align: August;
+    align-self: August;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    -webkit-align-self: September;
+    -ms-flex-item-align: September;
+    align-self: September;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    -webkit-align-self: November;
+    -ms-flex-item-align: November;
+    align-self: November;
+  }
+}
+
+@media screen and (min-width:August) {
+  .c0 {
+    -webkit-align-self: August;
+    -ms-flex-item-align: August;
+    align-self: August;
+  }
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:August) {
+
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-align-self: January;
+  -ms-flex-item-align: January;
+  align-self: January;
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:August) {
+
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    -webkit-align-self: December;
+    -ms-flex-item-align: December;
+    align-self: December;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    -webkit-align-self: April;
+    -ms-flex-item-align: April;
+    align-self: April;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    -webkit-align-self: May;
+    -ms-flex-item-align: May;
+    align-self: May;
+  }
+}
+
+@media screen and (min-width:August) {
+  .c0 {
+    -webkit-align-self: June;
+    -ms-flex-item-align: June;
+    align-self: June;
+  }
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-align-self: January;
+  -ms-flex-item-align: January;
+  align-self: January;
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:August) {
+
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    -webkit-align-self: December;
+    -ms-flex-item-align: December;
+    align-self: December;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    -webkit-align-self: April;
+    -ms-flex-item-align: April;
+    align-self: April;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    -webkit-align-self: May;
+    -ms-flex-item-align: May;
+    align-self: May;
+  }
+}
+
+@media screen and (min-width:August) {
+  .c0 {
+    -webkit-align-self: June;
+    -ms-flex-item-align: June;
+    align-self: June;
+  }
+}
+
+<div
+    className="c0"
+  />,
+]
+`;
+
 exports[`alignSelf renders object [breakpoints] 1`] = `
 Array [
   @media screen and (min-width:November) {
@@ -373,7 +606,288 @@ Array [
 ]
 `;
 
-exports[`alignSelf renders object [breakpoints] 2`] = `
+exports[`alignSelf renders object [mediaQueries + standart] 1`] = `
+Array [
+  .c0 {
+  -webkit-align-self: July;
+  -ms-flex-item-align: July;
+  align-self: July;
+}
+
+@media May {
+  .c0 {
+    -webkit-align-self: August;
+    -ms-flex-item-align: August;
+    align-self: August;
+  }
+}
+
+@media April {
+  .c0 {
+    -webkit-align-self: September;
+    -ms-flex-item-align: September;
+    align-self: September;
+  }
+}
+
+@media January {
+  .c0 {
+    -webkit-align-self: November;
+    -ms-flex-item-align: November;
+    align-self: November;
+  }
+}
+
+@media April {
+  .c0 {
+    -webkit-align-self: August;
+    -ms-flex-item-align: August;
+    align-self: August;
+  }
+}
+
+@media June {
+  .c0 {
+    -webkit-align-self: November;
+    -ms-flex-item-align: November;
+    align-self: November;
+  }
+}
+
+@media May {
+
+}
+
+@media April {
+
+}
+
+@media January {
+
+}
+
+@media April {
+
+}
+
+@media June {
+
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-align-self: July;
+  -ms-flex-item-align: July;
+  align-self: July;
+}
+
+@media May {
+  .c0 {
+    -webkit-align-self: August;
+    -ms-flex-item-align: August;
+    align-self: August;
+  }
+}
+
+@media April {
+  .c0 {
+    -webkit-align-self: September;
+    -ms-flex-item-align: September;
+    align-self: September;
+  }
+}
+
+@media January {
+  .c0 {
+    -webkit-align-self: November;
+    -ms-flex-item-align: November;
+    align-self: November;
+  }
+}
+
+@media April {
+  .c0 {
+    -webkit-align-self: August;
+    -ms-flex-item-align: August;
+    align-self: August;
+  }
+}
+
+@media June {
+  .c0 {
+    -webkit-align-self: November;
+    -ms-flex-item-align: November;
+    align-self: November;
+  }
+}
+
+@media May {
+
+}
+
+@media April {
+
+}
+
+@media January {
+
+}
+
+@media April {
+
+}
+
+@media June {
+
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-align-self: April;
+  -ms-flex-item-align: April;
+  align-self: April;
+}
+
+@media May {
+
+}
+
+@media April {
+
+}
+
+@media January {
+
+}
+
+@media April {
+
+}
+
+@media June {
+
+}
+
+@media May {
+  .c0 {
+    -webkit-align-self: November;
+    -ms-flex-item-align: November;
+    align-self: November;
+  }
+}
+
+@media April {
+  .c0 {
+    -webkit-align-self: January;
+    -ms-flex-item-align: January;
+    align-self: January;
+  }
+}
+
+@media January {
+  .c0 {
+    -webkit-align-self: December;
+    -ms-flex-item-align: December;
+    align-self: December;
+  }
+}
+
+@media April {
+  .c0 {
+    -webkit-align-self: April;
+    -ms-flex-item-align: April;
+    align-self: April;
+  }
+}
+
+@media June {
+  .c0 {
+    -webkit-align-self: May;
+    -ms-flex-item-align: May;
+    align-self: May;
+  }
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-align-self: April;
+  -ms-flex-item-align: April;
+  align-self: April;
+}
+
+@media May {
+
+}
+
+@media April {
+
+}
+
+@media January {
+
+}
+
+@media April {
+
+}
+
+@media June {
+
+}
+
+@media May {
+  .c0 {
+    -webkit-align-self: November;
+    -ms-flex-item-align: November;
+    align-self: November;
+  }
+}
+
+@media April {
+  .c0 {
+    -webkit-align-self: January;
+    -ms-flex-item-align: January;
+    align-self: January;
+  }
+}
+
+@media January {
+  .c0 {
+    -webkit-align-self: December;
+    -ms-flex-item-align: December;
+    align-self: December;
+  }
+}
+
+@media April {
+  .c0 {
+    -webkit-align-self: April;
+    -ms-flex-item-align: April;
+    align-self: April;
+  }
+}
+
+@media June {
+  .c0 {
+    -webkit-align-self: May;
+    -ms-flex-item-align: May;
+    align-self: May;
+  }
+}
+
+<div
+    className="c0"
+  />,
+]
+`;
+
+exports[`alignSelf renders object [mediaQueries] 1`] = `
 Array [
   @media May {
   .c0 {
@@ -708,6 +1222,23 @@ Array [
 
 <div
     className="c0"
+  />,
+]
+`;
+
+exports[`alignSelf renders undefined 1`] = `
+Array [
+  <div
+    className=""
+  />,
+  <div
+    className=""
+  />,
+  <div
+    className=""
+  />,
+  <div
+    className=""
   />,
 ]
 `;

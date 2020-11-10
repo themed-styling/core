@@ -132,6 +132,199 @@ Array [
 ]
 `;
 
+exports[`gridRowGap renders object [breakpoints + standard] 1`] = `
+Array [
+  .c0 {
+  grid-row-gap: July;
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    grid-row-gap: August;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    grid-row-gap: September;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    grid-row-gap: November;
+  }
+}
+
+@media screen and (min-width:August) {
+  .c0 {
+    grid-row-gap: August;
+  }
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:August) {
+
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  grid-row-gap: July;
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    grid-row-gap: August;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    grid-row-gap: September;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    grid-row-gap: November;
+  }
+}
+
+@media screen and (min-width:August) {
+  .c0 {
+    grid-row-gap: August;
+  }
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:August) {
+
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  grid-row-gap: January;
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:August) {
+
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    grid-row-gap: December;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    grid-row-gap: April;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    grid-row-gap: May;
+  }
+}
+
+@media screen and (min-width:August) {
+  .c0 {
+    grid-row-gap: June;
+  }
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  grid-row-gap: January;
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:August) {
+
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    grid-row-gap: December;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    grid-row-gap: April;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    grid-row-gap: May;
+  }
+}
+
+@media screen and (min-width:August) {
+  .c0 {
+    grid-row-gap: June;
+  }
+}
+
+<div
+    className="c0"
+  />,
+]
+`;
+
 exports[`gridRowGap renders object [breakpoints] 1`] = `
 Array [
   @media screen and (min-width:November) {
@@ -309,7 +502,240 @@ Array [
 ]
 `;
 
-exports[`gridRowGap renders object [breakpoints] 2`] = `
+exports[`gridRowGap renders object [mediaQueries + standart] 1`] = `
+Array [
+  .c0 {
+  grid-row-gap: July;
+}
+
+@media May {
+  .c0 {
+    grid-row-gap: August;
+  }
+}
+
+@media April {
+  .c0 {
+    grid-row-gap: September;
+  }
+}
+
+@media January {
+  .c0 {
+    grid-row-gap: November;
+  }
+}
+
+@media April {
+  .c0 {
+    grid-row-gap: August;
+  }
+}
+
+@media June {
+  .c0 {
+    grid-row-gap: November;
+  }
+}
+
+@media May {
+
+}
+
+@media April {
+
+}
+
+@media January {
+
+}
+
+@media April {
+
+}
+
+@media June {
+
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  grid-row-gap: July;
+}
+
+@media May {
+  .c0 {
+    grid-row-gap: August;
+  }
+}
+
+@media April {
+  .c0 {
+    grid-row-gap: September;
+  }
+}
+
+@media January {
+  .c0 {
+    grid-row-gap: November;
+  }
+}
+
+@media April {
+  .c0 {
+    grid-row-gap: August;
+  }
+}
+
+@media June {
+  .c0 {
+    grid-row-gap: November;
+  }
+}
+
+@media May {
+
+}
+
+@media April {
+
+}
+
+@media January {
+
+}
+
+@media April {
+
+}
+
+@media June {
+
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  grid-row-gap: April;
+}
+
+@media May {
+
+}
+
+@media April {
+
+}
+
+@media January {
+
+}
+
+@media April {
+
+}
+
+@media June {
+
+}
+
+@media May {
+  .c0 {
+    grid-row-gap: November;
+  }
+}
+
+@media April {
+  .c0 {
+    grid-row-gap: January;
+  }
+}
+
+@media January {
+  .c0 {
+    grid-row-gap: December;
+  }
+}
+
+@media April {
+  .c0 {
+    grid-row-gap: April;
+  }
+}
+
+@media June {
+  .c0 {
+    grid-row-gap: May;
+  }
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  grid-row-gap: April;
+}
+
+@media May {
+
+}
+
+@media April {
+
+}
+
+@media January {
+
+}
+
+@media April {
+
+}
+
+@media June {
+
+}
+
+@media May {
+  .c0 {
+    grid-row-gap: November;
+  }
+}
+
+@media April {
+  .c0 {
+    grid-row-gap: January;
+  }
+}
+
+@media January {
+  .c0 {
+    grid-row-gap: December;
+  }
+}
+
+@media April {
+  .c0 {
+    grid-row-gap: April;
+  }
+}
+
+@media June {
+  .c0 {
+    grid-row-gap: May;
+  }
+}
+
+<div
+    className="c0"
+  />,
+]
+`;
+
+exports[`gridRowGap renders object [mediaQueries] 1`] = `
 Array [
   @media May {
   .c0 {
@@ -588,6 +1014,23 @@ Array [
 
 <div
     className="c0"
+  />,
+]
+`;
+
+exports[`gridRowGap renders undefined 1`] = `
+Array [
+  <div
+    className=""
+  />,
+  <div
+    className=""
+  />,
+  <div
+    className=""
+  />,
+  <div
+    className=""
   />,
 ]
 `;

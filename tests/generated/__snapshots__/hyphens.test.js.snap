@@ -180,6 +180,259 @@ Array [
 ]
 `;
 
+exports[`hyphens renders object [breakpoints + standard] 1`] = `
+Array [
+  .c0 {
+  -webkit-hyphens: July;
+  -moz-hyphens: July;
+  -ms-hyphens: July;
+  hyphens: July;
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    -webkit-hyphens: August;
+    -moz-hyphens: August;
+    -ms-hyphens: August;
+    hyphens: August;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    -webkit-hyphens: September;
+    -moz-hyphens: September;
+    -ms-hyphens: September;
+    hyphens: September;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    -webkit-hyphens: November;
+    -moz-hyphens: November;
+    -ms-hyphens: November;
+    hyphens: November;
+  }
+}
+
+@media screen and (min-width:August) {
+  .c0 {
+    -webkit-hyphens: August;
+    -moz-hyphens: August;
+    -ms-hyphens: August;
+    hyphens: August;
+  }
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:August) {
+
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-hyphens: July;
+  -moz-hyphens: July;
+  -ms-hyphens: July;
+  hyphens: July;
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    -webkit-hyphens: August;
+    -moz-hyphens: August;
+    -ms-hyphens: August;
+    hyphens: August;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    -webkit-hyphens: September;
+    -moz-hyphens: September;
+    -ms-hyphens: September;
+    hyphens: September;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    -webkit-hyphens: November;
+    -moz-hyphens: November;
+    -ms-hyphens: November;
+    hyphens: November;
+  }
+}
+
+@media screen and (min-width:August) {
+  .c0 {
+    -webkit-hyphens: August;
+    -moz-hyphens: August;
+    -ms-hyphens: August;
+    hyphens: August;
+  }
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:August) {
+
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-hyphens: January;
+  -moz-hyphens: January;
+  -ms-hyphens: January;
+  hyphens: January;
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:August) {
+
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    -webkit-hyphens: December;
+    -moz-hyphens: December;
+    -ms-hyphens: December;
+    hyphens: December;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    -webkit-hyphens: April;
+    -moz-hyphens: April;
+    -ms-hyphens: April;
+    hyphens: April;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    -webkit-hyphens: May;
+    -moz-hyphens: May;
+    -ms-hyphens: May;
+    hyphens: May;
+  }
+}
+
+@media screen and (min-width:August) {
+  .c0 {
+    -webkit-hyphens: June;
+    -moz-hyphens: June;
+    -ms-hyphens: June;
+    hyphens: June;
+  }
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-hyphens: January;
+  -moz-hyphens: January;
+  -ms-hyphens: January;
+  hyphens: January;
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:August) {
+
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    -webkit-hyphens: December;
+    -moz-hyphens: December;
+    -ms-hyphens: December;
+    hyphens: December;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    -webkit-hyphens: April;
+    -moz-hyphens: April;
+    -ms-hyphens: April;
+    hyphens: April;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    -webkit-hyphens: May;
+    -moz-hyphens: May;
+    -ms-hyphens: May;
+    hyphens: May;
+  }
+}
+
+@media screen and (min-width:August) {
+  .c0 {
+    -webkit-hyphens: June;
+    -moz-hyphens: June;
+    -ms-hyphens: June;
+    hyphens: June;
+  }
+}
+
+<div
+    className="c0"
+  />,
+]
+`;
+
 exports[`hyphens renders object [breakpoints] 1`] = `
 Array [
   @media screen and (min-width:November) {
@@ -405,7 +658,312 @@ Array [
 ]
 `;
 
-exports[`hyphens renders object [breakpoints] 2`] = `
+exports[`hyphens renders object [mediaQueries + standart] 1`] = `
+Array [
+  .c0 {
+  -webkit-hyphens: July;
+  -moz-hyphens: July;
+  -ms-hyphens: July;
+  hyphens: July;
+}
+
+@media May {
+  .c0 {
+    -webkit-hyphens: August;
+    -moz-hyphens: August;
+    -ms-hyphens: August;
+    hyphens: August;
+  }
+}
+
+@media April {
+  .c0 {
+    -webkit-hyphens: September;
+    -moz-hyphens: September;
+    -ms-hyphens: September;
+    hyphens: September;
+  }
+}
+
+@media January {
+  .c0 {
+    -webkit-hyphens: November;
+    -moz-hyphens: November;
+    -ms-hyphens: November;
+    hyphens: November;
+  }
+}
+
+@media April {
+  .c0 {
+    -webkit-hyphens: August;
+    -moz-hyphens: August;
+    -ms-hyphens: August;
+    hyphens: August;
+  }
+}
+
+@media June {
+  .c0 {
+    -webkit-hyphens: November;
+    -moz-hyphens: November;
+    -ms-hyphens: November;
+    hyphens: November;
+  }
+}
+
+@media May {
+
+}
+
+@media April {
+
+}
+
+@media January {
+
+}
+
+@media April {
+
+}
+
+@media June {
+
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-hyphens: July;
+  -moz-hyphens: July;
+  -ms-hyphens: July;
+  hyphens: July;
+}
+
+@media May {
+  .c0 {
+    -webkit-hyphens: August;
+    -moz-hyphens: August;
+    -ms-hyphens: August;
+    hyphens: August;
+  }
+}
+
+@media April {
+  .c0 {
+    -webkit-hyphens: September;
+    -moz-hyphens: September;
+    -ms-hyphens: September;
+    hyphens: September;
+  }
+}
+
+@media January {
+  .c0 {
+    -webkit-hyphens: November;
+    -moz-hyphens: November;
+    -ms-hyphens: November;
+    hyphens: November;
+  }
+}
+
+@media April {
+  .c0 {
+    -webkit-hyphens: August;
+    -moz-hyphens: August;
+    -ms-hyphens: August;
+    hyphens: August;
+  }
+}
+
+@media June {
+  .c0 {
+    -webkit-hyphens: November;
+    -moz-hyphens: November;
+    -ms-hyphens: November;
+    hyphens: November;
+  }
+}
+
+@media May {
+
+}
+
+@media April {
+
+}
+
+@media January {
+
+}
+
+@media April {
+
+}
+
+@media June {
+
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-hyphens: April;
+  -moz-hyphens: April;
+  -ms-hyphens: April;
+  hyphens: April;
+}
+
+@media May {
+
+}
+
+@media April {
+
+}
+
+@media January {
+
+}
+
+@media April {
+
+}
+
+@media June {
+
+}
+
+@media May {
+  .c0 {
+    -webkit-hyphens: November;
+    -moz-hyphens: November;
+    -ms-hyphens: November;
+    hyphens: November;
+  }
+}
+
+@media April {
+  .c0 {
+    -webkit-hyphens: January;
+    -moz-hyphens: January;
+    -ms-hyphens: January;
+    hyphens: January;
+  }
+}
+
+@media January {
+  .c0 {
+    -webkit-hyphens: December;
+    -moz-hyphens: December;
+    -ms-hyphens: December;
+    hyphens: December;
+  }
+}
+
+@media April {
+  .c0 {
+    -webkit-hyphens: April;
+    -moz-hyphens: April;
+    -ms-hyphens: April;
+    hyphens: April;
+  }
+}
+
+@media June {
+  .c0 {
+    -webkit-hyphens: May;
+    -moz-hyphens: May;
+    -ms-hyphens: May;
+    hyphens: May;
+  }
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-hyphens: April;
+  -moz-hyphens: April;
+  -ms-hyphens: April;
+  hyphens: April;
+}
+
+@media May {
+
+}
+
+@media April {
+
+}
+
+@media January {
+
+}
+
+@media April {
+
+}
+
+@media June {
+
+}
+
+@media May {
+  .c0 {
+    -webkit-hyphens: November;
+    -moz-hyphens: November;
+    -ms-hyphens: November;
+    hyphens: November;
+  }
+}
+
+@media April {
+  .c0 {
+    -webkit-hyphens: January;
+    -moz-hyphens: January;
+    -ms-hyphens: January;
+    hyphens: January;
+  }
+}
+
+@media January {
+  .c0 {
+    -webkit-hyphens: December;
+    -moz-hyphens: December;
+    -ms-hyphens: December;
+    hyphens: December;
+  }
+}
+
+@media April {
+  .c0 {
+    -webkit-hyphens: April;
+    -moz-hyphens: April;
+    -ms-hyphens: April;
+    hyphens: April;
+  }
+}
+
+@media June {
+  .c0 {
+    -webkit-hyphens: May;
+    -moz-hyphens: May;
+    -ms-hyphens: May;
+    hyphens: May;
+  }
+}
+
+<div
+    className="c0"
+  />,
+]
+`;
+
+exports[`hyphens renders object [mediaQueries] 1`] = `
 Array [
   @media May {
   .c0 {
@@ -768,6 +1326,23 @@ Array [
 
 <div
     className="c0"
+  />,
+]
+`;
+
+exports[`hyphens renders undefined 1`] = `
+Array [
+  <div
+    className=""
+  />,
+  <div
+    className=""
+  />,
+  <div
+    className=""
+  />,
+  <div
+    className=""
   />,
 ]
 `;

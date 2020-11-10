@@ -164,6 +164,239 @@ Array [
 ]
 `;
 
+exports[`perspective renders object [breakpoints + standard] 1`] = `
+Array [
+  .c0 {
+  -webkit-transform: perspective(July);
+  -ms-transform: perspective(July);
+  transform: perspective(July);
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    -webkit-transform: perspective(August);
+    -ms-transform: perspective(August);
+    transform: perspective(August);
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    -webkit-transform: perspective(September);
+    -ms-transform: perspective(September);
+    transform: perspective(September);
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    -webkit-transform: perspective(November);
+    -ms-transform: perspective(November);
+    transform: perspective(November);
+  }
+}
+
+@media screen and (min-width:August) {
+  .c0 {
+    -webkit-transform: perspective(August);
+    -ms-transform: perspective(August);
+    transform: perspective(August);
+  }
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:August) {
+
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-transform: perspective(July);
+  -ms-transform: perspective(July);
+  transform: perspective(July);
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    -webkit-transform: perspective(August);
+    -ms-transform: perspective(August);
+    transform: perspective(August);
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    -webkit-transform: perspective(September);
+    -ms-transform: perspective(September);
+    transform: perspective(September);
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    -webkit-transform: perspective(November);
+    -ms-transform: perspective(November);
+    transform: perspective(November);
+  }
+}
+
+@media screen and (min-width:August) {
+  .c0 {
+    -webkit-transform: perspective(August);
+    -ms-transform: perspective(August);
+    transform: perspective(August);
+  }
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:August) {
+
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-transform: perspective(January);
+  -ms-transform: perspective(January);
+  transform: perspective(January);
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:August) {
+
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    -webkit-transform: perspective(December);
+    -ms-transform: perspective(December);
+    transform: perspective(December);
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    -webkit-transform: perspective(April);
+    -ms-transform: perspective(April);
+    transform: perspective(April);
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    -webkit-transform: perspective(May);
+    -ms-transform: perspective(May);
+    transform: perspective(May);
+  }
+}
+
+@media screen and (min-width:August) {
+  .c0 {
+    -webkit-transform: perspective(June);
+    -ms-transform: perspective(June);
+    transform: perspective(June);
+  }
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-transform: perspective(January);
+  -ms-transform: perspective(January);
+  transform: perspective(January);
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:August) {
+
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    -webkit-transform: perspective(December);
+    -ms-transform: perspective(December);
+    transform: perspective(December);
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    -webkit-transform: perspective(April);
+    -ms-transform: perspective(April);
+    transform: perspective(April);
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    -webkit-transform: perspective(May);
+    -ms-transform: perspective(May);
+    transform: perspective(May);
+  }
+}
+
+@media screen and (min-width:August) {
+  .c0 {
+    -webkit-transform: perspective(June);
+    -ms-transform: perspective(June);
+    transform: perspective(June);
+  }
+}
+
+<div
+    className="c0"
+  />,
+]
+`;
+
 exports[`perspective renders object [breakpoints] 1`] = `
 Array [
   @media screen and (min-width:November) {
@@ -373,7 +606,288 @@ Array [
 ]
 `;
 
-exports[`perspective renders object [breakpoints] 2`] = `
+exports[`perspective renders object [mediaQueries + standart] 1`] = `
+Array [
+  .c0 {
+  -webkit-transform: perspective(July);
+  -ms-transform: perspective(July);
+  transform: perspective(July);
+}
+
+@media May {
+  .c0 {
+    -webkit-transform: perspective(August);
+    -ms-transform: perspective(August);
+    transform: perspective(August);
+  }
+}
+
+@media April {
+  .c0 {
+    -webkit-transform: perspective(September);
+    -ms-transform: perspective(September);
+    transform: perspective(September);
+  }
+}
+
+@media January {
+  .c0 {
+    -webkit-transform: perspective(November);
+    -ms-transform: perspective(November);
+    transform: perspective(November);
+  }
+}
+
+@media April {
+  .c0 {
+    -webkit-transform: perspective(August);
+    -ms-transform: perspective(August);
+    transform: perspective(August);
+  }
+}
+
+@media June {
+  .c0 {
+    -webkit-transform: perspective(November);
+    -ms-transform: perspective(November);
+    transform: perspective(November);
+  }
+}
+
+@media May {
+
+}
+
+@media April {
+
+}
+
+@media January {
+
+}
+
+@media April {
+
+}
+
+@media June {
+
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-transform: perspective(July);
+  -ms-transform: perspective(July);
+  transform: perspective(July);
+}
+
+@media May {
+  .c0 {
+    -webkit-transform: perspective(August);
+    -ms-transform: perspective(August);
+    transform: perspective(August);
+  }
+}
+
+@media April {
+  .c0 {
+    -webkit-transform: perspective(September);
+    -ms-transform: perspective(September);
+    transform: perspective(September);
+  }
+}
+
+@media January {
+  .c0 {
+    -webkit-transform: perspective(November);
+    -ms-transform: perspective(November);
+    transform: perspective(November);
+  }
+}
+
+@media April {
+  .c0 {
+    -webkit-transform: perspective(August);
+    -ms-transform: perspective(August);
+    transform: perspective(August);
+  }
+}
+
+@media June {
+  .c0 {
+    -webkit-transform: perspective(November);
+    -ms-transform: perspective(November);
+    transform: perspective(November);
+  }
+}
+
+@media May {
+
+}
+
+@media April {
+
+}
+
+@media January {
+
+}
+
+@media April {
+
+}
+
+@media June {
+
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-transform: perspective(April);
+  -ms-transform: perspective(April);
+  transform: perspective(April);
+}
+
+@media May {
+
+}
+
+@media April {
+
+}
+
+@media January {
+
+}
+
+@media April {
+
+}
+
+@media June {
+
+}
+
+@media May {
+  .c0 {
+    -webkit-transform: perspective(November);
+    -ms-transform: perspective(November);
+    transform: perspective(November);
+  }
+}
+
+@media April {
+  .c0 {
+    -webkit-transform: perspective(January);
+    -ms-transform: perspective(January);
+    transform: perspective(January);
+  }
+}
+
+@media January {
+  .c0 {
+    -webkit-transform: perspective(December);
+    -ms-transform: perspective(December);
+    transform: perspective(December);
+  }
+}
+
+@media April {
+  .c0 {
+    -webkit-transform: perspective(April);
+    -ms-transform: perspective(April);
+    transform: perspective(April);
+  }
+}
+
+@media June {
+  .c0 {
+    -webkit-transform: perspective(May);
+    -ms-transform: perspective(May);
+    transform: perspective(May);
+  }
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-transform: perspective(April);
+  -ms-transform: perspective(April);
+  transform: perspective(April);
+}
+
+@media May {
+
+}
+
+@media April {
+
+}
+
+@media January {
+
+}
+
+@media April {
+
+}
+
+@media June {
+
+}
+
+@media May {
+  .c0 {
+    -webkit-transform: perspective(November);
+    -ms-transform: perspective(November);
+    transform: perspective(November);
+  }
+}
+
+@media April {
+  .c0 {
+    -webkit-transform: perspective(January);
+    -ms-transform: perspective(January);
+    transform: perspective(January);
+  }
+}
+
+@media January {
+  .c0 {
+    -webkit-transform: perspective(December);
+    -ms-transform: perspective(December);
+    transform: perspective(December);
+  }
+}
+
+@media April {
+  .c0 {
+    -webkit-transform: perspective(April);
+    -ms-transform: perspective(April);
+    transform: perspective(April);
+  }
+}
+
+@media June {
+  .c0 {
+    -webkit-transform: perspective(May);
+    -ms-transform: perspective(May);
+    transform: perspective(May);
+  }
+}
+
+<div
+    className="c0"
+  />,
+]
+`;
+
+exports[`perspective renders object [mediaQueries] 1`] = `
 Array [
   @media May {
   .c0 {
@@ -708,6 +1222,23 @@ Array [
 
 <div
     className="c0"
+  />,
+]
+`;
+
+exports[`perspective renders undefined 1`] = `
+Array [
+  <div
+    className=""
+  />,
+  <div
+    className=""
+  />,
+  <div
+    className=""
+  />,
+  <div
+    className=""
   />,
 ]
 `;

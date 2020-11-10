@@ -148,6 +148,219 @@ Array [
 ]
 `;
 
+exports[`textDecorationSkipInset renders object [breakpoints + standard] 1`] = `
+Array [
+  .c0 {
+  -webkit-text-decoration-skip-inset: July;
+  text-decoration-skip-inset: July;
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    -webkit-text-decoration-skip-inset: August;
+    text-decoration-skip-inset: August;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    -webkit-text-decoration-skip-inset: September;
+    text-decoration-skip-inset: September;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    -webkit-text-decoration-skip-inset: November;
+    text-decoration-skip-inset: November;
+  }
+}
+
+@media screen and (min-width:August) {
+  .c0 {
+    -webkit-text-decoration-skip-inset: August;
+    text-decoration-skip-inset: August;
+  }
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:August) {
+
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-text-decoration-skip-inset: July;
+  text-decoration-skip-inset: July;
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    -webkit-text-decoration-skip-inset: August;
+    text-decoration-skip-inset: August;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    -webkit-text-decoration-skip-inset: September;
+    text-decoration-skip-inset: September;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    -webkit-text-decoration-skip-inset: November;
+    text-decoration-skip-inset: November;
+  }
+}
+
+@media screen and (min-width:August) {
+  .c0 {
+    -webkit-text-decoration-skip-inset: August;
+    text-decoration-skip-inset: August;
+  }
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:August) {
+
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-text-decoration-skip-inset: January;
+  text-decoration-skip-inset: January;
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:August) {
+
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    -webkit-text-decoration-skip-inset: December;
+    text-decoration-skip-inset: December;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    -webkit-text-decoration-skip-inset: April;
+    text-decoration-skip-inset: April;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    -webkit-text-decoration-skip-inset: May;
+    text-decoration-skip-inset: May;
+  }
+}
+
+@media screen and (min-width:August) {
+  .c0 {
+    -webkit-text-decoration-skip-inset: June;
+    text-decoration-skip-inset: June;
+  }
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-text-decoration-skip-inset: January;
+  text-decoration-skip-inset: January;
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:August) {
+
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    -webkit-text-decoration-skip-inset: December;
+    text-decoration-skip-inset: December;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    -webkit-text-decoration-skip-inset: April;
+    text-decoration-skip-inset: April;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    -webkit-text-decoration-skip-inset: May;
+    text-decoration-skip-inset: May;
+  }
+}
+
+@media screen and (min-width:August) {
+  .c0 {
+    -webkit-text-decoration-skip-inset: June;
+    text-decoration-skip-inset: June;
+  }
+}
+
+<div
+    className="c0"
+  />,
+]
+`;
+
 exports[`textDecorationSkipInset renders object [breakpoints] 1`] = `
 Array [
   @media screen and (min-width:November) {
@@ -341,7 +554,264 @@ Array [
 ]
 `;
 
-exports[`textDecorationSkipInset renders object [breakpoints] 2`] = `
+exports[`textDecorationSkipInset renders object [mediaQueries + standart] 1`] = `
+Array [
+  .c0 {
+  -webkit-text-decoration-skip-inset: July;
+  text-decoration-skip-inset: July;
+}
+
+@media May {
+  .c0 {
+    -webkit-text-decoration-skip-inset: August;
+    text-decoration-skip-inset: August;
+  }
+}
+
+@media April {
+  .c0 {
+    -webkit-text-decoration-skip-inset: September;
+    text-decoration-skip-inset: September;
+  }
+}
+
+@media January {
+  .c0 {
+    -webkit-text-decoration-skip-inset: November;
+    text-decoration-skip-inset: November;
+  }
+}
+
+@media April {
+  .c0 {
+    -webkit-text-decoration-skip-inset: August;
+    text-decoration-skip-inset: August;
+  }
+}
+
+@media June {
+  .c0 {
+    -webkit-text-decoration-skip-inset: November;
+    text-decoration-skip-inset: November;
+  }
+}
+
+@media May {
+
+}
+
+@media April {
+
+}
+
+@media January {
+
+}
+
+@media April {
+
+}
+
+@media June {
+
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-text-decoration-skip-inset: July;
+  text-decoration-skip-inset: July;
+}
+
+@media May {
+  .c0 {
+    -webkit-text-decoration-skip-inset: August;
+    text-decoration-skip-inset: August;
+  }
+}
+
+@media April {
+  .c0 {
+    -webkit-text-decoration-skip-inset: September;
+    text-decoration-skip-inset: September;
+  }
+}
+
+@media January {
+  .c0 {
+    -webkit-text-decoration-skip-inset: November;
+    text-decoration-skip-inset: November;
+  }
+}
+
+@media April {
+  .c0 {
+    -webkit-text-decoration-skip-inset: August;
+    text-decoration-skip-inset: August;
+  }
+}
+
+@media June {
+  .c0 {
+    -webkit-text-decoration-skip-inset: November;
+    text-decoration-skip-inset: November;
+  }
+}
+
+@media May {
+
+}
+
+@media April {
+
+}
+
+@media January {
+
+}
+
+@media April {
+
+}
+
+@media June {
+
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-text-decoration-skip-inset: April;
+  text-decoration-skip-inset: April;
+}
+
+@media May {
+
+}
+
+@media April {
+
+}
+
+@media January {
+
+}
+
+@media April {
+
+}
+
+@media June {
+
+}
+
+@media May {
+  .c0 {
+    -webkit-text-decoration-skip-inset: November;
+    text-decoration-skip-inset: November;
+  }
+}
+
+@media April {
+  .c0 {
+    -webkit-text-decoration-skip-inset: January;
+    text-decoration-skip-inset: January;
+  }
+}
+
+@media January {
+  .c0 {
+    -webkit-text-decoration-skip-inset: December;
+    text-decoration-skip-inset: December;
+  }
+}
+
+@media April {
+  .c0 {
+    -webkit-text-decoration-skip-inset: April;
+    text-decoration-skip-inset: April;
+  }
+}
+
+@media June {
+  .c0 {
+    -webkit-text-decoration-skip-inset: May;
+    text-decoration-skip-inset: May;
+  }
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-text-decoration-skip-inset: April;
+  text-decoration-skip-inset: April;
+}
+
+@media May {
+
+}
+
+@media April {
+
+}
+
+@media January {
+
+}
+
+@media April {
+
+}
+
+@media June {
+
+}
+
+@media May {
+  .c0 {
+    -webkit-text-decoration-skip-inset: November;
+    text-decoration-skip-inset: November;
+  }
+}
+
+@media April {
+  .c0 {
+    -webkit-text-decoration-skip-inset: January;
+    text-decoration-skip-inset: January;
+  }
+}
+
+@media January {
+  .c0 {
+    -webkit-text-decoration-skip-inset: December;
+    text-decoration-skip-inset: December;
+  }
+}
+
+@media April {
+  .c0 {
+    -webkit-text-decoration-skip-inset: April;
+    text-decoration-skip-inset: April;
+  }
+}
+
+@media June {
+  .c0 {
+    -webkit-text-decoration-skip-inset: May;
+    text-decoration-skip-inset: May;
+  }
+}
+
+<div
+    className="c0"
+  />,
+]
+`;
+
+exports[`textDecorationSkipInset renders object [mediaQueries] 1`] = `
 Array [
   @media May {
   .c0 {
@@ -648,6 +1118,23 @@ Array [
 
 <div
     className="c0"
+  />,
+]
+`;
+
+exports[`textDecorationSkipInset renders undefined 1`] = `
+Array [
+  <div
+    className=""
+  />,
+  <div
+    className=""
+  />,
+  <div
+    className=""
+  />,
+  <div
+    className=""
   />,
 ]
 `;

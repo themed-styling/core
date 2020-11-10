@@ -148,6 +148,219 @@ Array [
 ]
 `;
 
+exports[`dominantBaseline renders object [breakpoints + standard] 1`] = `
+Array [
+  .c0 {
+  -webkit-dominant-baseline: July;
+  dominant-baseline: July;
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    -webkit-dominant-baseline: August;
+    dominant-baseline: August;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    -webkit-dominant-baseline: September;
+    dominant-baseline: September;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    -webkit-dominant-baseline: November;
+    dominant-baseline: November;
+  }
+}
+
+@media screen and (min-width:August) {
+  .c0 {
+    -webkit-dominant-baseline: August;
+    dominant-baseline: August;
+  }
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:August) {
+
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-dominant-baseline: July;
+  dominant-baseline: July;
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    -webkit-dominant-baseline: August;
+    dominant-baseline: August;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    -webkit-dominant-baseline: September;
+    dominant-baseline: September;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    -webkit-dominant-baseline: November;
+    dominant-baseline: November;
+  }
+}
+
+@media screen and (min-width:August) {
+  .c0 {
+    -webkit-dominant-baseline: August;
+    dominant-baseline: August;
+  }
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:August) {
+
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-dominant-baseline: January;
+  dominant-baseline: January;
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:August) {
+
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    -webkit-dominant-baseline: December;
+    dominant-baseline: December;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    -webkit-dominant-baseline: April;
+    dominant-baseline: April;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    -webkit-dominant-baseline: May;
+    dominant-baseline: May;
+  }
+}
+
+@media screen and (min-width:August) {
+  .c0 {
+    -webkit-dominant-baseline: June;
+    dominant-baseline: June;
+  }
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-dominant-baseline: January;
+  dominant-baseline: January;
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:August) {
+
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    -webkit-dominant-baseline: December;
+    dominant-baseline: December;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    -webkit-dominant-baseline: April;
+    dominant-baseline: April;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    -webkit-dominant-baseline: May;
+    dominant-baseline: May;
+  }
+}
+
+@media screen and (min-width:August) {
+  .c0 {
+    -webkit-dominant-baseline: June;
+    dominant-baseline: June;
+  }
+}
+
+<div
+    className="c0"
+  />,
+]
+`;
+
 exports[`dominantBaseline renders object [breakpoints] 1`] = `
 Array [
   @media screen and (min-width:November) {
@@ -341,7 +554,264 @@ Array [
 ]
 `;
 
-exports[`dominantBaseline renders object [breakpoints] 2`] = `
+exports[`dominantBaseline renders object [mediaQueries + standart] 1`] = `
+Array [
+  .c0 {
+  -webkit-dominant-baseline: July;
+  dominant-baseline: July;
+}
+
+@media May {
+  .c0 {
+    -webkit-dominant-baseline: August;
+    dominant-baseline: August;
+  }
+}
+
+@media April {
+  .c0 {
+    -webkit-dominant-baseline: September;
+    dominant-baseline: September;
+  }
+}
+
+@media January {
+  .c0 {
+    -webkit-dominant-baseline: November;
+    dominant-baseline: November;
+  }
+}
+
+@media April {
+  .c0 {
+    -webkit-dominant-baseline: August;
+    dominant-baseline: August;
+  }
+}
+
+@media June {
+  .c0 {
+    -webkit-dominant-baseline: November;
+    dominant-baseline: November;
+  }
+}
+
+@media May {
+
+}
+
+@media April {
+
+}
+
+@media January {
+
+}
+
+@media April {
+
+}
+
+@media June {
+
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-dominant-baseline: July;
+  dominant-baseline: July;
+}
+
+@media May {
+  .c0 {
+    -webkit-dominant-baseline: August;
+    dominant-baseline: August;
+  }
+}
+
+@media April {
+  .c0 {
+    -webkit-dominant-baseline: September;
+    dominant-baseline: September;
+  }
+}
+
+@media January {
+  .c0 {
+    -webkit-dominant-baseline: November;
+    dominant-baseline: November;
+  }
+}
+
+@media April {
+  .c0 {
+    -webkit-dominant-baseline: August;
+    dominant-baseline: August;
+  }
+}
+
+@media June {
+  .c0 {
+    -webkit-dominant-baseline: November;
+    dominant-baseline: November;
+  }
+}
+
+@media May {
+
+}
+
+@media April {
+
+}
+
+@media January {
+
+}
+
+@media April {
+
+}
+
+@media June {
+
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-dominant-baseline: April;
+  dominant-baseline: April;
+}
+
+@media May {
+
+}
+
+@media April {
+
+}
+
+@media January {
+
+}
+
+@media April {
+
+}
+
+@media June {
+
+}
+
+@media May {
+  .c0 {
+    -webkit-dominant-baseline: November;
+    dominant-baseline: November;
+  }
+}
+
+@media April {
+  .c0 {
+    -webkit-dominant-baseline: January;
+    dominant-baseline: January;
+  }
+}
+
+@media January {
+  .c0 {
+    -webkit-dominant-baseline: December;
+    dominant-baseline: December;
+  }
+}
+
+@media April {
+  .c0 {
+    -webkit-dominant-baseline: April;
+    dominant-baseline: April;
+  }
+}
+
+@media June {
+  .c0 {
+    -webkit-dominant-baseline: May;
+    dominant-baseline: May;
+  }
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-dominant-baseline: April;
+  dominant-baseline: April;
+}
+
+@media May {
+
+}
+
+@media April {
+
+}
+
+@media January {
+
+}
+
+@media April {
+
+}
+
+@media June {
+
+}
+
+@media May {
+  .c0 {
+    -webkit-dominant-baseline: November;
+    dominant-baseline: November;
+  }
+}
+
+@media April {
+  .c0 {
+    -webkit-dominant-baseline: January;
+    dominant-baseline: January;
+  }
+}
+
+@media January {
+  .c0 {
+    -webkit-dominant-baseline: December;
+    dominant-baseline: December;
+  }
+}
+
+@media April {
+  .c0 {
+    -webkit-dominant-baseline: April;
+    dominant-baseline: April;
+  }
+}
+
+@media June {
+  .c0 {
+    -webkit-dominant-baseline: May;
+    dominant-baseline: May;
+  }
+}
+
+<div
+    className="c0"
+  />,
+]
+`;
+
+exports[`dominantBaseline renders object [mediaQueries] 1`] = `
 Array [
   @media May {
   .c0 {
@@ -648,6 +1118,23 @@ Array [
 
 <div
     className="c0"
+  />,
+]
+`;
+
+exports[`dominantBaseline renders undefined 1`] = `
+Array [
+  <div
+    className=""
+  />,
+  <div
+    className=""
+  />,
+  <div
+    className=""
+  />,
+  <div
+    className=""
   />,
 ]
 `;

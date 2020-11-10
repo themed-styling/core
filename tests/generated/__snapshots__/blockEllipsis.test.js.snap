@@ -164,6 +164,239 @@ Array [
 ]
 `;
 
+exports[`blockEllipsis renders object [breakpoints + standard] 1`] = `
+Array [
+  .c0 {
+  -webkit-block-ellipsis: July;
+  -ms-flex-block-ellipsis: July;
+  block-ellipsis: July;
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    -webkit-block-ellipsis: August;
+    -ms-flex-block-ellipsis: August;
+    block-ellipsis: August;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    -webkit-block-ellipsis: September;
+    -ms-flex-block-ellipsis: September;
+    block-ellipsis: September;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    -webkit-block-ellipsis: November;
+    -ms-flex-block-ellipsis: November;
+    block-ellipsis: November;
+  }
+}
+
+@media screen and (min-width:August) {
+  .c0 {
+    -webkit-block-ellipsis: August;
+    -ms-flex-block-ellipsis: August;
+    block-ellipsis: August;
+  }
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:August) {
+
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-block-ellipsis: July;
+  -ms-flex-block-ellipsis: July;
+  block-ellipsis: July;
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    -webkit-block-ellipsis: August;
+    -ms-flex-block-ellipsis: August;
+    block-ellipsis: August;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    -webkit-block-ellipsis: September;
+    -ms-flex-block-ellipsis: September;
+    block-ellipsis: September;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    -webkit-block-ellipsis: November;
+    -ms-flex-block-ellipsis: November;
+    block-ellipsis: November;
+  }
+}
+
+@media screen and (min-width:August) {
+  .c0 {
+    -webkit-block-ellipsis: August;
+    -ms-flex-block-ellipsis: August;
+    block-ellipsis: August;
+  }
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:August) {
+
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-block-ellipsis: January;
+  -ms-flex-block-ellipsis: January;
+  block-ellipsis: January;
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:August) {
+
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    -webkit-block-ellipsis: December;
+    -ms-flex-block-ellipsis: December;
+    block-ellipsis: December;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    -webkit-block-ellipsis: April;
+    -ms-flex-block-ellipsis: April;
+    block-ellipsis: April;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    -webkit-block-ellipsis: May;
+    -ms-flex-block-ellipsis: May;
+    block-ellipsis: May;
+  }
+}
+
+@media screen and (min-width:August) {
+  .c0 {
+    -webkit-block-ellipsis: June;
+    -ms-flex-block-ellipsis: June;
+    block-ellipsis: June;
+  }
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-block-ellipsis: January;
+  -ms-flex-block-ellipsis: January;
+  block-ellipsis: January;
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:August) {
+
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    -webkit-block-ellipsis: December;
+    -ms-flex-block-ellipsis: December;
+    block-ellipsis: December;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    -webkit-block-ellipsis: April;
+    -ms-flex-block-ellipsis: April;
+    block-ellipsis: April;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    -webkit-block-ellipsis: May;
+    -ms-flex-block-ellipsis: May;
+    block-ellipsis: May;
+  }
+}
+
+@media screen and (min-width:August) {
+  .c0 {
+    -webkit-block-ellipsis: June;
+    -ms-flex-block-ellipsis: June;
+    block-ellipsis: June;
+  }
+}
+
+<div
+    className="c0"
+  />,
+]
+`;
+
 exports[`blockEllipsis renders object [breakpoints] 1`] = `
 Array [
   @media screen and (min-width:November) {
@@ -373,7 +606,288 @@ Array [
 ]
 `;
 
-exports[`blockEllipsis renders object [breakpoints] 2`] = `
+exports[`blockEllipsis renders object [mediaQueries + standart] 1`] = `
+Array [
+  .c0 {
+  -webkit-block-ellipsis: July;
+  -ms-flex-block-ellipsis: July;
+  block-ellipsis: July;
+}
+
+@media May {
+  .c0 {
+    -webkit-block-ellipsis: August;
+    -ms-flex-block-ellipsis: August;
+    block-ellipsis: August;
+  }
+}
+
+@media April {
+  .c0 {
+    -webkit-block-ellipsis: September;
+    -ms-flex-block-ellipsis: September;
+    block-ellipsis: September;
+  }
+}
+
+@media January {
+  .c0 {
+    -webkit-block-ellipsis: November;
+    -ms-flex-block-ellipsis: November;
+    block-ellipsis: November;
+  }
+}
+
+@media April {
+  .c0 {
+    -webkit-block-ellipsis: August;
+    -ms-flex-block-ellipsis: August;
+    block-ellipsis: August;
+  }
+}
+
+@media June {
+  .c0 {
+    -webkit-block-ellipsis: November;
+    -ms-flex-block-ellipsis: November;
+    block-ellipsis: November;
+  }
+}
+
+@media May {
+
+}
+
+@media April {
+
+}
+
+@media January {
+
+}
+
+@media April {
+
+}
+
+@media June {
+
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-block-ellipsis: July;
+  -ms-flex-block-ellipsis: July;
+  block-ellipsis: July;
+}
+
+@media May {
+  .c0 {
+    -webkit-block-ellipsis: August;
+    -ms-flex-block-ellipsis: August;
+    block-ellipsis: August;
+  }
+}
+
+@media April {
+  .c0 {
+    -webkit-block-ellipsis: September;
+    -ms-flex-block-ellipsis: September;
+    block-ellipsis: September;
+  }
+}
+
+@media January {
+  .c0 {
+    -webkit-block-ellipsis: November;
+    -ms-flex-block-ellipsis: November;
+    block-ellipsis: November;
+  }
+}
+
+@media April {
+  .c0 {
+    -webkit-block-ellipsis: August;
+    -ms-flex-block-ellipsis: August;
+    block-ellipsis: August;
+  }
+}
+
+@media June {
+  .c0 {
+    -webkit-block-ellipsis: November;
+    -ms-flex-block-ellipsis: November;
+    block-ellipsis: November;
+  }
+}
+
+@media May {
+
+}
+
+@media April {
+
+}
+
+@media January {
+
+}
+
+@media April {
+
+}
+
+@media June {
+
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-block-ellipsis: April;
+  -ms-flex-block-ellipsis: April;
+  block-ellipsis: April;
+}
+
+@media May {
+
+}
+
+@media April {
+
+}
+
+@media January {
+
+}
+
+@media April {
+
+}
+
+@media June {
+
+}
+
+@media May {
+  .c0 {
+    -webkit-block-ellipsis: November;
+    -ms-flex-block-ellipsis: November;
+    block-ellipsis: November;
+  }
+}
+
+@media April {
+  .c0 {
+    -webkit-block-ellipsis: January;
+    -ms-flex-block-ellipsis: January;
+    block-ellipsis: January;
+  }
+}
+
+@media January {
+  .c0 {
+    -webkit-block-ellipsis: December;
+    -ms-flex-block-ellipsis: December;
+    block-ellipsis: December;
+  }
+}
+
+@media April {
+  .c0 {
+    -webkit-block-ellipsis: April;
+    -ms-flex-block-ellipsis: April;
+    block-ellipsis: April;
+  }
+}
+
+@media June {
+  .c0 {
+    -webkit-block-ellipsis: May;
+    -ms-flex-block-ellipsis: May;
+    block-ellipsis: May;
+  }
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-block-ellipsis: April;
+  -ms-flex-block-ellipsis: April;
+  block-ellipsis: April;
+}
+
+@media May {
+
+}
+
+@media April {
+
+}
+
+@media January {
+
+}
+
+@media April {
+
+}
+
+@media June {
+
+}
+
+@media May {
+  .c0 {
+    -webkit-block-ellipsis: November;
+    -ms-flex-block-ellipsis: November;
+    block-ellipsis: November;
+  }
+}
+
+@media April {
+  .c0 {
+    -webkit-block-ellipsis: January;
+    -ms-flex-block-ellipsis: January;
+    block-ellipsis: January;
+  }
+}
+
+@media January {
+  .c0 {
+    -webkit-block-ellipsis: December;
+    -ms-flex-block-ellipsis: December;
+    block-ellipsis: December;
+  }
+}
+
+@media April {
+  .c0 {
+    -webkit-block-ellipsis: April;
+    -ms-flex-block-ellipsis: April;
+    block-ellipsis: April;
+  }
+}
+
+@media June {
+  .c0 {
+    -webkit-block-ellipsis: May;
+    -ms-flex-block-ellipsis: May;
+    block-ellipsis: May;
+  }
+}
+
+<div
+    className="c0"
+  />,
+]
+`;
+
+exports[`blockEllipsis renders object [mediaQueries] 1`] = `
 Array [
   @media May {
   .c0 {
@@ -708,6 +1222,23 @@ Array [
 
 <div
     className="c0"
+  />,
+]
+`;
+
+exports[`blockEllipsis renders undefined 1`] = `
+Array [
+  <div
+    className=""
+  />,
+  <div
+    className=""
+  />,
+  <div
+    className=""
+  />,
+  <div
+    className=""
   />,
 ]
 `;

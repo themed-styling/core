@@ -164,6 +164,239 @@ Array [
 ]
 `;
 
+exports[`order renders object [breakpoints + standard] 1`] = `
+Array [
+  .c0 {
+  -webkit-order: July;
+  -ms-flex-order: July;
+  order: July;
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    -webkit-order: August;
+    -ms-flex-order: August;
+    order: August;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    -webkit-order: September;
+    -ms-flex-order: September;
+    order: September;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    -webkit-order: November;
+    -ms-flex-order: November;
+    order: November;
+  }
+}
+
+@media screen and (min-width:August) {
+  .c0 {
+    -webkit-order: August;
+    -ms-flex-order: August;
+    order: August;
+  }
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:August) {
+
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-order: July;
+  -ms-flex-order: July;
+  order: July;
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    -webkit-order: August;
+    -ms-flex-order: August;
+    order: August;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    -webkit-order: September;
+    -ms-flex-order: September;
+    order: September;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    -webkit-order: November;
+    -ms-flex-order: November;
+    order: November;
+  }
+}
+
+@media screen and (min-width:August) {
+  .c0 {
+    -webkit-order: August;
+    -ms-flex-order: August;
+    order: August;
+  }
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:August) {
+
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-order: January;
+  -ms-flex-order: January;
+  order: January;
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:August) {
+
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    -webkit-order: December;
+    -ms-flex-order: December;
+    order: December;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    -webkit-order: April;
+    -ms-flex-order: April;
+    order: April;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    -webkit-order: May;
+    -ms-flex-order: May;
+    order: May;
+  }
+}
+
+@media screen and (min-width:August) {
+  .c0 {
+    -webkit-order: June;
+    -ms-flex-order: June;
+    order: June;
+  }
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-order: January;
+  -ms-flex-order: January;
+  order: January;
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:August) {
+
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    -webkit-order: December;
+    -ms-flex-order: December;
+    order: December;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    -webkit-order: April;
+    -ms-flex-order: April;
+    order: April;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    -webkit-order: May;
+    -ms-flex-order: May;
+    order: May;
+  }
+}
+
+@media screen and (min-width:August) {
+  .c0 {
+    -webkit-order: June;
+    -ms-flex-order: June;
+    order: June;
+  }
+}
+
+<div
+    className="c0"
+  />,
+]
+`;
+
 exports[`order renders object [breakpoints] 1`] = `
 Array [
   @media screen and (min-width:November) {
@@ -373,7 +606,288 @@ Array [
 ]
 `;
 
-exports[`order renders object [breakpoints] 2`] = `
+exports[`order renders object [mediaQueries + standart] 1`] = `
+Array [
+  .c0 {
+  -webkit-order: July;
+  -ms-flex-order: July;
+  order: July;
+}
+
+@media May {
+  .c0 {
+    -webkit-order: August;
+    -ms-flex-order: August;
+    order: August;
+  }
+}
+
+@media April {
+  .c0 {
+    -webkit-order: September;
+    -ms-flex-order: September;
+    order: September;
+  }
+}
+
+@media January {
+  .c0 {
+    -webkit-order: November;
+    -ms-flex-order: November;
+    order: November;
+  }
+}
+
+@media April {
+  .c0 {
+    -webkit-order: August;
+    -ms-flex-order: August;
+    order: August;
+  }
+}
+
+@media June {
+  .c0 {
+    -webkit-order: November;
+    -ms-flex-order: November;
+    order: November;
+  }
+}
+
+@media May {
+
+}
+
+@media April {
+
+}
+
+@media January {
+
+}
+
+@media April {
+
+}
+
+@media June {
+
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-order: July;
+  -ms-flex-order: July;
+  order: July;
+}
+
+@media May {
+  .c0 {
+    -webkit-order: August;
+    -ms-flex-order: August;
+    order: August;
+  }
+}
+
+@media April {
+  .c0 {
+    -webkit-order: September;
+    -ms-flex-order: September;
+    order: September;
+  }
+}
+
+@media January {
+  .c0 {
+    -webkit-order: November;
+    -ms-flex-order: November;
+    order: November;
+  }
+}
+
+@media April {
+  .c0 {
+    -webkit-order: August;
+    -ms-flex-order: August;
+    order: August;
+  }
+}
+
+@media June {
+  .c0 {
+    -webkit-order: November;
+    -ms-flex-order: November;
+    order: November;
+  }
+}
+
+@media May {
+
+}
+
+@media April {
+
+}
+
+@media January {
+
+}
+
+@media April {
+
+}
+
+@media June {
+
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-order: April;
+  -ms-flex-order: April;
+  order: April;
+}
+
+@media May {
+
+}
+
+@media April {
+
+}
+
+@media January {
+
+}
+
+@media April {
+
+}
+
+@media June {
+
+}
+
+@media May {
+  .c0 {
+    -webkit-order: November;
+    -ms-flex-order: November;
+    order: November;
+  }
+}
+
+@media April {
+  .c0 {
+    -webkit-order: January;
+    -ms-flex-order: January;
+    order: January;
+  }
+}
+
+@media January {
+  .c0 {
+    -webkit-order: December;
+    -ms-flex-order: December;
+    order: December;
+  }
+}
+
+@media April {
+  .c0 {
+    -webkit-order: April;
+    -ms-flex-order: April;
+    order: April;
+  }
+}
+
+@media June {
+  .c0 {
+    -webkit-order: May;
+    -ms-flex-order: May;
+    order: May;
+  }
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-order: April;
+  -ms-flex-order: April;
+  order: April;
+}
+
+@media May {
+
+}
+
+@media April {
+
+}
+
+@media January {
+
+}
+
+@media April {
+
+}
+
+@media June {
+
+}
+
+@media May {
+  .c0 {
+    -webkit-order: November;
+    -ms-flex-order: November;
+    order: November;
+  }
+}
+
+@media April {
+  .c0 {
+    -webkit-order: January;
+    -ms-flex-order: January;
+    order: January;
+  }
+}
+
+@media January {
+  .c0 {
+    -webkit-order: December;
+    -ms-flex-order: December;
+    order: December;
+  }
+}
+
+@media April {
+  .c0 {
+    -webkit-order: April;
+    -ms-flex-order: April;
+    order: April;
+  }
+}
+
+@media June {
+  .c0 {
+    -webkit-order: May;
+    -ms-flex-order: May;
+    order: May;
+  }
+}
+
+<div
+    className="c0"
+  />,
+]
+`;
+
+exports[`order renders object [mediaQueries] 1`] = `
 Array [
   @media May {
   .c0 {
@@ -708,6 +1222,23 @@ Array [
 
 <div
     className="c0"
+  />,
+]
+`;
+
+exports[`order renders undefined 1`] = `
+Array [
+  <div
+    className=""
+  />,
+  <div
+    className=""
+  />,
+  <div
+    className=""
+  />,
+  <div
+    className=""
   />,
 ]
 `;

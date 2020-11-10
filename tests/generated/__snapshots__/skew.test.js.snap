@@ -164,6 +164,239 @@ Array [
 ]
 `;
 
+exports[`skew renders object [breakpoints + standard] 1`] = `
+Array [
+  .c0 {
+  -webkit-transform: skew(July);
+  -ms-transform: skew(July);
+  transform: skew(July);
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    -webkit-transform: skew(August);
+    -ms-transform: skew(August);
+    transform: skew(August);
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    -webkit-transform: skew(September);
+    -ms-transform: skew(September);
+    transform: skew(September);
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    -webkit-transform: skew(November);
+    -ms-transform: skew(November);
+    transform: skew(November);
+  }
+}
+
+@media screen and (min-width:August) {
+  .c0 {
+    -webkit-transform: skew(August);
+    -ms-transform: skew(August);
+    transform: skew(August);
+  }
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:August) {
+
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-transform: skew(July);
+  -ms-transform: skew(July);
+  transform: skew(July);
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    -webkit-transform: skew(August);
+    -ms-transform: skew(August);
+    transform: skew(August);
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    -webkit-transform: skew(September);
+    -ms-transform: skew(September);
+    transform: skew(September);
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    -webkit-transform: skew(November);
+    -ms-transform: skew(November);
+    transform: skew(November);
+  }
+}
+
+@media screen and (min-width:August) {
+  .c0 {
+    -webkit-transform: skew(August);
+    -ms-transform: skew(August);
+    transform: skew(August);
+  }
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:August) {
+
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-transform: skew(January);
+  -ms-transform: skew(January);
+  transform: skew(January);
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:August) {
+
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    -webkit-transform: skew(December);
+    -ms-transform: skew(December);
+    transform: skew(December);
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    -webkit-transform: skew(April);
+    -ms-transform: skew(April);
+    transform: skew(April);
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    -webkit-transform: skew(May);
+    -ms-transform: skew(May);
+    transform: skew(May);
+  }
+}
+
+@media screen and (min-width:August) {
+  .c0 {
+    -webkit-transform: skew(June);
+    -ms-transform: skew(June);
+    transform: skew(June);
+  }
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-transform: skew(January);
+  -ms-transform: skew(January);
+  transform: skew(January);
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:August) {
+
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    -webkit-transform: skew(December);
+    -ms-transform: skew(December);
+    transform: skew(December);
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    -webkit-transform: skew(April);
+    -ms-transform: skew(April);
+    transform: skew(April);
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    -webkit-transform: skew(May);
+    -ms-transform: skew(May);
+    transform: skew(May);
+  }
+}
+
+@media screen and (min-width:August) {
+  .c0 {
+    -webkit-transform: skew(June);
+    -ms-transform: skew(June);
+    transform: skew(June);
+  }
+}
+
+<div
+    className="c0"
+  />,
+]
+`;
+
 exports[`skew renders object [breakpoints] 1`] = `
 Array [
   @media screen and (min-width:November) {
@@ -373,7 +606,288 @@ Array [
 ]
 `;
 
-exports[`skew renders object [breakpoints] 2`] = `
+exports[`skew renders object [mediaQueries + standart] 1`] = `
+Array [
+  .c0 {
+  -webkit-transform: skew(July);
+  -ms-transform: skew(July);
+  transform: skew(July);
+}
+
+@media May {
+  .c0 {
+    -webkit-transform: skew(August);
+    -ms-transform: skew(August);
+    transform: skew(August);
+  }
+}
+
+@media April {
+  .c0 {
+    -webkit-transform: skew(September);
+    -ms-transform: skew(September);
+    transform: skew(September);
+  }
+}
+
+@media January {
+  .c0 {
+    -webkit-transform: skew(November);
+    -ms-transform: skew(November);
+    transform: skew(November);
+  }
+}
+
+@media April {
+  .c0 {
+    -webkit-transform: skew(August);
+    -ms-transform: skew(August);
+    transform: skew(August);
+  }
+}
+
+@media June {
+  .c0 {
+    -webkit-transform: skew(November);
+    -ms-transform: skew(November);
+    transform: skew(November);
+  }
+}
+
+@media May {
+
+}
+
+@media April {
+
+}
+
+@media January {
+
+}
+
+@media April {
+
+}
+
+@media June {
+
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-transform: skew(July);
+  -ms-transform: skew(July);
+  transform: skew(July);
+}
+
+@media May {
+  .c0 {
+    -webkit-transform: skew(August);
+    -ms-transform: skew(August);
+    transform: skew(August);
+  }
+}
+
+@media April {
+  .c0 {
+    -webkit-transform: skew(September);
+    -ms-transform: skew(September);
+    transform: skew(September);
+  }
+}
+
+@media January {
+  .c0 {
+    -webkit-transform: skew(November);
+    -ms-transform: skew(November);
+    transform: skew(November);
+  }
+}
+
+@media April {
+  .c0 {
+    -webkit-transform: skew(August);
+    -ms-transform: skew(August);
+    transform: skew(August);
+  }
+}
+
+@media June {
+  .c0 {
+    -webkit-transform: skew(November);
+    -ms-transform: skew(November);
+    transform: skew(November);
+  }
+}
+
+@media May {
+
+}
+
+@media April {
+
+}
+
+@media January {
+
+}
+
+@media April {
+
+}
+
+@media June {
+
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-transform: skew(April);
+  -ms-transform: skew(April);
+  transform: skew(April);
+}
+
+@media May {
+
+}
+
+@media April {
+
+}
+
+@media January {
+
+}
+
+@media April {
+
+}
+
+@media June {
+
+}
+
+@media May {
+  .c0 {
+    -webkit-transform: skew(November);
+    -ms-transform: skew(November);
+    transform: skew(November);
+  }
+}
+
+@media April {
+  .c0 {
+    -webkit-transform: skew(January);
+    -ms-transform: skew(January);
+    transform: skew(January);
+  }
+}
+
+@media January {
+  .c0 {
+    -webkit-transform: skew(December);
+    -ms-transform: skew(December);
+    transform: skew(December);
+  }
+}
+
+@media April {
+  .c0 {
+    -webkit-transform: skew(April);
+    -ms-transform: skew(April);
+    transform: skew(April);
+  }
+}
+
+@media June {
+  .c0 {
+    -webkit-transform: skew(May);
+    -ms-transform: skew(May);
+    transform: skew(May);
+  }
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-transform: skew(April);
+  -ms-transform: skew(April);
+  transform: skew(April);
+}
+
+@media May {
+
+}
+
+@media April {
+
+}
+
+@media January {
+
+}
+
+@media April {
+
+}
+
+@media June {
+
+}
+
+@media May {
+  .c0 {
+    -webkit-transform: skew(November);
+    -ms-transform: skew(November);
+    transform: skew(November);
+  }
+}
+
+@media April {
+  .c0 {
+    -webkit-transform: skew(January);
+    -ms-transform: skew(January);
+    transform: skew(January);
+  }
+}
+
+@media January {
+  .c0 {
+    -webkit-transform: skew(December);
+    -ms-transform: skew(December);
+    transform: skew(December);
+  }
+}
+
+@media April {
+  .c0 {
+    -webkit-transform: skew(April);
+    -ms-transform: skew(April);
+    transform: skew(April);
+  }
+}
+
+@media June {
+  .c0 {
+    -webkit-transform: skew(May);
+    -ms-transform: skew(May);
+    transform: skew(May);
+  }
+}
+
+<div
+    className="c0"
+  />,
+]
+`;
+
+exports[`skew renders object [mediaQueries] 1`] = `
 Array [
   @media May {
   .c0 {
@@ -708,6 +1222,23 @@ Array [
 
 <div
     className="c0"
+  />,
+]
+`;
+
+exports[`skew renders undefined 1`] = `
+Array [
+  <div
+    className=""
+  />,
+  <div
+    className=""
+  />,
+  <div
+    className=""
+  />,
+  <div
+    className=""
   />,
 ]
 `;

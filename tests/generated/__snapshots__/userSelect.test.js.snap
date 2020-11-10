@@ -180,6 +180,259 @@ Array [
 ]
 `;
 
+exports[`userSelect renders object [breakpoints + standard] 1`] = `
+Array [
+  .c0 {
+  -webkit-user-select: July;
+  -moz-user-select: July;
+  -ms-user-select: July;
+  user-select: July;
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    -webkit-user-select: August;
+    -moz-user-select: August;
+    -ms-user-select: August;
+    user-select: August;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    -webkit-user-select: September;
+    -moz-user-select: September;
+    -ms-user-select: September;
+    user-select: September;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    -webkit-user-select: November;
+    -moz-user-select: November;
+    -ms-user-select: November;
+    user-select: November;
+  }
+}
+
+@media screen and (min-width:August) {
+  .c0 {
+    -webkit-user-select: August;
+    -moz-user-select: August;
+    -ms-user-select: August;
+    user-select: August;
+  }
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:August) {
+
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-user-select: July;
+  -moz-user-select: July;
+  -ms-user-select: July;
+  user-select: July;
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    -webkit-user-select: August;
+    -moz-user-select: August;
+    -ms-user-select: August;
+    user-select: August;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    -webkit-user-select: September;
+    -moz-user-select: September;
+    -ms-user-select: September;
+    user-select: September;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    -webkit-user-select: November;
+    -moz-user-select: November;
+    -ms-user-select: November;
+    user-select: November;
+  }
+}
+
+@media screen and (min-width:August) {
+  .c0 {
+    -webkit-user-select: August;
+    -moz-user-select: August;
+    -ms-user-select: August;
+    user-select: August;
+  }
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:August) {
+
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-user-select: January;
+  -moz-user-select: January;
+  -ms-user-select: January;
+  user-select: January;
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:August) {
+
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    -webkit-user-select: December;
+    -moz-user-select: December;
+    -ms-user-select: December;
+    user-select: December;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    -webkit-user-select: April;
+    -moz-user-select: April;
+    -ms-user-select: April;
+    user-select: April;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    -webkit-user-select: May;
+    -moz-user-select: May;
+    -ms-user-select: May;
+    user-select: May;
+  }
+}
+
+@media screen and (min-width:August) {
+  .c0 {
+    -webkit-user-select: June;
+    -moz-user-select: June;
+    -ms-user-select: June;
+    user-select: June;
+  }
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-user-select: January;
+  -moz-user-select: January;
+  -ms-user-select: January;
+  user-select: January;
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:August) {
+
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    -webkit-user-select: December;
+    -moz-user-select: December;
+    -ms-user-select: December;
+    user-select: December;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    -webkit-user-select: April;
+    -moz-user-select: April;
+    -ms-user-select: April;
+    user-select: April;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    -webkit-user-select: May;
+    -moz-user-select: May;
+    -ms-user-select: May;
+    user-select: May;
+  }
+}
+
+@media screen and (min-width:August) {
+  .c0 {
+    -webkit-user-select: June;
+    -moz-user-select: June;
+    -ms-user-select: June;
+    user-select: June;
+  }
+}
+
+<div
+    className="c0"
+  />,
+]
+`;
+
 exports[`userSelect renders object [breakpoints] 1`] = `
 Array [
   @media screen and (min-width:November) {
@@ -405,7 +658,312 @@ Array [
 ]
 `;
 
-exports[`userSelect renders object [breakpoints] 2`] = `
+exports[`userSelect renders object [mediaQueries + standart] 1`] = `
+Array [
+  .c0 {
+  -webkit-user-select: July;
+  -moz-user-select: July;
+  -ms-user-select: July;
+  user-select: July;
+}
+
+@media May {
+  .c0 {
+    -webkit-user-select: August;
+    -moz-user-select: August;
+    -ms-user-select: August;
+    user-select: August;
+  }
+}
+
+@media April {
+  .c0 {
+    -webkit-user-select: September;
+    -moz-user-select: September;
+    -ms-user-select: September;
+    user-select: September;
+  }
+}
+
+@media January {
+  .c0 {
+    -webkit-user-select: November;
+    -moz-user-select: November;
+    -ms-user-select: November;
+    user-select: November;
+  }
+}
+
+@media April {
+  .c0 {
+    -webkit-user-select: August;
+    -moz-user-select: August;
+    -ms-user-select: August;
+    user-select: August;
+  }
+}
+
+@media June {
+  .c0 {
+    -webkit-user-select: November;
+    -moz-user-select: November;
+    -ms-user-select: November;
+    user-select: November;
+  }
+}
+
+@media May {
+
+}
+
+@media April {
+
+}
+
+@media January {
+
+}
+
+@media April {
+
+}
+
+@media June {
+
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-user-select: July;
+  -moz-user-select: July;
+  -ms-user-select: July;
+  user-select: July;
+}
+
+@media May {
+  .c0 {
+    -webkit-user-select: August;
+    -moz-user-select: August;
+    -ms-user-select: August;
+    user-select: August;
+  }
+}
+
+@media April {
+  .c0 {
+    -webkit-user-select: September;
+    -moz-user-select: September;
+    -ms-user-select: September;
+    user-select: September;
+  }
+}
+
+@media January {
+  .c0 {
+    -webkit-user-select: November;
+    -moz-user-select: November;
+    -ms-user-select: November;
+    user-select: November;
+  }
+}
+
+@media April {
+  .c0 {
+    -webkit-user-select: August;
+    -moz-user-select: August;
+    -ms-user-select: August;
+    user-select: August;
+  }
+}
+
+@media June {
+  .c0 {
+    -webkit-user-select: November;
+    -moz-user-select: November;
+    -ms-user-select: November;
+    user-select: November;
+  }
+}
+
+@media May {
+
+}
+
+@media April {
+
+}
+
+@media January {
+
+}
+
+@media April {
+
+}
+
+@media June {
+
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-user-select: April;
+  -moz-user-select: April;
+  -ms-user-select: April;
+  user-select: April;
+}
+
+@media May {
+
+}
+
+@media April {
+
+}
+
+@media January {
+
+}
+
+@media April {
+
+}
+
+@media June {
+
+}
+
+@media May {
+  .c0 {
+    -webkit-user-select: November;
+    -moz-user-select: November;
+    -ms-user-select: November;
+    user-select: November;
+  }
+}
+
+@media April {
+  .c0 {
+    -webkit-user-select: January;
+    -moz-user-select: January;
+    -ms-user-select: January;
+    user-select: January;
+  }
+}
+
+@media January {
+  .c0 {
+    -webkit-user-select: December;
+    -moz-user-select: December;
+    -ms-user-select: December;
+    user-select: December;
+  }
+}
+
+@media April {
+  .c0 {
+    -webkit-user-select: April;
+    -moz-user-select: April;
+    -ms-user-select: April;
+    user-select: April;
+  }
+}
+
+@media June {
+  .c0 {
+    -webkit-user-select: May;
+    -moz-user-select: May;
+    -ms-user-select: May;
+    user-select: May;
+  }
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-user-select: April;
+  -moz-user-select: April;
+  -ms-user-select: April;
+  user-select: April;
+}
+
+@media May {
+
+}
+
+@media April {
+
+}
+
+@media January {
+
+}
+
+@media April {
+
+}
+
+@media June {
+
+}
+
+@media May {
+  .c0 {
+    -webkit-user-select: November;
+    -moz-user-select: November;
+    -ms-user-select: November;
+    user-select: November;
+  }
+}
+
+@media April {
+  .c0 {
+    -webkit-user-select: January;
+    -moz-user-select: January;
+    -ms-user-select: January;
+    user-select: January;
+  }
+}
+
+@media January {
+  .c0 {
+    -webkit-user-select: December;
+    -moz-user-select: December;
+    -ms-user-select: December;
+    user-select: December;
+  }
+}
+
+@media April {
+  .c0 {
+    -webkit-user-select: April;
+    -moz-user-select: April;
+    -ms-user-select: April;
+    user-select: April;
+  }
+}
+
+@media June {
+  .c0 {
+    -webkit-user-select: May;
+    -moz-user-select: May;
+    -ms-user-select: May;
+    user-select: May;
+  }
+}
+
+<div
+    className="c0"
+  />,
+]
+`;
+
+exports[`userSelect renders object [mediaQueries] 1`] = `
 Array [
   @media May {
   .c0 {
@@ -768,6 +1326,23 @@ Array [
 
 <div
     className="c0"
+  />,
+]
+`;
+
+exports[`userSelect renders undefined 1`] = `
+Array [
+  <div
+    className=""
+  />,
+  <div
+    className=""
+  />,
+  <div
+    className=""
+  />,
+  <div
+    className=""
   />,
 ]
 `;

@@ -180,6 +180,259 @@ Array [
 ]
 `;
 
+exports[`scrollPaddingRight renders object [breakpoints + standard] 1`] = `
+Array [
+  .c0 {
+  -webkit-scroll-padding-right: July;
+  -moz-scroll-padding-right: July;
+  -ms-scroll-padding-right: July;
+  scroll-padding-right: July;
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    -webkit-scroll-padding-right: August;
+    -moz-scroll-padding-right: August;
+    -ms-scroll-padding-right: August;
+    scroll-padding-right: August;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    -webkit-scroll-padding-right: September;
+    -moz-scroll-padding-right: September;
+    -ms-scroll-padding-right: September;
+    scroll-padding-right: September;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    -webkit-scroll-padding-right: November;
+    -moz-scroll-padding-right: November;
+    -ms-scroll-padding-right: November;
+    scroll-padding-right: November;
+  }
+}
+
+@media screen and (min-width:August) {
+  .c0 {
+    -webkit-scroll-padding-right: August;
+    -moz-scroll-padding-right: August;
+    -ms-scroll-padding-right: August;
+    scroll-padding-right: August;
+  }
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:August) {
+
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-scroll-padding-right: July;
+  -moz-scroll-padding-right: July;
+  -ms-scroll-padding-right: July;
+  scroll-padding-right: July;
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    -webkit-scroll-padding-right: August;
+    -moz-scroll-padding-right: August;
+    -ms-scroll-padding-right: August;
+    scroll-padding-right: August;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    -webkit-scroll-padding-right: September;
+    -moz-scroll-padding-right: September;
+    -ms-scroll-padding-right: September;
+    scroll-padding-right: September;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    -webkit-scroll-padding-right: November;
+    -moz-scroll-padding-right: November;
+    -ms-scroll-padding-right: November;
+    scroll-padding-right: November;
+  }
+}
+
+@media screen and (min-width:August) {
+  .c0 {
+    -webkit-scroll-padding-right: August;
+    -moz-scroll-padding-right: August;
+    -ms-scroll-padding-right: August;
+    scroll-padding-right: August;
+  }
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:August) {
+
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-scroll-padding-right: January;
+  -moz-scroll-padding-right: January;
+  -ms-scroll-padding-right: January;
+  scroll-padding-right: January;
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:August) {
+
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    -webkit-scroll-padding-right: December;
+    -moz-scroll-padding-right: December;
+    -ms-scroll-padding-right: December;
+    scroll-padding-right: December;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    -webkit-scroll-padding-right: April;
+    -moz-scroll-padding-right: April;
+    -ms-scroll-padding-right: April;
+    scroll-padding-right: April;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    -webkit-scroll-padding-right: May;
+    -moz-scroll-padding-right: May;
+    -ms-scroll-padding-right: May;
+    scroll-padding-right: May;
+  }
+}
+
+@media screen and (min-width:August) {
+  .c0 {
+    -webkit-scroll-padding-right: June;
+    -moz-scroll-padding-right: June;
+    -ms-scroll-padding-right: June;
+    scroll-padding-right: June;
+  }
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-scroll-padding-right: January;
+  -moz-scroll-padding-right: January;
+  -ms-scroll-padding-right: January;
+  scroll-padding-right: January;
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:August) {
+
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    -webkit-scroll-padding-right: December;
+    -moz-scroll-padding-right: December;
+    -ms-scroll-padding-right: December;
+    scroll-padding-right: December;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    -webkit-scroll-padding-right: April;
+    -moz-scroll-padding-right: April;
+    -ms-scroll-padding-right: April;
+    scroll-padding-right: April;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    -webkit-scroll-padding-right: May;
+    -moz-scroll-padding-right: May;
+    -ms-scroll-padding-right: May;
+    scroll-padding-right: May;
+  }
+}
+
+@media screen and (min-width:August) {
+  .c0 {
+    -webkit-scroll-padding-right: June;
+    -moz-scroll-padding-right: June;
+    -ms-scroll-padding-right: June;
+    scroll-padding-right: June;
+  }
+}
+
+<div
+    className="c0"
+  />,
+]
+`;
+
 exports[`scrollPaddingRight renders object [breakpoints] 1`] = `
 Array [
   @media screen and (min-width:November) {
@@ -405,7 +658,312 @@ Array [
 ]
 `;
 
-exports[`scrollPaddingRight renders object [breakpoints] 2`] = `
+exports[`scrollPaddingRight renders object [mediaQueries + standart] 1`] = `
+Array [
+  .c0 {
+  -webkit-scroll-padding-right: July;
+  -moz-scroll-padding-right: July;
+  -ms-scroll-padding-right: July;
+  scroll-padding-right: July;
+}
+
+@media May {
+  .c0 {
+    -webkit-scroll-padding-right: August;
+    -moz-scroll-padding-right: August;
+    -ms-scroll-padding-right: August;
+    scroll-padding-right: August;
+  }
+}
+
+@media April {
+  .c0 {
+    -webkit-scroll-padding-right: September;
+    -moz-scroll-padding-right: September;
+    -ms-scroll-padding-right: September;
+    scroll-padding-right: September;
+  }
+}
+
+@media January {
+  .c0 {
+    -webkit-scroll-padding-right: November;
+    -moz-scroll-padding-right: November;
+    -ms-scroll-padding-right: November;
+    scroll-padding-right: November;
+  }
+}
+
+@media April {
+  .c0 {
+    -webkit-scroll-padding-right: August;
+    -moz-scroll-padding-right: August;
+    -ms-scroll-padding-right: August;
+    scroll-padding-right: August;
+  }
+}
+
+@media June {
+  .c0 {
+    -webkit-scroll-padding-right: November;
+    -moz-scroll-padding-right: November;
+    -ms-scroll-padding-right: November;
+    scroll-padding-right: November;
+  }
+}
+
+@media May {
+
+}
+
+@media April {
+
+}
+
+@media January {
+
+}
+
+@media April {
+
+}
+
+@media June {
+
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-scroll-padding-right: July;
+  -moz-scroll-padding-right: July;
+  -ms-scroll-padding-right: July;
+  scroll-padding-right: July;
+}
+
+@media May {
+  .c0 {
+    -webkit-scroll-padding-right: August;
+    -moz-scroll-padding-right: August;
+    -ms-scroll-padding-right: August;
+    scroll-padding-right: August;
+  }
+}
+
+@media April {
+  .c0 {
+    -webkit-scroll-padding-right: September;
+    -moz-scroll-padding-right: September;
+    -ms-scroll-padding-right: September;
+    scroll-padding-right: September;
+  }
+}
+
+@media January {
+  .c0 {
+    -webkit-scroll-padding-right: November;
+    -moz-scroll-padding-right: November;
+    -ms-scroll-padding-right: November;
+    scroll-padding-right: November;
+  }
+}
+
+@media April {
+  .c0 {
+    -webkit-scroll-padding-right: August;
+    -moz-scroll-padding-right: August;
+    -ms-scroll-padding-right: August;
+    scroll-padding-right: August;
+  }
+}
+
+@media June {
+  .c0 {
+    -webkit-scroll-padding-right: November;
+    -moz-scroll-padding-right: November;
+    -ms-scroll-padding-right: November;
+    scroll-padding-right: November;
+  }
+}
+
+@media May {
+
+}
+
+@media April {
+
+}
+
+@media January {
+
+}
+
+@media April {
+
+}
+
+@media June {
+
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-scroll-padding-right: April;
+  -moz-scroll-padding-right: April;
+  -ms-scroll-padding-right: April;
+  scroll-padding-right: April;
+}
+
+@media May {
+
+}
+
+@media April {
+
+}
+
+@media January {
+
+}
+
+@media April {
+
+}
+
+@media June {
+
+}
+
+@media May {
+  .c0 {
+    -webkit-scroll-padding-right: November;
+    -moz-scroll-padding-right: November;
+    -ms-scroll-padding-right: November;
+    scroll-padding-right: November;
+  }
+}
+
+@media April {
+  .c0 {
+    -webkit-scroll-padding-right: January;
+    -moz-scroll-padding-right: January;
+    -ms-scroll-padding-right: January;
+    scroll-padding-right: January;
+  }
+}
+
+@media January {
+  .c0 {
+    -webkit-scroll-padding-right: December;
+    -moz-scroll-padding-right: December;
+    -ms-scroll-padding-right: December;
+    scroll-padding-right: December;
+  }
+}
+
+@media April {
+  .c0 {
+    -webkit-scroll-padding-right: April;
+    -moz-scroll-padding-right: April;
+    -ms-scroll-padding-right: April;
+    scroll-padding-right: April;
+  }
+}
+
+@media June {
+  .c0 {
+    -webkit-scroll-padding-right: May;
+    -moz-scroll-padding-right: May;
+    -ms-scroll-padding-right: May;
+    scroll-padding-right: May;
+  }
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-scroll-padding-right: April;
+  -moz-scroll-padding-right: April;
+  -ms-scroll-padding-right: April;
+  scroll-padding-right: April;
+}
+
+@media May {
+
+}
+
+@media April {
+
+}
+
+@media January {
+
+}
+
+@media April {
+
+}
+
+@media June {
+
+}
+
+@media May {
+  .c0 {
+    -webkit-scroll-padding-right: November;
+    -moz-scroll-padding-right: November;
+    -ms-scroll-padding-right: November;
+    scroll-padding-right: November;
+  }
+}
+
+@media April {
+  .c0 {
+    -webkit-scroll-padding-right: January;
+    -moz-scroll-padding-right: January;
+    -ms-scroll-padding-right: January;
+    scroll-padding-right: January;
+  }
+}
+
+@media January {
+  .c0 {
+    -webkit-scroll-padding-right: December;
+    -moz-scroll-padding-right: December;
+    -ms-scroll-padding-right: December;
+    scroll-padding-right: December;
+  }
+}
+
+@media April {
+  .c0 {
+    -webkit-scroll-padding-right: April;
+    -moz-scroll-padding-right: April;
+    -ms-scroll-padding-right: April;
+    scroll-padding-right: April;
+  }
+}
+
+@media June {
+  .c0 {
+    -webkit-scroll-padding-right: May;
+    -moz-scroll-padding-right: May;
+    -ms-scroll-padding-right: May;
+    scroll-padding-right: May;
+  }
+}
+
+<div
+    className="c0"
+  />,
+]
+`;
+
+exports[`scrollPaddingRight renders object [mediaQueries] 1`] = `
 Array [
   @media May {
   .c0 {
@@ -768,6 +1326,23 @@ Array [
 
 <div
     className="c0"
+  />,
+]
+`;
+
+exports[`scrollPaddingRight renders undefined 1`] = `
+Array [
+  <div
+    className=""
+  />,
+  <div
+    className=""
+  />,
+  <div
+    className=""
+  />,
+  <div
+    className=""
   />,
 ]
 `;

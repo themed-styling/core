@@ -132,6 +132,199 @@ Array [
 ]
 `;
 
+exports[`playDuring renders object [breakpoints + standard] 1`] = `
+Array [
+  .c0 {
+  play-during: July;
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    play-during: August;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    play-during: September;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    play-during: November;
+  }
+}
+
+@media screen and (min-width:August) {
+  .c0 {
+    play-during: August;
+  }
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:August) {
+
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  play-during: July;
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    play-during: August;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    play-during: September;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    play-during: November;
+  }
+}
+
+@media screen and (min-width:August) {
+  .c0 {
+    play-during: August;
+  }
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:August) {
+
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  play-during: January;
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:August) {
+
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    play-during: December;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    play-during: April;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    play-during: May;
+  }
+}
+
+@media screen and (min-width:August) {
+  .c0 {
+    play-during: June;
+  }
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  play-during: January;
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:August) {
+
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    play-during: December;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    play-during: April;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    play-during: May;
+  }
+}
+
+@media screen and (min-width:August) {
+  .c0 {
+    play-during: June;
+  }
+}
+
+<div
+    className="c0"
+  />,
+]
+`;
+
 exports[`playDuring renders object [breakpoints] 1`] = `
 Array [
   @media screen and (min-width:November) {
@@ -309,7 +502,240 @@ Array [
 ]
 `;
 
-exports[`playDuring renders object [breakpoints] 2`] = `
+exports[`playDuring renders object [mediaQueries + standart] 1`] = `
+Array [
+  .c0 {
+  play-during: July;
+}
+
+@media May {
+  .c0 {
+    play-during: August;
+  }
+}
+
+@media April {
+  .c0 {
+    play-during: September;
+  }
+}
+
+@media January {
+  .c0 {
+    play-during: November;
+  }
+}
+
+@media April {
+  .c0 {
+    play-during: August;
+  }
+}
+
+@media June {
+  .c0 {
+    play-during: November;
+  }
+}
+
+@media May {
+
+}
+
+@media April {
+
+}
+
+@media January {
+
+}
+
+@media April {
+
+}
+
+@media June {
+
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  play-during: July;
+}
+
+@media May {
+  .c0 {
+    play-during: August;
+  }
+}
+
+@media April {
+  .c0 {
+    play-during: September;
+  }
+}
+
+@media January {
+  .c0 {
+    play-during: November;
+  }
+}
+
+@media April {
+  .c0 {
+    play-during: August;
+  }
+}
+
+@media June {
+  .c0 {
+    play-during: November;
+  }
+}
+
+@media May {
+
+}
+
+@media April {
+
+}
+
+@media January {
+
+}
+
+@media April {
+
+}
+
+@media June {
+
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  play-during: April;
+}
+
+@media May {
+
+}
+
+@media April {
+
+}
+
+@media January {
+
+}
+
+@media April {
+
+}
+
+@media June {
+
+}
+
+@media May {
+  .c0 {
+    play-during: November;
+  }
+}
+
+@media April {
+  .c0 {
+    play-during: January;
+  }
+}
+
+@media January {
+  .c0 {
+    play-during: December;
+  }
+}
+
+@media April {
+  .c0 {
+    play-during: April;
+  }
+}
+
+@media June {
+  .c0 {
+    play-during: May;
+  }
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  play-during: April;
+}
+
+@media May {
+
+}
+
+@media April {
+
+}
+
+@media January {
+
+}
+
+@media April {
+
+}
+
+@media June {
+
+}
+
+@media May {
+  .c0 {
+    play-during: November;
+  }
+}
+
+@media April {
+  .c0 {
+    play-during: January;
+  }
+}
+
+@media January {
+  .c0 {
+    play-during: December;
+  }
+}
+
+@media April {
+  .c0 {
+    play-during: April;
+  }
+}
+
+@media June {
+  .c0 {
+    play-during: May;
+  }
+}
+
+<div
+    className="c0"
+  />,
+]
+`;
+
+exports[`playDuring renders object [mediaQueries] 1`] = `
 Array [
   @media May {
   .c0 {
@@ -588,6 +1014,23 @@ Array [
 
 <div
     className="c0"
+  />,
+]
+`;
+
+exports[`playDuring renders undefined 1`] = `
+Array [
+  <div
+    className=""
+  />,
+  <div
+    className=""
+  />,
+  <div
+    className=""
+  />,
+  <div
+    className=""
   />,
 ]
 `;

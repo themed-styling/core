@@ -132,6 +132,199 @@ Array [
 ]
 `;
 
+exports[`wordBreakCjk renders object [breakpoints + standard] 1`] = `
+Array [
+  .c0 {
+  word-break-cjk: July;
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    word-break-cjk: August;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    word-break-cjk: September;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    word-break-cjk: November;
+  }
+}
+
+@media screen and (min-width:August) {
+  .c0 {
+    word-break-cjk: August;
+  }
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:August) {
+
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  word-break-cjk: July;
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    word-break-cjk: August;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    word-break-cjk: September;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    word-break-cjk: November;
+  }
+}
+
+@media screen and (min-width:August) {
+  .c0 {
+    word-break-cjk: August;
+  }
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:August) {
+
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  word-break-cjk: January;
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:August) {
+
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    word-break-cjk: December;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    word-break-cjk: April;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    word-break-cjk: May;
+  }
+}
+
+@media screen and (min-width:August) {
+  .c0 {
+    word-break-cjk: June;
+  }
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  word-break-cjk: January;
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:August) {
+
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    word-break-cjk: December;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    word-break-cjk: April;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    word-break-cjk: May;
+  }
+}
+
+@media screen and (min-width:August) {
+  .c0 {
+    word-break-cjk: June;
+  }
+}
+
+<div
+    className="c0"
+  />,
+]
+`;
+
 exports[`wordBreakCjk renders object [breakpoints] 1`] = `
 Array [
   @media screen and (min-width:November) {
@@ -309,7 +502,240 @@ Array [
 ]
 `;
 
-exports[`wordBreakCjk renders object [breakpoints] 2`] = `
+exports[`wordBreakCjk renders object [mediaQueries + standart] 1`] = `
+Array [
+  .c0 {
+  word-break-cjk: July;
+}
+
+@media May {
+  .c0 {
+    word-break-cjk: August;
+  }
+}
+
+@media April {
+  .c0 {
+    word-break-cjk: September;
+  }
+}
+
+@media January {
+  .c0 {
+    word-break-cjk: November;
+  }
+}
+
+@media April {
+  .c0 {
+    word-break-cjk: August;
+  }
+}
+
+@media June {
+  .c0 {
+    word-break-cjk: November;
+  }
+}
+
+@media May {
+
+}
+
+@media April {
+
+}
+
+@media January {
+
+}
+
+@media April {
+
+}
+
+@media June {
+
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  word-break-cjk: July;
+}
+
+@media May {
+  .c0 {
+    word-break-cjk: August;
+  }
+}
+
+@media April {
+  .c0 {
+    word-break-cjk: September;
+  }
+}
+
+@media January {
+  .c0 {
+    word-break-cjk: November;
+  }
+}
+
+@media April {
+  .c0 {
+    word-break-cjk: August;
+  }
+}
+
+@media June {
+  .c0 {
+    word-break-cjk: November;
+  }
+}
+
+@media May {
+
+}
+
+@media April {
+
+}
+
+@media January {
+
+}
+
+@media April {
+
+}
+
+@media June {
+
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  word-break-cjk: April;
+}
+
+@media May {
+
+}
+
+@media April {
+
+}
+
+@media January {
+
+}
+
+@media April {
+
+}
+
+@media June {
+
+}
+
+@media May {
+  .c0 {
+    word-break-cjk: November;
+  }
+}
+
+@media April {
+  .c0 {
+    word-break-cjk: January;
+  }
+}
+
+@media January {
+  .c0 {
+    word-break-cjk: December;
+  }
+}
+
+@media April {
+  .c0 {
+    word-break-cjk: April;
+  }
+}
+
+@media June {
+  .c0 {
+    word-break-cjk: May;
+  }
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  word-break-cjk: April;
+}
+
+@media May {
+
+}
+
+@media April {
+
+}
+
+@media January {
+
+}
+
+@media April {
+
+}
+
+@media June {
+
+}
+
+@media May {
+  .c0 {
+    word-break-cjk: November;
+  }
+}
+
+@media April {
+  .c0 {
+    word-break-cjk: January;
+  }
+}
+
+@media January {
+  .c0 {
+    word-break-cjk: December;
+  }
+}
+
+@media April {
+  .c0 {
+    word-break-cjk: April;
+  }
+}
+
+@media June {
+  .c0 {
+    word-break-cjk: May;
+  }
+}
+
+<div
+    className="c0"
+  />,
+]
+`;
+
+exports[`wordBreakCjk renders object [mediaQueries] 1`] = `
 Array [
   @media May {
   .c0 {
@@ -588,6 +1014,23 @@ Array [
 
 <div
     className="c0"
+  />,
+]
+`;
+
+exports[`wordBreakCjk renders undefined 1`] = `
+Array [
+  <div
+    className=""
+  />,
+  <div
+    className=""
+  />,
+  <div
+    className=""
+  />,
+  <div
+    className=""
   />,
 ]
 `;

@@ -132,6 +132,199 @@ Array [
 ]
 `;
 
+exports[`gridAutoFlow renders object [breakpoints + standard] 1`] = `
+Array [
+  .c0 {
+  grid-auto-flow: July;
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    grid-auto-flow: August;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    grid-auto-flow: September;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    grid-auto-flow: November;
+  }
+}
+
+@media screen and (min-width:August) {
+  .c0 {
+    grid-auto-flow: August;
+  }
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:August) {
+
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  grid-auto-flow: July;
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    grid-auto-flow: August;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    grid-auto-flow: September;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    grid-auto-flow: November;
+  }
+}
+
+@media screen and (min-width:August) {
+  .c0 {
+    grid-auto-flow: August;
+  }
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:August) {
+
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  grid-auto-flow: January;
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:August) {
+
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    grid-auto-flow: December;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    grid-auto-flow: April;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    grid-auto-flow: May;
+  }
+}
+
+@media screen and (min-width:August) {
+  .c0 {
+    grid-auto-flow: June;
+  }
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  grid-auto-flow: January;
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:August) {
+
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    grid-auto-flow: December;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    grid-auto-flow: April;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    grid-auto-flow: May;
+  }
+}
+
+@media screen and (min-width:August) {
+  .c0 {
+    grid-auto-flow: June;
+  }
+}
+
+<div
+    className="c0"
+  />,
+]
+`;
+
 exports[`gridAutoFlow renders object [breakpoints] 1`] = `
 Array [
   @media screen and (min-width:November) {
@@ -309,7 +502,240 @@ Array [
 ]
 `;
 
-exports[`gridAutoFlow renders object [breakpoints] 2`] = `
+exports[`gridAutoFlow renders object [mediaQueries + standart] 1`] = `
+Array [
+  .c0 {
+  grid-auto-flow: July;
+}
+
+@media May {
+  .c0 {
+    grid-auto-flow: August;
+  }
+}
+
+@media April {
+  .c0 {
+    grid-auto-flow: September;
+  }
+}
+
+@media January {
+  .c0 {
+    grid-auto-flow: November;
+  }
+}
+
+@media April {
+  .c0 {
+    grid-auto-flow: August;
+  }
+}
+
+@media June {
+  .c0 {
+    grid-auto-flow: November;
+  }
+}
+
+@media May {
+
+}
+
+@media April {
+
+}
+
+@media January {
+
+}
+
+@media April {
+
+}
+
+@media June {
+
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  grid-auto-flow: July;
+}
+
+@media May {
+  .c0 {
+    grid-auto-flow: August;
+  }
+}
+
+@media April {
+  .c0 {
+    grid-auto-flow: September;
+  }
+}
+
+@media January {
+  .c0 {
+    grid-auto-flow: November;
+  }
+}
+
+@media April {
+  .c0 {
+    grid-auto-flow: August;
+  }
+}
+
+@media June {
+  .c0 {
+    grid-auto-flow: November;
+  }
+}
+
+@media May {
+
+}
+
+@media April {
+
+}
+
+@media January {
+
+}
+
+@media April {
+
+}
+
+@media June {
+
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  grid-auto-flow: April;
+}
+
+@media May {
+
+}
+
+@media April {
+
+}
+
+@media January {
+
+}
+
+@media April {
+
+}
+
+@media June {
+
+}
+
+@media May {
+  .c0 {
+    grid-auto-flow: November;
+  }
+}
+
+@media April {
+  .c0 {
+    grid-auto-flow: January;
+  }
+}
+
+@media January {
+  .c0 {
+    grid-auto-flow: December;
+  }
+}
+
+@media April {
+  .c0 {
+    grid-auto-flow: April;
+  }
+}
+
+@media June {
+  .c0 {
+    grid-auto-flow: May;
+  }
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  grid-auto-flow: April;
+}
+
+@media May {
+
+}
+
+@media April {
+
+}
+
+@media January {
+
+}
+
+@media April {
+
+}
+
+@media June {
+
+}
+
+@media May {
+  .c0 {
+    grid-auto-flow: November;
+  }
+}
+
+@media April {
+  .c0 {
+    grid-auto-flow: January;
+  }
+}
+
+@media January {
+  .c0 {
+    grid-auto-flow: December;
+  }
+}
+
+@media April {
+  .c0 {
+    grid-auto-flow: April;
+  }
+}
+
+@media June {
+  .c0 {
+    grid-auto-flow: May;
+  }
+}
+
+<div
+    className="c0"
+  />,
+]
+`;
+
+exports[`gridAutoFlow renders object [mediaQueries] 1`] = `
 Array [
   @media May {
   .c0 {
@@ -588,6 +1014,23 @@ Array [
 
 <div
     className="c0"
+  />,
+]
+`;
+
+exports[`gridAutoFlow renders undefined 1`] = `
+Array [
+  <div
+    className=""
+  />,
+  <div
+    className=""
+  />,
+  <div
+    className=""
+  />,
+  <div
+    className=""
   />,
 ]
 `;

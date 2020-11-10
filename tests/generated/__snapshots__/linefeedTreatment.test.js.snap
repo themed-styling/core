@@ -132,6 +132,199 @@ Array [
 ]
 `;
 
+exports[`linefeedTreatment renders object [breakpoints + standard] 1`] = `
+Array [
+  .c0 {
+  linefeed-treatment: July;
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    linefeed-treatment: August;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    linefeed-treatment: September;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    linefeed-treatment: November;
+  }
+}
+
+@media screen and (min-width:August) {
+  .c0 {
+    linefeed-treatment: August;
+  }
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:August) {
+
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  linefeed-treatment: July;
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    linefeed-treatment: August;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    linefeed-treatment: September;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    linefeed-treatment: November;
+  }
+}
+
+@media screen and (min-width:August) {
+  .c0 {
+    linefeed-treatment: August;
+  }
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:August) {
+
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  linefeed-treatment: January;
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:August) {
+
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    linefeed-treatment: December;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    linefeed-treatment: April;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    linefeed-treatment: May;
+  }
+}
+
+@media screen and (min-width:August) {
+  .c0 {
+    linefeed-treatment: June;
+  }
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  linefeed-treatment: January;
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:August) {
+
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    linefeed-treatment: December;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    linefeed-treatment: April;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    linefeed-treatment: May;
+  }
+}
+
+@media screen and (min-width:August) {
+  .c0 {
+    linefeed-treatment: June;
+  }
+}
+
+<div
+    className="c0"
+  />,
+]
+`;
+
 exports[`linefeedTreatment renders object [breakpoints] 1`] = `
 Array [
   @media screen and (min-width:November) {
@@ -309,7 +502,240 @@ Array [
 ]
 `;
 
-exports[`linefeedTreatment renders object [breakpoints] 2`] = `
+exports[`linefeedTreatment renders object [mediaQueries + standart] 1`] = `
+Array [
+  .c0 {
+  linefeed-treatment: July;
+}
+
+@media May {
+  .c0 {
+    linefeed-treatment: August;
+  }
+}
+
+@media April {
+  .c0 {
+    linefeed-treatment: September;
+  }
+}
+
+@media January {
+  .c0 {
+    linefeed-treatment: November;
+  }
+}
+
+@media April {
+  .c0 {
+    linefeed-treatment: August;
+  }
+}
+
+@media June {
+  .c0 {
+    linefeed-treatment: November;
+  }
+}
+
+@media May {
+
+}
+
+@media April {
+
+}
+
+@media January {
+
+}
+
+@media April {
+
+}
+
+@media June {
+
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  linefeed-treatment: July;
+}
+
+@media May {
+  .c0 {
+    linefeed-treatment: August;
+  }
+}
+
+@media April {
+  .c0 {
+    linefeed-treatment: September;
+  }
+}
+
+@media January {
+  .c0 {
+    linefeed-treatment: November;
+  }
+}
+
+@media April {
+  .c0 {
+    linefeed-treatment: August;
+  }
+}
+
+@media June {
+  .c0 {
+    linefeed-treatment: November;
+  }
+}
+
+@media May {
+
+}
+
+@media April {
+
+}
+
+@media January {
+
+}
+
+@media April {
+
+}
+
+@media June {
+
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  linefeed-treatment: April;
+}
+
+@media May {
+
+}
+
+@media April {
+
+}
+
+@media January {
+
+}
+
+@media April {
+
+}
+
+@media June {
+
+}
+
+@media May {
+  .c0 {
+    linefeed-treatment: November;
+  }
+}
+
+@media April {
+  .c0 {
+    linefeed-treatment: January;
+  }
+}
+
+@media January {
+  .c0 {
+    linefeed-treatment: December;
+  }
+}
+
+@media April {
+  .c0 {
+    linefeed-treatment: April;
+  }
+}
+
+@media June {
+  .c0 {
+    linefeed-treatment: May;
+  }
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  linefeed-treatment: April;
+}
+
+@media May {
+
+}
+
+@media April {
+
+}
+
+@media January {
+
+}
+
+@media April {
+
+}
+
+@media June {
+
+}
+
+@media May {
+  .c0 {
+    linefeed-treatment: November;
+  }
+}
+
+@media April {
+  .c0 {
+    linefeed-treatment: January;
+  }
+}
+
+@media January {
+  .c0 {
+    linefeed-treatment: December;
+  }
+}
+
+@media April {
+  .c0 {
+    linefeed-treatment: April;
+  }
+}
+
+@media June {
+  .c0 {
+    linefeed-treatment: May;
+  }
+}
+
+<div
+    className="c0"
+  />,
+]
+`;
+
+exports[`linefeedTreatment renders object [mediaQueries] 1`] = `
 Array [
   @media May {
   .c0 {
@@ -588,6 +1014,23 @@ Array [
 
 <div
     className="c0"
+  />,
+]
+`;
+
+exports[`linefeedTreatment renders undefined 1`] = `
+Array [
+  <div
+    className=""
+  />,
+  <div
+    className=""
+  />,
+  <div
+    className=""
+  />,
+  <div
+    className=""
   />,
 ]
 `;

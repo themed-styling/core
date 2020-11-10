@@ -180,6 +180,259 @@ Array [
 ]
 `;
 
+exports[`pause renders object [breakpoints + standard] 1`] = `
+Array [
+  .c0 {
+  -webkit-pause: July;
+  -moz-pause: July;
+  -ms-pause: July;
+  pause: July;
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    -webkit-pause: August;
+    -moz-pause: August;
+    -ms-pause: August;
+    pause: August;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    -webkit-pause: September;
+    -moz-pause: September;
+    -ms-pause: September;
+    pause: September;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    -webkit-pause: November;
+    -moz-pause: November;
+    -ms-pause: November;
+    pause: November;
+  }
+}
+
+@media screen and (min-width:August) {
+  .c0 {
+    -webkit-pause: August;
+    -moz-pause: August;
+    -ms-pause: August;
+    pause: August;
+  }
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:August) {
+
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-pause: July;
+  -moz-pause: July;
+  -ms-pause: July;
+  pause: July;
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    -webkit-pause: August;
+    -moz-pause: August;
+    -ms-pause: August;
+    pause: August;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    -webkit-pause: September;
+    -moz-pause: September;
+    -ms-pause: September;
+    pause: September;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    -webkit-pause: November;
+    -moz-pause: November;
+    -ms-pause: November;
+    pause: November;
+  }
+}
+
+@media screen and (min-width:August) {
+  .c0 {
+    -webkit-pause: August;
+    -moz-pause: August;
+    -ms-pause: August;
+    pause: August;
+  }
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:August) {
+
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-pause: January;
+  -moz-pause: January;
+  -ms-pause: January;
+  pause: January;
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:August) {
+
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    -webkit-pause: December;
+    -moz-pause: December;
+    -ms-pause: December;
+    pause: December;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    -webkit-pause: April;
+    -moz-pause: April;
+    -ms-pause: April;
+    pause: April;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    -webkit-pause: May;
+    -moz-pause: May;
+    -ms-pause: May;
+    pause: May;
+  }
+}
+
+@media screen and (min-width:August) {
+  .c0 {
+    -webkit-pause: June;
+    -moz-pause: June;
+    -ms-pause: June;
+    pause: June;
+  }
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-pause: January;
+  -moz-pause: January;
+  -ms-pause: January;
+  pause: January;
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:August) {
+
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    -webkit-pause: December;
+    -moz-pause: December;
+    -ms-pause: December;
+    pause: December;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    -webkit-pause: April;
+    -moz-pause: April;
+    -ms-pause: April;
+    pause: April;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    -webkit-pause: May;
+    -moz-pause: May;
+    -ms-pause: May;
+    pause: May;
+  }
+}
+
+@media screen and (min-width:August) {
+  .c0 {
+    -webkit-pause: June;
+    -moz-pause: June;
+    -ms-pause: June;
+    pause: June;
+  }
+}
+
+<div
+    className="c0"
+  />,
+]
+`;
+
 exports[`pause renders object [breakpoints] 1`] = `
 Array [
   @media screen and (min-width:November) {
@@ -405,7 +658,312 @@ Array [
 ]
 `;
 
-exports[`pause renders object [breakpoints] 2`] = `
+exports[`pause renders object [mediaQueries + standart] 1`] = `
+Array [
+  .c0 {
+  -webkit-pause: July;
+  -moz-pause: July;
+  -ms-pause: July;
+  pause: July;
+}
+
+@media May {
+  .c0 {
+    -webkit-pause: August;
+    -moz-pause: August;
+    -ms-pause: August;
+    pause: August;
+  }
+}
+
+@media April {
+  .c0 {
+    -webkit-pause: September;
+    -moz-pause: September;
+    -ms-pause: September;
+    pause: September;
+  }
+}
+
+@media January {
+  .c0 {
+    -webkit-pause: November;
+    -moz-pause: November;
+    -ms-pause: November;
+    pause: November;
+  }
+}
+
+@media April {
+  .c0 {
+    -webkit-pause: August;
+    -moz-pause: August;
+    -ms-pause: August;
+    pause: August;
+  }
+}
+
+@media June {
+  .c0 {
+    -webkit-pause: November;
+    -moz-pause: November;
+    -ms-pause: November;
+    pause: November;
+  }
+}
+
+@media May {
+
+}
+
+@media April {
+
+}
+
+@media January {
+
+}
+
+@media April {
+
+}
+
+@media June {
+
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-pause: July;
+  -moz-pause: July;
+  -ms-pause: July;
+  pause: July;
+}
+
+@media May {
+  .c0 {
+    -webkit-pause: August;
+    -moz-pause: August;
+    -ms-pause: August;
+    pause: August;
+  }
+}
+
+@media April {
+  .c0 {
+    -webkit-pause: September;
+    -moz-pause: September;
+    -ms-pause: September;
+    pause: September;
+  }
+}
+
+@media January {
+  .c0 {
+    -webkit-pause: November;
+    -moz-pause: November;
+    -ms-pause: November;
+    pause: November;
+  }
+}
+
+@media April {
+  .c0 {
+    -webkit-pause: August;
+    -moz-pause: August;
+    -ms-pause: August;
+    pause: August;
+  }
+}
+
+@media June {
+  .c0 {
+    -webkit-pause: November;
+    -moz-pause: November;
+    -ms-pause: November;
+    pause: November;
+  }
+}
+
+@media May {
+
+}
+
+@media April {
+
+}
+
+@media January {
+
+}
+
+@media April {
+
+}
+
+@media June {
+
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-pause: April;
+  -moz-pause: April;
+  -ms-pause: April;
+  pause: April;
+}
+
+@media May {
+
+}
+
+@media April {
+
+}
+
+@media January {
+
+}
+
+@media April {
+
+}
+
+@media June {
+
+}
+
+@media May {
+  .c0 {
+    -webkit-pause: November;
+    -moz-pause: November;
+    -ms-pause: November;
+    pause: November;
+  }
+}
+
+@media April {
+  .c0 {
+    -webkit-pause: January;
+    -moz-pause: January;
+    -ms-pause: January;
+    pause: January;
+  }
+}
+
+@media January {
+  .c0 {
+    -webkit-pause: December;
+    -moz-pause: December;
+    -ms-pause: December;
+    pause: December;
+  }
+}
+
+@media April {
+  .c0 {
+    -webkit-pause: April;
+    -moz-pause: April;
+    -ms-pause: April;
+    pause: April;
+  }
+}
+
+@media June {
+  .c0 {
+    -webkit-pause: May;
+    -moz-pause: May;
+    -ms-pause: May;
+    pause: May;
+  }
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-pause: April;
+  -moz-pause: April;
+  -ms-pause: April;
+  pause: April;
+}
+
+@media May {
+
+}
+
+@media April {
+
+}
+
+@media January {
+
+}
+
+@media April {
+
+}
+
+@media June {
+
+}
+
+@media May {
+  .c0 {
+    -webkit-pause: November;
+    -moz-pause: November;
+    -ms-pause: November;
+    pause: November;
+  }
+}
+
+@media April {
+  .c0 {
+    -webkit-pause: January;
+    -moz-pause: January;
+    -ms-pause: January;
+    pause: January;
+  }
+}
+
+@media January {
+  .c0 {
+    -webkit-pause: December;
+    -moz-pause: December;
+    -ms-pause: December;
+    pause: December;
+  }
+}
+
+@media April {
+  .c0 {
+    -webkit-pause: April;
+    -moz-pause: April;
+    -ms-pause: April;
+    pause: April;
+  }
+}
+
+@media June {
+  .c0 {
+    -webkit-pause: May;
+    -moz-pause: May;
+    -ms-pause: May;
+    pause: May;
+  }
+}
+
+<div
+    className="c0"
+  />,
+]
+`;
+
+exports[`pause renders object [mediaQueries] 1`] = `
 Array [
   @media May {
   .c0 {
@@ -768,6 +1326,23 @@ Array [
 
 <div
     className="c0"
+  />,
+]
+`;
+
+exports[`pause renders undefined 1`] = `
+Array [
+  <div
+    className=""
+  />,
+  <div
+    className=""
+  />,
+  <div
+    className=""
+  />,
+  <div
+    className=""
   />,
 ]
 `;

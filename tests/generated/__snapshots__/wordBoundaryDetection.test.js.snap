@@ -132,6 +132,199 @@ Array [
 ]
 `;
 
+exports[`wordBoundaryDetection renders object [breakpoints + standard] 1`] = `
+Array [
+  .c0 {
+  word-boundary-detection: July;
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    word-boundary-detection: August;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    word-boundary-detection: September;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    word-boundary-detection: November;
+  }
+}
+
+@media screen and (min-width:August) {
+  .c0 {
+    word-boundary-detection: August;
+  }
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:August) {
+
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  word-boundary-detection: July;
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    word-boundary-detection: August;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    word-boundary-detection: September;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    word-boundary-detection: November;
+  }
+}
+
+@media screen and (min-width:August) {
+  .c0 {
+    word-boundary-detection: August;
+  }
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:August) {
+
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  word-boundary-detection: January;
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:August) {
+
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    word-boundary-detection: December;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    word-boundary-detection: April;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    word-boundary-detection: May;
+  }
+}
+
+@media screen and (min-width:August) {
+  .c0 {
+    word-boundary-detection: June;
+  }
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  word-boundary-detection: January;
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:August) {
+
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    word-boundary-detection: December;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    word-boundary-detection: April;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    word-boundary-detection: May;
+  }
+}
+
+@media screen and (min-width:August) {
+  .c0 {
+    word-boundary-detection: June;
+  }
+}
+
+<div
+    className="c0"
+  />,
+]
+`;
+
 exports[`wordBoundaryDetection renders object [breakpoints] 1`] = `
 Array [
   @media screen and (min-width:November) {
@@ -309,7 +502,240 @@ Array [
 ]
 `;
 
-exports[`wordBoundaryDetection renders object [breakpoints] 2`] = `
+exports[`wordBoundaryDetection renders object [mediaQueries + standart] 1`] = `
+Array [
+  .c0 {
+  word-boundary-detection: July;
+}
+
+@media May {
+  .c0 {
+    word-boundary-detection: August;
+  }
+}
+
+@media April {
+  .c0 {
+    word-boundary-detection: September;
+  }
+}
+
+@media January {
+  .c0 {
+    word-boundary-detection: November;
+  }
+}
+
+@media April {
+  .c0 {
+    word-boundary-detection: August;
+  }
+}
+
+@media June {
+  .c0 {
+    word-boundary-detection: November;
+  }
+}
+
+@media May {
+
+}
+
+@media April {
+
+}
+
+@media January {
+
+}
+
+@media April {
+
+}
+
+@media June {
+
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  word-boundary-detection: July;
+}
+
+@media May {
+  .c0 {
+    word-boundary-detection: August;
+  }
+}
+
+@media April {
+  .c0 {
+    word-boundary-detection: September;
+  }
+}
+
+@media January {
+  .c0 {
+    word-boundary-detection: November;
+  }
+}
+
+@media April {
+  .c0 {
+    word-boundary-detection: August;
+  }
+}
+
+@media June {
+  .c0 {
+    word-boundary-detection: November;
+  }
+}
+
+@media May {
+
+}
+
+@media April {
+
+}
+
+@media January {
+
+}
+
+@media April {
+
+}
+
+@media June {
+
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  word-boundary-detection: April;
+}
+
+@media May {
+
+}
+
+@media April {
+
+}
+
+@media January {
+
+}
+
+@media April {
+
+}
+
+@media June {
+
+}
+
+@media May {
+  .c0 {
+    word-boundary-detection: November;
+  }
+}
+
+@media April {
+  .c0 {
+    word-boundary-detection: January;
+  }
+}
+
+@media January {
+  .c0 {
+    word-boundary-detection: December;
+  }
+}
+
+@media April {
+  .c0 {
+    word-boundary-detection: April;
+  }
+}
+
+@media June {
+  .c0 {
+    word-boundary-detection: May;
+  }
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  word-boundary-detection: April;
+}
+
+@media May {
+
+}
+
+@media April {
+
+}
+
+@media January {
+
+}
+
+@media April {
+
+}
+
+@media June {
+
+}
+
+@media May {
+  .c0 {
+    word-boundary-detection: November;
+  }
+}
+
+@media April {
+  .c0 {
+    word-boundary-detection: January;
+  }
+}
+
+@media January {
+  .c0 {
+    word-boundary-detection: December;
+  }
+}
+
+@media April {
+  .c0 {
+    word-boundary-detection: April;
+  }
+}
+
+@media June {
+  .c0 {
+    word-boundary-detection: May;
+  }
+}
+
+<div
+    className="c0"
+  />,
+]
+`;
+
+exports[`wordBoundaryDetection renders object [mediaQueries] 1`] = `
 Array [
   @media May {
   .c0 {
@@ -588,6 +1014,23 @@ Array [
 
 <div
     className="c0"
+  />,
+]
+`;
+
+exports[`wordBoundaryDetection renders undefined 1`] = `
+Array [
+  <div
+    className=""
+  />,
+  <div
+    className=""
+  />,
+  <div
+    className=""
+  />,
+  <div
+    className=""
   />,
 ]
 `;

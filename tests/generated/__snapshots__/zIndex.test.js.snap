@@ -132,6 +132,199 @@ Array [
 ]
 `;
 
+exports[`zIndex renders object [breakpoints + standard] 1`] = `
+Array [
+  .c0 {
+  z-index: July;
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    z-index: August;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    z-index: September;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    z-index: November;
+  }
+}
+
+@media screen and (min-width:August) {
+  .c0 {
+    z-index: August;
+  }
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:August) {
+
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  z-index: July;
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    z-index: August;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    z-index: September;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    z-index: November;
+  }
+}
+
+@media screen and (min-width:August) {
+  .c0 {
+    z-index: August;
+  }
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:August) {
+
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  z-index: January;
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:August) {
+
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    z-index: December;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    z-index: April;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    z-index: May;
+  }
+}
+
+@media screen and (min-width:August) {
+  .c0 {
+    z-index: June;
+  }
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  z-index: January;
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:August) {
+
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    z-index: December;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    z-index: April;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    z-index: May;
+  }
+}
+
+@media screen and (min-width:August) {
+  .c0 {
+    z-index: June;
+  }
+}
+
+<div
+    className="c0"
+  />,
+]
+`;
+
 exports[`zIndex renders object [breakpoints] 1`] = `
 Array [
   @media screen and (min-width:November) {
@@ -309,7 +502,240 @@ Array [
 ]
 `;
 
-exports[`zIndex renders object [breakpoints] 2`] = `
+exports[`zIndex renders object [mediaQueries + standart] 1`] = `
+Array [
+  .c0 {
+  z-index: July;
+}
+
+@media May {
+  .c0 {
+    z-index: August;
+  }
+}
+
+@media April {
+  .c0 {
+    z-index: September;
+  }
+}
+
+@media January {
+  .c0 {
+    z-index: November;
+  }
+}
+
+@media April {
+  .c0 {
+    z-index: August;
+  }
+}
+
+@media June {
+  .c0 {
+    z-index: November;
+  }
+}
+
+@media May {
+
+}
+
+@media April {
+
+}
+
+@media January {
+
+}
+
+@media April {
+
+}
+
+@media June {
+
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  z-index: July;
+}
+
+@media May {
+  .c0 {
+    z-index: August;
+  }
+}
+
+@media April {
+  .c0 {
+    z-index: September;
+  }
+}
+
+@media January {
+  .c0 {
+    z-index: November;
+  }
+}
+
+@media April {
+  .c0 {
+    z-index: August;
+  }
+}
+
+@media June {
+  .c0 {
+    z-index: November;
+  }
+}
+
+@media May {
+
+}
+
+@media April {
+
+}
+
+@media January {
+
+}
+
+@media April {
+
+}
+
+@media June {
+
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  z-index: April;
+}
+
+@media May {
+
+}
+
+@media April {
+
+}
+
+@media January {
+
+}
+
+@media April {
+
+}
+
+@media June {
+
+}
+
+@media May {
+  .c0 {
+    z-index: November;
+  }
+}
+
+@media April {
+  .c0 {
+    z-index: January;
+  }
+}
+
+@media January {
+  .c0 {
+    z-index: December;
+  }
+}
+
+@media April {
+  .c0 {
+    z-index: April;
+  }
+}
+
+@media June {
+  .c0 {
+    z-index: May;
+  }
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  z-index: April;
+}
+
+@media May {
+
+}
+
+@media April {
+
+}
+
+@media January {
+
+}
+
+@media April {
+
+}
+
+@media June {
+
+}
+
+@media May {
+  .c0 {
+    z-index: November;
+  }
+}
+
+@media April {
+  .c0 {
+    z-index: January;
+  }
+}
+
+@media January {
+  .c0 {
+    z-index: December;
+  }
+}
+
+@media April {
+  .c0 {
+    z-index: April;
+  }
+}
+
+@media June {
+  .c0 {
+    z-index: May;
+  }
+}
+
+<div
+    className="c0"
+  />,
+]
+`;
+
+exports[`zIndex renders object [mediaQueries] 1`] = `
 Array [
   @media May {
   .c0 {
@@ -588,6 +1014,23 @@ Array [
 
 <div
     className="c0"
+  />,
+]
+`;
+
+exports[`zIndex renders undefined 1`] = `
+Array [
+  <div
+    className=""
+  />,
+  <div
+    className=""
+  />,
+  <div
+    className=""
+  />,
+  <div
+    className=""
   />,
 ]
 `;

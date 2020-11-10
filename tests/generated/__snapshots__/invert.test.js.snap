@@ -148,6 +148,219 @@ Array [
 ]
 `;
 
+exports[`invert renders object [breakpoints + standard] 1`] = `
+Array [
+  .c0 {
+  -webkit-filter: invert(July);
+  filter: invert(July);
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    -webkit-filter: invert(August);
+    filter: invert(August);
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    -webkit-filter: invert(September);
+    filter: invert(September);
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    -webkit-filter: invert(November);
+    filter: invert(November);
+  }
+}
+
+@media screen and (min-width:August) {
+  .c0 {
+    -webkit-filter: invert(August);
+    filter: invert(August);
+  }
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:August) {
+
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-filter: invert(July);
+  filter: invert(July);
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    -webkit-filter: invert(August);
+    filter: invert(August);
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    -webkit-filter: invert(September);
+    filter: invert(September);
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    -webkit-filter: invert(November);
+    filter: invert(November);
+  }
+}
+
+@media screen and (min-width:August) {
+  .c0 {
+    -webkit-filter: invert(August);
+    filter: invert(August);
+  }
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:August) {
+
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-filter: invert(January);
+  filter: invert(January);
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:August) {
+
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    -webkit-filter: invert(December);
+    filter: invert(December);
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    -webkit-filter: invert(April);
+    filter: invert(April);
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    -webkit-filter: invert(May);
+    filter: invert(May);
+  }
+}
+
+@media screen and (min-width:August) {
+  .c0 {
+    -webkit-filter: invert(June);
+    filter: invert(June);
+  }
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-filter: invert(January);
+  filter: invert(January);
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:August) {
+
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    -webkit-filter: invert(December);
+    filter: invert(December);
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    -webkit-filter: invert(April);
+    filter: invert(April);
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    -webkit-filter: invert(May);
+    filter: invert(May);
+  }
+}
+
+@media screen and (min-width:August) {
+  .c0 {
+    -webkit-filter: invert(June);
+    filter: invert(June);
+  }
+}
+
+<div
+    className="c0"
+  />,
+]
+`;
+
 exports[`invert renders object [breakpoints] 1`] = `
 Array [
   @media screen and (min-width:November) {
@@ -341,7 +554,264 @@ Array [
 ]
 `;
 
-exports[`invert renders object [breakpoints] 2`] = `
+exports[`invert renders object [mediaQueries + standart] 1`] = `
+Array [
+  .c0 {
+  -webkit-filter: invert(July);
+  filter: invert(July);
+}
+
+@media May {
+  .c0 {
+    -webkit-filter: invert(August);
+    filter: invert(August);
+  }
+}
+
+@media April {
+  .c0 {
+    -webkit-filter: invert(September);
+    filter: invert(September);
+  }
+}
+
+@media January {
+  .c0 {
+    -webkit-filter: invert(November);
+    filter: invert(November);
+  }
+}
+
+@media April {
+  .c0 {
+    -webkit-filter: invert(August);
+    filter: invert(August);
+  }
+}
+
+@media June {
+  .c0 {
+    -webkit-filter: invert(November);
+    filter: invert(November);
+  }
+}
+
+@media May {
+
+}
+
+@media April {
+
+}
+
+@media January {
+
+}
+
+@media April {
+
+}
+
+@media June {
+
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-filter: invert(July);
+  filter: invert(July);
+}
+
+@media May {
+  .c0 {
+    -webkit-filter: invert(August);
+    filter: invert(August);
+  }
+}
+
+@media April {
+  .c0 {
+    -webkit-filter: invert(September);
+    filter: invert(September);
+  }
+}
+
+@media January {
+  .c0 {
+    -webkit-filter: invert(November);
+    filter: invert(November);
+  }
+}
+
+@media April {
+  .c0 {
+    -webkit-filter: invert(August);
+    filter: invert(August);
+  }
+}
+
+@media June {
+  .c0 {
+    -webkit-filter: invert(November);
+    filter: invert(November);
+  }
+}
+
+@media May {
+
+}
+
+@media April {
+
+}
+
+@media January {
+
+}
+
+@media April {
+
+}
+
+@media June {
+
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-filter: invert(April);
+  filter: invert(April);
+}
+
+@media May {
+
+}
+
+@media April {
+
+}
+
+@media January {
+
+}
+
+@media April {
+
+}
+
+@media June {
+
+}
+
+@media May {
+  .c0 {
+    -webkit-filter: invert(November);
+    filter: invert(November);
+  }
+}
+
+@media April {
+  .c0 {
+    -webkit-filter: invert(January);
+    filter: invert(January);
+  }
+}
+
+@media January {
+  .c0 {
+    -webkit-filter: invert(December);
+    filter: invert(December);
+  }
+}
+
+@media April {
+  .c0 {
+    -webkit-filter: invert(April);
+    filter: invert(April);
+  }
+}
+
+@media June {
+  .c0 {
+    -webkit-filter: invert(May);
+    filter: invert(May);
+  }
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-filter: invert(April);
+  filter: invert(April);
+}
+
+@media May {
+
+}
+
+@media April {
+
+}
+
+@media January {
+
+}
+
+@media April {
+
+}
+
+@media June {
+
+}
+
+@media May {
+  .c0 {
+    -webkit-filter: invert(November);
+    filter: invert(November);
+  }
+}
+
+@media April {
+  .c0 {
+    -webkit-filter: invert(January);
+    filter: invert(January);
+  }
+}
+
+@media January {
+  .c0 {
+    -webkit-filter: invert(December);
+    filter: invert(December);
+  }
+}
+
+@media April {
+  .c0 {
+    -webkit-filter: invert(April);
+    filter: invert(April);
+  }
+}
+
+@media June {
+  .c0 {
+    -webkit-filter: invert(May);
+    filter: invert(May);
+  }
+}
+
+<div
+    className="c0"
+  />,
+]
+`;
+
+exports[`invert renders object [mediaQueries] 1`] = `
 Array [
   @media May {
   .c0 {
@@ -648,6 +1118,23 @@ Array [
 
 <div
     className="c0"
+  />,
+]
+`;
+
+exports[`invert renders undefined 1`] = `
+Array [
+  <div
+    className=""
+  />,
+  <div
+    className=""
+  />,
+  <div
+    className=""
+  />,
+  <div
+    className=""
   />,
 ]
 `;

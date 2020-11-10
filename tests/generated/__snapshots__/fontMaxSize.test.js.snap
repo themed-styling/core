@@ -132,6 +132,199 @@ Array [
 ]
 `;
 
+exports[`fontMaxSize renders object [breakpoints + standard] 1`] = `
+Array [
+  .c0 {
+  font-max-size: July;
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    font-max-size: August;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    font-max-size: September;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    font-max-size: November;
+  }
+}
+
+@media screen and (min-width:August) {
+  .c0 {
+    font-max-size: August;
+  }
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:August) {
+
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  font-max-size: July;
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    font-max-size: August;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    font-max-size: September;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    font-max-size: November;
+  }
+}
+
+@media screen and (min-width:August) {
+  .c0 {
+    font-max-size: August;
+  }
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:August) {
+
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  font-max-size: January;
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:August) {
+
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    font-max-size: December;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    font-max-size: April;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    font-max-size: May;
+  }
+}
+
+@media screen and (min-width:August) {
+  .c0 {
+    font-max-size: June;
+  }
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  font-max-size: January;
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:August) {
+
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    font-max-size: December;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    font-max-size: April;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    font-max-size: May;
+  }
+}
+
+@media screen and (min-width:August) {
+  .c0 {
+    font-max-size: June;
+  }
+}
+
+<div
+    className="c0"
+  />,
+]
+`;
+
 exports[`fontMaxSize renders object [breakpoints] 1`] = `
 Array [
   @media screen and (min-width:November) {
@@ -309,7 +502,240 @@ Array [
 ]
 `;
 
-exports[`fontMaxSize renders object [breakpoints] 2`] = `
+exports[`fontMaxSize renders object [mediaQueries + standart] 1`] = `
+Array [
+  .c0 {
+  font-max-size: July;
+}
+
+@media May {
+  .c0 {
+    font-max-size: August;
+  }
+}
+
+@media April {
+  .c0 {
+    font-max-size: September;
+  }
+}
+
+@media January {
+  .c0 {
+    font-max-size: November;
+  }
+}
+
+@media April {
+  .c0 {
+    font-max-size: August;
+  }
+}
+
+@media June {
+  .c0 {
+    font-max-size: November;
+  }
+}
+
+@media May {
+
+}
+
+@media April {
+
+}
+
+@media January {
+
+}
+
+@media April {
+
+}
+
+@media June {
+
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  font-max-size: July;
+}
+
+@media May {
+  .c0 {
+    font-max-size: August;
+  }
+}
+
+@media April {
+  .c0 {
+    font-max-size: September;
+  }
+}
+
+@media January {
+  .c0 {
+    font-max-size: November;
+  }
+}
+
+@media April {
+  .c0 {
+    font-max-size: August;
+  }
+}
+
+@media June {
+  .c0 {
+    font-max-size: November;
+  }
+}
+
+@media May {
+
+}
+
+@media April {
+
+}
+
+@media January {
+
+}
+
+@media April {
+
+}
+
+@media June {
+
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  font-max-size: April;
+}
+
+@media May {
+
+}
+
+@media April {
+
+}
+
+@media January {
+
+}
+
+@media April {
+
+}
+
+@media June {
+
+}
+
+@media May {
+  .c0 {
+    font-max-size: November;
+  }
+}
+
+@media April {
+  .c0 {
+    font-max-size: January;
+  }
+}
+
+@media January {
+  .c0 {
+    font-max-size: December;
+  }
+}
+
+@media April {
+  .c0 {
+    font-max-size: April;
+  }
+}
+
+@media June {
+  .c0 {
+    font-max-size: May;
+  }
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  font-max-size: April;
+}
+
+@media May {
+
+}
+
+@media April {
+
+}
+
+@media January {
+
+}
+
+@media April {
+
+}
+
+@media June {
+
+}
+
+@media May {
+  .c0 {
+    font-max-size: November;
+  }
+}
+
+@media April {
+  .c0 {
+    font-max-size: January;
+  }
+}
+
+@media January {
+  .c0 {
+    font-max-size: December;
+  }
+}
+
+@media April {
+  .c0 {
+    font-max-size: April;
+  }
+}
+
+@media June {
+  .c0 {
+    font-max-size: May;
+  }
+}
+
+<div
+    className="c0"
+  />,
+]
+`;
+
+exports[`fontMaxSize renders object [mediaQueries] 1`] = `
 Array [
   @media May {
   .c0 {
@@ -588,6 +1014,23 @@ Array [
 
 <div
     className="c0"
+  />,
+]
+`;
+
+exports[`fontMaxSize renders undefined 1`] = `
+Array [
+  <div
+    className=""
+  />,
+  <div
+    className=""
+  />,
+  <div
+    className=""
+  />,
+  <div
+    className=""
   />,
 ]
 `;

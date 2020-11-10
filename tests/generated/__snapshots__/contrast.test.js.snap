@@ -148,6 +148,219 @@ Array [
 ]
 `;
 
+exports[`contrast renders object [breakpoints + standard] 1`] = `
+Array [
+  .c0 {
+  -webkit-filter: contrast(July);
+  filter: contrast(July);
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    -webkit-filter: contrast(August);
+    filter: contrast(August);
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    -webkit-filter: contrast(September);
+    filter: contrast(September);
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    -webkit-filter: contrast(November);
+    filter: contrast(November);
+  }
+}
+
+@media screen and (min-width:August) {
+  .c0 {
+    -webkit-filter: contrast(August);
+    filter: contrast(August);
+  }
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:August) {
+
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-filter: contrast(July);
+  filter: contrast(July);
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    -webkit-filter: contrast(August);
+    filter: contrast(August);
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    -webkit-filter: contrast(September);
+    filter: contrast(September);
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    -webkit-filter: contrast(November);
+    filter: contrast(November);
+  }
+}
+
+@media screen and (min-width:August) {
+  .c0 {
+    -webkit-filter: contrast(August);
+    filter: contrast(August);
+  }
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:August) {
+
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-filter: contrast(January);
+  filter: contrast(January);
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:August) {
+
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    -webkit-filter: contrast(December);
+    filter: contrast(December);
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    -webkit-filter: contrast(April);
+    filter: contrast(April);
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    -webkit-filter: contrast(May);
+    filter: contrast(May);
+  }
+}
+
+@media screen and (min-width:August) {
+  .c0 {
+    -webkit-filter: contrast(June);
+    filter: contrast(June);
+  }
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-filter: contrast(January);
+  filter: contrast(January);
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:August) {
+
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    -webkit-filter: contrast(December);
+    filter: contrast(December);
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    -webkit-filter: contrast(April);
+    filter: contrast(April);
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    -webkit-filter: contrast(May);
+    filter: contrast(May);
+  }
+}
+
+@media screen and (min-width:August) {
+  .c0 {
+    -webkit-filter: contrast(June);
+    filter: contrast(June);
+  }
+}
+
+<div
+    className="c0"
+  />,
+]
+`;
+
 exports[`contrast renders object [breakpoints] 1`] = `
 Array [
   @media screen and (min-width:November) {
@@ -341,7 +554,264 @@ Array [
 ]
 `;
 
-exports[`contrast renders object [breakpoints] 2`] = `
+exports[`contrast renders object [mediaQueries + standart] 1`] = `
+Array [
+  .c0 {
+  -webkit-filter: contrast(July);
+  filter: contrast(July);
+}
+
+@media May {
+  .c0 {
+    -webkit-filter: contrast(August);
+    filter: contrast(August);
+  }
+}
+
+@media April {
+  .c0 {
+    -webkit-filter: contrast(September);
+    filter: contrast(September);
+  }
+}
+
+@media January {
+  .c0 {
+    -webkit-filter: contrast(November);
+    filter: contrast(November);
+  }
+}
+
+@media April {
+  .c0 {
+    -webkit-filter: contrast(August);
+    filter: contrast(August);
+  }
+}
+
+@media June {
+  .c0 {
+    -webkit-filter: contrast(November);
+    filter: contrast(November);
+  }
+}
+
+@media May {
+
+}
+
+@media April {
+
+}
+
+@media January {
+
+}
+
+@media April {
+
+}
+
+@media June {
+
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-filter: contrast(July);
+  filter: contrast(July);
+}
+
+@media May {
+  .c0 {
+    -webkit-filter: contrast(August);
+    filter: contrast(August);
+  }
+}
+
+@media April {
+  .c0 {
+    -webkit-filter: contrast(September);
+    filter: contrast(September);
+  }
+}
+
+@media January {
+  .c0 {
+    -webkit-filter: contrast(November);
+    filter: contrast(November);
+  }
+}
+
+@media April {
+  .c0 {
+    -webkit-filter: contrast(August);
+    filter: contrast(August);
+  }
+}
+
+@media June {
+  .c0 {
+    -webkit-filter: contrast(November);
+    filter: contrast(November);
+  }
+}
+
+@media May {
+
+}
+
+@media April {
+
+}
+
+@media January {
+
+}
+
+@media April {
+
+}
+
+@media June {
+
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-filter: contrast(April);
+  filter: contrast(April);
+}
+
+@media May {
+
+}
+
+@media April {
+
+}
+
+@media January {
+
+}
+
+@media April {
+
+}
+
+@media June {
+
+}
+
+@media May {
+  .c0 {
+    -webkit-filter: contrast(November);
+    filter: contrast(November);
+  }
+}
+
+@media April {
+  .c0 {
+    -webkit-filter: contrast(January);
+    filter: contrast(January);
+  }
+}
+
+@media January {
+  .c0 {
+    -webkit-filter: contrast(December);
+    filter: contrast(December);
+  }
+}
+
+@media April {
+  .c0 {
+    -webkit-filter: contrast(April);
+    filter: contrast(April);
+  }
+}
+
+@media June {
+  .c0 {
+    -webkit-filter: contrast(May);
+    filter: contrast(May);
+  }
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-filter: contrast(April);
+  filter: contrast(April);
+}
+
+@media May {
+
+}
+
+@media April {
+
+}
+
+@media January {
+
+}
+
+@media April {
+
+}
+
+@media June {
+
+}
+
+@media May {
+  .c0 {
+    -webkit-filter: contrast(November);
+    filter: contrast(November);
+  }
+}
+
+@media April {
+  .c0 {
+    -webkit-filter: contrast(January);
+    filter: contrast(January);
+  }
+}
+
+@media January {
+  .c0 {
+    -webkit-filter: contrast(December);
+    filter: contrast(December);
+  }
+}
+
+@media April {
+  .c0 {
+    -webkit-filter: contrast(April);
+    filter: contrast(April);
+  }
+}
+
+@media June {
+  .c0 {
+    -webkit-filter: contrast(May);
+    filter: contrast(May);
+  }
+}
+
+<div
+    className="c0"
+  />,
+]
+`;
+
+exports[`contrast renders object [mediaQueries] 1`] = `
 Array [
   @media May {
   .c0 {
@@ -648,6 +1118,23 @@ Array [
 
 <div
     className="c0"
+  />,
+]
+`;
+
+exports[`contrast renders undefined 1`] = `
+Array [
+  <div
+    className=""
+  />,
+  <div
+    className=""
+  />,
+  <div
+    className=""
+  />,
+  <div
+    className=""
   />,
 ]
 `;

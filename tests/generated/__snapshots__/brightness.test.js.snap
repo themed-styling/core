@@ -148,6 +148,219 @@ Array [
 ]
 `;
 
+exports[`brightness renders object [breakpoints + standard] 1`] = `
+Array [
+  .c0 {
+  -webkit-filter: brightness(July);
+  filter: brightness(July);
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    -webkit-filter: brightness(August);
+    filter: brightness(August);
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    -webkit-filter: brightness(September);
+    filter: brightness(September);
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    -webkit-filter: brightness(November);
+    filter: brightness(November);
+  }
+}
+
+@media screen and (min-width:August) {
+  .c0 {
+    -webkit-filter: brightness(August);
+    filter: brightness(August);
+  }
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:August) {
+
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-filter: brightness(July);
+  filter: brightness(July);
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    -webkit-filter: brightness(August);
+    filter: brightness(August);
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    -webkit-filter: brightness(September);
+    filter: brightness(September);
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    -webkit-filter: brightness(November);
+    filter: brightness(November);
+  }
+}
+
+@media screen and (min-width:August) {
+  .c0 {
+    -webkit-filter: brightness(August);
+    filter: brightness(August);
+  }
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:August) {
+
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-filter: brightness(January);
+  filter: brightness(January);
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:August) {
+
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    -webkit-filter: brightness(December);
+    filter: brightness(December);
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    -webkit-filter: brightness(April);
+    filter: brightness(April);
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    -webkit-filter: brightness(May);
+    filter: brightness(May);
+  }
+}
+
+@media screen and (min-width:August) {
+  .c0 {
+    -webkit-filter: brightness(June);
+    filter: brightness(June);
+  }
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-filter: brightness(January);
+  filter: brightness(January);
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:August) {
+
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    -webkit-filter: brightness(December);
+    filter: brightness(December);
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    -webkit-filter: brightness(April);
+    filter: brightness(April);
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    -webkit-filter: brightness(May);
+    filter: brightness(May);
+  }
+}
+
+@media screen and (min-width:August) {
+  .c0 {
+    -webkit-filter: brightness(June);
+    filter: brightness(June);
+  }
+}
+
+<div
+    className="c0"
+  />,
+]
+`;
+
 exports[`brightness renders object [breakpoints] 1`] = `
 Array [
   @media screen and (min-width:November) {
@@ -341,7 +554,264 @@ Array [
 ]
 `;
 
-exports[`brightness renders object [breakpoints] 2`] = `
+exports[`brightness renders object [mediaQueries + standart] 1`] = `
+Array [
+  .c0 {
+  -webkit-filter: brightness(July);
+  filter: brightness(July);
+}
+
+@media May {
+  .c0 {
+    -webkit-filter: brightness(August);
+    filter: brightness(August);
+  }
+}
+
+@media April {
+  .c0 {
+    -webkit-filter: brightness(September);
+    filter: brightness(September);
+  }
+}
+
+@media January {
+  .c0 {
+    -webkit-filter: brightness(November);
+    filter: brightness(November);
+  }
+}
+
+@media April {
+  .c0 {
+    -webkit-filter: brightness(August);
+    filter: brightness(August);
+  }
+}
+
+@media June {
+  .c0 {
+    -webkit-filter: brightness(November);
+    filter: brightness(November);
+  }
+}
+
+@media May {
+
+}
+
+@media April {
+
+}
+
+@media January {
+
+}
+
+@media April {
+
+}
+
+@media June {
+
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-filter: brightness(July);
+  filter: brightness(July);
+}
+
+@media May {
+  .c0 {
+    -webkit-filter: brightness(August);
+    filter: brightness(August);
+  }
+}
+
+@media April {
+  .c0 {
+    -webkit-filter: brightness(September);
+    filter: brightness(September);
+  }
+}
+
+@media January {
+  .c0 {
+    -webkit-filter: brightness(November);
+    filter: brightness(November);
+  }
+}
+
+@media April {
+  .c0 {
+    -webkit-filter: brightness(August);
+    filter: brightness(August);
+  }
+}
+
+@media June {
+  .c0 {
+    -webkit-filter: brightness(November);
+    filter: brightness(November);
+  }
+}
+
+@media May {
+
+}
+
+@media April {
+
+}
+
+@media January {
+
+}
+
+@media April {
+
+}
+
+@media June {
+
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-filter: brightness(April);
+  filter: brightness(April);
+}
+
+@media May {
+
+}
+
+@media April {
+
+}
+
+@media January {
+
+}
+
+@media April {
+
+}
+
+@media June {
+
+}
+
+@media May {
+  .c0 {
+    -webkit-filter: brightness(November);
+    filter: brightness(November);
+  }
+}
+
+@media April {
+  .c0 {
+    -webkit-filter: brightness(January);
+    filter: brightness(January);
+  }
+}
+
+@media January {
+  .c0 {
+    -webkit-filter: brightness(December);
+    filter: brightness(December);
+  }
+}
+
+@media April {
+  .c0 {
+    -webkit-filter: brightness(April);
+    filter: brightness(April);
+  }
+}
+
+@media June {
+  .c0 {
+    -webkit-filter: brightness(May);
+    filter: brightness(May);
+  }
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-filter: brightness(April);
+  filter: brightness(April);
+}
+
+@media May {
+
+}
+
+@media April {
+
+}
+
+@media January {
+
+}
+
+@media April {
+
+}
+
+@media June {
+
+}
+
+@media May {
+  .c0 {
+    -webkit-filter: brightness(November);
+    filter: brightness(November);
+  }
+}
+
+@media April {
+  .c0 {
+    -webkit-filter: brightness(January);
+    filter: brightness(January);
+  }
+}
+
+@media January {
+  .c0 {
+    -webkit-filter: brightness(December);
+    filter: brightness(December);
+  }
+}
+
+@media April {
+  .c0 {
+    -webkit-filter: brightness(April);
+    filter: brightness(April);
+  }
+}
+
+@media June {
+  .c0 {
+    -webkit-filter: brightness(May);
+    filter: brightness(May);
+  }
+}
+
+<div
+    className="c0"
+  />,
+]
+`;
+
+exports[`brightness renders object [mediaQueries] 1`] = `
 Array [
   @media May {
   .c0 {
@@ -648,6 +1118,23 @@ Array [
 
 <div
     className="c0"
+  />,
+]
+`;
+
+exports[`brightness renders undefined 1`] = `
+Array [
+  <div
+    className=""
+  />,
+  <div
+    className=""
+  />,
+  <div
+    className=""
+  />,
+  <div
+    className=""
   />,
 ]
 `;

@@ -164,6 +164,239 @@ Array [
 ]
 `;
 
+exports[`transformOrigin renders object [breakpoints + standard] 1`] = `
+Array [
+  .c0 {
+  -webkit-transform-origin: July;
+  -ms-transform-origin: July;
+  transform-origin: July;
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    -webkit-transform-origin: August;
+    -ms-transform-origin: August;
+    transform-origin: August;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    -webkit-transform-origin: September;
+    -ms-transform-origin: September;
+    transform-origin: September;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    -webkit-transform-origin: November;
+    -ms-transform-origin: November;
+    transform-origin: November;
+  }
+}
+
+@media screen and (min-width:August) {
+  .c0 {
+    -webkit-transform-origin: August;
+    -ms-transform-origin: August;
+    transform-origin: August;
+  }
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:August) {
+
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-transform-origin: July;
+  -ms-transform-origin: July;
+  transform-origin: July;
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    -webkit-transform-origin: August;
+    -ms-transform-origin: August;
+    transform-origin: August;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    -webkit-transform-origin: September;
+    -ms-transform-origin: September;
+    transform-origin: September;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    -webkit-transform-origin: November;
+    -ms-transform-origin: November;
+    transform-origin: November;
+  }
+}
+
+@media screen and (min-width:August) {
+  .c0 {
+    -webkit-transform-origin: August;
+    -ms-transform-origin: August;
+    transform-origin: August;
+  }
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:August) {
+
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-transform-origin: January;
+  -ms-transform-origin: January;
+  transform-origin: January;
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:August) {
+
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    -webkit-transform-origin: December;
+    -ms-transform-origin: December;
+    transform-origin: December;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    -webkit-transform-origin: April;
+    -ms-transform-origin: April;
+    transform-origin: April;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    -webkit-transform-origin: May;
+    -ms-transform-origin: May;
+    transform-origin: May;
+  }
+}
+
+@media screen and (min-width:August) {
+  .c0 {
+    -webkit-transform-origin: June;
+    -ms-transform-origin: June;
+    transform-origin: June;
+  }
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-transform-origin: January;
+  -ms-transform-origin: January;
+  transform-origin: January;
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:August) {
+
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    -webkit-transform-origin: December;
+    -ms-transform-origin: December;
+    transform-origin: December;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    -webkit-transform-origin: April;
+    -ms-transform-origin: April;
+    transform-origin: April;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    -webkit-transform-origin: May;
+    -ms-transform-origin: May;
+    transform-origin: May;
+  }
+}
+
+@media screen and (min-width:August) {
+  .c0 {
+    -webkit-transform-origin: June;
+    -ms-transform-origin: June;
+    transform-origin: June;
+  }
+}
+
+<div
+    className="c0"
+  />,
+]
+`;
+
 exports[`transformOrigin renders object [breakpoints] 1`] = `
 Array [
   @media screen and (min-width:November) {
@@ -373,7 +606,288 @@ Array [
 ]
 `;
 
-exports[`transformOrigin renders object [breakpoints] 2`] = `
+exports[`transformOrigin renders object [mediaQueries + standart] 1`] = `
+Array [
+  .c0 {
+  -webkit-transform-origin: July;
+  -ms-transform-origin: July;
+  transform-origin: July;
+}
+
+@media May {
+  .c0 {
+    -webkit-transform-origin: August;
+    -ms-transform-origin: August;
+    transform-origin: August;
+  }
+}
+
+@media April {
+  .c0 {
+    -webkit-transform-origin: September;
+    -ms-transform-origin: September;
+    transform-origin: September;
+  }
+}
+
+@media January {
+  .c0 {
+    -webkit-transform-origin: November;
+    -ms-transform-origin: November;
+    transform-origin: November;
+  }
+}
+
+@media April {
+  .c0 {
+    -webkit-transform-origin: August;
+    -ms-transform-origin: August;
+    transform-origin: August;
+  }
+}
+
+@media June {
+  .c0 {
+    -webkit-transform-origin: November;
+    -ms-transform-origin: November;
+    transform-origin: November;
+  }
+}
+
+@media May {
+
+}
+
+@media April {
+
+}
+
+@media January {
+
+}
+
+@media April {
+
+}
+
+@media June {
+
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-transform-origin: July;
+  -ms-transform-origin: July;
+  transform-origin: July;
+}
+
+@media May {
+  .c0 {
+    -webkit-transform-origin: August;
+    -ms-transform-origin: August;
+    transform-origin: August;
+  }
+}
+
+@media April {
+  .c0 {
+    -webkit-transform-origin: September;
+    -ms-transform-origin: September;
+    transform-origin: September;
+  }
+}
+
+@media January {
+  .c0 {
+    -webkit-transform-origin: November;
+    -ms-transform-origin: November;
+    transform-origin: November;
+  }
+}
+
+@media April {
+  .c0 {
+    -webkit-transform-origin: August;
+    -ms-transform-origin: August;
+    transform-origin: August;
+  }
+}
+
+@media June {
+  .c0 {
+    -webkit-transform-origin: November;
+    -ms-transform-origin: November;
+    transform-origin: November;
+  }
+}
+
+@media May {
+
+}
+
+@media April {
+
+}
+
+@media January {
+
+}
+
+@media April {
+
+}
+
+@media June {
+
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-transform-origin: April;
+  -ms-transform-origin: April;
+  transform-origin: April;
+}
+
+@media May {
+
+}
+
+@media April {
+
+}
+
+@media January {
+
+}
+
+@media April {
+
+}
+
+@media June {
+
+}
+
+@media May {
+  .c0 {
+    -webkit-transform-origin: November;
+    -ms-transform-origin: November;
+    transform-origin: November;
+  }
+}
+
+@media April {
+  .c0 {
+    -webkit-transform-origin: January;
+    -ms-transform-origin: January;
+    transform-origin: January;
+  }
+}
+
+@media January {
+  .c0 {
+    -webkit-transform-origin: December;
+    -ms-transform-origin: December;
+    transform-origin: December;
+  }
+}
+
+@media April {
+  .c0 {
+    -webkit-transform-origin: April;
+    -ms-transform-origin: April;
+    transform-origin: April;
+  }
+}
+
+@media June {
+  .c0 {
+    -webkit-transform-origin: May;
+    -ms-transform-origin: May;
+    transform-origin: May;
+  }
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-transform-origin: April;
+  -ms-transform-origin: April;
+  transform-origin: April;
+}
+
+@media May {
+
+}
+
+@media April {
+
+}
+
+@media January {
+
+}
+
+@media April {
+
+}
+
+@media June {
+
+}
+
+@media May {
+  .c0 {
+    -webkit-transform-origin: November;
+    -ms-transform-origin: November;
+    transform-origin: November;
+  }
+}
+
+@media April {
+  .c0 {
+    -webkit-transform-origin: January;
+    -ms-transform-origin: January;
+    transform-origin: January;
+  }
+}
+
+@media January {
+  .c0 {
+    -webkit-transform-origin: December;
+    -ms-transform-origin: December;
+    transform-origin: December;
+  }
+}
+
+@media April {
+  .c0 {
+    -webkit-transform-origin: April;
+    -ms-transform-origin: April;
+    transform-origin: April;
+  }
+}
+
+@media June {
+  .c0 {
+    -webkit-transform-origin: May;
+    -ms-transform-origin: May;
+    transform-origin: May;
+  }
+}
+
+<div
+    className="c0"
+  />,
+]
+`;
+
+exports[`transformOrigin renders object [mediaQueries] 1`] = `
 Array [
   @media May {
   .c0 {
@@ -708,6 +1222,23 @@ Array [
 
 <div
     className="c0"
+  />,
+]
+`;
+
+exports[`transformOrigin renders undefined 1`] = `
+Array [
+  <div
+    className=""
+  />,
+  <div
+    className=""
+  />,
+  <div
+    className=""
+  />,
+  <div
+    className=""
   />,
 ]
 `;

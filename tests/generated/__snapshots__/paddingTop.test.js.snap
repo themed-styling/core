@@ -132,6 +132,199 @@ Array [
 ]
 `;
 
+exports[`paddingTop renders object [breakpoints + standard] 1`] = `
+Array [
+  .c0 {
+  padding-top: July;
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    padding-top: August;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    padding-top: September;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    padding-top: November;
+  }
+}
+
+@media screen and (min-width:August) {
+  .c0 {
+    padding-top: August;
+  }
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:August) {
+
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  padding-top: July;
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    padding-top: August;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    padding-top: September;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    padding-top: November;
+  }
+}
+
+@media screen and (min-width:August) {
+  .c0 {
+    padding-top: August;
+  }
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:August) {
+
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  padding-top: January;
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:August) {
+
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    padding-top: December;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    padding-top: April;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    padding-top: May;
+  }
+}
+
+@media screen and (min-width:August) {
+  .c0 {
+    padding-top: June;
+  }
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  padding-top: January;
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:August) {
+
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    padding-top: December;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    padding-top: April;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    padding-top: May;
+  }
+}
+
+@media screen and (min-width:August) {
+  .c0 {
+    padding-top: June;
+  }
+}
+
+<div
+    className="c0"
+  />,
+]
+`;
+
 exports[`paddingTop renders object [breakpoints] 1`] = `
 Array [
   @media screen and (min-width:November) {
@@ -309,7 +502,240 @@ Array [
 ]
 `;
 
-exports[`paddingTop renders object [breakpoints] 2`] = `
+exports[`paddingTop renders object [mediaQueries + standart] 1`] = `
+Array [
+  .c0 {
+  padding-top: July;
+}
+
+@media May {
+  .c0 {
+    padding-top: August;
+  }
+}
+
+@media April {
+  .c0 {
+    padding-top: September;
+  }
+}
+
+@media January {
+  .c0 {
+    padding-top: November;
+  }
+}
+
+@media April {
+  .c0 {
+    padding-top: August;
+  }
+}
+
+@media June {
+  .c0 {
+    padding-top: November;
+  }
+}
+
+@media May {
+
+}
+
+@media April {
+
+}
+
+@media January {
+
+}
+
+@media April {
+
+}
+
+@media June {
+
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  padding-top: July;
+}
+
+@media May {
+  .c0 {
+    padding-top: August;
+  }
+}
+
+@media April {
+  .c0 {
+    padding-top: September;
+  }
+}
+
+@media January {
+  .c0 {
+    padding-top: November;
+  }
+}
+
+@media April {
+  .c0 {
+    padding-top: August;
+  }
+}
+
+@media June {
+  .c0 {
+    padding-top: November;
+  }
+}
+
+@media May {
+
+}
+
+@media April {
+
+}
+
+@media January {
+
+}
+
+@media April {
+
+}
+
+@media June {
+
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  padding-top: April;
+}
+
+@media May {
+
+}
+
+@media April {
+
+}
+
+@media January {
+
+}
+
+@media April {
+
+}
+
+@media June {
+
+}
+
+@media May {
+  .c0 {
+    padding-top: November;
+  }
+}
+
+@media April {
+  .c0 {
+    padding-top: January;
+  }
+}
+
+@media January {
+  .c0 {
+    padding-top: December;
+  }
+}
+
+@media April {
+  .c0 {
+    padding-top: April;
+  }
+}
+
+@media June {
+  .c0 {
+    padding-top: May;
+  }
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  padding-top: April;
+}
+
+@media May {
+
+}
+
+@media April {
+
+}
+
+@media January {
+
+}
+
+@media April {
+
+}
+
+@media June {
+
+}
+
+@media May {
+  .c0 {
+    padding-top: November;
+  }
+}
+
+@media April {
+  .c0 {
+    padding-top: January;
+  }
+}
+
+@media January {
+  .c0 {
+    padding-top: December;
+  }
+}
+
+@media April {
+  .c0 {
+    padding-top: April;
+  }
+}
+
+@media June {
+  .c0 {
+    padding-top: May;
+  }
+}
+
+<div
+    className="c0"
+  />,
+]
+`;
+
+exports[`paddingTop renders object [mediaQueries] 1`] = `
 Array [
   @media May {
   .c0 {
@@ -588,6 +1014,23 @@ Array [
 
 <div
     className="c0"
+  />,
+]
+`;
+
+exports[`paddingTop renders undefined 1`] = `
+Array [
+  <div
+    className=""
+  />,
+  <div
+    className=""
+  />,
+  <div
+    className=""
+  />,
+  <div
+    className=""
   />,
 ]
 `;

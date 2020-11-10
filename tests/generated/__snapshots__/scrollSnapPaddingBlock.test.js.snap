@@ -180,6 +180,259 @@ Array [
 ]
 `;
 
+exports[`scrollSnapPaddingBlock renders object [breakpoints + standard] 1`] = `
+Array [
+  .c0 {
+  -webkit-scroll-snap-padding-block: July;
+  -moz-scroll-snap-padding-block: July;
+  -ms-scroll-snap-padding-block: July;
+  scroll-snap-padding-block: July;
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    -webkit-scroll-snap-padding-block: August;
+    -moz-scroll-snap-padding-block: August;
+    -ms-scroll-snap-padding-block: August;
+    scroll-snap-padding-block: August;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    -webkit-scroll-snap-padding-block: September;
+    -moz-scroll-snap-padding-block: September;
+    -ms-scroll-snap-padding-block: September;
+    scroll-snap-padding-block: September;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    -webkit-scroll-snap-padding-block: November;
+    -moz-scroll-snap-padding-block: November;
+    -ms-scroll-snap-padding-block: November;
+    scroll-snap-padding-block: November;
+  }
+}
+
+@media screen and (min-width:August) {
+  .c0 {
+    -webkit-scroll-snap-padding-block: August;
+    -moz-scroll-snap-padding-block: August;
+    -ms-scroll-snap-padding-block: August;
+    scroll-snap-padding-block: August;
+  }
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:August) {
+
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-scroll-snap-padding-block: July;
+  -moz-scroll-snap-padding-block: July;
+  -ms-scroll-snap-padding-block: July;
+  scroll-snap-padding-block: July;
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    -webkit-scroll-snap-padding-block: August;
+    -moz-scroll-snap-padding-block: August;
+    -ms-scroll-snap-padding-block: August;
+    scroll-snap-padding-block: August;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    -webkit-scroll-snap-padding-block: September;
+    -moz-scroll-snap-padding-block: September;
+    -ms-scroll-snap-padding-block: September;
+    scroll-snap-padding-block: September;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    -webkit-scroll-snap-padding-block: November;
+    -moz-scroll-snap-padding-block: November;
+    -ms-scroll-snap-padding-block: November;
+    scroll-snap-padding-block: November;
+  }
+}
+
+@media screen and (min-width:August) {
+  .c0 {
+    -webkit-scroll-snap-padding-block: August;
+    -moz-scroll-snap-padding-block: August;
+    -ms-scroll-snap-padding-block: August;
+    scroll-snap-padding-block: August;
+  }
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:August) {
+
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-scroll-snap-padding-block: January;
+  -moz-scroll-snap-padding-block: January;
+  -ms-scroll-snap-padding-block: January;
+  scroll-snap-padding-block: January;
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:August) {
+
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    -webkit-scroll-snap-padding-block: December;
+    -moz-scroll-snap-padding-block: December;
+    -ms-scroll-snap-padding-block: December;
+    scroll-snap-padding-block: December;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    -webkit-scroll-snap-padding-block: April;
+    -moz-scroll-snap-padding-block: April;
+    -ms-scroll-snap-padding-block: April;
+    scroll-snap-padding-block: April;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    -webkit-scroll-snap-padding-block: May;
+    -moz-scroll-snap-padding-block: May;
+    -ms-scroll-snap-padding-block: May;
+    scroll-snap-padding-block: May;
+  }
+}
+
+@media screen and (min-width:August) {
+  .c0 {
+    -webkit-scroll-snap-padding-block: June;
+    -moz-scroll-snap-padding-block: June;
+    -ms-scroll-snap-padding-block: June;
+    scroll-snap-padding-block: June;
+  }
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-scroll-snap-padding-block: January;
+  -moz-scroll-snap-padding-block: January;
+  -ms-scroll-snap-padding-block: January;
+  scroll-snap-padding-block: January;
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:August) {
+
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    -webkit-scroll-snap-padding-block: December;
+    -moz-scroll-snap-padding-block: December;
+    -ms-scroll-snap-padding-block: December;
+    scroll-snap-padding-block: December;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    -webkit-scroll-snap-padding-block: April;
+    -moz-scroll-snap-padding-block: April;
+    -ms-scroll-snap-padding-block: April;
+    scroll-snap-padding-block: April;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    -webkit-scroll-snap-padding-block: May;
+    -moz-scroll-snap-padding-block: May;
+    -ms-scroll-snap-padding-block: May;
+    scroll-snap-padding-block: May;
+  }
+}
+
+@media screen and (min-width:August) {
+  .c0 {
+    -webkit-scroll-snap-padding-block: June;
+    -moz-scroll-snap-padding-block: June;
+    -ms-scroll-snap-padding-block: June;
+    scroll-snap-padding-block: June;
+  }
+}
+
+<div
+    className="c0"
+  />,
+]
+`;
+
 exports[`scrollSnapPaddingBlock renders object [breakpoints] 1`] = `
 Array [
   @media screen and (min-width:November) {
@@ -405,7 +658,312 @@ Array [
 ]
 `;
 
-exports[`scrollSnapPaddingBlock renders object [breakpoints] 2`] = `
+exports[`scrollSnapPaddingBlock renders object [mediaQueries + standart] 1`] = `
+Array [
+  .c0 {
+  -webkit-scroll-snap-padding-block: July;
+  -moz-scroll-snap-padding-block: July;
+  -ms-scroll-snap-padding-block: July;
+  scroll-snap-padding-block: July;
+}
+
+@media May {
+  .c0 {
+    -webkit-scroll-snap-padding-block: August;
+    -moz-scroll-snap-padding-block: August;
+    -ms-scroll-snap-padding-block: August;
+    scroll-snap-padding-block: August;
+  }
+}
+
+@media April {
+  .c0 {
+    -webkit-scroll-snap-padding-block: September;
+    -moz-scroll-snap-padding-block: September;
+    -ms-scroll-snap-padding-block: September;
+    scroll-snap-padding-block: September;
+  }
+}
+
+@media January {
+  .c0 {
+    -webkit-scroll-snap-padding-block: November;
+    -moz-scroll-snap-padding-block: November;
+    -ms-scroll-snap-padding-block: November;
+    scroll-snap-padding-block: November;
+  }
+}
+
+@media April {
+  .c0 {
+    -webkit-scroll-snap-padding-block: August;
+    -moz-scroll-snap-padding-block: August;
+    -ms-scroll-snap-padding-block: August;
+    scroll-snap-padding-block: August;
+  }
+}
+
+@media June {
+  .c0 {
+    -webkit-scroll-snap-padding-block: November;
+    -moz-scroll-snap-padding-block: November;
+    -ms-scroll-snap-padding-block: November;
+    scroll-snap-padding-block: November;
+  }
+}
+
+@media May {
+
+}
+
+@media April {
+
+}
+
+@media January {
+
+}
+
+@media April {
+
+}
+
+@media June {
+
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-scroll-snap-padding-block: July;
+  -moz-scroll-snap-padding-block: July;
+  -ms-scroll-snap-padding-block: July;
+  scroll-snap-padding-block: July;
+}
+
+@media May {
+  .c0 {
+    -webkit-scroll-snap-padding-block: August;
+    -moz-scroll-snap-padding-block: August;
+    -ms-scroll-snap-padding-block: August;
+    scroll-snap-padding-block: August;
+  }
+}
+
+@media April {
+  .c0 {
+    -webkit-scroll-snap-padding-block: September;
+    -moz-scroll-snap-padding-block: September;
+    -ms-scroll-snap-padding-block: September;
+    scroll-snap-padding-block: September;
+  }
+}
+
+@media January {
+  .c0 {
+    -webkit-scroll-snap-padding-block: November;
+    -moz-scroll-snap-padding-block: November;
+    -ms-scroll-snap-padding-block: November;
+    scroll-snap-padding-block: November;
+  }
+}
+
+@media April {
+  .c0 {
+    -webkit-scroll-snap-padding-block: August;
+    -moz-scroll-snap-padding-block: August;
+    -ms-scroll-snap-padding-block: August;
+    scroll-snap-padding-block: August;
+  }
+}
+
+@media June {
+  .c0 {
+    -webkit-scroll-snap-padding-block: November;
+    -moz-scroll-snap-padding-block: November;
+    -ms-scroll-snap-padding-block: November;
+    scroll-snap-padding-block: November;
+  }
+}
+
+@media May {
+
+}
+
+@media April {
+
+}
+
+@media January {
+
+}
+
+@media April {
+
+}
+
+@media June {
+
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-scroll-snap-padding-block: April;
+  -moz-scroll-snap-padding-block: April;
+  -ms-scroll-snap-padding-block: April;
+  scroll-snap-padding-block: April;
+}
+
+@media May {
+
+}
+
+@media April {
+
+}
+
+@media January {
+
+}
+
+@media April {
+
+}
+
+@media June {
+
+}
+
+@media May {
+  .c0 {
+    -webkit-scroll-snap-padding-block: November;
+    -moz-scroll-snap-padding-block: November;
+    -ms-scroll-snap-padding-block: November;
+    scroll-snap-padding-block: November;
+  }
+}
+
+@media April {
+  .c0 {
+    -webkit-scroll-snap-padding-block: January;
+    -moz-scroll-snap-padding-block: January;
+    -ms-scroll-snap-padding-block: January;
+    scroll-snap-padding-block: January;
+  }
+}
+
+@media January {
+  .c0 {
+    -webkit-scroll-snap-padding-block: December;
+    -moz-scroll-snap-padding-block: December;
+    -ms-scroll-snap-padding-block: December;
+    scroll-snap-padding-block: December;
+  }
+}
+
+@media April {
+  .c0 {
+    -webkit-scroll-snap-padding-block: April;
+    -moz-scroll-snap-padding-block: April;
+    -ms-scroll-snap-padding-block: April;
+    scroll-snap-padding-block: April;
+  }
+}
+
+@media June {
+  .c0 {
+    -webkit-scroll-snap-padding-block: May;
+    -moz-scroll-snap-padding-block: May;
+    -ms-scroll-snap-padding-block: May;
+    scroll-snap-padding-block: May;
+  }
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-scroll-snap-padding-block: April;
+  -moz-scroll-snap-padding-block: April;
+  -ms-scroll-snap-padding-block: April;
+  scroll-snap-padding-block: April;
+}
+
+@media May {
+
+}
+
+@media April {
+
+}
+
+@media January {
+
+}
+
+@media April {
+
+}
+
+@media June {
+
+}
+
+@media May {
+  .c0 {
+    -webkit-scroll-snap-padding-block: November;
+    -moz-scroll-snap-padding-block: November;
+    -ms-scroll-snap-padding-block: November;
+    scroll-snap-padding-block: November;
+  }
+}
+
+@media April {
+  .c0 {
+    -webkit-scroll-snap-padding-block: January;
+    -moz-scroll-snap-padding-block: January;
+    -ms-scroll-snap-padding-block: January;
+    scroll-snap-padding-block: January;
+  }
+}
+
+@media January {
+  .c0 {
+    -webkit-scroll-snap-padding-block: December;
+    -moz-scroll-snap-padding-block: December;
+    -ms-scroll-snap-padding-block: December;
+    scroll-snap-padding-block: December;
+  }
+}
+
+@media April {
+  .c0 {
+    -webkit-scroll-snap-padding-block: April;
+    -moz-scroll-snap-padding-block: April;
+    -ms-scroll-snap-padding-block: April;
+    scroll-snap-padding-block: April;
+  }
+}
+
+@media June {
+  .c0 {
+    -webkit-scroll-snap-padding-block: May;
+    -moz-scroll-snap-padding-block: May;
+    -ms-scroll-snap-padding-block: May;
+    scroll-snap-padding-block: May;
+  }
+}
+
+<div
+    className="c0"
+  />,
+]
+`;
+
+exports[`scrollSnapPaddingBlock renders object [mediaQueries] 1`] = `
 Array [
   @media May {
   .c0 {
@@ -768,6 +1326,23 @@ Array [
 
 <div
     className="c0"
+  />,
+]
+`;
+
+exports[`scrollSnapPaddingBlock renders undefined 1`] = `
+Array [
+  <div
+    className=""
+  />,
+  <div
+    className=""
+  />,
+  <div
+    className=""
+  />,
+  <div
+    className=""
   />,
 ]
 `;

@@ -164,6 +164,239 @@ Array [
 ]
 `;
 
+exports[`alignContent renders object [breakpoints + standard] 1`] = `
+Array [
+  .c0 {
+  -webkit-align-content: July;
+  -ms-flex-line-pack: July;
+  align-content: July;
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    -webkit-align-content: August;
+    -ms-flex-line-pack: August;
+    align-content: August;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    -webkit-align-content: September;
+    -ms-flex-line-pack: September;
+    align-content: September;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    -webkit-align-content: November;
+    -ms-flex-line-pack: November;
+    align-content: November;
+  }
+}
+
+@media screen and (min-width:August) {
+  .c0 {
+    -webkit-align-content: August;
+    -ms-flex-line-pack: August;
+    align-content: August;
+  }
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:August) {
+
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-align-content: July;
+  -ms-flex-line-pack: July;
+  align-content: July;
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    -webkit-align-content: August;
+    -ms-flex-line-pack: August;
+    align-content: August;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    -webkit-align-content: September;
+    -ms-flex-line-pack: September;
+    align-content: September;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    -webkit-align-content: November;
+    -ms-flex-line-pack: November;
+    align-content: November;
+  }
+}
+
+@media screen and (min-width:August) {
+  .c0 {
+    -webkit-align-content: August;
+    -ms-flex-line-pack: August;
+    align-content: August;
+  }
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:August) {
+
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-align-content: January;
+  -ms-flex-line-pack: January;
+  align-content: January;
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:August) {
+
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    -webkit-align-content: December;
+    -ms-flex-line-pack: December;
+    align-content: December;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    -webkit-align-content: April;
+    -ms-flex-line-pack: April;
+    align-content: April;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    -webkit-align-content: May;
+    -ms-flex-line-pack: May;
+    align-content: May;
+  }
+}
+
+@media screen and (min-width:August) {
+  .c0 {
+    -webkit-align-content: June;
+    -ms-flex-line-pack: June;
+    align-content: June;
+  }
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-align-content: January;
+  -ms-flex-line-pack: January;
+  align-content: January;
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:August) {
+
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    -webkit-align-content: December;
+    -ms-flex-line-pack: December;
+    align-content: December;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    -webkit-align-content: April;
+    -ms-flex-line-pack: April;
+    align-content: April;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    -webkit-align-content: May;
+    -ms-flex-line-pack: May;
+    align-content: May;
+  }
+}
+
+@media screen and (min-width:August) {
+  .c0 {
+    -webkit-align-content: June;
+    -ms-flex-line-pack: June;
+    align-content: June;
+  }
+}
+
+<div
+    className="c0"
+  />,
+]
+`;
+
 exports[`alignContent renders object [breakpoints] 1`] = `
 Array [
   @media screen and (min-width:November) {
@@ -373,7 +606,288 @@ Array [
 ]
 `;
 
-exports[`alignContent renders object [breakpoints] 2`] = `
+exports[`alignContent renders object [mediaQueries + standart] 1`] = `
+Array [
+  .c0 {
+  -webkit-align-content: July;
+  -ms-flex-line-pack: July;
+  align-content: July;
+}
+
+@media May {
+  .c0 {
+    -webkit-align-content: August;
+    -ms-flex-line-pack: August;
+    align-content: August;
+  }
+}
+
+@media April {
+  .c0 {
+    -webkit-align-content: September;
+    -ms-flex-line-pack: September;
+    align-content: September;
+  }
+}
+
+@media January {
+  .c0 {
+    -webkit-align-content: November;
+    -ms-flex-line-pack: November;
+    align-content: November;
+  }
+}
+
+@media April {
+  .c0 {
+    -webkit-align-content: August;
+    -ms-flex-line-pack: August;
+    align-content: August;
+  }
+}
+
+@media June {
+  .c0 {
+    -webkit-align-content: November;
+    -ms-flex-line-pack: November;
+    align-content: November;
+  }
+}
+
+@media May {
+
+}
+
+@media April {
+
+}
+
+@media January {
+
+}
+
+@media April {
+
+}
+
+@media June {
+
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-align-content: July;
+  -ms-flex-line-pack: July;
+  align-content: July;
+}
+
+@media May {
+  .c0 {
+    -webkit-align-content: August;
+    -ms-flex-line-pack: August;
+    align-content: August;
+  }
+}
+
+@media April {
+  .c0 {
+    -webkit-align-content: September;
+    -ms-flex-line-pack: September;
+    align-content: September;
+  }
+}
+
+@media January {
+  .c0 {
+    -webkit-align-content: November;
+    -ms-flex-line-pack: November;
+    align-content: November;
+  }
+}
+
+@media April {
+  .c0 {
+    -webkit-align-content: August;
+    -ms-flex-line-pack: August;
+    align-content: August;
+  }
+}
+
+@media June {
+  .c0 {
+    -webkit-align-content: November;
+    -ms-flex-line-pack: November;
+    align-content: November;
+  }
+}
+
+@media May {
+
+}
+
+@media April {
+
+}
+
+@media January {
+
+}
+
+@media April {
+
+}
+
+@media June {
+
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-align-content: April;
+  -ms-flex-line-pack: April;
+  align-content: April;
+}
+
+@media May {
+
+}
+
+@media April {
+
+}
+
+@media January {
+
+}
+
+@media April {
+
+}
+
+@media June {
+
+}
+
+@media May {
+  .c0 {
+    -webkit-align-content: November;
+    -ms-flex-line-pack: November;
+    align-content: November;
+  }
+}
+
+@media April {
+  .c0 {
+    -webkit-align-content: January;
+    -ms-flex-line-pack: January;
+    align-content: January;
+  }
+}
+
+@media January {
+  .c0 {
+    -webkit-align-content: December;
+    -ms-flex-line-pack: December;
+    align-content: December;
+  }
+}
+
+@media April {
+  .c0 {
+    -webkit-align-content: April;
+    -ms-flex-line-pack: April;
+    align-content: April;
+  }
+}
+
+@media June {
+  .c0 {
+    -webkit-align-content: May;
+    -ms-flex-line-pack: May;
+    align-content: May;
+  }
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-align-content: April;
+  -ms-flex-line-pack: April;
+  align-content: April;
+}
+
+@media May {
+
+}
+
+@media April {
+
+}
+
+@media January {
+
+}
+
+@media April {
+
+}
+
+@media June {
+
+}
+
+@media May {
+  .c0 {
+    -webkit-align-content: November;
+    -ms-flex-line-pack: November;
+    align-content: November;
+  }
+}
+
+@media April {
+  .c0 {
+    -webkit-align-content: January;
+    -ms-flex-line-pack: January;
+    align-content: January;
+  }
+}
+
+@media January {
+  .c0 {
+    -webkit-align-content: December;
+    -ms-flex-line-pack: December;
+    align-content: December;
+  }
+}
+
+@media April {
+  .c0 {
+    -webkit-align-content: April;
+    -ms-flex-line-pack: April;
+    align-content: April;
+  }
+}
+
+@media June {
+  .c0 {
+    -webkit-align-content: May;
+    -ms-flex-line-pack: May;
+    align-content: May;
+  }
+}
+
+<div
+    className="c0"
+  />,
+]
+`;
+
+exports[`alignContent renders object [mediaQueries] 1`] = `
 Array [
   @media May {
   .c0 {
@@ -708,6 +1222,23 @@ Array [
 
 <div
     className="c0"
+  />,
+]
+`;
+
+exports[`alignContent renders undefined 1`] = `
+Array [
+  <div
+    className=""
+  />,
+  <div
+    className=""
+  />,
+  <div
+    className=""
+  />,
+  <div
+    className=""
   />,
 ]
 `;

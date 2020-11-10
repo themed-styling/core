@@ -132,6 +132,199 @@ Array [
 ]
 `;
 
+exports[`overflowInline renders object [breakpoints + standard] 1`] = `
+Array [
+  .c0 {
+  overflow-inline: July;
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    overflow-inline: August;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    overflow-inline: September;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    overflow-inline: November;
+  }
+}
+
+@media screen and (min-width:August) {
+  .c0 {
+    overflow-inline: August;
+  }
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:August) {
+
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  overflow-inline: July;
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    overflow-inline: August;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    overflow-inline: September;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    overflow-inline: November;
+  }
+}
+
+@media screen and (min-width:August) {
+  .c0 {
+    overflow-inline: August;
+  }
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:August) {
+
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  overflow-inline: January;
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:August) {
+
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    overflow-inline: December;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    overflow-inline: April;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    overflow-inline: May;
+  }
+}
+
+@media screen and (min-width:August) {
+  .c0 {
+    overflow-inline: June;
+  }
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  overflow-inline: January;
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:August) {
+
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    overflow-inline: December;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    overflow-inline: April;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    overflow-inline: May;
+  }
+}
+
+@media screen and (min-width:August) {
+  .c0 {
+    overflow-inline: June;
+  }
+}
+
+<div
+    className="c0"
+  />,
+]
+`;
+
 exports[`overflowInline renders object [breakpoints] 1`] = `
 Array [
   @media screen and (min-width:November) {
@@ -309,7 +502,240 @@ Array [
 ]
 `;
 
-exports[`overflowInline renders object [breakpoints] 2`] = `
+exports[`overflowInline renders object [mediaQueries + standart] 1`] = `
+Array [
+  .c0 {
+  overflow-inline: July;
+}
+
+@media May {
+  .c0 {
+    overflow-inline: August;
+  }
+}
+
+@media April {
+  .c0 {
+    overflow-inline: September;
+  }
+}
+
+@media January {
+  .c0 {
+    overflow-inline: November;
+  }
+}
+
+@media April {
+  .c0 {
+    overflow-inline: August;
+  }
+}
+
+@media June {
+  .c0 {
+    overflow-inline: November;
+  }
+}
+
+@media May {
+
+}
+
+@media April {
+
+}
+
+@media January {
+
+}
+
+@media April {
+
+}
+
+@media June {
+
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  overflow-inline: July;
+}
+
+@media May {
+  .c0 {
+    overflow-inline: August;
+  }
+}
+
+@media April {
+  .c0 {
+    overflow-inline: September;
+  }
+}
+
+@media January {
+  .c0 {
+    overflow-inline: November;
+  }
+}
+
+@media April {
+  .c0 {
+    overflow-inline: August;
+  }
+}
+
+@media June {
+  .c0 {
+    overflow-inline: November;
+  }
+}
+
+@media May {
+
+}
+
+@media April {
+
+}
+
+@media January {
+
+}
+
+@media April {
+
+}
+
+@media June {
+
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  overflow-inline: April;
+}
+
+@media May {
+
+}
+
+@media April {
+
+}
+
+@media January {
+
+}
+
+@media April {
+
+}
+
+@media June {
+
+}
+
+@media May {
+  .c0 {
+    overflow-inline: November;
+  }
+}
+
+@media April {
+  .c0 {
+    overflow-inline: January;
+  }
+}
+
+@media January {
+  .c0 {
+    overflow-inline: December;
+  }
+}
+
+@media April {
+  .c0 {
+    overflow-inline: April;
+  }
+}
+
+@media June {
+  .c0 {
+    overflow-inline: May;
+  }
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  overflow-inline: April;
+}
+
+@media May {
+
+}
+
+@media April {
+
+}
+
+@media January {
+
+}
+
+@media April {
+
+}
+
+@media June {
+
+}
+
+@media May {
+  .c0 {
+    overflow-inline: November;
+  }
+}
+
+@media April {
+  .c0 {
+    overflow-inline: January;
+  }
+}
+
+@media January {
+  .c0 {
+    overflow-inline: December;
+  }
+}
+
+@media April {
+  .c0 {
+    overflow-inline: April;
+  }
+}
+
+@media June {
+  .c0 {
+    overflow-inline: May;
+  }
+}
+
+<div
+    className="c0"
+  />,
+]
+`;
+
+exports[`overflowInline renders object [mediaQueries] 1`] = `
 Array [
   @media May {
   .c0 {
@@ -588,6 +1014,23 @@ Array [
 
 <div
     className="c0"
+  />,
+]
+`;
+
+exports[`overflowInline renders undefined 1`] = `
+Array [
+  <div
+    className=""
+  />,
+  <div
+    className=""
+  />,
+  <div
+    className=""
+  />,
+  <div
+    className=""
   />,
 ]
 `;

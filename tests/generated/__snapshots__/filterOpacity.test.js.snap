@@ -148,6 +148,219 @@ Array [
 ]
 `;
 
+exports[`filterOpacity renders object [breakpoints + standard] 1`] = `
+Array [
+  .c0 {
+  -webkit-filter: opacity(July);
+  filter: opacity(July);
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    -webkit-filter: opacity(August);
+    filter: opacity(August);
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    -webkit-filter: opacity(September);
+    filter: opacity(September);
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    -webkit-filter: opacity(November);
+    filter: opacity(November);
+  }
+}
+
+@media screen and (min-width:August) {
+  .c0 {
+    -webkit-filter: opacity(August);
+    filter: opacity(August);
+  }
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:August) {
+
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-filter: opacity(July);
+  filter: opacity(July);
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    -webkit-filter: opacity(August);
+    filter: opacity(August);
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    -webkit-filter: opacity(September);
+    filter: opacity(September);
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    -webkit-filter: opacity(November);
+    filter: opacity(November);
+  }
+}
+
+@media screen and (min-width:August) {
+  .c0 {
+    -webkit-filter: opacity(August);
+    filter: opacity(August);
+  }
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:August) {
+
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-filter: opacity(January);
+  filter: opacity(January);
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:August) {
+
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    -webkit-filter: opacity(December);
+    filter: opacity(December);
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    -webkit-filter: opacity(April);
+    filter: opacity(April);
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    -webkit-filter: opacity(May);
+    filter: opacity(May);
+  }
+}
+
+@media screen and (min-width:August) {
+  .c0 {
+    -webkit-filter: opacity(June);
+    filter: opacity(June);
+  }
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-filter: opacity(January);
+  filter: opacity(January);
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:August) {
+
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    -webkit-filter: opacity(December);
+    filter: opacity(December);
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    -webkit-filter: opacity(April);
+    filter: opacity(April);
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    -webkit-filter: opacity(May);
+    filter: opacity(May);
+  }
+}
+
+@media screen and (min-width:August) {
+  .c0 {
+    -webkit-filter: opacity(June);
+    filter: opacity(June);
+  }
+}
+
+<div
+    className="c0"
+  />,
+]
+`;
+
 exports[`filterOpacity renders object [breakpoints] 1`] = `
 Array [
   @media screen and (min-width:November) {
@@ -341,7 +554,264 @@ Array [
 ]
 `;
 
-exports[`filterOpacity renders object [breakpoints] 2`] = `
+exports[`filterOpacity renders object [mediaQueries + standart] 1`] = `
+Array [
+  .c0 {
+  -webkit-filter: opacity(July);
+  filter: opacity(July);
+}
+
+@media May {
+  .c0 {
+    -webkit-filter: opacity(August);
+    filter: opacity(August);
+  }
+}
+
+@media April {
+  .c0 {
+    -webkit-filter: opacity(September);
+    filter: opacity(September);
+  }
+}
+
+@media January {
+  .c0 {
+    -webkit-filter: opacity(November);
+    filter: opacity(November);
+  }
+}
+
+@media April {
+  .c0 {
+    -webkit-filter: opacity(August);
+    filter: opacity(August);
+  }
+}
+
+@media June {
+  .c0 {
+    -webkit-filter: opacity(November);
+    filter: opacity(November);
+  }
+}
+
+@media May {
+
+}
+
+@media April {
+
+}
+
+@media January {
+
+}
+
+@media April {
+
+}
+
+@media June {
+
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-filter: opacity(July);
+  filter: opacity(July);
+}
+
+@media May {
+  .c0 {
+    -webkit-filter: opacity(August);
+    filter: opacity(August);
+  }
+}
+
+@media April {
+  .c0 {
+    -webkit-filter: opacity(September);
+    filter: opacity(September);
+  }
+}
+
+@media January {
+  .c0 {
+    -webkit-filter: opacity(November);
+    filter: opacity(November);
+  }
+}
+
+@media April {
+  .c0 {
+    -webkit-filter: opacity(August);
+    filter: opacity(August);
+  }
+}
+
+@media June {
+  .c0 {
+    -webkit-filter: opacity(November);
+    filter: opacity(November);
+  }
+}
+
+@media May {
+
+}
+
+@media April {
+
+}
+
+@media January {
+
+}
+
+@media April {
+
+}
+
+@media June {
+
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-filter: opacity(April);
+  filter: opacity(April);
+}
+
+@media May {
+
+}
+
+@media April {
+
+}
+
+@media January {
+
+}
+
+@media April {
+
+}
+
+@media June {
+
+}
+
+@media May {
+  .c0 {
+    -webkit-filter: opacity(November);
+    filter: opacity(November);
+  }
+}
+
+@media April {
+  .c0 {
+    -webkit-filter: opacity(January);
+    filter: opacity(January);
+  }
+}
+
+@media January {
+  .c0 {
+    -webkit-filter: opacity(December);
+    filter: opacity(December);
+  }
+}
+
+@media April {
+  .c0 {
+    -webkit-filter: opacity(April);
+    filter: opacity(April);
+  }
+}
+
+@media June {
+  .c0 {
+    -webkit-filter: opacity(May);
+    filter: opacity(May);
+  }
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-filter: opacity(April);
+  filter: opacity(April);
+}
+
+@media May {
+
+}
+
+@media April {
+
+}
+
+@media January {
+
+}
+
+@media April {
+
+}
+
+@media June {
+
+}
+
+@media May {
+  .c0 {
+    -webkit-filter: opacity(November);
+    filter: opacity(November);
+  }
+}
+
+@media April {
+  .c0 {
+    -webkit-filter: opacity(January);
+    filter: opacity(January);
+  }
+}
+
+@media January {
+  .c0 {
+    -webkit-filter: opacity(December);
+    filter: opacity(December);
+  }
+}
+
+@media April {
+  .c0 {
+    -webkit-filter: opacity(April);
+    filter: opacity(April);
+  }
+}
+
+@media June {
+  .c0 {
+    -webkit-filter: opacity(May);
+    filter: opacity(May);
+  }
+}
+
+<div
+    className="c0"
+  />,
+]
+`;
+
+exports[`filterOpacity renders object [mediaQueries] 1`] = `
 Array [
   @media May {
   .c0 {
@@ -648,6 +1118,23 @@ Array [
 
 <div
     className="c0"
+  />,
+]
+`;
+
+exports[`filterOpacity renders undefined 1`] = `
+Array [
+  <div
+    className=""
+  />,
+  <div
+    className=""
+  />,
+  <div
+    className=""
+  />,
+  <div
+    className=""
   />,
 ]
 `;

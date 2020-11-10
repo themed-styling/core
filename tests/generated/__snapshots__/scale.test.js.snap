@@ -164,6 +164,239 @@ Array [
 ]
 `;
 
+exports[`scale renders object [breakpoints + standard] 1`] = `
+Array [
+  .c0 {
+  -webkit-transform: scale(July);
+  -ms-transform: scale(July);
+  transform: scale(July);
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    -webkit-transform: scale(August);
+    -ms-transform: scale(August);
+    transform: scale(August);
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    -webkit-transform: scale(September);
+    -ms-transform: scale(September);
+    transform: scale(September);
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    -webkit-transform: scale(November);
+    -ms-transform: scale(November);
+    transform: scale(November);
+  }
+}
+
+@media screen and (min-width:August) {
+  .c0 {
+    -webkit-transform: scale(August);
+    -ms-transform: scale(August);
+    transform: scale(August);
+  }
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:August) {
+
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-transform: scale(July);
+  -ms-transform: scale(July);
+  transform: scale(July);
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    -webkit-transform: scale(August);
+    -ms-transform: scale(August);
+    transform: scale(August);
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    -webkit-transform: scale(September);
+    -ms-transform: scale(September);
+    transform: scale(September);
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    -webkit-transform: scale(November);
+    -ms-transform: scale(November);
+    transform: scale(November);
+  }
+}
+
+@media screen and (min-width:August) {
+  .c0 {
+    -webkit-transform: scale(August);
+    -ms-transform: scale(August);
+    transform: scale(August);
+  }
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:August) {
+
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-transform: scale(January);
+  -ms-transform: scale(January);
+  transform: scale(January);
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:August) {
+
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    -webkit-transform: scale(December);
+    -ms-transform: scale(December);
+    transform: scale(December);
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    -webkit-transform: scale(April);
+    -ms-transform: scale(April);
+    transform: scale(April);
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    -webkit-transform: scale(May);
+    -ms-transform: scale(May);
+    transform: scale(May);
+  }
+}
+
+@media screen and (min-width:August) {
+  .c0 {
+    -webkit-transform: scale(June);
+    -ms-transform: scale(June);
+    transform: scale(June);
+  }
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-transform: scale(January);
+  -ms-transform: scale(January);
+  transform: scale(January);
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:August) {
+
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    -webkit-transform: scale(December);
+    -ms-transform: scale(December);
+    transform: scale(December);
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    -webkit-transform: scale(April);
+    -ms-transform: scale(April);
+    transform: scale(April);
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    -webkit-transform: scale(May);
+    -ms-transform: scale(May);
+    transform: scale(May);
+  }
+}
+
+@media screen and (min-width:August) {
+  .c0 {
+    -webkit-transform: scale(June);
+    -ms-transform: scale(June);
+    transform: scale(June);
+  }
+}
+
+<div
+    className="c0"
+  />,
+]
+`;
+
 exports[`scale renders object [breakpoints] 1`] = `
 Array [
   @media screen and (min-width:November) {
@@ -373,7 +606,288 @@ Array [
 ]
 `;
 
-exports[`scale renders object [breakpoints] 2`] = `
+exports[`scale renders object [mediaQueries + standart] 1`] = `
+Array [
+  .c0 {
+  -webkit-transform: scale(July);
+  -ms-transform: scale(July);
+  transform: scale(July);
+}
+
+@media May {
+  .c0 {
+    -webkit-transform: scale(August);
+    -ms-transform: scale(August);
+    transform: scale(August);
+  }
+}
+
+@media April {
+  .c0 {
+    -webkit-transform: scale(September);
+    -ms-transform: scale(September);
+    transform: scale(September);
+  }
+}
+
+@media January {
+  .c0 {
+    -webkit-transform: scale(November);
+    -ms-transform: scale(November);
+    transform: scale(November);
+  }
+}
+
+@media April {
+  .c0 {
+    -webkit-transform: scale(August);
+    -ms-transform: scale(August);
+    transform: scale(August);
+  }
+}
+
+@media June {
+  .c0 {
+    -webkit-transform: scale(November);
+    -ms-transform: scale(November);
+    transform: scale(November);
+  }
+}
+
+@media May {
+
+}
+
+@media April {
+
+}
+
+@media January {
+
+}
+
+@media April {
+
+}
+
+@media June {
+
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-transform: scale(July);
+  -ms-transform: scale(July);
+  transform: scale(July);
+}
+
+@media May {
+  .c0 {
+    -webkit-transform: scale(August);
+    -ms-transform: scale(August);
+    transform: scale(August);
+  }
+}
+
+@media April {
+  .c0 {
+    -webkit-transform: scale(September);
+    -ms-transform: scale(September);
+    transform: scale(September);
+  }
+}
+
+@media January {
+  .c0 {
+    -webkit-transform: scale(November);
+    -ms-transform: scale(November);
+    transform: scale(November);
+  }
+}
+
+@media April {
+  .c0 {
+    -webkit-transform: scale(August);
+    -ms-transform: scale(August);
+    transform: scale(August);
+  }
+}
+
+@media June {
+  .c0 {
+    -webkit-transform: scale(November);
+    -ms-transform: scale(November);
+    transform: scale(November);
+  }
+}
+
+@media May {
+
+}
+
+@media April {
+
+}
+
+@media January {
+
+}
+
+@media April {
+
+}
+
+@media June {
+
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-transform: scale(April);
+  -ms-transform: scale(April);
+  transform: scale(April);
+}
+
+@media May {
+
+}
+
+@media April {
+
+}
+
+@media January {
+
+}
+
+@media April {
+
+}
+
+@media June {
+
+}
+
+@media May {
+  .c0 {
+    -webkit-transform: scale(November);
+    -ms-transform: scale(November);
+    transform: scale(November);
+  }
+}
+
+@media April {
+  .c0 {
+    -webkit-transform: scale(January);
+    -ms-transform: scale(January);
+    transform: scale(January);
+  }
+}
+
+@media January {
+  .c0 {
+    -webkit-transform: scale(December);
+    -ms-transform: scale(December);
+    transform: scale(December);
+  }
+}
+
+@media April {
+  .c0 {
+    -webkit-transform: scale(April);
+    -ms-transform: scale(April);
+    transform: scale(April);
+  }
+}
+
+@media June {
+  .c0 {
+    -webkit-transform: scale(May);
+    -ms-transform: scale(May);
+    transform: scale(May);
+  }
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-transform: scale(April);
+  -ms-transform: scale(April);
+  transform: scale(April);
+}
+
+@media May {
+
+}
+
+@media April {
+
+}
+
+@media January {
+
+}
+
+@media April {
+
+}
+
+@media June {
+
+}
+
+@media May {
+  .c0 {
+    -webkit-transform: scale(November);
+    -ms-transform: scale(November);
+    transform: scale(November);
+  }
+}
+
+@media April {
+  .c0 {
+    -webkit-transform: scale(January);
+    -ms-transform: scale(January);
+    transform: scale(January);
+  }
+}
+
+@media January {
+  .c0 {
+    -webkit-transform: scale(December);
+    -ms-transform: scale(December);
+    transform: scale(December);
+  }
+}
+
+@media April {
+  .c0 {
+    -webkit-transform: scale(April);
+    -ms-transform: scale(April);
+    transform: scale(April);
+  }
+}
+
+@media June {
+  .c0 {
+    -webkit-transform: scale(May);
+    -ms-transform: scale(May);
+    transform: scale(May);
+  }
+}
+
+<div
+    className="c0"
+  />,
+]
+`;
+
+exports[`scale renders object [mediaQueries] 1`] = `
 Array [
   @media May {
   .c0 {
@@ -708,6 +1222,23 @@ Array [
 
 <div
     className="c0"
+  />,
+]
+`;
+
+exports[`scale renders undefined 1`] = `
+Array [
+  <div
+    className=""
+  />,
+  <div
+    className=""
+  />,
+  <div
+    className=""
+  />,
+  <div
+    className=""
   />,
 ]
 `;

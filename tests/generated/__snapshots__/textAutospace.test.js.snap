@@ -132,6 +132,199 @@ Array [
 ]
 `;
 
+exports[`textAutospace renders object [breakpoints + standard] 1`] = `
+Array [
+  .c0 {
+  text-autospace: July;
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    text-autospace: August;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    text-autospace: September;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    text-autospace: November;
+  }
+}
+
+@media screen and (min-width:August) {
+  .c0 {
+    text-autospace: August;
+  }
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:August) {
+
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  text-autospace: July;
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    text-autospace: August;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    text-autospace: September;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    text-autospace: November;
+  }
+}
+
+@media screen and (min-width:August) {
+  .c0 {
+    text-autospace: August;
+  }
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:August) {
+
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  text-autospace: January;
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:August) {
+
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    text-autospace: December;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    text-autospace: April;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    text-autospace: May;
+  }
+}
+
+@media screen and (min-width:August) {
+  .c0 {
+    text-autospace: June;
+  }
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  text-autospace: January;
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:August) {
+
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    text-autospace: December;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    text-autospace: April;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    text-autospace: May;
+  }
+}
+
+@media screen and (min-width:August) {
+  .c0 {
+    text-autospace: June;
+  }
+}
+
+<div
+    className="c0"
+  />,
+]
+`;
+
 exports[`textAutospace renders object [breakpoints] 1`] = `
 Array [
   @media screen and (min-width:November) {
@@ -309,7 +502,240 @@ Array [
 ]
 `;
 
-exports[`textAutospace renders object [breakpoints] 2`] = `
+exports[`textAutospace renders object [mediaQueries + standart] 1`] = `
+Array [
+  .c0 {
+  text-autospace: July;
+}
+
+@media May {
+  .c0 {
+    text-autospace: August;
+  }
+}
+
+@media April {
+  .c0 {
+    text-autospace: September;
+  }
+}
+
+@media January {
+  .c0 {
+    text-autospace: November;
+  }
+}
+
+@media April {
+  .c0 {
+    text-autospace: August;
+  }
+}
+
+@media June {
+  .c0 {
+    text-autospace: November;
+  }
+}
+
+@media May {
+
+}
+
+@media April {
+
+}
+
+@media January {
+
+}
+
+@media April {
+
+}
+
+@media June {
+
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  text-autospace: July;
+}
+
+@media May {
+  .c0 {
+    text-autospace: August;
+  }
+}
+
+@media April {
+  .c0 {
+    text-autospace: September;
+  }
+}
+
+@media January {
+  .c0 {
+    text-autospace: November;
+  }
+}
+
+@media April {
+  .c0 {
+    text-autospace: August;
+  }
+}
+
+@media June {
+  .c0 {
+    text-autospace: November;
+  }
+}
+
+@media May {
+
+}
+
+@media April {
+
+}
+
+@media January {
+
+}
+
+@media April {
+
+}
+
+@media June {
+
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  text-autospace: April;
+}
+
+@media May {
+
+}
+
+@media April {
+
+}
+
+@media January {
+
+}
+
+@media April {
+
+}
+
+@media June {
+
+}
+
+@media May {
+  .c0 {
+    text-autospace: November;
+  }
+}
+
+@media April {
+  .c0 {
+    text-autospace: January;
+  }
+}
+
+@media January {
+  .c0 {
+    text-autospace: December;
+  }
+}
+
+@media April {
+  .c0 {
+    text-autospace: April;
+  }
+}
+
+@media June {
+  .c0 {
+    text-autospace: May;
+  }
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  text-autospace: April;
+}
+
+@media May {
+
+}
+
+@media April {
+
+}
+
+@media January {
+
+}
+
+@media April {
+
+}
+
+@media June {
+
+}
+
+@media May {
+  .c0 {
+    text-autospace: November;
+  }
+}
+
+@media April {
+  .c0 {
+    text-autospace: January;
+  }
+}
+
+@media January {
+  .c0 {
+    text-autospace: December;
+  }
+}
+
+@media April {
+  .c0 {
+    text-autospace: April;
+  }
+}
+
+@media June {
+  .c0 {
+    text-autospace: May;
+  }
+}
+
+<div
+    className="c0"
+  />,
+]
+`;
+
+exports[`textAutospace renders object [mediaQueries] 1`] = `
 Array [
   @media May {
   .c0 {
@@ -588,6 +1014,23 @@ Array [
 
 <div
     className="c0"
+  />,
+]
+`;
+
+exports[`textAutospace renders undefined 1`] = `
+Array [
+  <div
+    className=""
+  />,
+  <div
+    className=""
+  />,
+  <div
+    className=""
+  />,
+  <div
+    className=""
   />,
 ]
 `;

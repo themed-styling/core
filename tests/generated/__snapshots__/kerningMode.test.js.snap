@@ -132,6 +132,199 @@ Array [
 ]
 `;
 
+exports[`kerningMode renders object [breakpoints + standard] 1`] = `
+Array [
+  .c0 {
+  kerning-mode: July;
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    kerning-mode: August;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    kerning-mode: September;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    kerning-mode: November;
+  }
+}
+
+@media screen and (min-width:August) {
+  .c0 {
+    kerning-mode: August;
+  }
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:August) {
+
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  kerning-mode: July;
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    kerning-mode: August;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    kerning-mode: September;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    kerning-mode: November;
+  }
+}
+
+@media screen and (min-width:August) {
+  .c0 {
+    kerning-mode: August;
+  }
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:August) {
+
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  kerning-mode: January;
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:August) {
+
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    kerning-mode: December;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    kerning-mode: April;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    kerning-mode: May;
+  }
+}
+
+@media screen and (min-width:August) {
+  .c0 {
+    kerning-mode: June;
+  }
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  kerning-mode: January;
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:August) {
+
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    kerning-mode: December;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    kerning-mode: April;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    kerning-mode: May;
+  }
+}
+
+@media screen and (min-width:August) {
+  .c0 {
+    kerning-mode: June;
+  }
+}
+
+<div
+    className="c0"
+  />,
+]
+`;
+
 exports[`kerningMode renders object [breakpoints] 1`] = `
 Array [
   @media screen and (min-width:November) {
@@ -309,7 +502,240 @@ Array [
 ]
 `;
 
-exports[`kerningMode renders object [breakpoints] 2`] = `
+exports[`kerningMode renders object [mediaQueries + standart] 1`] = `
+Array [
+  .c0 {
+  kerning-mode: July;
+}
+
+@media May {
+  .c0 {
+    kerning-mode: August;
+  }
+}
+
+@media April {
+  .c0 {
+    kerning-mode: September;
+  }
+}
+
+@media January {
+  .c0 {
+    kerning-mode: November;
+  }
+}
+
+@media April {
+  .c0 {
+    kerning-mode: August;
+  }
+}
+
+@media June {
+  .c0 {
+    kerning-mode: November;
+  }
+}
+
+@media May {
+
+}
+
+@media April {
+
+}
+
+@media January {
+
+}
+
+@media April {
+
+}
+
+@media June {
+
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  kerning-mode: July;
+}
+
+@media May {
+  .c0 {
+    kerning-mode: August;
+  }
+}
+
+@media April {
+  .c0 {
+    kerning-mode: September;
+  }
+}
+
+@media January {
+  .c0 {
+    kerning-mode: November;
+  }
+}
+
+@media April {
+  .c0 {
+    kerning-mode: August;
+  }
+}
+
+@media June {
+  .c0 {
+    kerning-mode: November;
+  }
+}
+
+@media May {
+
+}
+
+@media April {
+
+}
+
+@media January {
+
+}
+
+@media April {
+
+}
+
+@media June {
+
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  kerning-mode: April;
+}
+
+@media May {
+
+}
+
+@media April {
+
+}
+
+@media January {
+
+}
+
+@media April {
+
+}
+
+@media June {
+
+}
+
+@media May {
+  .c0 {
+    kerning-mode: November;
+  }
+}
+
+@media April {
+  .c0 {
+    kerning-mode: January;
+  }
+}
+
+@media January {
+  .c0 {
+    kerning-mode: December;
+  }
+}
+
+@media April {
+  .c0 {
+    kerning-mode: April;
+  }
+}
+
+@media June {
+  .c0 {
+    kerning-mode: May;
+  }
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  kerning-mode: April;
+}
+
+@media May {
+
+}
+
+@media April {
+
+}
+
+@media January {
+
+}
+
+@media April {
+
+}
+
+@media June {
+
+}
+
+@media May {
+  .c0 {
+    kerning-mode: November;
+  }
+}
+
+@media April {
+  .c0 {
+    kerning-mode: January;
+  }
+}
+
+@media January {
+  .c0 {
+    kerning-mode: December;
+  }
+}
+
+@media April {
+  .c0 {
+    kerning-mode: April;
+  }
+}
+
+@media June {
+  .c0 {
+    kerning-mode: May;
+  }
+}
+
+<div
+    className="c0"
+  />,
+]
+`;
+
+exports[`kerningMode renders object [mediaQueries] 1`] = `
 Array [
   @media May {
   .c0 {
@@ -588,6 +1014,23 @@ Array [
 
 <div
     className="c0"
+  />,
+]
+`;
+
+exports[`kerningMode renders undefined 1`] = `
+Array [
+  <div
+    className=""
+  />,
+  <div
+    className=""
+  />,
+  <div
+    className=""
+  />,
+  <div
+    className=""
   />,
 ]
 `;
