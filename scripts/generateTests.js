@@ -7,11 +7,11 @@ const { propType, css, theme: _, ...functions } = core
 
 const template = name => `import 'jest-styled-components'
 
-import { ${name} } from '../src/index.js'
+import { ${name} } from '../../src/index.js'
 
 import {
   testAllOn
-} from './utilities.js'
+} from '../utilities.js'
 
 testAllOn(${name}, '${name}')
 `
