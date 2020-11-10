@@ -87,6 +87,8 @@ const testAllOn = (fn, name, faker = faker_) => {
     faker.seed(seed)
   })
 
+  testFn(fn, name).renders('undefined', () => undefined, faker.random.words)
+
   testFn(fn, name).renders(
     'postitive number',
     () => Math.abs(faker.random.number()),
@@ -187,6 +189,42 @@ const testAllOn = (fn, name, faker = faker_) => {
     const fnValue = ({ testProp }) => (testProp ? 'has' : 'not')
     expect(fn(fnValue)({}).flat(10).join('')).toContain('not')
     expect(fn(fnValue)({ testProp: true }).flat(10).join('')).toContain('has')
+  })
+
+  test(`${name} renames prop`, () => {
+    const prop0 = faker.date.month()
+    const render0 = fn()
+      .propName('differentProp')({ differentProp: prop0 })
+      .flat(10)
+      .join('')
+    expect(render0).toContain(prop0)
+
+    const prop1 = faker.date.month()
+    const render1 = fn()
+      .p('differentProp')({ differentProp: prop1 })
+      .flat(10)
+      .join('')
+    expect(render1).toContain(prop1)
+  })
+
+  test(`${name} adds !important`, () => {
+    const value0 = faker.date.month()
+    const render0 = fn(value0).important()({}).flat(10).join('')
+    expect(render0).toContain(`${value0}!important`)
+
+    const value1 = faker.date.month()
+    const render1 = fn(value1).i()({}).flat(10).join('')
+    expect(render1).toContain(`${value1}!important`)
+  })
+
+  test(`${name} calcs`, () => {
+    const value0 = faker.date.month()
+    const render0 = fn(value0).calc('*2')({}).flat(10).join('')
+    expect(render0).toContain(`calc(${value0}*2)`)
+
+    const value1 = faker.date.month()
+    const render1 = fn(value1).c('*3')({}).flat(10).join('')
+    expect(render1).toContain(`calc(${value1}*3)`)
   })
 }
 
