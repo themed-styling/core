@@ -18,7 +18,7 @@ testAllOn(${name}, '${name}')
 
 for (const name of Object.keys(functions)) {
   fs.writeFileSync(
-    `tests/${name}.component.test.js`,
+    `tests/generated/${name}.test.js`,
     prettier.format(template(name), { ...prettierConfig, parser: 'babel' })
   )
 }
