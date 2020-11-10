@@ -73,14 +73,14 @@ const imports = [
   'degreesTransformer',
 ].map(
   transformer =>
-    `import ${transformer} from './util/transformers/${transformer}'`
+    `import ${transformer} from './util/transformers/${transformer}.js'`
 )
 
 // write file
 fs.writeFileSync(
   'src/lib/filter.js',
   prettier.format(
-    `import core from './util/core'
+    `import core from './util/core.js'
 ${imports.join('\n')}
 
 ${expressions.join('\n')}

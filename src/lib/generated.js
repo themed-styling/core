@@ -1,7 +1,7 @@
-import core from './util/core'
-import plainTransformer from './util/transformers/plainTransformer'
-import colorTransformer from './util/transformers/colorTransformer'
-import pixelsTransformer from './util/transformers/pixelsTransformer'
+import core from './util/core.js'
+import plainTransformer from './util/transformers/plainTransformer.js'
+import colorTransformer from './util/transformers/colorTransformer.js'
+import pixelsTransformer from './util/transformers/pixelsTransformer.js'
 
 export const alignContent = core(
   'alignContent',

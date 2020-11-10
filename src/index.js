@@ -70,9 +70,9 @@
  * @returns {array.<(string|number|bigint)>} An array that represents a line of CSS code when joined
  */
 
-export * from './lib/generated'
-export * from './lib/filter'
-export * from './lib/transform'
-export { default as css } from './lib/css'
-export { default as propType } from './lib/propType'
-export { default as theme } from './lib/theme'
+export * from './lib/generated.js'
+export * from './lib/filter.js'
+export * from './lib/transform.js'
+export { default as css } from './lib/css.js'
+export { default as propType } from './lib/propType.js'
+export { default as theme } from './lib/theme.js'
