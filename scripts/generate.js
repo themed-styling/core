@@ -99,14 +99,14 @@ const expressions = properties
 // create an array of import statements
 const transformerImports = [...transformerSet].map(
   transformer =>
-    `import ${transformer} from './util/transformers/${transformer}'`
+    `import ${transformer} from './util/transformers/${transformer}.js'`
 )
 
 // write file
 fs.writeFileSync(
   'src/lib/generated.js',
   prettier.format(
-    `import core from './util/core'
+    `import core from './util/core.js'
 ${transformerImports.join('\n')}
 
 ${expressions.join('\n')}

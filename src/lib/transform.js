@@ -1,7 +1,7 @@
-import core from './util/core'
-import pixelsTransformer from './util/transformers/pixelsTransformer'
-import plainTransformer from './util/transformers/plainTransformer'
-import degreesTransformer from './util/transformers/degreesTransformer'
+import core from './util/core.js'
+import pixelsTransformer from './util/transformers/pixelsTransformer.js'
+import plainTransformer from './util/transformers/plainTransformer.js'
+import degreesTransformer from './util/transformers/degreesTransformer.js'
 
 export const matrix = core(
   'matrix',
