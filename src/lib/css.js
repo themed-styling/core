@@ -1,5 +1,6 @@
-import get from './util/get'
-import resolveFunction from './util/resolveFunction'
+import get from './util/get.js'
+import resolveFunction from './util/resolveFunction.js'
+import MissingKeyError from './util/errors/MissingKeyError.js'
 
 export default fallback => {
   const fn = ({ theme, ...props }) => {
@@ -14,34 +15,45 @@ export default fallback => {
 
     if (typeof resolvedValue === 'object') {
       const { standard, ...breakpoints } = resolvedValue
+
+      const forBreakpoints = Object.entries(breakpoints).map(([key, value]) => {
+        const valueAndCurlies = [
+          '{',
+          make(resolveFunction(get(value, theme) || value), props),
+          '}',
+        ]
+
+        const mediaQuery = theme.mediaQueries?.[key]
+        if (mediaQuery !== undefined) {
+          return [mediaQuery, ...valueAndCurlies]
+        }
+
+        const breakpoint = theme.breakpoints?.[key]
+        if (breakpoint !== undefined) {
+          return [
+            '@media screen and (min-width:',
+            breakpoint,
+            ')',
+            ...valueAndCurlies,
+          ]
+        }
+
+        throw new MissingKeyError(
+          `Missing key '${key}' in 'mediaQueries' and 'breakpoints'`
+        )
+      })
+
       if (standard !== undefined) {
         return [
-          resolveFunction(get(standard, theme) || standard, props),
-          ...Object.entries(breakpoints).map(([key, value]) => [
-            (theme.mediaQueries && theme.mediaQueries[key]) || [
-              '@media screen and (min-width:',
-              theme.breakpoints[key],
-              ')',
-            ],
-            '{',
-            resolveFunction(get(value, theme) || value),
-            '}',
-          ]),
+          make(resolveFunction(get(standard, theme) || standard, props), props),
+          ...forBreakpoints,
         ]
       }
-      return Object.entries(breakpoints).map(([key, value]) => [
-        (theme.mediaQueries && theme.mediaQueries[key]) || [
-          '@media screen and (min-width:',
-          theme.breakpoints[key],
-          ')',
-        ],
-        '{',
-        resolveFunction(get(value, theme) || value),
-        '}',
-      ])
+
+      return forBreakpoints
     }
 
-    return resolveFunction(get(resolvedValue, theme) || resolvedValue)
+    return resolveFunction(get(resolvedValue, theme) || resolvedValue, props)
   }
 
   fn.propless_ = false
