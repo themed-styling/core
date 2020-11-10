@@ -132,6 +132,199 @@ Array [
 ]
 `;
 
+exports[`bookmarkTarget renders object [breakpoints + standard] 1`] = `
+Array [
+  .c0 {
+  bookmark-target: July;
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    bookmark-target: August;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    bookmark-target: September;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    bookmark-target: November;
+  }
+}
+
+@media screen and (min-width:August) {
+  .c0 {
+    bookmark-target: August;
+  }
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:August) {
+
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  bookmark-target: July;
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    bookmark-target: August;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    bookmark-target: September;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    bookmark-target: November;
+  }
+}
+
+@media screen and (min-width:August) {
+  .c0 {
+    bookmark-target: August;
+  }
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:August) {
+
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  bookmark-target: January;
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:August) {
+
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    bookmark-target: December;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    bookmark-target: April;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    bookmark-target: May;
+  }
+}
+
+@media screen and (min-width:August) {
+  .c0 {
+    bookmark-target: June;
+  }
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  bookmark-target: January;
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:August) {
+
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    bookmark-target: December;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    bookmark-target: April;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    bookmark-target: May;
+  }
+}
+
+@media screen and (min-width:August) {
+  .c0 {
+    bookmark-target: June;
+  }
+}
+
+<div
+    className="c0"
+  />,
+]
+`;
+
 exports[`bookmarkTarget renders object [breakpoints] 1`] = `
 Array [
   @media screen and (min-width:November) {
@@ -309,7 +502,240 @@ Array [
 ]
 `;
 
-exports[`bookmarkTarget renders object [breakpoints] 2`] = `
+exports[`bookmarkTarget renders object [mediaQueries + standart] 1`] = `
+Array [
+  .c0 {
+  bookmark-target: July;
+}
+
+@media May {
+  .c0 {
+    bookmark-target: August;
+  }
+}
+
+@media April {
+  .c0 {
+    bookmark-target: September;
+  }
+}
+
+@media January {
+  .c0 {
+    bookmark-target: November;
+  }
+}
+
+@media April {
+  .c0 {
+    bookmark-target: August;
+  }
+}
+
+@media June {
+  .c0 {
+    bookmark-target: November;
+  }
+}
+
+@media May {
+
+}
+
+@media April {
+
+}
+
+@media January {
+
+}
+
+@media April {
+
+}
+
+@media June {
+
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  bookmark-target: July;
+}
+
+@media May {
+  .c0 {
+    bookmark-target: August;
+  }
+}
+
+@media April {
+  .c0 {
+    bookmark-target: September;
+  }
+}
+
+@media January {
+  .c0 {
+    bookmark-target: November;
+  }
+}
+
+@media April {
+  .c0 {
+    bookmark-target: August;
+  }
+}
+
+@media June {
+  .c0 {
+    bookmark-target: November;
+  }
+}
+
+@media May {
+
+}
+
+@media April {
+
+}
+
+@media January {
+
+}
+
+@media April {
+
+}
+
+@media June {
+
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  bookmark-target: April;
+}
+
+@media May {
+
+}
+
+@media April {
+
+}
+
+@media January {
+
+}
+
+@media April {
+
+}
+
+@media June {
+
+}
+
+@media May {
+  .c0 {
+    bookmark-target: November;
+  }
+}
+
+@media April {
+  .c0 {
+    bookmark-target: January;
+  }
+}
+
+@media January {
+  .c0 {
+    bookmark-target: December;
+  }
+}
+
+@media April {
+  .c0 {
+    bookmark-target: April;
+  }
+}
+
+@media June {
+  .c0 {
+    bookmark-target: May;
+  }
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  bookmark-target: April;
+}
+
+@media May {
+
+}
+
+@media April {
+
+}
+
+@media January {
+
+}
+
+@media April {
+
+}
+
+@media June {
+
+}
+
+@media May {
+  .c0 {
+    bookmark-target: November;
+  }
+}
+
+@media April {
+  .c0 {
+    bookmark-target: January;
+  }
+}
+
+@media January {
+  .c0 {
+    bookmark-target: December;
+  }
+}
+
+@media April {
+  .c0 {
+    bookmark-target: April;
+  }
+}
+
+@media June {
+  .c0 {
+    bookmark-target: May;
+  }
+}
+
+<div
+    className="c0"
+  />,
+]
+`;
+
+exports[`bookmarkTarget renders object [mediaQueries] 1`] = `
 Array [
   @media May {
   .c0 {
@@ -588,6 +1014,23 @@ Array [
 
 <div
     className="c0"
+  />,
+]
+`;
+
+exports[`bookmarkTarget renders undefined 1`] = `
+Array [
+  <div
+    className=""
+  />,
+  <div
+    className=""
+  />,
+  <div
+    className=""
+  />,
+  <div
+    className=""
   />,
 ]
 `;

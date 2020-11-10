@@ -132,6 +132,199 @@ Array [
 ]
 `;
 
+exports[`gridTemplateColumns renders object [breakpoints + standard] 1`] = `
+Array [
+  .c0 {
+  grid-template-columns: July;
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    grid-template-columns: August;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    grid-template-columns: September;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    grid-template-columns: November;
+  }
+}
+
+@media screen and (min-width:August) {
+  .c0 {
+    grid-template-columns: August;
+  }
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:August) {
+
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  grid-template-columns: July;
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    grid-template-columns: August;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    grid-template-columns: September;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    grid-template-columns: November;
+  }
+}
+
+@media screen and (min-width:August) {
+  .c0 {
+    grid-template-columns: August;
+  }
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:August) {
+
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  grid-template-columns: January;
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:August) {
+
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    grid-template-columns: December;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    grid-template-columns: April;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    grid-template-columns: May;
+  }
+}
+
+@media screen and (min-width:August) {
+  .c0 {
+    grid-template-columns: June;
+  }
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  grid-template-columns: January;
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:August) {
+
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    grid-template-columns: December;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    grid-template-columns: April;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    grid-template-columns: May;
+  }
+}
+
+@media screen and (min-width:August) {
+  .c0 {
+    grid-template-columns: June;
+  }
+}
+
+<div
+    className="c0"
+  />,
+]
+`;
+
 exports[`gridTemplateColumns renders object [breakpoints] 1`] = `
 Array [
   @media screen and (min-width:November) {
@@ -309,7 +502,240 @@ Array [
 ]
 `;
 
-exports[`gridTemplateColumns renders object [breakpoints] 2`] = `
+exports[`gridTemplateColumns renders object [mediaQueries + standart] 1`] = `
+Array [
+  .c0 {
+  grid-template-columns: July;
+}
+
+@media May {
+  .c0 {
+    grid-template-columns: August;
+  }
+}
+
+@media April {
+  .c0 {
+    grid-template-columns: September;
+  }
+}
+
+@media January {
+  .c0 {
+    grid-template-columns: November;
+  }
+}
+
+@media April {
+  .c0 {
+    grid-template-columns: August;
+  }
+}
+
+@media June {
+  .c0 {
+    grid-template-columns: November;
+  }
+}
+
+@media May {
+
+}
+
+@media April {
+
+}
+
+@media January {
+
+}
+
+@media April {
+
+}
+
+@media June {
+
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  grid-template-columns: July;
+}
+
+@media May {
+  .c0 {
+    grid-template-columns: August;
+  }
+}
+
+@media April {
+  .c0 {
+    grid-template-columns: September;
+  }
+}
+
+@media January {
+  .c0 {
+    grid-template-columns: November;
+  }
+}
+
+@media April {
+  .c0 {
+    grid-template-columns: August;
+  }
+}
+
+@media June {
+  .c0 {
+    grid-template-columns: November;
+  }
+}
+
+@media May {
+
+}
+
+@media April {
+
+}
+
+@media January {
+
+}
+
+@media April {
+
+}
+
+@media June {
+
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  grid-template-columns: April;
+}
+
+@media May {
+
+}
+
+@media April {
+
+}
+
+@media January {
+
+}
+
+@media April {
+
+}
+
+@media June {
+
+}
+
+@media May {
+  .c0 {
+    grid-template-columns: November;
+  }
+}
+
+@media April {
+  .c0 {
+    grid-template-columns: January;
+  }
+}
+
+@media January {
+  .c0 {
+    grid-template-columns: December;
+  }
+}
+
+@media April {
+  .c0 {
+    grid-template-columns: April;
+  }
+}
+
+@media June {
+  .c0 {
+    grid-template-columns: May;
+  }
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  grid-template-columns: April;
+}
+
+@media May {
+
+}
+
+@media April {
+
+}
+
+@media January {
+
+}
+
+@media April {
+
+}
+
+@media June {
+
+}
+
+@media May {
+  .c0 {
+    grid-template-columns: November;
+  }
+}
+
+@media April {
+  .c0 {
+    grid-template-columns: January;
+  }
+}
+
+@media January {
+  .c0 {
+    grid-template-columns: December;
+  }
+}
+
+@media April {
+  .c0 {
+    grid-template-columns: April;
+  }
+}
+
+@media June {
+  .c0 {
+    grid-template-columns: May;
+  }
+}
+
+<div
+    className="c0"
+  />,
+]
+`;
+
+exports[`gridTemplateColumns renders object [mediaQueries] 1`] = `
 Array [
   @media May {
   .c0 {
@@ -588,6 +1014,23 @@ Array [
 
 <div
     className="c0"
+  />,
+]
+`;
+
+exports[`gridTemplateColumns renders undefined 1`] = `
+Array [
+  <div
+    className=""
+  />,
+  <div
+    className=""
+  />,
+  <div
+    className=""
+  />,
+  <div
+    className=""
   />,
 ]
 `;

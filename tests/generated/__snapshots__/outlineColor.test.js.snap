@@ -132,6 +132,199 @@ Array [
 ]
 `;
 
+exports[`outlineColor renders object [breakpoints + standard] 1`] = `
+Array [
+  .c0 {
+  outline-color: July;
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    outline-color: August;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    outline-color: September;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    outline-color: November;
+  }
+}
+
+@media screen and (min-width:August) {
+  .c0 {
+    outline-color: August;
+  }
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:August) {
+
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  outline-color: July;
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    outline-color: August;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    outline-color: September;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    outline-color: November;
+  }
+}
+
+@media screen and (min-width:August) {
+  .c0 {
+    outline-color: August;
+  }
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:August) {
+
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  outline-color: January;
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:August) {
+
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    outline-color: December;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    outline-color: April;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    outline-color: May;
+  }
+}
+
+@media screen and (min-width:August) {
+  .c0 {
+    outline-color: June;
+  }
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  outline-color: January;
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:August) {
+
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    outline-color: December;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    outline-color: April;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    outline-color: May;
+  }
+}
+
+@media screen and (min-width:August) {
+  .c0 {
+    outline-color: June;
+  }
+}
+
+<div
+    className="c0"
+  />,
+]
+`;
+
 exports[`outlineColor renders object [breakpoints] 1`] = `
 Array [
   @media screen and (min-width:November) {
@@ -309,7 +502,240 @@ Array [
 ]
 `;
 
-exports[`outlineColor renders object [breakpoints] 2`] = `
+exports[`outlineColor renders object [mediaQueries + standart] 1`] = `
+Array [
+  .c0 {
+  outline-color: July;
+}
+
+@media May {
+  .c0 {
+    outline-color: August;
+  }
+}
+
+@media April {
+  .c0 {
+    outline-color: September;
+  }
+}
+
+@media January {
+  .c0 {
+    outline-color: November;
+  }
+}
+
+@media April {
+  .c0 {
+    outline-color: August;
+  }
+}
+
+@media June {
+  .c0 {
+    outline-color: November;
+  }
+}
+
+@media May {
+
+}
+
+@media April {
+
+}
+
+@media January {
+
+}
+
+@media April {
+
+}
+
+@media June {
+
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  outline-color: July;
+}
+
+@media May {
+  .c0 {
+    outline-color: August;
+  }
+}
+
+@media April {
+  .c0 {
+    outline-color: September;
+  }
+}
+
+@media January {
+  .c0 {
+    outline-color: November;
+  }
+}
+
+@media April {
+  .c0 {
+    outline-color: August;
+  }
+}
+
+@media June {
+  .c0 {
+    outline-color: November;
+  }
+}
+
+@media May {
+
+}
+
+@media April {
+
+}
+
+@media January {
+
+}
+
+@media April {
+
+}
+
+@media June {
+
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  outline-color: April;
+}
+
+@media May {
+
+}
+
+@media April {
+
+}
+
+@media January {
+
+}
+
+@media April {
+
+}
+
+@media June {
+
+}
+
+@media May {
+  .c0 {
+    outline-color: November;
+  }
+}
+
+@media April {
+  .c0 {
+    outline-color: January;
+  }
+}
+
+@media January {
+  .c0 {
+    outline-color: December;
+  }
+}
+
+@media April {
+  .c0 {
+    outline-color: April;
+  }
+}
+
+@media June {
+  .c0 {
+    outline-color: May;
+  }
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  outline-color: April;
+}
+
+@media May {
+
+}
+
+@media April {
+
+}
+
+@media January {
+
+}
+
+@media April {
+
+}
+
+@media June {
+
+}
+
+@media May {
+  .c0 {
+    outline-color: November;
+  }
+}
+
+@media April {
+  .c0 {
+    outline-color: January;
+  }
+}
+
+@media January {
+  .c0 {
+    outline-color: December;
+  }
+}
+
+@media April {
+  .c0 {
+    outline-color: April;
+  }
+}
+
+@media June {
+  .c0 {
+    outline-color: May;
+  }
+}
+
+<div
+    className="c0"
+  />,
+]
+`;
+
+exports[`outlineColor renders object [mediaQueries] 1`] = `
 Array [
   @media May {
   .c0 {
@@ -588,6 +1014,23 @@ Array [
 
 <div
     className="c0"
+  />,
+]
+`;
+
+exports[`outlineColor renders undefined 1`] = `
+Array [
+  <div
+    className=""
+  />,
+  <div
+    className=""
+  />,
+  <div
+    className=""
+  />,
+  <div
+    className=""
   />,
 ]
 `;

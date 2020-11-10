@@ -180,6 +180,259 @@ Array [
 ]
 `;
 
+exports[`justifyContent renders object [breakpoints + standard] 1`] = `
+Array [
+  .c0 {
+  -webkit-box-pack: July;
+  -webkit-justify-content: July;
+  -ms-flex-pack: July;
+  justify-content: July;
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    -webkit-box-pack: August;
+    -webkit-justify-content: August;
+    -ms-flex-pack: August;
+    justify-content: August;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    -webkit-box-pack: September;
+    -webkit-justify-content: September;
+    -ms-flex-pack: September;
+    justify-content: September;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    -webkit-box-pack: November;
+    -webkit-justify-content: November;
+    -ms-flex-pack: November;
+    justify-content: November;
+  }
+}
+
+@media screen and (min-width:August) {
+  .c0 {
+    -webkit-box-pack: August;
+    -webkit-justify-content: August;
+    -ms-flex-pack: August;
+    justify-content: August;
+  }
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:August) {
+
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-box-pack: July;
+  -webkit-justify-content: July;
+  -ms-flex-pack: July;
+  justify-content: July;
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    -webkit-box-pack: August;
+    -webkit-justify-content: August;
+    -ms-flex-pack: August;
+    justify-content: August;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    -webkit-box-pack: September;
+    -webkit-justify-content: September;
+    -ms-flex-pack: September;
+    justify-content: September;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    -webkit-box-pack: November;
+    -webkit-justify-content: November;
+    -ms-flex-pack: November;
+    justify-content: November;
+  }
+}
+
+@media screen and (min-width:August) {
+  .c0 {
+    -webkit-box-pack: August;
+    -webkit-justify-content: August;
+    -ms-flex-pack: August;
+    justify-content: August;
+  }
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:August) {
+
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-box-pack: January;
+  -webkit-justify-content: January;
+  -ms-flex-pack: January;
+  justify-content: January;
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:August) {
+
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    -webkit-box-pack: December;
+    -webkit-justify-content: December;
+    -ms-flex-pack: December;
+    justify-content: December;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    -webkit-box-pack: April;
+    -webkit-justify-content: April;
+    -ms-flex-pack: April;
+    justify-content: April;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    -webkit-box-pack: May;
+    -webkit-justify-content: May;
+    -ms-flex-pack: May;
+    justify-content: May;
+  }
+}
+
+@media screen and (min-width:August) {
+  .c0 {
+    -webkit-box-pack: June;
+    -webkit-justify-content: June;
+    -ms-flex-pack: June;
+    justify-content: June;
+  }
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-box-pack: January;
+  -webkit-justify-content: January;
+  -ms-flex-pack: January;
+  justify-content: January;
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:August) {
+
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    -webkit-box-pack: December;
+    -webkit-justify-content: December;
+    -ms-flex-pack: December;
+    justify-content: December;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    -webkit-box-pack: April;
+    -webkit-justify-content: April;
+    -ms-flex-pack: April;
+    justify-content: April;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    -webkit-box-pack: May;
+    -webkit-justify-content: May;
+    -ms-flex-pack: May;
+    justify-content: May;
+  }
+}
+
+@media screen and (min-width:August) {
+  .c0 {
+    -webkit-box-pack: June;
+    -webkit-justify-content: June;
+    -ms-flex-pack: June;
+    justify-content: June;
+  }
+}
+
+<div
+    className="c0"
+  />,
+]
+`;
+
 exports[`justifyContent renders object [breakpoints] 1`] = `
 Array [
   @media screen and (min-width:November) {
@@ -405,7 +658,312 @@ Array [
 ]
 `;
 
-exports[`justifyContent renders object [breakpoints] 2`] = `
+exports[`justifyContent renders object [mediaQueries + standart] 1`] = `
+Array [
+  .c0 {
+  -webkit-box-pack: July;
+  -webkit-justify-content: July;
+  -ms-flex-pack: July;
+  justify-content: July;
+}
+
+@media May {
+  .c0 {
+    -webkit-box-pack: August;
+    -webkit-justify-content: August;
+    -ms-flex-pack: August;
+    justify-content: August;
+  }
+}
+
+@media April {
+  .c0 {
+    -webkit-box-pack: September;
+    -webkit-justify-content: September;
+    -ms-flex-pack: September;
+    justify-content: September;
+  }
+}
+
+@media January {
+  .c0 {
+    -webkit-box-pack: November;
+    -webkit-justify-content: November;
+    -ms-flex-pack: November;
+    justify-content: November;
+  }
+}
+
+@media April {
+  .c0 {
+    -webkit-box-pack: August;
+    -webkit-justify-content: August;
+    -ms-flex-pack: August;
+    justify-content: August;
+  }
+}
+
+@media June {
+  .c0 {
+    -webkit-box-pack: November;
+    -webkit-justify-content: November;
+    -ms-flex-pack: November;
+    justify-content: November;
+  }
+}
+
+@media May {
+
+}
+
+@media April {
+
+}
+
+@media January {
+
+}
+
+@media April {
+
+}
+
+@media June {
+
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-box-pack: July;
+  -webkit-justify-content: July;
+  -ms-flex-pack: July;
+  justify-content: July;
+}
+
+@media May {
+  .c0 {
+    -webkit-box-pack: August;
+    -webkit-justify-content: August;
+    -ms-flex-pack: August;
+    justify-content: August;
+  }
+}
+
+@media April {
+  .c0 {
+    -webkit-box-pack: September;
+    -webkit-justify-content: September;
+    -ms-flex-pack: September;
+    justify-content: September;
+  }
+}
+
+@media January {
+  .c0 {
+    -webkit-box-pack: November;
+    -webkit-justify-content: November;
+    -ms-flex-pack: November;
+    justify-content: November;
+  }
+}
+
+@media April {
+  .c0 {
+    -webkit-box-pack: August;
+    -webkit-justify-content: August;
+    -ms-flex-pack: August;
+    justify-content: August;
+  }
+}
+
+@media June {
+  .c0 {
+    -webkit-box-pack: November;
+    -webkit-justify-content: November;
+    -ms-flex-pack: November;
+    justify-content: November;
+  }
+}
+
+@media May {
+
+}
+
+@media April {
+
+}
+
+@media January {
+
+}
+
+@media April {
+
+}
+
+@media June {
+
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-box-pack: April;
+  -webkit-justify-content: April;
+  -ms-flex-pack: April;
+  justify-content: April;
+}
+
+@media May {
+
+}
+
+@media April {
+
+}
+
+@media January {
+
+}
+
+@media April {
+
+}
+
+@media June {
+
+}
+
+@media May {
+  .c0 {
+    -webkit-box-pack: November;
+    -webkit-justify-content: November;
+    -ms-flex-pack: November;
+    justify-content: November;
+  }
+}
+
+@media April {
+  .c0 {
+    -webkit-box-pack: January;
+    -webkit-justify-content: January;
+    -ms-flex-pack: January;
+    justify-content: January;
+  }
+}
+
+@media January {
+  .c0 {
+    -webkit-box-pack: December;
+    -webkit-justify-content: December;
+    -ms-flex-pack: December;
+    justify-content: December;
+  }
+}
+
+@media April {
+  .c0 {
+    -webkit-box-pack: April;
+    -webkit-justify-content: April;
+    -ms-flex-pack: April;
+    justify-content: April;
+  }
+}
+
+@media June {
+  .c0 {
+    -webkit-box-pack: May;
+    -webkit-justify-content: May;
+    -ms-flex-pack: May;
+    justify-content: May;
+  }
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-box-pack: April;
+  -webkit-justify-content: April;
+  -ms-flex-pack: April;
+  justify-content: April;
+}
+
+@media May {
+
+}
+
+@media April {
+
+}
+
+@media January {
+
+}
+
+@media April {
+
+}
+
+@media June {
+
+}
+
+@media May {
+  .c0 {
+    -webkit-box-pack: November;
+    -webkit-justify-content: November;
+    -ms-flex-pack: November;
+    justify-content: November;
+  }
+}
+
+@media April {
+  .c0 {
+    -webkit-box-pack: January;
+    -webkit-justify-content: January;
+    -ms-flex-pack: January;
+    justify-content: January;
+  }
+}
+
+@media January {
+  .c0 {
+    -webkit-box-pack: December;
+    -webkit-justify-content: December;
+    -ms-flex-pack: December;
+    justify-content: December;
+  }
+}
+
+@media April {
+  .c0 {
+    -webkit-box-pack: April;
+    -webkit-justify-content: April;
+    -ms-flex-pack: April;
+    justify-content: April;
+  }
+}
+
+@media June {
+  .c0 {
+    -webkit-box-pack: May;
+    -webkit-justify-content: May;
+    -ms-flex-pack: May;
+    justify-content: May;
+  }
+}
+
+<div
+    className="c0"
+  />,
+]
+`;
+
+exports[`justifyContent renders object [mediaQueries] 1`] = `
 Array [
   @media May {
   .c0 {
@@ -768,6 +1326,23 @@ Array [
 
 <div
     className="c0"
+  />,
+]
+`;
+
+exports[`justifyContent renders undefined 1`] = `
+Array [
+  <div
+    className=""
+  />,
+  <div
+    className=""
+  />,
+  <div
+    className=""
+  />,
+  <div
+    className=""
   />,
 ]
 `;

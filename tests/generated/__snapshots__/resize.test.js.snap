@@ -132,6 +132,199 @@ Array [
 ]
 `;
 
+exports[`resize renders object [breakpoints + standard] 1`] = `
+Array [
+  .c0 {
+  resize: July;
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    resize: August;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    resize: September;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    resize: November;
+  }
+}
+
+@media screen and (min-width:August) {
+  .c0 {
+    resize: August;
+  }
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:August) {
+
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  resize: July;
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    resize: August;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    resize: September;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    resize: November;
+  }
+}
+
+@media screen and (min-width:August) {
+  .c0 {
+    resize: August;
+  }
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:August) {
+
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  resize: January;
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:August) {
+
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    resize: December;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    resize: April;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    resize: May;
+  }
+}
+
+@media screen and (min-width:August) {
+  .c0 {
+    resize: June;
+  }
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  resize: January;
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:August) {
+
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    resize: December;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    resize: April;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    resize: May;
+  }
+}
+
+@media screen and (min-width:August) {
+  .c0 {
+    resize: June;
+  }
+}
+
+<div
+    className="c0"
+  />,
+]
+`;
+
 exports[`resize renders object [breakpoints] 1`] = `
 Array [
   @media screen and (min-width:November) {
@@ -309,7 +502,240 @@ Array [
 ]
 `;
 
-exports[`resize renders object [breakpoints] 2`] = `
+exports[`resize renders object [mediaQueries + standart] 1`] = `
+Array [
+  .c0 {
+  resize: July;
+}
+
+@media May {
+  .c0 {
+    resize: August;
+  }
+}
+
+@media April {
+  .c0 {
+    resize: September;
+  }
+}
+
+@media January {
+  .c0 {
+    resize: November;
+  }
+}
+
+@media April {
+  .c0 {
+    resize: August;
+  }
+}
+
+@media June {
+  .c0 {
+    resize: November;
+  }
+}
+
+@media May {
+
+}
+
+@media April {
+
+}
+
+@media January {
+
+}
+
+@media April {
+
+}
+
+@media June {
+
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  resize: July;
+}
+
+@media May {
+  .c0 {
+    resize: August;
+  }
+}
+
+@media April {
+  .c0 {
+    resize: September;
+  }
+}
+
+@media January {
+  .c0 {
+    resize: November;
+  }
+}
+
+@media April {
+  .c0 {
+    resize: August;
+  }
+}
+
+@media June {
+  .c0 {
+    resize: November;
+  }
+}
+
+@media May {
+
+}
+
+@media April {
+
+}
+
+@media January {
+
+}
+
+@media April {
+
+}
+
+@media June {
+
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  resize: April;
+}
+
+@media May {
+
+}
+
+@media April {
+
+}
+
+@media January {
+
+}
+
+@media April {
+
+}
+
+@media June {
+
+}
+
+@media May {
+  .c0 {
+    resize: November;
+  }
+}
+
+@media April {
+  .c0 {
+    resize: January;
+  }
+}
+
+@media January {
+  .c0 {
+    resize: December;
+  }
+}
+
+@media April {
+  .c0 {
+    resize: April;
+  }
+}
+
+@media June {
+  .c0 {
+    resize: May;
+  }
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  resize: April;
+}
+
+@media May {
+
+}
+
+@media April {
+
+}
+
+@media January {
+
+}
+
+@media April {
+
+}
+
+@media June {
+
+}
+
+@media May {
+  .c0 {
+    resize: November;
+  }
+}
+
+@media April {
+  .c0 {
+    resize: January;
+  }
+}
+
+@media January {
+  .c0 {
+    resize: December;
+  }
+}
+
+@media April {
+  .c0 {
+    resize: April;
+  }
+}
+
+@media June {
+  .c0 {
+    resize: May;
+  }
+}
+
+<div
+    className="c0"
+  />,
+]
+`;
+
+exports[`resize renders object [mediaQueries] 1`] = `
 Array [
   @media May {
   .c0 {
@@ -588,6 +1014,23 @@ Array [
 
 <div
     className="c0"
+  />,
+]
+`;
+
+exports[`resize renders undefined 1`] = `
+Array [
+  <div
+    className=""
+  />,
+  <div
+    className=""
+  />,
+  <div
+    className=""
+  />,
+  <div
+    className=""
   />,
 ]
 `;

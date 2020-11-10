@@ -164,6 +164,239 @@ Array [
 ]
 `;
 
+exports[`rotate3D renders object [breakpoints + standard] 1`] = `
+Array [
+  .c0 {
+  -webkit-transform: rotate3d(July);
+  -ms-transform: rotate3d(July);
+  transform: rotate3d(July);
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    -webkit-transform: rotate3d(August);
+    -ms-transform: rotate3d(August);
+    transform: rotate3d(August);
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    -webkit-transform: rotate3d(September);
+    -ms-transform: rotate3d(September);
+    transform: rotate3d(September);
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    -webkit-transform: rotate3d(November);
+    -ms-transform: rotate3d(November);
+    transform: rotate3d(November);
+  }
+}
+
+@media screen and (min-width:August) {
+  .c0 {
+    -webkit-transform: rotate3d(August);
+    -ms-transform: rotate3d(August);
+    transform: rotate3d(August);
+  }
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:August) {
+
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-transform: rotate3d(July);
+  -ms-transform: rotate3d(July);
+  transform: rotate3d(July);
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    -webkit-transform: rotate3d(August);
+    -ms-transform: rotate3d(August);
+    transform: rotate3d(August);
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    -webkit-transform: rotate3d(September);
+    -ms-transform: rotate3d(September);
+    transform: rotate3d(September);
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    -webkit-transform: rotate3d(November);
+    -ms-transform: rotate3d(November);
+    transform: rotate3d(November);
+  }
+}
+
+@media screen and (min-width:August) {
+  .c0 {
+    -webkit-transform: rotate3d(August);
+    -ms-transform: rotate3d(August);
+    transform: rotate3d(August);
+  }
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:August) {
+
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-transform: rotate3d(January);
+  -ms-transform: rotate3d(January);
+  transform: rotate3d(January);
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:August) {
+
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    -webkit-transform: rotate3d(December);
+    -ms-transform: rotate3d(December);
+    transform: rotate3d(December);
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    -webkit-transform: rotate3d(April);
+    -ms-transform: rotate3d(April);
+    transform: rotate3d(April);
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    -webkit-transform: rotate3d(May);
+    -ms-transform: rotate3d(May);
+    transform: rotate3d(May);
+  }
+}
+
+@media screen and (min-width:August) {
+  .c0 {
+    -webkit-transform: rotate3d(June);
+    -ms-transform: rotate3d(June);
+    transform: rotate3d(June);
+  }
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-transform: rotate3d(January);
+  -ms-transform: rotate3d(January);
+  transform: rotate3d(January);
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:August) {
+
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    -webkit-transform: rotate3d(December);
+    -ms-transform: rotate3d(December);
+    transform: rotate3d(December);
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    -webkit-transform: rotate3d(April);
+    -ms-transform: rotate3d(April);
+    transform: rotate3d(April);
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    -webkit-transform: rotate3d(May);
+    -ms-transform: rotate3d(May);
+    transform: rotate3d(May);
+  }
+}
+
+@media screen and (min-width:August) {
+  .c0 {
+    -webkit-transform: rotate3d(June);
+    -ms-transform: rotate3d(June);
+    transform: rotate3d(June);
+  }
+}
+
+<div
+    className="c0"
+  />,
+]
+`;
+
 exports[`rotate3D renders object [breakpoints] 1`] = `
 Array [
   @media screen and (min-width:November) {
@@ -373,7 +606,288 @@ Array [
 ]
 `;
 
-exports[`rotate3D renders object [breakpoints] 2`] = `
+exports[`rotate3D renders object [mediaQueries + standart] 1`] = `
+Array [
+  .c0 {
+  -webkit-transform: rotate3d(July);
+  -ms-transform: rotate3d(July);
+  transform: rotate3d(July);
+}
+
+@media May {
+  .c0 {
+    -webkit-transform: rotate3d(August);
+    -ms-transform: rotate3d(August);
+    transform: rotate3d(August);
+  }
+}
+
+@media April {
+  .c0 {
+    -webkit-transform: rotate3d(September);
+    -ms-transform: rotate3d(September);
+    transform: rotate3d(September);
+  }
+}
+
+@media January {
+  .c0 {
+    -webkit-transform: rotate3d(November);
+    -ms-transform: rotate3d(November);
+    transform: rotate3d(November);
+  }
+}
+
+@media April {
+  .c0 {
+    -webkit-transform: rotate3d(August);
+    -ms-transform: rotate3d(August);
+    transform: rotate3d(August);
+  }
+}
+
+@media June {
+  .c0 {
+    -webkit-transform: rotate3d(November);
+    -ms-transform: rotate3d(November);
+    transform: rotate3d(November);
+  }
+}
+
+@media May {
+
+}
+
+@media April {
+
+}
+
+@media January {
+
+}
+
+@media April {
+
+}
+
+@media June {
+
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-transform: rotate3d(July);
+  -ms-transform: rotate3d(July);
+  transform: rotate3d(July);
+}
+
+@media May {
+  .c0 {
+    -webkit-transform: rotate3d(August);
+    -ms-transform: rotate3d(August);
+    transform: rotate3d(August);
+  }
+}
+
+@media April {
+  .c0 {
+    -webkit-transform: rotate3d(September);
+    -ms-transform: rotate3d(September);
+    transform: rotate3d(September);
+  }
+}
+
+@media January {
+  .c0 {
+    -webkit-transform: rotate3d(November);
+    -ms-transform: rotate3d(November);
+    transform: rotate3d(November);
+  }
+}
+
+@media April {
+  .c0 {
+    -webkit-transform: rotate3d(August);
+    -ms-transform: rotate3d(August);
+    transform: rotate3d(August);
+  }
+}
+
+@media June {
+  .c0 {
+    -webkit-transform: rotate3d(November);
+    -ms-transform: rotate3d(November);
+    transform: rotate3d(November);
+  }
+}
+
+@media May {
+
+}
+
+@media April {
+
+}
+
+@media January {
+
+}
+
+@media April {
+
+}
+
+@media June {
+
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-transform: rotate3d(April);
+  -ms-transform: rotate3d(April);
+  transform: rotate3d(April);
+}
+
+@media May {
+
+}
+
+@media April {
+
+}
+
+@media January {
+
+}
+
+@media April {
+
+}
+
+@media June {
+
+}
+
+@media May {
+  .c0 {
+    -webkit-transform: rotate3d(November);
+    -ms-transform: rotate3d(November);
+    transform: rotate3d(November);
+  }
+}
+
+@media April {
+  .c0 {
+    -webkit-transform: rotate3d(January);
+    -ms-transform: rotate3d(January);
+    transform: rotate3d(January);
+  }
+}
+
+@media January {
+  .c0 {
+    -webkit-transform: rotate3d(December);
+    -ms-transform: rotate3d(December);
+    transform: rotate3d(December);
+  }
+}
+
+@media April {
+  .c0 {
+    -webkit-transform: rotate3d(April);
+    -ms-transform: rotate3d(April);
+    transform: rotate3d(April);
+  }
+}
+
+@media June {
+  .c0 {
+    -webkit-transform: rotate3d(May);
+    -ms-transform: rotate3d(May);
+    transform: rotate3d(May);
+  }
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-transform: rotate3d(April);
+  -ms-transform: rotate3d(April);
+  transform: rotate3d(April);
+}
+
+@media May {
+
+}
+
+@media April {
+
+}
+
+@media January {
+
+}
+
+@media April {
+
+}
+
+@media June {
+
+}
+
+@media May {
+  .c0 {
+    -webkit-transform: rotate3d(November);
+    -ms-transform: rotate3d(November);
+    transform: rotate3d(November);
+  }
+}
+
+@media April {
+  .c0 {
+    -webkit-transform: rotate3d(January);
+    -ms-transform: rotate3d(January);
+    transform: rotate3d(January);
+  }
+}
+
+@media January {
+  .c0 {
+    -webkit-transform: rotate3d(December);
+    -ms-transform: rotate3d(December);
+    transform: rotate3d(December);
+  }
+}
+
+@media April {
+  .c0 {
+    -webkit-transform: rotate3d(April);
+    -ms-transform: rotate3d(April);
+    transform: rotate3d(April);
+  }
+}
+
+@media June {
+  .c0 {
+    -webkit-transform: rotate3d(May);
+    -ms-transform: rotate3d(May);
+    transform: rotate3d(May);
+  }
+}
+
+<div
+    className="c0"
+  />,
+]
+`;
+
+exports[`rotate3D renders object [mediaQueries] 1`] = `
 Array [
   @media May {
   .c0 {
@@ -708,6 +1222,23 @@ Array [
 
 <div
     className="c0"
+  />,
+]
+`;
+
+exports[`rotate3D renders undefined 1`] = `
+Array [
+  <div
+    className=""
+  />,
+  <div
+    className=""
+  />,
+  <div
+    className=""
+  />,
+  <div
+    className=""
   />,
 ]
 `;

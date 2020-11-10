@@ -148,6 +148,219 @@ Array [
 ]
 `;
 
+exports[`textDecorationSkipSelf renders object [breakpoints + standard] 1`] = `
+Array [
+  .c0 {
+  -webkit-text-decoration-skip-self: July;
+  text-decoration-skip-self: July;
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    -webkit-text-decoration-skip-self: August;
+    text-decoration-skip-self: August;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    -webkit-text-decoration-skip-self: September;
+    text-decoration-skip-self: September;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    -webkit-text-decoration-skip-self: November;
+    text-decoration-skip-self: November;
+  }
+}
+
+@media screen and (min-width:August) {
+  .c0 {
+    -webkit-text-decoration-skip-self: August;
+    text-decoration-skip-self: August;
+  }
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:August) {
+
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-text-decoration-skip-self: July;
+  text-decoration-skip-self: July;
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    -webkit-text-decoration-skip-self: August;
+    text-decoration-skip-self: August;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    -webkit-text-decoration-skip-self: September;
+    text-decoration-skip-self: September;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    -webkit-text-decoration-skip-self: November;
+    text-decoration-skip-self: November;
+  }
+}
+
+@media screen and (min-width:August) {
+  .c0 {
+    -webkit-text-decoration-skip-self: August;
+    text-decoration-skip-self: August;
+  }
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:August) {
+
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-text-decoration-skip-self: January;
+  text-decoration-skip-self: January;
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:August) {
+
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    -webkit-text-decoration-skip-self: December;
+    text-decoration-skip-self: December;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    -webkit-text-decoration-skip-self: April;
+    text-decoration-skip-self: April;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    -webkit-text-decoration-skip-self: May;
+    text-decoration-skip-self: May;
+  }
+}
+
+@media screen and (min-width:August) {
+  .c0 {
+    -webkit-text-decoration-skip-self: June;
+    text-decoration-skip-self: June;
+  }
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-text-decoration-skip-self: January;
+  text-decoration-skip-self: January;
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:August) {
+
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    -webkit-text-decoration-skip-self: December;
+    text-decoration-skip-self: December;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    -webkit-text-decoration-skip-self: April;
+    text-decoration-skip-self: April;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    -webkit-text-decoration-skip-self: May;
+    text-decoration-skip-self: May;
+  }
+}
+
+@media screen and (min-width:August) {
+  .c0 {
+    -webkit-text-decoration-skip-self: June;
+    text-decoration-skip-self: June;
+  }
+}
+
+<div
+    className="c0"
+  />,
+]
+`;
+
 exports[`textDecorationSkipSelf renders object [breakpoints] 1`] = `
 Array [
   @media screen and (min-width:November) {
@@ -341,7 +554,264 @@ Array [
 ]
 `;
 
-exports[`textDecorationSkipSelf renders object [breakpoints] 2`] = `
+exports[`textDecorationSkipSelf renders object [mediaQueries + standart] 1`] = `
+Array [
+  .c0 {
+  -webkit-text-decoration-skip-self: July;
+  text-decoration-skip-self: July;
+}
+
+@media May {
+  .c0 {
+    -webkit-text-decoration-skip-self: August;
+    text-decoration-skip-self: August;
+  }
+}
+
+@media April {
+  .c0 {
+    -webkit-text-decoration-skip-self: September;
+    text-decoration-skip-self: September;
+  }
+}
+
+@media January {
+  .c0 {
+    -webkit-text-decoration-skip-self: November;
+    text-decoration-skip-self: November;
+  }
+}
+
+@media April {
+  .c0 {
+    -webkit-text-decoration-skip-self: August;
+    text-decoration-skip-self: August;
+  }
+}
+
+@media June {
+  .c0 {
+    -webkit-text-decoration-skip-self: November;
+    text-decoration-skip-self: November;
+  }
+}
+
+@media May {
+
+}
+
+@media April {
+
+}
+
+@media January {
+
+}
+
+@media April {
+
+}
+
+@media June {
+
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-text-decoration-skip-self: July;
+  text-decoration-skip-self: July;
+}
+
+@media May {
+  .c0 {
+    -webkit-text-decoration-skip-self: August;
+    text-decoration-skip-self: August;
+  }
+}
+
+@media April {
+  .c0 {
+    -webkit-text-decoration-skip-self: September;
+    text-decoration-skip-self: September;
+  }
+}
+
+@media January {
+  .c0 {
+    -webkit-text-decoration-skip-self: November;
+    text-decoration-skip-self: November;
+  }
+}
+
+@media April {
+  .c0 {
+    -webkit-text-decoration-skip-self: August;
+    text-decoration-skip-self: August;
+  }
+}
+
+@media June {
+  .c0 {
+    -webkit-text-decoration-skip-self: November;
+    text-decoration-skip-self: November;
+  }
+}
+
+@media May {
+
+}
+
+@media April {
+
+}
+
+@media January {
+
+}
+
+@media April {
+
+}
+
+@media June {
+
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-text-decoration-skip-self: April;
+  text-decoration-skip-self: April;
+}
+
+@media May {
+
+}
+
+@media April {
+
+}
+
+@media January {
+
+}
+
+@media April {
+
+}
+
+@media June {
+
+}
+
+@media May {
+  .c0 {
+    -webkit-text-decoration-skip-self: November;
+    text-decoration-skip-self: November;
+  }
+}
+
+@media April {
+  .c0 {
+    -webkit-text-decoration-skip-self: January;
+    text-decoration-skip-self: January;
+  }
+}
+
+@media January {
+  .c0 {
+    -webkit-text-decoration-skip-self: December;
+    text-decoration-skip-self: December;
+  }
+}
+
+@media April {
+  .c0 {
+    -webkit-text-decoration-skip-self: April;
+    text-decoration-skip-self: April;
+  }
+}
+
+@media June {
+  .c0 {
+    -webkit-text-decoration-skip-self: May;
+    text-decoration-skip-self: May;
+  }
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-text-decoration-skip-self: April;
+  text-decoration-skip-self: April;
+}
+
+@media May {
+
+}
+
+@media April {
+
+}
+
+@media January {
+
+}
+
+@media April {
+
+}
+
+@media June {
+
+}
+
+@media May {
+  .c0 {
+    -webkit-text-decoration-skip-self: November;
+    text-decoration-skip-self: November;
+  }
+}
+
+@media April {
+  .c0 {
+    -webkit-text-decoration-skip-self: January;
+    text-decoration-skip-self: January;
+  }
+}
+
+@media January {
+  .c0 {
+    -webkit-text-decoration-skip-self: December;
+    text-decoration-skip-self: December;
+  }
+}
+
+@media April {
+  .c0 {
+    -webkit-text-decoration-skip-self: April;
+    text-decoration-skip-self: April;
+  }
+}
+
+@media June {
+  .c0 {
+    -webkit-text-decoration-skip-self: May;
+    text-decoration-skip-self: May;
+  }
+}
+
+<div
+    className="c0"
+  />,
+]
+`;
+
+exports[`textDecorationSkipSelf renders object [mediaQueries] 1`] = `
 Array [
   @media May {
   .c0 {
@@ -648,6 +1118,23 @@ Array [
 
 <div
     className="c0"
+  />,
+]
+`;
+
+exports[`textDecorationSkipSelf renders undefined 1`] = `
+Array [
+  <div
+    className=""
+  />,
+  <div
+    className=""
+  />,
+  <div
+    className=""
+  />,
+  <div
+    className=""
   />,
 ]
 `;

@@ -148,6 +148,219 @@ Array [
 ]
 `;
 
+exports[`grayscale renders object [breakpoints + standard] 1`] = `
+Array [
+  .c0 {
+  -webkit-filter: grayscale(July);
+  filter: grayscale(July);
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    -webkit-filter: grayscale(August);
+    filter: grayscale(August);
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    -webkit-filter: grayscale(September);
+    filter: grayscale(September);
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    -webkit-filter: grayscale(November);
+    filter: grayscale(November);
+  }
+}
+
+@media screen and (min-width:August) {
+  .c0 {
+    -webkit-filter: grayscale(August);
+    filter: grayscale(August);
+  }
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:August) {
+
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-filter: grayscale(July);
+  filter: grayscale(July);
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    -webkit-filter: grayscale(August);
+    filter: grayscale(August);
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    -webkit-filter: grayscale(September);
+    filter: grayscale(September);
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    -webkit-filter: grayscale(November);
+    filter: grayscale(November);
+  }
+}
+
+@media screen and (min-width:August) {
+  .c0 {
+    -webkit-filter: grayscale(August);
+    filter: grayscale(August);
+  }
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:August) {
+
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-filter: grayscale(January);
+  filter: grayscale(January);
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:August) {
+
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    -webkit-filter: grayscale(December);
+    filter: grayscale(December);
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    -webkit-filter: grayscale(April);
+    filter: grayscale(April);
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    -webkit-filter: grayscale(May);
+    filter: grayscale(May);
+  }
+}
+
+@media screen and (min-width:August) {
+  .c0 {
+    -webkit-filter: grayscale(June);
+    filter: grayscale(June);
+  }
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-filter: grayscale(January);
+  filter: grayscale(January);
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:August) {
+
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    -webkit-filter: grayscale(December);
+    filter: grayscale(December);
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    -webkit-filter: grayscale(April);
+    filter: grayscale(April);
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    -webkit-filter: grayscale(May);
+    filter: grayscale(May);
+  }
+}
+
+@media screen and (min-width:August) {
+  .c0 {
+    -webkit-filter: grayscale(June);
+    filter: grayscale(June);
+  }
+}
+
+<div
+    className="c0"
+  />,
+]
+`;
+
 exports[`grayscale renders object [breakpoints] 1`] = `
 Array [
   @media screen and (min-width:November) {
@@ -341,7 +554,264 @@ Array [
 ]
 `;
 
-exports[`grayscale renders object [breakpoints] 2`] = `
+exports[`grayscale renders object [mediaQueries + standart] 1`] = `
+Array [
+  .c0 {
+  -webkit-filter: grayscale(July);
+  filter: grayscale(July);
+}
+
+@media May {
+  .c0 {
+    -webkit-filter: grayscale(August);
+    filter: grayscale(August);
+  }
+}
+
+@media April {
+  .c0 {
+    -webkit-filter: grayscale(September);
+    filter: grayscale(September);
+  }
+}
+
+@media January {
+  .c0 {
+    -webkit-filter: grayscale(November);
+    filter: grayscale(November);
+  }
+}
+
+@media April {
+  .c0 {
+    -webkit-filter: grayscale(August);
+    filter: grayscale(August);
+  }
+}
+
+@media June {
+  .c0 {
+    -webkit-filter: grayscale(November);
+    filter: grayscale(November);
+  }
+}
+
+@media May {
+
+}
+
+@media April {
+
+}
+
+@media January {
+
+}
+
+@media April {
+
+}
+
+@media June {
+
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-filter: grayscale(July);
+  filter: grayscale(July);
+}
+
+@media May {
+  .c0 {
+    -webkit-filter: grayscale(August);
+    filter: grayscale(August);
+  }
+}
+
+@media April {
+  .c0 {
+    -webkit-filter: grayscale(September);
+    filter: grayscale(September);
+  }
+}
+
+@media January {
+  .c0 {
+    -webkit-filter: grayscale(November);
+    filter: grayscale(November);
+  }
+}
+
+@media April {
+  .c0 {
+    -webkit-filter: grayscale(August);
+    filter: grayscale(August);
+  }
+}
+
+@media June {
+  .c0 {
+    -webkit-filter: grayscale(November);
+    filter: grayscale(November);
+  }
+}
+
+@media May {
+
+}
+
+@media April {
+
+}
+
+@media January {
+
+}
+
+@media April {
+
+}
+
+@media June {
+
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-filter: grayscale(April);
+  filter: grayscale(April);
+}
+
+@media May {
+
+}
+
+@media April {
+
+}
+
+@media January {
+
+}
+
+@media April {
+
+}
+
+@media June {
+
+}
+
+@media May {
+  .c0 {
+    -webkit-filter: grayscale(November);
+    filter: grayscale(November);
+  }
+}
+
+@media April {
+  .c0 {
+    -webkit-filter: grayscale(January);
+    filter: grayscale(January);
+  }
+}
+
+@media January {
+  .c0 {
+    -webkit-filter: grayscale(December);
+    filter: grayscale(December);
+  }
+}
+
+@media April {
+  .c0 {
+    -webkit-filter: grayscale(April);
+    filter: grayscale(April);
+  }
+}
+
+@media June {
+  .c0 {
+    -webkit-filter: grayscale(May);
+    filter: grayscale(May);
+  }
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-filter: grayscale(April);
+  filter: grayscale(April);
+}
+
+@media May {
+
+}
+
+@media April {
+
+}
+
+@media January {
+
+}
+
+@media April {
+
+}
+
+@media June {
+
+}
+
+@media May {
+  .c0 {
+    -webkit-filter: grayscale(November);
+    filter: grayscale(November);
+  }
+}
+
+@media April {
+  .c0 {
+    -webkit-filter: grayscale(January);
+    filter: grayscale(January);
+  }
+}
+
+@media January {
+  .c0 {
+    -webkit-filter: grayscale(December);
+    filter: grayscale(December);
+  }
+}
+
+@media April {
+  .c0 {
+    -webkit-filter: grayscale(April);
+    filter: grayscale(April);
+  }
+}
+
+@media June {
+  .c0 {
+    -webkit-filter: grayscale(May);
+    filter: grayscale(May);
+  }
+}
+
+<div
+    className="c0"
+  />,
+]
+`;
+
+exports[`grayscale renders object [mediaQueries] 1`] = `
 Array [
   @media May {
   .c0 {
@@ -648,6 +1118,23 @@ Array [
 
 <div
     className="c0"
+  />,
+]
+`;
+
+exports[`grayscale renders undefined 1`] = `
+Array [
+  <div
+    className=""
+  />,
+  <div
+    className=""
+  />,
+  <div
+    className=""
+  />,
+  <div
+    className=""
   />,
 ]
 `;

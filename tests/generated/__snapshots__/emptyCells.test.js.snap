@@ -132,6 +132,199 @@ Array [
 ]
 `;
 
+exports[`emptyCells renders object [breakpoints + standard] 1`] = `
+Array [
+  .c0 {
+  empty-cells: July;
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    empty-cells: August;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    empty-cells: September;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    empty-cells: November;
+  }
+}
+
+@media screen and (min-width:August) {
+  .c0 {
+    empty-cells: August;
+  }
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:August) {
+
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  empty-cells: July;
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    empty-cells: August;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    empty-cells: September;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    empty-cells: November;
+  }
+}
+
+@media screen and (min-width:August) {
+  .c0 {
+    empty-cells: August;
+  }
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:August) {
+
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  empty-cells: January;
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:August) {
+
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    empty-cells: December;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    empty-cells: April;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    empty-cells: May;
+  }
+}
+
+@media screen and (min-width:August) {
+  .c0 {
+    empty-cells: June;
+  }
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  empty-cells: January;
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:August) {
+
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    empty-cells: December;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    empty-cells: April;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    empty-cells: May;
+  }
+}
+
+@media screen and (min-width:August) {
+  .c0 {
+    empty-cells: June;
+  }
+}
+
+<div
+    className="c0"
+  />,
+]
+`;
+
 exports[`emptyCells renders object [breakpoints] 1`] = `
 Array [
   @media screen and (min-width:November) {
@@ -309,7 +502,240 @@ Array [
 ]
 `;
 
-exports[`emptyCells renders object [breakpoints] 2`] = `
+exports[`emptyCells renders object [mediaQueries + standart] 1`] = `
+Array [
+  .c0 {
+  empty-cells: July;
+}
+
+@media May {
+  .c0 {
+    empty-cells: August;
+  }
+}
+
+@media April {
+  .c0 {
+    empty-cells: September;
+  }
+}
+
+@media January {
+  .c0 {
+    empty-cells: November;
+  }
+}
+
+@media April {
+  .c0 {
+    empty-cells: August;
+  }
+}
+
+@media June {
+  .c0 {
+    empty-cells: November;
+  }
+}
+
+@media May {
+
+}
+
+@media April {
+
+}
+
+@media January {
+
+}
+
+@media April {
+
+}
+
+@media June {
+
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  empty-cells: July;
+}
+
+@media May {
+  .c0 {
+    empty-cells: August;
+  }
+}
+
+@media April {
+  .c0 {
+    empty-cells: September;
+  }
+}
+
+@media January {
+  .c0 {
+    empty-cells: November;
+  }
+}
+
+@media April {
+  .c0 {
+    empty-cells: August;
+  }
+}
+
+@media June {
+  .c0 {
+    empty-cells: November;
+  }
+}
+
+@media May {
+
+}
+
+@media April {
+
+}
+
+@media January {
+
+}
+
+@media April {
+
+}
+
+@media June {
+
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  empty-cells: April;
+}
+
+@media May {
+
+}
+
+@media April {
+
+}
+
+@media January {
+
+}
+
+@media April {
+
+}
+
+@media June {
+
+}
+
+@media May {
+  .c0 {
+    empty-cells: November;
+  }
+}
+
+@media April {
+  .c0 {
+    empty-cells: January;
+  }
+}
+
+@media January {
+  .c0 {
+    empty-cells: December;
+  }
+}
+
+@media April {
+  .c0 {
+    empty-cells: April;
+  }
+}
+
+@media June {
+  .c0 {
+    empty-cells: May;
+  }
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  empty-cells: April;
+}
+
+@media May {
+
+}
+
+@media April {
+
+}
+
+@media January {
+
+}
+
+@media April {
+
+}
+
+@media June {
+
+}
+
+@media May {
+  .c0 {
+    empty-cells: November;
+  }
+}
+
+@media April {
+  .c0 {
+    empty-cells: January;
+  }
+}
+
+@media January {
+  .c0 {
+    empty-cells: December;
+  }
+}
+
+@media April {
+  .c0 {
+    empty-cells: April;
+  }
+}
+
+@media June {
+  .c0 {
+    empty-cells: May;
+  }
+}
+
+<div
+    className="c0"
+  />,
+]
+`;
+
+exports[`emptyCells renders object [mediaQueries] 1`] = `
 Array [
   @media May {
   .c0 {
@@ -588,6 +1014,23 @@ Array [
 
 <div
     className="c0"
+  />,
+]
+`;
+
+exports[`emptyCells renders undefined 1`] = `
+Array [
+  <div
+    className=""
+  />,
+  <div
+    className=""
+  />,
+  <div
+    className=""
+  />,
+  <div
+    className=""
   />,
 ]
 `;

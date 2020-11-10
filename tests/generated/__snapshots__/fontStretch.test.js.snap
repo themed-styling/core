@@ -132,6 +132,199 @@ Array [
 ]
 `;
 
+exports[`fontStretch renders object [breakpoints + standard] 1`] = `
+Array [
+  .c0 {
+  font-stretch: July;
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    font-stretch: August;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    font-stretch: September;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    font-stretch: November;
+  }
+}
+
+@media screen and (min-width:August) {
+  .c0 {
+    font-stretch: August;
+  }
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:August) {
+
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  font-stretch: July;
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    font-stretch: August;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    font-stretch: September;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    font-stretch: November;
+  }
+}
+
+@media screen and (min-width:August) {
+  .c0 {
+    font-stretch: August;
+  }
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:August) {
+
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  font-stretch: January;
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:August) {
+
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    font-stretch: December;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    font-stretch: April;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    font-stretch: May;
+  }
+}
+
+@media screen and (min-width:August) {
+  .c0 {
+    font-stretch: June;
+  }
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  font-stretch: January;
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:August) {
+
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    font-stretch: December;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    font-stretch: April;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    font-stretch: May;
+  }
+}
+
+@media screen and (min-width:August) {
+  .c0 {
+    font-stretch: June;
+  }
+}
+
+<div
+    className="c0"
+  />,
+]
+`;
+
 exports[`fontStretch renders object [breakpoints] 1`] = `
 Array [
   @media screen and (min-width:November) {
@@ -309,7 +502,240 @@ Array [
 ]
 `;
 
-exports[`fontStretch renders object [breakpoints] 2`] = `
+exports[`fontStretch renders object [mediaQueries + standart] 1`] = `
+Array [
+  .c0 {
+  font-stretch: July;
+}
+
+@media May {
+  .c0 {
+    font-stretch: August;
+  }
+}
+
+@media April {
+  .c0 {
+    font-stretch: September;
+  }
+}
+
+@media January {
+  .c0 {
+    font-stretch: November;
+  }
+}
+
+@media April {
+  .c0 {
+    font-stretch: August;
+  }
+}
+
+@media June {
+  .c0 {
+    font-stretch: November;
+  }
+}
+
+@media May {
+
+}
+
+@media April {
+
+}
+
+@media January {
+
+}
+
+@media April {
+
+}
+
+@media June {
+
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  font-stretch: July;
+}
+
+@media May {
+  .c0 {
+    font-stretch: August;
+  }
+}
+
+@media April {
+  .c0 {
+    font-stretch: September;
+  }
+}
+
+@media January {
+  .c0 {
+    font-stretch: November;
+  }
+}
+
+@media April {
+  .c0 {
+    font-stretch: August;
+  }
+}
+
+@media June {
+  .c0 {
+    font-stretch: November;
+  }
+}
+
+@media May {
+
+}
+
+@media April {
+
+}
+
+@media January {
+
+}
+
+@media April {
+
+}
+
+@media June {
+
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  font-stretch: April;
+}
+
+@media May {
+
+}
+
+@media April {
+
+}
+
+@media January {
+
+}
+
+@media April {
+
+}
+
+@media June {
+
+}
+
+@media May {
+  .c0 {
+    font-stretch: November;
+  }
+}
+
+@media April {
+  .c0 {
+    font-stretch: January;
+  }
+}
+
+@media January {
+  .c0 {
+    font-stretch: December;
+  }
+}
+
+@media April {
+  .c0 {
+    font-stretch: April;
+  }
+}
+
+@media June {
+  .c0 {
+    font-stretch: May;
+  }
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  font-stretch: April;
+}
+
+@media May {
+
+}
+
+@media April {
+
+}
+
+@media January {
+
+}
+
+@media April {
+
+}
+
+@media June {
+
+}
+
+@media May {
+  .c0 {
+    font-stretch: November;
+  }
+}
+
+@media April {
+  .c0 {
+    font-stretch: January;
+  }
+}
+
+@media January {
+  .c0 {
+    font-stretch: December;
+  }
+}
+
+@media April {
+  .c0 {
+    font-stretch: April;
+  }
+}
+
+@media June {
+  .c0 {
+    font-stretch: May;
+  }
+}
+
+<div
+    className="c0"
+  />,
+]
+`;
+
+exports[`fontStretch renders object [mediaQueries] 1`] = `
 Array [
   @media May {
   .c0 {
@@ -588,6 +1014,23 @@ Array [
 
 <div
     className="c0"
+  />,
+]
+`;
+
+exports[`fontStretch renders undefined 1`] = `
+Array [
+  <div
+    className=""
+  />,
+  <div
+    className=""
+  />,
+  <div
+    className=""
+  />,
+  <div
+    className=""
   />,
 ]
 `;

@@ -164,6 +164,239 @@ Array [
 ]
 `;
 
+exports[`skewX renders object [breakpoints + standard] 1`] = `
+Array [
+  .c0 {
+  -webkit-transform: skewX(July);
+  -ms-transform: skewX(July);
+  transform: skewX(July);
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    -webkit-transform: skewX(August);
+    -ms-transform: skewX(August);
+    transform: skewX(August);
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    -webkit-transform: skewX(September);
+    -ms-transform: skewX(September);
+    transform: skewX(September);
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    -webkit-transform: skewX(November);
+    -ms-transform: skewX(November);
+    transform: skewX(November);
+  }
+}
+
+@media screen and (min-width:August) {
+  .c0 {
+    -webkit-transform: skewX(August);
+    -ms-transform: skewX(August);
+    transform: skewX(August);
+  }
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:August) {
+
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-transform: skewX(July);
+  -ms-transform: skewX(July);
+  transform: skewX(July);
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    -webkit-transform: skewX(August);
+    -ms-transform: skewX(August);
+    transform: skewX(August);
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    -webkit-transform: skewX(September);
+    -ms-transform: skewX(September);
+    transform: skewX(September);
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    -webkit-transform: skewX(November);
+    -ms-transform: skewX(November);
+    transform: skewX(November);
+  }
+}
+
+@media screen and (min-width:August) {
+  .c0 {
+    -webkit-transform: skewX(August);
+    -ms-transform: skewX(August);
+    transform: skewX(August);
+  }
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:August) {
+
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-transform: skewX(January);
+  -ms-transform: skewX(January);
+  transform: skewX(January);
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:August) {
+
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    -webkit-transform: skewX(December);
+    -ms-transform: skewX(December);
+    transform: skewX(December);
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    -webkit-transform: skewX(April);
+    -ms-transform: skewX(April);
+    transform: skewX(April);
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    -webkit-transform: skewX(May);
+    -ms-transform: skewX(May);
+    transform: skewX(May);
+  }
+}
+
+@media screen and (min-width:August) {
+  .c0 {
+    -webkit-transform: skewX(June);
+    -ms-transform: skewX(June);
+    transform: skewX(June);
+  }
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-transform: skewX(January);
+  -ms-transform: skewX(January);
+  transform: skewX(January);
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:August) {
+
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    -webkit-transform: skewX(December);
+    -ms-transform: skewX(December);
+    transform: skewX(December);
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    -webkit-transform: skewX(April);
+    -ms-transform: skewX(April);
+    transform: skewX(April);
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    -webkit-transform: skewX(May);
+    -ms-transform: skewX(May);
+    transform: skewX(May);
+  }
+}
+
+@media screen and (min-width:August) {
+  .c0 {
+    -webkit-transform: skewX(June);
+    -ms-transform: skewX(June);
+    transform: skewX(June);
+  }
+}
+
+<div
+    className="c0"
+  />,
+]
+`;
+
 exports[`skewX renders object [breakpoints] 1`] = `
 Array [
   @media screen and (min-width:November) {
@@ -373,7 +606,288 @@ Array [
 ]
 `;
 
-exports[`skewX renders object [breakpoints] 2`] = `
+exports[`skewX renders object [mediaQueries + standart] 1`] = `
+Array [
+  .c0 {
+  -webkit-transform: skewX(July);
+  -ms-transform: skewX(July);
+  transform: skewX(July);
+}
+
+@media May {
+  .c0 {
+    -webkit-transform: skewX(August);
+    -ms-transform: skewX(August);
+    transform: skewX(August);
+  }
+}
+
+@media April {
+  .c0 {
+    -webkit-transform: skewX(September);
+    -ms-transform: skewX(September);
+    transform: skewX(September);
+  }
+}
+
+@media January {
+  .c0 {
+    -webkit-transform: skewX(November);
+    -ms-transform: skewX(November);
+    transform: skewX(November);
+  }
+}
+
+@media April {
+  .c0 {
+    -webkit-transform: skewX(August);
+    -ms-transform: skewX(August);
+    transform: skewX(August);
+  }
+}
+
+@media June {
+  .c0 {
+    -webkit-transform: skewX(November);
+    -ms-transform: skewX(November);
+    transform: skewX(November);
+  }
+}
+
+@media May {
+
+}
+
+@media April {
+
+}
+
+@media January {
+
+}
+
+@media April {
+
+}
+
+@media June {
+
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-transform: skewX(July);
+  -ms-transform: skewX(July);
+  transform: skewX(July);
+}
+
+@media May {
+  .c0 {
+    -webkit-transform: skewX(August);
+    -ms-transform: skewX(August);
+    transform: skewX(August);
+  }
+}
+
+@media April {
+  .c0 {
+    -webkit-transform: skewX(September);
+    -ms-transform: skewX(September);
+    transform: skewX(September);
+  }
+}
+
+@media January {
+  .c0 {
+    -webkit-transform: skewX(November);
+    -ms-transform: skewX(November);
+    transform: skewX(November);
+  }
+}
+
+@media April {
+  .c0 {
+    -webkit-transform: skewX(August);
+    -ms-transform: skewX(August);
+    transform: skewX(August);
+  }
+}
+
+@media June {
+  .c0 {
+    -webkit-transform: skewX(November);
+    -ms-transform: skewX(November);
+    transform: skewX(November);
+  }
+}
+
+@media May {
+
+}
+
+@media April {
+
+}
+
+@media January {
+
+}
+
+@media April {
+
+}
+
+@media June {
+
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-transform: skewX(April);
+  -ms-transform: skewX(April);
+  transform: skewX(April);
+}
+
+@media May {
+
+}
+
+@media April {
+
+}
+
+@media January {
+
+}
+
+@media April {
+
+}
+
+@media June {
+
+}
+
+@media May {
+  .c0 {
+    -webkit-transform: skewX(November);
+    -ms-transform: skewX(November);
+    transform: skewX(November);
+  }
+}
+
+@media April {
+  .c0 {
+    -webkit-transform: skewX(January);
+    -ms-transform: skewX(January);
+    transform: skewX(January);
+  }
+}
+
+@media January {
+  .c0 {
+    -webkit-transform: skewX(December);
+    -ms-transform: skewX(December);
+    transform: skewX(December);
+  }
+}
+
+@media April {
+  .c0 {
+    -webkit-transform: skewX(April);
+    -ms-transform: skewX(April);
+    transform: skewX(April);
+  }
+}
+
+@media June {
+  .c0 {
+    -webkit-transform: skewX(May);
+    -ms-transform: skewX(May);
+    transform: skewX(May);
+  }
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-transform: skewX(April);
+  -ms-transform: skewX(April);
+  transform: skewX(April);
+}
+
+@media May {
+
+}
+
+@media April {
+
+}
+
+@media January {
+
+}
+
+@media April {
+
+}
+
+@media June {
+
+}
+
+@media May {
+  .c0 {
+    -webkit-transform: skewX(November);
+    -ms-transform: skewX(November);
+    transform: skewX(November);
+  }
+}
+
+@media April {
+  .c0 {
+    -webkit-transform: skewX(January);
+    -ms-transform: skewX(January);
+    transform: skewX(January);
+  }
+}
+
+@media January {
+  .c0 {
+    -webkit-transform: skewX(December);
+    -ms-transform: skewX(December);
+    transform: skewX(December);
+  }
+}
+
+@media April {
+  .c0 {
+    -webkit-transform: skewX(April);
+    -ms-transform: skewX(April);
+    transform: skewX(April);
+  }
+}
+
+@media June {
+  .c0 {
+    -webkit-transform: skewX(May);
+    -ms-transform: skewX(May);
+    transform: skewX(May);
+  }
+}
+
+<div
+    className="c0"
+  />,
+]
+`;
+
+exports[`skewX renders object [mediaQueries] 1`] = `
 Array [
   @media May {
   .c0 {
@@ -708,6 +1222,23 @@ Array [
 
 <div
     className="c0"
+  />,
+]
+`;
+
+exports[`skewX renders undefined 1`] = `
+Array [
+  <div
+    className=""
+  />,
+  <div
+    className=""
+  />,
+  <div
+    className=""
+  />,
+  <div
+    className=""
   />,
 ]
 `;

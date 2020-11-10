@@ -132,6 +132,199 @@ Array [
 ]
 `;
 
+exports[`marqueeSpeed renders object [breakpoints + standard] 1`] = `
+Array [
+  .c0 {
+  marquee-speed: July;
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    marquee-speed: August;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    marquee-speed: September;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    marquee-speed: November;
+  }
+}
+
+@media screen and (min-width:August) {
+  .c0 {
+    marquee-speed: August;
+  }
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:August) {
+
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  marquee-speed: July;
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    marquee-speed: August;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    marquee-speed: September;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    marquee-speed: November;
+  }
+}
+
+@media screen and (min-width:August) {
+  .c0 {
+    marquee-speed: August;
+  }
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:August) {
+
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  marquee-speed: January;
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:August) {
+
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    marquee-speed: December;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    marquee-speed: April;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    marquee-speed: May;
+  }
+}
+
+@media screen and (min-width:August) {
+  .c0 {
+    marquee-speed: June;
+  }
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  marquee-speed: January;
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:August) {
+
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    marquee-speed: December;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    marquee-speed: April;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    marquee-speed: May;
+  }
+}
+
+@media screen and (min-width:August) {
+  .c0 {
+    marquee-speed: June;
+  }
+}
+
+<div
+    className="c0"
+  />,
+]
+`;
+
 exports[`marqueeSpeed renders object [breakpoints] 1`] = `
 Array [
   @media screen and (min-width:November) {
@@ -309,7 +502,240 @@ Array [
 ]
 `;
 
-exports[`marqueeSpeed renders object [breakpoints] 2`] = `
+exports[`marqueeSpeed renders object [mediaQueries + standart] 1`] = `
+Array [
+  .c0 {
+  marquee-speed: July;
+}
+
+@media May {
+  .c0 {
+    marquee-speed: August;
+  }
+}
+
+@media April {
+  .c0 {
+    marquee-speed: September;
+  }
+}
+
+@media January {
+  .c0 {
+    marquee-speed: November;
+  }
+}
+
+@media April {
+  .c0 {
+    marquee-speed: August;
+  }
+}
+
+@media June {
+  .c0 {
+    marquee-speed: November;
+  }
+}
+
+@media May {
+
+}
+
+@media April {
+
+}
+
+@media January {
+
+}
+
+@media April {
+
+}
+
+@media June {
+
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  marquee-speed: July;
+}
+
+@media May {
+  .c0 {
+    marquee-speed: August;
+  }
+}
+
+@media April {
+  .c0 {
+    marquee-speed: September;
+  }
+}
+
+@media January {
+  .c0 {
+    marquee-speed: November;
+  }
+}
+
+@media April {
+  .c0 {
+    marquee-speed: August;
+  }
+}
+
+@media June {
+  .c0 {
+    marquee-speed: November;
+  }
+}
+
+@media May {
+
+}
+
+@media April {
+
+}
+
+@media January {
+
+}
+
+@media April {
+
+}
+
+@media June {
+
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  marquee-speed: April;
+}
+
+@media May {
+
+}
+
+@media April {
+
+}
+
+@media January {
+
+}
+
+@media April {
+
+}
+
+@media June {
+
+}
+
+@media May {
+  .c0 {
+    marquee-speed: November;
+  }
+}
+
+@media April {
+  .c0 {
+    marquee-speed: January;
+  }
+}
+
+@media January {
+  .c0 {
+    marquee-speed: December;
+  }
+}
+
+@media April {
+  .c0 {
+    marquee-speed: April;
+  }
+}
+
+@media June {
+  .c0 {
+    marquee-speed: May;
+  }
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  marquee-speed: April;
+}
+
+@media May {
+
+}
+
+@media April {
+
+}
+
+@media January {
+
+}
+
+@media April {
+
+}
+
+@media June {
+
+}
+
+@media May {
+  .c0 {
+    marquee-speed: November;
+  }
+}
+
+@media April {
+  .c0 {
+    marquee-speed: January;
+  }
+}
+
+@media January {
+  .c0 {
+    marquee-speed: December;
+  }
+}
+
+@media April {
+  .c0 {
+    marquee-speed: April;
+  }
+}
+
+@media June {
+  .c0 {
+    marquee-speed: May;
+  }
+}
+
+<div
+    className="c0"
+  />,
+]
+`;
+
+exports[`marqueeSpeed renders object [mediaQueries] 1`] = `
 Array [
   @media May {
   .c0 {
@@ -588,6 +1014,23 @@ Array [
 
 <div
     className="c0"
+  />,
+]
+`;
+
+exports[`marqueeSpeed renders undefined 1`] = `
+Array [
+  <div
+    className=""
+  />,
+  <div
+    className=""
+  />,
+  <div
+    className=""
+  />,
+  <div
+    className=""
   />,
 ]
 `;

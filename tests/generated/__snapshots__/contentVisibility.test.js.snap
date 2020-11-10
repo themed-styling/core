@@ -132,6 +132,199 @@ Array [
 ]
 `;
 
+exports[`contentVisibility renders object [breakpoints + standard] 1`] = `
+Array [
+  .c0 {
+  content-visibility: July;
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    content-visibility: August;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    content-visibility: September;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    content-visibility: November;
+  }
+}
+
+@media screen and (min-width:August) {
+  .c0 {
+    content-visibility: August;
+  }
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:August) {
+
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  content-visibility: July;
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    content-visibility: August;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    content-visibility: September;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    content-visibility: November;
+  }
+}
+
+@media screen and (min-width:August) {
+  .c0 {
+    content-visibility: August;
+  }
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:August) {
+
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  content-visibility: January;
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:August) {
+
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    content-visibility: December;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    content-visibility: April;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    content-visibility: May;
+  }
+}
+
+@media screen and (min-width:August) {
+  .c0 {
+    content-visibility: June;
+  }
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  content-visibility: January;
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:August) {
+
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    content-visibility: December;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    content-visibility: April;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    content-visibility: May;
+  }
+}
+
+@media screen and (min-width:August) {
+  .c0 {
+    content-visibility: June;
+  }
+}
+
+<div
+    className="c0"
+  />,
+]
+`;
+
 exports[`contentVisibility renders object [breakpoints] 1`] = `
 Array [
   @media screen and (min-width:November) {
@@ -309,7 +502,240 @@ Array [
 ]
 `;
 
-exports[`contentVisibility renders object [breakpoints] 2`] = `
+exports[`contentVisibility renders object [mediaQueries + standart] 1`] = `
+Array [
+  .c0 {
+  content-visibility: July;
+}
+
+@media May {
+  .c0 {
+    content-visibility: August;
+  }
+}
+
+@media April {
+  .c0 {
+    content-visibility: September;
+  }
+}
+
+@media January {
+  .c0 {
+    content-visibility: November;
+  }
+}
+
+@media April {
+  .c0 {
+    content-visibility: August;
+  }
+}
+
+@media June {
+  .c0 {
+    content-visibility: November;
+  }
+}
+
+@media May {
+
+}
+
+@media April {
+
+}
+
+@media January {
+
+}
+
+@media April {
+
+}
+
+@media June {
+
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  content-visibility: July;
+}
+
+@media May {
+  .c0 {
+    content-visibility: August;
+  }
+}
+
+@media April {
+  .c0 {
+    content-visibility: September;
+  }
+}
+
+@media January {
+  .c0 {
+    content-visibility: November;
+  }
+}
+
+@media April {
+  .c0 {
+    content-visibility: August;
+  }
+}
+
+@media June {
+  .c0 {
+    content-visibility: November;
+  }
+}
+
+@media May {
+
+}
+
+@media April {
+
+}
+
+@media January {
+
+}
+
+@media April {
+
+}
+
+@media June {
+
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  content-visibility: April;
+}
+
+@media May {
+
+}
+
+@media April {
+
+}
+
+@media January {
+
+}
+
+@media April {
+
+}
+
+@media June {
+
+}
+
+@media May {
+  .c0 {
+    content-visibility: November;
+  }
+}
+
+@media April {
+  .c0 {
+    content-visibility: January;
+  }
+}
+
+@media January {
+  .c0 {
+    content-visibility: December;
+  }
+}
+
+@media April {
+  .c0 {
+    content-visibility: April;
+  }
+}
+
+@media June {
+  .c0 {
+    content-visibility: May;
+  }
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  content-visibility: April;
+}
+
+@media May {
+
+}
+
+@media April {
+
+}
+
+@media January {
+
+}
+
+@media April {
+
+}
+
+@media June {
+
+}
+
+@media May {
+  .c0 {
+    content-visibility: November;
+  }
+}
+
+@media April {
+  .c0 {
+    content-visibility: January;
+  }
+}
+
+@media January {
+  .c0 {
+    content-visibility: December;
+  }
+}
+
+@media April {
+  .c0 {
+    content-visibility: April;
+  }
+}
+
+@media June {
+  .c0 {
+    content-visibility: May;
+  }
+}
+
+<div
+    className="c0"
+  />,
+]
+`;
+
+exports[`contentVisibility renders object [mediaQueries] 1`] = `
 Array [
   @media May {
   .c0 {
@@ -588,6 +1014,23 @@ Array [
 
 <div
     className="c0"
+  />,
+]
+`;
+
+exports[`contentVisibility renders undefined 1`] = `
+Array [
+  <div
+    className=""
+  />,
+  <div
+    className=""
+  />,
+  <div
+    className=""
+  />,
+  <div
+    className=""
   />,
 ]
 `;

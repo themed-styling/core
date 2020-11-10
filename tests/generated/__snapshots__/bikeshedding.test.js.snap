@@ -132,6 +132,199 @@ Array [
 ]
 `;
 
+exports[`bikeshedding renders object [breakpoints + standard] 1`] = `
+Array [
+  .c0 {
+  bikeshedding: July;
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    bikeshedding: August;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    bikeshedding: September;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    bikeshedding: November;
+  }
+}
+
+@media screen and (min-width:August) {
+  .c0 {
+    bikeshedding: August;
+  }
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:August) {
+
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  bikeshedding: July;
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    bikeshedding: August;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    bikeshedding: September;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    bikeshedding: November;
+  }
+}
+
+@media screen and (min-width:August) {
+  .c0 {
+    bikeshedding: August;
+  }
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:August) {
+
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  bikeshedding: January;
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:August) {
+
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    bikeshedding: December;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    bikeshedding: April;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    bikeshedding: May;
+  }
+}
+
+@media screen and (min-width:August) {
+  .c0 {
+    bikeshedding: June;
+  }
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  bikeshedding: January;
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:August) {
+
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    bikeshedding: December;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    bikeshedding: April;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    bikeshedding: May;
+  }
+}
+
+@media screen and (min-width:August) {
+  .c0 {
+    bikeshedding: June;
+  }
+}
+
+<div
+    className="c0"
+  />,
+]
+`;
+
 exports[`bikeshedding renders object [breakpoints] 1`] = `
 Array [
   @media screen and (min-width:November) {
@@ -309,7 +502,240 @@ Array [
 ]
 `;
 
-exports[`bikeshedding renders object [breakpoints] 2`] = `
+exports[`bikeshedding renders object [mediaQueries + standart] 1`] = `
+Array [
+  .c0 {
+  bikeshedding: July;
+}
+
+@media May {
+  .c0 {
+    bikeshedding: August;
+  }
+}
+
+@media April {
+  .c0 {
+    bikeshedding: September;
+  }
+}
+
+@media January {
+  .c0 {
+    bikeshedding: November;
+  }
+}
+
+@media April {
+  .c0 {
+    bikeshedding: August;
+  }
+}
+
+@media June {
+  .c0 {
+    bikeshedding: November;
+  }
+}
+
+@media May {
+
+}
+
+@media April {
+
+}
+
+@media January {
+
+}
+
+@media April {
+
+}
+
+@media June {
+
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  bikeshedding: July;
+}
+
+@media May {
+  .c0 {
+    bikeshedding: August;
+  }
+}
+
+@media April {
+  .c0 {
+    bikeshedding: September;
+  }
+}
+
+@media January {
+  .c0 {
+    bikeshedding: November;
+  }
+}
+
+@media April {
+  .c0 {
+    bikeshedding: August;
+  }
+}
+
+@media June {
+  .c0 {
+    bikeshedding: November;
+  }
+}
+
+@media May {
+
+}
+
+@media April {
+
+}
+
+@media January {
+
+}
+
+@media April {
+
+}
+
+@media June {
+
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  bikeshedding: April;
+}
+
+@media May {
+
+}
+
+@media April {
+
+}
+
+@media January {
+
+}
+
+@media April {
+
+}
+
+@media June {
+
+}
+
+@media May {
+  .c0 {
+    bikeshedding: November;
+  }
+}
+
+@media April {
+  .c0 {
+    bikeshedding: January;
+  }
+}
+
+@media January {
+  .c0 {
+    bikeshedding: December;
+  }
+}
+
+@media April {
+  .c0 {
+    bikeshedding: April;
+  }
+}
+
+@media June {
+  .c0 {
+    bikeshedding: May;
+  }
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  bikeshedding: April;
+}
+
+@media May {
+
+}
+
+@media April {
+
+}
+
+@media January {
+
+}
+
+@media April {
+
+}
+
+@media June {
+
+}
+
+@media May {
+  .c0 {
+    bikeshedding: November;
+  }
+}
+
+@media April {
+  .c0 {
+    bikeshedding: January;
+  }
+}
+
+@media January {
+  .c0 {
+    bikeshedding: December;
+  }
+}
+
+@media April {
+  .c0 {
+    bikeshedding: April;
+  }
+}
+
+@media June {
+  .c0 {
+    bikeshedding: May;
+  }
+}
+
+<div
+    className="c0"
+  />,
+]
+`;
+
+exports[`bikeshedding renders object [mediaQueries] 1`] = `
 Array [
   @media May {
   .c0 {
@@ -588,6 +1014,23 @@ Array [
 
 <div
     className="c0"
+  />,
+]
+`;
+
+exports[`bikeshedding renders undefined 1`] = `
+Array [
+  <div
+    className=""
+  />,
+  <div
+    className=""
+  />,
+  <div
+    className=""
+  />,
+  <div
+    className=""
   />,
 ]
 `;

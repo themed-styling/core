@@ -156,6 +156,239 @@ Array [
 ]
 `;
 
+exports[`insetBlockStart renders object [breakpoints + standard] 1`] = `
+Array [
+  .c0 {
+  -webkit-inset-block-start: July;
+  -ms-intb-rlock-start: July;
+  inset-block-start: July;
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    -webkit-inset-block-start: August;
+    -ms-intb-rlock-start: August;
+    inset-block-start: August;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    -webkit-inset-block-start: September;
+    -ms-intb-rlock-start: September;
+    inset-block-start: September;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    -webkit-inset-block-start: November;
+    -ms-intb-rlock-start: November;
+    inset-block-start: November;
+  }
+}
+
+@media screen and (min-width:August) {
+  .c0 {
+    -webkit-inset-block-start: August;
+    -ms-intb-rlock-start: August;
+    inset-block-start: August;
+  }
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:August) {
+
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-inset-block-start: July;
+  -ms-intb-rlock-start: July;
+  inset-block-start: July;
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    -webkit-inset-block-start: August;
+    -ms-intb-rlock-start: August;
+    inset-block-start: August;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    -webkit-inset-block-start: September;
+    -ms-intb-rlock-start: September;
+    inset-block-start: September;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    -webkit-inset-block-start: November;
+    -ms-intb-rlock-start: November;
+    inset-block-start: November;
+  }
+}
+
+@media screen and (min-width:August) {
+  .c0 {
+    -webkit-inset-block-start: August;
+    -ms-intb-rlock-start: August;
+    inset-block-start: August;
+  }
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:August) {
+
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-inset-block-start: January;
+  -ms-intb-rlock-start: January;
+  inset-block-start: January;
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:August) {
+
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    -webkit-inset-block-start: December;
+    -ms-intb-rlock-start: December;
+    inset-block-start: December;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    -webkit-inset-block-start: April;
+    -ms-intb-rlock-start: April;
+    inset-block-start: April;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    -webkit-inset-block-start: May;
+    -ms-intb-rlock-start: May;
+    inset-block-start: May;
+  }
+}
+
+@media screen and (min-width:August) {
+  .c0 {
+    -webkit-inset-block-start: June;
+    -ms-intb-rlock-start: June;
+    inset-block-start: June;
+  }
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-inset-block-start: January;
+  -ms-intb-rlock-start: January;
+  inset-block-start: January;
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:August) {
+
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    -webkit-inset-block-start: December;
+    -ms-intb-rlock-start: December;
+    inset-block-start: December;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    -webkit-inset-block-start: April;
+    -ms-intb-rlock-start: April;
+    inset-block-start: April;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    -webkit-inset-block-start: May;
+    -ms-intb-rlock-start: May;
+    inset-block-start: May;
+  }
+}
+
+@media screen and (min-width:August) {
+  .c0 {
+    -webkit-inset-block-start: June;
+    -ms-intb-rlock-start: June;
+    inset-block-start: June;
+  }
+}
+
+<div
+    className="c0"
+  />,
+]
+`;
+
 exports[`insetBlockStart renders object [breakpoints] 1`] = `
 Array [
   @media screen and (min-width:November) {
@@ -365,7 +598,288 @@ Array [
 ]
 `;
 
-exports[`insetBlockStart renders object [breakpoints] 2`] = `
+exports[`insetBlockStart renders object [mediaQueries + standart] 1`] = `
+Array [
+  .c0 {
+  -webkit-inset-block-start: July;
+  -ms-intb-rlock-start: July;
+  inset-block-start: July;
+}
+
+@media May {
+  .c0 {
+    -webkit-inset-block-start: August;
+    -ms-intb-rlock-start: August;
+    inset-block-start: August;
+  }
+}
+
+@media April {
+  .c0 {
+    -webkit-inset-block-start: September;
+    -ms-intb-rlock-start: September;
+    inset-block-start: September;
+  }
+}
+
+@media January {
+  .c0 {
+    -webkit-inset-block-start: November;
+    -ms-intb-rlock-start: November;
+    inset-block-start: November;
+  }
+}
+
+@media April {
+  .c0 {
+    -webkit-inset-block-start: August;
+    -ms-intb-rlock-start: August;
+    inset-block-start: August;
+  }
+}
+
+@media June {
+  .c0 {
+    -webkit-inset-block-start: November;
+    -ms-intb-rlock-start: November;
+    inset-block-start: November;
+  }
+}
+
+@media May {
+
+}
+
+@media April {
+
+}
+
+@media January {
+
+}
+
+@media April {
+
+}
+
+@media June {
+
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-inset-block-start: July;
+  -ms-intb-rlock-start: July;
+  inset-block-start: July;
+}
+
+@media May {
+  .c0 {
+    -webkit-inset-block-start: August;
+    -ms-intb-rlock-start: August;
+    inset-block-start: August;
+  }
+}
+
+@media April {
+  .c0 {
+    -webkit-inset-block-start: September;
+    -ms-intb-rlock-start: September;
+    inset-block-start: September;
+  }
+}
+
+@media January {
+  .c0 {
+    -webkit-inset-block-start: November;
+    -ms-intb-rlock-start: November;
+    inset-block-start: November;
+  }
+}
+
+@media April {
+  .c0 {
+    -webkit-inset-block-start: August;
+    -ms-intb-rlock-start: August;
+    inset-block-start: August;
+  }
+}
+
+@media June {
+  .c0 {
+    -webkit-inset-block-start: November;
+    -ms-intb-rlock-start: November;
+    inset-block-start: November;
+  }
+}
+
+@media May {
+
+}
+
+@media April {
+
+}
+
+@media January {
+
+}
+
+@media April {
+
+}
+
+@media June {
+
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-inset-block-start: April;
+  -ms-intb-rlock-start: April;
+  inset-block-start: April;
+}
+
+@media May {
+
+}
+
+@media April {
+
+}
+
+@media January {
+
+}
+
+@media April {
+
+}
+
+@media June {
+
+}
+
+@media May {
+  .c0 {
+    -webkit-inset-block-start: November;
+    -ms-intb-rlock-start: November;
+    inset-block-start: November;
+  }
+}
+
+@media April {
+  .c0 {
+    -webkit-inset-block-start: January;
+    -ms-intb-rlock-start: January;
+    inset-block-start: January;
+  }
+}
+
+@media January {
+  .c0 {
+    -webkit-inset-block-start: December;
+    -ms-intb-rlock-start: December;
+    inset-block-start: December;
+  }
+}
+
+@media April {
+  .c0 {
+    -webkit-inset-block-start: April;
+    -ms-intb-rlock-start: April;
+    inset-block-start: April;
+  }
+}
+
+@media June {
+  .c0 {
+    -webkit-inset-block-start: May;
+    -ms-intb-rlock-start: May;
+    inset-block-start: May;
+  }
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-inset-block-start: April;
+  -ms-intb-rlock-start: April;
+  inset-block-start: April;
+}
+
+@media May {
+
+}
+
+@media April {
+
+}
+
+@media January {
+
+}
+
+@media April {
+
+}
+
+@media June {
+
+}
+
+@media May {
+  .c0 {
+    -webkit-inset-block-start: November;
+    -ms-intb-rlock-start: November;
+    inset-block-start: November;
+  }
+}
+
+@media April {
+  .c0 {
+    -webkit-inset-block-start: January;
+    -ms-intb-rlock-start: January;
+    inset-block-start: January;
+  }
+}
+
+@media January {
+  .c0 {
+    -webkit-inset-block-start: December;
+    -ms-intb-rlock-start: December;
+    inset-block-start: December;
+  }
+}
+
+@media April {
+  .c0 {
+    -webkit-inset-block-start: April;
+    -ms-intb-rlock-start: April;
+    inset-block-start: April;
+  }
+}
+
+@media June {
+  .c0 {
+    -webkit-inset-block-start: May;
+    -ms-intb-rlock-start: May;
+    inset-block-start: May;
+  }
+}
+
+<div
+    className="c0"
+  />,
+]
+`;
+
+exports[`insetBlockStart renders object [mediaQueries] 1`] = `
 Array [
   @media May {
   .c0 {
@@ -700,6 +1214,23 @@ Array [
 
 <div
     className="c0"
+  />,
+]
+`;
+
+exports[`insetBlockStart renders undefined 1`] = `
+Array [
+  <div
+    className=""
+  />,
+  <div
+    className=""
+  />,
+  <div
+    className=""
+  />,
+  <div
+    className=""
   />,
 ]
 `;

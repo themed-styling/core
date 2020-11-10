@@ -132,6 +132,199 @@ Array [
 ]
 `;
 
+exports[`overflowY renders object [breakpoints + standard] 1`] = `
+Array [
+  .c0 {
+  overflow-y: July;
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    overflow-y: August;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    overflow-y: September;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    overflow-y: November;
+  }
+}
+
+@media screen and (min-width:August) {
+  .c0 {
+    overflow-y: August;
+  }
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:August) {
+
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  overflow-y: July;
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    overflow-y: August;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    overflow-y: September;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    overflow-y: November;
+  }
+}
+
+@media screen and (min-width:August) {
+  .c0 {
+    overflow-y: August;
+  }
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:August) {
+
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  overflow-y: January;
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:August) {
+
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    overflow-y: December;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    overflow-y: April;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    overflow-y: May;
+  }
+}
+
+@media screen and (min-width:August) {
+  .c0 {
+    overflow-y: June;
+  }
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  overflow-y: January;
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:August) {
+
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    overflow-y: December;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    overflow-y: April;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    overflow-y: May;
+  }
+}
+
+@media screen and (min-width:August) {
+  .c0 {
+    overflow-y: June;
+  }
+}
+
+<div
+    className="c0"
+  />,
+]
+`;
+
 exports[`overflowY renders object [breakpoints] 1`] = `
 Array [
   @media screen and (min-width:November) {
@@ -309,7 +502,240 @@ Array [
 ]
 `;
 
-exports[`overflowY renders object [breakpoints] 2`] = `
+exports[`overflowY renders object [mediaQueries + standart] 1`] = `
+Array [
+  .c0 {
+  overflow-y: July;
+}
+
+@media May {
+  .c0 {
+    overflow-y: August;
+  }
+}
+
+@media April {
+  .c0 {
+    overflow-y: September;
+  }
+}
+
+@media January {
+  .c0 {
+    overflow-y: November;
+  }
+}
+
+@media April {
+  .c0 {
+    overflow-y: August;
+  }
+}
+
+@media June {
+  .c0 {
+    overflow-y: November;
+  }
+}
+
+@media May {
+
+}
+
+@media April {
+
+}
+
+@media January {
+
+}
+
+@media April {
+
+}
+
+@media June {
+
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  overflow-y: July;
+}
+
+@media May {
+  .c0 {
+    overflow-y: August;
+  }
+}
+
+@media April {
+  .c0 {
+    overflow-y: September;
+  }
+}
+
+@media January {
+  .c0 {
+    overflow-y: November;
+  }
+}
+
+@media April {
+  .c0 {
+    overflow-y: August;
+  }
+}
+
+@media June {
+  .c0 {
+    overflow-y: November;
+  }
+}
+
+@media May {
+
+}
+
+@media April {
+
+}
+
+@media January {
+
+}
+
+@media April {
+
+}
+
+@media June {
+
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  overflow-y: April;
+}
+
+@media May {
+
+}
+
+@media April {
+
+}
+
+@media January {
+
+}
+
+@media April {
+
+}
+
+@media June {
+
+}
+
+@media May {
+  .c0 {
+    overflow-y: November;
+  }
+}
+
+@media April {
+  .c0 {
+    overflow-y: January;
+  }
+}
+
+@media January {
+  .c0 {
+    overflow-y: December;
+  }
+}
+
+@media April {
+  .c0 {
+    overflow-y: April;
+  }
+}
+
+@media June {
+  .c0 {
+    overflow-y: May;
+  }
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  overflow-y: April;
+}
+
+@media May {
+
+}
+
+@media April {
+
+}
+
+@media January {
+
+}
+
+@media April {
+
+}
+
+@media June {
+
+}
+
+@media May {
+  .c0 {
+    overflow-y: November;
+  }
+}
+
+@media April {
+  .c0 {
+    overflow-y: January;
+  }
+}
+
+@media January {
+  .c0 {
+    overflow-y: December;
+  }
+}
+
+@media April {
+  .c0 {
+    overflow-y: April;
+  }
+}
+
+@media June {
+  .c0 {
+    overflow-y: May;
+  }
+}
+
+<div
+    className="c0"
+  />,
+]
+`;
+
+exports[`overflowY renders object [mediaQueries] 1`] = `
 Array [
   @media May {
   .c0 {
@@ -588,6 +1014,23 @@ Array [
 
 <div
     className="c0"
+  />,
+]
+`;
+
+exports[`overflowY renders undefined 1`] = `
+Array [
+  <div
+    className=""
+  />,
+  <div
+    className=""
+  />,
+  <div
+    className=""
+  />,
+  <div
+    className=""
   />,
 ]
 `;

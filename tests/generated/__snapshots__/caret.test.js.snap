@@ -132,6 +132,199 @@ Array [
 ]
 `;
 
+exports[`caret renders object [breakpoints + standard] 1`] = `
+Array [
+  .c0 {
+  caret: July;
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    caret: August;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    caret: September;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    caret: November;
+  }
+}
+
+@media screen and (min-width:August) {
+  .c0 {
+    caret: August;
+  }
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:August) {
+
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  caret: July;
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    caret: August;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    caret: September;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    caret: November;
+  }
+}
+
+@media screen and (min-width:August) {
+  .c0 {
+    caret: August;
+  }
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:August) {
+
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  caret: January;
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:August) {
+
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    caret: December;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    caret: April;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    caret: May;
+  }
+}
+
+@media screen and (min-width:August) {
+  .c0 {
+    caret: June;
+  }
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  caret: January;
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:August) {
+
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    caret: December;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    caret: April;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    caret: May;
+  }
+}
+
+@media screen and (min-width:August) {
+  .c0 {
+    caret: June;
+  }
+}
+
+<div
+    className="c0"
+  />,
+]
+`;
+
 exports[`caret renders object [breakpoints] 1`] = `
 Array [
   @media screen and (min-width:November) {
@@ -309,7 +502,240 @@ Array [
 ]
 `;
 
-exports[`caret renders object [breakpoints] 2`] = `
+exports[`caret renders object [mediaQueries + standart] 1`] = `
+Array [
+  .c0 {
+  caret: July;
+}
+
+@media May {
+  .c0 {
+    caret: August;
+  }
+}
+
+@media April {
+  .c0 {
+    caret: September;
+  }
+}
+
+@media January {
+  .c0 {
+    caret: November;
+  }
+}
+
+@media April {
+  .c0 {
+    caret: August;
+  }
+}
+
+@media June {
+  .c0 {
+    caret: November;
+  }
+}
+
+@media May {
+
+}
+
+@media April {
+
+}
+
+@media January {
+
+}
+
+@media April {
+
+}
+
+@media June {
+
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  caret: July;
+}
+
+@media May {
+  .c0 {
+    caret: August;
+  }
+}
+
+@media April {
+  .c0 {
+    caret: September;
+  }
+}
+
+@media January {
+  .c0 {
+    caret: November;
+  }
+}
+
+@media April {
+  .c0 {
+    caret: August;
+  }
+}
+
+@media June {
+  .c0 {
+    caret: November;
+  }
+}
+
+@media May {
+
+}
+
+@media April {
+
+}
+
+@media January {
+
+}
+
+@media April {
+
+}
+
+@media June {
+
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  caret: April;
+}
+
+@media May {
+
+}
+
+@media April {
+
+}
+
+@media January {
+
+}
+
+@media April {
+
+}
+
+@media June {
+
+}
+
+@media May {
+  .c0 {
+    caret: November;
+  }
+}
+
+@media April {
+  .c0 {
+    caret: January;
+  }
+}
+
+@media January {
+  .c0 {
+    caret: December;
+  }
+}
+
+@media April {
+  .c0 {
+    caret: April;
+  }
+}
+
+@media June {
+  .c0 {
+    caret: May;
+  }
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  caret: April;
+}
+
+@media May {
+
+}
+
+@media April {
+
+}
+
+@media January {
+
+}
+
+@media April {
+
+}
+
+@media June {
+
+}
+
+@media May {
+  .c0 {
+    caret: November;
+  }
+}
+
+@media April {
+  .c0 {
+    caret: January;
+  }
+}
+
+@media January {
+  .c0 {
+    caret: December;
+  }
+}
+
+@media April {
+  .c0 {
+    caret: April;
+  }
+}
+
+@media June {
+  .c0 {
+    caret: May;
+  }
+}
+
+<div
+    className="c0"
+  />,
+]
+`;
+
+exports[`caret renders object [mediaQueries] 1`] = `
 Array [
   @media May {
   .c0 {
@@ -588,6 +1014,23 @@ Array [
 
 <div
     className="c0"
+  />,
+]
+`;
+
+exports[`caret renders undefined 1`] = `
+Array [
+  <div
+    className=""
+  />,
+  <div
+    className=""
+  />,
+  <div
+    className=""
+  />,
+  <div
+    className=""
   />,
 ]
 `;

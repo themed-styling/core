@@ -132,6 +132,199 @@ Array [
 ]
 `;
 
+exports[`borderBlockStartWidth renders object [breakpoints + standard] 1`] = `
+Array [
+  .c0 {
+  border-block-start-width: July;
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    border-block-start-width: August;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    border-block-start-width: September;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    border-block-start-width: November;
+  }
+}
+
+@media screen and (min-width:August) {
+  .c0 {
+    border-block-start-width: August;
+  }
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:August) {
+
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  border-block-start-width: July;
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    border-block-start-width: August;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    border-block-start-width: September;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    border-block-start-width: November;
+  }
+}
+
+@media screen and (min-width:August) {
+  .c0 {
+    border-block-start-width: August;
+  }
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:August) {
+
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  border-block-start-width: January;
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:August) {
+
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    border-block-start-width: December;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    border-block-start-width: April;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    border-block-start-width: May;
+  }
+}
+
+@media screen and (min-width:August) {
+  .c0 {
+    border-block-start-width: June;
+  }
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  border-block-start-width: January;
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:August) {
+
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    border-block-start-width: December;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    border-block-start-width: April;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    border-block-start-width: May;
+  }
+}
+
+@media screen and (min-width:August) {
+  .c0 {
+    border-block-start-width: June;
+  }
+}
+
+<div
+    className="c0"
+  />,
+]
+`;
+
 exports[`borderBlockStartWidth renders object [breakpoints] 1`] = `
 Array [
   @media screen and (min-width:November) {
@@ -309,7 +502,240 @@ Array [
 ]
 `;
 
-exports[`borderBlockStartWidth renders object [breakpoints] 2`] = `
+exports[`borderBlockStartWidth renders object [mediaQueries + standart] 1`] = `
+Array [
+  .c0 {
+  border-block-start-width: July;
+}
+
+@media May {
+  .c0 {
+    border-block-start-width: August;
+  }
+}
+
+@media April {
+  .c0 {
+    border-block-start-width: September;
+  }
+}
+
+@media January {
+  .c0 {
+    border-block-start-width: November;
+  }
+}
+
+@media April {
+  .c0 {
+    border-block-start-width: August;
+  }
+}
+
+@media June {
+  .c0 {
+    border-block-start-width: November;
+  }
+}
+
+@media May {
+
+}
+
+@media April {
+
+}
+
+@media January {
+
+}
+
+@media April {
+
+}
+
+@media June {
+
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  border-block-start-width: July;
+}
+
+@media May {
+  .c0 {
+    border-block-start-width: August;
+  }
+}
+
+@media April {
+  .c0 {
+    border-block-start-width: September;
+  }
+}
+
+@media January {
+  .c0 {
+    border-block-start-width: November;
+  }
+}
+
+@media April {
+  .c0 {
+    border-block-start-width: August;
+  }
+}
+
+@media June {
+  .c0 {
+    border-block-start-width: November;
+  }
+}
+
+@media May {
+
+}
+
+@media April {
+
+}
+
+@media January {
+
+}
+
+@media April {
+
+}
+
+@media June {
+
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  border-block-start-width: April;
+}
+
+@media May {
+
+}
+
+@media April {
+
+}
+
+@media January {
+
+}
+
+@media April {
+
+}
+
+@media June {
+
+}
+
+@media May {
+  .c0 {
+    border-block-start-width: November;
+  }
+}
+
+@media April {
+  .c0 {
+    border-block-start-width: January;
+  }
+}
+
+@media January {
+  .c0 {
+    border-block-start-width: December;
+  }
+}
+
+@media April {
+  .c0 {
+    border-block-start-width: April;
+  }
+}
+
+@media June {
+  .c0 {
+    border-block-start-width: May;
+  }
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  border-block-start-width: April;
+}
+
+@media May {
+
+}
+
+@media April {
+
+}
+
+@media January {
+
+}
+
+@media April {
+
+}
+
+@media June {
+
+}
+
+@media May {
+  .c0 {
+    border-block-start-width: November;
+  }
+}
+
+@media April {
+  .c0 {
+    border-block-start-width: January;
+  }
+}
+
+@media January {
+  .c0 {
+    border-block-start-width: December;
+  }
+}
+
+@media April {
+  .c0 {
+    border-block-start-width: April;
+  }
+}
+
+@media June {
+  .c0 {
+    border-block-start-width: May;
+  }
+}
+
+<div
+    className="c0"
+  />,
+]
+`;
+
+exports[`borderBlockStartWidth renders object [mediaQueries] 1`] = `
 Array [
   @media May {
   .c0 {
@@ -588,6 +1014,23 @@ Array [
 
 <div
     className="c0"
+  />,
+]
+`;
+
+exports[`borderBlockStartWidth renders undefined 1`] = `
+Array [
+  <div
+    className=""
+  />,
+  <div
+    className=""
+  />,
+  <div
+    className=""
+  />,
+  <div
+    className=""
   />,
 ]
 `;

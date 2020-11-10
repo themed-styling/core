@@ -148,6 +148,219 @@ Array [
 ]
 `;
 
+exports[`animationDuration renders object [breakpoints + standard] 1`] = `
+Array [
+  .c0 {
+  -webkit-animation-duration: July;
+  animation-duration: July;
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    -webkit-animation-duration: August;
+    animation-duration: August;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    -webkit-animation-duration: September;
+    animation-duration: September;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    -webkit-animation-duration: November;
+    animation-duration: November;
+  }
+}
+
+@media screen and (min-width:August) {
+  .c0 {
+    -webkit-animation-duration: August;
+    animation-duration: August;
+  }
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:August) {
+
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-animation-duration: July;
+  animation-duration: July;
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    -webkit-animation-duration: August;
+    animation-duration: August;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    -webkit-animation-duration: September;
+    animation-duration: September;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    -webkit-animation-duration: November;
+    animation-duration: November;
+  }
+}
+
+@media screen and (min-width:August) {
+  .c0 {
+    -webkit-animation-duration: August;
+    animation-duration: August;
+  }
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:August) {
+
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-animation-duration: January;
+  animation-duration: January;
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:August) {
+
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    -webkit-animation-duration: December;
+    animation-duration: December;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    -webkit-animation-duration: April;
+    animation-duration: April;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    -webkit-animation-duration: May;
+    animation-duration: May;
+  }
+}
+
+@media screen and (min-width:August) {
+  .c0 {
+    -webkit-animation-duration: June;
+    animation-duration: June;
+  }
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-animation-duration: January;
+  animation-duration: January;
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:August) {
+
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    -webkit-animation-duration: December;
+    animation-duration: December;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    -webkit-animation-duration: April;
+    animation-duration: April;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    -webkit-animation-duration: May;
+    animation-duration: May;
+  }
+}
+
+@media screen and (min-width:August) {
+  .c0 {
+    -webkit-animation-duration: June;
+    animation-duration: June;
+  }
+}
+
+<div
+    className="c0"
+  />,
+]
+`;
+
 exports[`animationDuration renders object [breakpoints] 1`] = `
 Array [
   @media screen and (min-width:November) {
@@ -341,7 +554,264 @@ Array [
 ]
 `;
 
-exports[`animationDuration renders object [breakpoints] 2`] = `
+exports[`animationDuration renders object [mediaQueries + standart] 1`] = `
+Array [
+  .c0 {
+  -webkit-animation-duration: July;
+  animation-duration: July;
+}
+
+@media May {
+  .c0 {
+    -webkit-animation-duration: August;
+    animation-duration: August;
+  }
+}
+
+@media April {
+  .c0 {
+    -webkit-animation-duration: September;
+    animation-duration: September;
+  }
+}
+
+@media January {
+  .c0 {
+    -webkit-animation-duration: November;
+    animation-duration: November;
+  }
+}
+
+@media April {
+  .c0 {
+    -webkit-animation-duration: August;
+    animation-duration: August;
+  }
+}
+
+@media June {
+  .c0 {
+    -webkit-animation-duration: November;
+    animation-duration: November;
+  }
+}
+
+@media May {
+
+}
+
+@media April {
+
+}
+
+@media January {
+
+}
+
+@media April {
+
+}
+
+@media June {
+
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-animation-duration: July;
+  animation-duration: July;
+}
+
+@media May {
+  .c0 {
+    -webkit-animation-duration: August;
+    animation-duration: August;
+  }
+}
+
+@media April {
+  .c0 {
+    -webkit-animation-duration: September;
+    animation-duration: September;
+  }
+}
+
+@media January {
+  .c0 {
+    -webkit-animation-duration: November;
+    animation-duration: November;
+  }
+}
+
+@media April {
+  .c0 {
+    -webkit-animation-duration: August;
+    animation-duration: August;
+  }
+}
+
+@media June {
+  .c0 {
+    -webkit-animation-duration: November;
+    animation-duration: November;
+  }
+}
+
+@media May {
+
+}
+
+@media April {
+
+}
+
+@media January {
+
+}
+
+@media April {
+
+}
+
+@media June {
+
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-animation-duration: April;
+  animation-duration: April;
+}
+
+@media May {
+
+}
+
+@media April {
+
+}
+
+@media January {
+
+}
+
+@media April {
+
+}
+
+@media June {
+
+}
+
+@media May {
+  .c0 {
+    -webkit-animation-duration: November;
+    animation-duration: November;
+  }
+}
+
+@media April {
+  .c0 {
+    -webkit-animation-duration: January;
+    animation-duration: January;
+  }
+}
+
+@media January {
+  .c0 {
+    -webkit-animation-duration: December;
+    animation-duration: December;
+  }
+}
+
+@media April {
+  .c0 {
+    -webkit-animation-duration: April;
+    animation-duration: April;
+  }
+}
+
+@media June {
+  .c0 {
+    -webkit-animation-duration: May;
+    animation-duration: May;
+  }
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-animation-duration: April;
+  animation-duration: April;
+}
+
+@media May {
+
+}
+
+@media April {
+
+}
+
+@media January {
+
+}
+
+@media April {
+
+}
+
+@media June {
+
+}
+
+@media May {
+  .c0 {
+    -webkit-animation-duration: November;
+    animation-duration: November;
+  }
+}
+
+@media April {
+  .c0 {
+    -webkit-animation-duration: January;
+    animation-duration: January;
+  }
+}
+
+@media January {
+  .c0 {
+    -webkit-animation-duration: December;
+    animation-duration: December;
+  }
+}
+
+@media April {
+  .c0 {
+    -webkit-animation-duration: April;
+    animation-duration: April;
+  }
+}
+
+@media June {
+  .c0 {
+    -webkit-animation-duration: May;
+    animation-duration: May;
+  }
+}
+
+<div
+    className="c0"
+  />,
+]
+`;
+
+exports[`animationDuration renders object [mediaQueries] 1`] = `
 Array [
   @media May {
   .c0 {
@@ -648,6 +1118,23 @@ Array [
 
 <div
     className="c0"
+  />,
+]
+`;
+
+exports[`animationDuration renders undefined 1`] = `
+Array [
+  <div
+    className=""
+  />,
+  <div
+    className=""
+  />,
+  <div
+    className=""
+  />,
+  <div
+    className=""
   />,
 ]
 `;

@@ -132,6 +132,199 @@ Array [
 ]
 `;
 
+exports[`pageBreakBefore renders object [breakpoints + standard] 1`] = `
+Array [
+  .c0 {
+  page-break-before: July;
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    page-break-before: August;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    page-break-before: September;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    page-break-before: November;
+  }
+}
+
+@media screen and (min-width:August) {
+  .c0 {
+    page-break-before: August;
+  }
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:August) {
+
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  page-break-before: July;
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    page-break-before: August;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    page-break-before: September;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    page-break-before: November;
+  }
+}
+
+@media screen and (min-width:August) {
+  .c0 {
+    page-break-before: August;
+  }
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:August) {
+
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  page-break-before: January;
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:August) {
+
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    page-break-before: December;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    page-break-before: April;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    page-break-before: May;
+  }
+}
+
+@media screen and (min-width:August) {
+  .c0 {
+    page-break-before: June;
+  }
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  page-break-before: January;
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:August) {
+
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    page-break-before: December;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    page-break-before: April;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    page-break-before: May;
+  }
+}
+
+@media screen and (min-width:August) {
+  .c0 {
+    page-break-before: June;
+  }
+}
+
+<div
+    className="c0"
+  />,
+]
+`;
+
 exports[`pageBreakBefore renders object [breakpoints] 1`] = `
 Array [
   @media screen and (min-width:November) {
@@ -309,7 +502,240 @@ Array [
 ]
 `;
 
-exports[`pageBreakBefore renders object [breakpoints] 2`] = `
+exports[`pageBreakBefore renders object [mediaQueries + standart] 1`] = `
+Array [
+  .c0 {
+  page-break-before: July;
+}
+
+@media May {
+  .c0 {
+    page-break-before: August;
+  }
+}
+
+@media April {
+  .c0 {
+    page-break-before: September;
+  }
+}
+
+@media January {
+  .c0 {
+    page-break-before: November;
+  }
+}
+
+@media April {
+  .c0 {
+    page-break-before: August;
+  }
+}
+
+@media June {
+  .c0 {
+    page-break-before: November;
+  }
+}
+
+@media May {
+
+}
+
+@media April {
+
+}
+
+@media January {
+
+}
+
+@media April {
+
+}
+
+@media June {
+
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  page-break-before: July;
+}
+
+@media May {
+  .c0 {
+    page-break-before: August;
+  }
+}
+
+@media April {
+  .c0 {
+    page-break-before: September;
+  }
+}
+
+@media January {
+  .c0 {
+    page-break-before: November;
+  }
+}
+
+@media April {
+  .c0 {
+    page-break-before: August;
+  }
+}
+
+@media June {
+  .c0 {
+    page-break-before: November;
+  }
+}
+
+@media May {
+
+}
+
+@media April {
+
+}
+
+@media January {
+
+}
+
+@media April {
+
+}
+
+@media June {
+
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  page-break-before: April;
+}
+
+@media May {
+
+}
+
+@media April {
+
+}
+
+@media January {
+
+}
+
+@media April {
+
+}
+
+@media June {
+
+}
+
+@media May {
+  .c0 {
+    page-break-before: November;
+  }
+}
+
+@media April {
+  .c0 {
+    page-break-before: January;
+  }
+}
+
+@media January {
+  .c0 {
+    page-break-before: December;
+  }
+}
+
+@media April {
+  .c0 {
+    page-break-before: April;
+  }
+}
+
+@media June {
+  .c0 {
+    page-break-before: May;
+  }
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  page-break-before: April;
+}
+
+@media May {
+
+}
+
+@media April {
+
+}
+
+@media January {
+
+}
+
+@media April {
+
+}
+
+@media June {
+
+}
+
+@media May {
+  .c0 {
+    page-break-before: November;
+  }
+}
+
+@media April {
+  .c0 {
+    page-break-before: January;
+  }
+}
+
+@media January {
+  .c0 {
+    page-break-before: December;
+  }
+}
+
+@media April {
+  .c0 {
+    page-break-before: April;
+  }
+}
+
+@media June {
+  .c0 {
+    page-break-before: May;
+  }
+}
+
+<div
+    className="c0"
+  />,
+]
+`;
+
+exports[`pageBreakBefore renders object [mediaQueries] 1`] = `
 Array [
   @media May {
   .c0 {
@@ -588,6 +1014,23 @@ Array [
 
 <div
     className="c0"
+  />,
+]
+`;
+
+exports[`pageBreakBefore renders undefined 1`] = `
+Array [
+  <div
+    className=""
+  />,
+  <div
+    className=""
+  />,
+  <div
+    className=""
+  />,
+  <div
+    className=""
   />,
 ]
 `;

@@ -180,6 +180,259 @@ Array [
 ]
 `;
 
+exports[`scrollPaddingInline renders object [breakpoints + standard] 1`] = `
+Array [
+  .c0 {
+  -webkit-scroll-padding-inline: July;
+  -moz-scroll-padding-inline: July;
+  -ms-scroll-padding-inline: July;
+  scroll-padding-inline: July;
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    -webkit-scroll-padding-inline: August;
+    -moz-scroll-padding-inline: August;
+    -ms-scroll-padding-inline: August;
+    scroll-padding-inline: August;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    -webkit-scroll-padding-inline: September;
+    -moz-scroll-padding-inline: September;
+    -ms-scroll-padding-inline: September;
+    scroll-padding-inline: September;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    -webkit-scroll-padding-inline: November;
+    -moz-scroll-padding-inline: November;
+    -ms-scroll-padding-inline: November;
+    scroll-padding-inline: November;
+  }
+}
+
+@media screen and (min-width:August) {
+  .c0 {
+    -webkit-scroll-padding-inline: August;
+    -moz-scroll-padding-inline: August;
+    -ms-scroll-padding-inline: August;
+    scroll-padding-inline: August;
+  }
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:August) {
+
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-scroll-padding-inline: July;
+  -moz-scroll-padding-inline: July;
+  -ms-scroll-padding-inline: July;
+  scroll-padding-inline: July;
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    -webkit-scroll-padding-inline: August;
+    -moz-scroll-padding-inline: August;
+    -ms-scroll-padding-inline: August;
+    scroll-padding-inline: August;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    -webkit-scroll-padding-inline: September;
+    -moz-scroll-padding-inline: September;
+    -ms-scroll-padding-inline: September;
+    scroll-padding-inline: September;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    -webkit-scroll-padding-inline: November;
+    -moz-scroll-padding-inline: November;
+    -ms-scroll-padding-inline: November;
+    scroll-padding-inline: November;
+  }
+}
+
+@media screen and (min-width:August) {
+  .c0 {
+    -webkit-scroll-padding-inline: August;
+    -moz-scroll-padding-inline: August;
+    -ms-scroll-padding-inline: August;
+    scroll-padding-inline: August;
+  }
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:August) {
+
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-scroll-padding-inline: January;
+  -moz-scroll-padding-inline: January;
+  -ms-scroll-padding-inline: January;
+  scroll-padding-inline: January;
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:August) {
+
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    -webkit-scroll-padding-inline: December;
+    -moz-scroll-padding-inline: December;
+    -ms-scroll-padding-inline: December;
+    scroll-padding-inline: December;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    -webkit-scroll-padding-inline: April;
+    -moz-scroll-padding-inline: April;
+    -ms-scroll-padding-inline: April;
+    scroll-padding-inline: April;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    -webkit-scroll-padding-inline: May;
+    -moz-scroll-padding-inline: May;
+    -ms-scroll-padding-inline: May;
+    scroll-padding-inline: May;
+  }
+}
+
+@media screen and (min-width:August) {
+  .c0 {
+    -webkit-scroll-padding-inline: June;
+    -moz-scroll-padding-inline: June;
+    -ms-scroll-padding-inline: June;
+    scroll-padding-inline: June;
+  }
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-scroll-padding-inline: January;
+  -moz-scroll-padding-inline: January;
+  -ms-scroll-padding-inline: January;
+  scroll-padding-inline: January;
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:August) {
+
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    -webkit-scroll-padding-inline: December;
+    -moz-scroll-padding-inline: December;
+    -ms-scroll-padding-inline: December;
+    scroll-padding-inline: December;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    -webkit-scroll-padding-inline: April;
+    -moz-scroll-padding-inline: April;
+    -ms-scroll-padding-inline: April;
+    scroll-padding-inline: April;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    -webkit-scroll-padding-inline: May;
+    -moz-scroll-padding-inline: May;
+    -ms-scroll-padding-inline: May;
+    scroll-padding-inline: May;
+  }
+}
+
+@media screen and (min-width:August) {
+  .c0 {
+    -webkit-scroll-padding-inline: June;
+    -moz-scroll-padding-inline: June;
+    -ms-scroll-padding-inline: June;
+    scroll-padding-inline: June;
+  }
+}
+
+<div
+    className="c0"
+  />,
+]
+`;
+
 exports[`scrollPaddingInline renders object [breakpoints] 1`] = `
 Array [
   @media screen and (min-width:November) {
@@ -405,7 +658,312 @@ Array [
 ]
 `;
 
-exports[`scrollPaddingInline renders object [breakpoints] 2`] = `
+exports[`scrollPaddingInline renders object [mediaQueries + standart] 1`] = `
+Array [
+  .c0 {
+  -webkit-scroll-padding-inline: July;
+  -moz-scroll-padding-inline: July;
+  -ms-scroll-padding-inline: July;
+  scroll-padding-inline: July;
+}
+
+@media May {
+  .c0 {
+    -webkit-scroll-padding-inline: August;
+    -moz-scroll-padding-inline: August;
+    -ms-scroll-padding-inline: August;
+    scroll-padding-inline: August;
+  }
+}
+
+@media April {
+  .c0 {
+    -webkit-scroll-padding-inline: September;
+    -moz-scroll-padding-inline: September;
+    -ms-scroll-padding-inline: September;
+    scroll-padding-inline: September;
+  }
+}
+
+@media January {
+  .c0 {
+    -webkit-scroll-padding-inline: November;
+    -moz-scroll-padding-inline: November;
+    -ms-scroll-padding-inline: November;
+    scroll-padding-inline: November;
+  }
+}
+
+@media April {
+  .c0 {
+    -webkit-scroll-padding-inline: August;
+    -moz-scroll-padding-inline: August;
+    -ms-scroll-padding-inline: August;
+    scroll-padding-inline: August;
+  }
+}
+
+@media June {
+  .c0 {
+    -webkit-scroll-padding-inline: November;
+    -moz-scroll-padding-inline: November;
+    -ms-scroll-padding-inline: November;
+    scroll-padding-inline: November;
+  }
+}
+
+@media May {
+
+}
+
+@media April {
+
+}
+
+@media January {
+
+}
+
+@media April {
+
+}
+
+@media June {
+
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-scroll-padding-inline: July;
+  -moz-scroll-padding-inline: July;
+  -ms-scroll-padding-inline: July;
+  scroll-padding-inline: July;
+}
+
+@media May {
+  .c0 {
+    -webkit-scroll-padding-inline: August;
+    -moz-scroll-padding-inline: August;
+    -ms-scroll-padding-inline: August;
+    scroll-padding-inline: August;
+  }
+}
+
+@media April {
+  .c0 {
+    -webkit-scroll-padding-inline: September;
+    -moz-scroll-padding-inline: September;
+    -ms-scroll-padding-inline: September;
+    scroll-padding-inline: September;
+  }
+}
+
+@media January {
+  .c0 {
+    -webkit-scroll-padding-inline: November;
+    -moz-scroll-padding-inline: November;
+    -ms-scroll-padding-inline: November;
+    scroll-padding-inline: November;
+  }
+}
+
+@media April {
+  .c0 {
+    -webkit-scroll-padding-inline: August;
+    -moz-scroll-padding-inline: August;
+    -ms-scroll-padding-inline: August;
+    scroll-padding-inline: August;
+  }
+}
+
+@media June {
+  .c0 {
+    -webkit-scroll-padding-inline: November;
+    -moz-scroll-padding-inline: November;
+    -ms-scroll-padding-inline: November;
+    scroll-padding-inline: November;
+  }
+}
+
+@media May {
+
+}
+
+@media April {
+
+}
+
+@media January {
+
+}
+
+@media April {
+
+}
+
+@media June {
+
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-scroll-padding-inline: April;
+  -moz-scroll-padding-inline: April;
+  -ms-scroll-padding-inline: April;
+  scroll-padding-inline: April;
+}
+
+@media May {
+
+}
+
+@media April {
+
+}
+
+@media January {
+
+}
+
+@media April {
+
+}
+
+@media June {
+
+}
+
+@media May {
+  .c0 {
+    -webkit-scroll-padding-inline: November;
+    -moz-scroll-padding-inline: November;
+    -ms-scroll-padding-inline: November;
+    scroll-padding-inline: November;
+  }
+}
+
+@media April {
+  .c0 {
+    -webkit-scroll-padding-inline: January;
+    -moz-scroll-padding-inline: January;
+    -ms-scroll-padding-inline: January;
+    scroll-padding-inline: January;
+  }
+}
+
+@media January {
+  .c0 {
+    -webkit-scroll-padding-inline: December;
+    -moz-scroll-padding-inline: December;
+    -ms-scroll-padding-inline: December;
+    scroll-padding-inline: December;
+  }
+}
+
+@media April {
+  .c0 {
+    -webkit-scroll-padding-inline: April;
+    -moz-scroll-padding-inline: April;
+    -ms-scroll-padding-inline: April;
+    scroll-padding-inline: April;
+  }
+}
+
+@media June {
+  .c0 {
+    -webkit-scroll-padding-inline: May;
+    -moz-scroll-padding-inline: May;
+    -ms-scroll-padding-inline: May;
+    scroll-padding-inline: May;
+  }
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-scroll-padding-inline: April;
+  -moz-scroll-padding-inline: April;
+  -ms-scroll-padding-inline: April;
+  scroll-padding-inline: April;
+}
+
+@media May {
+
+}
+
+@media April {
+
+}
+
+@media January {
+
+}
+
+@media April {
+
+}
+
+@media June {
+
+}
+
+@media May {
+  .c0 {
+    -webkit-scroll-padding-inline: November;
+    -moz-scroll-padding-inline: November;
+    -ms-scroll-padding-inline: November;
+    scroll-padding-inline: November;
+  }
+}
+
+@media April {
+  .c0 {
+    -webkit-scroll-padding-inline: January;
+    -moz-scroll-padding-inline: January;
+    -ms-scroll-padding-inline: January;
+    scroll-padding-inline: January;
+  }
+}
+
+@media January {
+  .c0 {
+    -webkit-scroll-padding-inline: December;
+    -moz-scroll-padding-inline: December;
+    -ms-scroll-padding-inline: December;
+    scroll-padding-inline: December;
+  }
+}
+
+@media April {
+  .c0 {
+    -webkit-scroll-padding-inline: April;
+    -moz-scroll-padding-inline: April;
+    -ms-scroll-padding-inline: April;
+    scroll-padding-inline: April;
+  }
+}
+
+@media June {
+  .c0 {
+    -webkit-scroll-padding-inline: May;
+    -moz-scroll-padding-inline: May;
+    -ms-scroll-padding-inline: May;
+    scroll-padding-inline: May;
+  }
+}
+
+<div
+    className="c0"
+  />,
+]
+`;
+
+exports[`scrollPaddingInline renders object [mediaQueries] 1`] = `
 Array [
   @media May {
   .c0 {
@@ -768,6 +1326,23 @@ Array [
 
 <div
     className="c0"
+  />,
+]
+`;
+
+exports[`scrollPaddingInline renders undefined 1`] = `
+Array [
+  <div
+    className=""
+  />,
+  <div
+    className=""
+  />,
+  <div
+    className=""
+  />,
+  <div
+    className=""
   />,
 ]
 `;

@@ -148,6 +148,219 @@ Array [
 ]
 `;
 
+exports[`transitionDelay renders object [breakpoints + standard] 1`] = `
+Array [
+  .c0 {
+  -webkit-transition-delay: July;
+  transition-delay: July;
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    -webkit-transition-delay: August;
+    transition-delay: August;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    -webkit-transition-delay: September;
+    transition-delay: September;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    -webkit-transition-delay: November;
+    transition-delay: November;
+  }
+}
+
+@media screen and (min-width:August) {
+  .c0 {
+    -webkit-transition-delay: August;
+    transition-delay: August;
+  }
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:August) {
+
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-transition-delay: July;
+  transition-delay: July;
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    -webkit-transition-delay: August;
+    transition-delay: August;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    -webkit-transition-delay: September;
+    transition-delay: September;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    -webkit-transition-delay: November;
+    transition-delay: November;
+  }
+}
+
+@media screen and (min-width:August) {
+  .c0 {
+    -webkit-transition-delay: August;
+    transition-delay: August;
+  }
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:August) {
+
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-transition-delay: January;
+  transition-delay: January;
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:August) {
+
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    -webkit-transition-delay: December;
+    transition-delay: December;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    -webkit-transition-delay: April;
+    transition-delay: April;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    -webkit-transition-delay: May;
+    transition-delay: May;
+  }
+}
+
+@media screen and (min-width:August) {
+  .c0 {
+    -webkit-transition-delay: June;
+    transition-delay: June;
+  }
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-transition-delay: January;
+  transition-delay: January;
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:August) {
+
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    -webkit-transition-delay: December;
+    transition-delay: December;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    -webkit-transition-delay: April;
+    transition-delay: April;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    -webkit-transition-delay: May;
+    transition-delay: May;
+  }
+}
+
+@media screen and (min-width:August) {
+  .c0 {
+    -webkit-transition-delay: June;
+    transition-delay: June;
+  }
+}
+
+<div
+    className="c0"
+  />,
+]
+`;
+
 exports[`transitionDelay renders object [breakpoints] 1`] = `
 Array [
   @media screen and (min-width:November) {
@@ -341,7 +554,264 @@ Array [
 ]
 `;
 
-exports[`transitionDelay renders object [breakpoints] 2`] = `
+exports[`transitionDelay renders object [mediaQueries + standart] 1`] = `
+Array [
+  .c0 {
+  -webkit-transition-delay: July;
+  transition-delay: July;
+}
+
+@media May {
+  .c0 {
+    -webkit-transition-delay: August;
+    transition-delay: August;
+  }
+}
+
+@media April {
+  .c0 {
+    -webkit-transition-delay: September;
+    transition-delay: September;
+  }
+}
+
+@media January {
+  .c0 {
+    -webkit-transition-delay: November;
+    transition-delay: November;
+  }
+}
+
+@media April {
+  .c0 {
+    -webkit-transition-delay: August;
+    transition-delay: August;
+  }
+}
+
+@media June {
+  .c0 {
+    -webkit-transition-delay: November;
+    transition-delay: November;
+  }
+}
+
+@media May {
+
+}
+
+@media April {
+
+}
+
+@media January {
+
+}
+
+@media April {
+
+}
+
+@media June {
+
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-transition-delay: July;
+  transition-delay: July;
+}
+
+@media May {
+  .c0 {
+    -webkit-transition-delay: August;
+    transition-delay: August;
+  }
+}
+
+@media April {
+  .c0 {
+    -webkit-transition-delay: September;
+    transition-delay: September;
+  }
+}
+
+@media January {
+  .c0 {
+    -webkit-transition-delay: November;
+    transition-delay: November;
+  }
+}
+
+@media April {
+  .c0 {
+    -webkit-transition-delay: August;
+    transition-delay: August;
+  }
+}
+
+@media June {
+  .c0 {
+    -webkit-transition-delay: November;
+    transition-delay: November;
+  }
+}
+
+@media May {
+
+}
+
+@media April {
+
+}
+
+@media January {
+
+}
+
+@media April {
+
+}
+
+@media June {
+
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-transition-delay: April;
+  transition-delay: April;
+}
+
+@media May {
+
+}
+
+@media April {
+
+}
+
+@media January {
+
+}
+
+@media April {
+
+}
+
+@media June {
+
+}
+
+@media May {
+  .c0 {
+    -webkit-transition-delay: November;
+    transition-delay: November;
+  }
+}
+
+@media April {
+  .c0 {
+    -webkit-transition-delay: January;
+    transition-delay: January;
+  }
+}
+
+@media January {
+  .c0 {
+    -webkit-transition-delay: December;
+    transition-delay: December;
+  }
+}
+
+@media April {
+  .c0 {
+    -webkit-transition-delay: April;
+    transition-delay: April;
+  }
+}
+
+@media June {
+  .c0 {
+    -webkit-transition-delay: May;
+    transition-delay: May;
+  }
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-transition-delay: April;
+  transition-delay: April;
+}
+
+@media May {
+
+}
+
+@media April {
+
+}
+
+@media January {
+
+}
+
+@media April {
+
+}
+
+@media June {
+
+}
+
+@media May {
+  .c0 {
+    -webkit-transition-delay: November;
+    transition-delay: November;
+  }
+}
+
+@media April {
+  .c0 {
+    -webkit-transition-delay: January;
+    transition-delay: January;
+  }
+}
+
+@media January {
+  .c0 {
+    -webkit-transition-delay: December;
+    transition-delay: December;
+  }
+}
+
+@media April {
+  .c0 {
+    -webkit-transition-delay: April;
+    transition-delay: April;
+  }
+}
+
+@media June {
+  .c0 {
+    -webkit-transition-delay: May;
+    transition-delay: May;
+  }
+}
+
+<div
+    className="c0"
+  />,
+]
+`;
+
+exports[`transitionDelay renders object [mediaQueries] 1`] = `
 Array [
   @media May {
   .c0 {
@@ -648,6 +1118,23 @@ Array [
 
 <div
     className="c0"
+  />,
+]
+`;
+
+exports[`transitionDelay renders undefined 1`] = `
+Array [
+  <div
+    className=""
+  />,
+  <div
+    className=""
+  />,
+  <div
+    className=""
+  />,
+  <div
+    className=""
   />,
 ]
 `;

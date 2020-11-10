@@ -180,6 +180,259 @@ Array [
 ]
 `;
 
+exports[`navUp renders object [breakpoints + standard] 1`] = `
+Array [
+  .c0 {
+  -webkit-nav-up: July;
+  -moz-nav-up: July;
+  -ms-nav-up: July;
+  nav-up: July;
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    -webkit-nav-up: August;
+    -moz-nav-up: August;
+    -ms-nav-up: August;
+    nav-up: August;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    -webkit-nav-up: September;
+    -moz-nav-up: September;
+    -ms-nav-up: September;
+    nav-up: September;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    -webkit-nav-up: November;
+    -moz-nav-up: November;
+    -ms-nav-up: November;
+    nav-up: November;
+  }
+}
+
+@media screen and (min-width:August) {
+  .c0 {
+    -webkit-nav-up: August;
+    -moz-nav-up: August;
+    -ms-nav-up: August;
+    nav-up: August;
+  }
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:August) {
+
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-nav-up: July;
+  -moz-nav-up: July;
+  -ms-nav-up: July;
+  nav-up: July;
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    -webkit-nav-up: August;
+    -moz-nav-up: August;
+    -ms-nav-up: August;
+    nav-up: August;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    -webkit-nav-up: September;
+    -moz-nav-up: September;
+    -ms-nav-up: September;
+    nav-up: September;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    -webkit-nav-up: November;
+    -moz-nav-up: November;
+    -ms-nav-up: November;
+    nav-up: November;
+  }
+}
+
+@media screen and (min-width:August) {
+  .c0 {
+    -webkit-nav-up: August;
+    -moz-nav-up: August;
+    -ms-nav-up: August;
+    nav-up: August;
+  }
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:August) {
+
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-nav-up: January;
+  -moz-nav-up: January;
+  -ms-nav-up: January;
+  nav-up: January;
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:August) {
+
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    -webkit-nav-up: December;
+    -moz-nav-up: December;
+    -ms-nav-up: December;
+    nav-up: December;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    -webkit-nav-up: April;
+    -moz-nav-up: April;
+    -ms-nav-up: April;
+    nav-up: April;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    -webkit-nav-up: May;
+    -moz-nav-up: May;
+    -ms-nav-up: May;
+    nav-up: May;
+  }
+}
+
+@media screen and (min-width:August) {
+  .c0 {
+    -webkit-nav-up: June;
+    -moz-nav-up: June;
+    -ms-nav-up: June;
+    nav-up: June;
+  }
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-nav-up: January;
+  -moz-nav-up: January;
+  -ms-nav-up: January;
+  nav-up: January;
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:August) {
+
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    -webkit-nav-up: December;
+    -moz-nav-up: December;
+    -ms-nav-up: December;
+    nav-up: December;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    -webkit-nav-up: April;
+    -moz-nav-up: April;
+    -ms-nav-up: April;
+    nav-up: April;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    -webkit-nav-up: May;
+    -moz-nav-up: May;
+    -ms-nav-up: May;
+    nav-up: May;
+  }
+}
+
+@media screen and (min-width:August) {
+  .c0 {
+    -webkit-nav-up: June;
+    -moz-nav-up: June;
+    -ms-nav-up: June;
+    nav-up: June;
+  }
+}
+
+<div
+    className="c0"
+  />,
+]
+`;
+
 exports[`navUp renders object [breakpoints] 1`] = `
 Array [
   @media screen and (min-width:November) {
@@ -405,7 +658,312 @@ Array [
 ]
 `;
 
-exports[`navUp renders object [breakpoints] 2`] = `
+exports[`navUp renders object [mediaQueries + standart] 1`] = `
+Array [
+  .c0 {
+  -webkit-nav-up: July;
+  -moz-nav-up: July;
+  -ms-nav-up: July;
+  nav-up: July;
+}
+
+@media May {
+  .c0 {
+    -webkit-nav-up: August;
+    -moz-nav-up: August;
+    -ms-nav-up: August;
+    nav-up: August;
+  }
+}
+
+@media April {
+  .c0 {
+    -webkit-nav-up: September;
+    -moz-nav-up: September;
+    -ms-nav-up: September;
+    nav-up: September;
+  }
+}
+
+@media January {
+  .c0 {
+    -webkit-nav-up: November;
+    -moz-nav-up: November;
+    -ms-nav-up: November;
+    nav-up: November;
+  }
+}
+
+@media April {
+  .c0 {
+    -webkit-nav-up: August;
+    -moz-nav-up: August;
+    -ms-nav-up: August;
+    nav-up: August;
+  }
+}
+
+@media June {
+  .c0 {
+    -webkit-nav-up: November;
+    -moz-nav-up: November;
+    -ms-nav-up: November;
+    nav-up: November;
+  }
+}
+
+@media May {
+
+}
+
+@media April {
+
+}
+
+@media January {
+
+}
+
+@media April {
+
+}
+
+@media June {
+
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-nav-up: July;
+  -moz-nav-up: July;
+  -ms-nav-up: July;
+  nav-up: July;
+}
+
+@media May {
+  .c0 {
+    -webkit-nav-up: August;
+    -moz-nav-up: August;
+    -ms-nav-up: August;
+    nav-up: August;
+  }
+}
+
+@media April {
+  .c0 {
+    -webkit-nav-up: September;
+    -moz-nav-up: September;
+    -ms-nav-up: September;
+    nav-up: September;
+  }
+}
+
+@media January {
+  .c0 {
+    -webkit-nav-up: November;
+    -moz-nav-up: November;
+    -ms-nav-up: November;
+    nav-up: November;
+  }
+}
+
+@media April {
+  .c0 {
+    -webkit-nav-up: August;
+    -moz-nav-up: August;
+    -ms-nav-up: August;
+    nav-up: August;
+  }
+}
+
+@media June {
+  .c0 {
+    -webkit-nav-up: November;
+    -moz-nav-up: November;
+    -ms-nav-up: November;
+    nav-up: November;
+  }
+}
+
+@media May {
+
+}
+
+@media April {
+
+}
+
+@media January {
+
+}
+
+@media April {
+
+}
+
+@media June {
+
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-nav-up: April;
+  -moz-nav-up: April;
+  -ms-nav-up: April;
+  nav-up: April;
+}
+
+@media May {
+
+}
+
+@media April {
+
+}
+
+@media January {
+
+}
+
+@media April {
+
+}
+
+@media June {
+
+}
+
+@media May {
+  .c0 {
+    -webkit-nav-up: November;
+    -moz-nav-up: November;
+    -ms-nav-up: November;
+    nav-up: November;
+  }
+}
+
+@media April {
+  .c0 {
+    -webkit-nav-up: January;
+    -moz-nav-up: January;
+    -ms-nav-up: January;
+    nav-up: January;
+  }
+}
+
+@media January {
+  .c0 {
+    -webkit-nav-up: December;
+    -moz-nav-up: December;
+    -ms-nav-up: December;
+    nav-up: December;
+  }
+}
+
+@media April {
+  .c0 {
+    -webkit-nav-up: April;
+    -moz-nav-up: April;
+    -ms-nav-up: April;
+    nav-up: April;
+  }
+}
+
+@media June {
+  .c0 {
+    -webkit-nav-up: May;
+    -moz-nav-up: May;
+    -ms-nav-up: May;
+    nav-up: May;
+  }
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-nav-up: April;
+  -moz-nav-up: April;
+  -ms-nav-up: April;
+  nav-up: April;
+}
+
+@media May {
+
+}
+
+@media April {
+
+}
+
+@media January {
+
+}
+
+@media April {
+
+}
+
+@media June {
+
+}
+
+@media May {
+  .c0 {
+    -webkit-nav-up: November;
+    -moz-nav-up: November;
+    -ms-nav-up: November;
+    nav-up: November;
+  }
+}
+
+@media April {
+  .c0 {
+    -webkit-nav-up: January;
+    -moz-nav-up: January;
+    -ms-nav-up: January;
+    nav-up: January;
+  }
+}
+
+@media January {
+  .c0 {
+    -webkit-nav-up: December;
+    -moz-nav-up: December;
+    -ms-nav-up: December;
+    nav-up: December;
+  }
+}
+
+@media April {
+  .c0 {
+    -webkit-nav-up: April;
+    -moz-nav-up: April;
+    -ms-nav-up: April;
+    nav-up: April;
+  }
+}
+
+@media June {
+  .c0 {
+    -webkit-nav-up: May;
+    -moz-nav-up: May;
+    -ms-nav-up: May;
+    nav-up: May;
+  }
+}
+
+<div
+    className="c0"
+  />,
+]
+`;
+
+exports[`navUp renders object [mediaQueries] 1`] = `
 Array [
   @media May {
   .c0 {
@@ -768,6 +1326,23 @@ Array [
 
 <div
     className="c0"
+  />,
+]
+`;
+
+exports[`navUp renders undefined 1`] = `
+Array [
+  <div
+    className=""
+  />,
+  <div
+    className=""
+  />,
+  <div
+    className=""
+  />,
+  <div
+    className=""
   />,
 ]
 `;

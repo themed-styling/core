@@ -148,6 +148,219 @@ Array [
 ]
 `;
 
+exports[`sepia renders object [breakpoints + standard] 1`] = `
+Array [
+  .c0 {
+  -webkit-filter: sepia(July);
+  filter: sepia(July);
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    -webkit-filter: sepia(August);
+    filter: sepia(August);
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    -webkit-filter: sepia(September);
+    filter: sepia(September);
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    -webkit-filter: sepia(November);
+    filter: sepia(November);
+  }
+}
+
+@media screen and (min-width:August) {
+  .c0 {
+    -webkit-filter: sepia(August);
+    filter: sepia(August);
+  }
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:August) {
+
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-filter: sepia(July);
+  filter: sepia(July);
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    -webkit-filter: sepia(August);
+    filter: sepia(August);
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    -webkit-filter: sepia(September);
+    filter: sepia(September);
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    -webkit-filter: sepia(November);
+    filter: sepia(November);
+  }
+}
+
+@media screen and (min-width:August) {
+  .c0 {
+    -webkit-filter: sepia(August);
+    filter: sepia(August);
+  }
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:August) {
+
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-filter: sepia(January);
+  filter: sepia(January);
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:August) {
+
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    -webkit-filter: sepia(December);
+    filter: sepia(December);
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    -webkit-filter: sepia(April);
+    filter: sepia(April);
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    -webkit-filter: sepia(May);
+    filter: sepia(May);
+  }
+}
+
+@media screen and (min-width:August) {
+  .c0 {
+    -webkit-filter: sepia(June);
+    filter: sepia(June);
+  }
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-filter: sepia(January);
+  filter: sepia(January);
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:August) {
+
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    -webkit-filter: sepia(December);
+    filter: sepia(December);
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    -webkit-filter: sepia(April);
+    filter: sepia(April);
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    -webkit-filter: sepia(May);
+    filter: sepia(May);
+  }
+}
+
+@media screen and (min-width:August) {
+  .c0 {
+    -webkit-filter: sepia(June);
+    filter: sepia(June);
+  }
+}
+
+<div
+    className="c0"
+  />,
+]
+`;
+
 exports[`sepia renders object [breakpoints] 1`] = `
 Array [
   @media screen and (min-width:November) {
@@ -341,7 +554,264 @@ Array [
 ]
 `;
 
-exports[`sepia renders object [breakpoints] 2`] = `
+exports[`sepia renders object [mediaQueries + standart] 1`] = `
+Array [
+  .c0 {
+  -webkit-filter: sepia(July);
+  filter: sepia(July);
+}
+
+@media May {
+  .c0 {
+    -webkit-filter: sepia(August);
+    filter: sepia(August);
+  }
+}
+
+@media April {
+  .c0 {
+    -webkit-filter: sepia(September);
+    filter: sepia(September);
+  }
+}
+
+@media January {
+  .c0 {
+    -webkit-filter: sepia(November);
+    filter: sepia(November);
+  }
+}
+
+@media April {
+  .c0 {
+    -webkit-filter: sepia(August);
+    filter: sepia(August);
+  }
+}
+
+@media June {
+  .c0 {
+    -webkit-filter: sepia(November);
+    filter: sepia(November);
+  }
+}
+
+@media May {
+
+}
+
+@media April {
+
+}
+
+@media January {
+
+}
+
+@media April {
+
+}
+
+@media June {
+
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-filter: sepia(July);
+  filter: sepia(July);
+}
+
+@media May {
+  .c0 {
+    -webkit-filter: sepia(August);
+    filter: sepia(August);
+  }
+}
+
+@media April {
+  .c0 {
+    -webkit-filter: sepia(September);
+    filter: sepia(September);
+  }
+}
+
+@media January {
+  .c0 {
+    -webkit-filter: sepia(November);
+    filter: sepia(November);
+  }
+}
+
+@media April {
+  .c0 {
+    -webkit-filter: sepia(August);
+    filter: sepia(August);
+  }
+}
+
+@media June {
+  .c0 {
+    -webkit-filter: sepia(November);
+    filter: sepia(November);
+  }
+}
+
+@media May {
+
+}
+
+@media April {
+
+}
+
+@media January {
+
+}
+
+@media April {
+
+}
+
+@media June {
+
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-filter: sepia(April);
+  filter: sepia(April);
+}
+
+@media May {
+
+}
+
+@media April {
+
+}
+
+@media January {
+
+}
+
+@media April {
+
+}
+
+@media June {
+
+}
+
+@media May {
+  .c0 {
+    -webkit-filter: sepia(November);
+    filter: sepia(November);
+  }
+}
+
+@media April {
+  .c0 {
+    -webkit-filter: sepia(January);
+    filter: sepia(January);
+  }
+}
+
+@media January {
+  .c0 {
+    -webkit-filter: sepia(December);
+    filter: sepia(December);
+  }
+}
+
+@media April {
+  .c0 {
+    -webkit-filter: sepia(April);
+    filter: sepia(April);
+  }
+}
+
+@media June {
+  .c0 {
+    -webkit-filter: sepia(May);
+    filter: sepia(May);
+  }
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-filter: sepia(April);
+  filter: sepia(April);
+}
+
+@media May {
+
+}
+
+@media April {
+
+}
+
+@media January {
+
+}
+
+@media April {
+
+}
+
+@media June {
+
+}
+
+@media May {
+  .c0 {
+    -webkit-filter: sepia(November);
+    filter: sepia(November);
+  }
+}
+
+@media April {
+  .c0 {
+    -webkit-filter: sepia(January);
+    filter: sepia(January);
+  }
+}
+
+@media January {
+  .c0 {
+    -webkit-filter: sepia(December);
+    filter: sepia(December);
+  }
+}
+
+@media April {
+  .c0 {
+    -webkit-filter: sepia(April);
+    filter: sepia(April);
+  }
+}
+
+@media June {
+  .c0 {
+    -webkit-filter: sepia(May);
+    filter: sepia(May);
+  }
+}
+
+<div
+    className="c0"
+  />,
+]
+`;
+
+exports[`sepia renders object [mediaQueries] 1`] = `
 Array [
   @media May {
   .c0 {
@@ -648,6 +1118,23 @@ Array [
 
 <div
     className="c0"
+  />,
+]
+`;
+
+exports[`sepia renders undefined 1`] = `
+Array [
+  <div
+    className=""
+  />,
+  <div
+    className=""
+  />,
+  <div
+    className=""
+  />,
+  <div
+    className=""
   />,
 ]
 `;

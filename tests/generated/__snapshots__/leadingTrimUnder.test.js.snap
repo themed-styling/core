@@ -132,6 +132,199 @@ Array [
 ]
 `;
 
+exports[`leadingTrimUnder renders object [breakpoints + standard] 1`] = `
+Array [
+  .c0 {
+  leading-trim-under: July;
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    leading-trim-under: August;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    leading-trim-under: September;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    leading-trim-under: November;
+  }
+}
+
+@media screen and (min-width:August) {
+  .c0 {
+    leading-trim-under: August;
+  }
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:August) {
+
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  leading-trim-under: July;
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    leading-trim-under: August;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    leading-trim-under: September;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    leading-trim-under: November;
+  }
+}
+
+@media screen and (min-width:August) {
+  .c0 {
+    leading-trim-under: August;
+  }
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:August) {
+
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  leading-trim-under: January;
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:August) {
+
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    leading-trim-under: December;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    leading-trim-under: April;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    leading-trim-under: May;
+  }
+}
+
+@media screen and (min-width:August) {
+  .c0 {
+    leading-trim-under: June;
+  }
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  leading-trim-under: January;
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:August) {
+
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    leading-trim-under: December;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    leading-trim-under: April;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    leading-trim-under: May;
+  }
+}
+
+@media screen and (min-width:August) {
+  .c0 {
+    leading-trim-under: June;
+  }
+}
+
+<div
+    className="c0"
+  />,
+]
+`;
+
 exports[`leadingTrimUnder renders object [breakpoints] 1`] = `
 Array [
   @media screen and (min-width:November) {
@@ -309,7 +502,240 @@ Array [
 ]
 `;
 
-exports[`leadingTrimUnder renders object [breakpoints] 2`] = `
+exports[`leadingTrimUnder renders object [mediaQueries + standart] 1`] = `
+Array [
+  .c0 {
+  leading-trim-under: July;
+}
+
+@media May {
+  .c0 {
+    leading-trim-under: August;
+  }
+}
+
+@media April {
+  .c0 {
+    leading-trim-under: September;
+  }
+}
+
+@media January {
+  .c0 {
+    leading-trim-under: November;
+  }
+}
+
+@media April {
+  .c0 {
+    leading-trim-under: August;
+  }
+}
+
+@media June {
+  .c0 {
+    leading-trim-under: November;
+  }
+}
+
+@media May {
+
+}
+
+@media April {
+
+}
+
+@media January {
+
+}
+
+@media April {
+
+}
+
+@media June {
+
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  leading-trim-under: July;
+}
+
+@media May {
+  .c0 {
+    leading-trim-under: August;
+  }
+}
+
+@media April {
+  .c0 {
+    leading-trim-under: September;
+  }
+}
+
+@media January {
+  .c0 {
+    leading-trim-under: November;
+  }
+}
+
+@media April {
+  .c0 {
+    leading-trim-under: August;
+  }
+}
+
+@media June {
+  .c0 {
+    leading-trim-under: November;
+  }
+}
+
+@media May {
+
+}
+
+@media April {
+
+}
+
+@media January {
+
+}
+
+@media April {
+
+}
+
+@media June {
+
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  leading-trim-under: April;
+}
+
+@media May {
+
+}
+
+@media April {
+
+}
+
+@media January {
+
+}
+
+@media April {
+
+}
+
+@media June {
+
+}
+
+@media May {
+  .c0 {
+    leading-trim-under: November;
+  }
+}
+
+@media April {
+  .c0 {
+    leading-trim-under: January;
+  }
+}
+
+@media January {
+  .c0 {
+    leading-trim-under: December;
+  }
+}
+
+@media April {
+  .c0 {
+    leading-trim-under: April;
+  }
+}
+
+@media June {
+  .c0 {
+    leading-trim-under: May;
+  }
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  leading-trim-under: April;
+}
+
+@media May {
+
+}
+
+@media April {
+
+}
+
+@media January {
+
+}
+
+@media April {
+
+}
+
+@media June {
+
+}
+
+@media May {
+  .c0 {
+    leading-trim-under: November;
+  }
+}
+
+@media April {
+  .c0 {
+    leading-trim-under: January;
+  }
+}
+
+@media January {
+  .c0 {
+    leading-trim-under: December;
+  }
+}
+
+@media April {
+  .c0 {
+    leading-trim-under: April;
+  }
+}
+
+@media June {
+  .c0 {
+    leading-trim-under: May;
+  }
+}
+
+<div
+    className="c0"
+  />,
+]
+`;
+
+exports[`leadingTrimUnder renders object [mediaQueries] 1`] = `
 Array [
   @media May {
   .c0 {
@@ -588,6 +1014,23 @@ Array [
 
 <div
     className="c0"
+  />,
+]
+`;
+
+exports[`leadingTrimUnder renders undefined 1`] = `
+Array [
+  <div
+    className=""
+  />,
+  <div
+    className=""
+  />,
+  <div
+    className=""
+  />,
+  <div
+    className=""
   />,
 ]
 `;

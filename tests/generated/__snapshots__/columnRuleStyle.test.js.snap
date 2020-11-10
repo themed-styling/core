@@ -148,6 +148,219 @@ Array [
 ]
 `;
 
+exports[`columnRuleStyle renders object [breakpoints + standard] 1`] = `
+Array [
+  .c0 {
+  -webkit-column-rule-style: July;
+  column-rule-style: July;
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    -webkit-column-rule-style: August;
+    column-rule-style: August;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    -webkit-column-rule-style: September;
+    column-rule-style: September;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    -webkit-column-rule-style: November;
+    column-rule-style: November;
+  }
+}
+
+@media screen and (min-width:August) {
+  .c0 {
+    -webkit-column-rule-style: August;
+    column-rule-style: August;
+  }
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:August) {
+
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-column-rule-style: July;
+  column-rule-style: July;
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    -webkit-column-rule-style: August;
+    column-rule-style: August;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    -webkit-column-rule-style: September;
+    column-rule-style: September;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    -webkit-column-rule-style: November;
+    column-rule-style: November;
+  }
+}
+
+@media screen and (min-width:August) {
+  .c0 {
+    -webkit-column-rule-style: August;
+    column-rule-style: August;
+  }
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:August) {
+
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-column-rule-style: January;
+  column-rule-style: January;
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:August) {
+
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    -webkit-column-rule-style: December;
+    column-rule-style: December;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    -webkit-column-rule-style: April;
+    column-rule-style: April;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    -webkit-column-rule-style: May;
+    column-rule-style: May;
+  }
+}
+
+@media screen and (min-width:August) {
+  .c0 {
+    -webkit-column-rule-style: June;
+    column-rule-style: June;
+  }
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-column-rule-style: January;
+  column-rule-style: January;
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:August) {
+
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    -webkit-column-rule-style: December;
+    column-rule-style: December;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    -webkit-column-rule-style: April;
+    column-rule-style: April;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    -webkit-column-rule-style: May;
+    column-rule-style: May;
+  }
+}
+
+@media screen and (min-width:August) {
+  .c0 {
+    -webkit-column-rule-style: June;
+    column-rule-style: June;
+  }
+}
+
+<div
+    className="c0"
+  />,
+]
+`;
+
 exports[`columnRuleStyle renders object [breakpoints] 1`] = `
 Array [
   @media screen and (min-width:November) {
@@ -341,7 +554,264 @@ Array [
 ]
 `;
 
-exports[`columnRuleStyle renders object [breakpoints] 2`] = `
+exports[`columnRuleStyle renders object [mediaQueries + standart] 1`] = `
+Array [
+  .c0 {
+  -webkit-column-rule-style: July;
+  column-rule-style: July;
+}
+
+@media May {
+  .c0 {
+    -webkit-column-rule-style: August;
+    column-rule-style: August;
+  }
+}
+
+@media April {
+  .c0 {
+    -webkit-column-rule-style: September;
+    column-rule-style: September;
+  }
+}
+
+@media January {
+  .c0 {
+    -webkit-column-rule-style: November;
+    column-rule-style: November;
+  }
+}
+
+@media April {
+  .c0 {
+    -webkit-column-rule-style: August;
+    column-rule-style: August;
+  }
+}
+
+@media June {
+  .c0 {
+    -webkit-column-rule-style: November;
+    column-rule-style: November;
+  }
+}
+
+@media May {
+
+}
+
+@media April {
+
+}
+
+@media January {
+
+}
+
+@media April {
+
+}
+
+@media June {
+
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-column-rule-style: July;
+  column-rule-style: July;
+}
+
+@media May {
+  .c0 {
+    -webkit-column-rule-style: August;
+    column-rule-style: August;
+  }
+}
+
+@media April {
+  .c0 {
+    -webkit-column-rule-style: September;
+    column-rule-style: September;
+  }
+}
+
+@media January {
+  .c0 {
+    -webkit-column-rule-style: November;
+    column-rule-style: November;
+  }
+}
+
+@media April {
+  .c0 {
+    -webkit-column-rule-style: August;
+    column-rule-style: August;
+  }
+}
+
+@media June {
+  .c0 {
+    -webkit-column-rule-style: November;
+    column-rule-style: November;
+  }
+}
+
+@media May {
+
+}
+
+@media April {
+
+}
+
+@media January {
+
+}
+
+@media April {
+
+}
+
+@media June {
+
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-column-rule-style: April;
+  column-rule-style: April;
+}
+
+@media May {
+
+}
+
+@media April {
+
+}
+
+@media January {
+
+}
+
+@media April {
+
+}
+
+@media June {
+
+}
+
+@media May {
+  .c0 {
+    -webkit-column-rule-style: November;
+    column-rule-style: November;
+  }
+}
+
+@media April {
+  .c0 {
+    -webkit-column-rule-style: January;
+    column-rule-style: January;
+  }
+}
+
+@media January {
+  .c0 {
+    -webkit-column-rule-style: December;
+    column-rule-style: December;
+  }
+}
+
+@media April {
+  .c0 {
+    -webkit-column-rule-style: April;
+    column-rule-style: April;
+  }
+}
+
+@media June {
+  .c0 {
+    -webkit-column-rule-style: May;
+    column-rule-style: May;
+  }
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-column-rule-style: April;
+  column-rule-style: April;
+}
+
+@media May {
+
+}
+
+@media April {
+
+}
+
+@media January {
+
+}
+
+@media April {
+
+}
+
+@media June {
+
+}
+
+@media May {
+  .c0 {
+    -webkit-column-rule-style: November;
+    column-rule-style: November;
+  }
+}
+
+@media April {
+  .c0 {
+    -webkit-column-rule-style: January;
+    column-rule-style: January;
+  }
+}
+
+@media January {
+  .c0 {
+    -webkit-column-rule-style: December;
+    column-rule-style: December;
+  }
+}
+
+@media April {
+  .c0 {
+    -webkit-column-rule-style: April;
+    column-rule-style: April;
+  }
+}
+
+@media June {
+  .c0 {
+    -webkit-column-rule-style: May;
+    column-rule-style: May;
+  }
+}
+
+<div
+    className="c0"
+  />,
+]
+`;
+
+exports[`columnRuleStyle renders object [mediaQueries] 1`] = `
 Array [
   @media May {
   .c0 {
@@ -648,6 +1118,23 @@ Array [
 
 <div
     className="c0"
+  />,
+]
+`;
+
+exports[`columnRuleStyle renders undefined 1`] = `
+Array [
+  <div
+    className=""
+  />,
+  <div
+    className=""
+  />,
+  <div
+    className=""
+  />,
+  <div
+    className=""
   />,
 ]
 `;

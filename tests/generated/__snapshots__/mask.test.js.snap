@@ -148,6 +148,219 @@ Array [
 ]
 `;
 
+exports[`mask renders object [breakpoints + standard] 1`] = `
+Array [
+  .c0 {
+  -webkit-mask: July;
+  mask: July;
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    -webkit-mask: August;
+    mask: August;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    -webkit-mask: September;
+    mask: September;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    -webkit-mask: November;
+    mask: November;
+  }
+}
+
+@media screen and (min-width:August) {
+  .c0 {
+    -webkit-mask: August;
+    mask: August;
+  }
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:August) {
+
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-mask: July;
+  mask: July;
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    -webkit-mask: August;
+    mask: August;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    -webkit-mask: September;
+    mask: September;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    -webkit-mask: November;
+    mask: November;
+  }
+}
+
+@media screen and (min-width:August) {
+  .c0 {
+    -webkit-mask: August;
+    mask: August;
+  }
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:August) {
+
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-mask: January;
+  mask: January;
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:August) {
+
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    -webkit-mask: December;
+    mask: December;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    -webkit-mask: April;
+    mask: April;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    -webkit-mask: May;
+    mask: May;
+  }
+}
+
+@media screen and (min-width:August) {
+  .c0 {
+    -webkit-mask: June;
+    mask: June;
+  }
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-mask: January;
+  mask: January;
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:August) {
+
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    -webkit-mask: December;
+    mask: December;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    -webkit-mask: April;
+    mask: April;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    -webkit-mask: May;
+    mask: May;
+  }
+}
+
+@media screen and (min-width:August) {
+  .c0 {
+    -webkit-mask: June;
+    mask: June;
+  }
+}
+
+<div
+    className="c0"
+  />,
+]
+`;
+
 exports[`mask renders object [breakpoints] 1`] = `
 Array [
   @media screen and (min-width:November) {
@@ -341,7 +554,264 @@ Array [
 ]
 `;
 
-exports[`mask renders object [breakpoints] 2`] = `
+exports[`mask renders object [mediaQueries + standart] 1`] = `
+Array [
+  .c0 {
+  -webkit-mask: July;
+  mask: July;
+}
+
+@media May {
+  .c0 {
+    -webkit-mask: August;
+    mask: August;
+  }
+}
+
+@media April {
+  .c0 {
+    -webkit-mask: September;
+    mask: September;
+  }
+}
+
+@media January {
+  .c0 {
+    -webkit-mask: November;
+    mask: November;
+  }
+}
+
+@media April {
+  .c0 {
+    -webkit-mask: August;
+    mask: August;
+  }
+}
+
+@media June {
+  .c0 {
+    -webkit-mask: November;
+    mask: November;
+  }
+}
+
+@media May {
+
+}
+
+@media April {
+
+}
+
+@media January {
+
+}
+
+@media April {
+
+}
+
+@media June {
+
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-mask: July;
+  mask: July;
+}
+
+@media May {
+  .c0 {
+    -webkit-mask: August;
+    mask: August;
+  }
+}
+
+@media April {
+  .c0 {
+    -webkit-mask: September;
+    mask: September;
+  }
+}
+
+@media January {
+  .c0 {
+    -webkit-mask: November;
+    mask: November;
+  }
+}
+
+@media April {
+  .c0 {
+    -webkit-mask: August;
+    mask: August;
+  }
+}
+
+@media June {
+  .c0 {
+    -webkit-mask: November;
+    mask: November;
+  }
+}
+
+@media May {
+
+}
+
+@media April {
+
+}
+
+@media January {
+
+}
+
+@media April {
+
+}
+
+@media June {
+
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-mask: April;
+  mask: April;
+}
+
+@media May {
+
+}
+
+@media April {
+
+}
+
+@media January {
+
+}
+
+@media April {
+
+}
+
+@media June {
+
+}
+
+@media May {
+  .c0 {
+    -webkit-mask: November;
+    mask: November;
+  }
+}
+
+@media April {
+  .c0 {
+    -webkit-mask: January;
+    mask: January;
+  }
+}
+
+@media January {
+  .c0 {
+    -webkit-mask: December;
+    mask: December;
+  }
+}
+
+@media April {
+  .c0 {
+    -webkit-mask: April;
+    mask: April;
+  }
+}
+
+@media June {
+  .c0 {
+    -webkit-mask: May;
+    mask: May;
+  }
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-mask: April;
+  mask: April;
+}
+
+@media May {
+
+}
+
+@media April {
+
+}
+
+@media January {
+
+}
+
+@media April {
+
+}
+
+@media June {
+
+}
+
+@media May {
+  .c0 {
+    -webkit-mask: November;
+    mask: November;
+  }
+}
+
+@media April {
+  .c0 {
+    -webkit-mask: January;
+    mask: January;
+  }
+}
+
+@media January {
+  .c0 {
+    -webkit-mask: December;
+    mask: December;
+  }
+}
+
+@media April {
+  .c0 {
+    -webkit-mask: April;
+    mask: April;
+  }
+}
+
+@media June {
+  .c0 {
+    -webkit-mask: May;
+    mask: May;
+  }
+}
+
+<div
+    className="c0"
+  />,
+]
+`;
+
+exports[`mask renders object [mediaQueries] 1`] = `
 Array [
   @media May {
   .c0 {
@@ -648,6 +1118,23 @@ Array [
 
 <div
     className="c0"
+  />,
+]
+`;
+
+exports[`mask renders undefined 1`] = `
+Array [
+  <div
+    className=""
+  />,
+  <div
+    className=""
+  />,
+  <div
+    className=""
+  />,
+  <div
+    className=""
   />,
 ]
 `;

@@ -132,6 +132,199 @@ Array [
 ]
 `;
 
+exports[`alignmentBaseline renders object [breakpoints + standard] 1`] = `
+Array [
+  .c0 {
+  alignment-baseline: July;
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    alignment-baseline: August;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    alignment-baseline: September;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    alignment-baseline: November;
+  }
+}
+
+@media screen and (min-width:August) {
+  .c0 {
+    alignment-baseline: August;
+  }
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:August) {
+
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  alignment-baseline: July;
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    alignment-baseline: August;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    alignment-baseline: September;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    alignment-baseline: November;
+  }
+}
+
+@media screen and (min-width:August) {
+  .c0 {
+    alignment-baseline: August;
+  }
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:August) {
+
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  alignment-baseline: January;
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:August) {
+
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    alignment-baseline: December;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    alignment-baseline: April;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    alignment-baseline: May;
+  }
+}
+
+@media screen and (min-width:August) {
+  .c0 {
+    alignment-baseline: June;
+  }
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  alignment-baseline: January;
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:August) {
+
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    alignment-baseline: December;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    alignment-baseline: April;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    alignment-baseline: May;
+  }
+}
+
+@media screen and (min-width:August) {
+  .c0 {
+    alignment-baseline: June;
+  }
+}
+
+<div
+    className="c0"
+  />,
+]
+`;
+
 exports[`alignmentBaseline renders object [breakpoints] 1`] = `
 Array [
   @media screen and (min-width:November) {
@@ -309,7 +502,240 @@ Array [
 ]
 `;
 
-exports[`alignmentBaseline renders object [breakpoints] 2`] = `
+exports[`alignmentBaseline renders object [mediaQueries + standart] 1`] = `
+Array [
+  .c0 {
+  alignment-baseline: July;
+}
+
+@media May {
+  .c0 {
+    alignment-baseline: August;
+  }
+}
+
+@media April {
+  .c0 {
+    alignment-baseline: September;
+  }
+}
+
+@media January {
+  .c0 {
+    alignment-baseline: November;
+  }
+}
+
+@media April {
+  .c0 {
+    alignment-baseline: August;
+  }
+}
+
+@media June {
+  .c0 {
+    alignment-baseline: November;
+  }
+}
+
+@media May {
+
+}
+
+@media April {
+
+}
+
+@media January {
+
+}
+
+@media April {
+
+}
+
+@media June {
+
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  alignment-baseline: July;
+}
+
+@media May {
+  .c0 {
+    alignment-baseline: August;
+  }
+}
+
+@media April {
+  .c0 {
+    alignment-baseline: September;
+  }
+}
+
+@media January {
+  .c0 {
+    alignment-baseline: November;
+  }
+}
+
+@media April {
+  .c0 {
+    alignment-baseline: August;
+  }
+}
+
+@media June {
+  .c0 {
+    alignment-baseline: November;
+  }
+}
+
+@media May {
+
+}
+
+@media April {
+
+}
+
+@media January {
+
+}
+
+@media April {
+
+}
+
+@media June {
+
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  alignment-baseline: April;
+}
+
+@media May {
+
+}
+
+@media April {
+
+}
+
+@media January {
+
+}
+
+@media April {
+
+}
+
+@media June {
+
+}
+
+@media May {
+  .c0 {
+    alignment-baseline: November;
+  }
+}
+
+@media April {
+  .c0 {
+    alignment-baseline: January;
+  }
+}
+
+@media January {
+  .c0 {
+    alignment-baseline: December;
+  }
+}
+
+@media April {
+  .c0 {
+    alignment-baseline: April;
+  }
+}
+
+@media June {
+  .c0 {
+    alignment-baseline: May;
+  }
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  alignment-baseline: April;
+}
+
+@media May {
+
+}
+
+@media April {
+
+}
+
+@media January {
+
+}
+
+@media April {
+
+}
+
+@media June {
+
+}
+
+@media May {
+  .c0 {
+    alignment-baseline: November;
+  }
+}
+
+@media April {
+  .c0 {
+    alignment-baseline: January;
+  }
+}
+
+@media January {
+  .c0 {
+    alignment-baseline: December;
+  }
+}
+
+@media April {
+  .c0 {
+    alignment-baseline: April;
+  }
+}
+
+@media June {
+  .c0 {
+    alignment-baseline: May;
+  }
+}
+
+<div
+    className="c0"
+  />,
+]
+`;
+
+exports[`alignmentBaseline renders object [mediaQueries] 1`] = `
 Array [
   @media May {
   .c0 {
@@ -588,6 +1014,23 @@ Array [
 
 <div
     className="c0"
+  />,
+]
+`;
+
+exports[`alignmentBaseline renders undefined 1`] = `
+Array [
+  <div
+    className=""
+  />,
+  <div
+    className=""
+  />,
+  <div
+    className=""
+  />,
+  <div
+    className=""
   />,
 ]
 `;

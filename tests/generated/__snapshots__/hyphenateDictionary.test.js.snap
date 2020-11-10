@@ -180,6 +180,259 @@ Array [
 ]
 `;
 
+exports[`hyphenateDictionary renders object [breakpoints + standard] 1`] = `
+Array [
+  .c0 {
+  -webkit-hyphenate-dictionary: July;
+  -moz-hyphenate-dictionary: July;
+  -ms-hyphenate-dictionary: July;
+  hyphenate-dictionary: July;
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    -webkit-hyphenate-dictionary: August;
+    -moz-hyphenate-dictionary: August;
+    -ms-hyphenate-dictionary: August;
+    hyphenate-dictionary: August;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    -webkit-hyphenate-dictionary: September;
+    -moz-hyphenate-dictionary: September;
+    -ms-hyphenate-dictionary: September;
+    hyphenate-dictionary: September;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    -webkit-hyphenate-dictionary: November;
+    -moz-hyphenate-dictionary: November;
+    -ms-hyphenate-dictionary: November;
+    hyphenate-dictionary: November;
+  }
+}
+
+@media screen and (min-width:August) {
+  .c0 {
+    -webkit-hyphenate-dictionary: August;
+    -moz-hyphenate-dictionary: August;
+    -ms-hyphenate-dictionary: August;
+    hyphenate-dictionary: August;
+  }
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:August) {
+
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-hyphenate-dictionary: July;
+  -moz-hyphenate-dictionary: July;
+  -ms-hyphenate-dictionary: July;
+  hyphenate-dictionary: July;
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    -webkit-hyphenate-dictionary: August;
+    -moz-hyphenate-dictionary: August;
+    -ms-hyphenate-dictionary: August;
+    hyphenate-dictionary: August;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    -webkit-hyphenate-dictionary: September;
+    -moz-hyphenate-dictionary: September;
+    -ms-hyphenate-dictionary: September;
+    hyphenate-dictionary: September;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    -webkit-hyphenate-dictionary: November;
+    -moz-hyphenate-dictionary: November;
+    -ms-hyphenate-dictionary: November;
+    hyphenate-dictionary: November;
+  }
+}
+
+@media screen and (min-width:August) {
+  .c0 {
+    -webkit-hyphenate-dictionary: August;
+    -moz-hyphenate-dictionary: August;
+    -ms-hyphenate-dictionary: August;
+    hyphenate-dictionary: August;
+  }
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:August) {
+
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-hyphenate-dictionary: January;
+  -moz-hyphenate-dictionary: January;
+  -ms-hyphenate-dictionary: January;
+  hyphenate-dictionary: January;
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:August) {
+
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    -webkit-hyphenate-dictionary: December;
+    -moz-hyphenate-dictionary: December;
+    -ms-hyphenate-dictionary: December;
+    hyphenate-dictionary: December;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    -webkit-hyphenate-dictionary: April;
+    -moz-hyphenate-dictionary: April;
+    -ms-hyphenate-dictionary: April;
+    hyphenate-dictionary: April;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    -webkit-hyphenate-dictionary: May;
+    -moz-hyphenate-dictionary: May;
+    -ms-hyphenate-dictionary: May;
+    hyphenate-dictionary: May;
+  }
+}
+
+@media screen and (min-width:August) {
+  .c0 {
+    -webkit-hyphenate-dictionary: June;
+    -moz-hyphenate-dictionary: June;
+    -ms-hyphenate-dictionary: June;
+    hyphenate-dictionary: June;
+  }
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-hyphenate-dictionary: January;
+  -moz-hyphenate-dictionary: January;
+  -ms-hyphenate-dictionary: January;
+  hyphenate-dictionary: January;
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:August) {
+
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    -webkit-hyphenate-dictionary: December;
+    -moz-hyphenate-dictionary: December;
+    -ms-hyphenate-dictionary: December;
+    hyphenate-dictionary: December;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    -webkit-hyphenate-dictionary: April;
+    -moz-hyphenate-dictionary: April;
+    -ms-hyphenate-dictionary: April;
+    hyphenate-dictionary: April;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    -webkit-hyphenate-dictionary: May;
+    -moz-hyphenate-dictionary: May;
+    -ms-hyphenate-dictionary: May;
+    hyphenate-dictionary: May;
+  }
+}
+
+@media screen and (min-width:August) {
+  .c0 {
+    -webkit-hyphenate-dictionary: June;
+    -moz-hyphenate-dictionary: June;
+    -ms-hyphenate-dictionary: June;
+    hyphenate-dictionary: June;
+  }
+}
+
+<div
+    className="c0"
+  />,
+]
+`;
+
 exports[`hyphenateDictionary renders object [breakpoints] 1`] = `
 Array [
   @media screen and (min-width:November) {
@@ -405,7 +658,312 @@ Array [
 ]
 `;
 
-exports[`hyphenateDictionary renders object [breakpoints] 2`] = `
+exports[`hyphenateDictionary renders object [mediaQueries + standart] 1`] = `
+Array [
+  .c0 {
+  -webkit-hyphenate-dictionary: July;
+  -moz-hyphenate-dictionary: July;
+  -ms-hyphenate-dictionary: July;
+  hyphenate-dictionary: July;
+}
+
+@media May {
+  .c0 {
+    -webkit-hyphenate-dictionary: August;
+    -moz-hyphenate-dictionary: August;
+    -ms-hyphenate-dictionary: August;
+    hyphenate-dictionary: August;
+  }
+}
+
+@media April {
+  .c0 {
+    -webkit-hyphenate-dictionary: September;
+    -moz-hyphenate-dictionary: September;
+    -ms-hyphenate-dictionary: September;
+    hyphenate-dictionary: September;
+  }
+}
+
+@media January {
+  .c0 {
+    -webkit-hyphenate-dictionary: November;
+    -moz-hyphenate-dictionary: November;
+    -ms-hyphenate-dictionary: November;
+    hyphenate-dictionary: November;
+  }
+}
+
+@media April {
+  .c0 {
+    -webkit-hyphenate-dictionary: August;
+    -moz-hyphenate-dictionary: August;
+    -ms-hyphenate-dictionary: August;
+    hyphenate-dictionary: August;
+  }
+}
+
+@media June {
+  .c0 {
+    -webkit-hyphenate-dictionary: November;
+    -moz-hyphenate-dictionary: November;
+    -ms-hyphenate-dictionary: November;
+    hyphenate-dictionary: November;
+  }
+}
+
+@media May {
+
+}
+
+@media April {
+
+}
+
+@media January {
+
+}
+
+@media April {
+
+}
+
+@media June {
+
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-hyphenate-dictionary: July;
+  -moz-hyphenate-dictionary: July;
+  -ms-hyphenate-dictionary: July;
+  hyphenate-dictionary: July;
+}
+
+@media May {
+  .c0 {
+    -webkit-hyphenate-dictionary: August;
+    -moz-hyphenate-dictionary: August;
+    -ms-hyphenate-dictionary: August;
+    hyphenate-dictionary: August;
+  }
+}
+
+@media April {
+  .c0 {
+    -webkit-hyphenate-dictionary: September;
+    -moz-hyphenate-dictionary: September;
+    -ms-hyphenate-dictionary: September;
+    hyphenate-dictionary: September;
+  }
+}
+
+@media January {
+  .c0 {
+    -webkit-hyphenate-dictionary: November;
+    -moz-hyphenate-dictionary: November;
+    -ms-hyphenate-dictionary: November;
+    hyphenate-dictionary: November;
+  }
+}
+
+@media April {
+  .c0 {
+    -webkit-hyphenate-dictionary: August;
+    -moz-hyphenate-dictionary: August;
+    -ms-hyphenate-dictionary: August;
+    hyphenate-dictionary: August;
+  }
+}
+
+@media June {
+  .c0 {
+    -webkit-hyphenate-dictionary: November;
+    -moz-hyphenate-dictionary: November;
+    -ms-hyphenate-dictionary: November;
+    hyphenate-dictionary: November;
+  }
+}
+
+@media May {
+
+}
+
+@media April {
+
+}
+
+@media January {
+
+}
+
+@media April {
+
+}
+
+@media June {
+
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-hyphenate-dictionary: April;
+  -moz-hyphenate-dictionary: April;
+  -ms-hyphenate-dictionary: April;
+  hyphenate-dictionary: April;
+}
+
+@media May {
+
+}
+
+@media April {
+
+}
+
+@media January {
+
+}
+
+@media April {
+
+}
+
+@media June {
+
+}
+
+@media May {
+  .c0 {
+    -webkit-hyphenate-dictionary: November;
+    -moz-hyphenate-dictionary: November;
+    -ms-hyphenate-dictionary: November;
+    hyphenate-dictionary: November;
+  }
+}
+
+@media April {
+  .c0 {
+    -webkit-hyphenate-dictionary: January;
+    -moz-hyphenate-dictionary: January;
+    -ms-hyphenate-dictionary: January;
+    hyphenate-dictionary: January;
+  }
+}
+
+@media January {
+  .c0 {
+    -webkit-hyphenate-dictionary: December;
+    -moz-hyphenate-dictionary: December;
+    -ms-hyphenate-dictionary: December;
+    hyphenate-dictionary: December;
+  }
+}
+
+@media April {
+  .c0 {
+    -webkit-hyphenate-dictionary: April;
+    -moz-hyphenate-dictionary: April;
+    -ms-hyphenate-dictionary: April;
+    hyphenate-dictionary: April;
+  }
+}
+
+@media June {
+  .c0 {
+    -webkit-hyphenate-dictionary: May;
+    -moz-hyphenate-dictionary: May;
+    -ms-hyphenate-dictionary: May;
+    hyphenate-dictionary: May;
+  }
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-hyphenate-dictionary: April;
+  -moz-hyphenate-dictionary: April;
+  -ms-hyphenate-dictionary: April;
+  hyphenate-dictionary: April;
+}
+
+@media May {
+
+}
+
+@media April {
+
+}
+
+@media January {
+
+}
+
+@media April {
+
+}
+
+@media June {
+
+}
+
+@media May {
+  .c0 {
+    -webkit-hyphenate-dictionary: November;
+    -moz-hyphenate-dictionary: November;
+    -ms-hyphenate-dictionary: November;
+    hyphenate-dictionary: November;
+  }
+}
+
+@media April {
+  .c0 {
+    -webkit-hyphenate-dictionary: January;
+    -moz-hyphenate-dictionary: January;
+    -ms-hyphenate-dictionary: January;
+    hyphenate-dictionary: January;
+  }
+}
+
+@media January {
+  .c0 {
+    -webkit-hyphenate-dictionary: December;
+    -moz-hyphenate-dictionary: December;
+    -ms-hyphenate-dictionary: December;
+    hyphenate-dictionary: December;
+  }
+}
+
+@media April {
+  .c0 {
+    -webkit-hyphenate-dictionary: April;
+    -moz-hyphenate-dictionary: April;
+    -ms-hyphenate-dictionary: April;
+    hyphenate-dictionary: April;
+  }
+}
+
+@media June {
+  .c0 {
+    -webkit-hyphenate-dictionary: May;
+    -moz-hyphenate-dictionary: May;
+    -ms-hyphenate-dictionary: May;
+    hyphenate-dictionary: May;
+  }
+}
+
+<div
+    className="c0"
+  />,
+]
+`;
+
+exports[`hyphenateDictionary renders object [mediaQueries] 1`] = `
 Array [
   @media May {
   .c0 {
@@ -768,6 +1326,23 @@ Array [
 
 <div
     className="c0"
+  />,
+]
+`;
+
+exports[`hyphenateDictionary renders undefined 1`] = `
+Array [
+  <div
+    className=""
+  />,
+  <div
+    className=""
+  />,
+  <div
+    className=""
+  />,
+  <div
+    className=""
   />,
 ]
 `;

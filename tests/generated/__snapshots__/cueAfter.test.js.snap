@@ -132,6 +132,199 @@ Array [
 ]
 `;
 
+exports[`cueAfter renders object [breakpoints + standard] 1`] = `
+Array [
+  .c0 {
+  cue-after: July;
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    cue-after: August;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    cue-after: September;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    cue-after: November;
+  }
+}
+
+@media screen and (min-width:August) {
+  .c0 {
+    cue-after: August;
+  }
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:August) {
+
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  cue-after: July;
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    cue-after: August;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    cue-after: September;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    cue-after: November;
+  }
+}
+
+@media screen and (min-width:August) {
+  .c0 {
+    cue-after: August;
+  }
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:August) {
+
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  cue-after: January;
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:August) {
+
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    cue-after: December;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    cue-after: April;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    cue-after: May;
+  }
+}
+
+@media screen and (min-width:August) {
+  .c0 {
+    cue-after: June;
+  }
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  cue-after: January;
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:August) {
+
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    cue-after: December;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    cue-after: April;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    cue-after: May;
+  }
+}
+
+@media screen and (min-width:August) {
+  .c0 {
+    cue-after: June;
+  }
+}
+
+<div
+    className="c0"
+  />,
+]
+`;
+
 exports[`cueAfter renders object [breakpoints] 1`] = `
 Array [
   @media screen and (min-width:November) {
@@ -309,7 +502,240 @@ Array [
 ]
 `;
 
-exports[`cueAfter renders object [breakpoints] 2`] = `
+exports[`cueAfter renders object [mediaQueries + standart] 1`] = `
+Array [
+  .c0 {
+  cue-after: July;
+}
+
+@media May {
+  .c0 {
+    cue-after: August;
+  }
+}
+
+@media April {
+  .c0 {
+    cue-after: September;
+  }
+}
+
+@media January {
+  .c0 {
+    cue-after: November;
+  }
+}
+
+@media April {
+  .c0 {
+    cue-after: August;
+  }
+}
+
+@media June {
+  .c0 {
+    cue-after: November;
+  }
+}
+
+@media May {
+
+}
+
+@media April {
+
+}
+
+@media January {
+
+}
+
+@media April {
+
+}
+
+@media June {
+
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  cue-after: July;
+}
+
+@media May {
+  .c0 {
+    cue-after: August;
+  }
+}
+
+@media April {
+  .c0 {
+    cue-after: September;
+  }
+}
+
+@media January {
+  .c0 {
+    cue-after: November;
+  }
+}
+
+@media April {
+  .c0 {
+    cue-after: August;
+  }
+}
+
+@media June {
+  .c0 {
+    cue-after: November;
+  }
+}
+
+@media May {
+
+}
+
+@media April {
+
+}
+
+@media January {
+
+}
+
+@media April {
+
+}
+
+@media June {
+
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  cue-after: April;
+}
+
+@media May {
+
+}
+
+@media April {
+
+}
+
+@media January {
+
+}
+
+@media April {
+
+}
+
+@media June {
+
+}
+
+@media May {
+  .c0 {
+    cue-after: November;
+  }
+}
+
+@media April {
+  .c0 {
+    cue-after: January;
+  }
+}
+
+@media January {
+  .c0 {
+    cue-after: December;
+  }
+}
+
+@media April {
+  .c0 {
+    cue-after: April;
+  }
+}
+
+@media June {
+  .c0 {
+    cue-after: May;
+  }
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  cue-after: April;
+}
+
+@media May {
+
+}
+
+@media April {
+
+}
+
+@media January {
+
+}
+
+@media April {
+
+}
+
+@media June {
+
+}
+
+@media May {
+  .c0 {
+    cue-after: November;
+  }
+}
+
+@media April {
+  .c0 {
+    cue-after: January;
+  }
+}
+
+@media January {
+  .c0 {
+    cue-after: December;
+  }
+}
+
+@media April {
+  .c0 {
+    cue-after: April;
+  }
+}
+
+@media June {
+  .c0 {
+    cue-after: May;
+  }
+}
+
+<div
+    className="c0"
+  />,
+]
+`;
+
+exports[`cueAfter renders object [mediaQueries] 1`] = `
 Array [
   @media May {
   .c0 {
@@ -588,6 +1014,23 @@ Array [
 
 <div
     className="c0"
+  />,
+]
+`;
+
+exports[`cueAfter renders undefined 1`] = `
+Array [
+  <div
+    className=""
+  />,
+  <div
+    className=""
+  />,
+  <div
+    className=""
+  />,
+  <div
+    className=""
   />,
 ]
 `;

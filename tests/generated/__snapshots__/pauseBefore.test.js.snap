@@ -180,6 +180,259 @@ Array [
 ]
 `;
 
+exports[`pauseBefore renders object [breakpoints + standard] 1`] = `
+Array [
+  .c0 {
+  -webkit-pause-before: July;
+  -moz-pause-before: July;
+  -ms-pause-before: July;
+  pause-before: July;
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    -webkit-pause-before: August;
+    -moz-pause-before: August;
+    -ms-pause-before: August;
+    pause-before: August;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    -webkit-pause-before: September;
+    -moz-pause-before: September;
+    -ms-pause-before: September;
+    pause-before: September;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    -webkit-pause-before: November;
+    -moz-pause-before: November;
+    -ms-pause-before: November;
+    pause-before: November;
+  }
+}
+
+@media screen and (min-width:August) {
+  .c0 {
+    -webkit-pause-before: August;
+    -moz-pause-before: August;
+    -ms-pause-before: August;
+    pause-before: August;
+  }
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:August) {
+
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-pause-before: July;
+  -moz-pause-before: July;
+  -ms-pause-before: July;
+  pause-before: July;
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    -webkit-pause-before: August;
+    -moz-pause-before: August;
+    -ms-pause-before: August;
+    pause-before: August;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    -webkit-pause-before: September;
+    -moz-pause-before: September;
+    -ms-pause-before: September;
+    pause-before: September;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    -webkit-pause-before: November;
+    -moz-pause-before: November;
+    -ms-pause-before: November;
+    pause-before: November;
+  }
+}
+
+@media screen and (min-width:August) {
+  .c0 {
+    -webkit-pause-before: August;
+    -moz-pause-before: August;
+    -ms-pause-before: August;
+    pause-before: August;
+  }
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:August) {
+
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-pause-before: January;
+  -moz-pause-before: January;
+  -ms-pause-before: January;
+  pause-before: January;
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:August) {
+
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    -webkit-pause-before: December;
+    -moz-pause-before: December;
+    -ms-pause-before: December;
+    pause-before: December;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    -webkit-pause-before: April;
+    -moz-pause-before: April;
+    -ms-pause-before: April;
+    pause-before: April;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    -webkit-pause-before: May;
+    -moz-pause-before: May;
+    -ms-pause-before: May;
+    pause-before: May;
+  }
+}
+
+@media screen and (min-width:August) {
+  .c0 {
+    -webkit-pause-before: June;
+    -moz-pause-before: June;
+    -ms-pause-before: June;
+    pause-before: June;
+  }
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-pause-before: January;
+  -moz-pause-before: January;
+  -ms-pause-before: January;
+  pause-before: January;
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:November) {
+
+}
+
+@media screen and (min-width:August) {
+
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    -webkit-pause-before: December;
+    -moz-pause-before: December;
+    -ms-pause-before: December;
+    pause-before: December;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    -webkit-pause-before: April;
+    -moz-pause-before: April;
+    -ms-pause-before: April;
+    pause-before: April;
+  }
+}
+
+@media screen and (min-width:November) {
+  .c0 {
+    -webkit-pause-before: May;
+    -moz-pause-before: May;
+    -ms-pause-before: May;
+    pause-before: May;
+  }
+}
+
+@media screen and (min-width:August) {
+  .c0 {
+    -webkit-pause-before: June;
+    -moz-pause-before: June;
+    -ms-pause-before: June;
+    pause-before: June;
+  }
+}
+
+<div
+    className="c0"
+  />,
+]
+`;
+
 exports[`pauseBefore renders object [breakpoints] 1`] = `
 Array [
   @media screen and (min-width:November) {
@@ -405,7 +658,312 @@ Array [
 ]
 `;
 
-exports[`pauseBefore renders object [breakpoints] 2`] = `
+exports[`pauseBefore renders object [mediaQueries + standart] 1`] = `
+Array [
+  .c0 {
+  -webkit-pause-before: July;
+  -moz-pause-before: July;
+  -ms-pause-before: July;
+  pause-before: July;
+}
+
+@media May {
+  .c0 {
+    -webkit-pause-before: August;
+    -moz-pause-before: August;
+    -ms-pause-before: August;
+    pause-before: August;
+  }
+}
+
+@media April {
+  .c0 {
+    -webkit-pause-before: September;
+    -moz-pause-before: September;
+    -ms-pause-before: September;
+    pause-before: September;
+  }
+}
+
+@media January {
+  .c0 {
+    -webkit-pause-before: November;
+    -moz-pause-before: November;
+    -ms-pause-before: November;
+    pause-before: November;
+  }
+}
+
+@media April {
+  .c0 {
+    -webkit-pause-before: August;
+    -moz-pause-before: August;
+    -ms-pause-before: August;
+    pause-before: August;
+  }
+}
+
+@media June {
+  .c0 {
+    -webkit-pause-before: November;
+    -moz-pause-before: November;
+    -ms-pause-before: November;
+    pause-before: November;
+  }
+}
+
+@media May {
+
+}
+
+@media April {
+
+}
+
+@media January {
+
+}
+
+@media April {
+
+}
+
+@media June {
+
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-pause-before: July;
+  -moz-pause-before: July;
+  -ms-pause-before: July;
+  pause-before: July;
+}
+
+@media May {
+  .c0 {
+    -webkit-pause-before: August;
+    -moz-pause-before: August;
+    -ms-pause-before: August;
+    pause-before: August;
+  }
+}
+
+@media April {
+  .c0 {
+    -webkit-pause-before: September;
+    -moz-pause-before: September;
+    -ms-pause-before: September;
+    pause-before: September;
+  }
+}
+
+@media January {
+  .c0 {
+    -webkit-pause-before: November;
+    -moz-pause-before: November;
+    -ms-pause-before: November;
+    pause-before: November;
+  }
+}
+
+@media April {
+  .c0 {
+    -webkit-pause-before: August;
+    -moz-pause-before: August;
+    -ms-pause-before: August;
+    pause-before: August;
+  }
+}
+
+@media June {
+  .c0 {
+    -webkit-pause-before: November;
+    -moz-pause-before: November;
+    -ms-pause-before: November;
+    pause-before: November;
+  }
+}
+
+@media May {
+
+}
+
+@media April {
+
+}
+
+@media January {
+
+}
+
+@media April {
+
+}
+
+@media June {
+
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-pause-before: April;
+  -moz-pause-before: April;
+  -ms-pause-before: April;
+  pause-before: April;
+}
+
+@media May {
+
+}
+
+@media April {
+
+}
+
+@media January {
+
+}
+
+@media April {
+
+}
+
+@media June {
+
+}
+
+@media May {
+  .c0 {
+    -webkit-pause-before: November;
+    -moz-pause-before: November;
+    -ms-pause-before: November;
+    pause-before: November;
+  }
+}
+
+@media April {
+  .c0 {
+    -webkit-pause-before: January;
+    -moz-pause-before: January;
+    -ms-pause-before: January;
+    pause-before: January;
+  }
+}
+
+@media January {
+  .c0 {
+    -webkit-pause-before: December;
+    -moz-pause-before: December;
+    -ms-pause-before: December;
+    pause-before: December;
+  }
+}
+
+@media April {
+  .c0 {
+    -webkit-pause-before: April;
+    -moz-pause-before: April;
+    -ms-pause-before: April;
+    pause-before: April;
+  }
+}
+
+@media June {
+  .c0 {
+    -webkit-pause-before: May;
+    -moz-pause-before: May;
+    -ms-pause-before: May;
+    pause-before: May;
+  }
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  -webkit-pause-before: April;
+  -moz-pause-before: April;
+  -ms-pause-before: April;
+  pause-before: April;
+}
+
+@media May {
+
+}
+
+@media April {
+
+}
+
+@media January {
+
+}
+
+@media April {
+
+}
+
+@media June {
+
+}
+
+@media May {
+  .c0 {
+    -webkit-pause-before: November;
+    -moz-pause-before: November;
+    -ms-pause-before: November;
+    pause-before: November;
+  }
+}
+
+@media April {
+  .c0 {
+    -webkit-pause-before: January;
+    -moz-pause-before: January;
+    -ms-pause-before: January;
+    pause-before: January;
+  }
+}
+
+@media January {
+  .c0 {
+    -webkit-pause-before: December;
+    -moz-pause-before: December;
+    -ms-pause-before: December;
+    pause-before: December;
+  }
+}
+
+@media April {
+  .c0 {
+    -webkit-pause-before: April;
+    -moz-pause-before: April;
+    -ms-pause-before: April;
+    pause-before: April;
+  }
+}
+
+@media June {
+  .c0 {
+    -webkit-pause-before: May;
+    -moz-pause-before: May;
+    -ms-pause-before: May;
+    pause-before: May;
+  }
+}
+
+<div
+    className="c0"
+  />,
+]
+`;
+
+exports[`pauseBefore renders object [mediaQueries] 1`] = `
 Array [
   @media May {
   .c0 {
@@ -768,6 +1326,23 @@ Array [
 
 <div
     className="c0"
+  />,
+]
+`;
+
+exports[`pauseBefore renders undefined 1`] = `
+Array [
+  <div
+    className=""
+  />,
+  <div
+    className=""
+  />,
+  <div
+    className=""
+  />,
+  <div
+    className=""
   />,
 ]
 `;
