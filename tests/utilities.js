@@ -210,6 +210,22 @@ const testAllOn = (fn, name, faker = faker_) => {
     expect(fn(fnValue)({ testProp: true }).flat(10).join('')).toContain('has')
   })
 
+  test(`${name} does propless`, () => {
+    const prop0 = faker.date.month()
+    const props0 = {}
+    props0[name] = prop0
+    const render0 = fn('test').propless()(props0).flat(10).join('')
+    expect(render0).not.toContain(prop0)
+    expect(render0).toContain('test')
+
+    const prop1 = faker.date.month()
+    const props1 = {}
+    props1[name] = prop1
+    const render1 = fn('test').l()(props1).flat(10).join('')
+    expect(render1).not.toContain(prop1)
+    expect(render1).toContain('test')
+  })
+
   test(`${name} renames prop`, () => {
     const prop0 = faker.date.month()
     const render0 = fn()
