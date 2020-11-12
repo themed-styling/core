@@ -1,7 +1,8 @@
 # @themed-styling/core 🎁
 
-![Build badge](https://img.shields.io/github/workflow/status/themed-styling/core/CI)
-![npm version](https://img.shields.io/npm/v/@themed-styling/core)
+![Build badge](https://img.shields.io/github/workflow/status/themed-styling/core/CI?style=flat-square)
+[![npm version](https://img.shields.io/npm/v/@themed-styling/core?style=flat-square)](https://www.npmjs.com/package/@themed-styling/core)
+[![minified size](https://img.shields.io/bundlephobia/min/@themed-styling/core?style=flat-square)](https://bundlephobia.com/result?p=@themed-styling/core)
 
 _themed-styling_ is a collection of functions to help you quickly create highly reusable _styled-components_. It integrates perfectly with themes and gives you enormous control over the responsiveness of your components. Keeping your breakpoints consistent and grouping them in an easy to understand way.
 
