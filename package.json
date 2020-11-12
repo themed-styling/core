@@ -5,6 +5,7 @@
   "main": "dist/core.cjs.js",
   "type": "module",
   "module": "dist/core.esm.js",
+  "sideEffects": false,
   "scripts": {
     "doc": "jsdoc -r src -d docs",
     "build": "rollup -c",
