@@ -1,6 +1,6 @@
 {
   "name": "@themed-styling/core",
-  "version": "3.0.2",
+  "version": "3.0.3",
   "description": "Quick, modular and responsive styling for styled-components with theme support",
   "main": "dist/core.cjs.js",
   "type": "module",
