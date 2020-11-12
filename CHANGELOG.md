@@ -7,6 +7,12 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [3.0.3] - 2020-11-12
+
+### Fixed
+
+- All functions not resolving function values with props
+
 ## [3.0.2] - 2020-11-04
 
 ### Fixed
