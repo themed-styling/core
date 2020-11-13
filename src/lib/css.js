@@ -9,12 +9,14 @@ export default fallback => {
       props
     )
 
-    if (typeof resolvedValue === 'undefined') {
+    const gottenValue = get(resolvedValue, theme) || resolvedValue
+
+    if (typeof gottenValue === 'undefined') {
       return
     }
 
-    if (typeof resolvedValue === 'object') {
-      const { standard, ...breakpoints } = resolvedValue
+    if (typeof gottenValue === 'object') {
+      const { standard, ...breakpoints } = gottenValue
 
       const forBreakpoints = Object.entries(breakpoints).map(([key, value]) => {
         const valueAndCurlies = [
@@ -53,7 +55,7 @@ export default fallback => {
       return forBreakpoints
     }
 
-    return resolveFunction(get(resolvedValue, theme) || resolvedValue, props)
+    return resolveFunction(gottenValue, props)
   }
 
   fn.propless_ = false
