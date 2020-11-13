@@ -7,6 +7,11 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+### Fixed
+
+- Fixed all functions sometimes not resolving function values with props
+- Fixed all functions not using theme paths to objects correctly
+
 ### Changed
 
 - Compiled bundles with babel for better compatibility
