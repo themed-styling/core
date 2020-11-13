@@ -20,7 +20,7 @@ export default value => {
       return value
     default:
       throw new TypeError(
-        `Value has to be of type object, string, number or bigint but got ${JSON.stringify(
+        `Value has to be of type string, number or bigint but got ${JSON.stringify(
           value
         )}`
       )
