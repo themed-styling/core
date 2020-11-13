@@ -28,7 +28,9 @@ export default (
       props
     )
 
-    if (typeof resolvedValue === 'undefined') {
+    const gottenValue = get(resolvedValue, theme) || resolvedValue
+
+    if (typeof gottenValue === 'undefined') {
       return
     }
 
@@ -41,8 +43,8 @@ export default (
       cssAfterValue,
     ]
 
-    if (typeof resolvedValue === 'object') {
-      const { standard, ...breakpoints } = resolvedValue
+    if (typeof gottenValue === 'object') {
+      const { standard, ...breakpoints } = gottenValue
 
       const forBreakpoints = Object.entries(breakpoints).map(([key, value]) => {
         const valueAndCurlies = [
@@ -81,10 +83,7 @@ export default (
       return forBreakpoints
     }
 
-    return make(
-      resolveFunction(get(resolvedValue, theme) || resolvedValue),
-      props
-    )
+    return make(resolveFunction(gottenValue, props))
   }
 
   fn.propless_ = false
